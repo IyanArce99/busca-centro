@@ -1,0 +1,68 @@
+import type { City } from "@/types/city";
+
+export const mockCities: City[] = [
+  {
+    id: "city-madrid",
+    slug: "madrid",
+    name: "Madrid",
+    province: "Madrid",
+    region: "Comunidad de Madrid",
+    isFeatured: true,
+  },
+  {
+    id: "city-barcelona",
+    slug: "barcelona",
+    name: "Barcelona",
+    province: "Barcelona",
+    region: "Cataluña",
+    isFeatured: true,
+  },
+  {
+    id: "city-valencia",
+    slug: "valencia",
+    name: "Valencia",
+    province: "Valencia",
+    region: "Comunitat Valenciana",
+    isFeatured: true,
+  },
+  {
+    id: "city-sevilla",
+    slug: "sevilla",
+    name: "Sevilla",
+    province: "Sevilla",
+    region: "Andalucía",
+    isFeatured: true,
+  },
+  {
+    id: "city-zaragoza",
+    slug: "zaragoza",
+    name: "Zaragoza",
+    province: "Zaragoza",
+    region: "Aragón",
+    isFeatured: true,
+  },
+  {
+    id: "city-malaga",
+    slug: "malaga",
+    name: "Málaga",
+    province: "Málaga",
+    region: "Andalucía",
+    isFeatured: true,
+  },
+  {
+    id: "city-bilbao",
+    slug: "bilbao",
+    name: "Bilbao",
+    province: "Bizkaia",
+    region: "País Vasco",
+    isFeatured: false,
+  },
+  {
+    id: "city-alicante",
+    slug: "alicante",
+    name: "Alicante",
+    province: "Alicante",
+    region: "Comunitat Valenciana",
+    isFeatured: false,
+  },
+];
