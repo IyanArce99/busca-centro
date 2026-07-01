@@ -6,6 +6,12 @@ import SeoTextBlock from "@/components/SeoTextBlock";
 import FAQ from "@/components/FAQ";
 import CTASection from "@/components/CTASection";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import {
+  BuildingOfficeIcon,
+  SparklesIcon,
+  ForkKnifeIcon,
+  ClockIcon,
+} from "@/components/Icons";
 import { getFeaturedCities, getCenterCountForCity } from "@/lib/cities";
 import { guarderiasFaqs } from "@/data/mock-faqs";
 import { robotsMeta } from "@/lib/seo";
@@ -28,7 +34,8 @@ export default function GuarderiasPage() {
       <header className="flex flex-col gap-4">
         <h1 className="text-3xl font-bold text-slate-900 sm:text-4xl">Guarderías en España</h1>
         <p className="max-w-2xl text-lg text-slate-600">
-          Compara guarderías por ciudad, barrio y servicios, y solicita información directamente al centro que más te interese.
+          Compara guarderías por ciudad, barrio y servicios, y solicita información directamente al centro que más te
+          interese.
         </p>
         <SearchBox cities={featuredCities} />
       </header>
@@ -49,21 +56,29 @@ export default function GuarderiasPage() {
             title="Guarderías privadas"
             description="Centros de titularidad privada, empezando por Madrid."
             href="/guarderias-privadas-en-madrid"
+            icon={<BuildingOfficeIcon className="h-5 w-5" />}
+            accent="sky"
           />
           <CategoryCard
             title="Guarderías bilingües"
             description="Centros con programa bilingüe, empezando por Madrid."
             href="/guarderias-bilingues-en-madrid"
+            icon={<SparklesIcon className="h-5 w-5" />}
+            accent="emerald"
           />
           <CategoryCard
             title="Guarderías con comedor"
             description="Centros con servicio de comedor propio, empezando por Madrid."
             href="/guarderias-con-comedor-en-madrid"
+            icon={<ForkKnifeIcon className="h-5 w-5" />}
+            accent="amber"
           />
           <CategoryCard
             title="Guarderías con horario ampliado"
             description="Centros con horario ampliado para conciliar, empezando por Madrid."
             href="/guarderias-con-horario-ampliado-en-madrid"
+            icon={<ClockIcon className="h-5 w-5" />}
+            accent="violet"
           />
         </div>
       </section>
