@@ -5,6 +5,7 @@ import GuideCard from "@/components/GuideCard";
 import CTASection from "@/components/CTASection";
 import { getAllGuides, getGuideBySlug, getRelatedGuides } from "@/lib/guides";
 import { robotsMeta } from "@/lib/seo";
+import { SITE_NAME, SITE_URL } from "@/lib/constants";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -23,7 +24,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: guide.title,
     description: guide.excerpt,
     alternates: { canonical: `/blog/${guide.slug}` },
-    robots: robotsMeta(),
+    // Temporarily noindex until the blog has real, complete guides.
+    robots: robotsMeta(false),
   };
 }
 
@@ -34,7 +36,24 @@ export default async function GuidePage({ params }: PageProps) {
 
   const relatedGuides = getRelatedGuides(guide);
 
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: guide.title,
+    description: guide.excerpt,
+    datePublished: guide.publishedAt,
+    dateModified: guide.updatedAt ?? guide.publishedAt,
+    url: `${SITE_URL}/blog/${guide.slug}`,
+    author: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
+    publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
+  };
+
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
     <div className="mx-auto flex max-w-3xl flex-col gap-10 px-4 py-10 sm:px-6">
       <Breadcrumbs items={[{ label: "Inicio", href: "/" }, { label: "Blog", href: "/blog" }, { label: guide.title }]} />
 
@@ -71,5 +90,6 @@ export default async function GuidePage({ params }: PageProps) {
         </section>
       ) : null}
     </div>
+    </>
   );
 }

@@ -256,6 +256,10 @@ export const mockSeoPages: SeoPage[] = [
       "Las guarderías privadas suelen ofrecer mayor flexibilidad de horarios y servicios adicionales. Compara las opciones disponibles en Madrid.",
     outroText: "Los precios y plazas disponibles pueden variar; te recomendamos confirmarlos directamente con el centro.",
     faqs: [],
+    // Temporarily disabled: most Madrid guarderías are private so this page
+    // would be nearly identical to /guarderias-en-madrid. Re-enable once we
+    // can confirm it offers meaningful differential content.
+    disabled: true,
   },
   {
     id: "seo-guarderias-comedor-madrid",

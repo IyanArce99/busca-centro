@@ -6,9 +6,10 @@ import CenterFilters from "@/components/CenterFilters";
 import SeoTextBlock from "@/components/SeoTextBlock";
 import FAQ from "@/components/FAQ";
 import CTASection from "@/components/CTASection";
-import { getAllSeoPages, getSeoPageBySlug, isSeoPageIndexable } from "@/lib/seo-pages";
-import { getCentersByFilters } from "@/lib/data/centers";
+import { getAllSeoPages, getSeoPageBySlug } from "@/lib/seo-pages";
+import { getCenters, getCentersByFilters } from "@/lib/data/centers";
 import { getCityBySlug } from "@/lib/data/cities";
+import { isSeoPageIndexableFromCenters } from "@/lib/data/seo-pages";
 import { formatCenterType } from "@/lib/format";
 import { robotsMeta } from "@/lib/seo";
 
@@ -16,8 +17,14 @@ interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
+// Only pre-render landing pages that have enough real published centers.
+// Pages failing the threshold are excluded from the build rather than being
+// served as near-empty thin-content pages.
 export async function generateStaticParams() {
-  return getAllSeoPages().map((seoPage) => ({ slug: seoPage.slug }));
+  const allCenters = await getCenters();
+  return getAllSeoPages()
+    .filter((page) => isSeoPageIndexableFromCenters(page, allCenters))
+    .map((page) => ({ slug: page.slug }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -25,7 +32,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const seoPage = getSeoPageBySlug(slug);
   if (!seoPage) return {};
 
-  const indexable = isSeoPageIndexable(seoPage);
+  // Use real center data for the robots check so metadata stays consistent
+  // with the sitemap and generateStaticParams decisions.
+  const allCenters = await getCenters();
+  const indexable = isSeoPageIndexableFromCenters(seoPage, allCenters);
 
   return {
     title: seoPage.title,

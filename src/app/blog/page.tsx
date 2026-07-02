@@ -8,7 +8,8 @@ export const metadata: Metadata = {
   title: "Blog y guías para familias",
   description: "Guías prácticas sobre cómo elegir guardería, adaptación, precios y ayudas para familias en España.",
   alternates: { canonical: "/blog" },
-  robots: robotsMeta(),
+  // Temporarily noindex until the blog has real, complete guides.
+  robots: robotsMeta(false),
 };
 
 export default function BlogPage() {

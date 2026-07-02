@@ -6,12 +6,7 @@ import SeoTextBlock from "@/components/SeoTextBlock";
 import FAQ from "@/components/FAQ";
 import CTASection from "@/components/CTASection";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import {
-  BuildingOfficeIcon,
-  SparklesIcon,
-  ForkKnifeIcon,
-  ClockIcon,
-} from "@/components/Icons";
+import { SparklesIcon } from "@/components/Icons";
 import { getCenters } from "@/lib/data/centers";
 import { getCities } from "@/lib/data/cities";
 import { guarderiasFaqs } from "@/data/mock-faqs";
@@ -61,31 +56,10 @@ export default async function GuarderiasPage() {
         <h2 className="text-2xl font-bold text-slate-900">Categorías relacionadas</h2>
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <CategoryCard
-            title="Guarderías privadas"
-            description="Centros de titularidad privada, empezando por Madrid."
-            href="/guarderias-privadas-en-madrid"
-            icon={<BuildingOfficeIcon className="h-5 w-5" />}
-            accent="sky"
-          />
-          <CategoryCard
-            title="Guarderías bilingües"
-            description="Centros con programa bilingüe, empezando por Madrid."
-            href="/guarderias-bilingues-en-madrid"
+            title="Escuelas infantiles en Madrid"
+            description="Centros de 0 a 6 años con proyecto educativo en Madrid."
+            href="/escuelas-infantiles-en-madrid"
             icon={<SparklesIcon className="h-5 w-5" />}
-            accent="emerald"
-          />
-          <CategoryCard
-            title="Guarderías con comedor"
-            description="Centros con servicio de comedor propio, empezando por Madrid."
-            href="/guarderias-con-comedor-en-madrid"
-            icon={<ForkKnifeIcon className="h-5 w-5" />}
-            accent="amber"
-          />
-          <CategoryCard
-            title="Guarderías con horario ampliado"
-            description="Centros con horario ampliado para conciliar, empezando por Madrid."
-            href="/guarderias-con-horario-ampliado-en-madrid"
-            icon={<ClockIcon className="h-5 w-5" />}
             accent="violet"
           />
         </div>

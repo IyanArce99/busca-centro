@@ -147,9 +147,9 @@ export default async function HomePage() {
               accent="violet"
             />
             <CategoryCard
-              title="Guarderías bilingües"
-              description="Centros con programa bilingüe, empezando por Madrid."
-              href="/guarderias-bilingues-en-madrid"
+              title="Guarderías en Madrid"
+              description="Más de 200 guarderías y escuelas infantiles disponibles en Madrid."
+              href="/guarderias-en-madrid"
               icon={<SparklesIcon className="h-5 w-5" />}
               accent="emerald"
             />

@@ -25,17 +25,20 @@ export function getCentersByFilters(filters: SeoPageFilters): Center[] {
 }
 
 /**
- * A center detail page is only indexable when it has enough basic data:
- * name, city, type, location/area, services and a description.
+ * A center detail page is indexable when it has the minimum data needed to
+ * render a useful page: name, slug, type, city, and at least one location
+ * indicator (neighborhood or street address). Services and description are
+ * not required because the editorial layer generates meaningful content from
+ * structural data alone.
  */
 export function isCenterIndexable(center: Center): boolean {
   return Boolean(
     center.name &&
-      center.address.cityName &&
+      center.slug &&
       center.type &&
-      center.address.neighborhood &&
-      center.services.length > 0 &&
-      center.shortDescription
+      center.address.cityName &&
+      center.address.citySlug &&
+      (center.address.neighborhood || center.address.street)
   );
 }
 

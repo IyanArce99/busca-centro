@@ -26,6 +26,7 @@ export function getCentersForSeoPage(seoPage: SeoPage): Center[] {
  * "neighborhood/type page" rule: at least 5 centers matching that filter.
  */
 export function isSeoPageIndexable(seoPage: SeoPage): boolean {
+  if (seoPage.disabled) return false;
   const isNarrowedFilter = Boolean(seoPage.filters.service || seoPage.filters.ownership);
   if (isNarrowedFilter) {
     return getCentersForSeoPage(seoPage).length >= MIN_CENTERS_FOR_TYPE_PAGE;

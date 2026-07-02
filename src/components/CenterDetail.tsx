@@ -1,25 +1,37 @@
 import Link from "next/link";
 import type { Center, CenterService } from "@/types/center";
-import { emailHref, formatAgeRange, formatCenterType, formatOwnership, formatService, phoneHref } from "@/lib/format";
+import { emailHref, formatCenterType, formatOwnership, formatService, phoneHref } from "@/lib/format";
 import {
-  MapPinIcon,
-  PhoneIcon,
-  EnvelopeIcon,
-  GlobeAltIcon,
-  ClockIcon,
+  buildCenterIntro,
+  buildContactText,
+  buildEducationStageText,
+  buildLocationText,
+  buildQuestionsToAsk,
+  buildScheduleAndAdmissionsText,
+  buildServicesText,
+  buildVerificationText,
+  getCenterStructuredHighlights,
+} from "@/lib/content/center-content";
+import {
+  AcademicCapIcon,
+  BookOpenIcon,
   CheckBadgeIcon,
+  ClockIcon,
+  EnvelopeIcon,
   ExclamationTriangleIcon,
   ExternalLinkIcon,
   ForkKnifeIcon,
-  SunIcon,
-  SparklesIcon,
-  LeafIcon,
-  BookOpenIcon,
-  PuzzlePieceIcon,
+  GlobeAltIcon,
   HeartIcon,
   InformationCircleIcon,
-  PhotoIcon,
+  LeafIcon,
   MapIcon,
+  MapPinIcon,
+  PhoneIcon,
+  PhotoIcon,
+  PuzzlePieceIcon,
+  SparklesIcon,
+  SunIcon,
 } from "@/components/Icons";
 import type { ReactNode } from "react";
 
@@ -43,10 +55,22 @@ interface CenterDetailProps {
 export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
   const { address, contact } = center;
   const location = [address.neighborhood, address.cityName].filter(Boolean).join(", ");
+  const hasContactInfo = !!(contact.phone || contact.email || contact.website);
+
+  const intro = buildCenterIntro(center);
+  const locationText = buildLocationText(center);
+  const educationStageText = buildEducationStageText(center);
+  const servicesText = buildServicesText(center);
+  const scheduleText = buildScheduleAndAdmissionsText(center);
+  const contactText = buildContactText(center);
+  const verificationText = buildVerificationText(center);
+  const questionsToAsk = buildQuestionsToAsk(center);
+  const highlights = getCenterStructuredHighlights(center);
 
   return (
-    <div className="flex flex-col gap-8">
-      {/* Header card */}
+    <div className="flex flex-col gap-6">
+
+      {/* ── 1. Header card ─────────────────────────────────────────────────── */}
       <header className="rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 p-6 sm:p-8">
         <div className="flex flex-wrap items-center gap-2 text-xs font-medium">
           <span
@@ -90,6 +114,21 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
           })}
         </p>
 
+        {/* Highlights */}
+        {highlights.length > 0 ? (
+          <div className="mt-4 flex flex-wrap gap-2">
+            {highlights.map((h) => (
+              <span
+                key={h.label}
+                className="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-medium text-slate-600 shadow-sm"
+              >
+                {h.label}
+              </span>
+            ))}
+          </div>
+        ) : null}
+
+        {/* CTAs */}
         <div className="mt-5 flex flex-wrap gap-3">
           {contact.phone ? (
             <a
@@ -120,7 +159,7 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
         </div>
       </header>
 
-      {/* Gallery & map placeholders */}
+      {/* ── 2. Galería y mapa ───────────────────────────────────────────────── */}
       <div className="grid gap-3 sm:grid-cols-2">
         <div className="flex h-44 flex-col items-center justify-center gap-3 rounded-xl border border-dashed border-slate-300 bg-slate-50 text-slate-400">
           <PhotoIcon className="h-8 w-8 text-slate-300" />
@@ -132,130 +171,213 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
         </div>
       </div>
 
-      {/* Contact & schedule */}
-      <section className="grid gap-6 rounded-xl border border-slate-200 bg-white p-6 shadow-sm sm:grid-cols-2">
-        <div>
-          <h2 className="mb-4 text-base font-semibold text-slate-900">Datos de contacto</h2>
-          <dl className="flex flex-col gap-3">
-            <div className="flex items-start gap-3">
-              <MapPinIcon className="mt-0.5 h-4 w-4 shrink-0 text-slate-400" />
-              <div className="text-sm text-slate-600">
-                <dt className="sr-only">Dirección</dt>
-                <dd>
-                  {address.street}, {address.postalCode} {address.cityName}
-                </dd>
-              </div>
-            </div>
-            {contact.phone ? (
-              <div className="flex items-start gap-3">
-                <PhoneIcon className="mt-0.5 h-4 w-4 shrink-0 text-slate-400" />
-                <div className="text-sm">
-                  <dt className="sr-only">Teléfono</dt>
-                  <dd>
-                    <a href={phoneHref(contact.phone)} className="text-sky-700 hover:underline">
-                      {contact.phone}
-                    </a>
-                  </dd>
-                </div>
-              </div>
-            ) : null}
-            {contact.email ? (
-              <div className="flex items-start gap-3">
-                <EnvelopeIcon className="mt-0.5 h-4 w-4 shrink-0 text-slate-400" />
-                <div className="text-sm">
-                  <dt className="sr-only">Email</dt>
-                  <dd>
-                    <a href={emailHref(contact.email)} className="text-sky-700 hover:underline">
-                      {contact.email}
-                    </a>
-                  </dd>
-                </div>
-              </div>
-            ) : null}
-            {contact.website ? (
-              <div className="flex items-start gap-3">
-                <GlobeAltIcon className="mt-0.5 h-4 w-4 shrink-0 text-slate-400" />
-                <div className="text-sm">
-                  <dt className="sr-only">Web</dt>
-                  <dd>
-                    <a
-                      href={contact.website}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="break-all text-sky-700 hover:underline"
-                    >
-                      {contact.website}
-                    </a>
-                  </dd>
-                </div>
-              </div>
-            ) : null}
-          </dl>
-        </div>
-
-        <div>
-          <h2 className="mb-4 text-base font-semibold text-slate-900">Horario y edades</h2>
-          <dl className="flex flex-col gap-3">
-            <div className="flex items-start gap-3">
-              <ClockIcon className="mt-0.5 h-4 w-4 shrink-0 text-slate-400" />
-              <div className="text-sm text-slate-600">
-                <dt className="font-medium text-slate-700">Horario</dt>
-                <dd className="mt-0.5">{center.schedule ?? "Consultar con el centro"}</dd>
-              </div>
-            </div>
-            <div className="flex items-start gap-3">
-              <HeartIcon className="mt-0.5 h-4 w-4 shrink-0 text-slate-400" />
-              <div className="text-sm text-slate-600">
-                <dt className="font-medium text-slate-700">Edad admitida</dt>
-                <dd className="mt-0.5">{formatAgeRange(center.ageRange)}</dd>
-              </div>
-            </div>
-          </dl>
+      {/* ── 3. Resumen del centro ───────────────────────────────────────────── */}
+      <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+        <h2 className="text-base font-semibold text-slate-900">Sobre este centro</h2>
+        <div className="mt-3 flex flex-col gap-3">
+          {intro.map((paragraph, i) => (
+            <p key={i} className="text-sm leading-relaxed text-slate-600">
+              {paragraph}
+            </p>
+          ))}
         </div>
       </section>
 
-      {/* Services */}
-      {center.services.length > 0 ? (
-        <section>
-          <h2 className="text-lg font-semibold text-slate-900">Servicios</h2>
-          <div className="mt-3 flex flex-wrap gap-2">
-            {center.services.map((service) => (
-              <span
-                key={service}
-                className="flex items-center gap-1.5 rounded-full bg-sky-50 px-3.5 py-1.5 text-sm font-medium text-sky-700"
-              >
-                {SERVICE_ICONS[service]}
-                {formatService(service)}
-              </span>
-            ))}
+      {/* ── 4. Ubicación y Contacto ─────────────────────────────────────────── */}
+      <div className="grid gap-6 sm:grid-cols-2">
+        {/* Ubicación */}
+        <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 className="mb-3 flex items-center gap-2 text-base font-semibold text-slate-900">
+            <MapPinIcon className="h-4 w-4 text-slate-400" />
+            Ubicación y zona
+          </h2>
+          <dl className="mb-4 flex flex-col gap-2 text-sm text-slate-600">
+            {address.street ? (
+              <div>
+                <dt className="font-medium text-slate-700">Dirección</dt>
+                <dd className="mt-0.5">
+                  {address.street}
+                  {address.postalCode ? `, ${address.postalCode}` : ""} {address.cityName}
+                </dd>
+              </div>
+            ) : null}
+            {address.neighborhood ? (
+              <div>
+                <dt className="font-medium text-slate-700">Distrito / Barrio</dt>
+                <dd className="mt-0.5">{address.neighborhood}</dd>
+              </div>
+            ) : null}
+          </dl>
+          <p className="text-xs leading-relaxed text-slate-500">{locationText}</p>
+        </section>
+
+        {/* Contacto */}
+        <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 className="mb-3 flex items-center gap-2 text-base font-semibold text-slate-900">
+            <PhoneIcon className="h-4 w-4 text-slate-400" />
+            Datos de contacto
+          </h2>
+          {hasContactInfo ? (
+            <dl className="flex flex-col gap-3">
+              {contact.phone ? (
+                <div className="flex items-start gap-3">
+                  <PhoneIcon className="mt-0.5 h-4 w-4 shrink-0 text-slate-400" />
+                  <div className="text-sm">
+                    <dt className="font-medium text-slate-700">Teléfono</dt>
+                    <dd>
+                      <a href={phoneHref(contact.phone)} className="text-sky-700 hover:underline">
+                        {contact.phone}
+                      </a>
+                    </dd>
+                  </div>
+                </div>
+              ) : null}
+              {contact.email ? (
+                <div className="flex items-start gap-3">
+                  <EnvelopeIcon className="mt-0.5 h-4 w-4 shrink-0 text-slate-400" />
+                  <div className="text-sm">
+                    <dt className="font-medium text-slate-700">Email</dt>
+                    <dd>
+                      <a href={emailHref(contact.email)} className="text-sky-700 hover:underline">
+                        {contact.email}
+                      </a>
+                    </dd>
+                  </div>
+                </div>
+              ) : null}
+              {contact.website ? (
+                <div className="flex items-start gap-3">
+                  <GlobeAltIcon className="mt-0.5 h-4 w-4 shrink-0 text-slate-400" />
+                  <div className="text-sm">
+                    <dt className="font-medium text-slate-700">Web</dt>
+                    <dd>
+                      <a
+                        href={contact.website}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="break-all text-sky-700 hover:underline"
+                      >
+                        {contact.website}
+                      </a>
+                    </dd>
+                  </div>
+                </div>
+              ) : null}
+            </dl>
+          ) : (
+            <p className="text-sm text-slate-500">{contactText.intro}</p>
+          )}
+          <p className="mt-3 text-xs text-slate-500">
+            {hasContactInfo ? contactText.intro : contactText.note}
+          </p>
+          {hasContactInfo && contactText.note ? (
+            <p className="mt-1 text-xs text-slate-500">{contactText.note}</p>
+          ) : null}
+        </section>
+      </div>
+
+      {/* ── 5. Etapa educativa y edades ─────────────────────────────────────── */}
+      <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+        <h2 className="mb-3 flex items-center gap-2 text-base font-semibold text-slate-900">
+          <AcademicCapIcon className="h-4 w-4 text-slate-400" />
+          Etapa educativa y edades
+        </h2>
+        <p className="text-sm leading-relaxed text-slate-600">{educationStageText}</p>
+      </section>
+
+      {/* ── 6. Servicios disponibles ─────────────────────────────────────────── */}
+      <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+        <h2 className="mb-3 text-base font-semibold text-slate-900">Servicios disponibles</h2>
+        {center.services.length > 0 ? (
+          <>
+            <div className="mb-4 flex flex-wrap gap-2">
+              {center.services.map((service) => (
+                <span
+                  key={service}
+                  className="flex items-center gap-1.5 rounded-full bg-sky-50 px-3.5 py-1.5 text-sm font-medium text-sky-700"
+                >
+                  {SERVICE_ICONS[service]}
+                  {formatService(service)}
+                </span>
+              ))}
+            </div>
+            <p className="text-sm leading-relaxed text-slate-600">{servicesText}</p>
+          </>
+        ) : (
+          <div className="rounded-lg border border-slate-100 bg-slate-50 p-4">
+            <p className="text-sm leading-relaxed text-slate-600">{servicesText}</p>
+            <Link
+              href="/reclamar-ficha"
+              className="mt-3 inline-block text-sm font-medium text-sky-700 underline underline-offset-2 hover:text-sky-800"
+            >
+              Reclamar ficha para completar esta información →
+            </Link>
           </div>
-        </section>
-      ) : null}
+        )}
+      </section>
 
-      {/* Description */}
-      {center.shortDescription || center.longDescription ? (
-        <section>
-          <h2 className="text-lg font-semibold text-slate-900">Sobre este centro</h2>
-          {center.shortDescription ? (
-            <p className="mt-3 text-base leading-relaxed text-slate-700">{center.shortDescription}</p>
-          ) : null}
-          {center.longDescription ? (
-            <p className="mt-3 text-sm leading-relaxed text-slate-600">{center.longDescription}</p>
-          ) : null}
-        </section>
-      ) : null}
+      {/* ── 7. Horario, plazas y admisión ────────────────────────────────────── */}
+      <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+        <h2 className="mb-3 flex items-center gap-2 text-base font-semibold text-slate-900">
+          <ClockIcon className="h-4 w-4 text-slate-400" />
+          Horario, plazas y admisión
+        </h2>
+        <p className="text-sm leading-relaxed text-slate-600">{scheduleText}</p>
+      </section>
 
-      {/* Transparency notice */}
-      <section className="flex gap-4 rounded-xl border border-slate-200 bg-slate-50 p-5">
-        <InformationCircleIcon className="mt-0.5 h-5 w-5 shrink-0 text-slate-400" />
-        <p className="text-sm text-slate-600">
-          Parte de la información mostrada puede proceder de fuentes públicas o de datos facilitados por el propio
-          centro. Si formas parte del equipo del centro, puedes{" "}
-          <Link href="/reclamar-ficha" className="font-medium text-sky-700 hover:underline">
-            reclamar esta ficha
-          </Link>{" "}
-          y solicitar una actualización.
-        </p>
+      {/* ── 8. Qué preguntar antes de elegir ─────────────────────────────────── */}
+      <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+        <h2 className="mb-3 flex items-center gap-2 text-base font-semibold text-slate-900">
+          <InformationCircleIcon className="h-4 w-4 text-slate-400" />
+          Qué preguntar antes de elegir este centro
+        </h2>
+        <ul className="mt-2 flex flex-col gap-2">
+          {questionsToAsk.map((question) => (
+            <li key={question} className="flex items-start gap-2.5 text-sm text-slate-600">
+              <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-sky-400" aria-hidden="true" />
+              {question}
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      {/* ── 9. Verificación ──────────────────────────────────────────────────── */}
+      <section
+        className={`flex gap-4 rounded-xl border p-5 ${
+          center.isVerified
+            ? "border-emerald-200 bg-emerald-50"
+            : "border-amber-200 bg-amber-50"
+        }`}
+      >
+        {center.isVerified ? (
+          <CheckBadgeIcon className="mt-0.5 h-5 w-5 shrink-0 text-emerald-500" />
+        ) : (
+          <ExclamationTriangleIcon className="mt-0.5 h-5 w-5 shrink-0 text-amber-500" />
+        )}
+        <div>
+          <h2
+            className={`text-sm font-semibold ${
+              center.isVerified ? "text-emerald-800" : "text-amber-800"
+            }`}
+          >
+            {verificationText.heading}
+          </h2>
+          <p
+            className={`mt-1 text-sm leading-relaxed ${
+              center.isVerified ? "text-emerald-700" : "text-amber-700"
+            }`}
+          >
+            {verificationText.body}
+          </p>
+          {!center.isVerified ? (
+            <Link
+              href="/reclamar-ficha"
+              className="mt-2 inline-block text-sm font-medium text-amber-800 underline underline-offset-2 hover:text-amber-900"
+            >
+              Reclamar esta ficha →
+            </Link>
+          ) : null}
+        </div>
       </section>
     </div>
   );

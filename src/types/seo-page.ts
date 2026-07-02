@@ -25,4 +25,7 @@ export interface SeoPage {
   introText: string;
   outroText: string;
   faqs: FAQItem[];
+  /** When true the page is excluded from sitemap, generateStaticParams, and
+   *  any internal SEO links. Accessing it directly returns noindex. */
+  disabled?: boolean;
 }
