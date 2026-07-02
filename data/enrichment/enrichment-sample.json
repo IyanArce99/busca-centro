@@ -1,0 +1,441 @@
+[
+  {
+    "id": "81bef1fb-58ae-40c8-a323-058c1f917e9d",
+    "slug": "alegre-koala-madrid",
+    "current_name": "ALEGRE KOALA",
+    "enriched": {
+      "name_official": { "value": "Escuela Infantil Alegre Koala", "confidence": "medium" },
+      "name_changed": false,
+      "type": { "value": "escuela-infantil", "confidence": "medium" },
+      "ownership": { "value": "privado", "confidence": "medium" },
+      "district": { "value": "Arganzuela", "confidence": "high" },
+      "neighborhood_barrio": { "value": "Acacias", "confidence": "medium" },
+      "street": { "value": "Calle de Arganda, 32", "confidence": "high" },
+      "postal_code": { "value": "28005", "confidence": "high" },
+      "phone": { "value": "660939708", "confidence": "medium" },
+      "email": { "value": "ceialegreckoala@gmail.com", "confidence": "low" },
+      "website": { "value": null, "confidence": "unknown" },
+      "schedule": { "value": "Lunes a viernes de 7:30 a 17:30", "confidence": "medium" },
+      "age_min_months": { "value": 0, "confidence": "low" },
+      "age_max_months": { "value": 72, "confidence": "low" },
+      "services": { "value": ["comedor", "horario-ampliado", "ingles"], "confidence": "low" },
+      "pedagogical_approach": { "value": null, "confidence": "unknown" },
+      "social_links": {
+        "instagram": { "value": null, "confidence": "unknown" },
+        "facebook": { "value": null, "confidence": "unknown" }
+      },
+      "short_description": "Escuela infantil privada ubicada en el barrio de Acacias, distrito Arganzuela. El centro imparte el primer y segundo ciclo de educación infantil en un entorno accesible desde la estación de metro Acacias. No dispone de web oficial conocida; la información proviene de directorios públicos.",
+      "long_description": null,
+      "source_primary": "https://www.micole.net/madrid/madrid/escuela-infantil-alegre-koala",
+      "sources_secondary": [
+        "https://www.madrid.es/portales/munimadrid/es/Inicio/Educacion-y-empleo/Educacion/Direcciones-y-telefonos/Escuela-Infantil-Alegre-Koala/",
+        "https://www.buscocolegio.com/School/school-details.action?id=28061602",
+        "https://infoguarderias.com/guarderias-madrid/alegre-koala-escuela-infantil/"
+      ],
+      "verified_at": "2026-07-02"
+    },
+    "changes_vs_current": [
+      "neighborhood_barrio: null → Acacias",
+      "schedule: null → Lunes a viernes 7:30–17:30",
+      "services: [] → [comedor, horario-ampliado, ingles] (confidence: low — fuentes secundarias no verificadas)"
+    ],
+    "observations": "El teléfono en DB es 660939708, que varias fuentes secundarias confirman como número del centro. Algunas fuentes también citan el 915176986 como teléfono alternativo; no queda claro cuál es el principal. El email en DB (ceialegreckoala@gmail.com) difiere levemente del que aparece en infoguarderias (alegrekoala@gmail.com): podría ser un error tipográfico en uno de los directorios. No tiene web oficial conocida. El perfil de micole.net indica que la ficha no está verificada por el centro."
+  },
+  {
+    "id": "49e1fb72-4b07-4bec-b52d-6d53fc3f66fa",
+    "slug": "pipos-madrid",
+    "current_name": "PIPO'S",
+    "enriched": {
+      "name_official": { "value": "Escuela Infantil Pipo's", "confidence": "high" },
+      "name_changed": false,
+      "type": { "value": "escuela-infantil", "confidence": "high" },
+      "ownership": { "value": "privado", "confidence": "high" },
+      "district": { "value": "Arganzuela", "confidence": "high" },
+      "neighborhood_barrio": { "value": "La Chopera", "confidence": "medium" },
+      "street": { "value": "Calle de Cáceres, 50", "confidence": "high" },
+      "postal_code": { "value": "28045", "confidence": "high" },
+      "phone": { "value": "914736299", "confidence": "high" },
+      "email": { "value": "info@escuelainfantilpipos.es", "confidence": "high" },
+      "website": { "value": "https://www.escuelainfantilpipos.es", "confidence": "high" },
+      "schedule": { "value": null, "confidence": "unknown" },
+      "age_min_months": { "value": 0, "confidence": "medium" },
+      "age_max_months": { "value": 72, "confidence": "medium" },
+      "services": { "value": ["comedor", "horario-ampliado", "ingles", "musica", "psicomotricidad", "actividades-extraescolares"], "confidence": "medium" },
+      "pedagogical_approach": { "value": null, "confidence": "unknown" },
+      "social_links": {
+        "instagram": { "value": null, "confidence": "unknown" },
+        "facebook": { "value": "https://www.facebook.com/Escuela.Infantil.Pipos", "confidence": "high" }
+      },
+      "short_description": "Escuela infantil privada sin concierto, con autorización definitiva desde 1978, ubicada en el barrio de La Chopera, distrito Arganzuela. Ofrece comedor con servicio de catering externo, clases de inglés, música, psicomotricidad y actividades extraescolares. Atiende el primer y segundo ciclo de educación infantil (0 a 6 años).",
+      "long_description": null,
+      "source_primary": "https://www.escuelainfantilpipos.es",
+      "sources_secondary": [
+        "https://www.micole.net/madrid/madrid/escuela-infantil-pipos-1",
+        "https://www.madrid.es/portales/munimadrid/es/Inicio/Educacion-y-empleo/Educacion/Direcciones-y-telefonos/Escuela-Infantil-Pipo-s-Calle-Caceres/"
+      ],
+      "verified_at": "2026-07-02"
+    },
+    "changes_vs_current": [
+      "email: escuelaspipos@gmail.com → info@escuelainfantilpipos.es (email oficial de la web)",
+      "website: info@escuelainmantilpipos.es (bug: era un email) → https://www.escuelainfantilpipos.es",
+      "neighborhood_barrio: null → La Chopera",
+      "services: [] → [comedor, horario-ampliado, ingles, musica, psicomotricidad, actividades-extraescolares]",
+      "social_links.facebook: null → https://www.facebook.com/Escuela.Infantil.Pipos"
+    ],
+    "observations": "Bug confirmado: el campo website en DB contenía un email (info@escuelainmantilpipos.es), no una URL. La web oficial es escuelainfantilpipos.es. El email público en la web es info@escuelainfantilpipos.es; el email en DB (escuelaspipos@gmail.com) parece ser uno secundario o antiguo. El centro también opera una segunda sede en Calle General Palanca 6 (Pipolandia 2). Natación y logopedia citadas en algunos directorios como actividades extraescolares."
+  },
+  {
+    "id": "843c6622-c091-4b26-b069-b0764200ecb5",
+    "slug": "verbo-encarnado-madrid",
+    "current_name": "VERBO ENCARNADO",
+    "enriched": {
+      "name_official": { "value": "Centro de Educación Infantil Verbo Encarnado", "confidence": "medium" },
+      "name_changed": true,
+      "type": { "value": "escuela-infantil", "confidence": "high" },
+      "ownership": { "value": "concertado", "confidence": "high" },
+      "district": { "value": "Chamberí", "confidence": "high" },
+      "neighborhood_barrio": { "value": "Ríos Rosas", "confidence": "medium" },
+      "street": { "value": "Calle de Alenza, 28", "confidence": "high" },
+      "postal_code": { "value": "28003", "confidence": "high" },
+      "phone": { "value": "915340516", "confidence": "high" },
+      "email": { "value": "vemad@planalfa.es", "confidence": "medium" },
+      "website": { "value": "https://verboencarnado.es", "confidence": "high" },
+      "schedule": { "value": null, "confidence": "unknown" },
+      "age_min_months": { "value": 12, "confidence": "medium" },
+      "age_max_months": { "value": 72, "confidence": "medium" },
+      "services": { "value": ["comedor", "cocina-propia", "horario-ampliado", "verano-campamentos"], "confidence": "medium" },
+      "pedagogical_approach": { "value": "orientacion-pedagogica", "confidence": "medium" },
+      "social_links": {
+        "instagram": { "value": null, "confidence": "unknown" },
+        "facebook": { "value": null, "confidence": "unknown" }
+      },
+      "short_description": "Centro de educación infantil concertado de inspiración católica, ubicado en el barrio de Ríos Rosas, distrito Chamberí. Imparte el primer y segundo ciclo de educación infantil (de 1 a 6 años aproximadamente). Dispone de comedor con cocina propia y horario ampliado. La ficha está pendiente de verificación por parte del centro.",
+      "long_description": null,
+      "source_primary": "https://verboencarnado.es",
+      "sources_secondary": [
+        "https://www.micole.net/madrid/madrid/escuela-infantil-verbo-encarnado",
+        "https://www.guarderia.net/guarderia/escuela-infantil-verbo-encarnado"
+      ],
+      "verified_at": "2026-07-02"
+    },
+    "changes_vs_current": [
+      "name_official: VERBO ENCARNADO → Centro de Educación Infantil Verbo Encarnado",
+      "email: cc.verboencarnado.madrid@educa.madrid.org → vemad@planalfa.es (email encontrado en web oficial)",
+      "website: http://www.educa.madrid.org/cc.verboencarnado.madrid (URL inactiva) → https://verboencarnado.es",
+      "neighborhood_barrio: null → Ríos Rosas",
+      "services: [] → [comedor, cocina-propia, horario-ampliado, verano-campamentos]"
+    ],
+    "observations": "La URL de educa.madrid.org registrada en DB devuelve error 404. La web activa del centro es verboencarnado.es. El email en DB (cc.verboencarnado.madrid@educa.madrid.org) pertenece al portal EducaMadrid y podría seguir siendo válido; el email vemad@planalfa.es aparece en la web del propio centro. Tipo en DB como 'guarderia' pero múltiples fuentes y la propia web lo definen como escuela infantil concertada que abarca ambos ciclos. El teléfono 915343243 también aparece en algunas fuentes como alternativo al 915340516."
+  },
+  {
+    "id": "4fb5d8d8-d11c-431f-8acc-73cc33ec1e53",
+    "slug": "el-alba-madrid",
+    "current_name": "EL ALBA",
+    "enriched": {
+      "name_official": { "value": "Escuela Infantil Municipal El Alba", "confidence": "high" },
+      "name_changed": true,
+      "type": { "value": "escuela-infantil", "confidence": "high" },
+      "ownership": { "value": "publico", "confidence": "high" },
+      "district": { "value": "Arganzuela", "confidence": "high" },
+      "neighborhood_barrio": { "value": "Acacias", "confidence": "medium" },
+      "street": { "value": "Calle de Toledo, 181", "confidence": "high" },
+      "postal_code": { "value": "28005", "confidence": "high" },
+      "phone": { "value": "915173351", "confidence": "high" },
+      "email": { "value": "eielalba@madrid.es", "confidence": "high" },
+      "website": { "value": "https://elalbaescuela.es", "confidence": "high" },
+      "schedule": { "value": "Lunes a viernes de 9:00 a 16:00; horario ampliado de 7:00 a 9:00 y de 16:00 a 17:30", "confidence": "medium" },
+      "age_min_months": { "value": 0, "confidence": "medium" },
+      "age_max_months": { "value": 36, "confidence": "high" },
+      "services": { "value": ["comedor", "cocina-propia", "horario-ampliado", "psicomotricidad", "musica"], "confidence": "medium" },
+      "pedagogical_approach": { "value": "orientacion-pedagogica", "confidence": "medium" },
+      "social_links": {
+        "instagram": { "value": null, "confidence": "unknown" },
+        "facebook": { "value": "https://www.facebook.com/albaescuelainfantil", "confidence": "medium" }
+      },
+      "short_description": "Escuela infantil municipal perteneciente a la Red Municipal de Escuelas Infantiles del Ayuntamiento de Madrid, ubicada en el barrio de Acacias, distrito Arganzuela. Atiende el primer ciclo de educación infantil (0 a 3 años) y cuenta con servicio de comedor con cocina propia, horario ampliado y actividades de psicomotricidad y música.",
+      "long_description": null,
+      "source_primary": "https://elalbaescuela.es",
+      "sources_secondary": [
+        "https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/Arganzuela/Direcciones-y-telefonos/Escuela-infantil-municipal-El-Alba/",
+        "https://www.comunidad.madrid/centros/escuela-educacion-infantil-alba",
+        "https://www.colesyguardes.es/guarderia/el-alba/140"
+      ],
+      "verified_at": "2026-07-02"
+    },
+    "changes_vs_current": [
+      "name_official: EL ALBA → Escuela Infantil Municipal El Alba",
+      "email: eei.elalba.madrid@educa.madrid.org → eielalba@madrid.es (email del Ayuntamiento, encontrado en web oficial)",
+      "website: http://www.educa.madrid.org/eei.elalba.madrid (URL inactiva) → https://elalbaescuela.es",
+      "neighborhood_barrio: null → Acacias",
+      "age_max_months: null → 36 (solo primer ciclo, 0–3 años)",
+      "schedule: null → Lunes a viernes 9:00–16:00 con ampliado 7:00–9:00 y 16:00–17:30",
+      "services: [comedor, horario-ampliado] → [comedor, cocina-propia, horario-ampliado, psicomotricidad, musica]",
+      "social_links.facebook: null → https://www.facebook.com/albaescuelainfantil"
+    ],
+    "observations": "La URL registrada en DB (educa.madrid.org) devuelve error. La web activa es elalbaescuela.es. El email eielalba@madrid.es aparece en la web oficial del centro (Ayuntamiento de Madrid); el email educa.madrid.org registrado en DB puede seguir siendo válido como dirección institucional. Tipo en DB es 'escuela-infantil' y titularidad 'publico', ambos correctos. La titularidad exacta es municipal (Ayuntamiento de Madrid), no Comunidad de Madrid. Colesyguardes indica el número 131 en lugar de 181 para la dirección, pero todas las demás fuentes y la propia web oficial del Ayuntamiento confirman el 181. El número 131 parece un error del directorio."
+  },
+  {
+    "id": "375bcd5b-f1ad-421d-a62e-33671df573ba",
+    "slug": "parque-de-hortaleza-madrid",
+    "current_name": "PARQUE DE HORTALEZA",
+    "enriched": {
+      "name_official": { "value": "Escuela de Educación Infantil Parque de Hortaleza", "confidence": "high" },
+      "name_changed": true,
+      "type": { "value": "escuela-infantil", "confidence": "high" },
+      "ownership": { "value": "publico", "confidence": "high" },
+      "district": { "value": "Hortaleza", "confidence": "high" },
+      "neighborhood_barrio": { "value": "Pinar del Rey", "confidence": "medium" },
+      "street": { "value": "Calle del Mar Caspio, 6", "confidence": "medium" },
+      "postal_code": { "value": "28033", "confidence": "high" },
+      "phone": { "value": "913815461", "confidence": "high" },
+      "email": { "value": "eei.parquehortaleza.madrid@educa.madrid.org", "confidence": "high" },
+      "website": { "value": "http://www.educa2.madrid.org/web/centro.eei.parquehortaleza.madrid", "confidence": "high" },
+      "schedule": { "value": null, "confidence": "unknown" },
+      "age_min_months": { "value": 0, "confidence": "medium" },
+      "age_max_months": { "value": 36, "confidence": "medium" },
+      "services": { "value": ["comedor", "horario-ampliado", "ingles", "escuela-de-padres"], "confidence": "medium" },
+      "pedagogical_approach": { "value": null, "confidence": "unknown" },
+      "social_links": {
+        "instagram": { "value": null, "confidence": "unknown" },
+        "facebook": { "value": null, "confidence": "unknown" }
+      },
+      "short_description": "Escuela de educación infantil pública de la Comunidad de Madrid, ubicada en el barrio de Pinar del Rey, distrito Hortaleza. Atiende el primer ciclo de educación infantil (0 a 3 años) y cuenta con comedor, horario ampliado e inglés. El centro dispone de huerto escolar y programa de escuela de familias.",
+      "long_description": null,
+      "source_primary": "http://www.educa2.madrid.org/web/centro.eei.parquehortaleza.madrid",
+      "sources_secondary": [
+        "https://www.comunidad.madrid/centros/escuela-educacion-infantil-parque-hortaleza",
+        "https://www.micole.net/madrid/madrid/escuela-infantil-parque-de-hortaleza",
+        "https://www.colesyguardes.es/escuelas-infantiles/parque-de-hortaleza/"
+      ],
+      "verified_at": "2026-07-02"
+    },
+    "changes_vs_current": [
+      "name_official: PARQUE DE HORTALEZA → Escuela de Educación Infantil Parque de Hortaleza",
+      "website: http://www.educa.madrid.org/eei.parquehortaleza.madrid (redirige) → http://www.educa2.madrid.org/web/centro.eei.parquehortaleza.madrid",
+      "neighborhood_barrio: null → Pinar del Rey",
+      "services: [] → [comedor, horario-ampliado, ingles, escuela-de-padres]",
+      "age_max_months: null → 36"
+    ],
+    "observations": "La URL en DB redirige a la nueva URL de educa2.madrid.org; conviene actualizarla. Colesyguardes indica la dirección como Calle Mar Caspio 8, mientras que la mayoría de fuentes y la propia Comunidad de Madrid indican el número 6. Se mantiene el 6 como valor principal con confidence medium. El barrio Pinar del Rey aparece en varias fuentes secundarias para el CP 28033 / distrito Hortaleza."
+  },
+  {
+    "id": "674b04e9-fef5-4432-a4fc-338aad58acc7",
+    "slug": "fernando-el-catolico-madrid",
+    "current_name": "FERNANDO EL CATÓLICO",
+    "enriched": {
+      "name_official": { "value": "Escuela Infantil Fernando el Católico", "confidence": "medium" },
+      "name_changed": false,
+      "type": { "value": "escuela-infantil", "confidence": "high" },
+      "ownership": { "value": "publico", "confidence": "high" },
+      "district": { "value": "Chamberí", "confidence": "high" },
+      "neighborhood_barrio": { "value": "Gaztambide", "confidence": "medium" },
+      "street": { "value": "Calle de Fernando el Católico, 16 B", "confidence": "high" },
+      "postal_code": { "value": "28015", "confidence": "high" },
+      "phone": { "value": "914456792", "confidence": "high" },
+      "email": { "value": "eei.fernandoelcatolico.madrid@educa.madrid.org", "confidence": "high" },
+      "website": { "value": "http://www.educa.madrid.org/eei.fernandoelcatolico.madrid", "confidence": "medium" },
+      "schedule": { "value": "Lunes a viernes de 9:00 a 16:00; horario ampliado de 7:00 a 9:00 y de 16:00 a 18:00; abierto hasta julio, agosto con demanda suficiente", "confidence": "medium" },
+      "age_min_months": { "value": 0, "confidence": "medium" },
+      "age_max_months": { "value": 36, "confidence": "high" },
+      "services": { "value": ["comedor", "horario-ampliado", "ingles", "psicomotricidad", "musica", "escuela-de-padres", "patio-exterior"], "confidence": "medium" },
+      "pedagogical_approach": { "value": null, "confidence": "unknown" },
+      "social_links": {
+        "instagram": { "value": null, "confidence": "unknown" },
+        "facebook": { "value": null, "confidence": "unknown" }
+      },
+      "short_description": "Escuela infantil pública de la Comunidad de Madrid, ubicada en la calle Fernando el Católico, distrito Chamberí. Atiende el primer ciclo (0 a 3 años) con servicio de comedor, horario ampliado, inglés nativo, psicomotricidad, música y patio exterior con jardín. El centro comparte edificio con el CEIP Fernando el Católico.",
+      "long_description": null,
+      "source_primary": "https://www.colesyguardes.es/guarderia/fernando-el-catlico/163",
+      "sources_secondary": [
+        "https://www.madrid.es/portales/munimadrid/es/Inicio/Educacion-y-empleo/Educacion/Direcciones-y-telefonos/Escuela-Infantil-Algo/"
+      ],
+      "verified_at": "2026-07-02"
+    },
+    "changes_vs_current": [
+      "neighborhood_barrio: null → Gaztambide",
+      "age_max_months: null → 36",
+      "schedule: null → Lunes a viernes 9:00–16:00 con ampliado 7:00–9:00 y 16:00–18:00",
+      "services: [comedor, horario-ampliado] → [comedor, horario-ampliado, ingles, psicomotricidad, musica, escuela-de-padres, patio-exterior]"
+    ],
+    "observations": "La web educa.madrid.org registrada en DB devuelve error 404 al acceder directamente. Los datos de servicios proceden de colesyguardes.es, que lista información detallada de este centro. El barrio Gaztambide es el barrio del CP 28015 / zona Calle Fernando el Católico dentro de Chamberí, aunque no está confirmado en fuente oficial directa. El comedor es catering servido desde las cocinas del CEIP adyacente, no cocina propia."
+  },
+  {
+    "id": "f8909853-cf9e-434e-8951-3ed004176dcb",
+    "slug": "nemomarlin-arganzuela-madrid",
+    "current_name": "NEMOMARLIN ARGANZUELA",
+    "enriched": {
+      "name_official": { "value": "Escuela Infantil Nemomarlin Arganzuela", "confidence": "high" },
+      "name_changed": false,
+      "type": { "value": "escuela-infantil", "confidence": "high" },
+      "ownership": { "value": "privado", "confidence": "high" },
+      "district": { "value": "Arganzuela", "confidence": "high" },
+      "neighborhood_barrio": { "value": "Acacias", "confidence": "medium" },
+      "street": { "value": "Calle de Carmen Cobeña, 18", "confidence": "high" },
+      "postal_code": { "value": "28005", "confidence": "high" },
+      "phone": { "value": "911427816", "confidence": "high" },
+      "email": { "value": "arganzuela@escuelanemomarlin.com", "confidence": "high" },
+      "website": { "value": "https://www.escuelanemomarlin.com", "confidence": "high" },
+      "schedule": { "value": "Lunes a viernes de 9:00 a 17:00; horario ampliado de 7:00 a 9:00 y de 17:00 a 21:00; abierto todo el año", "confidence": "high" },
+      "age_min_months": { "value": 0, "confidence": "medium" },
+      "age_max_months": { "value": 36, "confidence": "high" },
+      "services": { "value": ["comedor", "cocina-propia", "horario-ampliado", "bilingue", "psicomotricidad", "verano-campamentos", "orientacion-pedagogica"], "confidence": "high" },
+      "pedagogical_approach": { "value": "aprendizaje activo", "confidence": "high" },
+      "social_links": {
+        "instagram": { "value": "https://www.instagram.com/escuelasinfantilesnemomarlin/", "confidence": "high" },
+        "facebook": { "value": "https://www.facebook.com/EscuelaInfantilNemomarlin", "confidence": "high" }
+      },
+      "short_description": "Escuela infantil privada bilingüe (español-inglés) ubicada en el barrio de Acacias, distrito Arganzuela. Aplica una metodología basada en las Inteligencias Múltiples y cuenta con cocina propia, horario muy ampliado (7:00 a 21:00), campamentos de verano y acceso mediante webcam para las familias. Atiende el primer ciclo de educación infantil (0 a 3 años).",
+      "long_description": null,
+      "source_primary": "https://www.escuelanemomarlin.com/escuelas/escuela-infantil-arganzuela/",
+      "sources_secondary": [
+        "https://www.colesyguardes.es/guarderia/nemomarlin-arganzuela/292",
+        "https://www.micole.net/madrid/madrid/escuela-infantil-nemomarlin-arganzuela"
+      ],
+      "verified_at": "2026-07-02"
+    },
+    "changes_vs_current": [
+      "street: Calle de Carmen Cobeña, 4 → Calle de Carmen Cobeña, 18 (número corregido según web oficial y múltiples fuentes secundarias)",
+      "website: http://www.nemomarlin.com (dominio inactivo) → https://www.escuelanemomarlin.com",
+      "services: [] → [comedor, cocina-propia, horario-ampliado, bilingue, psicomotricidad, verano-campamentos, orientacion-pedagogica]",
+      "schedule: null → Lunes a viernes 9:00–17:00 con ampliado 7:00–9:00 y 17:00–21:00",
+      "social_links.instagram: null → https://www.instagram.com/escuelasinfantilesnemomarlin/",
+      "social_links.facebook: null → https://www.facebook.com/EscuelaInfantilNemomarlin"
+    ],
+    "observations": "Posible error en la dirección: la DB registra Calle de Carmen Cobeña, 4 pero la web oficial del centro y múltiples directorios (micole, colesyguardes, páginas amarillas) indican el número 18. Requiere verificación presencial o llamada al centro. El dominio www.nemomarlin.com no está disponible; la web activa es www.escuelanemomarlin.com. Instagram listado pertenece a la cadena en general, no exclusivamente a la sede Arganzuela."
+  },
+  {
+    "id": "a41cfb3d-e7d6-4c1b-8122-41295776a71c",
+    "slug": "st-alices-nursery-madrid",
+    "current_name": "ST. ALICE'S NURSERY",
+    "enriched": {
+      "name_official": { "value": "Escuela Infantil Chamberí St Alice's", "confidence": "high" },
+      "name_changed": true,
+      "type": { "value": "escuela-infantil", "confidence": "high" },
+      "ownership": { "value": "privado", "confidence": "high" },
+      "district": { "value": "Chamberí", "confidence": "high" },
+      "neighborhood_barrio": { "value": "Almagro", "confidence": "medium" },
+      "street": { "value": "Calle de Fernández de la Hoz, 21", "confidence": "high" },
+      "postal_code": { "value": "28010", "confidence": "high" },
+      "phone": { "value": "914463726", "confidence": "high" },
+      "email": { "value": "alicia@stalices.es", "confidence": "high" },
+      "website": { "value": "https://stalices.es", "confidence": "high" },
+      "schedule": { "value": "Abierto todos los días laborables del año, incluido agosto y navidades", "confidence": "medium" },
+      "age_min_months": { "value": 0, "confidence": "medium" },
+      "age_max_months": { "value": 36, "confidence": "high" },
+      "services": { "value": ["comedor", "horario-ampliado", "bilingue", "orientacion-pedagogica"], "confidence": "high" },
+      "pedagogical_approach": { "value": "bilingue", "confidence": "high" },
+      "social_links": {
+        "instagram": { "value": "https://www.instagram.com/st.alices_nursery/", "confidence": "high" },
+        "facebook": { "value": null, "confidence": "unknown" }
+      },
+      "short_description": "Escuela infantil privada bilingüe (español-inglés) ubicada en el barrio de Almagro, distrito Chamberí. El proyecto educativo 8MINDS se basa en la teoría de las Inteligencias Múltiples de Gardner y el inglés se integra en todas las rutinas diarias mediante metodología Jolly Phonics. Atiende el primer ciclo (0 a 3 años) y permanece abierta todo el año.",
+      "long_description": null,
+      "source_primary": "https://stalices.es",
+      "sources_secondary": [
+        "https://www.buscocolegio.com/School/school-details.action?id=28073987",
+        "https://www.colesyguardes.es/escuelas-infantiles/st-alices-nursery-fernandez-de-la-hoz/"
+      ],
+      "verified_at": "2026-07-02"
+    },
+    "changes_vs_current": [
+      "name_official: ST. ALICE'S NURSERY → Escuela Infantil Chamberí St Alice's (nombre en web oficial)",
+      "website: http://www.stalicesnursery.es (inactivo, ECONNREFUSED) → https://stalices.es",
+      "neighborhood_barrio: null → Almagro",
+      "services: [] → [comedor, horario-ampliado, bilingue, orientacion-pedagogica]",
+      "pedagogical_approach: null → bilingue",
+      "social_links.instagram: null → https://www.instagram.com/st.alices_nursery/"
+    ],
+    "observations": "El dominio stalicesnursery.es ya no está activo (ECONNREFUSED). La web actual del centro es stalices.es. El centro opera dos sedes en Chamberí: la de Fernández de la Hoz 21 (este registro) y otra en Calle Galileo 47. El comedor utiliza catering autorizado por la Comunidad de Madrid, no cocina propia. El barrio Almagro corresponde al CP 28010 en la zona de Fernández de la Hoz."
+  },
+  {
+    "id": "e82f1941-c68a-4ddd-a8e6-0c6d56a77c7f",
+    "slug": "olavide-madrid",
+    "current_name": "OLAVIDE",
+    "enriched": {
+      "name_official": { "value": "Escuela Infantil Olavide", "confidence": "high" },
+      "name_changed": false,
+      "type": { "value": "escuela-infantil", "confidence": "high" },
+      "ownership": { "value": "privado", "confidence": "high" },
+      "district": { "value": "Chamberí", "confidence": "high" },
+      "neighborhood_barrio": { "value": "Trafalgar", "confidence": "medium" },
+      "street": { "value": "Calle del General Álvarez de Castro, 22", "confidence": "high" },
+      "postal_code": { "value": "28010", "confidence": "high" },
+      "phone": { "value": "915932469", "confidence": "high" },
+      "email": { "value": "direccion@escuelaolavide.com", "confidence": "high" },
+      "website": { "value": "http://www.escuelaolavide.com", "confidence": "medium" },
+      "schedule": { "value": "Lunes a viernes de 9:00 a 16:00; horario ampliado de 7:30 a 9:00 y de 16:00 a 19:30 sin recargo; abierto todo el año", "confidence": "high" },
+      "age_min_months": { "value": 0, "confidence": "medium" },
+      "age_max_months": { "value": 36, "confidence": "high" },
+      "services": { "value": ["comedor", "horario-ampliado", "ingles", "musica", "psicomotricidad", "actividades-extraescolares", "orientacion-pedagogica"], "confidence": "high" },
+      "pedagogical_approach": { "value": "aprendizaje activo", "confidence": "medium" },
+      "social_links": {
+        "instagram": { "value": "https://www.instagram.com/escuelaolavide/", "confidence": "high" },
+        "facebook": { "value": "https://www.facebook.com/escuelaolavide/", "confidence": "high" }
+      },
+      "short_description": "Escuela infantil privada con más de 35 años de historia, ubicada junto a la Plaza de Olavide en el barrio de Trafalgar, distrito Chamberí. Ofrece inglés, música, psicomotricidad y chino como actividades incluidas en la cuota, horario muy ampliado (7:30 a 19:30) sin recargo adicional, y permanece abierta todo el año. Atiende el primer ciclo de educación infantil (0 a 3 años).",
+      "long_description": null,
+      "source_primary": "https://www.colesyguardes.es/guarderia/olavide/72",
+      "sources_secondary": [
+        "https://www.micole.net/madrid/madrid/escuela-infantil-olavide",
+        "https://www.instagram.com/escuelaolavide/",
+        "https://www.facebook.com/escuelaolavide/"
+      ],
+      "verified_at": "2026-07-02"
+    },
+    "changes_vs_current": [
+      "email: DIRECCION@ESCUELAOLAVIDE.COM → direccion@escuelaolavide.com (normalizado a minúsculas)",
+      "neighborhood_barrio: null → Trafalgar",
+      "schedule: null → Lunes a viernes 9:00–16:00 con ampliado 7:30–9:00 y 16:00–19:30",
+      "services: [] → [comedor, horario-ampliado, ingles, musica, psicomotricidad, actividades-extraescolares, orientacion-pedagogica]",
+      "social_links.instagram: null → https://www.instagram.com/escuelaolavide/",
+      "social_links.facebook: null → https://www.facebook.com/escuelaolavide/"
+    ],
+    "observations": "La web escuelaolavide.com tiene un problema de certificado SSL (nombre no coincide con dondominio.com), lo que impide el fetch seguro; no obstante, el dominio existe y múltiples fuentes confirman que es la web del centro. El email en DB estaba en mayúsculas (bug de capitalización). El centro también ofrece clases de chino (mandarín) para todos los alumnos incluidas en la cuota, dato destacable. La natación se ofrece como actividad extraescolar optativa. El barrio Trafalgar corresponde a la Plaza de Olavide / General Álvarez de Castro en el CP 28010."
+  },
+  {
+    "id": "698058e0-e2c0-4bd5-b324-f4441ab4bbf8",
+    "slug": "alaria-bernabeu-nursery-school-madrid",
+    "current_name": "ALARIA BERNABEU NURSERY SCHOOL",
+    "enriched": {
+      "name_official": { "value": "Alaria Bernabéu", "confidence": "high" },
+      "name_changed": true,
+      "type": { "value": "escuela-infantil", "confidence": "high" },
+      "ownership": { "value": "privado", "confidence": "high" },
+      "district": { "value": "Chamartín", "confidence": "high" },
+      "neighborhood_barrio": { "value": "El Viso", "confidence": "high" },
+      "street": { "value": "Calle del Jarama, 9", "confidence": "high" },
+      "postal_code": { "value": "28002", "confidence": "high" },
+      "phone": { "value": "915640168", "confidence": "high" },
+      "email": { "value": "admisiones@alariaescuelasinfantiles.es", "confidence": "high" },
+      "website": { "value": "https://www.alariaescuelasinfantiles.es", "confidence": "high" },
+      "schedule": { "value": "Lunes a viernes de 7:30 a 19:00; abierto todo el año incluido julio, agosto, navidades y semana santa", "confidence": "high" },
+      "age_min_months": { "value": 4, "confidence": "high" },
+      "age_max_months": { "value": 72, "confidence": "high" },
+      "services": { "value": ["comedor", "cocina-propia", "horario-ampliado", "bilingue", "patio-exterior", "psicomotricidad", "musica", "verano-campamentos", "uniformes", "orientacion-pedagogica", "actividades-extraescolares"], "confidence": "high" },
+      "pedagogical_approach": { "value": "bilingue", "confidence": "high" },
+      "social_links": {
+        "instagram": { "value": "https://www.instagram.com/alariaescuelasinfantilesmadrid/", "confidence": "high" },
+        "facebook": { "value": null, "confidence": "unknown" }
+      },
+      "short_description": "Escuela infantil y de primer ciclo bilingüe (español-inglés) ubicada en la Colonia de El Viso, distrito Chamartín, junto al Estadio Santiago Bernabéu. Cuenta con cocina propia, jardines de más de 200 m², horario muy ampliado (7:30 a 19:00) incluido en la cuota, y permanece abierta todo el año. Atiende desde los 4 meses hasta los 6 años y aplica una metodología de Inteligencias Múltiples con certificación Trinity College de inglés.",
+      "long_description": null,
+      "source_primary": "https://www.alariaescuelasinfantiles.es/alaria-bernabeu/",
+      "sources_secondary": [
+        "https://www.colesyguardes.es/guarderia/alaria-bernabu-escuela-infantil/1077",
+        "https://www.madrid.es/portales/munimadrid/es/Inicio/Infancia-y-familia/Direcciones-y-telefonos/Escuela-Infantil-Alaria-Bernabeu-Nursery-School/"
+      ],
+      "verified_at": "2026-07-02"
+    },
+    "changes_vs_current": [
+      "name_official: ALARIA BERNABEU NURSERY SCHOOL → Alaria Bernabéu (nombre en web oficial; el subtítulo 'Nursery School' no forma parte del nombre comercial principal)",
+      "age_min_months: null → 4",
+      "age_max_months: null → 72",
+      "neighborhood_barrio: null → El Viso",
+      "schedule: null → Lunes a viernes 7:30–19:00 abierto todo el año",
+      "services: [] → [comedor, cocina-propia, horario-ampliado, bilingue, patio-exterior, psicomotricidad, musica, verano-campamentos, uniformes, orientacion-pedagogica, actividades-extraescolares]",
+      "pedagogical_approach: null → bilingue",
+      "social_links.instagram: null → https://www.instagram.com/alariaescuelasinfantilesmadrid/"
+    ],
+    "observations": "El nombre oficial en la web del centro aparece como 'Alaria Bernabéu', sin el término 'Nursery School' que figura en la DB y en el registro municipal. Ambas formas son reconocidas pero la web propia es la referencia más directa. La web indica 'desde 1 año' en algunos textos y '4 meses' en otros; la mención explícita de 4 meses aparece en colesyguardes.es con datos detallados del centro, que se consideran fiables. El Instagram listado es el de la cadena Alaria en general (@alariaescuelasinfantilesmadrid), no exclusivo de la sede Bernabéu."
+  }
+]

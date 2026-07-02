@@ -12,16 +12,44 @@ const OWNERSHIP_LABELS: Record<CenterOwnership, string> = {
 };
 
 const SERVICE_LABELS: Record<CenterService, string> = {
+  // Alimentación
   comedor: "Comedor",
+  "cocina-propia": "Cocina propia",
+  catering: "Catering",
+  // Horario
   "horario-ampliado": "Horario ampliado",
+  "servicio-madrugadores": "Servicio de madrugadores",
+  // Idiomas
   bilingue: "Bilingüe",
+  ingles: "Inglés",
+  // Aulas por edad
   "aula-0-1-anos": "Aula 0-1 años",
   "aula-1-2-anos": "Aula 1-2 años",
   "aula-2-3-anos": "Aula 2-3 años",
+  // Instalaciones
   "patio-exterior": "Patio exterior",
+  // Actividades
   psicomotricidad: "Psicomotricidad",
+  musica: "Música",
+  "actividades-extraescolares": "Actividades extraescolares",
+  "verano-campamentos": "Verano / campamentos",
+  // Pedagogía / familia
   "orientacion-pedagogica": "Orientación pedagógica",
-  "servicio-madrugadores": "Servicio de madrugadores",
+  "escuela-de-padres": "Escuela de padres",
+  // Otros
+  uniformes: "Uniformes",
+};
+
+const PEDAGOGICAL_APPROACH_LABELS: Record<string, string> = {
+  montessori: "Montessori",
+  "reggio-emilia": "Reggio Emilia",
+  waldorf: "Waldorf",
+  bilingue: "Bilingüe",
+  "aprendizaje-activo": "Aprendizaje activo",
+  "estimulacion-temprana": "Estimulación temprana",
+  "8minds": "8MINDS",
+  "proyecto-propio": "Proyecto propio",
+  "orientacion-pedagogica": "Orientación pedagógica",
 };
 
 export function formatCenterType(type: CenterType): string {
@@ -34,6 +62,10 @@ export function formatOwnership(ownership: CenterOwnership): string {
 
 export function formatService(service: CenterService): string {
   return SERVICE_LABELS[service];
+}
+
+export function formatPedagogicalApproach(approach: string): string {
+  return PEDAGOGICAL_APPROACH_LABELS[approach] ?? approach;
 }
 
 export function formatAgeRange({ minMonths, maxMonths }: CenterAgeRange): string {

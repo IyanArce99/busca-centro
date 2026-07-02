@@ -1,4 +1,13 @@
-import type { Center, CenterOwnership, CenterService, CenterType } from "@/types/center";
+import type {
+  Center,
+  CenterOwnership,
+  CenterService,
+  CenterSocialLinks,
+  CenterType,
+  ConfidenceLevel,
+  DataConflict,
+  VerificationStatus,
+} from "@/types/center";
 import type { SeoPageFilters } from "@/types/seo-page";
 import { getServerClient } from "@/lib/supabase/server";
 import {
@@ -23,6 +32,8 @@ function rowToCenter(row: CenterRow): Center {
       citySlug: row.city_slug,
       cityName: row.city_name,
       neighborhood: row.neighborhood ?? undefined,
+      district: row.district ?? undefined,
+      neighborhoodBarrio: row.neighborhood_barrio ?? undefined,
       latitude: row.latitude ?? undefined,
       longitude: row.longitude ?? undefined,
     },
@@ -42,6 +53,14 @@ function rowToCenter(row: CenterRow): Center {
     images: row.images ?? [],
     isClaimed: row.is_claimed,
     isVerified: row.is_verified,
+    socialLinks: (row.social_links as CenterSocialLinks) ?? undefined,
+    pedagogicalApproach: row.pedagogical_approach ?? [],
+    sourceUrl: row.source_url ?? undefined,
+    sourceUrlsSecondary: row.source_urls_secondary ?? [],
+    verifiedAt: row.verified_at ?? undefined,
+    verificationStatus: (row.verification_status as VerificationStatus) ?? undefined,
+    confidenceLevel: (row.confidence_level as ConfidenceLevel) ?? undefined,
+    dataConflicts: (row.data_conflicts as unknown as Record<string, DataConflict>) ?? undefined,
     createdAt: row.created_at,
     updatedAt: row.updated_at,
   };

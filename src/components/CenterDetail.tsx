@@ -1,6 +1,13 @@
 import Link from "next/link";
 import type { Center, CenterService } from "@/types/center";
-import { emailHref, formatCenterType, formatOwnership, formatService, phoneHref } from "@/lib/format";
+import {
+  emailHref,
+  formatCenterType,
+  formatOwnership,
+  formatPedagogicalApproach,
+  formatService,
+  phoneHref,
+} from "@/lib/format";
 import {
   buildCenterIntro,
   buildContactText,
@@ -27,25 +34,58 @@ import {
   LeafIcon,
   MapIcon,
   MapPinIcon,
+  MusicalNoteIcon,
   PhoneIcon,
   PhotoIcon,
   PuzzlePieceIcon,
+  ShirtIcon,
   SparklesIcon,
   SunIcon,
+  UsersIcon,
 } from "@/components/Icons";
 import type { ReactNode } from "react";
 
 const SERVICE_ICONS: Record<CenterService, ReactNode> = {
+  // Alimentación
   comedor: <ForkKnifeIcon className="h-4 w-4" />,
+  "cocina-propia": <ForkKnifeIcon className="h-4 w-4" />,
+  catering: <ForkKnifeIcon className="h-4 w-4" />,
+  // Horario
   "horario-ampliado": <ClockIcon className="h-4 w-4" />,
+  "servicio-madrugadores": <SunIcon className="h-4 w-4" />,
+  // Idiomas
   bilingue: <SparklesIcon className="h-4 w-4" />,
+  ingles: <SparklesIcon className="h-4 w-4" />,
+  // Aulas por edad
   "aula-0-1-anos": <HeartIcon className="h-4 w-4" />,
   "aula-1-2-anos": <HeartIcon className="h-4 w-4" />,
   "aula-2-3-anos": <HeartIcon className="h-4 w-4" />,
+  // Instalaciones
   "patio-exterior": <LeafIcon className="h-4 w-4" />,
+  // Actividades
   psicomotricidad: <PuzzlePieceIcon className="h-4 w-4" />,
+  musica: <MusicalNoteIcon className="h-4 w-4" />,
+  "actividades-extraescolares": <PuzzlePieceIcon className="h-4 w-4" />,
+  "verano-campamentos": <SunIcon className="h-4 w-4" />,
+  // Pedagogía / familia
   "orientacion-pedagogica": <BookOpenIcon className="h-4 w-4" />,
-  "servicio-madrugadores": <SunIcon className="h-4 w-4" />,
+  "escuela-de-padres": <UsersIcon className="h-4 w-4" />,
+  // Otros
+  uniformes: <ShirtIcon className="h-4 w-4" />,
+};
+
+const CONFIDENCE_LABELS: Record<string, string> = {
+  high: "Alta",
+  medium: "Media",
+  low: "Baja",
+  unknown: "Desconocida",
+};
+
+const CONFIDENCE_STYLES: Record<string, string> = {
+  high: "bg-emerald-100 text-emerald-700",
+  medium: "bg-amber-100 text-amber-700",
+  low: "bg-red-100 text-red-700",
+  unknown: "bg-slate-100 text-slate-600",
 };
 
 interface CenterDetailProps {
@@ -54,8 +94,15 @@ interface CenterDetailProps {
 
 export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
   const { address, contact } = center;
-  const location = [address.neighborhood, address.cityName].filter(Boolean).join(", ");
+  const displayDistrict = address.district ?? address.neighborhood;
+  const location = [displayDistrict, address.cityName].filter(Boolean).join(", ");
   const hasContactInfo = !!(contact.phone || contact.email || contact.website);
+  const hasSocialLinks = !!(
+    center.socialLinks?.instagram ||
+    center.socialLinks?.facebook ||
+    center.socialLinks?.linkedin
+  );
+  const hasPedagogicalApproach = !!center.pedagogicalApproach?.length;
 
   const intro = buildCenterIntro(center);
   const locationText = buildLocationText(center);
@@ -94,6 +141,13 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
               Datos sin verificar
             </span>
           )}
+          {center.confidenceLevel && center.confidenceLevel !== "unknown" ? (
+            <span
+              className={`rounded-full px-2.5 py-1 ${CONFIDENCE_STYLES[center.confidenceLevel] ?? ""}`}
+            >
+              Confianza: {CONFIDENCE_LABELS[center.confidenceLevel]}
+            </span>
+          ) : null}
         </div>
 
         <h1 className="mt-4 text-3xl font-bold text-slate-900 sm:text-4xl">{center.name}</h1>
@@ -103,6 +157,19 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
             <MapPinIcon className="h-4 w-4 shrink-0 text-slate-400" />
             {location}
           </p>
+        ) : null}
+
+        {hasPedagogicalApproach ? (
+          <div className="mt-3 flex flex-wrap gap-1.5">
+            {center.pedagogicalApproach!.map((approach) => (
+              <span
+                key={approach}
+                className="rounded-full bg-violet-50 px-2.5 py-1 text-xs font-medium text-violet-700"
+              >
+                {formatPedagogicalApproach(approach)}
+              </span>
+            ))}
+          </div>
         ) : null}
 
         <p className="mt-3 text-xs text-slate-400">
@@ -201,10 +268,16 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
                 </dd>
               </div>
             ) : null}
-            {address.neighborhood ? (
+            {displayDistrict ? (
               <div>
-                <dt className="font-medium text-slate-700">Distrito / Barrio</dt>
-                <dd className="mt-0.5">{address.neighborhood}</dd>
+                <dt className="font-medium text-slate-700">Distrito</dt>
+                <dd className="mt-0.5">{displayDistrict}</dd>
+              </div>
+            ) : null}
+            {address.neighborhoodBarrio ? (
+              <div>
+                <dt className="font-medium text-slate-700">Barrio</dt>
+                <dd className="mt-0.5">{address.neighborhoodBarrio}</dd>
               </div>
             ) : null}
           </dl>
@@ -259,6 +332,46 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
                       >
                         {contact.website}
                       </a>
+                    </dd>
+                  </div>
+                </div>
+              ) : null}
+              {hasSocialLinks ? (
+                <div className="flex items-start gap-3">
+                  <ExternalLinkIcon className="mt-0.5 h-4 w-4 shrink-0 text-slate-400" />
+                  <div className="text-sm">
+                    <dt className="font-medium text-slate-700">Redes sociales</dt>
+                    <dd className="mt-1 flex flex-wrap gap-2">
+                      {center.socialLinks?.instagram ? (
+                        <a
+                          href={center.socialLinks.instagram}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-sky-700 hover:underline"
+                        >
+                          Instagram
+                        </a>
+                      ) : null}
+                      {center.socialLinks?.facebook ? (
+                        <a
+                          href={center.socialLinks.facebook}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-sky-700 hover:underline"
+                        >
+                          Facebook
+                        </a>
+                      ) : null}
+                      {center.socialLinks?.linkedin ? (
+                        <a
+                          href={center.socialLinks.linkedin}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-sky-700 hover:underline"
+                        >
+                          LinkedIn
+                        </a>
+                      ) : null}
                     </dd>
                   </div>
                 </div>
@@ -354,7 +467,7 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
         ) : (
           <ExclamationTriangleIcon className="mt-0.5 h-5 w-5 shrink-0 text-amber-500" />
         )}
-        <div>
+        <div className="flex-1">
           <h2
             className={`text-sm font-semibold ${
               center.isVerified ? "text-emerald-800" : "text-amber-800"
@@ -369,6 +482,16 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
           >
             {verificationText.body}
           </p>
+          {center.verifiedAt ? (
+            <p className={`mt-1 text-xs ${center.isVerified ? "text-emerald-600" : "text-amber-600"}`}>
+              Última revisión:{" "}
+              {new Date(center.verifiedAt).toLocaleDateString("es-ES", {
+                day: "numeric",
+                month: "long",
+                year: "numeric",
+              })}
+            </p>
+          ) : null}
           {!center.isVerified ? (
             <Link
               href="/reclamar-ficha"

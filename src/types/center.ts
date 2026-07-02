@@ -1,32 +1,67 @@
 import type { FAQItem } from "./faq";
 
-/**
- * MVP only covers early childhood education (0-3 / 0-6).
- * Keep this union easy to extend with "colegio" | "instituto" | "fp" later
- * without reshaping the rest of the schema.
- */
 export type CenterType = "guarderia" | "escuela-infantil";
 
 export type CenterOwnership = "publico" | "privado" | "concertado";
 
 export type CenterService =
+  // Alimentación
   | "comedor"
+  | "cocina-propia"
+  | "catering"
+  // Horario
   | "horario-ampliado"
+  | "servicio-madrugadores"
+  // Idiomas
   | "bilingue"
+  | "ingles"
+  // Aulas por edad
   | "aula-0-1-anos"
   | "aula-1-2-anos"
   | "aula-2-3-anos"
+  // Instalaciones
   | "patio-exterior"
+  // Actividades
   | "psicomotricidad"
+  | "musica"
+  | "actividades-extraescolares"
+  | "verano-campamentos"
+  // Pedagogía / familia
   | "orientacion-pedagogica"
-  | "servicio-madrugadores";
+  | "escuela-de-padres"
+  // Otros
+  | "uniformes";
+
+export type VerificationStatus =
+  | "unverified"
+  | "partially_verified"
+  | "verified"
+  | "pending_manual_review";
+
+export type ConfidenceLevel = "unknown" | "low" | "medium" | "high";
+
+export interface DataConflict {
+  current: string | null;
+  proposed: string;
+  reason: string;
+  status: "pending_manual_review" | "resolved" | "dismissed";
+}
+
+export interface CenterSocialLinks {
+  instagram?: string;
+  facebook?: string;
+  linkedin?: string;
+}
 
 export interface CenterAddress {
   street: string;
   postalCode: string;
   citySlug: string;
   cityName: string;
+  /** @deprecated Actualmente almacena el distrito en datos importados. Usar `district`. */
   neighborhood?: string;
+  district?: string;
+  neighborhoodBarrio?: string;
   latitude?: number;
   longitude?: number;
 }
@@ -42,10 +77,6 @@ export interface CenterAgeRange {
   maxMonths: number;
 }
 
-/**
- * Shaped to map closely to a future `centers` table in Supabase so the
- * frontend doesn't need to change when mock data is swapped for real data.
- */
 export interface Center {
   id: string;
   slug: string;
@@ -63,6 +94,15 @@ export interface Center {
   faqs?: FAQItem[];
   isClaimed: boolean;
   isVerified: boolean;
+  // Campos de enriquecimiento
+  socialLinks?: CenterSocialLinks;
+  pedagogicalApproach?: string[];
+  sourceUrl?: string;
+  sourceUrlsSecondary?: string[];
+  verifiedAt?: string;
+  verificationStatus?: VerificationStatus;
+  confidenceLevel?: ConfidenceLevel;
+  dataConflicts?: Record<string, DataConflict>;
   createdAt: string;
   updatedAt: string;
 }
