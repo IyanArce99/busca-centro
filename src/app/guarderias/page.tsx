@@ -12,7 +12,8 @@ import {
   ForkKnifeIcon,
   ClockIcon,
 } from "@/components/Icons";
-import { getFeaturedCities, getCenterCountForCity } from "@/lib/cities";
+import { getCenters } from "@/lib/data/centers";
+import { getCities } from "@/lib/data/cities";
 import { guarderiasFaqs } from "@/data/mock-faqs";
 import { robotsMeta } from "@/lib/seo";
 
@@ -24,8 +25,15 @@ export const metadata: Metadata = {
   robots: robotsMeta(),
 };
 
-export default function GuarderiasPage() {
-  const featuredCities = getFeaturedCities();
+export default async function GuarderiasPage() {
+  const [allCenters, cities] = await Promise.all([getCenters(), getCities()]);
+  const featuredCities = cities.filter((c) => c.isFeatured).length > 0
+    ? cities.filter((c) => c.isFeatured)
+    : cities;
+  const centerCountByCity = allCenters.reduce<Record<string, number>>((acc, c) => {
+    acc[c.address.citySlug] = (acc[c.address.citySlug] ?? 0) + 1;
+    return acc;
+  }, {});
 
   return (
     <div className="mx-auto flex max-w-6xl flex-col gap-12 px-4 py-10 sm:px-6">
@@ -44,7 +52,7 @@ export default function GuarderiasPage() {
         <h2 className="text-2xl font-bold text-slate-900">Guarderías por ciudad</h2>
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {featuredCities.map((city) => (
-            <CityCard key={city.id} city={city} centerCount={getCenterCountForCity(city.slug)} />
+            <CityCard key={city.id} city={city} centerCount={centerCountByCity[city.slug] ?? 0} />
           ))}
         </div>
       </section>

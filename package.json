@@ -10,7 +10,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test:supabase": "tsx scripts/test-supabase-forms.ts"
+    "test:supabase": "tsx scripts/test-supabase-forms.ts",
+    "import:centers": "tsx scripts/import-centers.ts",
+    "normalize:cam": "tsx scripts/normalize-cam-data.ts",
+    "verify:import": "tsx scripts/verify-import.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.110.0",

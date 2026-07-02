@@ -6,7 +6,8 @@ import LeadForm from "@/components/LeadForm";
 import FAQ from "@/components/FAQ";
 import CenterCard from "@/components/CenterCard";
 import CTASection from "@/components/CTASection";
-import { getAllCenters, getCenterBySlug, getRelatedCenters, isCenterIndexable } from "@/lib/centers";
+import { getAllCenters, isCenterIndexable } from "@/lib/centers";
+import { getCenterBySlug, getCentersByCity } from "@/lib/data/centers";
 import { formatCenterType } from "@/lib/format";
 import { robotsMeta } from "@/lib/seo";
 
@@ -20,7 +21,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const center = getCenterBySlug(slug);
+  const center = await getCenterBySlug(slug);
   if (!center) return {};
 
   const indexable = isCenterIndexable(center);
@@ -35,12 +36,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function CenterPage({ params }: PageProps) {
   const { slug } = await params;
-  const center = getCenterBySlug(slug);
+  const center = await getCenterBySlug(slug);
   if (!center) notFound();
 
   const hubHref = center.type === "guarderia" ? "/guarderias" : "/escuelas-infantiles";
   const hubLabel = formatCenterType(center.type) + "s";
-  const relatedCenters = getRelatedCenters(center);
+  const cityCenters = await getCentersByCity(center.address.citySlug);
+  const relatedCenters = cityCenters
+    .filter((c) => c.slug !== center.slug && c.type === center.type)
+    .slice(0, 3);
 
   return (
     <div className="mx-auto flex max-w-4xl flex-col gap-12 px-4 py-10 sm:px-6">

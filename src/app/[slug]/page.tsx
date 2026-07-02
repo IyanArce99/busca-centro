@@ -6,8 +6,9 @@ import CenterFilters from "@/components/CenterFilters";
 import SeoTextBlock from "@/components/SeoTextBlock";
 import FAQ from "@/components/FAQ";
 import CTASection from "@/components/CTASection";
-import { getAllSeoPages, getCentersForSeoPage, getSeoPageBySlug, isSeoPageIndexable } from "@/lib/seo-pages";
-import { getCityBySlug } from "@/lib/cities";
+import { getAllSeoPages, getSeoPageBySlug, isSeoPageIndexable } from "@/lib/seo-pages";
+import { getCentersByFilters } from "@/lib/data/centers";
+import { getCityBySlug } from "@/lib/data/cities";
 import { formatCenterType } from "@/lib/format";
 import { robotsMeta } from "@/lib/seo";
 
@@ -39,8 +40,10 @@ export default async function SeoLandingPage({ params }: PageProps) {
   const seoPage = getSeoPageBySlug(slug);
   if (!seoPage) notFound();
 
-  const city = getCityBySlug(seoPage.filters.citySlug);
-  const centers = getCentersForSeoPage(seoPage);
+  const [city, centers] = await Promise.all([
+    getCityBySlug(seoPage.filters.citySlug),
+    getCentersByFilters(seoPage.filters),
+  ]);
   const neighborhoods = Array.from(
     new Set(centers.map((center) => center.address.neighborhood).filter((value): value is string => Boolean(value)))
   );

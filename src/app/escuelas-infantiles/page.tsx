@@ -5,7 +5,8 @@ import SeoTextBlock from "@/components/SeoTextBlock";
 import FAQ from "@/components/FAQ";
 import CTASection from "@/components/CTASection";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import { getFeaturedCities, getCenterCountForCity } from "@/lib/cities";
+import { getCenters } from "@/lib/data/centers";
+import { getCities } from "@/lib/data/cities";
 import { escuelasInfantilesFaqs } from "@/data/mock-faqs";
 import { robotsMeta } from "@/lib/seo";
 
@@ -17,8 +18,15 @@ export const metadata: Metadata = {
   robots: robotsMeta(),
 };
 
-export default function EscuelasInfantilesPage() {
-  const featuredCities = getFeaturedCities();
+export default async function EscuelasInfantilesPage() {
+  const [allCenters, cities] = await Promise.all([getCenters(), getCities()]);
+  const featuredCities = cities.filter((c) => c.isFeatured).length > 0
+    ? cities.filter((c) => c.isFeatured)
+    : cities;
+  const centerCountByCity = allCenters.reduce<Record<string, number>>((acc, c) => {
+    acc[c.address.citySlug] = (acc[c.address.citySlug] ?? 0) + 1;
+    return acc;
+  }, {});
 
   return (
     <div className="mx-auto flex max-w-6xl flex-col gap-12 px-4 py-10 sm:px-6">
@@ -39,7 +47,7 @@ export default function EscuelasInfantilesPage() {
             <CityCard
               key={city.id}
               city={city}
-              centerCount={getCenterCountForCity(city.slug)}
+              centerCount={centerCountByCity[city.slug] ?? 0}
               href={`/escuelas-infantiles-en-${city.slug}`}
             />
           ))}

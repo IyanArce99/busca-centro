@@ -19,8 +19,8 @@ import {
   UsersIcon,
   BuildingOfficeIcon,
 } from "@/components/Icons";
-import { getFeaturedCities, getCenterCountForCity } from "@/lib/cities";
-import { getAllCenters } from "@/lib/centers";
+import { getCenters } from "@/lib/data/centers";
+import { getCities } from "@/lib/data/cities";
 import { getAllGuides } from "@/lib/guides";
 import { homeFaqs } from "@/data/mock-faqs";
 import { robotsMeta } from "@/lib/seo";
@@ -49,10 +49,16 @@ const HOW_IT_WORKS = [
   },
 ];
 
-export default function HomePage() {
-  const featuredCities = getFeaturedCities();
-  const allCenters = getAllCenters();
-  const cityCountWithCenters = featuredCities.filter((city) => getCenterCountForCity(city.slug) > 0).length;
+export default async function HomePage() {
+  const [allCenters, cities] = await Promise.all([getCenters(), getCities()]);
+  const featuredCities = cities.filter((c) => c.isFeatured).length > 0
+    ? cities.filter((c) => c.isFeatured)
+    : cities;
+  const centerCountByCity = allCenters.reduce<Record<string, number>>((acc, c) => {
+    acc[c.address.citySlug] = (acc[c.address.citySlug] ?? 0) + 1;
+    return acc;
+  }, {});
+  const cityCountWithCenters = Object.keys(centerCountByCity).length;
   const recentCenters = [...allCenters].sort((a, b) => (a.updatedAt < b.updatedAt ? 1 : -1)).slice(0, 6);
   const featuredGuides = getAllGuides().slice(0, 3);
 
@@ -115,7 +121,7 @@ export default function HomePage() {
           <SectionHeader eyebrow="Ciudades" title="Accesos rápidos a ciudades principales" />
           <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {featuredCities.map((city) => (
-              <CityCard key={city.id} city={city} centerCount={getCenterCountForCity(city.slug)} />
+              <CityCard key={city.id} city={city} centerCount={centerCountByCity[city.slug] ?? 0} />
             ))}
           </div>
         </div>
