@@ -1,13 +1,17 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { FIELD_CLASS } from "@/lib/ui";
 import { CheckCircleIcon } from "@/components/Icons";
+import { createCenterSubmission } from "@/lib/data/forms";
 
 const REQUIRED = <span className="text-rose-500">*</span>;
 
 export default function AddCenterForm() {
+  const formRef = useRef<HTMLFormElement>(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   if (isSubmitted) {
     return (
@@ -26,69 +30,105 @@ export default function AddCenterForm() {
     );
   }
 
+  async function handleSubmit() {
+    if (!formRef.current) return;
+    setError(null);
+    setIsLoading(true);
+
+    const data = new FormData(formRef.current);
+
+    const result = await createCenterSubmission({
+      name: data.get("name") as string,
+      city: data.get("city") as string,
+      address: data.get("address") as string,
+      contactName: data.get("contact_name") as string,
+      email: data.get("email") as string,
+      phone: (data.get("phone") as string) || undefined,
+      website: (data.get("website") as string) || undefined,
+      centerType: (data.get("center_type") as string) || undefined,
+      ageRange: (data.get("age_range") as string) || undefined,
+      services: (data.get("services") as string) || undefined,
+      comments: (data.get("comments") as string) || undefined,
+    });
+
+    setIsLoading(false);
+
+    if (result.error) {
+      setError(result.error);
+      return;
+    }
+
+    setIsSubmitted(true);
+  }
+
   return (
     <form
-      onSubmit={(e) => {
-        e.preventDefault();
-        setIsSubmitted(true);
-      }}
+      ref={formRef}
+      onSubmit={(e) => { e.preventDefault(); void handleSubmit(); }}
       className="flex flex-col gap-5 rounded-xl border border-slate-200 bg-white p-6 shadow-sm"
     >
       <div className="grid gap-4 sm:grid-cols-2">
         <label className="text-sm">
           <span className="mb-1.5 block font-medium text-slate-700">Nombre del centro {REQUIRED}</span>
-          <input required type="text" className={FIELD_CLASS} />
+          <input required name="name" type="text" className={FIELD_CLASS} />
         </label>
         <label className="text-sm">
           <span className="mb-1.5 block font-medium text-slate-700">Ciudad {REQUIRED}</span>
-          <input required type="text" className={FIELD_CLASS} />
+          <input required name="city" type="text" className={FIELD_CLASS} />
         </label>
         <label className="text-sm sm:col-span-2">
           <span className="mb-1.5 block font-medium text-slate-700">Dirección {REQUIRED}</span>
-          <input required type="text" className={FIELD_CLASS} />
+          <input required name="address" type="text" className={FIELD_CLASS} />
         </label>
         <label className="text-sm">
           <span className="mb-1.5 block font-medium text-slate-700">Persona de contacto {REQUIRED}</span>
-          <input required type="text" className={FIELD_CLASS} />
+          <input required name="contact_name" type="text" className={FIELD_CLASS} />
         </label>
         <label className="text-sm">
           <span className="mb-1.5 block font-medium text-slate-700">Email {REQUIRED}</span>
-          <input required type="email" className={FIELD_CLASS} />
+          <input required name="email" type="email" className={FIELD_CLASS} />
         </label>
         <label className="text-sm">
           <span className="mb-1.5 block font-medium text-slate-700">Teléfono</span>
-          <input type="tel" className={FIELD_CLASS} />
+          <input name="phone" type="tel" className={FIELD_CLASS} />
         </label>
         <label className="text-sm">
           <span className="mb-1.5 block font-medium text-slate-700">Web</span>
-          <input type="url" className={FIELD_CLASS} />
+          <input name="website" type="url" className={FIELD_CLASS} />
         </label>
         <label className="text-sm">
           <span className="mb-1.5 block font-medium text-slate-700">Tipo de centro</span>
-          <select className={FIELD_CLASS}>
+          <select name="center_type" className={FIELD_CLASS}>
             <option value="guarderia">Guardería</option>
             <option value="escuela-infantil">Escuela infantil</option>
           </select>
         </label>
         <label className="text-sm">
           <span className="mb-1.5 block font-medium text-slate-700">Edades atendidas</span>
-          <input type="text" placeholder="Ej. 4 meses a 3 años" className={FIELD_CLASS} />
+          <input name="age_range" type="text" placeholder="Ej. 4 meses a 3 años" className={FIELD_CLASS} />
         </label>
         <label className="text-sm sm:col-span-2">
           <span className="mb-1.5 block font-medium text-slate-700">Servicios principales</span>
-          <input type="text" placeholder="Ej. comedor, horario ampliado, bilingüe" className={FIELD_CLASS} />
+          <input name="services" type="text" placeholder="Ej. comedor, horario ampliado, bilingüe" className={FIELD_CLASS} />
         </label>
         <label className="text-sm sm:col-span-2">
           <span className="mb-1.5 block font-medium text-slate-700">Comentarios</span>
-          <textarea rows={3} className={FIELD_CLASS} />
+          <textarea name="comments" rows={3} className={FIELD_CLASS} />
         </label>
       </div>
 
+      {error && (
+        <p role="alert" className="rounded-lg border border-rose-200 bg-rose-50 px-4 py-2.5 text-sm text-rose-700">
+          {error}
+        </p>
+      )}
+
       <button
         type="submit"
-        className="self-start rounded-lg bg-sky-700 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-sky-800 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2"
+        disabled={isLoading}
+        className="self-start rounded-lg bg-sky-700 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-sky-800 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 disabled:opacity-60"
       >
-        Enviar centro
+        {isLoading ? "Enviando…" : "Enviar centro"}
       </button>
     </form>
   );

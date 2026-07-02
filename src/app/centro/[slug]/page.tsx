@@ -56,7 +56,7 @@ export default async function CenterPage({ params }: PageProps) {
       <CenterDetail center={center} />
 
       <section id="solicitar-informacion">
-        <LeadForm centerName={center.name} />
+        <LeadForm centerName={center.name} centerSlug={center.slug} />
       </section>
 
       <section className="rounded-xl border border-slate-200 bg-white p-6">
