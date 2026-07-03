@@ -50,15 +50,21 @@ export default async function SeoLandingPage({ params }: PageProps) {
   const seoPage = getSeoPageBySlug(slug);
   if (!seoPage) notFound();
 
-  const [city, centers] = await Promise.all([
+  const [city, centers, allCenters] = await Promise.all([
     getCityBySlug(seoPage.filters.citySlug),
     getCentersByFilters(seoPage.filters),
+    getCenters(),
   ]);
   const neighborhoods = Array.from(
     new Set(centers.map((center) => center.address.neighborhood).filter((value): value is string => Boolean(value)))
   );
+  // Only link to related landings that are themselves indexable, so we don't
+  // pass internal links to noindex/disabled or thin landing pages.
   const relatedSeoPages = getAllSeoPages().filter(
-    (page) => page.filters.citySlug === seoPage.filters.citySlug && page.slug !== seoPage.slug
+    (page) =>
+      page.filters.citySlug === seoPage.filters.citySlug &&
+      page.slug !== seoPage.slug &&
+      isSeoPageIndexableFromCenters(page, allCenters)
   );
   const hubHref = seoPage.filters.centerType === "guarderia" ? "/guarderias" : "/escuelas-infantiles";
   const hubLabel = formatCenterType(seoPage.filters.centerType) + "s";

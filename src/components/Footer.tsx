@@ -8,7 +8,7 @@ const COLUMNS = [
       { href: "/guarderias", label: "Guarderías" },
       { href: "/escuelas-infantiles", label: "Escuelas infantiles" },
       { href: "/ciudades", label: "Centros por ciudad" },
-      { href: "/blog", label: "Blog" },
+      { href: "/blog", label: "Guías" },
     ],
   },
   {
@@ -22,6 +22,7 @@ const COLUMNS = [
   {
     title: "Legal",
     links: [
+      { href: "/contacto", label: "Contacto" },
       { href: "/aviso-legal", label: "Aviso legal" },
       { href: "/privacidad", label: "Privacidad" },
       { href: "/cookies", label: "Cookies" },

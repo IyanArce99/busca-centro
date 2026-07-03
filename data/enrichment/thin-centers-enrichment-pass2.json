@@ -1,0 +1,202 @@
+[
+  {
+    "id": "eb0f284a-a6d6-4d31-b80f-711c85e83be7",
+    "name": "BOREAL DREAMING TOGETHER",
+    "ownership": "privado",
+    "services": [
+      "bilingue",
+      "ingles"
+    ],
+    "approach": [
+      "montessori"
+    ],
+    "schedule": null,
+    "conf": "medium",
+    "faqCount": 4,
+    "long_description": "BOREAL DREAMING TOGETHER es una guardería privada ubicada en el distrito madrileño de Hortaleza. Está orientada al primer ciclo de Educación Infantil, la etapa de 0 a 3 años.\n\nEl centro ofrece, según la información pública, un proyecto bilingüe. Trabaja con la metodología Montessori.\n\nPara detalles sobre el día a día, el horario y el proceso de admisión, lo mejor es ponerse en contacto directamente con el centro."
+  },
+  {
+    "id": "08490f02-a1c3-43ca-aba3-9a154056d7ea",
+    "name": "LA VIRGEN NIÑA",
+    "ownership": "privado",
+    "services": [
+      "comedor",
+      "ingles",
+      "musica"
+    ],
+    "approach": [],
+    "schedule": "Lunes a viernes de 7:30 a 18:00",
+    "conf": "medium",
+    "faqCount": 6,
+    "long_description": "LA VIRGEN NIÑA es una escuela infantil privada situada en el barrio de San Juan Bautista, en el distrito de Hortaleza (Madrid). Atiende el primer ciclo de Educación Infantil, es decir, la etapa de 0 a 3 años.\n\nLos datos publicados incluyen servicios como iniciación al inglés y servicio de comedor. También se mencionan música.\n\nLos datos se han recopilado de fuentes públicas; conviene verificar con el propio centro la disponibilidad de plaza, el calendario y las tarifas antes de decidir."
+  },
+  {
+    "id": "aaf3ad28-9ca8-4985-a4ac-eab39910bf3b",
+    "name": "EIPA ESCUELA INFANTIL PARQUE DE LAS AVENIDAS",
+    "ownership": "privado",
+    "services": [],
+    "approach": [
+      "reggio-emilia"
+    ],
+    "schedule": null,
+    "conf": "medium",
+    "faqCount": 3,
+    "long_description": "EIPA ESCUELA INFANTIL PARQUE DE LAS AVENIDAS es una escuela infantil privada situada en el distrito de Salamanca, en Madrid. Atiende el primer ciclo de Educación Infantil, es decir, la etapa de 0 a 3 años.\n\nSegún la información pública, su proyecto educativo se basa en la metodología Reggio Emilia.\n\nLa ficha recopila datos de ubicación, contacto y servicios a partir de fuentes públicas. Antes de solicitar plaza conviene confirmar directamente con el centro los horarios, la disponibilidad y las condiciones de admisión."
+  },
+  {
+    "id": "23c85dad-5ef1-4b17-84c8-899098f2a537",
+    "name": "BULARAS INIA",
+    "ownership": "publico",
+    "services": [
+      "comedor",
+      "catering",
+      "horario-ampliado",
+      "ingles"
+    ],
+    "approach": [],
+    "schedule": null,
+    "conf": "medium",
+    "faqCount": 6,
+    "long_description": "Situada en Madrid, en el barrio de Ciudad Universitaria (distrito de Moncloa-Aravaca), BULARAS INIA es una escuela infantil pública. Su actividad se centra en el primer ciclo de Educación Infantil, de 0 a 3 años.\n\nEntre los servicios recogidos en fuentes públicas figuran comedor con servicio de catering, iniciación al inglés y horario ampliado.\n\nLa ficha recopila datos de ubicación, contacto y servicios a partir de fuentes públicas. Antes de solicitar plaza conviene confirmar directamente con el centro los horarios, la disponibilidad y las condiciones de admisión."
+  },
+  {
+    "id": "951abe34-4a16-4f7e-8b42-73b27fe7b99d",
+    "name": "EL BARBERILLO DE LAVAPIES",
+    "ownership": "publico",
+    "services": [
+      "comedor",
+      "horario-ampliado"
+    ],
+    "approach": [],
+    "schedule": null,
+    "conf": "medium",
+    "faqCount": 6,
+    "long_description": "EL BARBERILLO DE LAVAPIES es una escuela infantil pública situada en el barrio de Delicias, en el distrito de Arganzuela (Madrid). Atiende el primer ciclo de Educación Infantil, es decir, la etapa de 0 a 3 años.\n\nLos datos publicados incluyen servicios como horario ampliado y servicio de comedor.\n\nLos datos se han recopilado de fuentes públicas; conviene verificar con el propio centro la disponibilidad de plaza, el calendario y las tarifas antes de decidir."
+  },
+  {
+    "id": "9e1832f5-d017-4c20-95a1-caff7a7fe138",
+    "name": "EL TREN DE LA FRESA",
+    "ownership": "publico",
+    "services": [
+      "comedor",
+      "catering",
+      "horario-ampliado",
+      "patio-exterior"
+    ],
+    "approach": [],
+    "schedule": null,
+    "conf": "medium",
+    "faqCount": 6,
+    "long_description": "EL TREN DE LA FRESA es una escuela infantil pública ubicada en el distrito madrileño de Arganzuela, en el barrio de Delicias. Está orientada al primer ciclo de Educación Infantil, la etapa de 0 a 3 años.\n\nEl centro ofrece, según la información pública, patio exterior, horario ampliado y comedor con servicio de catering.\n\nPara detalles sobre el día a día, el horario y el proceso de admisión, lo mejor es ponerse en contacto directamente con el centro."
+  },
+  {
+    "id": "08591fa0-d00b-4b14-a313-3582865e5084",
+    "name": "ROCIO DURCAL",
+    "ownership": "publico",
+    "services": [
+      "comedor",
+      "horario-ampliado"
+    ],
+    "approach": [],
+    "schedule": null,
+    "conf": "medium",
+    "faqCount": 6,
+    "long_description": "ROCIO DURCAL es una escuela infantil pública ubicada en el distrito madrileño de Hortaleza, en el barrio de Valdefuentes. Está orientada al primer ciclo de Educación Infantil, la etapa de 0 a 3 años.\n\nSegún la información disponible, el centro cuenta con servicio de comedor y horario ampliado.\n\nEsta información procede de fuentes públicas y puede no estar completa. Para conocer horarios actualizados, plazas y cuotas, lo recomendable es contactar con el centro."
+  },
+  {
+    "id": "aadff91f-1f7f-4e8b-a2bb-ecbcfde37187",
+    "name": "MARGARITA SALAS",
+    "ownership": "publico",
+    "services": [
+      "horario-ampliado"
+    ],
+    "approach": [],
+    "schedule": null,
+    "conf": "medium",
+    "faqCount": 5,
+    "long_description": "MARGARITA SALAS es una escuela infantil de titularidad pública que presta servicio en el barrio de Pacífico, en el distrito de Retiro (Madrid). Atiende el primer ciclo de Educación Infantil, es decir, la etapa de 0 a 3 años.\n\nEl centro ofrece, según la información pública, horario ampliado.\n\nPara detalles sobre el día a día, el horario y el proceso de admisión, lo mejor es ponerse en contacto directamente con el centro."
+  },
+  {
+    "id": "76eb8258-ce5f-463d-ab50-a71a3a610717",
+    "name": "MOWGLI",
+    "ownership": "publico",
+    "services": [
+      "comedor",
+      "horario-ampliado"
+    ],
+    "approach": [],
+    "schedule": null,
+    "conf": "medium",
+    "faqCount": 6,
+    "long_description": "MOWGLI, escuela infantil pública, se encuentra en el distrito madrileño de Arganzuela. Está orientada al primer ciclo de Educación Infantil, la etapa de 0 a 3 años.\n\nEntre los servicios recogidos en fuentes públicas figuran servicio de comedor y horario ampliado.\n\nLa ficha recopila datos de ubicación, contacto y servicios a partir de fuentes públicas. Antes de solicitar plaza conviene confirmar directamente con el centro los horarios, la disponibilidad y las condiciones de admisión."
+  },
+  {
+    "id": "41e497ae-f44c-4876-b842-e66c84385abf",
+    "name": "MUDARRA",
+    "ownership": "publico",
+    "services": [
+      "comedor",
+      "horario-ampliado"
+    ],
+    "approach": [],
+    "schedule": null,
+    "conf": "medium",
+    "faqCount": 6,
+    "long_description": "Situada en Madrid, en el distrito de Hortaleza, MUDARRA es una escuela infantil pública. Su actividad se centra en el primer ciclo de Educación Infantil, de 0 a 3 años.\n\nEntre los servicios recogidos en fuentes públicas figuran horario ampliado y servicio de comedor.\n\nLa ficha recopila datos de ubicación, contacto y servicios a partir de fuentes públicas. Antes de solicitar plaza conviene confirmar directamente con el centro los horarios, la disponibilidad y las condiciones de admisión."
+  },
+  {
+    "id": "ebf1b842-9366-43ea-a76f-108f9b14b459",
+    "name": "ROSA",
+    "ownership": "publico",
+    "services": [
+      "comedor",
+      "horario-ampliado"
+    ],
+    "approach": [],
+    "schedule": null,
+    "conf": "medium",
+    "faqCount": 6,
+    "long_description": "ROSA es una escuela infantil de titularidad pública que presta servicio en el barrio de Valverde, en el distrito de Chamartín (Madrid). Atiende el primer ciclo de Educación Infantil, es decir, la etapa de 0 a 3 años.\n\nEl centro ofrece, según la información pública, servicio de comedor y horario ampliado.\n\nPara detalles sobre el día a día, el horario y el proceso de admisión, lo mejor es ponerse en contacto directamente con el centro."
+  },
+  {
+    "id": "a5f0a48a-102f-45ee-9170-36d984385b43",
+    "name": "LUIS BELLO",
+    "ownership": "publico",
+    "services": [
+      "comedor",
+      "horario-ampliado"
+    ],
+    "approach": [],
+    "schedule": null,
+    "conf": "medium",
+    "faqCount": 6,
+    "long_description": "LUIS BELLO es una escuela infantil de titularidad pública que presta servicio en el barrio de Prosperidad, en el distrito de Chamartín (Madrid). Atiende el primer ciclo de Educación Infantil, es decir, la etapa de 0 a 3 años.\n\nEl centro ofrece, según la información pública, horario ampliado y servicio de comedor.\n\nPara detalles sobre el día a día, el horario y el proceso de admisión, lo mejor es ponerse en contacto directamente con el centro."
+  },
+  {
+    "id": "4cf5b474-5847-4f5d-9b13-b45dec06a1a9",
+    "name": "GUARDILLA INFANTIL",
+    "ownership": "publico",
+    "services": [
+      "comedor",
+      "horario-ampliado"
+    ],
+    "approach": [],
+    "schedule": null,
+    "conf": "medium",
+    "faqCount": 6,
+    "long_description": "GUARDILLA INFANTIL es una escuela infantil pública ubicada en el distrito madrileño de Chamberí, en el barrio de Vallehermoso. Está orientada al primer ciclo de Educación Infantil, la etapa de 0 a 3 años.\n\nSegún la información disponible, el centro cuenta con horario ampliado y servicio de comedor.\n\nEsta información procede de fuentes públicas y puede no estar completa. Para conocer horarios actualizados, plazas y cuotas, lo recomendable es contactar con el centro."
+  },
+  {
+    "id": "d2803c85-fcae-4862-b1b9-5e2617575e24",
+    "name": "COLEGIO MADRID FSM-SOTILLO",
+    "ownership": "privado",
+    "services": [
+      "patio-exterior"
+    ],
+    "approach": [],
+    "schedule": null,
+    "conf": "medium",
+    "faqCount": 4,
+    "long_description": "COLEGIO MADRID FSM-SOTILLO es una guardería privada con sede en Madrid, en el distrito de Hortaleza. Su actividad se centra en el primer ciclo de Educación Infantil, de 0 a 3 años.\n\nSegún la información disponible, el centro cuenta con patio exterior.\n\nEsta información procede de fuentes públicas y puede no estar completa. Para conocer horarios actualizados, plazas y cuotas, lo recomendable es contactar con el centro."
+  }
+]

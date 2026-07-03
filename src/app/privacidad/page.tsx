@@ -27,7 +27,7 @@ export default function PrivacidadPage() {
             <li><strong>Denominación social:</strong> Iyan Arcega SL</li>
             <li><strong>CIF:</strong> B23869027</li>
             <li><strong>Domicilio:</strong> Calle Tomás Miller 47, 35007 Las Palmas de Gran Canaria, España</li>
-            <li><strong>Email de contacto:</strong> [EMAIL_LEGAL]</li>
+            <li><strong>Email de contacto:</strong> legal@buscacentro.es</li>
           </ul>
         </section>
 
@@ -123,7 +123,7 @@ export default function PrivacidadPage() {
             Para ejercer cualquiera de los derechos anteriores, el usuario puede dirigir su solicitud a:
           </p>
           <ul className="ml-4 flex flex-col gap-1.5 list-disc">
-            <li><strong>Por correo electrónico:</strong> [EMAIL_LEGAL]</li>
+            <li><strong>Por correo electrónico:</strong> legal@buscacentro.es</li>
             <li><strong>Por correo postal:</strong> Iyan Arcega SL, Calle Tomás Miller 47, 35007 Las Palmas de Gran Canaria</li>
           </ul>
           <p>

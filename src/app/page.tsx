@@ -24,6 +24,7 @@ import { getCities } from "@/lib/data/cities";
 import { getAllGuides } from "@/lib/guides";
 import { homeFaqs } from "@/data/mock-faqs";
 import { robotsMeta } from "@/lib/seo";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -62,8 +63,31 @@ export default async function HomePage() {
   const recentCenters = [...allCenters].sort((a, b) => (a.updatedAt < b.updatedAt ? 1 : -1)).slice(0, 6);
   const featuredGuides = getAllGuides().slice(0, 3);
 
+  // Site-level structured data. No SearchAction: there is no dedicated search
+  // results endpoint yet, so advertising one would be misleading.
+  const siteJsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: SITE_NAME,
+      legalName: "Iyan Arcega SL",
+      url: SITE_URL,
+      description: SITE_DESCRIPTION,
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+  ];
+
   return (
     <div className="flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }}
+      />
       {/* ── Hero ── */}
       <section className="relative overflow-hidden bg-gradient-to-br from-sky-900 via-sky-800 to-slate-900">
         {/* Decorative blobs — pure CSS, no images */}

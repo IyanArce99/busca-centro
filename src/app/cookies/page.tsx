@@ -68,9 +68,9 @@ export default function CookiesPage() {
             analítica web ni servicios de publicidad.
           </p>
           <p>
-            Si en el futuro se activan herramientas de analítica (como [PENDIENTE_CONFIRMAR_ANALITICA]),
-            se solicitará el consentimiento previo del usuario conforme a la normativa aplicable y se
-            actualizará esta política con los detalles correspondientes.
+            Si en el futuro se activan herramientas de analítica web, se solicitará el consentimiento
+            previo del usuario conforme a la normativa aplicable y se actualizará esta política con los
+            detalles de cada herramienta (proveedor, finalidad y duración de las cookies).
           </p>
         </section>
 

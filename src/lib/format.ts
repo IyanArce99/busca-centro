@@ -82,3 +82,30 @@ export function phoneHref(phone: string): string {
 export function emailHref(email: string): string {
   return `mailto:${email}`;
 }
+
+/**
+ * Normalize a stored website into a safe absolute URL. Many imported centers
+ * store the site without a scheme (e.g. "www.centro.es"), which the browser
+ * would otherwise treat as a relative link (→ /centro/www.centro.es). Prepend
+ * https:// when no http(s) scheme is present.
+ */
+export function websiteHref(website: string): string {
+  const trimmed = website.trim();
+  if (/^https?:\/\//i.test(trimmed)) return trimmed;
+  return `https://${trimmed}`;
+}
+
+/** Cleaned website label for display (drops scheme and trailing slash). */
+export function formatWebsiteLabel(website: string): string {
+  return website.trim().replace(/^https?:\/\//i, "").replace(/\/+$/, "");
+}
+
+/** Google Maps "search" deep link that opens the location in a new tab. */
+export function mapsSearchUrl(query: string): string {
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+}
+
+/** Google Maps embeddable URL (no API key required) for an <iframe>. */
+export function mapsEmbedUrl(query: string): string {
+  return `https://www.google.com/maps?q=${encodeURIComponent(query)}&output=embed`;
+}

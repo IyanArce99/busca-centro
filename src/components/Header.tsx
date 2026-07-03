@@ -8,7 +8,7 @@ const NAV_LINKS = [
   { href: "/escuelas-infantiles", label: "Escuelas infantiles" },
   { href: "/ciudades", label: "Ciudades" },
   { href: "/para-centros", label: "Para centros" },
-  { href: "/blog", label: "Blog" },
+  { href: "/blog", label: "Guías" },
 ];
 
 export default function Header() {

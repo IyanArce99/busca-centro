@@ -6,7 +6,11 @@ import {
   formatOwnership,
   formatPedagogicalApproach,
   formatService,
+  formatWebsiteLabel,
+  mapsEmbedUrl,
+  mapsSearchUrl,
   phoneHref,
+  websiteHref,
 } from "@/lib/format";
 import {
   buildContactText,
@@ -30,7 +34,6 @@ import {
   GlobeAltIcon,
   InformationCircleIcon,
   LeafIcon,
-  MapIcon,
   MapPinIcon,
   MusicalNoteIcon,
   PhoneIcon,
@@ -90,6 +93,14 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
   const { address, contact } = center;
   const displayDistrict = address.district ?? address.neighborhood;
   const location = [displayDistrict, address.cityName].filter(Boolean).join(", ");
+  // Google Maps query: precise coordinates when available, otherwise the street
+  // address, falling back to the center name + city.
+  const mapQuery =
+    address.latitude != null && address.longitude != null
+      ? `${address.latitude},${address.longitude}`
+      : address.street
+        ? [address.street, address.postalCode, address.cityName].filter(Boolean).join(", ")
+        : `${center.name}, ${address.cityName}`;
   const hasContactInfo = !!(contact.phone || contact.email || contact.website);
   const hasSocialLinks = !!(
     center.socialLinks?.instagram ||
@@ -201,7 +212,7 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
           ) : null}
           {contact.website ? (
             <a
-              href={contact.website}
+              href={websiteHref(contact.website)}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-700 transition-colors hover:bg-slate-50"
@@ -225,9 +236,22 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
           <PhotoIcon className="h-8 w-8 text-slate-300" />
           <span className="text-sm">Galería de fotos próximamente</span>
         </div>
-        <div className="flex h-44 flex-col items-center justify-center gap-3 rounded-xl border border-dashed border-slate-300 bg-slate-50 text-slate-400">
-          <MapIcon className="h-8 w-8 text-slate-300" />
-          <span className="text-sm">Mapa de ubicación próximamente</span>
+        <div className="relative h-44 overflow-hidden rounded-xl border border-slate-200">
+          <iframe
+            title={`Mapa de ubicación de ${center.name}`}
+            src={mapsEmbedUrl(mapQuery)}
+            className="h-full w-full"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+          <a
+            href={mapsSearchUrl(mapQuery)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute bottom-2 right-2 rounded-full bg-white/95 px-3 py-1 text-xs font-medium text-sky-700 shadow-sm ring-1 ring-slate-200 transition-colors hover:bg-white"
+          >
+            Ver en Google Maps
+          </a>
         </div>
       </div>
 
@@ -279,8 +303,15 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
               <div>
                 <dt className="font-medium text-slate-700">Dirección</dt>
                 <dd className="mt-0.5">
-                  {address.street}
-                  {address.postalCode ? `, ${address.postalCode}` : ""} {address.cityName}
+                  <a
+                    href={mapsSearchUrl(mapQuery)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sky-700 hover:underline"
+                  >
+                    {address.street}
+                    {address.postalCode ? `, ${address.postalCode}` : ""} {address.cityName}
+                  </a>
                 </dd>
               </div>
             ) : null}
@@ -341,12 +372,12 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
                     <dt className="font-medium text-slate-700">Web</dt>
                     <dd>
                       <a
-                        href={contact.website}
+                        href={websiteHref(contact.website)}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="break-all text-sky-700 hover:underline"
                       >
-                        {contact.website}
+                        {formatWebsiteLabel(contact.website)}
                       </a>
                     </dd>
                   </div>

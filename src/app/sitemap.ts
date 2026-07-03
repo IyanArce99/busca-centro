@@ -22,6 +22,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${SITE_URL}/escuelas-infantiles`, changeFrequency: "weekly", priority: 0.9 },
     { url: `${SITE_URL}/ciudades`, changeFrequency: "weekly", priority: 0.7 },
     { url: `${SITE_URL}/para-centros`, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${SITE_URL}/contacto`, changeFrequency: "yearly", priority: 0.3 },
     { url: `${SITE_URL}/aviso-legal`, changeFrequency: "yearly", priority: 0.3 },
     { url: `${SITE_URL}/privacidad`, changeFrequency: "yearly", priority: 0.3 },
     { url: `${SITE_URL}/cookies`, changeFrequency: "yearly", priority: 0.3 },
