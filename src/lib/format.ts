@@ -22,10 +22,6 @@ const SERVICE_LABELS: Record<CenterService, string> = {
   // Idiomas
   bilingue: "Bilingüe",
   ingles: "Inglés",
-  // Aulas por edad
-  "aula-0-1-anos": "Aula 0-1 años",
-  "aula-1-2-anos": "Aula 1-2 años",
-  "aula-2-3-anos": "Aula 2-3 años",
   // Instalaciones
   "patio-exterior": "Patio exterior",
   // Actividades

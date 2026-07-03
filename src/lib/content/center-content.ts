@@ -21,15 +21,20 @@ const OWNERSHIP_ADJ: Record<string, string> = {
 
 const SVC_LABEL: Partial<Record<CenterService, string>> = {
   comedor: "comedor",
+  "cocina-propia": "cocina propia",
+  catering: "catering",
   "horario-ampliado": "horario ampliado",
+  "servicio-madrugadores": "servicio de madrugadores",
   bilingue: "proyecto bilingüe",
-  "aula-0-1-anos": "aula 0-1 años",
-  "aula-1-2-anos": "aula 1-2 años",
-  "aula-2-3-anos": "aula 2-3 años",
+  ingles: "inglés",
   "patio-exterior": "patio exterior",
   psicomotricidad: "psicomotricidad",
+  musica: "música",
+  "actividades-extraescolares": "actividades extraescolares",
+  "verano-campamentos": "verano o campamentos",
   "orientacion-pedagogica": "orientación pedagógica",
-  "servicio-madrugadores": "servicio de madrugadores",
+  "escuela-de-padres": "escuela de padres",
+  uniformes: "uniformes",
 };
 
 // ── Internal helpers ──────────────────────────────────────────────────────────
@@ -136,16 +141,17 @@ export function buildLocationText(center: Center): string {
 
 export function buildEducationStageText(center: Center): string {
   const age = ageText(center.ageRange.minMonths, center.ageRange.maxMonths);
-  const aulas = center.services.filter(s => s.startsWith("aula-"));
-  const aulaLabels = aulas.map(svcLabel);
+  const { minMonths, maxMonths } = center.ageRange;
 
   let text =
     center.type === "escuela-infantil"
       ? `Según los datos disponibles, ${center.name} es un centro de primer ciclo de Educación Infantil, etapa que comprende habitualmente ${age}.`
       : `Según los datos disponibles, ${center.name} es una guardería de primer ciclo de Educación Infantil, orientada habitualmente a niños y niñas ${age}.`;
 
-  if (aulaLabels.length > 0) {
-    text += ` Los servicios registrados indican atención diferenciada por tramos de edad: ${joinList(aulaLabels)}.`;
+  if (maxMonths <= 36) {
+    text += " El primer ciclo de Educación Infantil abarca desde el nacimiento hasta los 3 años.";
+  } else if (minMonths >= 36) {
+    text += " El segundo ciclo de Educación Infantil abarca de los 3 a los 6 años.";
   }
 
   text +=
@@ -156,28 +162,12 @@ export function buildEducationStageText(center: Center): string {
 // ── buildServicesText ─────────────────────────────────────────────────────────
 
 export function buildServicesText(center: Center): string {
-  const extra = center.services.filter(s =>
-    ["comedor", "horario-ampliado", "bilingue", "patio-exterior", "psicomotricidad", "orientacion-pedagogica", "servicio-madrugadores"].includes(s),
-  );
-  const aulas = center.services.filter(s => s.startsWith("aula-"));
-
   if (center.services.length === 0) {
-    return `Este centro aún no ha completado la información de servicios en el directorio. Si representas a ${center.name}, puedes reclamar esta ficha para añadir comedor, horario ampliado, idiomas, fotos y otros datos útiles para las familias.`;
+    return `Por ahora no tenemos servicios específicos confirmados para este centro. La ficha se ha elaborado a partir de información pública y puede estar pendiente de verificación. Si representas a ${center.name}, puedes reclamar la ficha para completar datos sobre comedor, horarios, idiomas, instalaciones y actividades.`;
   }
 
-  const parts: string[] = [];
-  if (aulas.length > 0) {
-    parts.push(
-      `Los datos disponibles indican atención diferenciada por tramos de edad del primer ciclo: ${joinList(aulas.map(svcLabel))}.`,
-    );
-  }
-  if (extra.length > 0) {
-    parts.push(`Entre los servicios registrados figura también: ${joinList(extra.map(svcLabel))}.`);
-  }
-  parts.push(
-    `Otros aspectos como el proyecto educativo, las actividades complementarias, los idiomas de trabajo o los materiales deben confirmarse directamente con ${center.name}.`,
-  );
-  return parts.join(" ");
+  const svcList = joinList(center.services.map(svcLabel));
+  return `Según la información pública disponible, este centro cuenta con: ${svcList}. Otros detalles como horarios concretos, condiciones del servicio o actividades adicionales deben confirmarse directamente con ${center.name}.`;
 }
 
 // ── buildScheduleAndAdmissionsText ────────────────────────────────────────────
@@ -260,58 +250,49 @@ export function buildQuestionsToAsk(center: Center): string[] {
 
 // ── buildCenterFaqs ───────────────────────────────────────────────────────────
 
+// Fallback SOLO para centros sin FAQs en base de datos. Máximo 2-3 preguntas
+// básicas y honestas, sin preguntar por servicios no confirmados.
+// La prioridad (center.faqs de Supabase) se resuelve en la página del centro.
 export function buildCenterFaqs(center: Center): FAQItem[] {
-  const { neighborhood, cityName, street, postalCode } = center.address;
-  const age = ageText(center.ageRange.minMonths, center.ageRange.maxMonths);
-  const hasComedor = center.services.includes("comedor");
-  const hasHorario = center.services.includes("horario-ampliado");
-  const hasBilingue = center.services.includes("bilingue");
+  const { neighborhood, cityName } = center.address;
+  const hasContact = !!(center.contact.phone || center.contact.email || center.contact.website);
+  const hasAge = center.ageRange.maxMonths > 0;
 
-  return [
-    {
-      question: `¿Qué tipo de centro es ${center.name}?`,
-      answer: `${center.name} es ${TYPE_ART[center.type] ?? "un centro"} ${OWNERSHIP_ADJ[center.ownership] ?? "privada"} de primer ciclo de Educación Infantil, orientado a niños y niñas ${age}.`,
-    },
-    {
-      question: `¿Dónde está ${center.name}?`,
-      answer:
-        neighborhood && street
-          ? `El centro se encuentra en ${street}${postalCode ? `, ${postalCode}` : ""} ${cityName}, en el distrito de ${neighborhood}. Antes de acudir, confirma el horario de atención y si es posible concertar una visita.`
-          : `El centro está en ${cityName}${neighborhood ? `, en el distrito de ${neighborhood}` : ""}. Consulta la dirección exacta en los datos de contacto de esta ficha.`,
-    },
-    {
-      question: `¿Qué edades admite ${center.name}?`,
-      answer: `Según los datos disponibles, el centro está orientado al primer ciclo de Educación Infantil, habitualmente ${age}. Confirma siempre las edades admitidas y la disponibilidad de plaza directamente con el centro antes de realizar cualquier gestión.`,
-    },
-    {
-      question: `¿${center.name} es público, privado o concertado?`,
-      answer: buildOwnershipAnswer(center),
-    },
-    {
+  const faqs: FAQItem[] = [];
+
+  // 1) Ubicación — siempre disponible
+  faqs.push({
+    question: `¿Dónde está ${center.name}?`,
+    answer: neighborhood
+      ? `${center.name} está en el distrito de ${neighborhood}, ${cityName}. Puedes consultar la dirección exacta en la ficha y confirmar cualquier detalle directamente con el centro.`
+      : `${center.name} está en ${cityName}. Puedes consultar la dirección exacta en la ficha y confirmar cualquier detalle directamente con el centro.`,
+  });
+
+  // 2) Edades — solo si hay etapa/edad disponible
+  if (hasAge) {
+    const age = ageText(center.ageRange.minMonths, center.ageRange.maxMonths);
+    faqs.push({
+      question: `¿Qué edades atiende ${center.name}?`,
+      answer: `Según la información disponible, ${center.name} está orientado al primer ciclo de Educación Infantil, habitualmente ${age}. Conviene confirmar las edades admitidas y la disponibilidad de plaza directamente con el centro.`,
+    });
+  }
+
+  // 3) Contacto si existe; si no, verificación de la ficha (máx. 3 FAQs)
+  if (hasContact) {
+    faqs.push({
       question: `¿Cómo puedo contactar con ${center.name}?`,
       answer: buildFaqContactAnswer(center),
-    },
-    {
-      question: `¿${center.name} tiene comedor u horario ampliado?`,
-      answer: buildServicesAnswer(hasComedor, hasHorario, hasBilingue, center.name),
-    },
-    {
-      question: `¿La información de ${center.name} está verificada?`,
+    });
+  } else {
+    faqs.push({
+      question: `¿La información de ${center.name} está verificada por el centro?`,
       answer: center.isVerified
-        ? `Sí, la ficha de ${center.name} ha sido verificada por el centro. Los datos mostrados han sido confirmados por su equipo.`
-        : `Esta ficha todavía no ha sido verificada por ${center.name}. La información puede proceder de fuentes públicas y puede no estar completamente actualizada. Si detectas algún error, puedes indicárnoslo a través del formulario de reclamación de ficha.`,
-    },
-  ];
-}
+        ? `Sí. La ficha de ${center.name} ha sido verificada o confirmada por el propio centro.`
+        : `Todavía no. La ficha de ${center.name} no ha sido verificada por el centro: los datos proceden de fuentes públicas y pueden estar incompletos. Si representas al centro, puedes reclamar la ficha para completarla.`,
+    });
+  }
 
-function buildOwnershipAnswer(center: Center): string {
-  if (center.ownership === "publico") {
-    return `${center.name} es un centro de titularidad pública. La admisión suele realizarse a través del proceso oficial de escolarización de la Comunidad de Madrid. Consulta los plazos y requisitos vigentes en los canales oficiales.`;
-  }
-  if (center.ownership === "concertado") {
-    return `${center.name} es un centro concertado: tiene financiación pública pero gestión privada. La admisión puede tener criterios específicos. Contacta con el centro para conocer el proceso de admisión actualizado.`;
-  }
-  return `${center.name} es un centro de titularidad privada. Las plazas, cuotas y condiciones de admisión se gestionan directamente con el centro. Te recomendamos contactar para conocer la disponibilidad actual.`;
+  return faqs.slice(0, 3);
 }
 
 function buildFaqContactAnswer(center: Center): string {
@@ -325,18 +306,6 @@ function buildFaqContactAnswer(center: Center): string {
     return `No se dispone de datos de contacto registrados para este centro en la ficha actual. Te recomendamos buscar información a través de fuentes oficiales o acudir a la dirección registrada.`;
   }
   return `Puedes contactar con ${center.name} ${joinList(parts)}. Te recomendamos confirmar siempre la información sobre plazas, horarios y cuotas directamente con el centro.`;
-}
-
-function buildServicesAnswer(hasComedor: boolean, hasHorario: boolean, hasBilingue: boolean, name: string): string {
-  const confirmed: string[] = [];
-  if (hasComedor) confirmed.push("comedor");
-  if (hasHorario) confirmed.push("horario ampliado");
-  if (hasBilingue) confirmed.push("proyecto bilingüe");
-
-  if (confirmed.length === 0) {
-    return `No consta en los datos disponibles si ${name} dispone de comedor, horario ampliado u otros servicios adicionales. Te recomendamos preguntar directamente al centro para obtener información actualizada.`;
-  }
-  return `Entre los servicios registrados para ${name} figura: ${joinList(confirmed)}. Para confirmar disponibilidad, condiciones y posibles costes adicionales, contacta directamente con el centro.`;
 }
 
 // ── buildSimilarCentersIntro ──────────────────────────────────────────────────

@@ -257,11 +257,13 @@ for (const center of backup) {
     // Coordinates
     if (lat && lng) { enriched.latitude = lat; enriched.longitude = lng }
 
-    // Services (merge with existing aula-* services)
+    // Services from CSV — never include aulas (those are age/stage data, not services)
     if (services.length > 0) {
-      const existingAulas = (center.services || []).filter(s => s.startsWith('aula-'))
-      const merged = [...new Set([...existingAulas, ...services])]
-      if (JSON.stringify(merged.sort()) !== JSON.stringify((center.services || []).sort())) {
+      const existingReal = (center.services || []).filter(s => !s.startsWith('aula-'))
+      const cmp = (a, b) => a.localeCompare(b)
+      const merged = [...new Set([...existingReal, ...services])].sort(cmp)
+      const beforeReal = [...existingReal].sort(cmp)
+      if (JSON.stringify(merged) !== JSON.stringify(beforeReal)) {
         enriched.services = merged
       }
     }

@@ -15,10 +15,6 @@ export type CenterService =
   // Idiomas
   | "bilingue"
   | "ingles"
-  // Aulas por edad
-  | "aula-0-1-anos"
-  | "aula-1-2-anos"
-  | "aula-2-3-anos"
   // Instalaciones
   | "patio-exterior"
   // Actividades

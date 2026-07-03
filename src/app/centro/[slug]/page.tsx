@@ -76,7 +76,13 @@ export default async function CenterPage({ params }: PageProps) {
   );
   const relatedCenters = [...sameNeighborhood, ...otherNeighborhood].slice(0, 3);
 
-  const faqs = center.faqs && center.faqs.length > 0 ? center.faqs : buildCenterFaqs(center);
+  // Prioridad: FAQs reales de Supabase (center.faqs). Si no hay ninguna válida,
+  // se usa buildCenterFaqs() como fallback (2-3 preguntas básicas). Estas mismas
+  // `faqs` se usan tanto en el render visible como en el JSON-LD FAQPage.
+  const dbFaqs = (center.faqs ?? []).filter(
+    (faq) => faq?.question?.trim() && faq?.answer?.trim(),
+  );
+  const faqs = dbFaqs.length > 0 ? dbFaqs : buildCenterFaqs(center);
   const similarIntro = buildSimilarCentersIntro(center);
   const centerJsonLd = buildJsonLd(center);
 

@@ -9,7 +9,6 @@ import {
   phoneHref,
 } from "@/lib/format";
 import {
-  buildCenterIntro,
   buildContactText,
   buildEducationStageText,
   buildLocationText,
@@ -29,7 +28,6 @@ import {
   ExternalLinkIcon,
   ForkKnifeIcon,
   GlobeAltIcon,
-  HeartIcon,
   InformationCircleIcon,
   LeafIcon,
   MapIcon,
@@ -56,10 +54,6 @@ const SERVICE_ICONS: Record<CenterService, ReactNode> = {
   // Idiomas
   bilingue: <SparklesIcon className="h-4 w-4" />,
   ingles: <SparklesIcon className="h-4 w-4" />,
-  // Aulas por edad
-  "aula-0-1-anos": <HeartIcon className="h-4 w-4" />,
-  "aula-1-2-anos": <HeartIcon className="h-4 w-4" />,
-  "aula-2-3-anos": <HeartIcon className="h-4 w-4" />,
   // Instalaciones
   "patio-exterior": <LeafIcon className="h-4 w-4" />,
   // Actividades
@@ -104,7 +98,6 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
   );
   const hasPedagogicalApproach = !!center.pedagogicalApproach?.length;
 
-  const intro = buildCenterIntro(center);
   const locationText = buildLocationText(center);
   const educationStageText = buildEducationStageText(center);
   const servicesText = buildServicesText(center);
@@ -241,13 +234,36 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
       {/* ── 3. Resumen del centro ───────────────────────────────────────────── */}
       <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
         <h2 className="text-base font-semibold text-slate-900">Sobre este centro</h2>
-        <div className="mt-3 flex flex-col gap-3">
-          {intro.map((paragraph, i) => (
-            <p key={i} className="text-sm leading-relaxed text-slate-600">
-              {paragraph}
+        {center.longDescription ? (
+          <div className="mt-3 flex flex-col gap-3">
+            {center.longDescription
+              .split("\n")
+              .filter((p) => p.trim())
+              .map((paragraph, i) => (
+                <p key={i} className="text-sm leading-relaxed text-slate-600">
+                  {paragraph}
+                </p>
+              ))}
+          </div>
+        ) : center.shortDescription?.trim() ? (
+          <p className="mt-3 text-sm leading-relaxed text-slate-600">
+            {center.shortDescription}
+          </p>
+        ) : (
+          <div className="mt-3 flex flex-col gap-2">
+            <p className="text-sm leading-relaxed text-slate-600">
+              Todavía no tenemos una descripción ampliada confirmada para este centro. La ficha se
+              ha creado a partir de información pública disponible y puede completarse cuando el
+              centro reclame o actualice sus datos.
             </p>
-          ))}
-        </div>
+            <Link
+              href="/reclamar-ficha"
+              className="text-sm font-medium text-sky-700 underline underline-offset-2 hover:text-sky-800"
+            >
+              ¿Representas este centro? Reclama la ficha para completar su información →
+            </Link>
+          </div>
+        )}
       </section>
 
       {/* ── 4. Ubicación y Contacto ─────────────────────────────────────────── */}

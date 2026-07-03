@@ -9,6 +9,7 @@ import type {
   VerificationStatus,
 } from "@/types/center";
 import type { SeoPageFilters } from "@/types/seo-page";
+import type { FAQItem } from "@/types/faq";
 import { getServerClient } from "@/lib/supabase/server";
 import {
   getAllCenters as getMockCenters,
@@ -47,10 +48,11 @@ function rowToCenter(row: CenterRow): Center {
       maxMonths: row.age_max_months,
     },
     schedule: row.schedule ?? undefined,
-    services: (row.services ?? []) as CenterService[],
+    services: ((row.services ?? []) as string[]).filter(s => !s.startsWith("aula-")) as CenterService[],
     shortDescription: row.short_description,
     longDescription: row.long_description ?? undefined,
     images: row.images ?? [],
+    faqs: Array.isArray(row.faqs) ? (row.faqs as unknown as FAQItem[]) : [],
     isClaimed: row.is_claimed,
     isVerified: row.is_verified,
     socialLinks: (row.social_links as CenterSocialLinks) ?? undefined,
