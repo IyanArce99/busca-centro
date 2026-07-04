@@ -1,0 +1,132 @@
+{
+  "generated": "2026-07-03",
+  "pass": 3,
+  "enriched": [
+    {
+      "id": "398431aa-2fa4-43cf-8d3e-5570bb9e2506",
+      "name": "Escuela Infantil Projardín Valdebebas",
+      "services": [
+        "comedor",
+        "cocina-propia",
+        "ingles",
+        "psicomotricidad",
+        "musica",
+        "patio-exterior",
+        "orientacion-pedagogica"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "4f2ca8c2-cd7e-4028-9046-253cf659f3a0",
+      "name": "LOS NANOS CHIFLADOS",
+      "services": [
+        "comedor",
+        "cocina-propia",
+        "horario-ampliado"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "1a67afb7-567e-427b-abef-02bc5ed31d51",
+      "name": "LALY",
+      "services": [
+        "ingles",
+        "patio-exterior",
+        "verano-campamentos"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "84cc85e0-e67a-4a33-b463-87a6c0d195fa",
+      "name": "MARGOT",
+      "services": [],
+      "confidence": "medium"
+    },
+    {
+      "id": "78ed5308-5c04-4f93-808d-f64d69a2b65e",
+      "name": "EL NIDO DEL BUHO",
+      "services": [],
+      "confidence": "medium"
+    }
+  ],
+  "social_only": [
+    {
+      "id": "7b9517ba-29d0-4fab-a994-929e162e7cd0",
+      "name": "2 SEMILLAS",
+      "social_links": {
+        "instagram": "https://www.instagram.com/2semillas/",
+        "facebook": "https://www.facebook.com/2SemillasEscuelaInfantil"
+      }
+    },
+    {
+      "id": "1839263c-81e7-4862-9faa-4ca973e3bd14",
+      "name": "EL JARDÍN DE LAS MARIPOSAS",
+      "social_links": {
+        "instagram": "https://www.instagram.com/eljardin_de_las_mariposas/"
+      }
+    },
+    {
+      "id": "421d8c3d-9eb7-4d79-ab38-b34608e5b5bf",
+      "name": "MAFALDA",
+      "social_links": {
+        "instagram": "https://www.instagram.com/mafaldosdechamberi/"
+      }
+    },
+    {
+      "id": "ffd31a56-745d-4dd9-bc6e-19b4e4a63080",
+      "name": "MY KIDS",
+      "social_links": {
+        "instagram": "https://www.instagram.com/mykids.escuelainfantil/"
+      }
+    }
+  ],
+  "deleted_restricted": [
+    {
+      "id": "6f230452-1f84-4fec-960b-9718f7feb043",
+      "name": "CUARTEL GENERAL DEL EJERCITO DEL AIRE"
+    },
+    {
+      "id": "a7289dcb-834b-4ac0-b8d1-1c988fd72d2c",
+      "name": "CONSEJO SUP.INVESTIGACIONES CIENTIFICAS (CSIC)"
+    },
+    {
+      "id": "29b6ac59-faa4-420c-b2cc-6c2d489195f4",
+      "name": "ESCUELA INFANTIL DEL CUERPO NACIONAL DE POLICIA"
+    },
+    {
+      "id": "3d4736b3-e0d6-43b2-a902-d228200c8981",
+      "name": "ESCUELA INFANTIL DELEGACION DE ECONOMIA Y HACIENDA"
+    },
+    {
+      "id": "6d354d74-1ad6-4697-a52a-61cc8ce8d574",
+      "name": "ESCUELA INFANTIL MAEC"
+    }
+  ],
+  "still_thin": [
+    {
+      "id": "8ea46217-68eb-4e89-ba86-80f6daefe79e",
+      "name": "ALBA LUCERO",
+      "reason": "sin servicios ni descripcion confirmable en fuentes publicas"
+    },
+    {
+      "id": "2de776c4-c0c7-42ff-85be-c7dbcfcd41d5",
+      "name": "EL REINO DEL REVÉS",
+      "reason": "sin servicios ni descripcion confirmable en fuentes publicas"
+    },
+    {
+      "id": "61151bb2-0bee-46ea-8e7e-e093f2451934",
+      "name": "LA ESTRELLA INFANTIL",
+      "reason": "sin servicios ni descripcion confirmable en fuentes publicas"
+    },
+    {
+      "id": "268e0051-c277-4134-aa8c-575f46e0e51c",
+      "name": "LA ESTRELLA INFANTIL III",
+      "reason": "sin servicios ni descripcion confirmable en fuentes publicas"
+    },
+    {
+      "id": "ba9f78ff-fa1a-46ba-9258-a61fd53534f0",
+      "name": "SAN MIGUEL",
+      "reason": "sin servicios ni descripcion confirmable en fuentes publicas"
+    }
+  ]
+}
