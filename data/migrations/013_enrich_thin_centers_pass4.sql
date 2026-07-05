@@ -1,0 +1,32 @@
+-- 013_enrich_thin_centers_pass4.sql
+-- Enriquecimiento pasada 4 de los centros finos restantes, tras scraping
+-- profundo (micole/webs oficiales). 4 con servicios confirmados + 3 solo con
+-- long_description basada en metodo/reputacion real. Sin inventar servicios.
+-- Generado: 2026-07-05. Revisar antes de ejecutar. Sin DELETE / DROP / TRUNCATE.
+
+BEGIN;
+
+-- EL REINO DEL REVÉS | servicios: 4
+UPDATE centers SET services = ARRAY['comedor','cocina-propia','horario-ampliado','ingles']::text[], pedagogical_approach = ARRAY['proyecto-propio']::text[], long_description = 'El Reino del Revés es una escuela infantil privada del barrio de Chopera (Arganzuela), un proyecto surgido de la amistad y de una forma propia de entender la educación en los primeros años. Atiende el primer ciclo de Educación Infantil (0-3 años) y, según su ficha en directorios especializados, cuenta con comedor de cocina propia con asesoramiento nutricional, horario ampliado e iniciación al inglés. Su enfoque se inspira en modelos de pedagogía activa. Para conocer plazas, horarios y el detalle de cada servicio, recomendamos contactar directamente con el centro.', verification_status = 'partially_verified', confidence_level = 'medium', verified_at = '2026-07-05', updated_at = NOW() WHERE id = '2de776c4-c0c7-42ff-85be-c7dbcfcd41d5';
+
+-- LA ESTRELLA INFANTIL | servicios: 4
+UPDATE centers SET services = ARRAY['comedor','cocina-propia','horario-ampliado','ingles']::text[], long_description = 'La Estrella Infantil es una escuela infantil privada situada en el barrio de Estrella (Retiro), muy valorada por las familias del entorno. Atiende el primer ciclo de Educación Infantil (0-3 años) y, según su ficha en directorios especializados, ofrece comedor con cocina propia, horario ampliado e iniciación al inglés. Las familias destacan el acompañamiento de los procesos de aprendizaje y el trato cercano del equipo. Recomendamos confirmar plazas, horarios y condiciones directamente con el centro.', verification_status = 'partially_verified', confidence_level = 'medium', verified_at = '2026-07-05', updated_at = NOW() WHERE id = '61151bb2-0bee-46ea-8e7e-e093f2451934';
+
+-- LA ESTRELLA INFANTIL III | servicios: 4
+UPDATE centers SET services = ARRAY['comedor','cocina-propia','horario-ampliado','ingles']::text[], long_description = 'La Estrella Infantil III es la sede en la calle Rafael Salazar Alonso del proyecto La Estrella Infantil, en el barrio de Estrella (Retiro). Como el resto del proyecto, atiende el primer ciclo de Educación Infantil (0-3 años) y, según su ficha en directorios especializados, cuenta con comedor de cocina propia, horario ampliado e iniciación al inglés. Para conocer la disponibilidad de plazas y el detalle de los servicios de esta sede, recomendamos contactar directamente con el centro.', verification_status = 'partially_verified', confidence_level = 'medium', verified_at = '2026-07-05', updated_at = NOW() WHERE id = '268e0051-c277-4134-aa8c-575f46e0e51c';
+
+-- MAFALDA | servicios: 2
+UPDATE centers SET services = ARRAY['comedor','ingles']::text[], long_description = 'La Escuela Infantil Mafalda lleva educando en el barrio de Trafalgar (Chamberí) desde 1987, con el plazo de matrícula abierto todo el año. Atiende a niños y niñas de entre 10 meses y 3 años, con un proyecto centrado en el desarrollo integral —físico, cognitivo, social y emocional— a través de la exploración sensorial y la autonomía personal. Según su ficha en directorios especializados, ofrece comedor e iniciación al inglés. Recomendamos confirmar plazas, horarios y servicios directamente con el centro.', verification_status = 'partially_verified', confidence_level = 'medium', verified_at = '2026-07-05', updated_at = NOW() WHERE id = '421d8c3d-9eb7-4d79-ab38-b34608e5b5bf';
+
+-- 2 SEMILLAS | servicios: 0
+UPDATE centers SET services = ARRAY[]::text[], pedagogical_approach = ARRAY['proyecto-propio']::text[], long_description = '2 Semillas es una escuela infantil privada del distrito de Hortaleza para el primer ciclo de Educación Infantil (0-3 años). Su proyecto se basa en una educación individualizada que respeta los tiempos de desarrollo de cada niño y niña, acompañándolos en su aprendizaje sin dirigir sus pasos, y fomentando la autonomía, la capacidad de decisión y un entorno en el que se sientan queridos y protegidos. Los datos de esta ficha proceden de información pública del propio centro; para confirmar servicios, plazas y horarios recomendamos contactar directamente con 2 Semillas.', verification_status = 'partially_verified', confidence_level = 'medium', verified_at = '2026-07-05', updated_at = NOW() WHERE id = '7b9517ba-29d0-4fab-a994-929e162e7cd0';
+
+-- EL JARDÍN DE LAS MARIPOSAS | servicios: 1
+UPDATE centers SET services = ARRAY['patio-exterior']::text[], long_description = 'El Jardín de las Mariposas es una escuela infantil privada del distrito de Hortaleza para el primer ciclo de Educación Infantil (0-3 años), con matrícula abierta todo el año. Es uno de los centros mejor valorados de la zona, con una amplia trayectoria de reseñas positivas de las familias, que destacan el cariño en el cuidado diario, la profesionalidad del equipo y sus instalaciones con espacio exterior. Los datos de esta ficha proceden de información pública; para conocer servicios, plazas y horarios recomendamos contactar directamente con el centro.', verification_status = 'partially_verified', confidence_level = 'medium', verified_at = '2026-07-05', updated_at = NOW() WHERE id = '1839263c-81e7-4862-9faa-4ca973e3bd14';
+
+-- SAN MIGUEL | servicios: 0
+UPDATE centers SET services = ARRAY[]::text[], long_description = 'La Casa de Niños San Miguel es un centro público de primer ciclo de Educación Infantil (0-3 años) situado en el barrio de Pinar del Rey (Hortaleza), integrado en la red de Casas de Niños de la Comunidad de Madrid. Las Casas de Niños son escuelas infantiles públicas de titularidad autonómica con un modelo educativo propio, muy centrado en el juego, la socialización y la participación de las familias, y con cuotas reducidas. La admisión se gestiona a través del proceso oficial de escolarización. Recomendamos confirmar horarios, servicios y plazas directamente con el centro o en los canales oficiales.', verification_status = 'partially_verified', confidence_level = 'medium', verified_at = '2026-07-05', updated_at = NOW() WHERE id = 'ba9f78ff-fa1a-46ba-9258-a61fd53534f0';
+
+COMMIT;
+
+-- 7 centros enriquecidos. 2 siguen finos: MY KIDS, ALBA LUCERO.

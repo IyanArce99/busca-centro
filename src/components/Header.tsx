@@ -3,12 +3,13 @@
 import Link from "next/link";
 import { useState } from "react";
 
+// Nav intentionally omits /blog: the guides are still light and the blog stays
+// noindex, so we don't give it a prominent internal link from the main header.
 const NAV_LINKS = [
   { href: "/guarderias", label: "Guarderías" },
   { href: "/escuelas-infantiles", label: "Escuelas infantiles" },
   { href: "/ciudades", label: "Ciudades" },
   { href: "/para-centros", label: "Para centros" },
-  { href: "/blog", label: "Guías" },
 ];
 
 export default function Header() {

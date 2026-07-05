@@ -12,6 +12,7 @@ import { getCityBySlug } from "@/lib/data/cities";
 import { isSeoPageIndexableFromCenters } from "@/lib/data/seo-pages";
 import { formatCenterType } from "@/lib/format";
 import { robotsMeta } from "@/lib/seo";
+import { SITE_URL } from "@/lib/constants";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -69,8 +70,48 @@ export default async function SeoLandingPage({ params }: PageProps) {
   const hubHref = seoPage.filters.centerType === "guarderia" ? "/guarderias" : "/escuelas-infantiles";
   const hubLabel = formatCenterType(seoPage.filters.centerType) + "s";
 
+  // The cross-type Madrid counterpart, so families can jump between guarderías
+  // and escuelas infantiles in the same city with a clear, in-content link.
+  const isMadrid = seoPage.filters.citySlug === "madrid" && !seoPage.filters.service && !seoPage.filters.ownership;
+  const counterpart =
+    isMadrid && seoPage.filters.centerType === "guarderia"
+      ? { href: "/escuelas-infantiles-en-madrid", label: "escuelas infantiles en Madrid" }
+      : isMadrid && seoPage.filters.centerType === "escuela-infantil"
+        ? { href: "/guarderias-en-madrid", label: "guarderías en Madrid" }
+        : null;
+
+  const indexable = isSeoPageIndexableFromCenters(seoPage, allCenters);
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Inicio", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: hubLabel, item: `${SITE_URL}${hubHref}` },
+      { "@type": "ListItem", position: 3, name: seoPage.h1, item: `${SITE_URL}/${seoPage.slug}` },
+    ],
+  };
+  // FAQPage JSON-LD uses exactly the FAQs rendered below, and only when the
+  // page is indexable — no point advertising structured data for a noindex page.
+  const faqJsonLd =
+    indexable && seoPage.faqs.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: seoPage.faqs.map((faq) => ({
+            "@type": "Question",
+            name: faq.question,
+            acceptedAnswer: { "@type": "Answer", text: faq.answer },
+          })),
+        }
+      : null;
+  const jsonLd = faqJsonLd ? [breadcrumbJsonLd, faqJsonLd] : [breadcrumbJsonLd];
+
   return (
     <div className="mx-auto flex max-w-6xl flex-col gap-12 px-4 py-10 sm:px-6">
+      {indexable ? (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      ) : null}
+
       <Breadcrumbs
         items={[
           { label: "Inicio", href: "/" },
@@ -85,6 +126,23 @@ export default async function SeoLandingPage({ params }: PageProps) {
       </header>
 
       <SeoTextBlock text={seoPage.introText} />
+
+      {seoPage.sections && seoPage.sections.length > 0 ? (
+        <div className="flex flex-col gap-8">
+          {seoPage.sections.map((section) => (
+            <section key={section.heading} className="max-w-3xl">
+              <h2 className="mb-3 text-xl font-bold text-slate-900">{section.heading}</h2>
+              <div className="flex flex-col gap-3">
+                {section.paragraphs.map((paragraph, index) => (
+                  <p key={index} className="text-base leading-relaxed text-slate-600">
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
+            </section>
+          ))}
+        </div>
+      ) : null}
 
       <section>
         <h2 className="text-2xl font-bold text-slate-900">Centros disponibles</h2>
@@ -103,6 +161,25 @@ export default async function SeoLandingPage({ params }: PageProps) {
               </span>
             ))}
           </div>
+        </section>
+      ) : null}
+
+      {counterpart ? (
+        <section className="max-w-3xl rounded-2xl border border-slate-200 bg-slate-50 p-6">
+          <h2 className="text-lg font-bold text-slate-900">
+            {seoPage.filters.centerType === "guarderia"
+              ? "¿Buscas un centro con proyecto educativo?"
+              : "¿Prefieres una búsqueda más orientada a la conciliación?"}
+          </h2>
+          <p className="mt-2 text-sm leading-relaxed text-slate-600">
+            {seoPage.filters.centerType === "guarderia"
+              ? "Si te interesa un enfoque educativo del primer ciclo o el segundo ciclo (3-6 años), consulta también las "
+              : "Si buscas sobre todo cercanía, horarios y servicios como comedor, echa un vistazo también a las "}
+            <Link href={counterpart.href} className="font-semibold text-sky-700 underline underline-offset-2 hover:text-sky-800">
+              {counterpart.label}
+            </Link>
+            .
+          </p>
         </section>
       ) : null}
 
@@ -125,7 +202,21 @@ export default async function SeoLandingPage({ params }: PageProps) {
 
       <SeoTextBlock text={seoPage.outroText} />
 
-      <FAQ title="Preguntas frecuentes sobre esta búsqueda" items={seoPage.faqs} />
+      <FAQ title={`Preguntas frecuentes sobre ${seoPage.h1.toLowerCase()}`} items={seoPage.faqs} />
+
+      {/* Trust / transparency */}
+      <section className="max-w-3xl rounded-2xl border border-slate-200 bg-white p-6 text-sm leading-relaxed text-slate-600 shadow-sm">
+        <h2 className="text-base font-semibold text-slate-900">Sobre la información de este directorio</h2>
+        <p className="mt-2">
+          Los datos de cada ficha pueden proceder de fuentes públicas o de información facilitada por el propio centro, y
+          algunas fichas están pendientes de verificación. Si detectas un dato incorrecto, puedes comunicárnoslo desde la
+          página de{" "}
+          <Link href="/contacto" className="font-medium text-sky-700 underline underline-offset-2 hover:text-sky-800">
+            contacto
+          </Link>
+          .
+        </p>
+      </section>
 
       <CTASection
         variant="light"
@@ -137,9 +228,9 @@ export default async function SeoLandingPage({ params }: PageProps) {
 
       <CTASection
         title="¿Gestionas un centro en esta búsqueda?"
-        description="Añade tu centro al directorio o reclama tu ficha para mantener tus datos actualizados."
-        primaryAction={{ label: "Añadir mi centro", href: "/anadir-centro" }}
-        secondaryAction={{ label: "Reclamar ficha", href: "/reclamar-ficha" }}
+        description="Reclama tu ficha para actualizar servicios, horarios y datos de contacto, o añade tu centro si todavía no aparece."
+        primaryAction={{ label: "Reclamar ficha", href: "/reclamar-ficha" }}
+        secondaryAction={{ label: "Añadir mi centro", href: "/anadir-centro" }}
       />
     </div>
   );

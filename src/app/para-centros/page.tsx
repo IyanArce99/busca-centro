@@ -12,11 +12,12 @@ import {
 } from "@/components/Icons";
 import { paraCentrosFaqs } from "@/data/mock-faqs";
 import { robotsMeta } from "@/lib/seo";
+import { faqPageJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
-  title: "Para centros",
+  title: "Para centros: da visibilidad a tu guardería | BuscaCentro",
   description:
-    "Haz visible tu guardería o escuela infantil ante más familias: añade tu centro o reclama tu ficha en BuscaCentro.",
+    "Da visibilidad a tu guardería o escuela infantil ante más familias. Reclama tu ficha o añade tu centro al directorio de BuscaCentro y capta solicitudes.",
   alternates: { canonical: "/para-centros" },
   robots: robotsMeta(),
 };
@@ -62,9 +63,13 @@ const HOW_IT_WORKS = [
 ];
 
 export default function ParaCentrosPage() {
+  const breadcrumbs = [{ label: "Inicio", href: "/" }, { label: "Para centros" }];
+  const jsonLd = [breadcrumbJsonLd(breadcrumbs, "/para-centros"), faqPageJsonLd(paraCentrosFaqs)];
+
   return (
     <div className="mx-auto flex max-w-5xl flex-col gap-12 px-4 py-10 sm:px-6">
-      <Breadcrumbs items={[{ label: "Inicio", href: "/" }, { label: "Para centros" }]} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <Breadcrumbs items={breadcrumbs} />
 
       <header className="flex flex-col gap-4">
         <h1 className="text-3xl font-bold text-slate-900 sm:text-4xl">

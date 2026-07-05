@@ -14,6 +14,12 @@ export interface SeoPageFilters {
   ownership?: CenterOwnership;
 }
 
+/** An editorial content block rendered as an H2 heading plus one or more paragraphs. */
+export interface SeoContentSection {
+  heading: string;
+  paragraphs: string[];
+}
+
 export interface SeoPage {
   id: string;
   slug: string;
@@ -25,6 +31,13 @@ export interface SeoPage {
   introText: string;
   outroText: string;
   faqs: FAQItem[];
+  /**
+   * Optional long-form explanatory blocks (H2 + paragraphs) shown between the
+   * intro and the center listing. Used to give priority landings enough unique,
+   * useful content to rank without keyword stuffing. Only present on the mock
+   * source; the Supabase row mapper leaves this undefined.
+   */
+  sections?: SeoContentSection[];
   /** When true the page is excluded from sitemap, generateStaticParams, and
    *  any internal SEO links. Accessing it directly returns noindex. */
   disabled?: boolean;

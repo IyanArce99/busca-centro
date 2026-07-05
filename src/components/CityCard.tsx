@@ -9,12 +9,9 @@ interface CityCardProps {
   href?: string;
 }
 
-export default function CityCard({ city, centerCount, href }: CityCardProps) {
+function CityCardBody({ city, centerCount }: Omit<CityCardProps, "href">) {
   return (
-    <Link
-      href={href ?? `/guarderias-en-${city.slug}`}
-      className="group flex items-center gap-4 rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:border-sky-200 hover:shadow-md"
-    >
+    <>
       <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-sky-50 text-sky-600 transition-colors group-hover:bg-sky-100">
         <MapPinIcon className="h-5 w-5" />
       </div>
@@ -32,6 +29,27 @@ export default function CityCard({ city, centerCount, href }: CityCardProps) {
           <span className="text-xs text-slate-400">Próximamente</span>
         )}
       </div>
+    </>
+  );
+}
+
+export default function CityCard({ city, centerCount, href }: CityCardProps) {
+  const cardClass = "group flex items-center gap-4 rounded-xl border border-slate-200 bg-white p-5 shadow-sm";
+
+  // Cities with no centers would link to an empty, noindex landing. Render them
+  // as a non-clickable "Próximamente" card instead of passing internal link
+  // equity to a thin page.
+  if (centerCount === 0) {
+    return (
+      <div className={`${cardClass} opacity-80`}>
+        <CityCardBody city={city} centerCount={centerCount} />
+      </div>
+    );
+  }
+
+  return (
+    <Link href={href ?? `/guarderias-en-${city.slug}`} className={`${cardClass} transition-all hover:-translate-y-0.5 hover:border-sky-200 hover:shadow-md`}>
+      <CityCardBody city={city} centerCount={centerCount} />
     </Link>
   );
 }

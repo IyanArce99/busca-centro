@@ -1,0 +1,80 @@
+{
+  "generated": "2026-07-05",
+  "pass": 4,
+  "enriched": [
+    {
+      "id": "2de776c4-c0c7-42ff-85be-c7dbcfcd41d5",
+      "name": "EL REINO DEL REVÉS",
+      "services": [
+        "comedor",
+        "cocina-propia",
+        "horario-ampliado",
+        "ingles"
+      ],
+      "via": "servicios+descripcion"
+    },
+    {
+      "id": "61151bb2-0bee-46ea-8e7e-e093f2451934",
+      "name": "LA ESTRELLA INFANTIL",
+      "services": [
+        "comedor",
+        "cocina-propia",
+        "horario-ampliado",
+        "ingles"
+      ],
+      "via": "servicios+descripcion"
+    },
+    {
+      "id": "268e0051-c277-4134-aa8c-575f46e0e51c",
+      "name": "LA ESTRELLA INFANTIL III",
+      "services": [
+        "comedor",
+        "cocina-propia",
+        "horario-ampliado",
+        "ingles"
+      ],
+      "via": "servicios+descripcion"
+    },
+    {
+      "id": "421d8c3d-9eb7-4d79-ab38-b34608e5b5bf",
+      "name": "MAFALDA",
+      "services": [
+        "comedor",
+        "ingles"
+      ],
+      "via": "servicios+descripcion"
+    },
+    {
+      "id": "7b9517ba-29d0-4fab-a994-929e162e7cd0",
+      "name": "2 SEMILLAS",
+      "services": [],
+      "via": "solo descripcion"
+    },
+    {
+      "id": "1839263c-81e7-4862-9faa-4ca973e3bd14",
+      "name": "EL JARDÍN DE LAS MARIPOSAS",
+      "services": [
+        "patio-exterior"
+      ],
+      "via": "servicios+descripcion"
+    },
+    {
+      "id": "ba9f78ff-fa1a-46ba-9258-a61fd53534f0",
+      "name": "SAN MIGUEL",
+      "services": [],
+      "via": "solo descripcion"
+    }
+  ],
+  "still_thin": [
+    {
+      "id": "ffd31a56-745d-4dd9-bc6e-19b4e4a63080",
+      "name": "MY KIDS",
+      "reason": "sin servicios ni descripcion distintiva confirmable en fuentes publicas"
+    },
+    {
+      "id": "8ea46217-68eb-4e89-ba86-80f6daefe79e",
+      "name": "ALBA LUCERO",
+      "reason": "se confunde con centro municipal distinto; sin datos propios confirmables"
+    }
+  ]
+}
