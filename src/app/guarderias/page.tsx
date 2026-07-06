@@ -16,7 +16,7 @@ import { robotsMeta } from "@/lib/seo";
 import { faqPageJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
-  title: "Guarderías: busca y compara centros infantiles | BuscaCentro",
+  title: "Guarderías: busca y compara centros infantiles",
   description:
     "Encuentra guarderías y centros infantiles con información sobre ubicación, servicios, edades, contacto y fichas verificables. Empieza por las guarderías en Madrid.",
   alternates: { canonical: "/guarderias" },

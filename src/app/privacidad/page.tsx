@@ -3,7 +3,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { robotsMeta } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Política de privacidad | BuscaCentro",
+  title: "Política de privacidad",
   description: "Consulta cómo tratamos los datos personales enviados a través de BuscaCentro.",
   alternates: { canonical: "/privacidad" },
   robots: robotsMeta(),

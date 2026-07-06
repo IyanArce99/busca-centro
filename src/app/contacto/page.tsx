@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { robotsMeta } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Contacto | BuscaCentro",
+  title: "Contacto",
   description:
     "Contacta con BuscaCentro para consultas generales, corrección de fichas de centros o cuestiones legales y de privacidad.",
   alternates: { canonical: "/contacto" },
@@ -56,19 +57,19 @@ export default function ContactoPage() {
         <p className="mt-2 text-sm leading-relaxed text-slate-600">
           Si eres responsable de una guardería o escuela infantil y quieres corregir, actualizar o
           reclamar la ficha de tu centro, puedes hacerlo directamente desde el formulario de{" "}
-          <a
+          <Link
             href="/reclamar-ficha"
             className="font-medium text-sky-700 underline underline-offset-2 hover:text-sky-800"
           >
             reclamación de ficha
-          </a>
+          </Link>
           . Si tu centro todavía no aparece en el directorio, puedes{" "}
-          <a
+          <Link
             href="/anadir-centro"
             className="font-medium text-sky-700 underline underline-offset-2 hover:text-sky-800"
           >
             añadirlo
-          </a>
+          </Link>
           .
         </p>
       </section>
@@ -82,19 +83,19 @@ export default function ContactoPage() {
         </ul>
         <p className="mt-3 text-xs text-slate-500">
           Consulta más información en el{" "}
-          <a
+          <Link
             href="/aviso-legal"
             className="font-medium text-sky-700 underline underline-offset-2 hover:text-sky-800"
           >
             aviso legal
-          </a>{" "}
+          </Link>{" "}
           y en la{" "}
-          <a
+          <Link
             href="/privacidad"
             className="font-medium text-sky-700 underline underline-offset-2 hover:text-sky-800"
           >
             política de privacidad
-          </a>
+          </Link>
           .
         </p>
       </section>

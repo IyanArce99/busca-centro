@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { robotsMeta } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Aviso legal | BuscaCentro",
+  title: "Aviso legal",
   description:
     "Consulta la información legal de BuscaCentro, titularidad, condiciones de uso y responsabilidad sobre los contenidos.",
   alternates: { canonical: "/aviso-legal" },
@@ -89,8 +90,8 @@ export default function AvisoLegalPage() {
             solicitar su corrección o supresión a través de:
           </p>
           <ul className="ml-4 flex flex-col gap-1.5 list-disc">
-            <li>El formulario de reclamación de ficha disponible en <a href="/reclamar-ficha" className="text-sky-700 underline underline-offset-2 hover:text-sky-800">/reclamar-ficha</a>.</li>
-            <li>O enviando un correo a la dirección de contacto del titular indicada en la página de <a href="/contacto" className="text-sky-700 underline underline-offset-2 hover:text-sky-800">contacto</a>.</li>
+            <li>El formulario de reclamación de ficha disponible en <Link href="/reclamar-ficha" className="text-sky-700 underline underline-offset-2 hover:text-sky-800">/reclamar-ficha</Link>.</li>
+            <li>O enviando un correo a la dirección de contacto del titular indicada en la página de <Link href="/contacto" className="text-sky-700 underline underline-offset-2 hover:text-sky-800">contacto</Link>.</li>
           </ul>
           <p>
             Atenderemos las solicitudes en el menor tiempo posible, conforme a la normativa aplicable.

@@ -15,7 +15,7 @@ import { robotsMeta } from "@/lib/seo";
 import { faqPageJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
-  title: "Para centros: da visibilidad a tu guardería | BuscaCentro",
+  title: "Para centros: da visibilidad a tu guardería",
   description:
     "Da visibilidad a tu guardería o escuela infantil ante más familias. Reclama tu ficha o añade tu centro al directorio de BuscaCentro y capta solicitudes.",
   alternates: { canonical: "/para-centros" },

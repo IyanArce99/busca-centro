@@ -16,7 +16,7 @@ import { robotsMeta } from "@/lib/seo";
 import { faqPageJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
-  title: "Escuelas infantiles: directorio de centros educativos | BuscaCentro",
+  title: "Escuelas infantiles: directorio de centros educativos",
   description:
     "Busca escuelas infantiles y centros de educación infantil. Consulta datos de ubicación, titularidad, etapa educativa, servicios y contacto. Empieza por Madrid.",
   alternates: { canonical: "/escuelas-infantiles" },

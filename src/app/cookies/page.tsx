@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { robotsMeta } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Política de cookies | BuscaCentro",
+  title: "Política de cookies",
   description: "Información sobre el uso de cookies en BuscaCentro y cómo gestionarlas.",
   alternates: { canonical: "/cookies" },
   robots: robotsMeta(),
@@ -142,9 +143,9 @@ export default function CookiesPage() {
           <p>
             Para cualquier consulta sobre esta política de cookies puedes contactar con nosotros a través de
             la página de{" "}
-            <a href="/contacto" className="text-sky-700 underline underline-offset-2 hover:text-sky-800">
+            <Link href="/contacto" className="text-sky-700 underline underline-offset-2 hover:text-sky-800">
               contacto
-            </a>.
+            </Link>.
           </p>
           <p>
             Para más información sobre cookies puedes consultar la Guía sobre el uso de cookies publicada

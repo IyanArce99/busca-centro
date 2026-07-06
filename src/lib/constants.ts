@@ -2,13 +2,28 @@ export const SITE_NAME = "BuscaCentro";
 export const SITE_DESCRIPTION =
   "Directorio para comparar guarderías y escuelas infantiles en España por ciudad, zona y servicios.";
 
+/**
+ * Canonical production domain. Single source of truth for the public URL, must
+ * match the primary domain in Vercel (www + https). robots.txt, sitemap.xml,
+ * canonicals and JSON-LD all derive from it.
+ */
+export const CANONICAL_SITE_URL = "https://www.buscacentro.es";
+
 function resolveSiteUrl(): string {
+  // 1. Explicit override always wins (set NEXT_PUBLIC_SITE_URL in Vercel prod).
   const explicit = process.env.NEXT_PUBLIC_SITE_URL;
   if (explicit) return explicit.replace(/\/$/, "");
-  // Vercel sets VERCEL_URL automatically on every deployment (production,
-  // preview and staging), so canonical/sitemap/robots still resolve to a
-  // real, working URL even before NEXT_PUBLIC_SITE_URL is configured.
+
+  // 2. On Vercel *production*, never fall back to the *.vercel.app host — that
+  //    would publish the wrong domain in robots/sitemap/canonicals. Use the
+  //    real canonical domain as a safety net if the env var is ever missing.
+  if (process.env.VERCEL_ENV === "production") return CANONICAL_SITE_URL;
+
+  // 3. Preview / staging Vercel deploys: use the auto-assigned URL so links
+  //    resolve to that specific deployment (these stay noindex anyway).
   if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
+
+  // 4. Local dev.
   return "http://localhost:3000";
 }
 

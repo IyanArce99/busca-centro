@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} | Guarderías y escuelas infantiles en España`,
+    default: `${SITE_NAME} | Guarderías y escuelas infantiles en Madrid`,
     template: `%s | ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
@@ -26,6 +26,21 @@ export const metadata: Metadata = {
   // still inherits this. Pages that compute their own indexability
   // (centro/[slug], [slug]) override it explicitly.
   robots: robotsMeta(),
+  // Default Open Graph / Twitter cards. Per-page title & description flow into
+  // these automatically; pages can override openGraph if they need specifics.
+  openGraph: {
+    type: "website",
+    locale: "es_ES",
+    siteName: SITE_NAME,
+    url: SITE_URL,
+    title: `${SITE_NAME} | Guarderías y escuelas infantiles en Madrid`,
+    description: SITE_DESCRIPTION,
+  },
+  twitter: {
+    card: "summary",
+    title: `${SITE_NAME} | Guarderías y escuelas infantiles en Madrid`,
+    description: SITE_DESCRIPTION,
+  },
 };
 
 export default function RootLayout({

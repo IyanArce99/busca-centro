@@ -8,7 +8,7 @@ import { robotsMeta } from "@/lib/seo";
 import { breadcrumbJsonLd } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
-  title: "Guarderías y escuelas infantiles por ciudad | BuscaCentro",
+  title: "Guarderías y escuelas infantiles por ciudad",
   description:
     "Consulta las ciudades disponibles en BuscaCentro y encuentra guarderías y escuelas infantiles cerca de ti. Actualmente disponible en Madrid.",
   alternates: { canonical: "/ciudades" },

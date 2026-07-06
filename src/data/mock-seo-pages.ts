@@ -4,7 +4,7 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-guarderias-madrid",
     slug: "guarderias-en-madrid",
-    title: "Guarderías en Madrid: busca y compara centros | BuscaCentro",
+    title: "Guarderías en Madrid: busca y compara centros",
     h1: "Guarderías en Madrid",
     subtitle: "Encuentra guarderías en Madrid por distrito, servicios y horario, y solicita información al centro que mejor encaje con tu familia.",
     metaDescription:
@@ -61,7 +61,7 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-guarderias-barcelona",
     slug: "guarderias-en-barcelona",
-    title: "Guarderías en Barcelona | BuscaCentro",
+    title: "Guarderías en Barcelona",
     h1: "Guarderías en Barcelona",
     subtitle: "Encuentra guarderías y llars d'infants por barrio en Barcelona.",
     metaDescription:
@@ -82,7 +82,7 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-guarderias-valencia",
     slug: "guarderias-en-valencia",
-    title: "Guarderías en Valencia | BuscaCentro",
+    title: "Guarderías en Valencia",
     h1: "Guarderías en Valencia",
     subtitle: "Compara guarderías por barrio y servicios en Valencia.",
     metaDescription:
@@ -102,7 +102,7 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-guarderias-sevilla",
     slug: "guarderias-en-sevilla",
-    title: "Guarderías en Sevilla | BuscaCentro",
+    title: "Guarderías en Sevilla",
     h1: "Guarderías en Sevilla",
     subtitle: "Guarderías por barrio y servicios en Sevilla.",
     metaDescription: "Directorio de guarderías en Sevilla con datos actualizados y filtros por servicios.",
@@ -120,7 +120,7 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-guarderias-zaragoza",
     slug: "guarderias-en-zaragoza",
-    title: "Guarderías en Zaragoza | BuscaCentro",
+    title: "Guarderías en Zaragoza",
     h1: "Guarderías en Zaragoza",
     subtitle: "Centros de educación infantil en Zaragoza.",
     metaDescription: "Directorio de guarderías en Zaragoza con datos actualizados recientemente.",
@@ -132,7 +132,7 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-guarderias-malaga",
     slug: "guarderias-en-malaga",
-    title: "Guarderías en Málaga | BuscaCentro",
+    title: "Guarderías en Málaga",
     h1: "Guarderías en Málaga",
     subtitle: "Centros de educación infantil en Málaga.",
     metaDescription: "Directorio de guarderías en Málaga con datos actualizados recientemente.",
@@ -144,7 +144,7 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-guarderias-bilbao",
     slug: "guarderias-en-bilbao",
-    title: "Guarderías en Bilbao | BuscaCentro",
+    title: "Guarderías en Bilbao",
     h1: "Guarderías en Bilbao",
     subtitle: "Centros de educación infantil en Bilbao.",
     metaDescription: "Directorio de guarderías en Bilbao con datos actualizados recientemente.",
@@ -156,7 +156,7 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-guarderias-alicante",
     slug: "guarderias-en-alicante",
-    title: "Guarderías en Alicante | BuscaCentro",
+    title: "Guarderías en Alicante",
     h1: "Guarderías en Alicante",
     subtitle: "Centros de educación infantil en Alicante.",
     metaDescription: "Directorio de guarderías en Alicante con datos actualizados recientemente.",
@@ -168,7 +168,7 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-escuelas-infantiles-madrid",
     slug: "escuelas-infantiles-en-madrid",
-    title: "Escuelas infantiles en Madrid: centros 0-3 años | BuscaCentro",
+    title: "Escuelas infantiles en Madrid: centros 0-3 años",
     h1: "Escuelas infantiles en Madrid",
     subtitle: "Consulta escuelas infantiles y centros de educación infantil en Madrid por titularidad, etapa y servicios educativos.",
     metaDescription:
@@ -225,7 +225,7 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-escuelas-infantiles-barcelona",
     slug: "escuelas-infantiles-en-barcelona",
-    title: "Escuelas infantiles en Barcelona | BuscaCentro",
+    title: "Escuelas infantiles en Barcelona",
     h1: "Escuelas infantiles en Barcelona",
     subtitle: "Escuelas infantiles y llars d'infants en Barcelona.",
     metaDescription: "Directorio de escuelas infantiles en Barcelona con servicios y datos de contacto.",
@@ -237,7 +237,7 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-escuelas-infantiles-valencia",
     slug: "escuelas-infantiles-en-valencia",
-    title: "Escuelas infantiles en Valencia | BuscaCentro",
+    title: "Escuelas infantiles en Valencia",
     h1: "Escuelas infantiles en Valencia",
     subtitle: "Escuelas infantiles de 0 a 6 años en Valencia.",
     metaDescription: "Directorio de escuelas infantiles en Valencia con servicios y datos de contacto.",
@@ -249,7 +249,7 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-escuelas-infantiles-sevilla",
     slug: "escuelas-infantiles-en-sevilla",
-    title: "Escuelas infantiles en Sevilla | BuscaCentro",
+    title: "Escuelas infantiles en Sevilla",
     h1: "Escuelas infantiles en Sevilla",
     subtitle: "Escuelas infantiles de 0 a 6 años en Sevilla.",
     metaDescription: "Directorio de escuelas infantiles en Sevilla con servicios y datos de contacto.",
@@ -261,7 +261,7 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-escuelas-infantiles-zaragoza",
     slug: "escuelas-infantiles-en-zaragoza",
-    title: "Escuelas infantiles en Zaragoza | BuscaCentro",
+    title: "Escuelas infantiles en Zaragoza",
     h1: "Escuelas infantiles en Zaragoza",
     subtitle: "Escuelas infantiles de 0 a 6 años en Zaragoza.",
     metaDescription: "Directorio de escuelas infantiles en Zaragoza con servicios y datos de contacto.",
@@ -273,7 +273,7 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-escuelas-infantiles-malaga",
     slug: "escuelas-infantiles-en-malaga",
-    title: "Escuelas infantiles en Málaga | BuscaCentro",
+    title: "Escuelas infantiles en Málaga",
     h1: "Escuelas infantiles en Málaga",
     subtitle: "Escuelas infantiles de 0 a 6 años en Málaga.",
     metaDescription: "Directorio de escuelas infantiles en Málaga con datos actualizados recientemente.",
@@ -285,7 +285,7 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-guarderias-bilingues-madrid",
     slug: "guarderias-bilingues-en-madrid",
-    title: "Guarderías bilingües en Madrid | BuscaCentro",
+    title: "Guarderías bilingües en Madrid",
     h1: "Guarderías bilingües en Madrid",
     subtitle: "Centros con introducción a un segundo idioma o programa bilingüe en Madrid.",
     metaDescription: "Guarderías bilingües en Madrid: compara centros con programa en inglés y solicita información sin compromiso.",
@@ -310,7 +310,7 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-guarderias-bilingues-barcelona",
     slug: "guarderias-bilingues-en-barcelona",
-    title: "Guarderías bilingües en Barcelona | BuscaCentro",
+    title: "Guarderías bilingües en Barcelona",
     h1: "Guarderías bilingües en Barcelona",
     subtitle: "Centros con programa bilingüe en Barcelona.",
     metaDescription: "Guarderías bilingües en Barcelona: compara centros y solicita información.",
@@ -322,7 +322,7 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-guarderias-privadas-madrid",
     slug: "guarderias-privadas-en-madrid",
-    title: "Guarderías privadas en Madrid | BuscaCentro",
+    title: "Guarderías privadas en Madrid",
     h1: "Guarderías privadas en Madrid",
     subtitle: "Centros de titularidad privada en Madrid.",
     metaDescription: "Directorio de guarderías privadas en Madrid con servicios y datos de contacto.",
@@ -339,7 +339,7 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-guarderias-comedor-madrid",
     slug: "guarderias-con-comedor-en-madrid",
-    title: "Guarderías con comedor en Madrid | BuscaCentro",
+    title: "Guarderías con comedor en Madrid",
     h1: "Guarderías con comedor en Madrid",
     subtitle: "Centros con servicio de comedor en Madrid para facilitar el día a día de las familias.",
     metaDescription: "Guarderías en Madrid con servicio de comedor. Compara centros, consulta sus fichas y solicita información.",
@@ -364,7 +364,7 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-guarderias-horario-ampliado-madrid",
     slug: "guarderias-con-horario-ampliado-en-madrid",
-    title: "Guarderías con horario ampliado en Madrid | BuscaCentro",
+    title: "Guarderías con horario ampliado en Madrid",
     h1: "Guarderías con horario ampliado en Madrid",
     subtitle: "Centros con horario ampliado o servicio de madrugadores en Madrid para ayudarte a conciliar.",
     metaDescription: "Guarderías en Madrid con horario ampliado. Compara centros con franjas flexibles y solicita información.",
