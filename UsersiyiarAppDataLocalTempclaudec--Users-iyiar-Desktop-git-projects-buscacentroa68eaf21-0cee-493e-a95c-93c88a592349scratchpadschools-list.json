@@ -1,0 +1,289 @@
+[
+  {
+    "slug": "lleo-xiii-barcelona",
+    "name": "Lleó XIII",
+    "website": "http://www.lleoxiii.com/",
+    "district": "Sarrià-Sant Gervasi",
+    "street": "Carrer de Lleó XIII, 16-18-20"
+  },
+  {
+    "slug": "regina-carmeli-barcelona",
+    "name": "Regina Carmeli",
+    "website": "http://www.reginahorta.com",
+    "district": "Horta-Guinardó",
+    "street": "Carrer de Eduard Toda, 37"
+  },
+  {
+    "slug": "padre-damian-sagrados-corazones-barcelona",
+    "name": "Padre Damián Sagrados Corazones",
+    "website": "http://www.padredamiansscc.org",
+    "district": "Sarrià-Sant Gervasi",
+    "street": "Avinguda de Vallvidrera, 8-10-12-14"
+  },
+  {
+    "slug": "nausica-barcelona",
+    "name": "Nausica",
+    "website": "http://www.escolanausica.cat",
+    "district": "Sarrià-Sant Gervasi",
+    "street": "Carrer de Muntaner, 309-313"
+  },
+  {
+    "slug": "lloret-barcelona",
+    "name": "Lloret",
+    "website": "http://www.escolalloret.cat",
+    "district": "Sants-Montjuïc",
+    "street": "Carrer de Sants, 99"
+  },
+  {
+    "slug": "amor-de-dios-barcelona",
+    "name": "Amor de Dios",
+    "website": "http://www.amordedios.org",
+    "district": "Nou Barris",
+    "street": "Carrer de Teide, s/n"
+  },
+  {
+    "slug": "abat-oliba-spinola-barcelona",
+    "name": "Abat Oliba-Spínola",
+    "website": "http://spinola.abatoliba.edu",
+    "district": "Horta-Guinardó",
+    "street": "Avinguda de Mare de Déu de Montserrat, 86"
+  },
+  {
+    "slug": "sant-francesc-xavier-barcelona",
+    "name": "Sant Francesc Xavier",
+    "website": null,
+    "district": "Sants-Montjuïc",
+    "street": "Carrer de Bòbila, 26-28"
+  },
+  {
+    "slug": "montserrat-barcelona",
+    "name": "Montserrat",
+    "website": "http://www.cmontserrat.org",
+    "district": "Sarrià-Sant Gervasi",
+    "street": "Avinguda de Vallvidrera, 68"
+  },
+  {
+    "slug": "virolai-barcelona",
+    "name": "Virolai",
+    "website": "http://www.virolai.com",
+    "district": "Horta-Guinardó",
+    "street": "Carrer de Ceuta, s/n"
+  },
+  {
+    "slug": "sil-barcelona",
+    "name": "Sil",
+    "website": "http://www.colegiosil.com",
+    "district": "Sarrià-Sant Gervasi",
+    "street": "Avinguda de Tibidabo, 26-28"
+  },
+  {
+    "slug": "santa-teresa-ganduxer-barcelona",
+    "name": "Santa Teresa - Ganduxer",
+    "website": "http://ganduxer.escolateresiana.com",
+    "district": "Sarrià-Sant Gervasi",
+    "street": "Carrer de Ganduxer, 85-105"
+  },
+  {
+    "slug": "jesuites-sarria-sant-ignasi-barcelona",
+    "name": "Jesuïtes Sarrià - Sant Ignasi",
+    "website": "http://www.santignasi.fje.edu",
+    "district": "Sarrià-Sant Gervasi",
+    "street": "Carrer de Carrasco i Formiguera, 32"
+  },
+  {
+    "slug": "jesuites-gracia-kostka-barcelona",
+    "name": "Jesuïtes Gràcia - Kostka",
+    "website": "http://www.kostka.fje.edu",
+    "district": "Gràcia",
+    "street": "Carrer de Antequera, 2-4"
+  },
+  {
+    "slug": "reial-monestir-de-santa-isabel-barcelona",
+    "name": "Reial Monestir de Santa Isabel",
+    "website": "http://www.rmsantaisabel.com",
+    "district": "Sarrià-Sant Gervasi",
+    "street": "Carrer de Cardenal Setmenat, 1-5"
+  },
+  {
+    "slug": "sagrat-cor-sarria-barcelona",
+    "name": "Sagrat Cor-Sarrià",
+    "website": "http://www.sagratcorsarria.com",
+    "district": "Sarrià-Sant Gervasi",
+    "street": "Carrer de Sagrat Cor, 25"
+  },
+  {
+    "slug": "ipse-barcelona",
+    "name": "IPSE",
+    "website": "http://www.escolaipse.net",
+    "district": "Eixample",
+    "street": "Carrer de Casanova, 175"
+  },
+  {
+    "slug": "sant-josep-barcelona",
+    "name": "Sant Josep",
+    "website": "https://www.santjosepgracia.org/",
+    "district": "Gràcia",
+    "street": "Carrer de Montseny, 31-39"
+  },
+  {
+    "slug": "mare-del-divi-pastor-barcelona",
+    "name": "Mare del Diví Pastor",
+    "website": "http://escolesmdp.org/bailen",
+    "district": "Eixample",
+    "street": "Carrer de Bailèn, 38"
+  },
+  {
+    "slug": "joan-roca-1953-barcelona",
+    "name": "Joan Roca 1953",
+    "website": "http://www.escolajoanroca.cat",
+    "district": "Sant Andreu",
+    "street": "Avinguda de Meridiana, 237-243-253"
+  },
+  {
+    "slug": "sagrado-corazon-barcelona",
+    "name": "Sagrado Corazón",
+    "website": "http://www.corazonistasbcn.com",
+    "district": "Sarrià-Sant Gervasi",
+    "street": "Carrer de Eduard Conde, 17-23"
+  },
+  {
+    "slug": "st-peters-school-barcelona",
+    "name": "St. Peter's School",
+    "website": null,
+    "district": "Les Corts",
+    "street": "Carrer de Eduard Toldrà, 18"
+  },
+  {
+    "slug": "pare-manyanet-barcelona",
+    "name": "Pare Manyanet",
+    "website": "https://www.lescorts.manyanet.org/",
+    "district": "Les Corts",
+    "street": "Travessera de les Corts, 331"
+  },
+  {
+    "slug": "escolapies-lluria-barcelona-barcelona",
+    "name": "Escolàpies Llúria-Barcelona",
+    "website": "http://escolapieslluria.org/web/",
+    "district": "Eixample",
+    "street": "Carrer de Roger de Llúria, 64"
+  },
+  {
+    "slug": "perez-iborra-barcelona",
+    "name": "Pérez Iborra",
+    "website": "http://www.pereziborra.com",
+    "district": "Eixample",
+    "street": "Carrer de Consell de Cent, 321-323"
+  },
+  {
+    "slug": "reina-elisenda-barcelona",
+    "name": "Reina Elisenda",
+    "website": "http://www.escolareinaelisenda.com",
+    "district": "Gràcia",
+    "street": "Carrer de Olot, 18"
+  },
+  {
+    "slug": "abat-oliba-loreto-barcelona",
+    "name": "Abat Oliba-Loreto",
+    "website": "https://loreto.abatoliba.edu/",
+    "district": "Les Corts",
+    "street": "Avinguda de Pearson, 22-26"
+  },
+  {
+    "slug": "sagrat-cor-esclaves-barcelona",
+    "name": "Sagrat Cor-Esclaves",
+    "website": "http://escolashalom.com",
+    "district": "Eixample",
+    "street": "Rambla de de Catalunya, 83"
+  },
+  {
+    "slug": "josep-tous-barcelona",
+    "name": "Josep Tous",
+    "website": "http://escolesmdp.org/joseptous/",
+    "district": "Sants-Montjuïc",
+    "street": "Carrer de Begur, 10-20"
+  },
+  {
+    "slug": "sant-marc-de-sarria-barcelona",
+    "name": "Sant Marc de Sarrià",
+    "website": "http://www.santmarc.com",
+    "district": "Sarrià-Sant Gervasi",
+    "street": "Carrer de Carrasco i Formiguera, 6-16"
+  },
+  {
+    "slug": "peter-pan-barcelona",
+    "name": "Peter Pan",
+    "website": "http://www.escolapeterpan.cat",
+    "district": "Sarrià-Sant Gervasi",
+    "street": "Carrer de Immaculada, 4"
+  },
+  {
+    "slug": "betania-patmos-barcelona",
+    "name": "Betània-Patmos",
+    "website": "http://www.betania-patmos.org",
+    "district": "Sarrià-Sant Gervasi",
+    "street": "Avinguda de Mare de Déu de Lorda, 2-16"
+  },
+  {
+    "slug": "aula-escuela-europea-barcelona",
+    "name": "Aula Escuela Europea",
+    "website": null,
+    "district": "Les Corts",
+    "street": "Avinguda de Mare de Déu de Lorda, 34-36"
+  },
+  {
+    "slug": "lhoritzo-barcelona",
+    "name": "L'Horitzó",
+    "website": "http://escola-horitzo.cat/",
+    "district": "Sarrià-Sant Gervasi",
+    "street": "Passeig de de la Bonanova, 7"
+  },
+  {
+    "slug": "gravi-barcelona",
+    "name": "Gravi",
+    "website": "http://www.gravi.com/",
+    "district": "Gràcia",
+    "street": "Avinguda de Vallcarca, 258"
+  },
+  {
+    "slug": "mare-de-deu-dels-angels-barcelona",
+    "name": "Mare de Déu dels Àngels",
+    "website": "http://www.mdangels.org",
+    "district": "Sant Andreu",
+    "street": "Carrer de Sagrera, 80-82"
+  },
+  {
+    "slug": "lestonnac-barcelona",
+    "name": "Lestonnac",
+    "website": "http://www.lestonnac-bcn.org",
+    "district": "Eixample",
+    "street": "Carrer de Pau Claris, 131"
+  },
+  {
+    "slug": "jesuites-sant-gervasi-infant-jesus-barcelona",
+    "name": "Jesuïtes Sant Gervasi - Infant Jesús",
+    "website": "http://www.santgervasi.fje.edu",
+    "district": "Sarrià-Sant Gervasi",
+    "street": "Carrer de Avenir, 19"
+  },
+  {
+    "slug": "canigo-barcelona",
+    "name": "Canigó",
+    "website": "http://www.fomento.edu/canigo",
+    "district": "Sarrià-Sant Gervasi",
+    "street": "Carrer de Císter, 23"
+  },
+  {
+    "slug": "princeps-23-dabril-barcelona",
+    "name": "Prínceps 23 d'Abril",
+    "website": "http://www.princeps23dabril.com",
+    "district": "Nou Barris",
+    "street": "Carrer de Artesania, 38"
+  },
+  {
+    "slug": "sagrada-familia-barcelona",
+    "name": "Sagrada Família",
+    "website": "http://safaavinyo.com",
+    "district": "Ciutat Vella",
+    "street": "Carrer de Avinyó, 20"
+  }
+]

@@ -18,7 +18,7 @@ import { faqPageJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
 export const metadata: Metadata = {
   title: "Escuelas infantiles: directorio de centros educativos",
   description:
-    "Busca escuelas infantiles y centros de educación infantil. Consulta datos de ubicación, titularidad, etapa educativa, servicios y contacto. Empieza por Madrid.",
+    "Busca escuelas infantiles y centros de educación infantil. Consulta datos de ubicación, titularidad, etapa educativa, servicios y contacto.",
   alternates: { canonical: "/escuelas-infantiles" },
   robots: robotsMeta(),
 };
@@ -31,8 +31,12 @@ export default async function EscuelasInfantilesPage() {
     return acc;
   }, {});
 
-  const madridPage = getSeoPageBySlug("escuelas-infantiles-en-madrid");
-  const madridIndexable = madridPage ? isSeoPageIndexableFromCenters(madridPage, allCenters) : false;
+  // One "escuelas infantiles en X" entry per city with an indexable landing,
+  // instead of a single hardcoded city — grows automatically over time.
+  const cityEscuelasPages = featuredCities.flatMap((city) => {
+    const page = getSeoPageBySlug(`escuelas-infantiles-en-${city.slug}`);
+    return page && isSeoPageIndexableFromCenters(page, allCenters) ? [{ city, page }] : [];
+  });
 
   const breadcrumbs = [{ label: "Inicio", href: "/" }, { label: "Escuelas infantiles" }];
   const jsonLd = [breadcrumbJsonLd(breadcrumbs, "/escuelas-infantiles"), faqPageJsonLd(escuelasInfantilesFaqs)];
@@ -86,22 +90,27 @@ export default async function EscuelasInfantilesPage() {
         </div>
       </section>
 
-      {madridIndexable ? (
-        <section className="rounded-2xl border border-violet-100 bg-violet-50/50 p-6">
-          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-            <div>
-              <h2 className="text-lg font-bold text-slate-900">Escuelas infantiles en Madrid</h2>
-              <p className="mt-1 max-w-xl text-sm text-slate-600">
-                Consulta centros de educación infantil de Madrid por titularidad, etapa y servicios educativos.
-              </p>
-            </div>
-            <Link
-              href="/escuelas-infantiles-en-madrid"
-              className="shrink-0 rounded-full bg-violet-700 px-5 py-2.5 text-center text-sm font-semibold text-white transition-colors hover:bg-violet-800"
+      {cityEscuelasPages.length > 0 ? (
+        <section className="flex flex-col gap-4">
+          {cityEscuelasPages.map(({ city, page }) => (
+            <div
+              key={page.slug}
+              className="rounded-2xl border border-violet-100 bg-violet-50/50 p-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between"
             >
-              Ver escuelas infantiles en Madrid
-            </Link>
-          </div>
+              <div>
+                <h2 className="text-lg font-bold text-slate-900">Escuelas infantiles en {city.name}</h2>
+                <p className="mt-1 max-w-xl text-sm text-slate-600">
+                  Consulta centros de educación infantil de {city.name} por titularidad, etapa y servicios educativos.
+                </p>
+              </div>
+              <Link
+                href={`/${page.slug}`}
+                className="shrink-0 rounded-full bg-violet-700 px-5 py-2.5 text-center text-sm font-semibold text-white transition-colors hover:bg-violet-800"
+              >
+                Ver escuelas infantiles en {city.name}
+              </Link>
+            </div>
+          ))}
         </section>
       ) : null}
 
@@ -122,15 +131,16 @@ export default async function EscuelasInfantilesPage() {
       <section>
         <h2 className="text-2xl font-bold text-slate-900">Explora también</h2>
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {madridIndexable ? (
+          {cityEscuelasPages.map(({ city, page }) => (
             <CategoryCard
-              title="Escuelas infantiles en Madrid"
-              description="Centros de educación infantil por titularidad y servicios en Madrid."
-              href="/escuelas-infantiles-en-madrid"
+              key={page.slug}
+              title={`Escuelas infantiles en ${city.name}`}
+              description={`Centros de educación infantil por titularidad y servicios en ${city.name}.`}
+              href={`/${page.slug}`}
               icon={<AcademicCapIcon className="h-5 w-5" />}
               accent="violet"
             />
-          ) : null}
+          ))}
           <CategoryCard
             title="Guarderías"
             description="Compara centros por servicios, horarios y cercanía."

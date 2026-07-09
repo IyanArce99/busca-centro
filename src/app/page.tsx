@@ -30,9 +30,9 @@ import { faqPageJsonLd } from "@/lib/jsonld";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "BuscaCentro | Guarderías y escuelas infantiles en Madrid",
+  title: "BuscaCentro | Guarderías y escuelas infantiles en España",
   description:
-    "Busca guarderías y escuelas infantiles en Madrid. Compara centros por zona, servicios, titularidad y edad, y solicita información directamente.",
+    "Busca guarderías y escuelas infantiles en Madrid, Barcelona y otras ciudades. Compara centros por zona, servicios, titularidad y edad, y solicita información directamente.",
   alternates: { canonical: "/" },
   robots: robotsMeta(),
 };
@@ -67,10 +67,19 @@ export default async function HomePage() {
   const recentCenters = [...allCenters].sort((a, b) => (a.updatedAt < b.updatedAt ? 1 : -1)).slice(0, 6);
   const featuredGuides = getAllGuides().slice(0, 3);
 
-  const guarderiasMadrid = getSeoPageBySlug("guarderias-en-madrid");
-  const escuelasMadrid = getSeoPageBySlug("escuelas-infantiles-en-madrid");
-  const guarderiasMadridIndexable = guarderiasMadrid ? isSeoPageIndexableFromCenters(guarderiasMadrid, allCenters) : false;
-  const escuelasMadridIndexable = escuelasMadrid ? isSeoPageIndexableFromCenters(escuelasMadrid, allCenters) : false;
+  // Pick the best "guarderías bilingües" landing across all cities (most
+  // matching centers wins) instead of hardcoding a single city.
+  const bilingueCenterCountBySlug = allCenters.reduce<Record<string, number>>((acc, c) => {
+    if (c.type === "guarderia" && c.services.includes("bilingue")) {
+      const slug = `guarderias-bilingues-en-${c.address.citySlug}`;
+      acc[slug] = (acc[slug] ?? 0) + 1;
+    }
+    return acc;
+  }, {});
+  const guarderiasBilinguesPage = Object.keys(bilingueCenterCountBySlug)
+    .sort((a, b) => bilingueCenterCountBySlug[b] - bilingueCenterCountBySlug[a])
+    .map((slug) => getSeoPageBySlug(slug))
+    .find((page) => page && isSeoPageIndexableFromCenters(page, allCenters));
 
   // Site-level structured data + FAQPage for the visible home FAQ. No
   // SearchAction: there is no dedicated search results endpoint yet, so
@@ -111,7 +120,7 @@ export default async function HomePage() {
           </span>
 
           <h1 className="max-w-3xl text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
-            Encuentra y compara guarderías y escuelas infantiles en Madrid
+            Encuentra y compara guarderías y escuelas infantiles
           </h1>
 
           <p className="max-w-2xl text-lg text-sky-100">
@@ -124,22 +133,18 @@ export default async function HomePage() {
           </div>
 
           <div className="flex flex-wrap items-center justify-center gap-3">
-            {guarderiasMadridIndexable ? (
-              <Link
-                href="/guarderias-en-madrid"
-                className="rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-sky-900 transition-colors hover:bg-sky-50"
-              >
-                Guarderías en Madrid
-              </Link>
-            ) : null}
-            {escuelasMadridIndexable ? (
-              <Link
-                href="/escuelas-infantiles-en-madrid"
-                className="rounded-full border border-white/30 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-white/10"
-              >
-                Escuelas infantiles en Madrid
-              </Link>
-            ) : null}
+            <Link
+              href="/guarderias"
+              className="rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-sky-900 transition-colors hover:bg-sky-50"
+            >
+              Guarderías
+            </Link>
+            <Link
+              href="/escuelas-infantiles"
+              className="rounded-full border border-white/30 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-white/10"
+            >
+              Escuelas infantiles
+            </Link>
           </div>
 
           <dl className="flex flex-wrap items-center justify-center gap-6 sm:gap-10">
@@ -174,7 +179,7 @@ export default async function HomePage() {
               plazas ni matrículas: te ayudamos a encontrar y comparar opciones para que decidas con más información.
             </p>
             <p>
-              Empezamos por Madrid, la ciudad con más centros en el directorio. Puedes buscar{" "}
+              El directorio incluye centros en Madrid, Barcelona y otras ciudades, y sigue creciendo. Puedes buscar{" "}
               <Link href="/guarderias" className="font-medium text-sky-700 underline underline-offset-2 hover:text-sky-800">
                 guarderías
               </Link>{" "}
@@ -224,15 +229,15 @@ export default async function HomePage() {
               accent="violet"
             />
             <CategoryCard
-              title="Escuelas infantiles en Madrid"
-              description="Cerca de 200 centros de educación infantil en Madrid."
-              href={escuelasMadridIndexable ? "/escuelas-infantiles-en-madrid" : "/escuelas-infantiles"}
+              title="Guarderías bilingües"
+              description="Centros con programa bilingüe o iniciación a un segundo idioma."
+              href={guarderiasBilinguesPage ? `/${guarderiasBilinguesPage.slug}` : "/guarderias"}
               icon={<SparklesIcon className="h-5 w-5" />}
               accent="emerald"
             />
             <CategoryCard
               title="Centros por ciudad"
-              description="Consulta las ciudades disponibles en el directorio."
+              description={`Consulta las ${cityCountWithCenters} ciudades disponibles en el directorio.`}
               href="/ciudades"
               icon={<MapPinIcon className="h-5 w-5" />}
               accent="amber"

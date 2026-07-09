@@ -33,12 +33,12 @@ export const metadata: Metadata = {
     locale: "es_ES",
     siteName: SITE_NAME,
     url: SITE_URL,
-    title: `${SITE_NAME} | Guarderías y escuelas infantiles en Madrid`,
+    title: `${SITE_NAME} | Guarderías y escuelas infantiles en España`,
     description: SITE_DESCRIPTION,
   },
   twitter: {
     card: "summary",
-    title: `${SITE_NAME} | Guarderías y escuelas infantiles en Madrid`,
+    title: `${SITE_NAME} | Guarderías y escuelas infantiles en España`,
     description: SITE_DESCRIPTION,
   },
 };

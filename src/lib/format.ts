@@ -5,6 +5,11 @@ const CENTER_TYPE_LABELS: Record<CenterType, string> = {
   "escuela-infantil": "Escuela infantil",
 };
 
+const CENTER_TYPE_LABELS_PLURAL: Record<CenterType, string> = {
+  guarderia: "Guarderías",
+  "escuela-infantil": "Escuelas infantiles",
+};
+
 const OWNERSHIP_LABELS: Record<CenterOwnership, string> = {
   publico: "Pública",
   privado: "Privada",
@@ -50,6 +55,10 @@ const PEDAGOGICAL_APPROACH_LABELS: Record<string, string> = {
 
 export function formatCenterType(type: CenterType): string {
   return CENTER_TYPE_LABELS[type];
+}
+
+export function formatCenterTypePlural(type: CenterType): string {
+  return CENTER_TYPE_LABELS_PLURAL[type];
 }
 
 export function formatOwnership(ownership: CenterOwnership): string {

@@ -10,7 +10,7 @@ import { getAllSeoPages, getSeoPageBySlug } from "@/lib/seo-pages";
 import { getCenters, getCentersByFilters } from "@/lib/data/centers";
 import { getCityBySlug } from "@/lib/data/cities";
 import { isSeoPageIndexableFromCenters } from "@/lib/data/seo-pages";
-import { formatCenterType } from "@/lib/format";
+import { formatCenterTypePlural } from "@/lib/format";
 import { robotsMeta } from "@/lib/seo";
 import { SITE_URL } from "@/lib/constants";
 
@@ -68,17 +68,28 @@ export default async function SeoLandingPage({ params }: PageProps) {
       isSeoPageIndexableFromCenters(page, allCenters)
   );
   const hubHref = seoPage.filters.centerType === "guarderia" ? "/guarderias" : "/escuelas-infantiles";
-  const hubLabel = formatCenterType(seoPage.filters.centerType) + "s";
+  const hubLabel = formatCenterTypePlural(seoPage.filters.centerType);
 
-  // The cross-type Madrid counterpart, so families can jump between guarderías
-  // and escuelas infantiles in the same city with a clear, in-content link.
-  const isMadrid = seoPage.filters.citySlug === "madrid" && !seoPage.filters.service && !seoPage.filters.ownership;
+  // The cross-type counterpart in the same city (guardería <-> escuela
+  // infantil), so families can jump between both without losing the city
+  // context. Only offered for "pure" city pages (no service/ownership), and
+  // only if that counterpart landing is itself indexable — works for any
+  // city, not just Madrid.
+  const isPureCityPage = !seoPage.filters.service && !seoPage.filters.ownership;
+  const counterpartType = seoPage.filters.centerType === "guarderia" ? "escuela-infantil" : "guarderia";
+  const counterpartPage = isPureCityPage
+    ? relatedSeoPages.find(
+        (page) =>
+          page.filters.centerType === counterpartType && !page.filters.service && !page.filters.ownership
+      )
+    : undefined;
   const counterpart =
-    isMadrid && seoPage.filters.centerType === "guarderia"
-      ? { href: "/escuelas-infantiles-en-madrid", label: "escuelas infantiles en Madrid" }
-      : isMadrid && seoPage.filters.centerType === "escuela-infantil"
-        ? { href: "/guarderias-en-madrid", label: "guarderías en Madrid" }
-        : null;
+    counterpartPage && city
+      ? {
+          href: `/${counterpartPage.slug}`,
+          label: `${formatCenterTypePlural(counterpartType).toLowerCase()} en ${city.name}`,
+        }
+      : null;
 
   const indexable = isSeoPageIndexableFromCenters(seoPage, allCenters);
   const breadcrumbJsonLd = {

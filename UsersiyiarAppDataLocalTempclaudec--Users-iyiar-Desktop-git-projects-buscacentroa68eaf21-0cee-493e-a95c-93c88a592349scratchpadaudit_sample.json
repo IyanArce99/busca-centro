@@ -1,0 +1,1470 @@
+[
+  {
+    "slug": "escola-bressol-municipal-aurora-barcelona",
+    "name": "Escola Bressol Municipal Aurora",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Aurora, 24",
+      "postal_code": "08001",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Ciutat Vella",
+      "neighborhood_barrio": null,
+      "latitude": 41.3781,
+      "longitude": 2.167109
+    },
+    "contact": {
+      "phone": "937060015",
+      "email": "ebmaurora@bcn.cat",
+      "website": "http://barcelona.cat/ebmaurora"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": "Lunes a viernes de 8:00 a 17:00 (8:00 a 15:00 en septiembre y julio)",
+    "services": [
+      "comedor",
+      "cocina-propia"
+    ],
+    "short_description": "Escola Bressol Municipal Aurora es una escuela infantil de titularidad pública (Escola Bressol Municipal) situada en el distrito de Ciutat Vella, Barcelona. Depende del Institut Municipal d'Educació de Barcelona (IMEB) y atiende el primer ciclo de educación infantil (0 a 3 años). Dispone de comedor con cocina propia y horario de 8:00 a 17:00 h. El acceso se realiza mediante el proceso de preinscripción municipal.",
+    "long_description": "En el corazón de Ciutat Vella, en el número 24 del carrer de l'Aurora, se encuentra la Escola Bressol Municipal Aurora, un centro público destinado a los más pequeños del barrio. Su código de centro ante la Generalitat es el 08076728, y su gestión corresponde al Institut Municipal d'Educació de Barcelona (IMEB), organismo que coordina el conjunto de la red de escoles bressol de titularidad municipal en la ciudad.\n\nLa escuela acoge a niños y niñas de 0 a 3 años, correspondientes al primer ciclo de educación infantil. El horario habitual abarca desde las 8:00 hasta las 17:00 entre semana; en septiembre y julio la jornada se acorta y el centro cierra a las 15:00. Cuenta con cocina propia, desde la que se prepara diariamente el menú del comedor.\n\nPara conseguir plaza es necesario participar en la convocatoria anual de preinscripción del Ayuntamiento de Barcelona, que asigna las plazas disponibles según un baremo público. Las cuotas se calculan a partir de los precios públicos vigentes, con posibilidad de bonificación en función de la renta familiar.\n\nLos datos de esta ficha proceden de fuentes públicas —el IMEB y el Registre de Centres Docents de la Generalitat de Catalunya—. Si formas parte del equipo de la escuela y detectas algún dato desactualizado, puedes solicitar su revisión o reclamar esta ficha para mantenerla al día.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Escola Bressol Municipal Aurora?",
+        "answer": "Escola Bressol Municipal Aurora está en Aurora, 24, 08001, en el distrito de Ciutat Vella, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública municipal (Escola Bressol Municipal), dependiente del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (937060015), por correo electrónico (ebmaurora@bcn.cat), a través de su web oficial."
+      },
+      {
+        "question": "¿Tiene servicio de comedor?",
+        "answer": "Sí. Todas las escoles bressol municipals de Barcelona disponen de cocina propia donde se elaboran los menús diarios."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "El horario de atención es de 8:00 a 17:00 horas de lunes a viernes, reducido a 8:00-15:00 en septiembre y julio, según la organización general del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo se accede a una plaza?",
+        "answer": "El acceso se realiza mediante el proceso anual de preinscripción y matrícula municipal, con baremación pública, gestionado por el Ayuntamiento de Barcelona."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya y el Institut Municipal d'Educació de Barcelona). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://ajuntament.barcelona.cat/escolesbressol/sites/default/files/llistat_ebm_curs_2026_2027_def.pdf",
+    "source_urls_secondary": [
+      "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+      "https://ajuntament.barcelona.cat/escolesbressol/ca/organitzacio-de-lescola"
+    ],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "ebm_municipal",
+    "codi_centre_generalitat": "08076728"
+  },
+  {
+    "slug": "escola-bressol-municipal-el-fil-barcelona",
+    "name": "Escola Bressol Municipal El Fil",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Nicaragua, 45",
+      "postal_code": "08029",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Sants-Montjuïc",
+      "neighborhood_barrio": null,
+      "latitude": 41.3827,
+      "longitude": 2.140436
+    },
+    "contact": {
+      "phone": "934102886",
+      "email": "ebmelfil@bcn.cat",
+      "website": "http://barcelona.cat/ebmelfil"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": "Lunes a viernes de 8:00 a 17:00 (8:00 a 15:00 en septiembre y julio)",
+    "services": [
+      "comedor",
+      "cocina-propia"
+    ],
+    "short_description": "Escola Bressol Municipal El Fil es una escuela infantil de titularidad pública (Escola Bressol Municipal) situada en el distrito de Sants-Montjuïc, Barcelona. Depende del Institut Municipal d'Educació de Barcelona (IMEB) y atiende el primer ciclo de educación infantil (0 a 3 años). Dispone de comedor con cocina propia y horario de 8:00 a 17:00 h. El acceso se realiza mediante el proceso de preinscripción municipal.",
+    "long_description": "En la calle Nicaragua, 45, dentro del distrito de Sants-Montjuïc, se encuentra la Escola Bressol Municipal El Fil, centro de titularidad pública que forma parte de la red de escoles bressol coordinada por el IMEB.\n\nComo sucede en el resto de la red, su actividad se centra en el primer ciclo de educación infantil (0 a 3 años), con un horario de 8:00 a 17:00 horas de lunes a viernes que se reduce a 8:00-15:00 en los meses de septiembre y julio. La cocina propia del centro permite elaborar los menús diariamente, adaptándolos cuando así lo indica un informe médico.\n\nEl acceso a una plaza depende del proceso de preinscripción anual que organiza el Ayuntamiento de Barcelona, aplicando criterios de baremación pública iguales para todas las escoles bressol municipals. El precio se rige por los precios públicos vigentes, con las bonificaciones que correspondan según la renta familiar. Su código de centro en el Registre de Centres Docents de la Generalitat de Catalunya es 08071895.\n\nEsta ficha recopila información pública del Institut Municipal d'Educació de Barcelona y de la Generalitat de Catalunya. Los responsables del centro pueden pedir su actualización o reclamarla si desean ampliar el contenido publicado.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Escola Bressol Municipal El Fil?",
+        "answer": "Escola Bressol Municipal El Fil está en Nicaragua, 45, 08029, en el distrito de Sants-Montjuïc, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública municipal (Escola Bressol Municipal), dependiente del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (934102886), por correo electrónico (ebmelfil@bcn.cat), a través de su web oficial."
+      },
+      {
+        "question": "¿Tiene servicio de comedor?",
+        "answer": "Sí. Todas las escoles bressol municipals de Barcelona disponen de cocina propia donde se elaboran los menús diarios."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "El horario de atención es de 8:00 a 17:00 horas de lunes a viernes, reducido a 8:00-15:00 en septiembre y julio, según la organización general del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo se accede a una plaza?",
+        "answer": "El acceso se realiza mediante el proceso anual de preinscripción y matrícula municipal, con baremación pública, gestionado por el Ayuntamiento de Barcelona."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya y el Institut Municipal d'Educació de Barcelona). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://ajuntament.barcelona.cat/escolesbressol/sites/default/files/llistat_ebm_curs_2026_2027_def.pdf",
+    "source_urls_secondary": [
+      "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+      "https://ajuntament.barcelona.cat/escolesbressol/ca/organitzacio-de-lescola"
+    ],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "ebm_municipal",
+    "codi_centre_generalitat": "08071895"
+  },
+  {
+    "slug": "escola-bressol-municipal-el-gat-negre-barcelona",
+    "name": "Escola Bressol Municipal El Gat Negre",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Camí de Can Mora, 13",
+      "postal_code": "08023",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Gràcia",
+      "neighborhood_barrio": null,
+      "latitude": 41.41732,
+      "longitude": 2.151982
+    },
+    "contact": {
+      "phone": "932856679",
+      "email": "ebmelgatnegre@bcn.cat",
+      "website": "http://barcelona.cat/ebmelgatnegre"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": "Lunes a viernes de 8:00 a 17:00 (8:00 a 15:00 en septiembre y julio)",
+    "services": [
+      "comedor",
+      "cocina-propia"
+    ],
+    "short_description": "Escola Bressol Municipal El Gat Negre es una escuela infantil de titularidad pública (Escola Bressol Municipal) situada en el distrito de Gràcia, Barcelona. Depende del Institut Municipal d'Educació de Barcelona (IMEB) y atiende el primer ciclo de educación infantil (0 a 3 años). Dispone de comedor con cocina propia y horario de 8:00 a 17:00 h. El acceso se realiza mediante el proceso de preinscripción municipal.",
+    "long_description": "En el número 13 del Camí de Can Mora, dentro del distrito de Gràcia, se encuentra la Escola Bressol Municipal El Gat Negre, uno de los centros que integran la red pública de escoles bressol de Barcelona. Su titularidad corresponde al Institut Municipal d'Educació de Barcelona (IMEB), organismo que coordina el conjunto de escuelas infantiles municipales de la ciudad y que asigna a este centro el código 08071937 en el Registre de Centres Docents de la Generalitat de Catalunya.\n\nEl centro está pensado para el primer ciclo de la etapa infantil, es decir, para niños y niñas de 0 a 3 años. La jornada habitual se extiende de 8:00 a 17:00 horas entre semana, si bien en septiembre y en julio el horario se ajusta hasta las 15:00. Al igual que sucede en el resto de la red municipal, dispone de cocina propia, donde cada día se prepara el menú siguiendo pautas de alimentación equilibrada y contemplando adaptaciones cuando existe un informe médico que lo justifique.\n\nPara obtener plaza es necesario pasar por la preinscripción y matrícula que convoca anualmente el Ayuntamiento de Barcelona, proceso sujeto a criterios de baremación pública, y las cuotas se calculan a partir de los precios públicos vigentes, con posibles bonificaciones ligadas a la renta familiar.\n\nLa información recogida en esta ficha proviene de fuentes públicas —el IMEB y el Registre de Centres Docents de la Generalitat—. Si necesitas conocer el proyecto pedagógico concreto o la disponibilidad de plazas, lo más recomendable es dirigirte directamente al centro o revisar su web oficial.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Escola Bressol Municipal El Gat Negre?",
+        "answer": "Escola Bressol Municipal El Gat Negre está en Camí de Can Mora, 13, 08023, en el distrito de Gràcia, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública municipal (Escola Bressol Municipal), dependiente del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (932856679), por correo electrónico (ebmelgatnegre@bcn.cat), a través de su web oficial."
+      },
+      {
+        "question": "¿Tiene servicio de comedor?",
+        "answer": "Sí. Todas las escoles bressol municipals de Barcelona disponen de cocina propia donde se elaboran los menús diarios."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "El horario de atención es de 8:00 a 17:00 horas de lunes a viernes, reducido a 8:00-15:00 en septiembre y julio, según la organización general del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo se accede a una plaza?",
+        "answer": "El acceso se realiza mediante el proceso anual de preinscripción y matrícula municipal, con baremación pública, gestionado por el Ayuntamiento de Barcelona."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya y el Institut Municipal d'Educació de Barcelona). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://ajuntament.barcelona.cat/escolesbressol/sites/default/files/llistat_ebm_curs_2026_2027_def.pdf",
+    "source_urls_secondary": [
+      "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+      "https://ajuntament.barcelona.cat/escolesbressol/ca/organitzacio-de-lescola"
+    ],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "ebm_municipal",
+    "codi_centre_generalitat": "08071937"
+  },
+  {
+    "slug": "escola-bressol-municipal-valldaura-barcelona",
+    "name": "Escola Bressol Municipal Valldaura",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Passeig de Valldaura, 18, interior",
+      "postal_code": "08031",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Horta-Guinardó",
+      "neighborhood_barrio": null,
+      "latitude": 41.43684,
+      "longitude": 2.156188
+    },
+    "contact": {
+      "phone": "934270828",
+      "email": "ebmvalldaura@bcn.cat",
+      "website": "http://barcelona.cat/ebmvalldaura"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": "Lunes a viernes de 8:00 a 17:00 (8:00 a 15:00 en septiembre y julio)",
+    "services": [
+      "comedor",
+      "cocina-propia"
+    ],
+    "short_description": "Escola Bressol Municipal Valldaura es una escuela infantil de titularidad pública (Escola Bressol Municipal) situada en el distrito de Horta-Guinardó, Barcelona. Depende del Institut Municipal d'Educació de Barcelona (IMEB) y atiende el primer ciclo de educación infantil (0 a 3 años). Dispone de comedor con cocina propia y horario de 8:00 a 17:00 h. El acceso se realiza mediante el proceso de preinscripción municipal.",
+    "long_description": "En el Passeig de Valldaura, 18 (interior), en el distrito de Horta-Guinardó, se sitúa la Escola Bressol Municipal Valldaura, uno de los centros públicos de primer ciclo de infantil gestionados por el Institut Municipal d'Educació de Barcelona (IMEB).\n\nComo el resto de escoles bressol de titularidad municipal en la ciudad, atiende a niños de 0 a 3 años con un horario de 8:00 a 17:00 horas de lunes a viernes, que se reduce a 8:00-15:00 en septiembre y julio. La cocina es propia del centro, lo que permite preparar los menús diarios in situ y ajustar dietas concretas cuando un informe médico lo requiere.\n\nSu código de centro en el Registre de Centres Docents de la Generalitat de Catalunya es el 08061865. El proceso para conseguir una plaza es el de preinscripción y matrícula anual del Ayuntamiento de Barcelona, resuelto por baremación pública, con precios públicos que incluyen bonificaciones según el nivel de renta familiar.\n\nLa información aquí recogida procede de registros oficiales del IMEB y de la Generalitat de Catalunya, por lo que puede no reflejar cambios recientes. Si formas parte de la dirección del centro, tienes la opción de solicitar su actualización o reclamar la ficha.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Escola Bressol Municipal Valldaura?",
+        "answer": "Escola Bressol Municipal Valldaura está en Passeig de Valldaura, 18, interior, 08031, en el distrito de Horta-Guinardó, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública municipal (Escola Bressol Municipal), dependiente del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (934270828), por correo electrónico (ebmvalldaura@bcn.cat), a través de su web oficial."
+      },
+      {
+        "question": "¿Tiene servicio de comedor?",
+        "answer": "Sí. Todas las escoles bressol municipals de Barcelona disponen de cocina propia donde se elaboran los menús diarios."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "El horario de atención es de 8:00 a 17:00 horas de lunes a viernes, reducido a 8:00-15:00 en septiembre y julio, según la organización general del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo se accede a una plaza?",
+        "answer": "El acceso se realiza mediante el proceso anual de preinscripción y matrícula municipal, con baremación pública, gestionado por el Ayuntamiento de Barcelona."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya y el Institut Municipal d'Educació de Barcelona). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://ajuntament.barcelona.cat/escolesbressol/sites/default/files/llistat_ebm_curs_2026_2027_def.pdf",
+    "source_urls_secondary": [
+      "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+      "https://ajuntament.barcelona.cat/escolesbressol/ca/organitzacio-de-lescola"
+    ],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "ebm_municipal",
+    "codi_centre_generalitat": "08061865"
+  },
+  {
+    "slug": "escola-bressol-municipal-la-filadora-barcelona",
+    "name": "Escola Bressol Municipal La Filadora",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Parellada, 25",
+      "postal_code": "08030",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Sant Andreu",
+      "neighborhood_barrio": null,
+      "latitude": 41.43214,
+      "longitude": 2.189931
+    },
+    "contact": {
+      "phone": "933113802",
+      "email": "ebmlafiladora@bcn.cat",
+      "website": "http://barcelona.cat/ebmlafiladora"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": "Lunes a viernes de 8:00 a 17:00 (8:00 a 15:00 en septiembre y julio)",
+    "services": [
+      "comedor",
+      "cocina-propia"
+    ],
+    "short_description": "Escola Bressol Municipal La Filadora es una escuela infantil de titularidad pública (Escola Bressol Municipal) situada en el distrito de Sant Andreu, Barcelona. Depende del Institut Municipal d'Educació de Barcelona (IMEB) y atiende el primer ciclo de educación infantil (0 a 3 años). Dispone de comedor con cocina propia y horario de 8:00 a 17:00 h. El acceso se realiza mediante el proceso de preinscripción municipal.",
+    "long_description": "La Escola Bressol Municipal La Filadora está en Parellada, 25, dentro del distrito de Sant Andreu, y forma parte de la Xarxa d'Escoles Bressol Municipals que coordina el Institut Municipal d'Educació de Barcelona (IMEB). Consta en el Registre de Centres Docents de la Generalitat de Catalunya con el código 08073314.\n\nEste centro, como el resto de la red pública, se dedica en exclusiva al primer ciclo de educación infantil (0 a 3 años), con horario de 8:00 a 17:00 horas de lunes a viernes que baja hasta las 15:00 en septiembre y julio. Cuenta con cocina propia donde se preparan los menús cada día, permitiendo adaptaciones si un informe médico las justifica.\n\nEl camino para conseguir plaza es el mismo que en cualquier escola bressol municipal: preinscripción y matrícula anual convocada por el Ayuntamiento de Barcelona, con baremación pública conocida de antemano. El precio a pagar depende de los precios públicos aprobados por el consistorio, con bonificaciones según renta.\n\nEsta ficha recopila información de fuentes públicas del IMEB y de la Generalitat de Catalunya. Para plazas disponibles o detalles concretos del proyecto pedagógico de La Filadora, recomendamos contactar directamente con la escuela.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Escola Bressol Municipal La Filadora?",
+        "answer": "Escola Bressol Municipal La Filadora está en Parellada, 25, 08030, en el distrito de Sant Andreu, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública municipal (Escola Bressol Municipal), dependiente del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (933113802), por correo electrónico (ebmlafiladora@bcn.cat), a través de su web oficial."
+      },
+      {
+        "question": "¿Tiene servicio de comedor?",
+        "answer": "Sí. Todas las escoles bressol municipals de Barcelona disponen de cocina propia donde se elaboran los menús diarios."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "El horario de atención es de 8:00 a 17:00 horas de lunes a viernes, reducido a 8:00-15:00 en septiembre y julio, según la organización general del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo se accede a una plaza?",
+        "answer": "El acceso se realiza mediante el proceso anual de preinscripción y matrícula municipal, con baremación pública, gestionado por el Ayuntamiento de Barcelona."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya y el Institut Municipal d'Educació de Barcelona). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://ajuntament.barcelona.cat/escolesbressol/sites/default/files/llistat_ebm_curs_2026_2027_def.pdf",
+    "source_urls_secondary": [
+      "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+      "https://ajuntament.barcelona.cat/escolesbressol/ca/organitzacio-de-lescola"
+    ],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "ebm_municipal",
+    "codi_centre_generalitat": "08073314"
+  },
+  {
+    "slug": "llar-dinfants-el-vuit-barcelona",
+    "name": "Llar D'infants El Vuit",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Via Trajana, 24",
+      "postal_code": "08020",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Sant Martí",
+      "neighborhood_barrio": null,
+      "latitude": 41.42698,
+      "longitude": 2.20655
+    },
+    "contact": {
+      "phone": "933052206",
+      "email": null,
+      "website": "http://www.xtec.cat/centres/a8047871"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": null,
+    "services": [],
+    "short_description": "Llar D'infants El Vuit es una escuela infantil de titularidad pública (Departament d'Educació de la Generalitat de Catalunya), situada en el distrito de Sant Martí, Barcelona. Atiende el primer ciclo de educación infantil (0 a 3 años). Los datos de contacto y ubicación provienen del Registre de Centres Docents de la Generalitat de Catalunya.",
+    "long_description": "Llar D'infants El Vuit es una escuela infantil de titularidad pública situada en Via Trajana, 24, en el distrito de Sant Martí de Barcelona. Depende del Departament d'Educació de la Generalitat de Catalunya y forma parte del primer ciclo de educación infantil, atendiendo a niños de 0 a 3 años.\n\nA diferencia de las escoles bressol municipals gestionadas a través del Institut Municipal d'Educació de Barcelona, este centro depende directamente de la Generalitat, lo que sitúa su gestión y su proceso de preinscripción dentro del circuito propio del Departament d'Educació.\n\nLos datos de esta ficha proceden del Registre de Centres Docents de la Generalitat de Catalunya y de fuentes públicas de transparencia. Para conocer plazas disponibles, horarios o el proyecto educativo, puede contactarse por teléfono en el 933052206 o a través de su web oficial. Si representas este centro, puedes solicitar una actualización o reclamar la ficha.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Llar D'infants El Vuit?",
+        "answer": "Llar D'infants El Vuit está en Via Trajana, 24, 08020, en el distrito de Sant Martí, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública, dependiente del Departament d'Educació de la Generalitat de Catalunya."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (933052206), a través de su web oficial."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+    "source_urls_secondary": [],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "data_conflicts": {
+      "general": {
+        "current": null,
+        "proposed": "Llar d'infants de titularitat del Departament d'Educació (Generalitat de Catalunya), no municipal.",
+        "reason": "nota de investigación",
+        "status": "pending_manual_review"
+      }
+    },
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "llar_generalitat",
+    "codi_centre_generalitat": "08047871"
+  },
+  {
+    "slug": "llar-dinfants-lairet-barcelona",
+    "name": "Llar D'infants L'airet",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Carrer de Pedrosa, s/n",
+      "postal_code": "08033",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Nou Barris",
+      "neighborhood_barrio": null,
+      "latitude": 41.44858,
+      "longitude": 2.184456
+    },
+    "contact": {
+      "phone": "933548561",
+      "email": null,
+      "website": "https://agora.xtec.cat/ll-airet-bcn/"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": null,
+    "services": [],
+    "short_description": "Llar D'infants L'airet es una escuela infantil de titularidad pública (Departament d'Educació de la Generalitat de Catalunya), situada en el distrito de Nou Barris, Barcelona. Atiende el primer ciclo de educación infantil (0 a 3 años). Los datos de contacto y ubicación provienen del Registre de Centres Docents de la Generalitat de Catalunya.",
+    "long_description": "Llar D'infants L'Airet es una escuela infantil de titularidad pública ubicada en la Carrer de Pedrosa, s/n, en el distrito de Nou Barris de Barcelona. Al igual que el resto de llars d'infants de la Generalitat, atiende el primer ciclo de educación infantil, de 0 a 3 años, bajo la tutela del Departament d'Educació de la Generalitat de Catalunya.\n\nSu carácter público y su dependencia directa del Departament d'Educació la distinguen de las escoles bressol municipals de gestión más local, situándola dentro de un circuito de preinscripción y financiación propio de la administración autonómica.\n\nLa información recogida en esta ficha procede del Registre de Centres Docents de la Generalitat de Catalunya. Las familias interesadas en conocer plazas disponibles o el funcionamiento del centro pueden contactar por teléfono en el 933548561 o a través de su página web. Si representas este centro, puedes solicitar una actualización o reclamar la ficha.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Llar D'infants L'airet?",
+        "answer": "Llar D'infants L'airet está en Carrer de Pedrosa, s/n, 08033, en el distrito de Nou Barris, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública, dependiente del Departament d'Educació de la Generalitat de Catalunya."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (933548561), a través de su web oficial."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+    "source_urls_secondary": [],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "data_conflicts": {
+      "general": {
+        "current": null,
+        "proposed": "Llar d'infants de titularitat del Departament d'Educació (Generalitat de Catalunya), no municipal.",
+        "reason": "nota de investigación",
+        "status": "pending_manual_review"
+      }
+    },
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "llar_generalitat",
+    "codi_centre_generalitat": "08047844"
+  },
+  {
+    "slug": "llar-dinfants-la-gavina-barcelona",
+    "name": "Llar D'infants La Gavina",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Carrer de Concòrdia, 82",
+      "postal_code": "08004",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Sants-Montjuïc",
+      "neighborhood_barrio": null,
+      "latitude": 41.37193,
+      "longitude": 2.158434
+    },
+    "contact": {
+      "phone": "933292051",
+      "email": null,
+      "website": "http://www.xtec.cat/centres/a8047856"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": null,
+    "services": [],
+    "short_description": "Llar D'infants La Gavina es una escuela infantil de titularidad pública (Departament d'Educació de la Generalitat de Catalunya), situada en el distrito de Sants-Montjuïc, Barcelona. Atiende el primer ciclo de educación infantil (0 a 3 años). Los datos de contacto y ubicación provienen del Registre de Centres Docents de la Generalitat de Catalunya.",
+    "long_description": "Llar D'infants La Gavina es una escuela infantil de titularidad pública situada en la Carrer de Concòrdia, 82, en el distrito de Sants-Montjuïc de Barcelona. Forma parte de la red de centros de primer ciclo de educación infantil dependientes del Departament d'Educació de la Generalitat de Catalunya, y atiende a niños de 0 a 3 años.\n\nConviene no confundir este centro con otras escuelas que también incluyen 'La Gavina' en su nombre en distintos distritos de la ciudad, ya que se trata de entidades independientes entre sí, cada una con su propio código de centro y gestión.\n\nLos datos de contacto y ubicación de esta ficha proceden del Registre de Centres Docents de la Generalitat de Catalunya. Para ampliar información sobre plazas o el proyecto educativo, puede contactarse por teléfono en el 933292051 o a través de su web oficial. Si representas este centro, puedes solicitar una actualización o reclamar la ficha.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Llar D'infants La Gavina?",
+        "answer": "Llar D'infants La Gavina está en Carrer de Concòrdia, 82, 08004, en el distrito de Sants-Montjuïc, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública, dependiente del Departament d'Educació de la Generalitat de Catalunya."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (933292051), a través de su web oficial."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+    "source_urls_secondary": [],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "data_conflicts": {
+      "general": {
+        "current": null,
+        "proposed": "Llar d'infants de titularitat del Departament d'Educació (Generalitat de Catalunya), no municipal.",
+        "reason": "nota de investigación",
+        "status": "pending_manual_review"
+      }
+    },
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "llar_generalitat",
+    "codi_centre_generalitat": "08047856"
+  },
+  {
+    "slug": "llar-dinfants-cascavell-barcelona",
+    "name": "Llar D'infants Cascavell",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Carrer de Perpinyà, s/n",
+      "postal_code": "08019",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Sant Martí",
+      "neighborhood_barrio": null,
+      "latitude": 41.41969,
+      "longitude": 2.214283
+    },
+    "contact": {
+      "phone": "933053421",
+      "email": null,
+      "website": "http://www.xtec.cat/centres/a8049233"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": null,
+    "services": [],
+    "short_description": "Llar D'infants Cascavell es una escuela infantil de titularidad pública (Departament d'Educació de la Generalitat de Catalunya), situada en el distrito de Sant Martí, Barcelona. Atiende el primer ciclo de educación infantil (0 a 3 años). Los datos de contacto y ubicación provienen del Registre de Centres Docents de la Generalitat de Catalunya.",
+    "long_description": "Llar D'infants Cascavell es una escuela infantil de titularidad pública ubicada en la Carrer de Perpinyà, s/n, en el distrito de Sant Martí de Barcelona. Depende del Departament d'Educació de la Generalitat de Catalunya y atiende el primer ciclo de educación infantil, es decir, a niños de 0 a 3 años.\n\nComo el resto de llars d'infants de titularidad autonómica presentes en este directorio, su proceso de preinscripción y su financiación siguen el circuito propio de la Generalitat, diferenciado del de las escoles bressol de gestión municipal.\n\nLa información de esta ficha procede del Registre de Centres Docents de la Generalitat de Catalunya y de fuentes públicas de transparencia. Para consultar plazas disponibles u horarios, puede contactarse por teléfono en el 933053421 o a través de su web oficial. Si representas este centro, puedes solicitar una actualización o reclamar la ficha.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Llar D'infants Cascavell?",
+        "answer": "Llar D'infants Cascavell está en Carrer de Perpinyà, s/n, 08019, en el distrito de Sant Martí, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública, dependiente del Departament d'Educació de la Generalitat de Catalunya."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (933053421), a través de su web oficial."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+    "source_urls_secondary": [],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "data_conflicts": {
+      "general": {
+        "current": null,
+        "proposed": "Llar d'infants de titularitat del Departament d'Educació (Generalitat de Catalunya), no municipal.",
+        "reason": "nota de investigación",
+        "status": "pending_manual_review"
+      }
+    },
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "llar_generalitat",
+    "codi_centre_generalitat": "08049233"
+  },
+  {
+    "slug": "llar-dinfants-el-mar-barcelona",
+    "name": "Llar D'infants El Mar",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Carrer de Castellbell, 1",
+      "postal_code": "08030",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Sant Andreu",
+      "neighborhood_barrio": null,
+      "latitude": 41.43208,
+      "longitude": 2.185604
+    },
+    "contact": {
+      "phone": "933467901",
+      "email": null,
+      "website": "http://www.xtec.cat/centres/a8047868"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": null,
+    "services": [],
+    "short_description": "Llar D'infants El Mar es una escuela infantil de titularidad pública (Departament d'Educació de la Generalitat de Catalunya), situada en el distrito de Sant Andreu, Barcelona. Atiende el primer ciclo de educación infantil (0 a 3 años). Los datos de contacto y ubicación provienen del Registre de Centres Docents de la Generalitat de Catalunya.",
+    "long_description": "Llar D'infants El Mar es una escuela infantil de titularidad pública situada en la Carrer de Castellbell, 1, en el distrito de Sant Andreu de Barcelona. Pertenece a la red de centros de primer ciclo de educación infantil del Departament d'Educació de la Generalitat de Catalunya y atiende a niños de 0 a 3 años.\n\nSu dependencia directa de la Generalitat, en lugar de una gestión municipal, sitúa a este centro dentro del mismo circuito administrativo que otras llars d'infants públicas de Barcelona, tanto en materia de preinscripción como de financiación.\n\nLos datos recogidos en esta ficha proceden del Registre de Centres Docents de la Generalitat de Catalunya. Para conocer plazas disponibles o el funcionamiento del centro, puede contactarse por teléfono en el 933467901 o a través de su web oficial. Si representas este centro, puedes solicitar una actualización o reclamar la ficha.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Llar D'infants El Mar?",
+        "answer": "Llar D'infants El Mar está en Carrer de Castellbell, 1, 08030, en el distrito de Sant Andreu, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública, dependiente del Departament d'Educació de la Generalitat de Catalunya."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (933467901), a través de su web oficial."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+    "source_urls_secondary": [],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "data_conflicts": {
+      "general": {
+        "current": null,
+        "proposed": "Llar d'infants de titularitat del Departament d'Educació (Generalitat de Catalunya), no municipal.",
+        "reason": "nota de investigación",
+        "status": "pending_manual_review"
+      }
+    },
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "llar_generalitat",
+    "codi_centre_generalitat": "08047868"
+  },
+  {
+    "slug": "lleo-xiii-barcelona",
+    "name": "Lleó XIII",
+    "type": "escuela-infantil",
+    "ownership": "privado",
+    "address": {
+      "street": "Carrer de Lleó XIII, 16-18-20",
+      "postal_code": "08022",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Sarrià-Sant Gervasi",
+      "neighborhood_barrio": null,
+      "latitude": 41.41248,
+      "longitude": 2.13708
+    },
+    "contact": {
+      "phone": "934175001",
+      "email": null,
+      "website": "http://www.lleoxiii.com/"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": null,
+    "services": [
+      "comedor",
+      "ingles",
+      "actividades-extraescolares",
+      "verano-campamentos"
+    ],
+    "short_description": "Lleó XIII es un centro educativo privado del distrito de Sarrià-Sant Gervasi que imparte desde el primer ciclo de infantil (0-3 años) hasta bachillerato y ciclos formativos. Es conocido por el Proyecto Singular, un plan de estudios propio desde 1996 para compatibilizar la escuela con deporte, danza o música de alto nivel, y por su enseñanza trilingüe en catalán, castellano e inglés.",
+    "long_description": "Lleó XIII es un centro educativo privado situado en el Carrer de Lleó XIII, en el distrito de Sarrià-Sant Gervasi de Barcelona. Ofrece todas las etapas educativas, desde el primer ciclo de educación infantil (0 a 3 años) hasta el bachillerato y ciclos formativos de grado medio y superior.\n\nEl centro tuvo un cambio de titularidad en 2015 que impulsó un nuevo proyecto educativo, aunque sus orígenes se remontan a la antigua Escuela de la Familia Mercadé. Desde 1996 dispone del llamado Proyecto Singular, un plan de estudios aprobado por el Departament d'Educació pensado para alumnado que compagina la escuela con una dedicación intensa al deporte, la danza o la música, una de las señas de identidad más citadas del centro en Cataluña.\n\nLa enseñanza se imparte en catalán, castellano e inglés, con colaboración con una escuela de idiomas Cambridge para la certificación del inglés. El centro cuenta con servicio de comedor, actividades extraescolares y campamento de verano (summer camp).\n\nLa información pública disponible sobre el centro se centra sobre todo en las etapas de infantil de segundo ciclo en adelante, por lo que quienes buscan plaza para el tramo de 0 a 3 años deben preguntar en secretaría por el proyecto pedagógico concreto de esa franja.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Lleó XIII?",
+        "answer": "Lleó XIII está en Carrer de Lleó XIII, 16-18-20, 08022, en el distrito de Sarrià-Sant Gervasi, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Generalitat de Catalunya."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (934175001), a través de su web oficial."
+      },
+      {
+        "question": "¿El primer ciclo de infantil forma parte de un centro más grande?",
+        "answer": "Sí. El centro imparte también otras etapas educativas además del primer ciclo de infantil (0-3 años). Conviene consultar directamente con el centro los detalles específicos de la etapa 0-3."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+    "source_urls_secondary": [],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "data_conflicts": {
+      "general": {
+        "current": null,
+        "proposed": "Centre educatiu amb oferta més àmplia (primària/secundària/batxillerat). El primer cicle d'educació infantil (0-3 anys) és una secció/etapa dins del centre.",
+        "reason": "nota de investigación",
+        "status": "pending_manual_review"
+      }
+    },
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "private_full_school",
+    "codi_centre_generalitat": "08005412"
+  },
+  {
+    "slug": "montserrat-barcelona",
+    "name": "Montserrat",
+    "type": "escuela-infantil",
+    "ownership": "privado",
+    "address": {
+      "street": "Avinguda de Vallvidrera, 68",
+      "postal_code": "08017",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Sarrià-Sant Gervasi",
+      "neighborhood_barrio": null,
+      "latitude": 41.40908,
+      "longitude": 2.111035
+    },
+    "contact": {
+      "phone": "932038800",
+      "email": null,
+      "website": "http://www.cmontserrat.org"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": null,
+    "services": [
+      "comedor",
+      "horario-ampliado",
+      "orientacion-pedagogica",
+      "actividades-extraescolares",
+      "uniformes"
+    ],
+    "short_description": "El Col·legi Montserrat es un centro educativo del distrito de Sarrià-Sant Gervasi fundado en 1925 (cien años de historia en el curso 2025-2026) y gestionado por la congregación Missioneres Filles de la Sagrada Família de Natzaret. Imparte desde el primer ciclo de infantil hasta bachillerato, con programa de Bachillerato Internacional (IB) en secundaria.",
+    "long_description": "El Col·legi Montserrat es un centro educativo situado en la Avinguda de Vallvidrera, en el distrito de Sarrià-Sant Gervasi de Barcelona. Fue fundado en 1925 por la congregación religiosa Missioneres Filles de la Sagrada Família de Natzaret, que continúa siendo su entidad titular, y cumple cien años de trayectoria en el curso 2025-2026.\n\nLa oferta formativa arranca en el primer ciclo de infantil, para niños de 0 a 3 años, y se prolonga hasta el bachillerato, con un programa MYP (Middle Years Programme) del Bachillerato Internacional en secundaria y la doble vía LOMLOE e International Baccalaureate en la etapa final. El centro incorpora en su metodología el Design Thinking y el marco de las inteligencias múltiples de Howard Gardner.\n\nEntre los servicios confirmados figuran el comedor escolar, la cafetería, un departamento de orientación pedagógica, actividades paraescolares, servicio de acogida ampliada (permanencia) y uniforme escolar reglamentario. El centro destaca en sus comunicaciones los resultados de aprobados de sus alumnos en las pruebas de acceso a la universidad.\n\nQuienes busquen plaza para la etapa de 0 a 3 años deberían preguntar directamente en el colegio por su funcionamiento específico dentro del proyecto de centenario del centro.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Montserrat?",
+        "answer": "Montserrat está en Avinguda de Vallvidrera, 68, 08017, en el distrito de Sarrià-Sant Gervasi, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Generalitat de Catalunya."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (932038800), a través de su web oficial."
+      },
+      {
+        "question": "¿El primer ciclo de infantil forma parte de un centro más grande?",
+        "answer": "Sí. El centro imparte también otras etapas educativas además del primer ciclo de infantil (0-3 años). Conviene consultar directamente con el centro los detalles específicos de la etapa 0-3."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+    "source_urls_secondary": [],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "data_conflicts": {
+      "general": {
+        "current": null,
+        "proposed": "Centre educatiu amb oferta més àmplia (primària/secundària/batxillerat). El primer cicle d'educació infantil (0-3 anys) és una secció/etapa dins del centre.",
+        "reason": "nota de investigación",
+        "status": "pending_manual_review"
+      }
+    },
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "private_full_school",
+    "codi_centre_generalitat": "08004912"
+  },
+  {
+    "slug": "ipse-barcelona",
+    "name": "IPSE",
+    "type": "escuela-infantil",
+    "ownership": "privado",
+    "address": {
+      "street": "Carrer de Casanova, 175",
+      "postal_code": "08036",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Eixample",
+      "neighborhood_barrio": null,
+      "latitude": 41.39197,
+      "longitude": 2.149867
+    },
+    "contact": {
+      "phone": "933215099",
+      "email": null,
+      "website": "http://www.escolaipse.net"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": null,
+    "services": [
+      "comedor",
+      "horario-ampliado",
+      "ingles",
+      "actividades-extraescolares",
+      "verano-campamentos"
+    ],
+    "short_description": "IPSE es un centro concertado fundado en 1966 por el sacerdote Vicenç Salvà, gestionado por la Fundació Vicenç Salvà, en el distrito de l'Eixample de Barcelona. Se define como escuela parroquial de orientación cristiana y ofrece educación desde la etapa infantil hasta bachillerato, con comedor propio, escuela de idiomas y horario de 8 a 18 horas.",
+    "long_description": "IPSE es un centro educativo del distrito de l'Eixample fundado en 1966 por el sacerdote Vicenç Salvà, cuyo nombre da hoy título a la fundación que gestiona el centro, la Fundació Vicenç Salvà. Se define a sí mismo como una escuela parroquial de orientación cristiana, abierta a toda la comunidad del barrio.\n\nEl centro imparte enseñanza desde la educación infantil hasta el bachillerato, con el catalán como lengua vehicular principal y el inglés reforzado a través de un servicio propio que denominan escuela de idiomas. El horario del centro se extiende de 8:00 a 18:00 horas de lunes a viernes, lo que permite conciliar con los horarios laborales de las familias.\n\nEl propio colegio confirma que dispone de espacio de comedor, actividades extraescolares y casales y campus en periodos vacacionales. No hemos encontrado información pública específica sobre los servicios del primer ciclo de infantil (0-3 años), por lo que recomendamos confirmarla directamente con el centro.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a IPSE?",
+        "answer": "IPSE está en Carrer de Casanova, 175, 08036, en el distrito de l'Eixample, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Generalitat de Catalunya."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (933215099), a través de su web oficial."
+      },
+      {
+        "question": "¿El primer ciclo de infantil forma parte de un centro más grande?",
+        "answer": "Sí. El centro imparte también otras etapas educativas además del primer ciclo de infantil (0-3 años). Conviene consultar directamente con el centro los detalles específicos de la etapa 0-3."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+    "source_urls_secondary": [],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "data_conflicts": {
+      "general": {
+        "current": null,
+        "proposed": "Centre educatiu amb oferta més àmplia (primària/secundària/batxillerat). El primer cicle d'educació infantil (0-3 anys) és una secció/etapa dins del centre.",
+        "reason": "nota de investigación",
+        "status": "pending_manual_review"
+      }
+    },
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "private_full_school",
+    "codi_centre_generalitat": "08005761"
+  },
+  {
+    "slug": "perez-iborra-barcelona",
+    "name": "Pérez Iborra",
+    "type": "escuela-infantil",
+    "ownership": "privado",
+    "address": {
+      "street": "Carrer de Consell de Cent, 321-323",
+      "postal_code": "08007",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Eixample",
+      "neighborhood_barrio": null,
+      "latitude": 41.3895,
+      "longitude": 2.163409
+    },
+    "contact": {
+      "phone": "934880057",
+      "email": null,
+      "website": "http://www.pereziborra.com"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": null,
+    "services": [
+      "bilingue",
+      "ingles",
+      "orientacion-pedagogica"
+    ],
+    "short_description": "Escoles Pérez Iborra, con más de 80 años de trayectoria en el distrito de l'Eixample, es un centro privado laico que va desde la llar d'infants hasta Bachillerato Dual Americano. Aplica la metodología del Pensamiento Visible (\"Cultura de Pensament\") en todas las etapas y enseña en catalán, castellano e inglés, con exámenes Cambridge. Cuenta con departamento de orientación psicopedagógica propio.",
+    "long_description": "Escoles Pérez Iborra es un centro educativo de titularidad privada laica situado en el Carrer de Consell de Cent, en el distrito de l'Eixample de Barcelona. Según la propia institución, cuenta con más de 80 años de experiencia educativa en la ciudad, lo que la sitúa entre los colegios privados de trayectoria más larga de la zona.\n\nEl centro ofrece un itinerario que abarca desde la llar d'infants (0 a 3 años) y el parvulari (3 a 6 años) hasta primaria, ESO, Bachillerato y Bachillerato Dual Americano. Su proyecto pedagógico se basa en la metodología del Pensamiento Visible, denominada internamente \"Cultura de Pensament\", que incluye herramientas como los Thinking Maps y rutinas de pensamiento aplicadas de forma transversal en todas las etapas, incluida la infantil.\n\nLa enseñanza se imparte en un modelo trilingüe (catalán, castellano e inglés), con preparación para exámenes de Cambridge y viajes de inmersión lingüística. El centro dispone de un departamento de orientación psicopedagógica propio y atención a altas capacidades, además de una azotea verde de 400 m² con huerto. No se han podido confirmar públicamente servicios como comedor con cocina propia, horario ampliado o madrugadores específicos para la etapa 0-3.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Pérez Iborra?",
+        "answer": "Pérez Iborra está en Carrer de Consell de Cent, 321-323, 08007, en el distrito de l'Eixample, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Generalitat de Catalunya."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (934880057), a través de su web oficial."
+      },
+      {
+        "question": "¿El primer ciclo de infantil forma parte de un centro más grande?",
+        "answer": "Sí. El centro imparte también otras etapas educativas además del primer ciclo de infantil (0-3 años). Conviene consultar directamente con el centro los detalles específicos de la etapa 0-3."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+    "source_urls_secondary": [],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "data_conflicts": {
+      "general": {
+        "current": null,
+        "proposed": "Centre educatiu amb oferta més àmplia (primària/secundària/batxillerat). El primer cicle d'educació infantil (0-3 anys) és una secció/etapa dins del centre.",
+        "reason": "nota de investigación",
+        "status": "pending_manual_review"
+      }
+    },
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "private_full_school",
+    "codi_centre_generalitat": "08005205"
+  },
+  {
+    "slug": "aula-escuela-europea-barcelona",
+    "name": "Aula Escuela Europea",
+    "type": "escuela-infantil",
+    "ownership": "privado",
+    "address": {
+      "street": "Avinguda de Mare de Déu de Lorda, 34-36",
+      "postal_code": "08034",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Les Corts",
+      "neighborhood_barrio": null,
+      "latitude": 41.39827,
+      "longitude": 2.107167
+    },
+    "contact": {
+      "phone": "932030354",
+      "email": null,
+      "website": null
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": null,
+    "services": [],
+    "short_description": "Aula Escuela Europea, fundada en 1968 en Les Corts por el pedagogo Pere Ribera, es un centro privado con proyecto educativo multilingüe (catalán, castellano, francés e inglés) orientado a la indagación y el pensamiento crítico. El primer ciclo de infantil (0-3 años) figura en el registro de la Generalitat como parte de su oferta educativa más amplia.",
+    "long_description": "Aula Escuela Europea nació en 1968 en el barrio de Pedralbes (distrito de Les Corts) por iniciativa del pedagogo Pere Ribera, que había dirigido la sección española del Liceo Francés de Barcelona antes de fundar este proyecto junto con otras personalidades de la sociedad civil catalana. Con el tiempo, la gestión del centro pasó a la Fundació Aula Escola Europea, entidad que mantiene hoy su titularidad.\n\nEl proyecto pedagógico del centro se define como experimental y heurístico, es decir, orientado a que el alumnado aprenda mediante la indagación, el razonamiento lógico y el pensamiento crítico, en lugar de la memorización. Es un rasgo distintivo frente a otros centros del distrito. El plan de estudios es multilingüe: catalán, castellano, francés e inglés conviven a diario en las aulas a lo largo de toda la escolaridad.\n\nSegún el Registre de Centres Docents de la Generalitat, el centro incluye el primer ciclo de educación infantil (0 a 3 años) dentro de su oferta, aunque las fuentes públicas consultadas no detallan de forma independiente el proyecto pedagógico específico de esa etapa ni sus servicios concretos (horarios, comedor o personal). Se recomienda contactar con el centro para confirmar estos datos antes de matricular a un bebé o niño pequeño.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Aula Escuela Europea?",
+        "answer": "Aula Escuela Europea está en Avinguda de Mare de Déu de Lorda, 34-36, 08034, en el distrito de Les Corts, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Generalitat de Catalunya."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (932030354)."
+      },
+      {
+        "question": "¿El primer ciclo de infantil forma parte de un centro más grande?",
+        "answer": "Sí. El centro imparte también otras etapas educativas además del primer ciclo de infantil (0-3 años). Conviene consultar directamente con el centro los detalles específicos de la etapa 0-3."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+    "source_urls_secondary": [],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "medium",
+    "data_conflicts": {
+      "general": {
+        "current": null,
+        "proposed": "Centre educatiu amb oferta més àmplia (primària/secundària/batxillerat). El primer cicle d'educació infantil (0-3 anys) és una secció/etapa dins del centre.",
+        "reason": "nota de investigación",
+        "status": "pending_manual_review"
+      }
+    },
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "private_full_school",
+    "codi_centre_generalitat": "08013500"
+  },
+  {
+    "slug": "llar-dinfants-ninets-barcelona",
+    "name": "Llar d'Infants Ninets",
+    "type": "guarderia",
+    "ownership": "privado",
+    "address": {
+      "street": "Carrer de València, 218-220",
+      "postal_code": "08011",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Eixample",
+      "latitude": 41.38954,
+      "longitude": 2.159322
+    },
+    "contact": {
+      "phone": "933233131",
+      "email": "escolainfantil@ninets.net",
+      "website": "https://www.ninets.net/"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "services": [
+      "comedor",
+      "horario-ampliado"
+    ],
+    "short_description": "Escuela infantil privada en el Eixample de Barcelona, en funcionamiento desde 1982, con instalaciones de más de 400 m². Ofrece horario flexible de 7:45 a 19:00 h de lunes a viernes, servicio de comedor con menús supervisados por nutricionista y apoyo psicopedagógico. Atiende a niños de 3 meses a 3 años.",
+    "faqs": [
+      {
+        "question": "¿En qué zona de Barcelona está Llar d'Infants Ninets?",
+        "answer": "Se encuentra en el distrito del Eixample, en la Carrer de València 218-220."
+      },
+      {
+        "question": "¿Qué tipo de centro es?",
+        "answer": "Es una escuela infantil privada (llar d'infants) para niños de 0 a 3 años."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "El centro informa un horario flexible de 7:45 a 19:00 h, de lunes a viernes."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes llamar al 93 323 31 31 o consultar su web para solicitar información."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+    "source_urls_secondary": [
+      "https://www.ninets.net/",
+      "https://guia.barcelona.cat/es/detall/llar-d-infants-ninets_92086003645.html"
+    ],
+    "verification_status": "verified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-07T07:36:50+01:00",
+    "updated_at": "2026-07-07T07:36:50+01:00",
+    "source_group": "barcelona_pending_review_resolved_2026",
+    "long_description": "Llar d'Infants Ninets lleva funcionando en el Eixample barcelonés desde 1982, lo que la convierte en una de las escuelas infantiles con más recorrido de la zona. A lo largo de más de cuatro décadas ha consolidado unas instalaciones de más de 400 metros cuadrados, pensadas para acoger a niños desde los 3 meses hasta los 3 años en un entorno amplio y adaptado a las distintas etapas del primer ciclo de infantil.\n\nEl centro, situado en la Carrer de València 218-220, plantea un horario pensado para familias con jornadas laborales largas: abre de 7:45 a 19:00 h de lunes a viernes, lo que permite dejar y recoger a los pequeños con flexibilidad. A esto se suma el servicio de comedor, con menús que están supervisados por un nutricionista, un detalle que aporta tranquilidad a las familias respecto a la alimentación diaria de sus hijos.\n\nAdemás de la parte asistencial, Ninets cuenta con apoyo psicopedagógico dentro de su equipo, un recurso que puede resultar útil para acompañar el desarrollo de cada niño y para orientar a las familias si surgen dudas durante esta primera etapa educativa. Quienes buscan una escuela infantil consolidada en el distrito del Eixample pueden solicitar información llamando al 93 323 31 31 o a través de su página web."
+  },
+  {
+    "slug": "llar-dinfants-teddy-barcelona",
+    "name": "Llar d'Infants Teddy",
+    "type": "guarderia",
+    "ownership": "privado",
+    "address": {
+      "street": "Carrer de Dos de Maig, 222",
+      "postal_code": "08013",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Sant Martí",
+      "latitude": 41.40668,
+      "longitude": 2.182695
+    },
+    "contact": {
+      "phone": "932457271",
+      "email": "a8050892@xtec.cat",
+      "website": "https://escolateddy.com/"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "services": [
+      "comedor",
+      "horario-ampliado",
+      "ingles"
+    ],
+    "short_description": "Llar d'Infants Teddy es una escuela infantil privada en el distrito de Sant Martí, Barcelona, que atiende a niños de 0 a 3 años. Ofrece horario ampliado de 8:00 a 18:00 durante los 12 meses del año, cocina propia con menús elaborados en el centro, y actividades en catalán, castellano e inglés. Dispone de un patio exterior de 300 m².",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicada Llar d'Infants Teddy?",
+        "answer": "Está en Carrer de Dos de Maig, 222, 08013, en el distrito de Sant Martí, Barcelona."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "El centro ofrece horario ampliado de 8:00 a 18:00, abierto los 12 meses del año."
+      },
+      {
+        "question": "¿Tiene servicio de comedor?",
+        "answer": "Sí, dispone de cocina propia con menús saludables."
+      },
+      {
+        "question": "¿Qué idiomas se trabajan?",
+        "answer": "El centro trabaja en catalán, castellano e inglés."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+    "source_urls_secondary": [
+      "https://escolateddy.com/",
+      "https://guia.barcelona.cat/es/directoris/detall/llar-d-infants-teddy_92086023521.html"
+    ],
+    "verification_status": "verified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-07T00:00:00.000Z",
+    "updated_at": "2026-07-07T00:00:00.000Z",
+    "source_group": "barcelona_pending_review_resolved_2026",
+    "long_description": "Situada en el Carrer de Dos de Maig, 222, dentro del distrito de Sant Martí de Barcelona, Teddy es una escuela infantil privada que atiende a niños de 0 a 3 años combinando una oferta de servicios pensada para familias con horarios laborales exigentes. El centro permanece abierto de 8:00 a 18:00 durante los doce meses del año, sin las interrupciones habituales del calendario escolar, lo que facilita mucho la conciliación a los padres que necesitan cobertura también en los meses de verano.\n\nLa alimentación se resuelve mediante cocina propia dentro del centro, donde se elaboran los menús diarios pensados específicamente para las necesidades nutricionales de esta franja de edad. A nivel lingüístico, la actividad diaria se desarrolla combinando catalán, castellano e inglés, de manera que los niños conviven de forma natural con los tres idiomas desde edades muy tempranas.\n\nEn cuanto a las instalaciones, Teddy dispone de un patio exterior de 300 metros cuadrados, un espacio amplio para los estándares de una escuela infantil urbana, que permite a los niños salir a jugar y moverse libremente al aire libre. Para más información se puede contactar en el 932457271, por correo a a8050892@xtec.cat o a través de su web, escolateddy.com."
+  },
+  {
+    "slug": "llar-dinfants-el-cami-felic-poble-nou-barcelona",
+    "name": "Llar d'infants El Camí Feliç Poble Nou",
+    "type": "guarderia",
+    "ownership": "privado",
+    "address": {
+      "street": "Carrer de Venero, 5",
+      "postal_code": "08005",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Sant Martí",
+      "neighborhood_barrio": "el Poblenou"
+    },
+    "contact": {
+      "phone": "931057675",
+      "email": "poblenou@escuelashappyway.com",
+      "website": "https://www.escuelashappyway.com/"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "services": [
+      "cocina-propia",
+      "patio-exterior",
+      "psicomotricidad",
+      "musica",
+      "verano-campamentos",
+      "orientacion-pedagogica",
+      "escuela-de-padres",
+      "ingles"
+    ],
+    "short_description": "Escuela infantil de primer ciclo (0-3 años) ubicada en Carrer de Venero, 5, en el barrio de Poblenou, distrito de Sant Martí, Barcelona. Forma parte de la red Happy Way / El Camí Feliç, con proyecto educativo homologado por la Generalitat de Catalunya, estimulación de inteligencias múltiples, espacios exteriores y programa de acompañamiento a las familias.",
+    "faqs": [
+      {
+        "question": "¿A qué red educativa pertenece?",
+        "answer": "A la red Happy Way / El Camí Feliç, con varias sedes en Barcelona."
+      },
+      {
+        "question": "¿Dónde está ubicado?",
+        "answer": "En la Carrer de Venero, 5, barrio de Poblenou, distrito de Sant Martí, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "De 0 a 3 años."
+      },
+      {
+        "question": "¿Cómo se puede contactar?",
+        "answer": "Por teléfono al 931057675, por correo a poblenou@escuelashappyway.com o a través de la web del grupo."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+    "source_urls_secondary": [
+      "https://guia.barcelona.cat/es/detall/llar-d-infants-el-cami-felic-poble-nou_99400233169.html",
+      "https://www.escuelashappyway.com/en/"
+    ],
+    "verification_status": "verified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-07T13:00:00.000Z",
+    "updated_at": "2026-07-07T13:00:00.000Z",
+    "source_group": "barcelona_pending_review_resolved_2026",
+    "long_description": "En el corazón del Poblenou, en el número 5 de la Carrer de Venero, esta escuela infantil da servicio a familias del distrito de Sant Martí con un proyecto pensado exclusivamente para el primer ciclo, de los 0 a los 3 años. El centro pertenece a la red Happy Way / El Camí Feliç, una cadena presente en distintos puntos de Barcelona que comparte un mismo modelo pedagógico entre todas sus sedes.\n\nSu propuesta educativa está homologada por la Generalitat de Catalunya y se articula en torno a la estimulación de las inteligencias múltiples, combinando el trabajo dentro del aula con el uso activo de espacios exteriores para el juego y el movimiento. A esto se suma un programa de acompañamiento dirigido a las familias, pensado para que la crianza y la etapa escolar avancen de forma coordinada entre el equipo educativo y los padres.\n\nQuienes deseen más información sobre plazas, horarios o el proyecto pedagógico pueden dirigirse directamente al centro llamando al 931057675, escribiendo a poblenou@escuelashappyway.com o consultando la web del grupo Happy Way, donde figuran también el resto de escuelas de la red en la ciudad."
+  },
+  {
+    "slug": "llar-dinfants-kasperle-barcelona",
+    "name": "Llar d'Infants Kasperle",
+    "type": "guarderia",
+    "ownership": "privado",
+    "address": {
+      "street": "Carrer Gran de Gràcia, 97, entlo.",
+      "postal_code": "08012",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Gràcia",
+      "neighborhood_barrio": "la Vila de Gràcia"
+    },
+    "contact": {
+      "phone": "932370572",
+      "email": "marta.kasperle@gmail.com",
+      "website": "http://www.llardinfantskasperle.com"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "services": [
+      "cocina-propia",
+      "patio-exterior",
+      "psicomotricidad",
+      "musica"
+    ],
+    "short_description": "Llar d'infants privada autorizada por la Generalitat de Catalunya, situada en el barrio de la Vila de Gràcia, Barcelona, con más de 35 años de actividad. Atiende a niños de 0 a 3 años distribuidos en tres grupos. Dispone de tres aulas, una terraza soleada de 80 m², cocina propia, clases de música y psicomotricidad, y talleres para familias. Abierto todo el año, de 7:45 a 19:00h de lunes a viernes.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado el centro?",
+        "answer": "En la Carrer Gran de Gràcia, 97, barrio de la Vila de Gràcia, distrito de Gràcia, Barcelona."
+      },
+      {
+        "question": "¿Cuántos años lleva funcionando?",
+        "answer": "Más de 35 años."
+      },
+      {
+        "question": "¿Tiene actividades de música y psicomotricidad?",
+        "answer": "Sí, ambas confirmadas en su web oficial."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "De 7:45 a 19:00h, de lunes a viernes, abierto todo el año."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+    "source_urls_secondary": [
+      "http://www.llardinfantskasperle.com",
+      "https://guia.barcelona.cat/es/detall/llar-dinfants-kasperle_92168165429.html"
+    ],
+    "verification_status": "verified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-07T14:10:00.000Z",
+    "updated_at": "2026-07-07T14:10:00.000Z",
+    "source_group": "barcelona_pending_review_resolved_2026",
+    "long_description": "En pleno corazón de la Vila de Gràcia, en la Carrer Gran de Gràcia, 97, la Llar d'Infants Kasperle acumula más de 35 años de actividad como centro autorizado por la Generalitat de Catalunya para el primer ciclo de educación infantil. Los niños de 0 a 3 años que acude al centro se distribuyen en tres grupos, cada uno adaptado a su franja de edad y ritmo de desarrollo.\n\nLas instalaciones incluyen tres aulas y una terraza soleada de 80 metros cuadrados, un espacio exterior amplio para un centro situado en un entorno urbano tan consolidado como Gràcia. La oferta se completa con cocina propia para el servicio de comidas y con clases de música y psicomotricidad, ambas confirmadas directamente en la web oficial del centro, además de talleres dirigidos específicamente a las familias.\n\nKasperle permanece abierto durante todo el año, con un horario de 7:45 a 19:00 horas de lunes a viernes, pensado para dar cobertura a jornadas laborales largas. Para más información sobre matriculación o el proyecto educativo, se puede contactar por teléfono en el 932370572, por correo en marta.kasperle@gmail.com o a través de su página web."
+  },
+  {
+    "slug": "llar-dinfants-petits-barcelona",
+    "name": "Llar d'Infants Petits",
+    "type": "guarderia",
+    "ownership": "privado",
+    "address": {
+      "street": "Carrer de Bailèn, 108",
+      "postal_code": "08009",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Eixample",
+      "neighborhood_barrio": "la Dreta de l'Eixample"
+    },
+    "contact": {
+      "phone": "667626534",
+      "email": "info@escolabressolpetits.com",
+      "website": "https://escolabressolpetits.com/"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "services": [
+      "bilingue",
+      "ingles",
+      "verano-campamentos"
+    ],
+    "short_description": "Llar d'infants privada situada en la Carrer de Bailèn, 108, en el barrio de la Dreta de l'Eixample, Barcelona. Es una de las dos sedes de la red Escola Bressol Petits (la otra es Petits Bruc), en funcionamiento desde 2013, con modelo bilingüe catalán-inglés y casals de verano.",
+    "faqs": [
+      {
+        "question": "¿A qué red pertenece este centro?",
+        "answer": "A la red Escola Bressol Petits, con dos sedes en Barcelona (Bailèn y Bruc)."
+      },
+      {
+        "question": "¿Dónde está ubicado?",
+        "answer": "En la Carrer de Bailèn, 108, distrito de l'Eixample, Barcelona."
+      },
+      {
+        "question": "¿Es un centro bilingüe?",
+        "answer": "Sí, modelo catalán-inglés."
+      },
+      {
+        "question": "¿Desde cuándo funciona?",
+        "answer": "Desde 2013."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+    "source_urls_secondary": [
+      "https://escolabressolpetits.com/en/contact",
+      "https://escolabressolpetits.com/en/about-us"
+    ],
+    "verification_status": "verified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-07T15:40:00.000Z",
+    "updated_at": "2026-07-07T15:40:00.000Z",
+    "source_group": "barcelona_pending_review_resolved_2026",
+    "long_description": "En pleno corazón de la Dreta de l'Eixample, en el número 108 de la Carrer de Bailèn, esta llar d'infants privada acoge a familias del barrio desde el año 2013. Forma parte de la red Escola Bressol Petits, que cuenta con dos emplazamientos independientes en Barcelona: esta sede de Bailèn y la de la Carrer del Bruc, cada una con su propia dirección, equipo y registro, aunque compartan gestora y proyecto educativo.\n\nEl centro admite niños desde el nacimiento hasta los 3 años y organiza su día a día bajo un modelo bilingüe catalán-inglés, de manera que los pequeños conviven con ambas lenguas de forma natural desde las primeras etapas. Esta apuesta lingüística se complementa con actividades pensadas específicamente para reforzar el inglés dentro del aula.\n\nUno de los rasgos distintivos de esta llar es la organización de casals y campamentos de verano, una opción muy valorada por las familias del Eixample que necesitan continuidad educativa y de conciliación fuera del calendario escolar habitual. Quienes deseen contactar con el centro pueden hacerlo por teléfono, por correo electrónico o a través de su página web, donde también se detallan las particularidades de esta sede frente a la de Bruc.\n\nComo en el resto de fichas de este directorio, la información recogida procede de fuentes públicas y de datos facilitados por el propio centro; si representas esta escuela, puedes solicitar una actualización o reclamar la ficha."
+  }
+]

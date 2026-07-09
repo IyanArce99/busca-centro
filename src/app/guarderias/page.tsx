@@ -18,7 +18,7 @@ import { faqPageJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
 export const metadata: Metadata = {
   title: "Guarderías: busca y compara centros infantiles",
   description:
-    "Encuentra guarderías y centros infantiles con información sobre ubicación, servicios, edades, contacto y fichas verificables. Empieza por las guarderías en Madrid.",
+    "Encuentra guarderías y centros infantiles con información sobre ubicación, servicios, edades, contacto y fichas verificables.",
   alternates: { canonical: "/guarderias" },
   robots: robotsMeta(),
 };
@@ -31,8 +31,12 @@ export default async function GuarderiasPage() {
     return acc;
   }, {});
 
-  const madridPage = getSeoPageBySlug("guarderias-en-madrid");
-  const madridIndexable = madridPage ? isSeoPageIndexableFromCenters(madridPage, allCenters) : false;
+  // One "guarderías en X" entry per city with an indexable landing, instead
+  // of a single hardcoded city — grows automatically as new cities qualify.
+  const cityGuarderiaPages = featuredCities.flatMap((city) => {
+    const page = getSeoPageBySlug(`guarderias-en-${city.slug}`);
+    return page && isSeoPageIndexableFromCenters(page, allCenters) ? [{ city, page }] : [];
+  });
 
   const breadcrumbs = [{ label: "Inicio", href: "/" }, { label: "Guarderías" }];
   const jsonLd = [breadcrumbJsonLd(breadcrumbs, "/guarderias"), faqPageJsonLd(guarderiasFaqs)];
@@ -52,23 +56,27 @@ export default async function GuarderiasPage() {
         <SearchBox cities={featuredCities} />
       </header>
 
-      {madridIndexable ? (
-        <section className="rounded-2xl border border-sky-100 bg-sky-50/60 p-6">
-          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-            <div>
-              <h2 className="text-lg font-bold text-slate-900">Guarderías en Madrid</h2>
-              <p className="mt-1 max-w-xl text-sm text-slate-600">
-                Es la ciudad con más centros en el directorio. Filtra por distrito y servicios, y compara opciones cerca
-                de casa o del trabajo.
-              </p>
-            </div>
-            <Link
-              href="/guarderias-en-madrid"
-              className="shrink-0 rounded-full bg-sky-700 px-5 py-2.5 text-center text-sm font-semibold text-white transition-colors hover:bg-sky-800"
+      {cityGuarderiaPages.length > 0 ? (
+        <section className="flex flex-col gap-4">
+          {cityGuarderiaPages.map(({ city, page }) => (
+            <div
+              key={page.slug}
+              className="rounded-2xl border border-sky-100 bg-sky-50/60 p-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between"
             >
-              Ver guarderías en Madrid
-            </Link>
-          </div>
+              <div>
+                <h2 className="text-lg font-bold text-slate-900">Guarderías en {city.name}</h2>
+                <p className="mt-1 max-w-xl text-sm text-slate-600">
+                  Filtra por distrito y servicios, y compara opciones cerca de casa o del trabajo en {city.name}.
+                </p>
+              </div>
+              <Link
+                href={`/${page.slug}`}
+                className="shrink-0 rounded-full bg-sky-700 px-5 py-2.5 text-center text-sm font-semibold text-white transition-colors hover:bg-sky-800"
+              >
+                Ver guarderías en {city.name}
+              </Link>
+            </div>
+          ))}
         </section>
       ) : null}
 
@@ -101,15 +109,16 @@ export default async function GuarderiasPage() {
       <section>
         <h2 className="text-2xl font-bold text-slate-900">Explora también</h2>
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {madridIndexable ? (
+          {cityGuarderiaPages.map(({ city, page }) => (
             <CategoryCard
-              title="Guarderías en Madrid"
-              description="Centros de 0 a 3 años por distrito y servicios en Madrid."
-              href="/guarderias-en-madrid"
+              key={page.slug}
+              title={`Guarderías en ${city.name}`}
+              description={`Centros de 0 a 3 años por distrito y servicios en ${city.name}.`}
+              href={`/${page.slug}`}
               icon={<HomeModernIcon className="h-5 w-5" />}
               accent="sky"
             />
-          ) : null}
+          ))}
           <CategoryCard
             title="Escuelas infantiles"
             description="Centros de educación infantil con proyecto pedagógico."

@@ -386,4 +386,346 @@ export const mockSeoPages: SeoPage[] = [
       },
     ],
   },
+  {
+    id: "seo-guarderias-comedor-barcelona",
+    slug: "guarderias-con-comedor-en-barcelona",
+    title: "Guarderías con comedor en Barcelona: busca y compara centros",
+    h1: "Guarderías con comedor en Barcelona",
+    subtitle:
+      "Guarderías y llars d'infants en Barcelona con servicio de comedor, muchas de ellas con cocina propia, para facilitar el día a día de las familias.",
+    metaDescription:
+      "Guarderías en Barcelona con servicio de comedor. Compara centros con cocina propia, consulta sus fichas y solicita información sin compromiso.",
+    filters: { citySlug: "barcelona", centerType: "guarderia", service: "comedor" },
+    introText:
+      "El comedor es uno de los servicios que más pesa a la hora de elegir guardería en Barcelona, sobre todo para conciliar el horario laboral con el del centro. En esta página puedes consultar guarderías y llars d'infants de la ciudad en cuya ficha consta el servicio de comedor, según los datos disponibles. Una parte importante de estos centros gestiona el menú con cocina propia, elaborando la comida en las mismas instalaciones en lugar de recurrir a catering externo.",
+    sections: [
+      {
+        heading: "Cocina propia frente a catering en las guarderías de Barcelona",
+        paragraphs: [
+          "Entre las guarderías de este listado, muchas destacan específicamente que preparan el menú diario en su propia cocina, un aspecto que las familias suelen valorar por el control directo sobre los ingredientes y la posibilidad de adaptar el menú a alergias o intolerancias concretas. Otros centros trabajan con catering externo, una fórmula igualmente habitual entre las guarderías que no disponen de cocina propia en el mismo edificio.",
+          "Antes de decidir, conviene preguntar directamente al centro cómo gestiona los menús especiales, si hay opción de dieta sin gluten o sin lactosa, y si el precio del comedor está incluido en la cuota mensual o se factura aparte.",
+        ],
+      },
+    ],
+    outroText:
+      "Confirma con cada centro el tipo de menú, cómo gestionan alergias e intolerancias y si el comedor es de cocina propia o catering. Los datos de la ficha pueden proceder de fuentes públicas o del propio centro y estar pendientes de verificación.",
+    faqs: [
+      {
+        question: "¿Todas las guarderías de esta página tienen comedor?",
+        answer:
+          "Este listado muestra guarderías en Barcelona en cuya ficha consta el servicio de comedor según los datos disponibles. Te recomendamos confirmarlo con el centro, ya que la disponibilidad y el tipo de gestión pueden cambiar por curso.",
+      },
+      {
+        question: "¿Cuántas de estas guarderías tienen cocina propia?",
+        answer:
+          "Una parte significativa de los centros de este listado indica en su ficha que elabora los menús con cocina propia. Puedes comprobarlo en la descripción de cada centro y confirmarlo directamente antes de solicitar plaza.",
+      },
+      {
+        question: "¿Puedo consultar el menú antes de matricular a mi hijo o hija?",
+        answer:
+          "La mayoría de los centros facilita el menú semanal o mensual si lo solicitas directamente. Es buen momento también para preguntar por la gestión de alergias e intolerancias alimentarias.",
+      },
+    ],
+  },
+  {
+    id: "seo-escuelas-infantiles-comedor-barcelona",
+    slug: "escuelas-infantiles-con-comedor-en-barcelona",
+    title: "Escuelas infantiles con comedor en Barcelona: busca y compara centros",
+    h1: "Escuelas infantiles con comedor en Barcelona",
+    subtitle:
+      "Escoles bressol municipales y escuelas infantiles privadas en Barcelona con servicio de comedor y cocina propia.",
+    metaDescription:
+      "Escuelas infantiles y escoles bressol en Barcelona con comedor. Consulta horarios, cocina propia y datos de contacto de cada centro.",
+    filters: { citySlug: "barcelona", centerType: "escuela-infantil", service: "comedor" },
+    introText:
+      "La gran mayoría de escoles bressol municipales de Barcelona ofrece comedor con cocina propia como parte de su funcionamiento habitual, y muchas escuelas infantiles privadas siguen el mismo modelo. En esta página puedes consultar escuelas infantiles de la ciudad con servicio de comedor, según los datos disponibles en cada ficha, ya sean de titularidad pública, privada o concertada.",
+    sections: [
+      {
+        heading: "El comedor en las escoles bressol municipales de Barcelona",
+        paragraphs: [
+          "Las escoles bressol municipales gestionadas por el Institut Municipal d'Educació de Barcelona (IMEB) preparan habitualmente el menú diario con cocina propia en el mismo centro, dentro de un horario que suele ir de 8:00 a 17:00 horas entre semana. El acceso a estas plazas se realiza mediante el proceso anual de preinscripción municipal, con una cuota pública que puede tener bonificaciones según la renta familiar.",
+          "En las escuelas infantiles privadas y concertadas, el funcionamiento del comedor varía más de un centro a otro: algunas cuentan también con cocina propia, mientras que otras recurren a catering externo. Conviene revisar la ficha de cada centro y confirmar el detalle directamente antes de matricular.",
+        ],
+      },
+    ],
+    outroText:
+      "Confirma con cada centro el tipo de menú, la gestión de alergias e intolerancias y si el comedor está incluido en la cuota o se paga aparte. Los datos de la ficha pueden proceder de fuentes públicas o del propio centro y estar pendientes de verificación.",
+    faqs: [
+      {
+        question: "¿Las escoles bressol municipales de Barcelona tienen todas comedor?",
+        answer:
+          "La mayoría de las escoles bressol municipales de Barcelona incluidas en este directorio cuenta con servicio de comedor y cocina propia, según los datos del Institut Municipal d'Educació de Barcelona. Puedes confirmarlo en la ficha de cada centro.",
+      },
+      {
+        question: "¿El comedor está incluido en la cuota de la escola bressol municipal?",
+        answer:
+          "Las cuotas de las escoles bressol municipales, incluido el comedor, siguen los precios públicos vigentes y pueden tener bonificaciones según la renta familiar. Te recomendamos confirmar el importe exacto con el centro o en los canales oficiales del Ayuntamiento de Barcelona.",
+      },
+      {
+        question: "¿Y en las escuelas infantiles privadas o concertadas?",
+        answer:
+          "El funcionamiento y el coste del comedor en centros privados o concertados varían según el centro. Algunos gestionan la comida con cocina propia y otros con catering externo; confírmalo directamente con la escuela.",
+      },
+    ],
+  },
+  {
+    id: "seo-guarderias-horario-ampliado-barcelona",
+    slug: "guarderias-con-horario-ampliado-en-barcelona",
+    title: "Guarderías con horario ampliado en Barcelona",
+    h1: "Guarderías con horario ampliado en Barcelona",
+    subtitle: "Centros con horario ampliado o servicio de madrugadores en Barcelona para ayudarte a conciliar.",
+    metaDescription:
+      "Guarderías en Barcelona con horario ampliado. Compara centros con franjas flexibles de entrada y salida y solicita información.",
+    filters: { citySlug: "barcelona", centerType: "guarderia", service: "horario-ampliado" },
+    introText:
+      "Cuando el horario laboral no encaja con el horario habitual del centro, contar con una franja ampliada de entrada o salida marca la diferencia. Aquí puedes consultar guarderías y llars d'infants en Barcelona que ofrecen horario ampliado, según los datos disponibles en cada ficha.",
+    outroText:
+      "El horario exacto, las franjas disponibles y su coste pueden variar según el centro; confírmalo antes de solicitar plaza. Los datos de la ficha pueden proceder de fuentes públicas o del propio centro y estar pendientes de verificación.",
+    faqs: [
+      {
+        question: "¿Qué se considera horario ampliado en una guardería de Barcelona?",
+        answer:
+          "Suele referirse a franjas de entrada anticipada o de salida más tarde de lo habitual, pensadas para familias que necesitan flexibilidad para conciliar. Cada centro define sus propias franjas y condiciones.",
+      },
+      {
+        question: "¿El horario ampliado tiene un coste adicional?",
+        answer:
+          "En muchos centros el horario ampliado es un servicio opcional con un coste añadido, pero varía de una guardería a otra. Confirma el precio y las condiciones directamente con el centro.",
+      },
+    ],
+  },
+  {
+    id: "seo-escuelas-infantiles-publicas-barcelona",
+    slug: "escuelas-infantiles-publicas-en-barcelona",
+    title: "Escuelas infantiles públicas en Barcelona: escoles bressol municipals",
+    h1: "Escuelas infantiles públicas en Barcelona",
+    subtitle:
+      "Escoles bressol municipals y llars d'infants de titularidad pública en Barcelona, también conocidas como guarderías municipales.",
+    metaDescription:
+      "Escuelas infantiles públicas en Barcelona: escoles bressol municipals y llars d'infants de la Generalitat. Consulta horarios, comedor y proceso de preinscripción.",
+    filters: { citySlug: "barcelona", centerType: "escuela-infantil", ownership: "publico" },
+    introText:
+      "En Barcelona, la red de educación infantil pública para niños de 0 a 3 años está formada principalmente por las escoles bressol municipals, gestionadas por el Institut Municipal d'Educació de Barcelona (IMEB), y por las llars d'infants dependientes del Departament d'Educació de la Generalitat de Catalunya. En el lenguaje cotidiano de muchas familias, estos centros se conocen simplemente como \"guarderías municipales\" o \"guarderías públicas\", aunque en este directorio se clasifican como escuelas infantiles por tratarse de centros de titularidad pública. Aquí puedes consultar el listado completo con datos de contacto, horario y servicios.",
+    sections: [
+      {
+        heading: "Cómo funciona el acceso a una escola bressol municipal en Barcelona",
+        paragraphs: [
+          "El acceso a una plaza en una escola bressol municipal se realiza mediante un proceso anual de preinscripción y matrícula gestionado por el Ayuntamiento de Barcelona, que asigna las plazas disponibles según un baremo público. Las cuotas siguen los precios públicos vigentes, con posibilidad de bonificación en función de la renta familiar.",
+          "El horario habitual de estos centros suele ir de 8:00 a 17:00 horas de lunes a viernes, con jornada reducida en septiembre y julio, y la mayoría dispone de comedor con cocina propia. Las llars d'infants de la Generalitat, aunque dependen de una administración distinta a la municipal, funcionan bajo un modelo similar de acceso público.",
+        ],
+      },
+      {
+        heading: "Diferencias entre escola bressol municipal, llar d'infants y centro concertado",
+        paragraphs: [
+          "Las escoles bressol municipals dependen del Ayuntamiento de Barcelona; las llars d'infants de este listado dependen directamente de la Generalitat de Catalunya. Ambas son de titularidad pública y comparten un proceso de acceso reglado, aunque cada una sigue su propio circuito administrativo. Los centros concertados, en cambio, son de gestión privada con un convenio parcial de financiación pública, y no están incluidos en esta página.",
+        ],
+      },
+    ],
+    outroText:
+      "Los datos de esta página proceden de fuentes públicas —el Institut Municipal d'Educació de Barcelona y el Registre de Centres Docents de la Generalitat de Catalunya—. Si representas uno de estos centros y detectas algún dato desactualizado, puedes solicitar su revisión o reclamar la ficha.",
+    faqs: [
+      {
+        question: "¿\"Escola bressol municipal\" es lo mismo que \"guardería pública\"?",
+        answer:
+          "Sí, en el lenguaje habitual de muchas familias ambos términos se usan indistintamente. En este directorio, los centros públicos de 0 a 3 años se clasifican como escuelas infantiles, e incluyen tanto las escoles bressol municipals del Ayuntamiento como las llars d'infants de la Generalitat.",
+      },
+      {
+        question: "¿Cómo consigo plaza en una escola bressol municipal de Barcelona?",
+        answer:
+          "El acceso se realiza mediante el proceso anual de preinscripción y matrícula del Ayuntamiento de Barcelona, con asignación de plazas según un baremo público. Consulta los plazos oficiales de preinscripción, que suelen abrirse en primavera para el curso siguiente.",
+      },
+      {
+        question: "¿Todas las escoles bressol municipals tienen comedor?",
+        answer:
+          "La mayoría dispone de comedor con cocina propia, según los datos del Institut Municipal d'Educació de Barcelona. Puedes comprobarlo en la ficha de cada centro.",
+      },
+      {
+        question: "¿Cuál es la diferencia con una llar d'infants de la Generalitat?",
+        answer:
+          "Ambas son de titularidad pública y atienden el primer ciclo de educación infantil (0-3 años), pero dependen de administraciones distintas: las escoles bressol municipals del Ayuntamiento de Barcelona, y las llars d'infants de este listado del Departament d'Educació de la Generalitat de Catalunya.",
+      },
+    ],
+  },
+  {
+    id: "seo-escuelas-infantiles-privadas-barcelona",
+    slug: "escuelas-infantiles-privadas-en-barcelona",
+    title: "Escuelas infantiles privadas en Barcelona",
+    h1: "Escuelas infantiles privadas en Barcelona",
+    subtitle: "Colegios y centros educativos privados y concertados de Barcelona con sección de infantil de 0 a 3 años.",
+    metaDescription:
+      "Escuelas infantiles privadas en Barcelona: colegios con sección de 0 a 3 años. Compara proyecto educativo, servicios y solicita información.",
+    filters: { citySlug: "barcelona", centerType: "escuela-infantil", ownership: "privado" },
+    introText:
+      "Varios colegios de Barcelona ofrecen una sección de infantil para niños de 0 a 3 años dentro de un proyecto educativo que continúa después en primaria y secundaria. En esta página puedes consultar escuelas infantiles privadas de la ciudad, muchas de ellas parte de centros con trayectoria de varias décadas, según los datos disponibles en cada ficha.",
+    outroText:
+      "El proceso de admisión, las cuotas y el proyecto pedagógico varían mucho de un centro a otro. Te recomendamos contactar directamente con cada colegio para conocer el detalle de su etapa de 0 a 3 años. Los datos de la ficha pueden proceder de fuentes públicas o del propio centro y estar pendientes de verificación.",
+    faqs: [
+      {
+        question: "¿Estos colegios tienen continuidad después de la etapa 0-3 años?",
+        answer:
+          "Sí, en general se trata de centros educativos con oferta más amplia, que continúan con el segundo ciclo de infantil, primaria y, en muchos casos, secundaria y bachillerato dentro del mismo proyecto.",
+      },
+      {
+        question: "¿Cómo es el proceso de admisión para la etapa de 0 a 3 años?",
+        answer:
+          "Cada centro privado o concertado gestiona su propio proceso de admisión para la etapa de 0 a 3 años, que no siempre coincide con el proceso general de escolarización. Te recomendamos consultarlo directamente con el colegio.",
+      },
+    ],
+  },
+  {
+    id: "seo-escuelas-infantiles-bilingues-barcelona",
+    slug: "escuelas-infantiles-bilingues-en-barcelona",
+    title: "Escuelas infantiles bilingües en Barcelona",
+    h1: "Escuelas infantiles bilingües en Barcelona",
+    subtitle: "Escuelas infantiles en Barcelona con programa bilingüe o trilingüe desde el primer ciclo.",
+    metaDescription:
+      "Escuelas infantiles bilingües en Barcelona: centros con programa en catalán, castellano e inglés. Compara y solicita información.",
+    filters: { citySlug: "barcelona", centerType: "escuela-infantil", service: "bilingue" },
+    introText:
+      "Algunas escuelas infantiles de Barcelona plantean su proyecto educativo desde un enfoque bilingüe o incluso trilingüe, combinando catalán, castellano e inglés desde el primer ciclo. Aquí puedes consultar las escuelas infantiles de la ciudad con programa bilingüe registrado en su ficha.",
+    outroText:
+      "El enfoque, las horas de exposición al idioma y la metodología varían de un centro a otro. Solicita información directamente a cada escuela para conocer el detalle de su programa. Los datos de la ficha pueden estar pendientes de verificación.",
+    faqs: [
+      {
+        question: "¿En qué consiste el programa bilingüe de estas escuelas infantiles?",
+        answer:
+          "Cada centro define su propio enfoque: algunos combinan catalán y castellano con iniciación al inglés, y otros plantean un modelo trilingüe desde el primer ciclo. Te recomendamos solicitar información directamente para conocer la metodología y las horas de exposición a cada idioma.",
+      },
+      {
+        question: "¿A partir de qué edad se introduce el inglés?",
+        answer:
+          "Depende del proyecto de cada centro. En el primer ciclo de infantil, la introducción al inglés suele hacerse mediante canciones, rutinas y juego más que con un enfoque académico. Confírmalo en la ficha o directamente con la escuela.",
+      },
+    ],
+  },
+  {
+    id: "seo-guarderias-ingles-barcelona",
+    slug: "guarderias-con-ingles-en-barcelona",
+    title: "Guarderías con inglés en Barcelona",
+    h1: "Guarderías con inglés en Barcelona",
+    subtitle: "Guarderías y llars d'infants en Barcelona con iniciación al inglés o programa bilingüe.",
+    metaDescription:
+      "Guarderías con inglés en Barcelona: centros con iniciación al idioma desde el primer ciclo. Compara y solicita información.",
+    filters: { citySlug: "barcelona", centerType: "guarderia", service: "ingles" },
+    introText:
+      "Muchas guarderías y llars d'infants de Barcelona incorporan el inglés dentro de sus actividades diarias, ya sea como iniciación puntual o como parte de un programa bilingüe más estructurado. En esta página puedes consultar los centros de la ciudad que registran esta actividad en su ficha.",
+    outroText:
+      "El nivel de exposición al idioma varía mucho de un centro a otro: desde canciones y rutinas puntuales hasta programas bilingües completos. Solicita información directamente a cada guardería para conocer el detalle.",
+    faqs: [
+      {
+        question: "¿Es lo mismo \"guardería con inglés\" que \"guardería bilingüe\"?",
+        answer:
+          "No siempre. Algunas guarderías ofrecen sesiones puntuales de iniciación al inglés dentro de sus actividades, mientras que otras plantean un programa bilingüe más estructurado con mayor exposición al idioma. Consulta la ficha de cada centro para ver el detalle disponible.",
+      },
+      {
+        question: "¿Cuántas horas a la semana se dedican al inglés?",
+        answer:
+          "Depende de cada centro y no siempre consta en la ficha. Te recomendamos preguntar directamente a la guardería por las horas de exposición al idioma y la metodología empleada.",
+      },
+    ],
+  },
+  {
+    id: "seo-escuelas-infantiles-ingles-barcelona",
+    slug: "escuelas-infantiles-con-ingles-en-barcelona",
+    title: "Escuelas infantiles con inglés en Barcelona",
+    h1: "Escuelas infantiles con inglés en Barcelona",
+    subtitle: "Escuelas infantiles en Barcelona con actividades o iniciación al inglés desde el primer ciclo.",
+    metaDescription:
+      "Escuelas infantiles con inglés en Barcelona: centros con iniciación al idioma en el primer ciclo de infantil. Compara y solicita información.",
+    filters: { citySlug: "barcelona", centerType: "escuela-infantil", service: "ingles" },
+    introText:
+      "Un número creciente de escuelas infantiles en Barcelona incorpora el inglés en sus actividades diarias desde el primer ciclo (0-3 años), tanto en centros públicos como privados. Consulta aquí las escuelas infantiles de la ciudad que registran esta actividad en su ficha.",
+    outroText:
+      "El enfoque y la carga horaria dedicada al inglés varían según el centro y su titularidad. Solicita información directamente a cada escuela para conocer el detalle de su programa.",
+    faqs: [
+      {
+        question: "¿Las escoles bressol municipals también ofrecen actividades en inglés?",
+        answer:
+          "Algunas lo incorporan como actividad puntual, aunque no es una característica generalizada en toda la red pública. Consulta la ficha de cada centro para comprobar si consta esta actividad.",
+      },
+      {
+        question: "¿Qué diferencia hay con un centro bilingüe?",
+        answer:
+          "Un centro bilingüe suele plantear un programa más estructurado, con mayor exposición al segundo idioma a lo largo del día. La iniciación al inglés, en cambio, puede limitarse a actividades puntuales dentro de la rutina semanal. Confirma el enfoque exacto directamente con el centro.",
+      },
+    ],
+  },
+  {
+    id: "seo-guarderias-privadas-barcelona",
+    slug: "guarderias-privadas-en-barcelona",
+    title: "Guarderías privadas en Barcelona",
+    h1: "Guarderías privadas en Barcelona",
+    subtitle: "Guarderías y llars d'infants de titularidad privada en Barcelona.",
+    metaDescription:
+      "Directorio de guarderías privadas en Barcelona con servicios, horarios y datos de contacto. Compara centros y solicita información.",
+    filters: { citySlug: "barcelona", centerType: "guarderia", ownership: "privado" },
+    introText:
+      "La mayoría de las guarderías y llars d'infants de Barcelona son de titularidad privada, con proyectos educativos, horarios y servicios que varían mucho de un centro a otro. En esta página puedes consultar guarderías privadas de la ciudad y comparar comedor, horario ampliado, idiomas y otros servicios antes de solicitar información.",
+    outroText:
+      "Las guarderías privadas gestionan su propio proceso de admisión y sus propias cuotas, por lo que conviene confirmar plazas, precios y periodo de adaptación directamente con cada centro. Los datos de la ficha pueden proceder de fuentes públicas o del propio centro y estar pendientes de verificación.",
+    faqs: [
+      {
+        question: "¿En qué se diferencia una guardería privada de una escola bressol municipal?",
+        answer:
+          "Las guarderías privadas gestionan su propio proceso de admisión, horarios y cuotas, sin el baremo público que rige el acceso a las escoles bressol municipals. Suelen ofrecer más flexibilidad de horario, aunque el coste es a cargo de la familia sin las bonificaciones de la red pública.",
+      },
+      {
+        question: "¿Cómo puedo comparar varias guarderías privadas en Barcelona?",
+        answer:
+          "Puedes revisar la ficha de cada centro para comparar servicios como comedor, horario ampliado o idiomas, y contactar directamente con las que más te interesen para confirmar plazas y cuotas.",
+      },
+    ],
+  },
+  {
+    id: "seo-escuelas-infantiles-horario-ampliado-barcelona",
+    slug: "escuelas-infantiles-con-horario-ampliado-en-barcelona",
+    title: "Escuelas infantiles con horario ampliado en Barcelona",
+    h1: "Escuelas infantiles con horario ampliado en Barcelona",
+    subtitle: "Escuelas infantiles en Barcelona con franjas de entrada y salida ampliadas para facilitar la conciliación.",
+    metaDescription:
+      "Escuelas infantiles con horario ampliado en Barcelona. Compara centros con franjas flexibles y solicita información.",
+    filters: { citySlug: "barcelona", centerType: "escuela-infantil", service: "horario-ampliado" },
+    introText:
+      "Algunas escuelas infantiles de Barcelona, tanto públicas como privadas, ofrecen una franja de horario ampliado además de su horario lectivo habitual, pensada para familias que necesitan entrar antes o salir más tarde de lo estándar. Consulta aquí las escuelas infantiles de la ciudad que registran este servicio en su ficha.",
+    outroText:
+      "El horario exacto, las franjas disponibles y su coste varían según el centro y su titularidad; confírmalo antes de solicitar plaza. Los datos de la ficha pueden proceder de fuentes públicas o del propio centro y estar pendientes de verificación.",
+    faqs: [
+      {
+        question: "¿Las escoles bressol municipals tienen horario ampliado?",
+        answer:
+          "El horario habitual de las escoles bressol municipals suele ir de 8:00 a 17:00 horas. Algunos centros ofrecen franjas adicionales de acogida; consulta la ficha del centro o confírmalo directamente con la escuela.",
+      },
+      {
+        question: "¿El horario ampliado tiene coste adicional en una escuela infantil?",
+        answer:
+          "En los centros privados y concertados, el horario ampliado suele ser un servicio opcional con coste añadido. En la red pública, cuando está disponible, puede estar sujeto a los precios públicos vigentes. Confirma las condiciones exactas con cada centro.",
+      },
+    ],
+  },
+  {
+    id: "seo-guarderias-cocina-propia-barcelona",
+    slug: "guarderias-con-cocina-propia-en-barcelona",
+    title: "Guarderías con cocina propia en Barcelona",
+    h1: "Guarderías con cocina propia en Barcelona",
+    subtitle: "Guarderías y llars d'infants en Barcelona que elaboran el menú diario en sus propias instalaciones.",
+    metaDescription:
+      "Guarderías con cocina propia en Barcelona: centros que preparan el menú diario sin catering externo. Compara y solicita información.",
+    filters: { citySlug: "barcelona", centerType: "guarderia", service: "cocina-propia" },
+    introText:
+      "Frente al catering externo, varias guarderías y llars d'infants de Barcelona elaboran el menú diario en su propia cocina, dentro de las mismas instalaciones del centro. En esta página puedes consultar las guarderías de la ciudad que registran este servicio en su ficha, un aspecto que muchas familias valoran por el control directo sobre los ingredientes y la posibilidad de adaptar los menús.",
+    outroText:
+      "Aunque un centro tenga cocina propia, conviene confirmar directamente cómo gestiona alergias e intolerancias alimentarias y si el servicio de comedor está incluido en la cuota mensual. Los datos de la ficha pueden proceder de fuentes públicas o del propio centro y estar pendientes de verificación.",
+    faqs: [
+      {
+        question: "¿Qué ventaja tiene que una guardería tenga cocina propia?",
+        answer:
+          "Permite un control más directo sobre los ingredientes y la elaboración del menú, y suele facilitar adaptar la comida a alergias, intolerancias o necesidades concretas de cada niño o niña. Aun así, conviene confirmarlo directamente con el centro.",
+      },
+      {
+        question: "¿Las guarderías con cocina propia son más caras?",
+        answer:
+          "No necesariamente; el coste del comedor depende de cada centro y no siempre está relacionado con el tipo de gestión de la cocina. Te recomendamos consultar el precio y las condiciones directamente con la guardería.",
+      },
+    ],
+  },
 ];

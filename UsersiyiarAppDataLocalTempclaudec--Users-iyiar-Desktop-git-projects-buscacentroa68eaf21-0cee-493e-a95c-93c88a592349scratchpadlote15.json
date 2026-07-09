@@ -1,0 +1,1217 @@
+[
+  {
+    "slug": "escola-bressol-municipal-aurora-barcelona",
+    "name": "Escola Bressol Municipal Aurora",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Aurora, 24",
+      "postal_code": "08001",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Ciutat Vella",
+      "neighborhood_barrio": null,
+      "latitude": 41.3781,
+      "longitude": 2.167109
+    },
+    "contact": {
+      "phone": "937060015",
+      "email": "ebmaurora@bcn.cat",
+      "website": "http://barcelona.cat/ebmaurora"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": "Lunes a viernes de 8:00 a 17:00 (8:00 a 15:00 en septiembre y julio)",
+    "services": [
+      "comedor",
+      "cocina-propia"
+    ],
+    "short_description": "Escola Bressol Municipal Aurora es una escuela infantil de titularidad pública (Escola Bressol Municipal) situada en el distrito de Ciutat Vella, Barcelona. Depende del Institut Municipal d'Educació de Barcelona (IMEB) y atiende el primer ciclo de educación infantil (0 a 3 años). Dispone de comedor con cocina propia y horario de 8:00 a 17:00 h. El acceso se realiza mediante el proceso de preinscripción municipal.",
+    "long_description": "Escola Bressol Municipal Aurora forma parte de la Xarxa d'Escoles Bressol Municipals de Barcelona, gestionada por el Institut Municipal d'Educació de Barcelona (IMEB), y está ubicada en el distrito de Ciutat Vella.\n\nComo el resto de escoles bressol municipals de la ciudad, el centro atiende el primer ciclo de educación infantil (0 a 3 años) con un horario de atención de 8:00 a 17:00 horas de lunes a viernes (de 8:00 a 15:00 en los meses de septiembre y julio). Todas las escoles bressol municipals disponen de cocina propia donde se elaboran diariamente los menús, con dietas basadas en criterios de alimentación equilibrada y adaptaciones para necesidades alimentarias especiales cuando así lo indique un informe médico.\n\nEl acceso a la escuela se realiza a través del proceso anual de preinscripción y matrícula que organiza el Ayuntamiento de Barcelona, con criterios de baremación pública. El precio del servicio se rige por los precios públicos aprobados por el Ayuntamiento, con bonificaciones según renta familiar.\n\nEsta ficha recoge información pública procedente del Institut Municipal d'Educació de Barcelona y del Registre de Centres Docents de la Generalitat de Catalunya. Para conocer el proyecto educativo específico del centro, plazas disponibles y otros detalles, se recomienda consultar directamente la página oficial de la escuela o contactar con dirección.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Escola Bressol Municipal Aurora?",
+        "answer": "Escola Bressol Municipal Aurora está en Aurora, 24, 08001, en el distrito de Ciutat Vella, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública municipal (Escola Bressol Municipal), dependiente del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (937060015), por correo electrónico (ebmaurora@bcn.cat), a través de su web oficial."
+      },
+      {
+        "question": "¿Tiene servicio de comedor?",
+        "answer": "Sí. Todas las escoles bressol municipals de Barcelona disponen de cocina propia donde se elaboran los menús diarios."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "El horario de atención es de 8:00 a 17:00 horas de lunes a viernes, reducido a 8:00-15:00 en septiembre y julio, según la organización general del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo se accede a una plaza?",
+        "answer": "El acceso se realiza mediante el proceso anual de preinscripción y matrícula municipal, con baremación pública, gestionado por el Ayuntamiento de Barcelona."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya y el Institut Municipal d'Educació de Barcelona). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://ajuntament.barcelona.cat/escolesbressol/sites/default/files/llistat_ebm_curs_2026_2027_def.pdf",
+    "source_urls_secondary": [
+      "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+      "https://ajuntament.barcelona.cat/escolesbressol/ca/organitzacio-de-lescola"
+    ],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "ebm_municipal",
+    "codi_centre_generalitat": "08076728"
+  },
+  {
+    "slug": "escola-bressol-municipal-cadi-barcelona",
+    "name": "Escola Bressol Municipal Cadí",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Om, 11",
+      "postal_code": "08001",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Ciutat Vella",
+      "neighborhood_barrio": null,
+      "latitude": 41.37618,
+      "longitude": 2.171646
+    },
+    "contact": {
+      "phone": "934424844",
+      "email": "ebmcadi@bcn.cat",
+      "website": "http://barcelona.cat/ebmcadi"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": "Lunes a viernes de 8:00 a 17:00 (8:00 a 15:00 en septiembre y julio)",
+    "services": [
+      "comedor",
+      "cocina-propia"
+    ],
+    "short_description": "Escola Bressol Municipal Cadí es una escuela infantil de titularidad pública (Escola Bressol Municipal) situada en el distrito de Ciutat Vella, Barcelona. Depende del Institut Municipal d'Educació de Barcelona (IMEB) y atiende el primer ciclo de educación infantil (0 a 3 años). Dispone de comedor con cocina propia y horario de 8:00 a 17:00 h. El acceso se realiza mediante el proceso de preinscripción municipal.",
+    "long_description": "Escola Bressol Municipal Cadí forma parte de la Xarxa d'Escoles Bressol Municipals de Barcelona, gestionada por el Institut Municipal d'Educació de Barcelona (IMEB), y está ubicada en el distrito de Ciutat Vella.\n\nComo el resto de escoles bressol municipals de la ciudad, el centro atiende el primer ciclo de educación infantil (0 a 3 años) con un horario de atención de 8:00 a 17:00 horas de lunes a viernes (de 8:00 a 15:00 en los meses de septiembre y julio). Todas las escoles bressol municipals disponen de cocina propia donde se elaboran diariamente los menús, con dietas basadas en criterios de alimentación equilibrada y adaptaciones para necesidades alimentarias especiales cuando así lo indique un informe médico.\n\nEl acceso a la escuela se realiza a través del proceso anual de preinscripción y matrícula que organiza el Ayuntamiento de Barcelona, con criterios de baremación pública. El precio del servicio se rige por los precios públicos aprobados por el Ayuntamiento, con bonificaciones según renta familiar.\n\nEsta ficha recoge información pública procedente del Institut Municipal d'Educació de Barcelona y del Registre de Centres Docents de la Generalitat de Catalunya. Para conocer el proyecto educativo específico del centro, plazas disponibles y otros detalles, se recomienda consultar directamente la página oficial de la escuela o contactar con dirección.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Escola Bressol Municipal Cadí?",
+        "answer": "Escola Bressol Municipal Cadí está en Om, 11, 08001, en el distrito de Ciutat Vella, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública municipal (Escola Bressol Municipal), dependiente del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (934424844), por correo electrónico (ebmcadi@bcn.cat), a través de su web oficial."
+      },
+      {
+        "question": "¿Tiene servicio de comedor?",
+        "answer": "Sí. Todas las escoles bressol municipals de Barcelona disponen de cocina propia donde se elaboran los menús diarios."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "El horario de atención es de 8:00 a 17:00 horas de lunes a viernes, reducido a 8:00-15:00 en septiembre y julio, según la organización general del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo se accede a una plaza?",
+        "answer": "El acceso se realiza mediante el proceso anual de preinscripción y matrícula municipal, con baremación pública, gestionado por el Ayuntamiento de Barcelona."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya y el Institut Municipal d'Educació de Barcelona). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://ajuntament.barcelona.cat/escolesbressol/sites/default/files/llistat_ebm_curs_2026_2027_def.pdf",
+    "source_urls_secondary": [
+      "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+      "https://ajuntament.barcelona.cat/escolesbressol/ca/organitzacio-de-lescola"
+    ],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "ebm_municipal",
+    "codi_centre_generalitat": "08046384"
+  },
+  {
+    "slug": "escola-bressol-municipal-canigo-barcelona",
+    "name": "Escola Bressol Municipal Canigó",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Àngels, 7",
+      "postal_code": "08001",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Ciutat Vella",
+      "neighborhood_barrio": null,
+      "latitude": 41.3825,
+      "longitude": 2.167855
+    },
+    "contact": {
+      "phone": "934417512",
+      "email": "ebmcanigo@bcn.cat",
+      "website": "http://barcelona.cat/ebmcanigo"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": "Lunes a viernes de 8:00 a 17:00 (8:00 a 15:00 en septiembre y julio)",
+    "services": [
+      "comedor",
+      "cocina-propia"
+    ],
+    "short_description": "Escola Bressol Municipal Canigó es una escuela infantil de titularidad pública (Escola Bressol Municipal) situada en el distrito de Ciutat Vella, Barcelona. Depende del Institut Municipal d'Educació de Barcelona (IMEB) y atiende el primer ciclo de educación infantil (0 a 3 años). Dispone de comedor con cocina propia y horario de 8:00 a 17:00 h. El acceso se realiza mediante el proceso de preinscripción municipal.",
+    "long_description": "Escola Bressol Municipal Canigó forma parte de la Xarxa d'Escoles Bressol Municipals de Barcelona, gestionada por el Institut Municipal d'Educació de Barcelona (IMEB), y está ubicada en el distrito de Ciutat Vella.\n\nComo el resto de escoles bressol municipals de la ciudad, el centro atiende el primer ciclo de educación infantil (0 a 3 años) con un horario de atención de 8:00 a 17:00 horas de lunes a viernes (de 8:00 a 15:00 en los meses de septiembre y julio). Todas las escoles bressol municipals disponen de cocina propia donde se elaboran diariamente los menús, con dietas basadas en criterios de alimentación equilibrada y adaptaciones para necesidades alimentarias especiales cuando así lo indique un informe médico.\n\nEl acceso a la escuela se realiza a través del proceso anual de preinscripción y matrícula que organiza el Ayuntamiento de Barcelona, con criterios de baremación pública. El precio del servicio se rige por los precios públicos aprobados por el Ayuntamiento, con bonificaciones según renta familiar.\n\nEsta ficha recoge información pública procedente del Institut Municipal d'Educació de Barcelona y del Registre de Centres Docents de la Generalitat de Catalunya. Para conocer el proyecto educativo específico del centro, plazas disponibles y otros detalles, se recomienda consultar directamente la página oficial de la escuela o contactar con dirección.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Escola Bressol Municipal Canigó?",
+        "answer": "Escola Bressol Municipal Canigó está en Àngels, 7, 08001, en el distrito de Ciutat Vella, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública municipal (Escola Bressol Municipal), dependiente del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (934417512), por correo electrónico (ebmcanigo@bcn.cat), a través de su web oficial."
+      },
+      {
+        "question": "¿Tiene servicio de comedor?",
+        "answer": "Sí. Todas las escoles bressol municipals de Barcelona disponen de cocina propia donde se elaboran los menús diarios."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "El horario de atención es de 8:00 a 17:00 horas de lunes a viernes, reducido a 8:00-15:00 en septiembre y julio, según la organización general del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo se accede a una plaza?",
+        "answer": "El acceso se realiza mediante el proceso anual de preinscripción y matrícula municipal, con baremación pública, gestionado por el Ayuntamiento de Barcelona."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya y el Institut Municipal d'Educació de Barcelona). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://ajuntament.barcelona.cat/escolesbressol/sites/default/files/llistat_ebm_curs_2026_2027_def.pdf",
+    "source_urls_secondary": [
+      "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+      "https://ajuntament.barcelona.cat/escolesbressol/ca/organitzacio-de-lescola"
+    ],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "ebm_municipal",
+    "codi_centre_generalitat": "08046360"
+  },
+  {
+    "slug": "escola-bressol-municipal-el-tren-barcelona",
+    "name": "Escola Bressol Municipal El Tren",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Palafrugell, 4",
+      "postal_code": "08033",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Sant Andreu",
+      "neighborhood_barrio": null,
+      "latitude": 41.45048,
+      "longitude": 2.193334
+    },
+    "contact": {
+      "phone": "936764257",
+      "email": "ebmeltren@bcn.cat",
+      "website": "http://barcelona.cat/ebmeltren"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": "Lunes a viernes de 8:00 a 17:00 (8:00 a 15:00 en septiembre y julio)",
+    "services": [
+      "comedor",
+      "cocina-propia"
+    ],
+    "short_description": "Escola Bressol Municipal El Tren es una escuela infantil de titularidad pública (Escola Bressol Municipal) situada en el distrito de Sant Andreu, Barcelona. Depende del Institut Municipal d'Educació de Barcelona (IMEB) y atiende el primer ciclo de educación infantil (0 a 3 años). Dispone de comedor con cocina propia y horario de 8:00 a 17:00 h. El acceso se realiza mediante el proceso de preinscripción municipal.",
+    "long_description": "Escola Bressol Municipal El Tren forma parte de la Xarxa d'Escoles Bressol Municipals de Barcelona, gestionada por el Institut Municipal d'Educació de Barcelona (IMEB), y está ubicada en el distrito de Sant Andreu.\n\nComo el resto de escoles bressol municipals de la ciudad, el centro atiende el primer ciclo de educación infantil (0 a 3 años) con un horario de atención de 8:00 a 17:00 horas de lunes a viernes (de 8:00 a 15:00 en los meses de septiembre y julio). Todas las escoles bressol municipals disponen de cocina propia donde se elaboran diariamente los menús, con dietas basadas en criterios de alimentación equilibrada y adaptaciones para necesidades alimentarias especiales cuando así lo indique un informe médico.\n\nEl acceso a la escuela se realiza a través del proceso anual de preinscripción y matrícula que organiza el Ayuntamiento de Barcelona, con criterios de baremación pública. El precio del servicio se rige por los precios públicos aprobados por el Ayuntamiento, con bonificaciones según renta familiar.\n\nEsta ficha recoge información pública procedente del Institut Municipal d'Educació de Barcelona y del Registre de Centres Docents de la Generalitat de Catalunya. Para conocer el proyecto educativo específico del centro, plazas disponibles y otros detalles, se recomienda consultar directamente la página oficial de la escuela o contactar con dirección.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Escola Bressol Municipal El Tren?",
+        "answer": "Escola Bressol Municipal El Tren está en Palafrugell, 4, 08033, en el distrito de Sant Andreu, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública municipal (Escola Bressol Municipal), dependiente del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (936764257), por correo electrónico (ebmeltren@bcn.cat), a través de su web oficial."
+      },
+      {
+        "question": "¿Tiene servicio de comedor?",
+        "answer": "Sí. Todas las escoles bressol municipals de Barcelona disponen de cocina propia donde se elaboran los menús diarios."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "El horario de atención es de 8:00 a 17:00 horas de lunes a viernes, reducido a 8:00-15:00 en septiembre y julio, según la organización general del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo se accede a una plaza?",
+        "answer": "El acceso se realiza mediante el proceso anual de preinscripción y matrícula municipal, con baremación pública, gestionado por el Ayuntamiento de Barcelona."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya y el Institut Municipal d'Educació de Barcelona). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://ajuntament.barcelona.cat/escolesbressol/sites/default/files/llistat_ebm_curs_2026_2027_def.pdf",
+    "source_urls_secondary": [
+      "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+      "https://ajuntament.barcelona.cat/escolesbressol/ca/organitzacio-de-lescola"
+    ],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "ebm_municipal",
+    "codi_centre_generalitat": "08046530"
+  },
+  {
+    "slug": "escola-bressol-municipal-nic-barcelona",
+    "name": "Escola Bressol Municipal Nic",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Passeig de de l'Exposició, 1",
+      "postal_code": "08004",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Sants-Montjuïc",
+      "neighborhood_barrio": null,
+      "latitude": 41.37079,
+      "longitude": 2.1646
+    },
+    "contact": {
+      "phone": "934438297",
+      "email": "ebmnic@bcn.cat",
+      "website": "http://barcelona.cat/ebmnic"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": "Lunes a viernes de 8:00 a 17:00 (8:00 a 15:00 en septiembre y julio)",
+    "services": [
+      "comedor",
+      "cocina-propia"
+    ],
+    "short_description": "Escola Bressol Municipal Nic es una escuela infantil de titularidad pública (Escola Bressol Municipal) situada en el distrito de Sants-Montjuïc, Barcelona. Depende del Institut Municipal d'Educació de Barcelona (IMEB) y atiende el primer ciclo de educación infantil (0 a 3 años). Dispone de comedor con cocina propia y horario de 8:00 a 17:00 h. El acceso se realiza mediante el proceso de preinscripción municipal.",
+    "long_description": "Escola Bressol Municipal Nic forma parte de la Xarxa d'Escoles Bressol Municipals de Barcelona, gestionada por el Institut Municipal d'Educació de Barcelona (IMEB), y está ubicada en el distrito de Sants-Montjuïc.\n\nComo el resto de escoles bressol municipals de la ciudad, el centro atiende el primer ciclo de educación infantil (0 a 3 años) con un horario de atención de 8:00 a 17:00 horas de lunes a viernes (de 8:00 a 15:00 en los meses de septiembre y julio). Todas las escoles bressol municipals disponen de cocina propia donde se elaboran diariamente los menús, con dietas basadas en criterios de alimentación equilibrada y adaptaciones para necesidades alimentarias especiales cuando así lo indique un informe médico.\n\nEl acceso a la escuela se realiza a través del proceso anual de preinscripción y matrícula que organiza el Ayuntamiento de Barcelona, con criterios de baremación pública. El precio del servicio se rige por los precios públicos aprobados por el Ayuntamiento, con bonificaciones según renta familiar.\n\nEsta ficha recoge información pública procedente del Institut Municipal d'Educació de Barcelona y del Registre de Centres Docents de la Generalitat de Catalunya. Para conocer el proyecto educativo específico del centro, plazas disponibles y otros detalles, se recomienda consultar directamente la página oficial de la escuela o contactar con dirección.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Escola Bressol Municipal Nic?",
+        "answer": "Escola Bressol Municipal Nic está en Passeig de de l'Exposició, 1, 08004, en el distrito de Sants-Montjuïc, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública municipal (Escola Bressol Municipal), dependiente del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (934438297), por correo electrónico (ebmnic@bcn.cat), a través de su web oficial."
+      },
+      {
+        "question": "¿Tiene servicio de comedor?",
+        "answer": "Sí. Todas las escoles bressol municipals de Barcelona disponen de cocina propia donde se elaboran los menús diarios."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "El horario de atención es de 8:00 a 17:00 horas de lunes a viernes, reducido a 8:00-15:00 en septiembre y julio, según la organización general del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo se accede a una plaza?",
+        "answer": "El acceso se realiza mediante el proceso anual de preinscripción y matrícula municipal, con baremación pública, gestionado por el Ayuntamiento de Barcelona."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya y el Institut Municipal d'Educació de Barcelona). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://ajuntament.barcelona.cat/escolesbressol/sites/default/files/llistat_ebm_curs_2026_2027_def.pdf",
+    "source_urls_secondary": [
+      "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+      "https://ajuntament.barcelona.cat/escolesbressol/ca/organitzacio-de-lescola"
+    ],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "ebm_municipal",
+    "codi_centre_generalitat": "08066759"
+  },
+  {
+    "slug": "escola-bressol-municipal-tres-turons-barcelona",
+    "name": "Escola Bressol Municipal Tres Turons",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Descans, 12",
+      "postal_code": "08032",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Horta-Guinardó",
+      "neighborhood_barrio": null,
+      "latitude": 41.42214,
+      "longitude": 2.165594
+    },
+    "contact": {
+      "phone": "934294297",
+      "email": "ebmtresturons@bcn.cat",
+      "website": "http://barcelona.cat/ebmtresturons"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": "Lunes a viernes de 8:00 a 17:00 (8:00 a 15:00 en septiembre y julio)",
+    "services": [
+      "comedor",
+      "cocina-propia"
+    ],
+    "short_description": "Escola Bressol Municipal Tres Turons es una escuela infantil de titularidad pública (Escola Bressol Municipal) situada en el distrito de Horta-Guinardó, Barcelona. Depende del Institut Municipal d'Educació de Barcelona (IMEB) y atiende el primer ciclo de educación infantil (0 a 3 años). Dispone de comedor con cocina propia y horario de 8:00 a 17:00 h. El acceso se realiza mediante el proceso de preinscripción municipal.",
+    "long_description": "Escola Bressol Municipal Tres Turons forma parte de la Xarxa d'Escoles Bressol Municipals de Barcelona, gestionada por el Institut Municipal d'Educació de Barcelona (IMEB), y está ubicada en el distrito de Horta-Guinardó.\n\nComo el resto de escoles bressol municipals de la ciudad, el centro atiende el primer ciclo de educación infantil (0 a 3 años) con un horario de atención de 8:00 a 17:00 horas de lunes a viernes (de 8:00 a 15:00 en los meses de septiembre y julio). Todas las escoles bressol municipals disponen de cocina propia donde se elaboran diariamente los menús, con dietas basadas en criterios de alimentación equilibrada y adaptaciones para necesidades alimentarias especiales cuando así lo indique un informe médico.\n\nEl acceso a la escuela se realiza a través del proceso anual de preinscripción y matrícula que organiza el Ayuntamiento de Barcelona, con criterios de baremación pública. El precio del servicio se rige por los precios públicos aprobados por el Ayuntamiento, con bonificaciones según renta familiar.\n\nEsta ficha recoge información pública procedente del Institut Municipal d'Educació de Barcelona y del Registre de Centres Docents de la Generalitat de Catalunya. Para conocer el proyecto educativo específico del centro, plazas disponibles y otros detalles, se recomienda consultar directamente la página oficial de la escuela o contactar con dirección.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Escola Bressol Municipal Tres Turons?",
+        "answer": "Escola Bressol Municipal Tres Turons está en Descans, 12, 08032, en el distrito de Horta-Guinardó, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública municipal (Escola Bressol Municipal), dependiente del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (934294297), por correo electrónico (ebmtresturons@bcn.cat), a través de su web oficial."
+      },
+      {
+        "question": "¿Tiene servicio de comedor?",
+        "answer": "Sí. Todas las escoles bressol municipals de Barcelona disponen de cocina propia donde se elaboran los menús diarios."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "El horario de atención es de 8:00 a 17:00 horas de lunes a viernes, reducido a 8:00-15:00 en septiembre y julio, según la organización general del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo se accede a una plaza?",
+        "answer": "El acceso se realiza mediante el proceso anual de preinscripción y matrícula municipal, con baremación pública, gestionado por el Ayuntamiento de Barcelona."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya y el Institut Municipal d'Educació de Barcelona). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://ajuntament.barcelona.cat/escolesbressol/sites/default/files/llistat_ebm_curs_2026_2027_def.pdf",
+    "source_urls_secondary": [
+      "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+      "https://ajuntament.barcelona.cat/escolesbressol/ca/organitzacio-de-lescola"
+    ],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "ebm_municipal",
+    "codi_centre_generalitat": "08072701"
+  },
+  {
+    "slug": "escola-bressol-municipal-la-mar-xica-barcelona",
+    "name": "Escola Bressol Municipal La Mar Xica",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Carmen Amaya, 2",
+      "postal_code": "08005",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Sant Martí",
+      "neighborhood_barrio": null,
+      "latitude": 41.39409,
+      "longitude": 2.202533
+    },
+    "contact": {
+      "phone": "932211969",
+      "email": "ebmlamarxica@bcn.cat",
+      "website": "http://barcelona.cat/ebmlamarxica"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": "Lunes a viernes de 8:00 a 17:00 (8:00 a 15:00 en septiembre y julio)",
+    "services": [
+      "comedor",
+      "cocina-propia"
+    ],
+    "short_description": "Escola Bressol Municipal La Mar Xica es una escuela infantil de titularidad pública (Escola Bressol Municipal) situada en el distrito de Sant Martí, Barcelona. Depende del Institut Municipal d'Educació de Barcelona (IMEB) y atiende el primer ciclo de educación infantil (0 a 3 años). Dispone de comedor con cocina propia y horario de 8:00 a 17:00 h. El acceso se realiza mediante el proceso de preinscripción municipal.",
+    "long_description": "Escola Bressol Municipal La Mar Xica forma parte de la Xarxa d'Escoles Bressol Municipals de Barcelona, gestionada por el Institut Municipal d'Educació de Barcelona (IMEB), y está ubicada en el distrito de Sant Martí.\n\nComo el resto de escoles bressol municipals de la ciudad, el centro atiende el primer ciclo de educación infantil (0 a 3 años) con un horario de atención de 8:00 a 17:00 horas de lunes a viernes (de 8:00 a 15:00 en los meses de septiembre y julio). Todas las escoles bressol municipals disponen de cocina propia donde se elaboran diariamente los menús, con dietas basadas en criterios de alimentación equilibrada y adaptaciones para necesidades alimentarias especiales cuando así lo indique un informe médico.\n\nEl acceso a la escuela se realiza a través del proceso anual de preinscripción y matrícula que organiza el Ayuntamiento de Barcelona, con criterios de baremación pública. El precio del servicio se rige por los precios públicos aprobados por el Ayuntamiento, con bonificaciones según renta familiar.\n\nEsta ficha recoge información pública procedente del Institut Municipal d'Educació de Barcelona y del Registre de Centres Docents de la Generalitat de Catalunya. Para conocer el proyecto educativo específico del centro, plazas disponibles y otros detalles, se recomienda consultar directamente la página oficial de la escuela o contactar con dirección.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Escola Bressol Municipal La Mar Xica?",
+        "answer": "Escola Bressol Municipal La Mar Xica está en Carmen Amaya, 2, 08005, en el distrito de Sant Martí, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública municipal (Escola Bressol Municipal), dependiente del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (932211969), por correo electrónico (ebmlamarxica@bcn.cat), a través de su web oficial."
+      },
+      {
+        "question": "¿Tiene servicio de comedor?",
+        "answer": "Sí. Todas las escoles bressol municipals de Barcelona disponen de cocina propia donde se elaboran los menús diarios."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "El horario de atención es de 8:00 a 17:00 horas de lunes a viernes, reducido a 8:00-15:00 en septiembre y julio, según la organización general del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo se accede a una plaza?",
+        "answer": "El acceso se realiza mediante el proceso anual de preinscripción y matrícula municipal, con baremación pública, gestionado por el Ayuntamiento de Barcelona."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya y el Institut Municipal d'Educació de Barcelona). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://ajuntament.barcelona.cat/escolesbressol/sites/default/files/llistat_ebm_curs_2026_2027_def.pdf",
+    "source_urls_secondary": [
+      "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+      "https://ajuntament.barcelona.cat/escolesbressol/ca/organitzacio-de-lescola"
+    ],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "ebm_municipal",
+    "codi_centre_generalitat": "08061841"
+  },
+  {
+    "slug": "escola-bressol-municipal-carabassa-barcelona",
+    "name": "Escola Bressol Municipal Carabassa",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Carabassa, 8 bis",
+      "postal_code": "08002",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Ciutat Vella",
+      "neighborhood_barrio": null,
+      "latitude": 41.37993,
+      "longitude": 2.178939
+    },
+    "contact": {
+      "phone": "933435106",
+      "email": "ebmcarabassa@bcn.cat",
+      "website": "http://barcelona.cat/ebmcarabassa"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": "Lunes a viernes de 8:00 a 17:00 (8:00 a 15:00 en septiembre y julio)",
+    "services": [
+      "comedor",
+      "cocina-propia"
+    ],
+    "short_description": "Escola Bressol Municipal Carabassa es una escuela infantil de titularidad pública (Escola Bressol Municipal) situada en el distrito de Ciutat Vella, Barcelona. Depende del Institut Municipal d'Educació de Barcelona (IMEB) y atiende el primer ciclo de educación infantil (0 a 3 años). Dispone de comedor con cocina propia y horario de 8:00 a 17:00 h. El acceso se realiza mediante el proceso de preinscripción municipal.",
+    "long_description": "Escola Bressol Municipal Carabassa forma parte de la Xarxa d'Escoles Bressol Municipals de Barcelona, gestionada por el Institut Municipal d'Educació de Barcelona (IMEB), y está ubicada en el distrito de Ciutat Vella.\n\nComo el resto de escoles bressol municipals de la ciudad, el centro atiende el primer ciclo de educación infantil (0 a 3 años) con un horario de atención de 8:00 a 17:00 horas de lunes a viernes (de 8:00 a 15:00 en los meses de septiembre y julio). Todas las escoles bressol municipals disponen de cocina propia donde se elaboran diariamente los menús, con dietas basadas en criterios de alimentación equilibrada y adaptaciones para necesidades alimentarias especiales cuando así lo indique un informe médico.\n\nEl acceso a la escuela se realiza a través del proceso anual de preinscripción y matrícula que organiza el Ayuntamiento de Barcelona, con criterios de baremación pública. El precio del servicio se rige por los precios públicos aprobados por el Ayuntamiento, con bonificaciones según renta familiar.\n\nEsta ficha recoge información pública procedente del Institut Municipal d'Educació de Barcelona y del Registre de Centres Docents de la Generalitat de Catalunya. Para conocer el proyecto educativo específico del centro, plazas disponibles y otros detalles, se recomienda consultar directamente la página oficial de la escuela o contactar con dirección.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Escola Bressol Municipal Carabassa?",
+        "answer": "Escola Bressol Municipal Carabassa está en Carabassa, 8 bis, 08002, en el distrito de Ciutat Vella, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública municipal (Escola Bressol Municipal), dependiente del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (933435106), por correo electrónico (ebmcarabassa@bcn.cat), a través de su web oficial."
+      },
+      {
+        "question": "¿Tiene servicio de comedor?",
+        "answer": "Sí. Todas las escoles bressol municipals de Barcelona disponen de cocina propia donde se elaboran los menús diarios."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "El horario de atención es de 8:00 a 17:00 horas de lunes a viernes, reducido a 8:00-15:00 en septiembre y julio, según la organización general del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo se accede a una plaza?",
+        "answer": "El acceso se realiza mediante el proceso anual de preinscripción y matrícula municipal, con baremación pública, gestionado por el Ayuntamiento de Barcelona."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya y el Institut Municipal d'Educació de Barcelona). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://ajuntament.barcelona.cat/escolesbressol/sites/default/files/llistat_ebm_curs_2026_2027_def.pdf",
+    "source_urls_secondary": [
+      "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+      "https://ajuntament.barcelona.cat/escolesbressol/ca/organitzacio-de-lescola"
+    ],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "ebm_municipal",
+    "codi_centre_generalitat": "08068771"
+  },
+  {
+    "slug": "escola-bressol-municipal-la-mar-barcelona",
+    "name": "Escola Bressol Municipal La Mar",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Andrea Doria, 40",
+      "postal_code": "08003",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Ciutat Vella",
+      "neighborhood_barrio": null,
+      "latitude": 41.38069,
+      "longitude": 2.192645
+    },
+    "contact": {
+      "phone": "932215124",
+      "email": "ebmlamar@bcn.cat",
+      "website": "http://barcelona.cat/ebmlamar"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": "Lunes a viernes de 8:00 a 17:00 (8:00 a 15:00 en septiembre y julio)",
+    "services": [
+      "comedor",
+      "cocina-propia"
+    ],
+    "short_description": "Escola Bressol Municipal La Mar es una escuela infantil de titularidad pública (Escola Bressol Municipal) situada en el distrito de Ciutat Vella, Barcelona. Depende del Institut Municipal d'Educació de Barcelona (IMEB) y atiende el primer ciclo de educación infantil (0 a 3 años). Dispone de comedor con cocina propia y horario de 8:00 a 17:00 h. El acceso se realiza mediante el proceso de preinscripción municipal.",
+    "long_description": "Escola Bressol Municipal La Mar forma parte de la Xarxa d'Escoles Bressol Municipals de Barcelona, gestionada por el Institut Municipal d'Educació de Barcelona (IMEB), y está ubicada en el distrito de Ciutat Vella.\n\nComo el resto de escoles bressol municipals de la ciudad, el centro atiende el primer ciclo de educación infantil (0 a 3 años) con un horario de atención de 8:00 a 17:00 horas de lunes a viernes (de 8:00 a 15:00 en los meses de septiembre y julio). Todas las escoles bressol municipals disponen de cocina propia donde se elaboran diariamente los menús, con dietas basadas en criterios de alimentación equilibrada y adaptaciones para necesidades alimentarias especiales cuando así lo indique un informe médico.\n\nEl acceso a la escuela se realiza a través del proceso anual de preinscripción y matrícula que organiza el Ayuntamiento de Barcelona, con criterios de baremación pública. El precio del servicio se rige por los precios públicos aprobados por el Ayuntamiento, con bonificaciones según renta familiar.\n\nEsta ficha recoge información pública procedente del Institut Municipal d'Educació de Barcelona y del Registre de Centres Docents de la Generalitat de Catalunya. Para conocer el proyecto educativo específico del centro, plazas disponibles y otros detalles, se recomienda consultar directamente la página oficial de la escuela o contactar con dirección.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Escola Bressol Municipal La Mar?",
+        "answer": "Escola Bressol Municipal La Mar está en Andrea Doria, 40, 08003, en el distrito de Ciutat Vella, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública municipal (Escola Bressol Municipal), dependiente del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (932215124), por correo electrónico (ebmlamar@bcn.cat), a través de su web oficial."
+      },
+      {
+        "question": "¿Tiene servicio de comedor?",
+        "answer": "Sí. Todas las escoles bressol municipals de Barcelona disponen de cocina propia donde se elaboran los menús diarios."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "El horario de atención es de 8:00 a 17:00 horas de lunes a viernes, reducido a 8:00-15:00 en septiembre y julio, según la organización general del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo se accede a una plaza?",
+        "answer": "El acceso se realiza mediante el proceso anual de preinscripción y matrícula municipal, con baremación pública, gestionado por el Ayuntamiento de Barcelona."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya y el Institut Municipal d'Educació de Barcelona). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://ajuntament.barcelona.cat/escolesbressol/sites/default/files/llistat_ebm_curs_2026_2027_def.pdf",
+    "source_urls_secondary": [
+      "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+      "https://ajuntament.barcelona.cat/escolesbressol/ca/organitzacio-de-lescola"
+    ],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "ebm_municipal",
+    "codi_centre_generalitat": "08046906"
+  },
+  {
+    "slug": "escola-bressol-municipal-mont-taber-barcelona",
+    "name": "Escola Bressol Municipal Mont Tàber",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Santa Elena, 4",
+      "postal_code": "08001",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Ciutat Vella",
+      "neighborhood_barrio": null,
+      "latitude": 41.3771,
+      "longitude": 2.168758
+    },
+    "contact": {
+      "phone": "934417536",
+      "email": "ebmmonttaber@bcn.cat",
+      "website": "http://barcelona.cat/ebmmontaber"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": "Lunes a viernes de 8:00 a 17:00 (8:00 a 15:00 en septiembre y julio)",
+    "services": [
+      "comedor",
+      "cocina-propia"
+    ],
+    "short_description": "Escola Bressol Municipal Mont Tàber es una escuela infantil de titularidad pública (Escola Bressol Municipal) situada en el distrito de Ciutat Vella, Barcelona. Depende del Institut Municipal d'Educació de Barcelona (IMEB) y atiende el primer ciclo de educación infantil (0 a 3 años). Dispone de comedor con cocina propia y horario de 8:00 a 17:00 h. El acceso se realiza mediante el proceso de preinscripción municipal.",
+    "long_description": "Escola Bressol Municipal Mont Tàber forma parte de la Xarxa d'Escoles Bressol Municipals de Barcelona, gestionada por el Institut Municipal d'Educació de Barcelona (IMEB), y está ubicada en el distrito de Ciutat Vella.\n\nComo el resto de escoles bressol municipals de la ciudad, el centro atiende el primer ciclo de educación infantil (0 a 3 años) con un horario de atención de 8:00 a 17:00 horas de lunes a viernes (de 8:00 a 15:00 en los meses de septiembre y julio). Todas las escoles bressol municipals disponen de cocina propia donde se elaboran diariamente los menús, con dietas basadas en criterios de alimentación equilibrada y adaptaciones para necesidades alimentarias especiales cuando así lo indique un informe médico.\n\nEl acceso a la escuela se realiza a través del proceso anual de preinscripción y matrícula que organiza el Ayuntamiento de Barcelona, con criterios de baremación pública. El precio del servicio se rige por los precios públicos aprobados por el Ayuntamiento, con bonificaciones según renta familiar.\n\nEsta ficha recoge información pública procedente del Institut Municipal d'Educació de Barcelona y del Registre de Centres Docents de la Generalitat de Catalunya. Para conocer el proyecto educativo específico del centro, plazas disponibles y otros detalles, se recomienda consultar directamente la página oficial de la escuela o contactar con dirección.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Escola Bressol Municipal Mont Tàber?",
+        "answer": "Escola Bressol Municipal Mont Tàber está en Santa Elena, 4, 08001, en el distrito de Ciutat Vella, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública municipal (Escola Bressol Municipal), dependiente del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (934417536), por correo electrónico (ebmmonttaber@bcn.cat), a través de su web oficial."
+      },
+      {
+        "question": "¿Tiene servicio de comedor?",
+        "answer": "Sí. Todas las escoles bressol municipals de Barcelona disponen de cocina propia donde se elaboran los menús diarios."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "El horario de atención es de 8:00 a 17:00 horas de lunes a viernes, reducido a 8:00-15:00 en septiembre y julio, según la organización general del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo se accede a una plaza?",
+        "answer": "El acceso se realiza mediante el proceso anual de preinscripción y matrícula municipal, con baremación pública, gestionado por el Ayuntamiento de Barcelona."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya y el Institut Municipal d'Educació de Barcelona). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://ajuntament.barcelona.cat/escolesbressol/sites/default/files/llistat_ebm_curs_2026_2027_def.pdf",
+    "source_urls_secondary": [
+      "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+      "https://ajuntament.barcelona.cat/escolesbressol/ca/organitzacio-de-lescola"
+    ],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "ebm_municipal",
+    "codi_centre_generalitat": "08046980"
+  },
+  {
+    "slug": "escola-bressol-municipal-portal-nou-barcelona",
+    "name": "Escola Bressol Municipal Portal Nou",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Portal Nou, 2",
+      "postal_code": "08003",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Ciutat Vella",
+      "neighborhood_barrio": null,
+      "latitude": 41.38827,
+      "longitude": 2.180691
+    },
+    "contact": {
+      "phone": "933101807",
+      "email": "ebmportalnou@bcn.cat",
+      "website": "http://barcelona.cat/ebmportalnou"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": "Lunes a viernes de 8:00 a 17:00 (8:00 a 15:00 en septiembre y julio)",
+    "services": [
+      "comedor",
+      "cocina-propia"
+    ],
+    "short_description": "Escola Bressol Municipal Portal Nou es una escuela infantil de titularidad pública (Escola Bressol Municipal) situada en el distrito de Ciutat Vella, Barcelona. Depende del Institut Municipal d'Educació de Barcelona (IMEB) y atiende el primer ciclo de educación infantil (0 a 3 años). Dispone de comedor con cocina propia y horario de 8:00 a 17:00 h. El acceso se realiza mediante el proceso de preinscripción municipal.",
+    "long_description": "Escola Bressol Municipal Portal Nou forma parte de la Xarxa d'Escoles Bressol Municipals de Barcelona, gestionada por el Institut Municipal d'Educació de Barcelona (IMEB), y está ubicada en el distrito de Ciutat Vella.\n\nComo el resto de escoles bressol municipals de la ciudad, el centro atiende el primer ciclo de educación infantil (0 a 3 años) con un horario de atención de 8:00 a 17:00 horas de lunes a viernes (de 8:00 a 15:00 en los meses de septiembre y julio). Todas las escoles bressol municipals disponen de cocina propia donde se elaboran diariamente los menús, con dietas basadas en criterios de alimentación equilibrada y adaptaciones para necesidades alimentarias especiales cuando así lo indique un informe médico.\n\nEl acceso a la escuela se realiza a través del proceso anual de preinscripción y matrícula que organiza el Ayuntamiento de Barcelona, con criterios de baremación pública. El precio del servicio se rige por los precios públicos aprobados por el Ayuntamiento, con bonificaciones según renta familiar.\n\nEsta ficha recoge información pública procedente del Institut Municipal d'Educació de Barcelona y del Registre de Centres Docents de la Generalitat de Catalunya. Para conocer el proyecto educativo específico del centro, plazas disponibles y otros detalles, se recomienda consultar directamente la página oficial de la escuela o contactar con dirección.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Escola Bressol Municipal Portal Nou?",
+        "answer": "Escola Bressol Municipal Portal Nou está en Portal Nou, 2, 08003, en el distrito de Ciutat Vella, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública municipal (Escola Bressol Municipal), dependiente del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (933101807), por correo electrónico (ebmportalnou@bcn.cat), a través de su web oficial."
+      },
+      {
+        "question": "¿Tiene servicio de comedor?",
+        "answer": "Sí. Todas las escoles bressol municipals de Barcelona disponen de cocina propia donde se elaboran los menús diarios."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "El horario de atención es de 8:00 a 17:00 horas de lunes a viernes, reducido a 8:00-15:00 en septiembre y julio, según la organización general del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo se accede a una plaza?",
+        "answer": "El acceso se realiza mediante el proceso anual de preinscripción y matrícula municipal, con baremación pública, gestionado por el Ayuntamiento de Barcelona."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya y el Institut Municipal d'Educació de Barcelona). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://ajuntament.barcelona.cat/escolesbressol/sites/default/files/llistat_ebm_curs_2026_2027_def.pdf",
+    "source_urls_secondary": [
+      "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+      "https://ajuntament.barcelona.cat/escolesbressol/ca/organitzacio-de-lescola"
+    ],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "ebm_municipal",
+    "codi_centre_generalitat": "08064283"
+  },
+  {
+    "slug": "escola-bressol-municipal-puigmal-barcelona",
+    "name": "Escola Bressol Municipal Puigmal",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Mònec, 2",
+      "postal_code": "08003",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Ciutat Vella",
+      "neighborhood_barrio": null,
+      "latitude": 41.3882,
+      "longitude": 2.17817
+    },
+    "contact": {
+      "phone": "933101897",
+      "email": "ebmpuigmal@bcn.cat",
+      "website": "http://barcelona.cat/ebmpuigmal"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": "Lunes a viernes de 8:00 a 17:00 (8:00 a 15:00 en septiembre y julio)",
+    "services": [
+      "comedor",
+      "cocina-propia"
+    ],
+    "short_description": "Escola Bressol Municipal Puigmal es una escuela infantil de titularidad pública (Escola Bressol Municipal) situada en el distrito de Ciutat Vella, Barcelona. Depende del Institut Municipal d'Educació de Barcelona (IMEB) y atiende el primer ciclo de educación infantil (0 a 3 años). Dispone de comedor con cocina propia y horario de 8:00 a 17:00 h. El acceso se realiza mediante el proceso de preinscripción municipal.",
+    "long_description": "Escola Bressol Municipal Puigmal forma parte de la Xarxa d'Escoles Bressol Municipals de Barcelona, gestionada por el Institut Municipal d'Educació de Barcelona (IMEB), y está ubicada en el distrito de Ciutat Vella.\n\nComo el resto de escoles bressol municipals de la ciudad, el centro atiende el primer ciclo de educación infantil (0 a 3 años) con un horario de atención de 8:00 a 17:00 horas de lunes a viernes (de 8:00 a 15:00 en los meses de septiembre y julio). Todas las escoles bressol municipals disponen de cocina propia donde se elaboran diariamente los menús, con dietas basadas en criterios de alimentación equilibrada y adaptaciones para necesidades alimentarias especiales cuando así lo indique un informe médico.\n\nEl acceso a la escuela se realiza a través del proceso anual de preinscripción y matrícula que organiza el Ayuntamiento de Barcelona, con criterios de baremación pública. El precio del servicio se rige por los precios públicos aprobados por el Ayuntamiento, con bonificaciones según renta familiar.\n\nEsta ficha recoge información pública procedente del Institut Municipal d'Educació de Barcelona y del Registre de Centres Docents de la Generalitat de Catalunya. Para conocer el proyecto educativo específico del centro, plazas disponibles y otros detalles, se recomienda consultar directamente la página oficial de la escuela o contactar con dirección.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Escola Bressol Municipal Puigmal?",
+        "answer": "Escola Bressol Municipal Puigmal está en Mònec, 2, 08003, en el distrito de Ciutat Vella, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública municipal (Escola Bressol Municipal), dependiente del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (933101897), por correo electrónico (ebmpuigmal@bcn.cat), a través de su web oficial."
+      },
+      {
+        "question": "¿Tiene servicio de comedor?",
+        "answer": "Sí. Todas las escoles bressol municipals de Barcelona disponen de cocina propia donde se elaboran los menús diarios."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "El horario de atención es de 8:00 a 17:00 horas de lunes a viernes, reducido a 8:00-15:00 en septiembre y julio, según la organización general del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo se accede a una plaza?",
+        "answer": "El acceso se realiza mediante el proceso anual de preinscripción y matrícula municipal, con baremación pública, gestionado por el Ayuntamiento de Barcelona."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya y el Institut Municipal d'Educació de Barcelona). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://ajuntament.barcelona.cat/escolesbressol/sites/default/files/llistat_ebm_curs_2026_2027_def.pdf",
+    "source_urls_secondary": [
+      "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+      "https://ajuntament.barcelona.cat/escolesbressol/ca/organitzacio-de-lescola"
+    ],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "ebm_municipal",
+    "codi_centre_generalitat": "08072747"
+  },
+  {
+    "slug": "escola-bressol-municipal-barrufets-barcelona",
+    "name": "Escola Bressol Municipal Barrufets",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Marina, 356 interior",
+      "postal_code": "08025",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Eixample",
+      "neighborhood_barrio": null,
+      "latitude": 41.40776,
+      "longitude": 2.170365
+    },
+    "contact": {
+      "phone": "934551042",
+      "email": "ebmbarrufets@bcn.cat",
+      "website": "http://barcelona.cat/ebmbarrufets"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": "Lunes a viernes de 8:00 a 17:00 (8:00 a 15:00 en septiembre y julio)",
+    "services": [
+      "comedor",
+      "cocina-propia"
+    ],
+    "short_description": "Escola Bressol Municipal Barrufets es una escuela infantil de titularidad pública (Escola Bressol Municipal) situada en el distrito de l'Eixample, Barcelona. Depende del Institut Municipal d'Educació de Barcelona (IMEB) y atiende el primer ciclo de educación infantil (0 a 3 años). Dispone de comedor con cocina propia y horario de 8:00 a 17:00 h. El acceso se realiza mediante el proceso de preinscripción municipal.",
+    "long_description": "Escola Bressol Municipal Barrufets forma parte de la Xarxa d'Escoles Bressol Municipals de Barcelona, gestionada por el Institut Municipal d'Educació de Barcelona (IMEB), y está ubicada en el distrito de l'Eixample.\n\nComo el resto de escoles bressol municipals de la ciudad, el centro atiende el primer ciclo de educación infantil (0 a 3 años) con un horario de atención de 8:00 a 17:00 horas de lunes a viernes (de 8:00 a 15:00 en los meses de septiembre y julio). Todas las escoles bressol municipals disponen de cocina propia donde se elaboran diariamente los menús, con dietas basadas en criterios de alimentación equilibrada y adaptaciones para necesidades alimentarias especiales cuando así lo indique un informe médico.\n\nEl acceso a la escuela se realiza a través del proceso anual de preinscripción y matrícula que organiza el Ayuntamiento de Barcelona, con criterios de baremación pública. El precio del servicio se rige por los precios públicos aprobados por el Ayuntamiento, con bonificaciones según renta familiar.\n\nEsta ficha recoge información pública procedente del Institut Municipal d'Educació de Barcelona y del Registre de Centres Docents de la Generalitat de Catalunya. Para conocer el proyecto educativo específico del centro, plazas disponibles y otros detalles, se recomienda consultar directamente la página oficial de la escuela o contactar con dirección.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Escola Bressol Municipal Barrufets?",
+        "answer": "Escola Bressol Municipal Barrufets está en Marina, 356 interior, 08025, en el distrito de l'Eixample, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública municipal (Escola Bressol Municipal), dependiente del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (934551042), por correo electrónico (ebmbarrufets@bcn.cat), a través de su web oficial."
+      },
+      {
+        "question": "¿Tiene servicio de comedor?",
+        "answer": "Sí. Todas las escoles bressol municipals de Barcelona disponen de cocina propia donde se elaboran los menús diarios."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "El horario de atención es de 8:00 a 17:00 horas de lunes a viernes, reducido a 8:00-15:00 en septiembre y julio, según la organización general del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo se accede a una plaza?",
+        "answer": "El acceso se realiza mediante el proceso anual de preinscripción y matrícula municipal, con baremación pública, gestionado por el Ayuntamiento de Barcelona."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya y el Institut Municipal d'Educació de Barcelona). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://ajuntament.barcelona.cat/escolesbressol/sites/default/files/llistat_ebm_curs_2026_2027_def.pdf",
+    "source_urls_secondary": [
+      "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+      "https://ajuntament.barcelona.cat/escolesbressol/ca/organitzacio-de-lescola"
+    ],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "ebm_municipal",
+    "codi_centre_generalitat": "08046323"
+  },
+  {
+    "slug": "escola-bressol-municipal-casa-dels-nens-barcelona",
+    "name": "Escola Bressol Municipal Casa dels Nens",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Roger de Llúria, 132",
+      "postal_code": "08037",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Eixample",
+      "neighborhood_barrio": null,
+      "latitude": 41.39821,
+      "longitude": 2.162295
+    },
+    "contact": {
+      "phone": "934763237",
+      "email": "ebmcasadelsnens@bcn.cat",
+      "website": "http://barcelona.cat/ebmcasadelsnens"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": "Lunes a viernes de 8:00 a 17:00 (8:00 a 15:00 en septiembre y julio)",
+    "services": [
+      "comedor",
+      "cocina-propia"
+    ],
+    "short_description": "Escola Bressol Municipal Casa dels Nens es una escuela infantil de titularidad pública (Escola Bressol Municipal) situada en el distrito de l'Eixample, Barcelona. Depende del Institut Municipal d'Educació de Barcelona (IMEB) y atiende el primer ciclo de educación infantil (0 a 3 años). Dispone de comedor con cocina propia y horario de 8:00 a 17:00 h. El acceso se realiza mediante el proceso de preinscripción municipal.",
+    "long_description": "Escola Bressol Municipal Casa dels Nens forma parte de la Xarxa d'Escoles Bressol Municipals de Barcelona, gestionada por el Institut Municipal d'Educació de Barcelona (IMEB), y está ubicada en el distrito de l'Eixample.\n\nComo el resto de escoles bressol municipals de la ciudad, el centro atiende el primer ciclo de educación infantil (0 a 3 años) con un horario de atención de 8:00 a 17:00 horas de lunes a viernes (de 8:00 a 15:00 en los meses de septiembre y julio). Todas las escoles bressol municipals disponen de cocina propia donde se elaboran diariamente los menús, con dietas basadas en criterios de alimentación equilibrada y adaptaciones para necesidades alimentarias especiales cuando así lo indique un informe médico.\n\nEl acceso a la escuela se realiza a través del proceso anual de preinscripción y matrícula que organiza el Ayuntamiento de Barcelona, con criterios de baremación pública. El precio del servicio se rige por los precios públicos aprobados por el Ayuntamiento, con bonificaciones según renta familiar.\n\nEsta ficha recoge información pública procedente del Institut Municipal d'Educació de Barcelona y del Registre de Centres Docents de la Generalitat de Catalunya. Para conocer el proyecto educativo específico del centro, plazas disponibles y otros detalles, se recomienda consultar directamente la página oficial de la escuela o contactar con dirección.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Escola Bressol Municipal Casa dels Nens?",
+        "answer": "Escola Bressol Municipal Casa dels Nens está en Roger de Llúria, 132, 08037, en el distrito de l'Eixample, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública municipal (Escola Bressol Municipal), dependiente del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (934763237), por correo electrónico (ebmcasadelsnens@bcn.cat), a través de su web oficial."
+      },
+      {
+        "question": "¿Tiene servicio de comedor?",
+        "answer": "Sí. Todas las escoles bressol municipals de Barcelona disponen de cocina propia donde se elaboran los menús diarios."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "El horario de atención es de 8:00 a 17:00 horas de lunes a viernes, reducido a 8:00-15:00 en septiembre y julio, según la organización general del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo se accede a una plaza?",
+        "answer": "El acceso se realiza mediante el proceso anual de preinscripción y matrícula municipal, con baremación pública, gestionado por el Ayuntamiento de Barcelona."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya y el Institut Municipal d'Educació de Barcelona). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://ajuntament.barcelona.cat/escolesbressol/sites/default/files/llistat_ebm_curs_2026_2027_def.pdf",
+    "source_urls_secondary": [
+      "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+      "https://ajuntament.barcelona.cat/escolesbressol/ca/organitzacio-de-lescola"
+    ],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "ebm_municipal",
+    "codi_centre_generalitat": "08072930"
+  },
+  {
+    "slug": "escola-bressol-municipal-el-roure-barcelona",
+    "name": "Escola Bressol Municipal El Roure",
+    "type": "escuela-infantil",
+    "ownership": "publico",
+    "address": {
+      "street": "Comte d'Urgell, 145",
+      "postal_code": "08011",
+      "city_slug": "barcelona",
+      "city_name": "Barcelona",
+      "district": "Eixample",
+      "neighborhood_barrio": null,
+      "latitude": 41.38697,
+      "longitude": 2.151864
+    },
+    "contact": {
+      "phone": "934531731",
+      "email": "ebmelroure@bcn.cat",
+      "website": "http://barcelona.cat/ebmelroure"
+    },
+    "age_range": {
+      "min_months": 0,
+      "max_months": 36
+    },
+    "schedule": "Lunes a viernes de 8:00 a 17:00 (8:00 a 15:00 en septiembre y julio)",
+    "services": [
+      "comedor",
+      "cocina-propia"
+    ],
+    "short_description": "Escola Bressol Municipal El Roure es una escuela infantil de titularidad pública (Escola Bressol Municipal) situada en el distrito de l'Eixample, Barcelona. Depende del Institut Municipal d'Educació de Barcelona (IMEB) y atiende el primer ciclo de educación infantil (0 a 3 años). Dispone de comedor con cocina propia y horario de 8:00 a 17:00 h. El acceso se realiza mediante el proceso de preinscripción municipal.",
+    "long_description": "Escola Bressol Municipal El Roure forma parte de la Xarxa d'Escoles Bressol Municipals de Barcelona, gestionada por el Institut Municipal d'Educació de Barcelona (IMEB), y está ubicada en el distrito de l'Eixample.\n\nComo el resto de escoles bressol municipals de la ciudad, el centro atiende el primer ciclo de educación infantil (0 a 3 años) con un horario de atención de 8:00 a 17:00 horas de lunes a viernes (de 8:00 a 15:00 en los meses de septiembre y julio). Todas las escoles bressol municipals disponen de cocina propia donde se elaboran diariamente los menús, con dietas basadas en criterios de alimentación equilibrada y adaptaciones para necesidades alimentarias especiales cuando así lo indique un informe médico.\n\nEl acceso a la escuela se realiza a través del proceso anual de preinscripción y matrícula que organiza el Ayuntamiento de Barcelona, con criterios de baremación pública. El precio del servicio se rige por los precios públicos aprobados por el Ayuntamiento, con bonificaciones según renta familiar.\n\nEsta ficha recoge información pública procedente del Institut Municipal d'Educació de Barcelona y del Registre de Centres Docents de la Generalitat de Catalunya. Para conocer el proyecto educativo específico del centro, plazas disponibles y otros detalles, se recomienda consultar directamente la página oficial de la escuela o contactar con dirección.",
+    "faqs": [
+      {
+        "question": "¿Dónde está ubicado/a Escola Bressol Municipal El Roure?",
+        "answer": "Escola Bressol Municipal El Roure está en Comte d'Urgell, 145, 08011, en el distrito de l'Eixample, Barcelona."
+      },
+      {
+        "question": "¿Qué edades atiende?",
+        "answer": "Atiende el primer ciclo de educación infantil, de 0 a 3 años."
+      },
+      {
+        "question": "¿Es un centro público o privado?",
+        "answer": "Es un centro de titularidad pública municipal (Escola Bressol Municipal), dependiente del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo puedo contactar con el centro?",
+        "answer": "Puedes contactar por teléfono (934531731), por correo electrónico (ebmelroure@bcn.cat), a través de su web oficial."
+      },
+      {
+        "question": "¿Tiene servicio de comedor?",
+        "answer": "Sí. Todas las escoles bressol municipals de Barcelona disponen de cocina propia donde se elaboran los menús diarios."
+      },
+      {
+        "question": "¿Cuál es el horario del centro?",
+        "answer": "El horario de atención es de 8:00 a 17:00 horas de lunes a viernes, reducido a 8:00-15:00 en septiembre y julio, según la organización general del Institut Municipal d'Educació de Barcelona."
+      },
+      {
+        "question": "¿Cómo se accede a una plaza?",
+        "answer": "El acceso se realiza mediante el proceso anual de preinscripción y matrícula municipal, con baremación pública, gestionado por el Ayuntamiento de Barcelona."
+      },
+      {
+        "question": "¿Está verificada la información de esta ficha?",
+        "answer": "Los datos proceden de fuentes oficiales (Registre de Centres Docents de la Generalitat de Catalunya y el Institut Municipal d'Educació de Barcelona). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+      }
+    ],
+    "is_claimed": false,
+    "is_verified": false,
+    "source_url": "https://ajuntament.barcelona.cat/escolesbressol/sites/default/files/llistat_ebm_curs_2026_2027_def.pdf",
+    "source_urls_secondary": [
+      "https://analisi.transparenciacatalunya.cat/Educaci-/Directori-de-centres-docents-anual-Base-2020/kvmv-ahh4",
+      "https://ajuntament.barcelona.cat/escolesbressol/ca/organitzacio-de-lescola"
+    ],
+    "verified_at": "2026-07-06",
+    "verification_status": "unverified",
+    "confidence_level": "high",
+    "recommended_indexable": true,
+    "created_at": "2026-07-06T21:08:11.899Z",
+    "updated_at": "2026-07-06T21:08:11.899Z",
+    "source_group": "ebm_municipal",
+    "codi_centre_generalitat": "08072723"
+  }
+]
