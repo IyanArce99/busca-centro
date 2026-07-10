@@ -8,7 +8,7 @@ import CenterCard from "@/components/CenterCard";
 import { isCenterIndexable } from "@/lib/centers";
 import { getCenters, getCenterBySlug, getCentersByCity } from "@/lib/data/centers";
 import { getSeoPageBySlug } from "@/lib/seo-pages";
-import { formatCenterType } from "@/lib/format";
+import { formatCenterType, formatCenterTypePlural } from "@/lib/format";
 import { robotsMeta } from "@/lib/seo";
 import { SITE_NAME, SITE_URL, MIN_CENTERS_FOR_CITY_PAGE } from "@/lib/constants";
 import {
@@ -59,7 +59,7 @@ export default async function CenterPage({ params }: PageProps) {
   if (!center) notFound();
 
   const hubHref = center.type === "guarderia" ? "/guarderias" : "/escuelas-infantiles";
-  const hubLabel = formatCenterType(center.type) + "s";
+  const hubLabel = formatCenterTypePlural(center.type);
 
   const cityCenters = await getCentersByCity(center.address.citySlug);
   const sameNeighborhood = cityCenters.filter(

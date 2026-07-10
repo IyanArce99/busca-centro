@@ -8,7 +8,6 @@ const COLUMNS = [
       { href: "/guarderias", label: "Guarderías" },
       { href: "/escuelas-infantiles", label: "Escuelas infantiles" },
       { href: "/ciudades", label: "Centros por ciudad" },
-      { href: "/blog", label: "Guías" },
     ],
   },
   {

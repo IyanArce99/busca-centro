@@ -8,6 +8,11 @@ const TYPE_NOUN: Record<string, string> = {
   "escuela-infantil": "escuela infantil",
 };
 
+const TYPE_NOUN_PLURAL: Record<string, string> = {
+  guarderia: "guarderías",
+  "escuela-infantil": "escuelas infantiles",
+};
+
 const TYPE_ART: Record<string, string> = {
   guarderia: "una guardería",
   "escuela-infantil": "una escuela infantil",
@@ -311,11 +316,11 @@ function buildFaqContactAnswer(center: Center): string {
 // ── buildSimilarCentersIntro ──────────────────────────────────────────────────
 
 export function buildSimilarCentersIntro(center: Center): string {
-  const tipo = TYPE_NOUN[center.type] ?? "centros";
+  const tipoPlural = TYPE_NOUN_PLURAL[center.type] ?? "centros";
   const { neighborhood, cityName } = center.address;
   return neighborhood
-    ? `También puedes comparar otras ${tipo}s en el distrito de ${neighborhood} o en ${cityName}.`
-    : `También puedes comparar otras ${tipo}s en ${cityName}.`;
+    ? `También puedes comparar otras ${tipoPlural} en el distrito de ${neighborhood} o en ${cityName}.`
+    : `También puedes comparar otras ${tipoPlural} en ${cityName}.`;
 }
 
 // ── getCenterStructuredHighlights ─────────────────────────────────────────────

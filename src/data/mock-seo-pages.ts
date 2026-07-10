@@ -61,21 +61,58 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-guarderias-barcelona",
     slug: "guarderias-en-barcelona",
-    title: "Guarderías en Barcelona",
+    title: "Guarderías en Barcelona: busca y compara centros",
     h1: "Guarderías en Barcelona",
-    subtitle: "Encuentra guarderías y llars d'infants por barrio en Barcelona.",
+    subtitle:
+      "Encuentra guarderías y llars d'infants en Barcelona por distrito, servicios y horario, y solicita información al centro que mejor encaje con tu familia.",
     metaDescription:
-      "Directorio de guarderías en Barcelona con filtros por servicios y zona. Compara centros y solicita información.",
+      "Encuentra guarderías y llars d'infants en Barcelona por distrito, servicios, titularidad y edades. Consulta fichas con datos públicos, contacto y preguntas frecuentes.",
     filters: { citySlug: "barcelona", centerType: "guarderia" },
     introText:
-      "En Barcelona conviven guarderías privadas, llars d'infants y centros concertados distribuidos por toda la ciudad. Consulta el listado de centros añadidos recientemente y compara servicios antes de solicitar información.",
+      "Buscar guardería en Barcelona suele empezar por una pregunta muy concreta: ¿qué centro me viene bien para conciliar y está cerca de casa o del trabajo? En esta página puedes consultar guarderías y llars d'infants repartidas por los distritos de Barcelona, filtrar por servicios como comedor u horario ampliado y comparar varias opciones antes de contactar. Cada ficha reúne la información disponible del centro —ubicación, edades, servicios y datos de contacto— para que compares sin dar mil vueltas.",
+    sections: [
+      {
+        heading: "Cómo encontrar guardería en Barcelona según tus necesidades",
+        paragraphs: [
+          "La elección de guardería depende mucho de la logística del día a día: la cercanía al domicilio o al centro de trabajo, el horario de entrada y salida, y si necesitas servicios como comedor o una franja de horario ampliado para llegar a recoger a tu hijo o hija sin agobios. En Barcelona, con distritos tan distintos entre sí —desde l'Eixample hasta Sarrià-Sant Gervasi o Sant Martí—, merece la pena comparar centros de tu zona antes de decidir.",
+          "En BuscaCentro puedes filtrar el listado por servicios concretos y quedarte solo con las guarderías o llars d'infants que encajan con lo que buscas. Cuando tengas dos o tres candidatas, lo habitual es contactar con cada centro para confirmar plazas disponibles, cuotas y periodo de adaptación, y a ser posible concertar una visita.",
+        ],
+      },
+      {
+        heading: "Guarderías privadas y llars d'infants en Barcelona",
+        paragraphs: [
+          "A diferencia de las escoles bressol municipals (que en este directorio se clasifican como escuelas infantiles por su titularidad pública), la mayoría de las guarderías y llars d'infants de Barcelona son centros privados, de gestión individual o familiar, sin oferta educativa más allá del ciclo 0-3 años. Esto suele traducirse en mayor flexibilidad de horarios y servicios adicionales, aunque sin el baremo público que rige el acceso a los centros municipales.",
+          "Más allá del precio, conviene fijarse en la ratio de niños por educador, el proyecto del centro para los más pequeños, cómo gestionan la alimentación y el descanso, y cómo se comunican con las familias durante el curso. Servicios como comedor con cocina propia, horario ampliado o iniciación al inglés pueden marcar la diferencia para la conciliación.",
+        ],
+      },
+    ],
     outroText:
-      "La información de cada ficha puede proceder de fuentes públicas o del propio centro. Si representas un centro de Barcelona, puedes reclamar su ficha para mantenerla actualizada.",
+      "Los datos de cada ficha pueden proceder de fuentes públicas o de información facilitada por el propio centro, y pueden estar pendientes de verificación. Antes de decidir, te recomendamos confirmar plazas, horarios y cuotas directamente con la guardería. Si representas un centro de Barcelona, puedes reclamar su ficha para mantener sus datos al día.",
     faqs: [
+      {
+        question: "¿Cómo encuentro una guardería en Barcelona con BuscaCentro?",
+        answer:
+          "Consulta el listado de esta página y usa los filtros para quedarte con las guarderías o llars d'infants que ofrecen los servicios que necesitas, como comedor u horario ampliado. Después, abre la ficha del centro que te interese y contacta directamente para confirmar plazas y condiciones.",
+      },
+      {
+        question: "¿Puedo buscar guarderías en Barcelona por distrito?",
+        answer:
+          "Sí. Cada ficha indica el distrito del centro, y en la página verás las zonas con centros disponibles. Así puedes centrarte en las guarderías cercanas a tu casa o a tu lugar de trabajo.",
+      },
       {
         question: "¿Hay guarderías bilingües en Barcelona?",
         answer:
-          "Sí, varios centros del directorio ofrecen programas bilingües. Puedes consultarlos en la sección de guarderías bilingües en Barcelona.",
+          "Sí, varios centros del directorio ofrecen programas bilingües o iniciación al inglés. Puedes consultarlos en la sección de guarderías bilingües en Barcelona.",
+      },
+      {
+        question: "¿Qué diferencia hay entre una guardería y una llar d'infants?",
+        answer:
+          "En catalán, «llar d'infants» es el término habitual para referirse a un centro de primer ciclo de educación infantil (0-3 años); «guardería» es la denominación más extendida en castellano. En este directorio ambos términos designan el mismo tipo de centro.",
+      },
+      {
+        question: "¿Cómo puede un centro actualizar o reclamar su ficha?",
+        answer:
+          "Si representas una guardería o llar d'infants, puedes reclamar su ficha para corregir y actualizar servicios, horarios y datos de contacto. Si el centro todavía no aparece, puedes añadirlo desde el formulario para centros.",
       },
     ],
   },
@@ -225,14 +262,60 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-escuelas-infantiles-barcelona",
     slug: "escuelas-infantiles-en-barcelona",
-    title: "Escuelas infantiles en Barcelona",
+    title: "Escuelas infantiles en Barcelona: escoles bressol y centros 0-3 años",
     h1: "Escuelas infantiles en Barcelona",
-    subtitle: "Escuelas infantiles y llars d'infants en Barcelona.",
-    metaDescription: "Directorio de escuelas infantiles en Barcelona con servicios y datos de contacto.",
+    subtitle:
+      "Consulta escoles bressol municipals, llars d'infants y escuelas infantiles privadas en Barcelona por titularidad, distrito y servicios educativos.",
+    metaDescription:
+      "Busca escuelas infantiles en Barcelona: escoles bressol municipals, llars d'infants y centros privados por distrito, titularidad y servicios. Consulta fichas y datos de contacto.",
     filters: { citySlug: "barcelona", centerType: "escuela-infantil" },
-    introText: "Consulta escuelas infantiles y llars d'infants en distintos barrios de Barcelona.",
-    outroText: "Los datos mostrados pueden proceder de fuentes públicas o del propio centro.",
-    faqs: [],
+    introText:
+      "En Barcelona, la etapa de 0 a 3 años se organiza principalmente en torno a las escoles bressol municipals, gestionadas por el Institut Municipal d'Educació de Barcelona (IMEB), las llars d'infants de titularidad autonómica dependientes de la Generalitat de Catalunya, y colegios privados o concertados con sección de infantil. En esta página puedes consultar escuelas infantiles de la ciudad por distrito, titularidad y servicios, con información sobre horario, contacto y proceso de acceso para orientar tu decisión.",
+    sections: [
+      {
+        heading: "Qué es una escola bressol y qué etapa cubre",
+        paragraphs: [
+          "En Barcelona, «escola bressol» es el término catalán para el centro de primer ciclo de Educación Infantil (0-3 años), una etapa educativa —no meramente asistencial— con proyecto pedagógico propio. Las escoles bressol municipals dependen del Ayuntamiento de Barcelona y siguen un horario y un proceso de acceso homogéneos en toda la red; las llars d'infants de este directorio dependen en cambio del Departament d'Educació de la Generalitat de Catalunya, siguiendo un circuito administrativo distinto aunque también público.",
+          "Frente a la idea más informal de «guardería», la escola bressol y la llar d'infants ponen el foco en el desarrollo, la socialización y la estimulación temprana dentro de un marco educativo reglado. Por eso conviene fijarse en el proyecto del centro y en cómo lo aplica en el día a día, además de en la logística de horarios y comedor.",
+        ],
+      },
+      {
+        heading: "Titularidad: escoles bressol municipals, llars d'infants y centros privados",
+        paragraphs: [
+          "En Barcelona encontrarás escuelas infantiles de la red pública municipal (escoles bressol), de la red pública autonómica (llars d'infants de la Generalitat) y centros privados o concertados, muchos de ellos colegios con sección de infantil dentro de una oferta educativa más amplia. La titularidad condiciona el proceso de admisión: en las escoles bressol municipals, la asignación de plaza se gestiona mediante el proceso anual de preinscripción del Ayuntamiento de Barcelona con un baremo público, mientras que en los centros privados la admisión se acuerda directamente con el centro.",
+          "Cada ficha del directorio indica la titularidad cuando el dato está disponible, junto con los servicios educativos registrados y el distrito del centro. Ten en cuenta que parte de esta información procede de fuentes públicas —el Institut Municipal d'Educació de Barcelona y el Registre de Centres Docents de la Generalitat de Catalunya— y puede estar pendiente de verificación por el propio centro.",
+        ],
+      },
+    ],
+    outroText:
+      "La información de cada escuela infantil puede proceder de registros y fuentes públicas o de datos facilitados por el propio centro, y puede requerir confirmación. Para conocer el proyecto educativo, las plazas y el proceso de admisión, contacta directamente con el centro. Si representas una escuela infantil de Barcelona, puedes reclamar su ficha para completarla.",
+    faqs: [
+      {
+        question: "¿Qué diferencia hay entre una escola bressol municipal y una llar d'infants?",
+        answer:
+          "Ambas son de titularidad pública y atienden el primer ciclo de educación infantil (0-3 años), pero dependen de administraciones distintas: las escoles bressol municipals del Ayuntamiento de Barcelona (Institut Municipal d'Educació de Barcelona), y las llars d'infants de este directorio del Departament d'Educació de la Generalitat de Catalunya.",
+      },
+      {
+        question: "¿Qué edades atienden las escuelas infantiles en Barcelona?",
+        answer:
+          "La mayoría atiende el primer ciclo de Educación Infantil, de 0 a 3 años. Algunos colegios con sección de infantil amplían su oferta al segundo ciclo (3-6 años) y etapas posteriores. La etapa exacta figura en la ficha de cada centro.",
+      },
+      {
+        question: "¿Cómo consigo plaza en una escola bressol municipal de Barcelona?",
+        answer:
+          "El acceso se realiza mediante el proceso anual de preinscripción y matrícula del Ayuntamiento de Barcelona, con asignación de plazas según un baremo público. Consulta los plazos oficiales, que suelen abrirse en primavera para el curso siguiente.",
+      },
+      {
+        question: "¿Hay escuelas infantiles públicas y privadas en Barcelona?",
+        answer:
+          "Sí. En Barcelona conviven escoles bressol municipals, llars d'infants de la Generalitat, y centros privados o concertados. Cada una tiene su propio proceso de admisión, que puedes consultar contactando con el centro.",
+      },
+      {
+        question: "¿Cómo se verifica la información de las escuelas infantiles de Barcelona?",
+        answer:
+          "Parte de la información procede de fuentes públicas oficiales —IMEB y Generalitat de Catalunya— y puede estar pendiente de verificación. Los centros pueden reclamar su ficha para confirmar y actualizar sus datos, lo que ayuda a mantener el directorio fiable.",
+      },
+    ],
   },
   {
     id: "seo-escuelas-infantiles-valencia",
@@ -312,12 +395,26 @@ export const mockSeoPages: SeoPage[] = [
     slug: "guarderias-bilingues-en-barcelona",
     title: "Guarderías bilingües en Barcelona",
     h1: "Guarderías bilingües en Barcelona",
-    subtitle: "Centros con programa bilingüe en Barcelona.",
-    metaDescription: "Guarderías bilingües en Barcelona: compara centros y solicita información.",
+    subtitle: "Centros con introducción a un segundo idioma o programa bilingüe en Barcelona.",
+    metaDescription:
+      "Guarderías bilingües en Barcelona: compara centros con programa en inglés y solicita información sin compromiso.",
     filters: { citySlug: "barcelona", centerType: "guarderia", service: "bilingue" },
-    introText: "Consulta guarderías en Barcelona con programa bilingüe según los datos disponibles en cada ficha.",
-    outroText: "Solicita información directamente a cada centro para conocer el detalle de su programa.",
-    faqs: [],
+    introText:
+      "Cada vez más familias buscan centros con introducción temprana a un segundo idioma. Aquí puedes consultar guarderías y llars d'infants en Barcelona que ofrecen programa bilingüe o iniciación al inglés, según los datos disponibles en cada ficha. El enfoque, las horas de exposición al idioma y la metodología varían mucho de un centro a otro.",
+    outroText:
+      "Solicita información directamente a cada centro para conocer el detalle de su programa bilingüe: horas de exposición al idioma, metodología y perfil del profesorado. Los datos de la ficha pueden estar pendientes de verificación.",
+    faqs: [
+      {
+        question: "¿En qué consiste el programa bilingüe de estas guarderías?",
+        answer:
+          "Cada centro define su propio enfoque bilingüe. Te recomendamos solicitar información directamente para conocer las horas de exposición al idioma, la metodología y si el profesorado es nativo o bilingüe.",
+      },
+      {
+        question: "¿A partir de qué edad se introduce el segundo idioma?",
+        answer:
+          "Depende del proyecto de cada centro. Algunos inician la exposición al inglés desde el primer ciclo con canciones, rutinas y juego, mientras que otros lo estructuran más adelante. Confírmalo en la ficha o directamente con la guardería.",
+      },
+    ],
   },
   {
     id: "seo-guarderias-privadas-madrid",
