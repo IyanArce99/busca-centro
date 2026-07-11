@@ -12,16 +12,15 @@ import { getCities } from "@/lib/data/cities";
 import { getSeoPageBySlug } from "@/lib/seo-pages";
 import { isSeoPageIndexableFromCenters } from "@/lib/data/seo-pages";
 import { guarderiasFaqs } from "@/data/mock-faqs";
-import { robotsMeta } from "@/lib/seo";
+import { buildMetadata } from "@/lib/seo";
 import { faqPageJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Guarderías: busca y compara centros infantiles",
   description:
     "Encuentra guarderías y centros infantiles con información sobre ubicación, servicios, edades, contacto y fichas verificables.",
-  alternates: { canonical: "/guarderias" },
-  robots: robotsMeta(),
-};
+  path: "/guarderias",
+});
 
 export default async function GuarderiasPage() {
   const [allCenters, cities] = await Promise.all([getCenters(), getCities()]);

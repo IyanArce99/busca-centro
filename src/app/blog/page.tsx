@@ -2,15 +2,15 @@ import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import GuideCard from "@/components/GuideCard";
 import { getAllGuides } from "@/lib/guides";
-import { robotsMeta } from "@/lib/seo";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+// Temporarily noindex until the blog has real, complete guides.
+export const metadata: Metadata = buildMetadata({
   title: "Blog y guías para familias",
   description: "Guías prácticas sobre cómo elegir guardería, adaptación, precios y ayudas para familias en España.",
-  alternates: { canonical: "/blog" },
-  // Temporarily noindex until the blog has real, complete guides.
-  robots: robotsMeta(false),
-};
+  path: "/blog",
+  indexable: false,
+});
 
 export default function BlogPage() {
   const guides = getAllGuides();

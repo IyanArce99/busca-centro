@@ -1,15 +1,16 @@
 import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import AddCenterForm from "./AddCenterForm";
-import { robotsMeta } from "@/lib/seo";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+// Always noindex, regardless of NEXT_PUBLIC_INDEXABLE: pure lead-gen forms
+// shouldn't be indexed even on the final production domain.
+export const metadata: Metadata = buildMetadata({
   title: "Añadir centro",
   description: "Añade tu guardería o escuela infantil al directorio de BuscaCentro.",
-  // Always noindex, regardless of NEXT_PUBLIC_INDEXABLE: pure lead-gen forms
-  // shouldn't be indexed even on the final production domain.
-  robots: robotsMeta(false),
-};
+  path: "/anadir-centro",
+  indexable: false,
+});
 
 export default function AnadirCentroPage() {
   return (

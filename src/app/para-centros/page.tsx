@@ -11,16 +11,15 @@ import {
   UsersIcon,
 } from "@/components/Icons";
 import { paraCentrosFaqs } from "@/data/mock-faqs";
-import { robotsMeta } from "@/lib/seo";
+import { buildMetadata } from "@/lib/seo";
 import { faqPageJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Para centros: da visibilidad a tu guardería",
   description:
     "Da visibilidad a tu guardería o escuela infantil ante más familias. Reclama tu ficha o añade tu centro al directorio de BuscaCentro y capta solicitudes.",
-  alternates: { canonical: "/para-centros" },
-  robots: robotsMeta(),
-};
+  path: "/para-centros",
+});
 
 const BENEFITS = [
   {

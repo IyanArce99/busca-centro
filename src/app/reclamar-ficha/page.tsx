@@ -1,15 +1,16 @@
 import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import ClaimListingForm from "./ClaimListingForm";
-import { robotsMeta } from "@/lib/seo";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+// Always noindex, regardless of NEXT_PUBLIC_INDEXABLE: pure lead-gen forms
+// shouldn't be indexed even on the final production domain.
+export const metadata: Metadata = buildMetadata({
   title: "Reclamar ficha",
   description: "Reclama la ficha de tu guardería o escuela infantil en BuscaCentro para actualizar sus datos.",
-  // Always noindex, regardless of NEXT_PUBLIC_INDEXABLE: pure lead-gen forms
-  // shouldn't be indexed even on the final production domain.
-  robots: robotsMeta(false),
-};
+  path: "/reclamar-ficha",
+  indexable: false,
+});
 
 export default function ReclamarFichaPage() {
   return (

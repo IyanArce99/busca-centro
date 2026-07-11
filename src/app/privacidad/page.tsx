@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import { robotsMeta } from "@/lib/seo";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Política de privacidad",
   description: "Consulta cómo tratamos los datos personales enviados a través de BuscaCentro.",
-  alternates: { canonical: "/privacidad" },
-  robots: robotsMeta(),
-};
+  path: "/privacidad",
+});
 
 export default function PrivacidadPage() {
   return (

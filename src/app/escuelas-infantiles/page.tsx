@@ -12,16 +12,15 @@ import { getCities } from "@/lib/data/cities";
 import { getSeoPageBySlug } from "@/lib/seo-pages";
 import { isSeoPageIndexableFromCenters } from "@/lib/data/seo-pages";
 import { escuelasInfantilesFaqs } from "@/data/mock-faqs";
-import { robotsMeta } from "@/lib/seo";
+import { buildMetadata } from "@/lib/seo";
 import { faqPageJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Escuelas infantiles: directorio de centros educativos",
   description:
     "Busca escuelas infantiles y centros de educación infantil. Consulta datos de ubicación, titularidad, etapa educativa, servicios y contacto.",
-  alternates: { canonical: "/escuelas-infantiles" },
-  robots: robotsMeta(),
-};
+  path: "/escuelas-infantiles",
+});
 
 export default async function EscuelasInfantilesPage() {
   const [allCenters, cities] = await Promise.all([getCenters(), getCities()]);

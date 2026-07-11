@@ -5,16 +5,15 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { getCenters } from "@/lib/data/centers";
 import { getCities } from "@/lib/data/cities";
 import { getSeoPageBySlug, isSeoPageIndexableFromCenters } from "@/lib/data/seo-pages";
-import { robotsMeta } from "@/lib/seo";
+import { buildMetadata } from "@/lib/seo";
 import { breadcrumbJsonLd } from "@/lib/jsonld";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Guarderías y escuelas infantiles por ciudad",
   description:
     "Consulta las ciudades disponibles en BuscaCentro y encuentra guarderías y escuelas infantiles cerca de ti.",
-  alternates: { canonical: "/ciudades" },
-  robots: robotsMeta(),
-};
+  path: "/ciudades",
+});
 
 export default async function CiudadesPage() {
   const [allCenters, cities] = await Promise.all([getCenters(), getCities()]);

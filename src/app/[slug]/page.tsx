@@ -11,7 +11,7 @@ import { getCenters, getCentersByFilters } from "@/lib/data/centers";
 import { getCityBySlug } from "@/lib/data/cities";
 import { isSeoPageIndexableFromCenters } from "@/lib/data/seo-pages";
 import { formatCenterTypePlural } from "@/lib/format";
-import { robotsMeta } from "@/lib/seo";
+import { buildMetadata } from "@/lib/seo";
 import { SITE_URL } from "@/lib/constants";
 
 interface PageProps {
@@ -38,12 +38,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const allCenters = await getCenters();
   const indexable = isSeoPageIndexableFromCenters(seoPage, allCenters);
 
-  return {
+  return buildMetadata({
     title: seoPage.title,
     description: seoPage.metaDescription,
-    alternates: { canonical: `/${seoPage.slug}` },
-    robots: robotsMeta(indexable),
-  };
+    path: `/${seoPage.slug}`,
+    indexable,
+  });
 }
 
 export default async function SeoLandingPage({ params }: PageProps) {

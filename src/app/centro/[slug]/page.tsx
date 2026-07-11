@@ -9,7 +9,7 @@ import { isCenterIndexable } from "@/lib/centers";
 import { getCenters, getCenterBySlug, getCentersByCity } from "@/lib/data/centers";
 import { getSeoPageBySlug } from "@/lib/seo-pages";
 import { formatCenterType, formatCenterTypePlural } from "@/lib/format";
-import { robotsMeta } from "@/lib/seo";
+import { buildMetadata } from "@/lib/seo";
 import { SITE_NAME, SITE_URL, MIN_CENTERS_FOR_CITY_PAGE } from "@/lib/constants";
 import {
   buildCenterFaqs,
@@ -45,12 +45,12 @@ export async function generateMetadata({ params }: Readonly<PageProps>): Promise
     ? `${locationLabel}, ${center.address.cityName}`
     : center.address.cityName;
 
-  return {
+  return buildMetadata({
     title: `${center.name} en ${titleCity} | ${typeLabel} ${adj}`,
     description: buildCenterSummary(center),
-    alternates: { canonical: `/centro/${center.slug}` },
-    robots: robotsMeta(indexable),
-  };
+    path: `/centro/${center.slug}`,
+    indexable,
+  });
 }
 
 export default async function CenterPage({ params }: PageProps) {

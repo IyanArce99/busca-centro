@@ -1,15 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import { robotsMeta } from "@/lib/seo";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Contacto",
   description:
     "Contacta con BuscaCentro para consultas generales, corrección de fichas de centros o cuestiones legales y de privacidad.",
-  alternates: { canonical: "/contacto" },
-  robots: robotsMeta(),
-};
+  path: "/contacto",
+});
 
 export default function ContactoPage() {
   return (

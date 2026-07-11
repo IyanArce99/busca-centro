@@ -1,14 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import { robotsMeta } from "@/lib/seo";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Política de cookies",
   description: "Información sobre el uso de cookies en BuscaCentro y cómo gestionarlas.",
-  alternates: { canonical: "/cookies" },
-  robots: robotsMeta(),
-};
+  path: "/cookies",
+});
 
 export default function CookiesPage() {
   return (

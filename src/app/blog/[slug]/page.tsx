@@ -4,7 +4,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import GuideCard from "@/components/GuideCard";
 import CTASection from "@/components/CTASection";
 import { getAllGuides, getGuideBySlug, getRelatedGuides } from "@/lib/guides";
-import { robotsMeta } from "@/lib/seo";
+import { buildMetadata } from "@/lib/seo";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
 
 interface PageProps {
@@ -20,13 +20,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const guide = getGuideBySlug(slug);
   if (!guide) return {};
 
-  return {
+  // Temporarily noindex until the blog has real, complete guides.
+  return buildMetadata({
     title: guide.title,
     description: guide.excerpt,
-    alternates: { canonical: `/blog/${guide.slug}` },
-    // Temporarily noindex until the blog has real, complete guides.
-    robots: robotsMeta(false),
-  };
+    path: `/blog/${guide.slug}`,
+    indexable: false,
+  });
 }
 
 export default async function GuidePage({ params }: PageProps) {

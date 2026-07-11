@@ -25,17 +25,16 @@ import { getAllGuides } from "@/lib/guides";
 import { getSeoPageBySlug } from "@/lib/seo-pages";
 import { isSeoPageIndexableFromCenters } from "@/lib/data/seo-pages";
 import { homeFaqs } from "@/data/mock-faqs";
-import { robotsMeta } from "@/lib/seo";
+import { buildMetadata } from "@/lib/seo";
 import { faqPageJsonLd } from "@/lib/jsonld";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/constants";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "BuscaCentro | Guarderías y escuelas infantiles en España",
   description:
-    "Busca guarderías y escuelas infantiles en Madrid, Barcelona y otras ciudades. Compara centros por zona, servicios, titularidad y edad, y solicita información directamente.",
-  alternates: { canonical: "/" },
-  robots: robotsMeta(),
-};
+    "Busca guarderías y escuelas infantiles en Madrid, Barcelona, Valencia y otras ciudades. Compara centros por zona, servicios, titularidad y edad, y solicita información directamente.",
+  path: "/",
+});
 
 const HOW_IT_WORKS = [
   {
@@ -179,7 +178,8 @@ export default async function HomePage() {
               plazas ni matrículas: te ayudamos a encontrar y comparar opciones para que decidas con más información.
             </p>
             <p>
-              El directorio incluye centros en Madrid, Barcelona y otras ciudades, y sigue creciendo. Puedes buscar{" "}
+              El directorio incluye centros en Madrid, Barcelona, Valencia y otras ciudades, y sigue creciendo. Puedes
+              buscar{" "}
               <Link href="/guarderias" className="font-medium text-sky-700 underline underline-offset-2 hover:text-sky-800">
                 guarderías
               </Link>{" "}

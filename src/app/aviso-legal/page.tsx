@@ -1,15 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import { robotsMeta } from "@/lib/seo";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Aviso legal",
   description:
     "Consulta la información legal de BuscaCentro, titularidad, condiciones de uso y responsabilidad sobre los contenidos.",
-  alternates: { canonical: "/aviso-legal" },
-  robots: robotsMeta(),
-};
+  path: "/aviso-legal",
+});
 
 export default function AvisoLegalPage() {
   return (

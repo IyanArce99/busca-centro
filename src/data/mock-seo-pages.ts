@@ -119,20 +119,58 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-guarderias-valencia",
     slug: "guarderias-en-valencia",
-    title: "Guarderías en Valencia",
+    title: "Guarderías en Valencia: busca y compara centros",
     h1: "Guarderías en Valencia",
-    subtitle: "Compara guarderías por barrio y servicios en Valencia.",
+    subtitle:
+      "Encuentra guarderías privadas en Valencia por zona y titularidad, y solicita información al centro que mejor encaje con tu familia.",
     metaDescription:
-      "Directorio de guarderías en Valencia: comedor, horario ampliado y centros bilingües. Compara y solicita información.",
+      "Encuentra guarderías en Valencia por zona, titularidad y edades. Consulta fichas con datos del Registre de Centres Docents, contacto y preguntas frecuentes.",
     filters: { citySlug: "valencia", centerType: "guarderia" },
     introText:
-      "Valencia ofrece centros de educación infantil en barrios como Ruzafa, Benimaclet o Campanar. Revisa el listado y compara servicios antes de contactar con cada centro.",
+      "Buscar guardería en Valencia suele empezar por una pregunta muy concreta: ¿qué centro me viene bien por cercanía y está disponible para la edad de mi hijo o hija? En esta página puedes consultar guarderías privadas repartidas por barrios como Ruzafa, Benimaclet, Campanar o la Malva-rosa, y comparar varias opciones antes de contactar. Cada ficha reúne la información disponible del centro —ubicación, titularidad y datos de contacto— según el Registre de Centres Docents de la Generalitat Valenciana.",
+    sections: [
+      {
+        heading: "Guarderías privadas en Valencia: qué esperar de cada ficha",
+        paragraphs: [
+          "La práctica totalidad de las guarderías de este listado son centros de titularidad privada, de gestión individual, familiar o de pequeñas sociedades, dedicados en exclusiva al primer ciclo de educación infantil (0-3 años). A diferencia de las escuelas infantiles municipales o de la Generalitat, no siguen un proceso de admisión único ni un baremo público: cada centro gestiona sus propias plazas, precios y periodo de matrícula.",
+          "El Registre de Centres Docents de la Generalitat Valenciana, fuente de los datos de este directorio, confirma la ubicación, la titularidad y el teléfono de contacto de cada centro, pero no siempre recoge datos como el horario exacto, el comedor o los idiomas de enseñanza. Por eso, muchas fichas de este listado invitan a confirmar esos aspectos directamente con el centro antes de solicitar plaza.",
+        ],
+      },
+      {
+        heading: "Cómo comparar guarderías privadas en Valencia",
+        paragraphs: [
+          "Al no existir un proceso de preinscripción único como el de las escuelas infantiles públicas, la comparación entre guarderías privadas de Valencia depende sobre todo de la cercanía al domicilio o al trabajo, la titularidad concreta del centro (empresa, cooperativa o persona física) y los servicios que cada uno confirme directamente: comedor, horario ampliado, idiomas o proyecto pedagógico específico.",
+          "Una vez identificadas dos o tres opciones en tu zona, lo habitual es llamar a cada centro para conocer plazas disponibles, precio de la matrícula y periodo de adaptación, y a ser posible concertar una visita antes de decidir.",
+        ],
+      },
+    ],
     outroText:
-      "Si formas parte de un centro y detectas datos desactualizados, puedes solicitar la actualización o reclamar la ficha.",
+      "Los datos de cada ficha proceden del Registre de Centres Docents de la Generalitat Valenciana y pueden estar pendientes de verificación o de ampliación por el propio centro. Antes de decidir, te recomendamos confirmar plazas, horarios y precios directamente con la guardería. Si representas un centro de Valencia, puedes reclamar su ficha para mantener sus datos al día.",
     faqs: [
       {
+        question: "¿Cómo encuentro una guardería en Valencia con BuscaCentro?",
+        answer:
+          "Consulta el listado de esta página y abre la ficha de los centros que te interesen por ubicación. Cada ficha incluye los datos disponibles del Registre de Centres Docents de la Generalitat Valenciana; para conocer servicios, horarios y precios concretos, contacta directamente con el centro.",
+      },
+      {
+        question: "¿Las guarderías de Valencia son públicas o privadas?",
+        answer:
+          "La gran mayoría de los centros de este listado son de titularidad privada. Las escuelas infantiles públicas (municipales o de la Generalitat) se agrupan en este directorio bajo la categoría de escuelas infantiles, no de guarderías.",
+      },
+      {
         question: "¿Cómo solicito información a una guardería de Valencia?",
-        answer: "Desde la ficha de cada centro puedes rellenar el formulario de solicitud de información.",
+        answer:
+          "Desde la ficha de cada centro puedes consultar su teléfono de contacto y, si está disponible, su email. Te recomendamos llamar directamente para confirmar plazas, precios y periodo de matrícula.",
+      },
+      {
+        question: "¿Qué datos puedo consultar en la ficha de cada guardería?",
+        answer:
+          "Cada ficha reúne la información disponible del centro según el Registre de Centres Docents de la Generalitat Valenciana: ubicación, titularidad y datos de contacto. Cuando el registro no recoge servicios como comedor u horario ampliado, la ficha lo indica explícitamente en vez de dar esa información por supuesta.",
+      },
+      {
+        question: "¿Cómo puede un centro actualizar o reclamar su ficha?",
+        answer:
+          "Si representas una guardería de Valencia, puedes reclamar su ficha para completar y actualizar servicios, horarios y datos de contacto. Si el centro todavía no aparece, puedes añadirlo desde el formulario para centros.",
       },
     ],
   },
@@ -320,14 +358,60 @@ export const mockSeoPages: SeoPage[] = [
   {
     id: "seo-escuelas-infantiles-valencia",
     slug: "escuelas-infantiles-en-valencia",
-    title: "Escuelas infantiles en Valencia",
+    title: "Escuelas infantiles en Valencia: escoles infantils municipals y centros 0-3 años",
     h1: "Escuelas infantiles en Valencia",
-    subtitle: "Escuelas infantiles de 0 a 6 años en Valencia.",
-    metaDescription: "Directorio de escuelas infantiles en Valencia con servicios y datos de contacto.",
+    subtitle:
+      "Consulta escoles infantils municipals, escuelas de la Generalitat Valenciana y centros privados concertados en Valencia por titularidad y zona.",
+    metaDescription:
+      "Busca escuelas infantiles en Valencia: escoles infantils municipals, centros de la Generalitat y privados concertados. Consulta fichas y datos de contacto.",
     filters: { citySlug: "valencia", centerType: "escuela-infantil" },
-    introText: "Consulta escuelas infantiles en barrios como El Carmen o Campanar en Valencia.",
-    outroText: "Los datos mostrados pueden proceder de fuentes públicas o del propio centro.",
-    faqs: [],
+    introText:
+      "En Valencia, la etapa de 0 a 3 años en centros públicos se organiza principalmente en torno a las escoles infantils municipals, gestionadas por la Regidoria d'Educació del Ajuntament de València, y a las escuelas infantiles dependientes directamente de la Generalitat Valenciana. A ellas se suman colegios privados concertados con sección de infantil. En esta página puedes consultar escuelas infantiles de la ciudad por titularidad y zona, con información sobre contacto y proceso de acceso.",
+    sections: [
+      {
+        heading: "Escoles infantils municipals: gestión directa e indirecta",
+        paragraphs: [
+          "El Ajuntament de València gestiona una red de escoles infantils municipals de primer ciclo (0-3 años), coordinada por la Regidoria d'Educació. Algunas de estas escuelas son de gestión directa por parte del propio Ayuntamiento, mientras que otras operan en régimen de gestión indirecta, a cargo de empresas o cooperativas concesionarias —una distinción que se refleja incluso en el dominio de correo electrónico de cada centro (@valencia.es para las de gestión directa, dominios propios o de la gestora en las de gestión indirecta).",
+          "El acceso a una plaza en las escoles infantils municipals se gestiona mediante el proceso anual de preinscripción del Ajuntament de València, con baremación pública según empadronamiento, hermanos matriculados y otros criterios habituales en la red pública valenciana.",
+        ],
+      },
+      {
+        heading: "Escuelas infantiles de la Generalitat Valenciana y centros concertados",
+        paragraphs: [
+          "Además de la red municipal, algunas escuelas infantiles de Valencia dependen directamente del Departament d'Educació de la Generalitat Valenciana, siguiendo un circuito administrativo distinto al del Ajuntament, aunque también de titularidad pública. Por otro lado, varios centros privados operan en régimen concertado, con un acuerdo de colaboración con la administración educativa cuyas condiciones concretas conviene confirmar con cada centro.",
+          "Cada ficha de este directorio indica la titularidad exacta —pública municipal, pública autonómica o privada concertada— cuando el dato está disponible en el Registre de Centres Docents de la Generalitat Valenciana, la fuente oficial de este listado.",
+        ],
+      },
+    ],
+    outroText:
+      "La información de cada escuela infantil procede del Registre de Centres Docents de la Generalitat Valenciana y puede requerir confirmación directa con el centro, especialmente en aspectos como horario, comedor o proceso de admisión. Si representas una escuela infantil de Valencia, puedes reclamar su ficha para completarla.",
+    faqs: [
+      {
+        question: "¿Qué diferencia hay entre una escola infantil municipal y una de la Generalitat Valenciana?",
+        answer:
+          "Ambas son de titularidad pública y atienden el primer ciclo de educación infantil (0-3 años), pero dependen de administraciones distintas: las escoles infantils municipals del Ajuntament de València (Regidoria d'Educació), y las escuelas infantiles de este directorio del Departament d'Educació de la Generalitat Valenciana.",
+      },
+      {
+        question: "¿Qué diferencia hay entre gestión directa e indirecta en una escola infantil municipal?",
+        answer:
+          "En la gestión directa, el propio Ajuntament de València administra el centro. En la gestión indirecta, esa administración corresponde a una empresa o cooperativa concesionaria, aunque el centro sigue siendo de titularidad pública municipal.",
+      },
+      {
+        question: "¿Cómo consigo plaza en una escola infantil municipal de Valencia?",
+        answer:
+          "El acceso se realiza mediante el proceso anual de preinscripción y matrícula del Ajuntament de València, con asignación de plazas según un baremo público. Consulta los plazos oficiales, que suelen abrirse en primavera para el curso siguiente.",
+      },
+      {
+        question: "¿Hay escuelas infantiles concertadas en Valencia?",
+        answer:
+          "Sí. Algunos centros privados de este listado operan en régimen de concierto (PRIV. CONC. en el registro oficial) con la Generalitat Valenciana. Las condiciones concretas del concierto conviene confirmarlas directamente con cada centro.",
+      },
+      {
+        question: "¿Cómo se verifica la información de las escuelas infantiles de Valencia?",
+        answer:
+          "Los datos proceden del Registre de Centres Docents de la Generalitat Valenciana y pueden estar pendientes de verificación. Los centros pueden reclamar su ficha para confirmar y actualizar sus datos.",
+      },
+    ],
   },
   {
     id: "seo-escuelas-infantiles-sevilla",
@@ -822,6 +906,190 @@ export const mockSeoPages: SeoPage[] = [
         question: "¿Las guarderías con cocina propia son más caras?",
         answer:
           "No necesariamente; el coste del comedor depende de cada centro y no siempre está relacionado con el tipo de gestión de la cocina. Te recomendamos consultar el precio y las condiciones directamente con la guardería.",
+      },
+    ],
+  },
+  {
+    id: "seo-guarderias-comedor-valencia",
+    slug: "guarderias-con-comedor-en-valencia",
+    title: "Guarderías con comedor en Valencia",
+    h1: "Guarderías con comedor en Valencia",
+    subtitle: "Guarderías privadas en Valencia con servicio de comedor, muchas de ellas con cocina propia.",
+    metaDescription:
+      "Guarderías en Valencia con servicio de comedor. Compara centros con cocina propia, consulta sus fichas y solicita información sin compromiso.",
+    filters: { citySlug: "valencia", centerType: "guarderia", service: "comedor" },
+    introText:
+      "El comedor es uno de los servicios que más pesa a la hora de elegir guardería en Valencia, sobre todo para conciliar el horario laboral con el del centro. En esta página puedes consultar guarderías de la ciudad en cuya ficha consta el servicio de comedor, según los datos disponibles verificados en la web de cada centro. Una parte importante gestiona el menú con cocina propia, elaborando la comida en las mismas instalaciones en lugar de recurrir a catering externo.",
+    sections: [
+      {
+        heading: "Cocina propia frente a catering en las guarderías de Valencia",
+        paragraphs: [
+          "Entre las guarderías de este listado, muchas destacan específicamente que preparan el menú diario en su propia cocina, un aspecto que las familias suelen valorar por el control directo sobre los ingredientes y la posibilidad de adaptar el menú a alergias o intolerancias concretas. Otros centros trabajan con catering externo, una fórmula igualmente habitual entre las guarderías que no disponen de cocina propia en el mismo edificio.",
+          "Antes de decidir, conviene preguntar directamente al centro cómo gestiona los menús especiales, si hay opción de dieta sin gluten o sin lactosa, y si el precio del comedor está incluido en la cuota mensual o se factura aparte.",
+        ],
+      },
+    ],
+    outroText:
+      "Confirma con cada centro el tipo de menú, cómo gestionan alergias e intolerancias y si el comedor es de cocina propia o catering. Los datos de la ficha proceden de la web propia de cada centro y pueden estar pendientes de verificación adicional.",
+    faqs: [
+      {
+        question: "¿Todas las guarderías de esta página tienen comedor?",
+        answer:
+          "Este listado muestra guarderías en Valencia cuya propia web confirma el servicio de comedor. Te recomendamos confirmarlo con el centro, ya que la disponibilidad y el tipo de gestión pueden cambiar por curso.",
+      },
+      {
+        question: "¿Cuántas de estas guarderías tienen cocina propia?",
+        answer:
+          "Una parte significativa de los centros de este listado confirma en su web que elabora los menús con cocina propia. Puedes comprobarlo en la descripción de cada centro y confirmarlo directamente antes de solicitar plaza.",
+      },
+      {
+        question: "¿Puedo consultar el menú antes de matricular a mi hijo o hija?",
+        answer:
+          "La mayoría de los centros facilita el menú semanal o mensual si lo solicitas directamente. Es buen momento también para preguntar por la gestión de alergias e intolerancias alimentarias.",
+      },
+    ],
+  },
+  {
+    id: "seo-escuelas-infantiles-comedor-valencia",
+    slug: "escuelas-infantiles-con-comedor-en-valencia",
+    title: "Escuelas infantiles con comedor en Valencia",
+    h1: "Escuelas infantiles con comedor en Valencia",
+    subtitle:
+      "Escoles infantils municipals, escuelas de la Generalitat Valenciana y centros concertados en Valencia con servicio de comedor.",
+    metaDescription:
+      "Escuelas infantiles en Valencia con comedor: escoles infantils municipals, centros de la Generalitat y concertados. Consulta horarios y datos de contacto.",
+    filters: { citySlug: "valencia", centerType: "escuela-infantil", service: "comedor" },
+    introText:
+      "Varias escoles infantils municipals y escuelas infantiles de la Generalitat Valenciana ofrecen servicio de comedor como parte de su funcionamiento habitual, y lo mismo ocurre con algunos centros concertados. En esta página puedes consultar escuelas infantiles de la ciudad con comedor confirmado, según los datos disponibles en fuentes oficiales o en la web de cada centro.",
+    sections: [
+      {
+        heading: "El comedor en las escoles infantils municipals de Valencia",
+        paragraphs: [
+          "Las escoles infantils municipals gestionadas por el Ajuntament de València, ya sea en gestión directa o indirecta, suelen incluir comedor dentro de su oferta, con menús elaborados con cocina propia en varios casos. El acceso a estas plazas se realiza mediante el proceso anual de preinscripción municipal.",
+          "En las escuelas infantiles de titularidad autonómica o concertada, el funcionamiento del comedor puede variar de un centro a otro: algunas cuentan también con cocina propia, mientras que otras recurren a catering externo. Conviene revisar la ficha de cada centro y confirmar el detalle directamente antes de matricular.",
+        ],
+      },
+    ],
+    outroText:
+      "Confirma con cada centro el tipo de menú, la gestión de alergias e intolerancias y si el comedor está incluido en la cuota o se paga aparte. Los datos de la ficha proceden de fuentes oficiales o de la web del propio centro y pueden estar pendientes de verificación.",
+    faqs: [
+      {
+        question: "¿Las escoles infantils municipals de Valencia tienen todas comedor?",
+        answer:
+          "No todas: este listado incluye únicamente las escuelas infantiles cuya ficha confirma explícitamente el servicio de comedor, ya sea por fuente municipal oficial o por su propia web. Puedes confirmarlo en la ficha de cada centro.",
+      },
+      {
+        question: "¿El comedor está incluido en la cuota de la escola infantil municipal?",
+        answer:
+          "Las cuotas de las escoles infantils municipals, incluido el comedor cuando aplica, siguen los precios públicos vigentes y pueden tener bonificaciones según la renta familiar. Te recomendamos confirmar el importe exacto con el centro o en los canales oficiales del Ajuntament de València.",
+      },
+      {
+        question: "¿Y en las escuelas infantiles concertadas?",
+        answer:
+          "El funcionamiento y el coste del comedor en centros concertados varían según el centro. Algunos gestionan la comida con cocina propia y otros con catering externo; confírmalo directamente con la escuela.",
+      },
+    ],
+  },
+  {
+    id: "seo-guarderias-cocina-propia-valencia",
+    slug: "guarderias-con-cocina-propia-en-valencia",
+    title: "Guarderías con cocina propia en Valencia",
+    h1: "Guarderías con cocina propia en Valencia",
+    subtitle: "Guarderías privadas en Valencia que elaboran el menú diario en sus propias instalaciones.",
+    metaDescription:
+      "Guarderías con cocina propia en Valencia: centros que preparan el menú diario sin catering externo. Compara y solicita información.",
+    filters: { citySlug: "valencia", centerType: "guarderia", service: "cocina-propia" },
+    introText:
+      "Frente al catering externo, varias guarderías privadas de Valencia elaboran el menú diario en su propia cocina, dentro de las mismas instalaciones del centro. En esta página puedes consultar las guarderías de la ciudad que confirman este servicio en su web, un aspecto que muchas familias valoran por el control directo sobre los ingredientes y la posibilidad de adaptar los menús.",
+    outroText:
+      "Aunque un centro tenga cocina propia, conviene confirmar directamente cómo gestiona alergias e intolerancias alimentarias y si el servicio de comedor está incluido en la cuota mensual. Los datos de la ficha proceden de la web propia de cada centro y pueden estar pendientes de verificación adicional.",
+    faqs: [
+      {
+        question: "¿Qué ventaja tiene que una guardería tenga cocina propia?",
+        answer:
+          "Permite un control más directo sobre los ingredientes y la elaboración del menú, y suele facilitar adaptar la comida a alergias, intolerancias o necesidades concretas de cada niño o niña. Aun así, conviene confirmarlo directamente con el centro.",
+      },
+      {
+        question: "¿Las guarderías con cocina propia son más caras?",
+        answer:
+          "No necesariamente; el coste del comedor depende de cada centro y no siempre está relacionado con el tipo de gestión de la cocina. Te recomendamos consultar el precio y las condiciones directamente con la guardería.",
+      },
+    ],
+  },
+  {
+    id: "seo-guarderias-horario-ampliado-valencia",
+    slug: "guarderias-con-horario-ampliado-en-valencia",
+    title: "Guarderías con horario ampliado en Valencia",
+    h1: "Guarderías con horario ampliado en Valencia",
+    subtitle: "Centros con horario ampliado o servicio de madrugadores en Valencia para ayudarte a conciliar.",
+    metaDescription:
+      "Guarderías en Valencia con horario ampliado. Compara centros con franjas flexibles de entrada y salida y solicita información.",
+    filters: { citySlug: "valencia", centerType: "guarderia", service: "horario-ampliado" },
+    introText:
+      "Cuando el horario laboral no encaja con el horario habitual del centro, contar con una franja ampliada de entrada o salida marca la diferencia. Aquí puedes consultar guarderías privadas en Valencia que confirman horario ampliado en su web, según los datos disponibles en cada ficha.",
+    outroText:
+      "El horario exacto, las franjas disponibles y su coste pueden variar según el centro; confírmalo antes de solicitar plaza. Los datos de la ficha proceden de la web propia de cada centro y pueden estar pendientes de verificación adicional.",
+    faqs: [
+      {
+        question: "¿Qué se considera horario ampliado en una guardería de Valencia?",
+        answer:
+          "Suele referirse a franjas de entrada anticipada o de salida más tarde de lo habitual, pensadas para familias que necesitan flexibilidad para conciliar. Cada centro define sus propias franjas y condiciones.",
+      },
+      {
+        question: "¿El horario ampliado tiene un coste adicional?",
+        answer:
+          "En muchos centros el horario ampliado es un servicio opcional con un coste añadido, pero varía de una guardería a otra. Confirma el precio y las condiciones directamente con el centro.",
+      },
+    ],
+  },
+  {
+    id: "seo-guarderias-bilingues-valencia",
+    slug: "guarderias-bilingues-en-valencia",
+    title: "Guarderías bilingües en Valencia",
+    h1: "Guarderías bilingües en Valencia",
+    subtitle: "Centros con introducción a un segundo idioma o programa bilingüe en Valencia.",
+    metaDescription: "Guarderías bilingües en Valencia: compara centros con programa en inglés y solicita información sin compromiso.",
+    filters: { citySlug: "valencia", centerType: "guarderia", service: "bilingue" },
+    introText:
+      "Cada vez más familias buscan centros con introducción temprana a un segundo idioma. Aquí puedes consultar guarderías en Valencia que confirman en su web programa bilingüe o iniciación al inglés, según los datos disponibles en cada ficha. El enfoque, las horas de exposición al idioma y la metodología varían mucho de un centro a otro.",
+    outroText:
+      "Solicita información directamente a cada centro para conocer el detalle de su programa bilingüe: horas de exposición al idioma, metodología y perfil del profesorado. Los datos de la ficha proceden de la web propia de cada centro y pueden estar pendientes de verificación adicional.",
+    faqs: [
+      {
+        question: "¿En qué consiste el programa bilingüe de estas guarderías?",
+        answer:
+          "Cada centro define su propio enfoque bilingüe. Te recomendamos solicitar información directamente para conocer las horas de exposición al idioma, la metodología y si el profesorado es nativo o bilingüe.",
+      },
+      {
+        question: "¿A partir de qué edad se introduce el segundo idioma?",
+        answer:
+          "Depende del proyecto de cada centro. Algunos inician la exposición al inglés desde el primer ciclo con canciones, rutinas y juego, mientras que otros lo estructuran más adelante. Confírmalo en la ficha o directamente con la guardería.",
+      },
+    ],
+  },
+  {
+    id: "seo-guarderias-ingles-valencia",
+    slug: "guarderias-con-ingles-en-valencia",
+    title: "Guarderías con inglés en Valencia",
+    h1: "Guarderías con inglés en Valencia",
+    subtitle: "Guarderías privadas en Valencia con iniciación al inglés o programa bilingüe.",
+    metaDescription:
+      "Guarderías con inglés en Valencia: centros con iniciación al idioma desde el primer ciclo. Compara y solicita información.",
+    filters: { citySlug: "valencia", centerType: "guarderia", service: "ingles" },
+    introText:
+      "Muchas guarderías privadas de Valencia incorporan el inglés dentro de sus actividades diarias, ya sea como iniciación puntual o como parte de un programa bilingüe más estructurado. En esta página puedes consultar los centros de la ciudad que confirman esta actividad en su web.",
+    outroText:
+      "El nivel de exposición al idioma varía mucho de un centro a otro: desde canciones y rutinas puntuales hasta programas bilingües completos. Solicita información directamente a cada guardería para conocer el detalle.",
+    faqs: [
+      {
+        question: "¿Es lo mismo \"guardería con inglés\" que \"guardería bilingüe\"?",
+        answer:
+          "No siempre. Algunas guarderías ofrecen sesiones puntuales de iniciación al inglés dentro de sus actividades, mientras que otras plantean un programa bilingüe más estructurado con mayor exposición al idioma. Consulta la ficha de cada centro para ver el detalle disponible.",
+      },
+      {
+        question: "¿Cuántas horas a la semana se dedican al inglés?",
+        answer:
+          "Depende de cada centro y no siempre consta en la ficha. Te recomendamos preguntar directamente a la guardería por las horas de exposición al idioma y la metodología empleada.",
       },
     ],
   },
