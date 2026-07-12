@@ -1,0 +1,2981 @@
+{
+  "_readme": "Dataset de trabajo para Valladolid, mismo formato snake_case que granada-centers.json/cordoba-centers.json/las-palmas-centers.json. city_slug=valladolid. Ambito: unicamente el termino municipal de Valladolid capital (refine.municipio=VALLADOLID en el dataset oficial 'Directorio de Centros Docentes' de la Junta de Castilla y Leon, que usa la clasificacion administrativa municipal, sin mezcla con otros municipios de la provincia). Fuente primaria: dataset abierto 'Directorio de Centros Docentes' (analisis.datosabiertos.jcyl.es), filtrado por denominacion_generica en {'ESCUELA DE EDUCACION INFANTIL', 'CENTRO PRIVADO DE EDUCACION INFANTIL'}. Complementado con el listado oficial 'Escuelas de Educacion Infantil - Titularidad Junta Castilla y Leon' (educa.jcyl.es, para distinguir las 2 escuelas de titularidad JCyL genuina de las 11 escuelas infantiles municipales del Ayuntamiento de Valladolid), la web oficial del Ayuntamiento de Valladolid (barrio y servicios homogeneos de las 11 EIM), el listado oficial de centros adheridos al programa de gratuidad de primer ciclo curso 2026-2027 (educa.jcyl.es) y webs oficiales propias de un subconjunto de centros privados para confirmar servicios concretos del enum CenterService. Ver docs/data-sources-valladolid.md.",
+  "city": "valladolid",
+  "generated_at": "2026-07-12T00:00:00.000Z",
+  "stats": {
+    "centers_count": 42,
+    "excluded_count": 4
+  },
+  "centers": [
+    {
+      "slug": "amanecer-valladolid",
+      "name": "Amanecer",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "C/ Juana de Castilla, s/n",
+        "postal_code": "47014",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.65425,
+        "longitude": -4.73557
+      },
+      "contact": {
+        "phone": "983330369",
+        "email": null,
+        "website": "http://eeiamanecer.centros.educa.jcyl.es/sitio/"
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "comedor"
+      ],
+      "short_description": "Amanecer es una escuela infantil de titularidad de la Junta de Castilla y León en C/ Juana de Castilla, s/n, 47014, dentro de la red pública autonómica de primer ciclo de educación infantil (0-3 años) de Valladolid.",
+      "long_description": "Amanecer es una escuela infantil de titularidad de la Junta de Castilla y León, con sede en C/ Juana de Castilla, s/n, 47014, Valladolid.\n\nForma parte de la red de Escuelas de Educación Infantil (EEI) de titularidad autonómica en Castilla y León, que imparte el primer ciclo de educación infantil (0-3 años) con plazas gratuitas para todas las familias desde el curso 2024-2025, dentro del programa de gratuidad del primer ciclo de educación infantil de la Junta de Castilla y León.\n\nSegún el registro oficial de centros docentes, el centro ofrece servicio de comedor.\n\nPara conocer el proceso de admisión, unidades disponibles y horario detallado, se recomienda contactar directamente con el centro o consultar el Portal de Educación de la Junta de Castilla y León.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada la escuela infantil Amanecer?",
+          "answer": "Se encuentra en C/ Juana de Castilla, s/n, 47014, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es una escuela infantil de primer ciclo de educación infantil, dirigida a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, perteneciente a la red de Escuelas de Educación Infantil de la Junta de Castilla y León."
+        },
+        {
+          "question": "¿Es gratuita la plaza en este centro?",
+          "answer": "Sí. Desde el curso 2024-2025, Castilla y León ofrece gratuidad total del primer ciclo de educación infantil (0-3 años) en los centros de titularidad de la Junta, dentro del programa de gratuidad de estas enseñanzas."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según el registro oficial de centros docentes de Castilla y León, el centro cuenta con servicio de comedor."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983330369 o consultar su web (http://eeiamanecer.centros.educa.jcyl.es/sitio/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-escuelas-infantiles-titularidad-jcyl",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027",
+        "http://eeiamanecer.centros.educa.jcyl.es/sitio/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_jcyl",
+      "codigo_centro_rc": "47007665",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "arbol-sabio-valladolid",
+      "name": "Árbol Sabio",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Villafranca de Duero, 4",
+        "postal_code": "47008",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.61964,
+        "longitude": -4.75711
+      },
+      "contact": {
+        "phone": "983247742",
+        "email": "info@arbolsabio.com",
+        "website": "https://arbolsabio.com/"
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "cocina-propia",
+        "ingles",
+        "verano-campamentos"
+      ],
+      "short_description": "En C/ Villafranca de Duero, 4, 47008, Valladolid, Árbol Sabio atiende a niños de 0 a 3 años dentro del primer ciclo de educación infantil. Es un centro adherido al programa de gratuidad de la Junta de Castilla y León, y su web oficial confirma servicios de cocina propia, inglés y campamentos de verano.",
+      "long_description": "Árbol Sabio es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en C/ Villafranca de Duero, 4, 47008, Valladolid.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: cocina propia, inglés y campamentos de verano. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nEl centro participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil de la Junta de Castilla y León, que desde el curso 2024-2025 ofrece plazas gratuitas para todas las edades (0 a 3 años) en los centros privados adheridos a esta oferta.\n\nPara conocer el proyecto educativo completo, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Árbol Sabio?",
+          "answer": "El centro se encuentra en C/ Villafranca de Duero, 4, 47008, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Qué servicios ofrece este centro?",
+          "answer": "Según su web oficial, el centro confirma los siguientes servicios: cocina propia, inglés y campamentos de verano."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983247742, escribir a info@arbolsabio.com, consultar su web oficial (https://arbolsabio.com/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://arbolsabio.com/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47012119",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "arco-iris-valladolid",
+      "name": "Arco Iris",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Júpiter, 12",
+        "postal_code": "47009",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.66295,
+        "longitude": -4.73855
+      },
+      "contact": {
+        "phone": "657761603",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Arco Iris es una de las escuelas infantiles privadas de Valladolid, con sede en C/ Júpiter, 12, 47009, dirigida a niños de 0 a 3 años. No se han podido confirmar servicios adicionales del enum en fuente oficial o web propia.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Arco Iris?",
+          "answer": "El centro se encuentra en C/ Júpiter, 12, 47009, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 657761603."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros docentes de la Junta de Castilla y León (Directorio de Centros Docentes) y del listado oficial de centros adheridos al programa de gratuidad del primer ciclo de educación infantil. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47012481",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "argentinas-valladolid",
+      "name": "Argentinas",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Ctra. de Rueda, 41",
+        "postal_code": "47008",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.62397,
+        "longitude": -4.74259
+      },
+      "contact": {
+        "phone": "692964595",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Centro privado de educación infantil situado en Ctra. de Rueda, 41, 47008, Argentinas forma parte de la oferta de primer ciclo (0-3 años) de Valladolid capital. Los servicios específicos del centro no están confirmados en fuente oficial.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Argentinas?",
+          "answer": "El centro se encuentra en Ctra. de Rueda, 41, 47008, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 692964595."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros docentes de la Junta de Castilla y León (Directorio de Centros Docentes) y del listado oficial de centros adheridos al programa de gratuidad del primer ciclo de educación infantil. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47012341",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "caballito-blanco-valladolid",
+      "name": "Caballito Blanco",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "C/ Orden de Malta, 6",
+        "postal_code": "47011",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": "Los Santos-Pilarica",
+        "neighborhood_barrio": null,
+        "latitude": 41.65316,
+        "longitude": -4.70615
+      },
+      "contact": {
+        "phone": "983857982",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "9:00-14:00h, con posibilidad de ampliación mediante servicio de madrugadores",
+      "services": [
+        "servicio-madrugadores"
+      ],
+      "short_description": "En C/ Orden de Malta, 6, 47011, en el barrio de Los Santos-Pilarica, la Escuela Infantil Municipal Caballito Blanco forma parte de la red de 11 escuelas infantiles del Ayuntamiento de Valladolid, con oferta de plazas gratuitas para el tramo 0-3 años.",
+      "long_description": "Caballito Blanco es una escuela infantil municipal del Ayuntamiento de Valladolid, situada en C/ Orden de Malta, 6, 47011, en el barrio de Los Santos-Pilarica.\n\nForma parte de la red de 11 Escuelas Infantiles Municipales de Valladolid, gestionadas mediante contrato de servicios adjudicado por el Ayuntamiento. Todas las escuelas de esta red cuentan con servicio de comedor y servicio de madrugadores, según la información oficial publicada por el Ayuntamiento de Valladolid, y atienden a niños desde los 4 meses hasta los 3 años.\n\nLas unidades de 0 a 3 años de esta escuela están incluidas en el programa de gratuidad del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025, por lo que la plaza es gratuita para las familias que la obtengan en el proceso de admisión.\n\nPara conocer el calendario de puertas abiertas, el proceso de admisión y las plazas disponibles, se recomienda consultar el Portal Web del Ayuntamiento de Valladolid o contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada la Escuela Infantil Caballito Blanco?",
+          "answer": "Se encuentra en C/ Orden de Malta, 6, 47011, en el barrio de Los Santos-Pilarica (Valladolid)."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Atiende a niños de 0 a 3 años, dentro del primer ciclo de educación infantil."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, gestionado por el Ayuntamiento de Valladolid dentro de su red de 11 Escuelas Infantiles Municipales."
+        },
+        {
+          "question": "¿Es gratuita la plaza en este centro?",
+          "answer": "Sí. Las unidades de 0 a 3 años de las escuelas infantiles municipales de Valladolid están incluidas en el programa de gratuidad total del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Qué servicios ofrece este centro?",
+          "answer": "Según la información oficial del Ayuntamiento de Valladolid, todas las escuelas infantiles municipales cuentan con servicio de madrugadores; no se ha confirmado el servicio de comedor específico para este centro en el registro oficial de centros docentes."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983857982."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.valladolid.es/es/temas/hacemos/escuelas-infantiles",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_municipal",
+      "codigo_centro_rc": "47012016",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "campanilla-valladolid",
+      "name": "Campanilla",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "C/ Monasterio de Santo Toribio de Liébana, 5",
+        "postal_code": "47001",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": "Villa del Prado",
+        "neighborhood_barrio": null,
+        "latitude": 41.64762,
+        "longitude": -4.74431
+      },
+      "contact": {
+        "phone": "983375777",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "9:00-14:00h, con posibilidad de ampliación mediante servicio de madrugadores",
+      "services": [
+        "comedor",
+        "servicio-madrugadores"
+      ],
+      "short_description": "La Escuela Infantil Municipal Campanilla, en C/ Monasterio de Santo Toribio de Liébana, 5, 47001 (Villa del Prado), pertenece a la red pública de escuelas infantiles gestionada por el Ayuntamiento de Valladolid, con plazas gratuitas de primer ciclo de educación infantil.",
+      "long_description": "Campanilla es una escuela infantil municipal del Ayuntamiento de Valladolid, situada en C/ Monasterio de Santo Toribio de Liébana, 5, 47001, en el barrio de Villa del Prado.\n\nForma parte de la red de 11 Escuelas Infantiles Municipales de Valladolid, gestionadas mediante contrato de servicios adjudicado por el Ayuntamiento. Todas las escuelas de esta red cuentan con servicio de comedor y servicio de madrugadores, según la información oficial publicada por el Ayuntamiento de Valladolid, y atienden a niños desde los 4 meses hasta los 3 años.\n\nLas unidades de 0 a 3 años de esta escuela están incluidas en el programa de gratuidad del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025, por lo que la plaza es gratuita para las familias que la obtengan en el proceso de admisión.\n\nPara conocer el calendario de puertas abiertas, el proceso de admisión y las plazas disponibles, se recomienda consultar el Portal Web del Ayuntamiento de Valladolid o contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada la Escuela Infantil Campanilla?",
+          "answer": "Se encuentra en C/ Monasterio de Santo Toribio de Liébana, 5, 47001, en el barrio de Villa del Prado (Valladolid)."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Atiende a niños de 0 a 3 años, dentro del primer ciclo de educación infantil."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, gestionado por el Ayuntamiento de Valladolid dentro de su red de 11 Escuelas Infantiles Municipales."
+        },
+        {
+          "question": "¿Es gratuita la plaza en este centro?",
+          "answer": "Sí. Las unidades de 0 a 3 años de las escuelas infantiles municipales de Valladolid están incluidas en el programa de gratuidad total del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Qué servicios ofrece este centro?",
+          "answer": "Según la información oficial del Ayuntamiento de Valladolid, todas las escuelas infantiles municipales cuentan con servicio de comedor y servicio de madrugadores."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983375777."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.valladolid.es/es/temas/hacemos/escuelas-infantiles",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_municipal",
+      "codigo_centro_rc": "47011565",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "casa-de-ninas-y-ninos-maestro-claudio-lopez-serrano-valladolid",
+      "name": "Casa de Niñas y Niños Maestro Claudio López Serrano",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Soto, 64",
+        "postal_code": "47010",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.66443,
+        "longitude": -4.72659
+      },
+      "contact": {
+        "phone": "983254673",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "En C/ Soto, 64, 47010, Valladolid, Casa de Niñas y Niños Maestro Claudio López Serrano atiende a niños de 0 a 3 años dentro del primer ciclo de educación infantil. No hay servicios adicionales confirmados en fuente oficial; se recomienda consultarlos directamente con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Casa de Niñas y Niños Maestro Claudio López Serrano?",
+          "answer": "El centro se encuentra en C/ Soto, 64, 47010, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983254673."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros docentes de la Junta de Castilla y León (Directorio de Centros Docentes) y del listado oficial de centros adheridos al programa de gratuidad del primer ciclo de educación infantil. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47012326",
+      "coords_flagged": false,
+      "notes_internal": "Gestionada mediante convenio entre el Ayuntamiento de Valladolid y la Liga Espanola de la Educacion y la Cultura Popular (barrio de La Rondilla); el registro oficial de centros docentes vigente la clasifica como titularidad privada."
+    },
+    {
+      "slug": "casa-de-ninas-y-ninos-pajarillos-valladolid",
+      "name": "Casa de Niñas y Niños Pajarillos",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Tordo, 7",
+        "postal_code": "47012",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.65042,
+        "longitude": -4.70903
+      },
+      "contact": {
+        "phone": "983308942",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Ubicado en C/ Tordo, 7, 47012 (Valladolid), Casa de Niñas y Niños Pajarillos es un centro privado que imparte el primer ciclo de educación infantil. Conviene contactar directamente con el centro para conocer horario, precio y servicios disponibles.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Casa de Niñas y Niños Pajarillos?",
+          "answer": "El centro se encuentra en C/ Tordo, 7, 47012, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983308942."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros docentes de la Junta de Castilla y León (Directorio de Centros Docentes) y del listado oficial de centros adheridos al programa de gratuidad del primer ciclo de educación infantil. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47012338",
+      "coords_flagged": false,
+      "notes_internal": "Gestionada mediante convenio entre el Ayuntamiento de Valladolid y la Liga Espanola de la Educacion y la Cultura Popular (barrio de Pajarillos); el registro oficial de centros docentes vigente la clasifica como titularidad privada."
+    },
+    {
+      "slug": "cascabel-valladolid",
+      "name": "Cascabel",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "C/ Seminario, 4",
+        "postal_code": "47010",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": "Rondilla",
+        "neighborhood_barrio": null,
+        "latitude": 41.66059,
+        "longitude": -4.73007
+      },
+      "contact": {
+        "phone": "983100040",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "9:00-14:00h, con posibilidad de ampliación mediante servicio de madrugadores",
+      "services": [
+        "comedor",
+        "servicio-madrugadores"
+      ],
+      "short_description": "La Escuela Infantil Municipal Cascabel, en C/ Seminario, 4, 47010 (Rondilla), pertenece a la red pública de escuelas infantiles gestionada por el Ayuntamiento de Valladolid, con plazas gratuitas de primer ciclo de educación infantil.",
+      "long_description": "Cascabel es una escuela infantil municipal del Ayuntamiento de Valladolid, situada en C/ Seminario, 4, 47010, en el barrio de Rondilla.\n\nForma parte de la red de 11 Escuelas Infantiles Municipales de Valladolid, gestionadas mediante contrato de servicios adjudicado por el Ayuntamiento. Todas las escuelas de esta red cuentan con servicio de comedor y servicio de madrugadores, según la información oficial publicada por el Ayuntamiento de Valladolid, y atienden a niños desde los 4 meses hasta los 3 años.\n\nLas unidades de 0 a 3 años de esta escuela están incluidas en el programa de gratuidad del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025, por lo que la plaza es gratuita para las familias que la obtengan en el proceso de admisión.\n\nPara conocer el calendario de puertas abiertas, el proceso de admisión y las plazas disponibles, se recomienda consultar el Portal Web del Ayuntamiento de Valladolid o contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada la Escuela Infantil Cascabel?",
+          "answer": "Se encuentra en C/ Seminario, 4, 47010, en el barrio de Rondilla (Valladolid)."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Atiende a niños de 0 a 3 años, dentro del primer ciclo de educación infantil."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, gestionado por el Ayuntamiento de Valladolid dentro de su red de 11 Escuelas Infantiles Municipales."
+        },
+        {
+          "question": "¿Es gratuita la plaza en este centro?",
+          "answer": "Sí. Las unidades de 0 a 3 años de las escuelas infantiles municipales de Valladolid están incluidas en el programa de gratuidad total del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Qué servicios ofrece este centro?",
+          "answer": "Según la información oficial del Ayuntamiento de Valladolid, todas las escuelas infantiles municipales cuentan con servicio de comedor y servicio de madrugadores."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983100040."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.valladolid.es/es/temas/hacemos/escuelas-infantiles",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_municipal",
+      "codigo_centro_rc": "47012193",
+      "coords_flagged": false,
+      "notes_internal": "Telefono corregido puntualmente respecto al registro oficial JCyL (campo vacio en la fuente): se ha usado el telefono publicado en la ficha oficial de la Escuela Infantil Cascabel del Portal Web del Ayuntamiento de Valladolid (983 10 00 40)."
+    },
+    {
+      "slug": "cascanueces-valladolid",
+      "name": "Cascanueces",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "C/ Boedo, 18",
+        "postal_code": "47008",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": "Parque Alameda",
+        "neighborhood_barrio": null,
+        "latitude": 41.61767,
+        "longitude": -4.75116
+      },
+      "contact": {
+        "phone": "983244927",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "9:00-14:00h, con posibilidad de ampliación mediante servicio de madrugadores",
+      "services": [
+        "comedor",
+        "servicio-madrugadores"
+      ],
+      "short_description": "La Escuela Infantil Municipal Cascanueces, en C/ Boedo, 18, 47008 (Parque Alameda), pertenece a la red pública de escuelas infantiles gestionada por el Ayuntamiento de Valladolid, con plazas gratuitas de primer ciclo de educación infantil.",
+      "long_description": "Cascanueces es una escuela infantil municipal del Ayuntamiento de Valladolid, situada en C/ Boedo, 18, 47008, en el barrio de Parque Alameda.\n\nForma parte de la red de 11 Escuelas Infantiles Municipales de Valladolid, gestionadas mediante contrato de servicios adjudicado por el Ayuntamiento. Todas las escuelas de esta red cuentan con servicio de comedor y servicio de madrugadores, según la información oficial publicada por el Ayuntamiento de Valladolid, y atienden a niños desde los 4 meses hasta los 3 años.\n\nLas unidades de 0 a 3 años de esta escuela están incluidas en el programa de gratuidad del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025, por lo que la plaza es gratuita para las familias que la obtengan en el proceso de admisión.\n\nPara conocer el calendario de puertas abiertas, el proceso de admisión y las plazas disponibles, se recomienda consultar el Portal Web del Ayuntamiento de Valladolid o contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada la Escuela Infantil Cascanueces?",
+          "answer": "Se encuentra en C/ Boedo, 18, 47008, en el barrio de Parque Alameda (Valladolid)."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Atiende a niños de 0 a 3 años, dentro del primer ciclo de educación infantil."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, gestionado por el Ayuntamiento de Valladolid dentro de su red de 11 Escuelas Infantiles Municipales."
+        },
+        {
+          "question": "¿Es gratuita la plaza en este centro?",
+          "answer": "Sí. Las unidades de 0 a 3 años de las escuelas infantiles municipales de Valladolid están incluidas en el programa de gratuidad total del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Qué servicios ofrece este centro?",
+          "answer": "Según la información oficial del Ayuntamiento de Valladolid, todas las escuelas infantiles municipales cuentan con servicio de comedor y servicio de madrugadores."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983244927."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.valladolid.es/es/temas/hacemos/escuelas-infantiles",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_municipal",
+      "codigo_centro_rc": "47011334",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "chupetin-valladolid",
+      "name": "Chupetín",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Vinos de Rueda, 12",
+        "postal_code": "47008",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.61648,
+        "longitude": -4.7529
+      },
+      "contact": {
+        "phone": "983246178",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "En C/ Vinos de Rueda, 12, 47008, Valladolid, Chupetín atiende a niños de 0 a 3 años dentro del primer ciclo de educación infantil. No hay servicios adicionales confirmados en fuente oficial; se recomienda consultarlos directamente con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Chupetín?",
+          "answer": "El centro se encuentra en C/ Vinos de Rueda, 12, 47008, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983246178."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros docentes de la Junta de Castilla y León (Directorio de Centros Docentes) y del listado oficial de centros adheridos al programa de gratuidad del primer ciclo de educación infantil. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47012417",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "cubillas-jardin-de-recreo-valladolid",
+      "name": "Cubillas Jardín de Recreo",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Roble, 5",
+        "postal_code": "47009",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.6703,
+        "longitude": -4.73246
+      },
+      "contact": {
+        "phone": "648615059",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Cubillas Jardín de Recreo atiende el primer ciclo de educación infantil (0-3 años) en C/ Roble, 5, 47009, Valladolid. Es un centro de titularidad privada según el registro oficial de centros docentes de la Junta de Castilla y León.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Cubillas Jardín de Recreo?",
+          "answer": "El centro se encuentra en C/ Roble, 5, 47009, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 648615059."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros docentes de la Junta de Castilla y León (Directorio de Centros Docentes) y del listado oficial de centros adheridos al programa de gratuidad del primer ciclo de educación infantil. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47012296",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "el-despertador-infantil-2010-valladolid",
+      "name": "El Despertador Infantil 2010",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Plaza de Juan Pablo II, 9",
+        "postal_code": "47015",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.48283,
+        "longitude": -4.77193
+      },
+      "contact": {
+        "phone": "983012115",
+        "email": "eldi@eldespertadorinfantil.com",
+        "website": "https://eldespertadorinfantil.com/"
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "comedor",
+        "cocina-propia",
+        "horario-ampliado",
+        "patio-exterior"
+      ],
+      "short_description": "En Plaza de Juan Pablo II, 9, 47015, Valladolid, El Despertador Infantil 2010 atiende a niños de 0 a 3 años dentro del primer ciclo de educación infantil. Es un centro adherido al programa de gratuidad de la Junta de Castilla y León, y su web oficial confirma servicios de comedor, cocina propia, horario ampliado y patio exterior.",
+      "long_description": "El Despertador Infantil 2010 es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Plaza de Juan Pablo II, 9, 47015, Valladolid.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, cocina propia, horario ampliado y patio exterior. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nEl centro participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil de la Junta de Castilla y León, que desde el curso 2024-2025 ofrece plazas gratuitas para todas las edades (0 a 3 años) en los centros privados adheridos a esta oferta.\n\nPara conocer el proyecto educativo completo, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado El Despertador Infantil 2010?",
+          "answer": "El centro se encuentra en Plaza de Juan Pablo II, 9, 47015, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Qué servicios ofrece este centro?",
+          "answer": "Según su web oficial, el centro confirma los siguientes servicios: comedor, cocina propia, horario ampliado y patio exterior."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983012115, escribir a eldi@eldespertadorinfantil.com, consultar su web oficial (https://eldespertadorinfantil.com/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://eldespertadorinfantil.com/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47011589",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "el-globo-valladolid",
+      "name": "El Globo",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "C/ Cantabria, 4",
+        "postal_code": "47010",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": "Barrio España",
+        "neighborhood_barrio": null,
+        "latitude": 41.66516,
+        "longitude": -4.71395
+      },
+      "contact": {
+        "phone": "983256901",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "9:00-14:00h, con posibilidad de ampliación mediante servicio de madrugadores",
+      "services": [
+        "comedor",
+        "servicio-madrugadores"
+      ],
+      "short_description": "El Globo es una de las 11 escuelas infantiles municipales de Valladolid, ubicada en C/ Cantabria, 4, 47010, en el barrio de Barrio España, con oferta de plazas gratuitas del primer ciclo de educación infantil (0-3 años).",
+      "long_description": "El Globo es una escuela infantil municipal del Ayuntamiento de Valladolid, situada en C/ Cantabria, 4, 47010, en el barrio de Barrio España.\n\nForma parte de la red de 11 Escuelas Infantiles Municipales de Valladolid, gestionadas mediante contrato de servicios adjudicado por el Ayuntamiento. Todas las escuelas de esta red cuentan con servicio de comedor y servicio de madrugadores, según la información oficial publicada por el Ayuntamiento de Valladolid, y atienden a niños desde los 4 meses hasta los 3 años.\n\nLas unidades de 0 a 3 años de esta escuela están incluidas en el programa de gratuidad del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025, por lo que la plaza es gratuita para las familias que la obtengan en el proceso de admisión.\n\nPara conocer el calendario de puertas abiertas, el proceso de admisión y las plazas disponibles, se recomienda consultar el Portal Web del Ayuntamiento de Valladolid o contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada la Escuela Infantil El Globo?",
+          "answer": "Se encuentra en C/ Cantabria, 4, 47010, en el barrio de Barrio España (Valladolid)."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Atiende a niños de 0 a 3 años, dentro del primer ciclo de educación infantil."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, gestionado por el Ayuntamiento de Valladolid dentro de su red de 11 Escuelas Infantiles Municipales."
+        },
+        {
+          "question": "¿Es gratuita la plaza en este centro?",
+          "answer": "Sí. Las unidades de 0 a 3 años de las escuelas infantiles municipales de Valladolid están incluidas en el programa de gratuidad total del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Qué servicios ofrece este centro?",
+          "answer": "Según la información oficial del Ayuntamiento de Valladolid, todas las escuelas infantiles municipales cuentan con servicio de comedor y servicio de madrugadores."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983256901."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.valladolid.es/es/temas/hacemos/escuelas-infantiles",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_municipal",
+      "codigo_centro_rc": "47007483",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "el-principito-valladolid",
+      "name": "El Principito",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Pº del Jardín Botánico, s/n",
+        "postal_code": "47009",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": "La Victoria",
+        "neighborhood_barrio": null,
+        "latitude": 41.66995,
+        "longitude": -4.73192
+      },
+      "contact": {
+        "phone": "983356942",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "9:00-14:00h, con posibilidad de ampliación mediante servicio de madrugadores",
+      "services": [
+        "comedor",
+        "servicio-madrugadores"
+      ],
+      "short_description": "El Principito es una de las 11 escuelas infantiles municipales de Valladolid, ubicada en Pº del Jardín Botánico, s/n, 47009, en el barrio de La Victoria, con oferta de plazas gratuitas del primer ciclo de educación infantil (0-3 años).",
+      "long_description": "El Principito es una escuela infantil municipal del Ayuntamiento de Valladolid, situada en Pº del Jardín Botánico, s/n, 47009, en el barrio de La Victoria.\n\nForma parte de la red de 11 Escuelas Infantiles Municipales de Valladolid, gestionadas mediante contrato de servicios adjudicado por el Ayuntamiento. Todas las escuelas de esta red cuentan con servicio de comedor y servicio de madrugadores, según la información oficial publicada por el Ayuntamiento de Valladolid, y atienden a niños desde los 4 meses hasta los 3 años.\n\nLas unidades de 0 a 3 años de esta escuela están incluidas en el programa de gratuidad del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025, por lo que la plaza es gratuita para las familias que la obtengan en el proceso de admisión.\n\nPara conocer el calendario de puertas abiertas, el proceso de admisión y las plazas disponibles, se recomienda consultar el Portal Web del Ayuntamiento de Valladolid o contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada la Escuela Infantil El Principito?",
+          "answer": "Se encuentra en Pº del Jardín Botánico, s/n, 47009, en el barrio de La Victoria (Valladolid)."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Atiende a niños de 0 a 3 años, dentro del primer ciclo de educación infantil."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, gestionado por el Ayuntamiento de Valladolid dentro de su red de 11 Escuelas Infantiles Municipales."
+        },
+        {
+          "question": "¿Es gratuita la plaza en este centro?",
+          "answer": "Sí. Las unidades de 0 a 3 años de las escuelas infantiles municipales de Valladolid están incluidas en el programa de gratuidad total del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Qué servicios ofrece este centro?",
+          "answer": "Según la información oficial del Ayuntamiento de Valladolid, todas las escuelas infantiles municipales cuentan con servicio de comedor y servicio de madrugadores."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983356942."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.valladolid.es/es/temas/hacemos/escuelas-infantiles",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_municipal",
+      "codigo_centro_rc": "47007604",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "el-tobogan-valladolid",
+      "name": "El Tobogán",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "C/ La Mota, 12",
+        "postal_code": "47008",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": "La Rubia",
+        "neighborhood_barrio": null,
+        "latitude": 41.62757,
+        "longitude": -4.74056
+      },
+      "contact": {
+        "phone": "983223813",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "9:00-14:00h, con posibilidad de ampliación mediante servicio de madrugadores",
+      "services": [
+        "comedor",
+        "servicio-madrugadores"
+      ],
+      "short_description": "El Tobogán es una de las 11 escuelas infantiles municipales de Valladolid, ubicada en C/ La Mota, 12, 47008, en el barrio de La Rubia, con oferta de plazas gratuitas del primer ciclo de educación infantil (0-3 años).",
+      "long_description": "El Tobogán es una escuela infantil municipal del Ayuntamiento de Valladolid, situada en C/ La Mota, 12, 47008, en el barrio de La Rubia.\n\nForma parte de la red de 11 Escuelas Infantiles Municipales de Valladolid, gestionadas mediante contrato de servicios adjudicado por el Ayuntamiento. Todas las escuelas de esta red cuentan con servicio de comedor y servicio de madrugadores, según la información oficial publicada por el Ayuntamiento de Valladolid, y atienden a niños desde los 4 meses hasta los 3 años.\n\nLas unidades de 0 a 3 años de esta escuela están incluidas en el programa de gratuidad del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025, por lo que la plaza es gratuita para las familias que la obtengan en el proceso de admisión.\n\nPara conocer el calendario de puertas abiertas, el proceso de admisión y las plazas disponibles, se recomienda consultar el Portal Web del Ayuntamiento de Valladolid o contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada la Escuela Infantil El Tobogán?",
+          "answer": "Se encuentra en C/ La Mota, 12, 47008, en el barrio de La Rubia (Valladolid)."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Atiende a niños de 0 a 3 años, dentro del primer ciclo de educación infantil."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, gestionado por el Ayuntamiento de Valladolid dentro de su red de 11 Escuelas Infantiles Municipales."
+        },
+        {
+          "question": "¿Es gratuita la plaza en este centro?",
+          "answer": "Sí. Las unidades de 0 a 3 años de las escuelas infantiles municipales de Valladolid están incluidas en el programa de gratuidad total del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Qué servicios ofrece este centro?",
+          "answer": "Según la información oficial del Ayuntamiento de Valladolid, todas las escuelas infantiles municipales cuentan con servicio de comedor y servicio de madrugadores."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983223813."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.valladolid.es/es/temas/hacemos/escuelas-infantiles",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_municipal",
+      "codigo_centro_rc": "47007495",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "fantasia-valladolid",
+      "name": "Fantasía",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "C/ Rastrojo, s/n",
+        "postal_code": "47014",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": "Huerta del Rey",
+        "neighborhood_barrio": null,
+        "latitude": 41.65241,
+        "longitude": -4.74357
+      },
+      "contact": {
+        "phone": "983356549",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "9:00-14:00h, con posibilidad de ampliación mediante servicio de madrugadores",
+      "services": [
+        "comedor",
+        "servicio-madrugadores"
+      ],
+      "short_description": "En C/ Rastrojo, s/n, 47014, en el barrio de Huerta del Rey, la Escuela Infantil Municipal Fantasía forma parte de la red de 11 escuelas infantiles del Ayuntamiento de Valladolid, con oferta de plazas gratuitas para el tramo 0-3 años.",
+      "long_description": "Fantasía es una escuela infantil municipal del Ayuntamiento de Valladolid, situada en C/ Rastrojo, s/n, 47014, en el barrio de Huerta del Rey.\n\nForma parte de la red de 11 Escuelas Infantiles Municipales de Valladolid, gestionadas mediante contrato de servicios adjudicado por el Ayuntamiento. Todas las escuelas de esta red cuentan con servicio de comedor y servicio de madrugadores, según la información oficial publicada por el Ayuntamiento de Valladolid, y atienden a niños desde los 4 meses hasta los 3 años.\n\nLas unidades de 0 a 3 años de esta escuela están incluidas en el programa de gratuidad del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025, por lo que la plaza es gratuita para las familias que la obtengan en el proceso de admisión.\n\nPara conocer el calendario de puertas abiertas, el proceso de admisión y las plazas disponibles, se recomienda consultar el Portal Web del Ayuntamiento de Valladolid o contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada la Escuela Infantil Fantasía?",
+          "answer": "Se encuentra en C/ Rastrojo, s/n, 47014, en el barrio de Huerta del Rey (Valladolid)."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Atiende a niños de 0 a 3 años, dentro del primer ciclo de educación infantil."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, gestionado por el Ayuntamiento de Valladolid dentro de su red de 11 Escuelas Infantiles Municipales."
+        },
+        {
+          "question": "¿Es gratuita la plaza en este centro?",
+          "answer": "Sí. Las unidades de 0 a 3 años de las escuelas infantiles municipales de Valladolid están incluidas en el programa de gratuidad total del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Qué servicios ofrece este centro?",
+          "answer": "Según la información oficial del Ayuntamiento de Valladolid, todas las escuelas infantiles municipales cuentan con servicio de comedor y servicio de madrugadores."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983356549."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.valladolid.es/es/temas/hacemos/escuelas-infantiles",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_municipal",
+      "codigo_centro_rc": "47011553",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "hakuna-matata-valladolid",
+      "name": "Hakuna Matata",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Plaza San Francisco de Asís, 1",
+        "postal_code": "47013",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.6276,
+        "longitude": -4.72798
+      },
+      "contact": {
+        "phone": "678873192",
+        "email": "secretaria@sanfranciscodeasis.org",
+        "website": "https://www.sanfranciscodeasis.org/escuela-infantil-hakuna-matata/"
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "En Plaza San Francisco de Asís, 1, 47013, Valladolid, Hakuna Matata atiende a niños de 0 a 3 años dentro del primer ciclo de educación infantil. No hay servicios adicionales confirmados en fuente oficial; se recomienda consultarlos directamente con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Hakuna Matata?",
+          "answer": "El centro se encuentra en Plaza San Francisco de Asís, 1, 47013, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 678873192, escribir a secretaria@sanfranciscodeasis.org, consultar su web oficial (https://www.sanfranciscodeasis.org/escuela-infantil-hakuna-matata/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros docentes de la Junta de Castilla y León (Directorio de Centros Docentes) y del listado oficial de centros adheridos al programa de gratuidad del primer ciclo de educación infantil. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.sanfranciscodeasis.org/escuela-infantil-hakuna-matata/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47012302",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "happy-kids-house-valladolid",
+      "name": "Happy Kids House",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Isaac Quintero, 6",
+        "postal_code": "47005",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.6493309,
+        "longitude": -4.7132624
+      },
+      "contact": {
+        "phone": "983080072",
+        "email": "happykidshouse@happykidshouse.es",
+        "website": "https://happykidshouse.es/"
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "ingles",
+        "comedor",
+        "verano-campamentos"
+      ],
+      "short_description": "Situado en C/ Isaac Quintero, 6, 47005, Valladolid, Happy Kids House es un centro privado que atiende el primer ciclo de educación infantil (0-3 años) y confirma en su web oficial servicios de inglés, comedor y campamentos de verano.",
+      "long_description": "Happy Kids House es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en C/ Isaac Quintero, 6, 47005, Valladolid.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: inglés, comedor y campamentos de verano. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nEl centro participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil de la Junta de Castilla y León, que desde el curso 2024-2025 ofrece plazas gratuitas para todas las edades (0 a 3 años) en los centros privados adheridos a esta oferta.\n\nPara conocer el proyecto educativo completo, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.\n\nEl registro oficial de centros docentes no incluye coordenadas para este centro; se ha usado la geocodificacion verificable de la calle (Nominatim/OpenStreetMap, nivel de via, barrio Vadillos) por ausencia de coordenadas de la fuente oficial.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Happy Kids House?",
+          "answer": "El centro se encuentra en C/ Isaac Quintero, 6, 47005, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Qué servicios ofrece este centro?",
+          "answer": "Según su web oficial, el centro confirma los siguientes servicios: inglés, comedor y campamentos de verano."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983080072, escribir a happykidshouse@happykidshouse.es, consultar su web oficial (https://happykidshouse.es/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://happykidshouse.es/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47012259",
+      "coords_flagged": true,
+      "notes_internal": "El registro oficial de centros docentes no incluye coordenadas para este centro; se ha usado la geocodificacion verificable de la calle (Nominatim/OpenStreetMap, nivel de via, barrio Vadillos) por ausencia de coordenadas de la fuente oficial."
+    },
+    {
+      "slug": "kid-s-garden-2-valladolid",
+      "name": "Kid's Garden 2",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Cañada Real, 102",
+        "postal_code": "47008",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.61654,
+        "longitude": -4.75369
+      },
+      "contact": {
+        "phone": "650535438",
+        "email": null,
+        "website": "https://kidsgarden.edu.es/valladolid/"
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "bilingue"
+      ],
+      "short_description": "Kid's Garden 2 es un centro privado de educación infantil de primer ciclo (0-3 años) en C/ Cañada Real, 102, 47008 (Valladolid), con plazas dentro del programa de gratuidad de la Junta de Castilla y León. Según su propia web, ofrece proyecto bilingüe.",
+      "long_description": "Kid's Garden 2 es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en C/ Cañada Real, 102, 47008, Valladolid.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: proyecto bilingüe. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nEl centro participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil de la Junta de Castilla y León, que desde el curso 2024-2025 ofrece plazas gratuitas para todas las edades (0 a 3 años) en los centros privados adheridos a esta oferta.\n\nPara conocer el proyecto educativo completo, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.\n\nGrupo Kid's Garden confirma proyecto educativo bilingue (profesorado nativo) en su web corporativa para toda la red, incluida la sede de Valladolid; no se han podido confirmar otros servicios concretos del enum por sede individual.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Kid's Garden 2?",
+          "answer": "El centro se encuentra en C/ Cañada Real, 102, 47008, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Qué servicios ofrece este centro?",
+          "answer": "Según su web oficial, el centro confirma los siguientes servicios: proyecto bilingüe."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 650535438, consultar su web oficial (https://kidsgarden.edu.es/valladolid/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://kidsgarden.edu.es/valladolid/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47011103",
+      "coords_flagged": false,
+      "notes_internal": "Grupo Kid's Garden confirma proyecto educativo bilingue (profesorado nativo) en su web corporativa para toda la red, incluida la sede de Valladolid; no se han podido confirmar otros servicios concretos del enum por sede individual."
+    },
+    {
+      "slug": "kid-s-garden-3-valladolid",
+      "name": "Kid's Garden 3",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Colón, s/n",
+        "postal_code": "47003",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.65286,
+        "longitude": -4.71806
+      },
+      "contact": {
+        "phone": "618199996",
+        "email": null,
+        "website": "https://kidsgarden.edu.es/valladolid/"
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "bilingue"
+      ],
+      "short_description": "En C/ Colón, s/n, 47003, Valladolid, Kid's Garden 3 atiende a niños de 0 a 3 años dentro del primer ciclo de educación infantil. Es un centro adherido al programa de gratuidad de la Junta de Castilla y León, y su web oficial confirma servicios de proyecto bilingüe.",
+      "long_description": "Kid's Garden 3 es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en C/ Colón, s/n, 47003, Valladolid.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: proyecto bilingüe. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nEl centro participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil de la Junta de Castilla y León, que desde el curso 2024-2025 ofrece plazas gratuitas para todas las edades (0 a 3 años) en los centros privados adheridos a esta oferta.\n\nPara conocer el proyecto educativo completo, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.\n\nGrupo Kid's Garden confirma proyecto educativo bilingue (profesorado nativo) en su web corporativa para toda la red, incluida la sede de Valladolid; no se han podido confirmar otros servicios concretos del enum por sede individual.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Kid's Garden 3?",
+          "answer": "El centro se encuentra en C/ Colón, s/n, 47003, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Qué servicios ofrece este centro?",
+          "answer": "Según su web oficial, el centro confirma los siguientes servicios: proyecto bilingüe."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 618199996, consultar su web oficial (https://kidsgarden.edu.es/valladolid/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://kidsgarden.edu.es/valladolid/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47011279",
+      "coords_flagged": false,
+      "notes_internal": "Grupo Kid's Garden confirma proyecto educativo bilingue (profesorado nativo) en su web corporativa para toda la red, incluida la sede de Valladolid; no se han podido confirmar otros servicios concretos del enum por sede individual."
+    },
+    {
+      "slug": "la-abeja-maya-valladolid",
+      "name": "La Abeja Maya",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Castañuelas, 5",
+        "postal_code": "47012",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.6327,
+        "longitude": -4.71351
+      },
+      "contact": {
+        "phone": "983234288",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "La Abeja Maya es una de las escuelas infantiles privadas de Valladolid, con sede en C/ Castañuelas, 5, 47012, dirigida a niños de 0 a 3 años. No se han podido confirmar servicios adicionales del enum en fuente oficial o web propia.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Abeja Maya?",
+          "answer": "El centro se encuentra en C/ Castañuelas, 5, 47012, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983234288."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros docentes de la Junta de Castilla y León (Directorio de Centros Docentes) y del listado oficial de centros adheridos al programa de gratuidad del primer ciclo de educación infantil. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47012351",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "la-casa-de-los-ninos-valladolid",
+      "name": "La Casa de los Niños",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avda. Sánchez Arjona, s/n",
+        "postal_code": "47014",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.6468,
+        "longitude": -4.73884
+      },
+      "contact": {
+        "phone": "983331621",
+        "email": "info@guarderialacasadelosninos.es",
+        "website": "https://www.guarderialacasadelosninos.es/"
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "comedor",
+        "cocina-propia",
+        "patio-exterior",
+        "ingles"
+      ],
+      "short_description": "La Casa de los Niños es un centro privado de educación infantil de primer ciclo (0-3 años) en Avda. Sánchez Arjona, s/n, 47014 (Valladolid), con plazas dentro del programa de gratuidad de la Junta de Castilla y León. Según su propia web, ofrece comedor, cocina propia, patio exterior y inglés.",
+      "long_description": "La Casa de los Niños es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Avda. Sánchez Arjona, s/n, 47014, Valladolid.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, cocina propia, patio exterior y inglés. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nEl centro participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil de la Junta de Castilla y León, que desde el curso 2024-2025 ofrece plazas gratuitas para todas las edades (0 a 3 años) en los centros privados adheridos a esta oferta.\n\nPara conocer el proyecto educativo completo, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Casa de los Niños?",
+          "answer": "El centro se encuentra en Avda. Sánchez Arjona, s/n, 47014, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Qué servicios ofrece este centro?",
+          "answer": "Según su web oficial, el centro confirma los siguientes servicios: comedor, cocina propia, patio exterior y inglés."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983331621, escribir a info@guarderialacasadelosninos.es, consultar su web oficial (https://www.guarderialacasadelosninos.es/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.guarderialacasadelosninos.es/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47010925",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "la-ciguena-valladolid",
+      "name": "La Cigüeña",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "C/ La Cigüeña, s/n",
+        "postal_code": "47012",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.65057,
+        "longitude": -4.7076
+      },
+      "contact": {
+        "phone": "983309827",
+        "email": null,
+        "website": "http://eeilaciguena.centros.educa.jcyl.es/"
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "comedor"
+      ],
+      "short_description": "En C/ La Cigüeña, s/n, 47012, la Escuela Infantil La Cigüeña forma parte de la red de escuelas infantiles de titularidad de la Junta de Castilla y León en Valladolid capital, con oferta de plazas gratuitas para el primer ciclo (0-3 años).",
+      "long_description": "La Cigüeña es una escuela infantil de titularidad de la Junta de Castilla y León, con sede en C/ La Cigüeña, s/n, 47012, Valladolid.\n\nForma parte de la red de Escuelas de Educación Infantil (EEI) de titularidad autonómica en Castilla y León, que imparte el primer ciclo de educación infantil (0-3 años) con plazas gratuitas para todas las familias desde el curso 2024-2025, dentro del programa de gratuidad del primer ciclo de educación infantil de la Junta de Castilla y León.\n\nSegún el registro oficial de centros docentes, el centro ofrece servicio de comedor.\n\nPara conocer el proceso de admisión, unidades disponibles y horario detallado, se recomienda contactar directamente con el centro o consultar el Portal de Educación de la Junta de Castilla y León.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada la escuela infantil La Cigüeña?",
+          "answer": "Se encuentra en C/ La Cigüeña, s/n, 47012, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es una escuela infantil de primer ciclo de educación infantil, dirigida a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, perteneciente a la red de Escuelas de Educación Infantil de la Junta de Castilla y León."
+        },
+        {
+          "question": "¿Es gratuita la plaza en este centro?",
+          "answer": "Sí. Desde el curso 2024-2025, Castilla y León ofrece gratuidad total del primer ciclo de educación infantil (0-3 años) en los centros de titularidad de la Junta, dentro del programa de gratuidad de estas enseñanzas."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según el registro oficial de centros docentes de Castilla y León, el centro cuenta con servicio de comedor."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983309827 o consultar su web (http://eeilaciguena.centros.educa.jcyl.es/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-escuelas-infantiles-titularidad-jcyl",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027",
+        "http://eeilaciguena.centros.educa.jcyl.es/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_jcyl",
+      "codigo_centro_rc": "47007677",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "la-cometa-valladolid",
+      "name": "La Cometa",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "C/ Arca Real, 10",
+        "postal_code": "47013",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": "Las Delicias",
+        "neighborhood_barrio": null,
+        "latitude": 41.6388,
+        "longitude": -4.72303
+      },
+      "contact": {
+        "phone": "983234285",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "9:00-14:00h, con posibilidad de ampliación mediante servicio de madrugadores",
+      "services": [
+        "comedor",
+        "servicio-madrugadores"
+      ],
+      "short_description": "La Cometa es una de las 11 escuelas infantiles municipales de Valladolid, ubicada en C/ Arca Real, 10, 47013, en el barrio de Las Delicias, con oferta de plazas gratuitas del primer ciclo de educación infantil (0-3 años).",
+      "long_description": "La Cometa es una escuela infantil municipal del Ayuntamiento de Valladolid, situada en C/ Arca Real, 10, 47013, en el barrio de Las Delicias.\n\nForma parte de la red de 11 Escuelas Infantiles Municipales de Valladolid, gestionadas mediante contrato de servicios adjudicado por el Ayuntamiento. Todas las escuelas de esta red cuentan con servicio de comedor y servicio de madrugadores, según la información oficial publicada por el Ayuntamiento de Valladolid, y atienden a niños desde los 4 meses hasta los 3 años.\n\nLas unidades de 0 a 3 años de esta escuela están incluidas en el programa de gratuidad del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025, por lo que la plaza es gratuita para las familias que la obtengan en el proceso de admisión.\n\nPara conocer el calendario de puertas abiertas, el proceso de admisión y las plazas disponibles, se recomienda consultar el Portal Web del Ayuntamiento de Valladolid o contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada la Escuela Infantil La Cometa?",
+          "answer": "Se encuentra en C/ Arca Real, 10, 47013, en el barrio de Las Delicias (Valladolid)."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Atiende a niños de 0 a 3 años, dentro del primer ciclo de educación infantil."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, gestionado por el Ayuntamiento de Valladolid dentro de su red de 11 Escuelas Infantiles Municipales."
+        },
+        {
+          "question": "¿Es gratuita la plaza en este centro?",
+          "answer": "Sí. Las unidades de 0 a 3 años de las escuelas infantiles municipales de Valladolid están incluidas en el programa de gratuidad total del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Qué servicios ofrece este centro?",
+          "answer": "Según la información oficial del Ayuntamiento de Valladolid, todas las escuelas infantiles municipales cuentan con servicio de comedor y servicio de madrugadores."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983234285."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.valladolid.es/es/temas/hacemos/escuelas-infantiles",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_municipal",
+      "codigo_centro_rc": "47007288",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "la-luna-azul-bilingue-valladolid",
+      "name": "La Luna Azul Bilingüe",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Pº Juan Carlos I, 140",
+        "postal_code": "47011",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.65354,
+        "longitude": -4.70603
+      },
+      "contact": {
+        "phone": "685740169",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Ubicado en Pº Juan Carlos I, 140, 47011 (Valladolid), La Luna Azul Bilingüe es un centro privado que imparte el primer ciclo de educación infantil. Conviene contactar directamente con el centro para conocer horario, precio y servicios disponibles.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Luna Azul Bilingüe?",
+          "answer": "El centro se encuentra en Pº Juan Carlos I, 140, 47011, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 685740169."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros docentes de la Junta de Castilla y León (Directorio de Centros Docentes) y del listado oficial de centros adheridos al programa de gratuidad del primer ciclo de educación infantil. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47012545",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "la-suite-infantil-valladolid",
+      "name": "La Suite Infantil",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Pº del Obregón, 15",
+        "postal_code": "47009",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.6711,
+        "longitude": -4.73153
+      },
+      "contact": {
+        "phone": "624123800",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "La Suite Infantil atiende el primer ciclo de educación infantil (0-3 años) en Pº del Obregón, 15, 47009, Valladolid. Es un centro de titularidad privada según el registro oficial de centros docentes de la Junta de Castilla y León.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Suite Infantil?",
+          "answer": "El centro se encuentra en Pº del Obregón, 15, 47009, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 624123800."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros docentes de la Junta de Castilla y León (Directorio de Centros Docentes) y del listado oficial de centros adheridos al programa de gratuidad del primer ciclo de educación infantil. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47012375",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "luna-magica-valladolid",
+      "name": "Luna Mágica",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Vinos de Rueda, 14",
+        "postal_code": "47008",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.61636,
+        "longitude": -4.75315
+      },
+      "contact": {
+        "phone": "983043843",
+        "email": "info@guarderialunamagica.es",
+        "website": "https://www.guarderialunamagica.es/"
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "musica",
+        "psicomotricidad",
+        "ingles"
+      ],
+      "short_description": "Situado en C/ Vinos de Rueda, 14, 47008, Valladolid, Luna Mágica es un centro privado que atiende el primer ciclo de educación infantil (0-3 años) y confirma en su web oficial servicios de música, psicomotricidad y inglés.",
+      "long_description": "Luna Mágica es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en C/ Vinos de Rueda, 14, 47008, Valladolid.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: música, psicomotricidad y inglés. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nEl centro participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil de la Junta de Castilla y León, que desde el curso 2024-2025 ofrece plazas gratuitas para todas las edades (0 a 3 años) en los centros privados adheridos a esta oferta.\n\nPara conocer el proyecto educativo completo, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Luna Mágica?",
+          "answer": "El centro se encuentra en C/ Vinos de Rueda, 14, 47008, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Qué servicios ofrece este centro?",
+          "answer": "Según su web oficial, el centro confirma los siguientes servicios: música, psicomotricidad y inglés."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983043843, escribir a info@guarderialunamagica.es, consultar su web oficial (https://www.guarderialunamagica.es/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.guarderialunamagica.es/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47012491",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "mafalda-y-guille-valladolid",
+      "name": "Mafalda y Guille",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "C/ Remigio Cabello, 2",
+        "postal_code": "47014",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": "Parquesol",
+        "neighborhood_barrio": null,
+        "latitude": 41.63617,
+        "longitude": -4.75142
+      },
+      "contact": {
+        "phone": "983337828",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "9:00-14:00h, con posibilidad de ampliación mediante servicio de madrugadores",
+      "services": [
+        "comedor",
+        "servicio-madrugadores"
+      ],
+      "short_description": "La Escuela Infantil Municipal Mafalda y Guille, en C/ Remigio Cabello, 2, 47014 (Parquesol), pertenece a la red pública de escuelas infantiles gestionada por el Ayuntamiento de Valladolid, con plazas gratuitas de primer ciclo de educación infantil.",
+      "long_description": "Mafalda y Guille es una escuela infantil municipal del Ayuntamiento de Valladolid, situada en C/ Remigio Cabello, 2, 47014, en el barrio de Parquesol.\n\nForma parte de la red de 11 Escuelas Infantiles Municipales de Valladolid, gestionadas mediante contrato de servicios adjudicado por el Ayuntamiento. Todas las escuelas de esta red cuentan con servicio de comedor y servicio de madrugadores, según la información oficial publicada por el Ayuntamiento de Valladolid, y atienden a niños desde los 4 meses hasta los 3 años.\n\nLas unidades de 0 a 3 años de esta escuela están incluidas en el programa de gratuidad del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025, por lo que la plaza es gratuita para las familias que la obtengan en el proceso de admisión.\n\nPara conocer el calendario de puertas abiertas, el proceso de admisión y las plazas disponibles, se recomienda consultar el Portal Web del Ayuntamiento de Valladolid o contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada la Escuela Infantil Mafalda y Guille?",
+          "answer": "Se encuentra en C/ Remigio Cabello, 2, 47014, en el barrio de Parquesol (Valladolid)."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Atiende a niños de 0 a 3 años, dentro del primer ciclo de educación infantil."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, gestionado por el Ayuntamiento de Valladolid dentro de su red de 11 Escuelas Infantiles Municipales."
+        },
+        {
+          "question": "¿Es gratuita la plaza en este centro?",
+          "answer": "Sí. Las unidades de 0 a 3 años de las escuelas infantiles municipales de Valladolid están incluidas en el programa de gratuidad total del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Qué servicios ofrece este centro?",
+          "answer": "Según la información oficial del Ayuntamiento de Valladolid, todas las escuelas infantiles municipales cuentan con servicio de comedor y servicio de madrugadores."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983337828."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.valladolid.es/es/temas/hacemos/escuelas-infantiles",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_municipal",
+      "codigo_centro_rc": "47007355",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "mama-kokeshi-valladolid",
+      "name": "Mamá Kokeshi",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Monasterio San Millán de la Cogolla, 11",
+        "postal_code": "47015",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.64632,
+        "longitude": -4.74593
+      },
+      "contact": {
+        "phone": "983454350",
+        "email": "guarderia@mamakokeshi.com",
+        "website": "https://mamakokeshi.com/"
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "comedor",
+        "cocina-propia",
+        "ingles",
+        "horario-ampliado",
+        "servicio-madrugadores",
+        "escuela-de-padres"
+      ],
+      "short_description": "Situado en C/ Monasterio San Millán de la Cogolla, 11, 47015, Valladolid, Mamá Kokeshi es un centro privado que atiende el primer ciclo de educación infantil (0-3 años) y confirma en su web oficial servicios de comedor, cocina propia, inglés, horario ampliado, servicio de madrugadores y escuela de padres.",
+      "long_description": "Mamá Kokeshi es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en C/ Monasterio San Millán de la Cogolla, 11, 47015, Valladolid.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, cocina propia, inglés, horario ampliado, servicio de madrugadores y escuela de padres. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nEl centro participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil de la Junta de Castilla y León, que desde el curso 2024-2025 ofrece plazas gratuitas para todas las edades (0 a 3 años) en los centros privados adheridos a esta oferta.\n\nPara conocer el proyecto educativo completo, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Mamá Kokeshi?",
+          "answer": "El centro se encuentra en C/ Monasterio San Millán de la Cogolla, 11, 47015, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Qué servicios ofrece este centro?",
+          "answer": "Según su web oficial, el centro confirma los siguientes servicios: comedor, cocina propia, inglés, horario ampliado, servicio de madrugadores y escuela de padres."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983454350, escribir a guarderia@mamakokeshi.com, consultar su web oficial (https://mamakokeshi.com/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://mamakokeshi.com/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47012569",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "mi-bosque-encantado-valladolid",
+      "name": "Mi Bosque Encantado",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Juan García Hortelano, 14",
+        "postal_code": "47014",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.63762,
+        "longitude": -4.76692
+      },
+      "contact": {
+        "phone": "983514411",
+        "email": null,
+        "website": "https://www.mibosqueencantado.es/"
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Mi Bosque Encantado es una de las escuelas infantiles privadas de Valladolid, con sede en C/ Juan García Hortelano, 14, 47014, dirigida a niños de 0 a 3 años. No se han podido confirmar servicios adicionales del enum en fuente oficial o web propia.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Mi Bosque Encantado?",
+          "answer": "El centro se encuentra en C/ Juan García Hortelano, 14, 47014, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983514411, consultar su web oficial (https://www.mibosqueencantado.es/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros docentes de la Junta de Castilla y León (Directorio de Centros Docentes) y del listado oficial de centros adheridos al programa de gratuidad del primer ciclo de educación infantil. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.mibosqueencantado.es/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47012478",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "mi-pequeno-cole-valladolid",
+      "name": "Mi Pequeño Cole",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Pº Zorrilla, 87",
+        "postal_code": "47008",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.63402,
+        "longitude": -4.74205
+      },
+      "contact": {
+        "phone": "650744507",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Mi Pequeño Cole es un centro privado de educación infantil de primer ciclo en Pº Zorrilla, 87, 47008 (Valladolid). Según el registro oficial de centros docentes de Castilla y León, no se han confirmado servicios adicionales del centro más allá de los datos básicos de contacto.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Mi Pequeño Cole?",
+          "answer": "El centro se encuentra en Pº Zorrilla, 87, 47008, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 650744507."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros docentes de la Junta de Castilla y León (Directorio de Centros Docentes) y del listado oficial de centros adheridos al programa de gratuidad del primer ciclo de educación infantil. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47012284",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "mis-primeros-pasitos-valladolid",
+      "name": "Mis Primeros Pasitos",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Pº Juan Carlos I, 142",
+        "postal_code": "47011",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.6543,
+        "longitude": -4.70623
+      },
+      "contact": {
+        "phone": "606239382",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Mis Primeros Pasitos atiende el primer ciclo de educación infantil (0-3 años) en Pº Juan Carlos I, 142, 47011, Valladolid. Es un centro de titularidad privada según el registro oficial de centros docentes de la Junta de Castilla y León.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Mis Primeros Pasitos?",
+          "answer": "El centro se encuentra en Pº Juan Carlos I, 142, 47011, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 606239382."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros docentes de la Junta de Castilla y León (Directorio de Centros Docentes) y del listado oficial de centros adheridos al programa de gratuidad del primer ciclo de educación infantil. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47012454",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "noelia-valladolid",
+      "name": "Noelia",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Pelícano, 17",
+        "postal_code": "47012",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.64639,
+        "longitude": -4.71326
+      },
+      "contact": {
+        "phone": "983306847",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Noelia es una de las escuelas infantiles privadas de Valladolid, con sede en C/ Pelícano, 17, 47012, dirigida a niños de 0 a 3 años. No se han podido confirmar servicios adicionales del enum en fuente oficial o web propia.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Noelia?",
+          "answer": "El centro se encuentra en C/ Pelícano, 17, 47012, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983306847."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros docentes de la Junta de Castilla y León (Directorio de Centros Docentes) y del listado oficial de centros adheridos al programa de gratuidad del primer ciclo de educación infantil. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47012442",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "okapi-valladolid",
+      "name": "Okapi",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Valle Inclán, 2",
+        "postal_code": "47008",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.61033,
+        "longitude": -4.75703
+      },
+      "contact": {
+        "phone": "622919067",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "En C/ Valle Inclán, 2, 47008, Valladolid, Okapi atiende a niños de 0 a 3 años dentro del primer ciclo de educación infantil. No hay servicios adicionales confirmados en fuente oficial; se recomienda consultarlos directamente con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Okapi?",
+          "answer": "El centro se encuentra en C/ Valle Inclán, 2, 47008, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 622919067."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros docentes de la Junta de Castilla y León (Directorio de Centros Docentes) y del listado oficial de centros adheridos al programa de gratuidad del primer ciclo de educación infantil. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47012181",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "pequena-luna-valladolid",
+      "name": "Pequeña Luna",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Ciudad de la Habana, 39",
+        "postal_code": "47014",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.63421,
+        "longitude": -4.76309
+      },
+      "contact": {
+        "phone": "983133733",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Centro privado de educación infantil situado en C/ Ciudad de la Habana, 39, 47014, Pequeña Luna forma parte de la oferta de primer ciclo (0-3 años) de Valladolid capital. Los servicios específicos del centro no están confirmados en fuente oficial.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Pequeña Luna?",
+          "answer": "El centro se encuentra en C/ Ciudad de la Habana, 39, 47014, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983133733."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros docentes de la Junta de Castilla y León (Directorio de Centros Docentes) y del listado oficial de centros adheridos al programa de gratuidad del primer ciclo de educación infantil. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47011048",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "platero-valladolid",
+      "name": "Platero",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "C/ Ecuador, 12",
+        "postal_code": "47014",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": "Arturo Eyries",
+        "neighborhood_barrio": null,
+        "latitude": 41.63094,
+        "longitude": -4.74704
+      },
+      "contact": {
+        "phone": "983473085",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "9:00-14:00h, con posibilidad de ampliación mediante servicio de madrugadores",
+      "services": [
+        "comedor",
+        "servicio-madrugadores"
+      ],
+      "short_description": "Platero es una de las 11 escuelas infantiles municipales de Valladolid, ubicada en C/ Ecuador, 12, 47014, en el barrio de Arturo Eyries, con oferta de plazas gratuitas del primer ciclo de educación infantil (0-3 años).",
+      "long_description": "Platero es una escuela infantil municipal del Ayuntamiento de Valladolid, situada en C/ Ecuador, 12, 47014, en el barrio de Arturo Eyries.\n\nForma parte de la red de 11 Escuelas Infantiles Municipales de Valladolid, gestionadas mediante contrato de servicios adjudicado por el Ayuntamiento. Todas las escuelas de esta red cuentan con servicio de comedor y servicio de madrugadores, según la información oficial publicada por el Ayuntamiento de Valladolid, y atienden a niños desde los 4 meses hasta los 3 años.\n\nLas unidades de 0 a 3 años de esta escuela están incluidas en el programa de gratuidad del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025, por lo que la plaza es gratuita para las familias que la obtengan en el proceso de admisión.\n\nPara conocer el calendario de puertas abiertas, el proceso de admisión y las plazas disponibles, se recomienda consultar el Portal Web del Ayuntamiento de Valladolid o contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada la Escuela Infantil Platero?",
+          "answer": "Se encuentra en C/ Ecuador, 12, 47014, en el barrio de Arturo Eyries (Valladolid)."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Atiende a niños de 0 a 3 años, dentro del primer ciclo de educación infantil."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, gestionado por el Ayuntamiento de Valladolid dentro de su red de 11 Escuelas Infantiles Municipales."
+        },
+        {
+          "question": "¿Es gratuita la plaza en este centro?",
+          "answer": "Sí. Las unidades de 0 a 3 años de las escuelas infantiles municipales de Valladolid están incluidas en el programa de gratuidad total del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Qué servicios ofrece este centro?",
+          "answer": "Según la información oficial del Ayuntamiento de Valladolid, todas las escuelas infantiles municipales cuentan con servicio de comedor y servicio de madrugadores."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983473085."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.valladolid.es/es/temas/hacemos/escuelas-infantiles",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_municipal",
+      "codigo_centro_rc": "47007276",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "romer-valladolid",
+      "name": "Romer",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ La Legión, s/n",
+        "postal_code": "47008",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.62657,
+        "longitude": -4.74126
+      },
+      "contact": {
+        "phone": "983279779",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Romer es una de las escuelas infantiles privadas de Valladolid, con sede en C/ La Legión, s/n, 47008, dirigida a niños de 0 a 3 años. No se han podido confirmar servicios adicionales del enum en fuente oficial o web propia.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Romer?",
+          "answer": "El centro se encuentra en C/ La Legión, s/n, 47008, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983279779."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros docentes de la Junta de Castilla y León (Directorio de Centros Docentes) y del listado oficial de centros adheridos al programa de gratuidad del primer ciclo de educación infantil. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47005607",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "san-antonio-valladolid",
+      "name": "San Antonio",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Maldonado, 8",
+        "postal_code": "47002",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.65073,
+        "longitude": -4.7181
+      },
+      "contact": {
+        "phone": "666571578",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "San Antonio atiende el primer ciclo de educación infantil (0-3 años) en C/ Maldonado, 8, 47002, Valladolid. Es un centro de titularidad privada según el registro oficial de centros docentes de la Junta de Castilla y León.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado San Antonio?",
+          "answer": "El centro se encuentra en C/ Maldonado, 8, 47002, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 666571578."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros docentes de la Junta de Castilla y León (Directorio de Centros Docentes) y del listado oficial de centros adheridos al programa de gratuidad del primer ciclo de educación infantil. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47007781",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "santa-monica-valladolid",
+      "name": "Santa Mónica",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Arzobispo García Goldáraz, 10",
+        "postal_code": "47006",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.63621,
+        "longitude": -4.73661
+      },
+      "contact": {
+        "phone": "983235067",
+        "email": "escuelainfantilsantamonica@gmail.com",
+        "website": "https://www.escuelainfantilsantamonica.com/"
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "comedor",
+        "cocina-propia",
+        "verano-campamentos"
+      ],
+      "short_description": "En C/ Arzobispo García Goldáraz, 10, 47006, Valladolid, Santa Mónica atiende a niños de 0 a 3 años dentro del primer ciclo de educación infantil. Es un centro adherido al programa de gratuidad de la Junta de Castilla y León, y su web oficial confirma servicios de comedor, cocina propia y campamentos de verano.",
+      "long_description": "Santa Mónica es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en C/ Arzobispo García Goldáraz, 10, 47006, Valladolid.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, cocina propia y campamentos de verano. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nEl centro participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil de la Junta de Castilla y León, que desde el curso 2024-2025 ofrece plazas gratuitas para todas las edades (0 a 3 años) en los centros privados adheridos a esta oferta.\n\nPara conocer el proyecto educativo completo, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Santa Mónica?",
+          "answer": "El centro se encuentra en C/ Arzobispo García Goldáraz, 10, 47006, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Qué servicios ofrece este centro?",
+          "answer": "Según su web oficial, el centro confirma los siguientes servicios: comedor, cocina propia y campamentos de verano."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983235067, escribir a escuelainfantilsantamonica@gmail.com, consultar su web oficial (https://www.escuelainfantilsantamonica.com/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.escuelainfantilsantamonica.com/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47004251",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "trastes-san-cristobal-valladolid",
+      "name": "Trastes San Cristóbal",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Plata, 39",
+        "postal_code": "47012",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.61823,
+        "longitude": -4.7062
+      },
+      "contact": {
+        "phone": "983847036",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Trastes San Cristóbal es un centro privado de educación infantil de primer ciclo en C/ Plata, 39, 47012 (Valladolid). Según el registro oficial de centros docentes de Castilla y León, no se han confirmado servicios adicionales del centro más allá de los datos básicos de contacto.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Trastes San Cristóbal?",
+          "answer": "El centro se encuentra en C/ Plata, 39, 47012, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983847036."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros docentes de la Junta de Castilla y León (Directorio de Centros Docentes) y del listado oficial de centros adheridos al programa de gratuidad del primer ciclo de educación infantil. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47012120",
+      "coords_flagged": false,
+      "notes_internal": "Segunda sede del grupo Trastes en Valladolid (San Cristobal), distinta de la sede de Parquesol; no se ha localizado una pagina propia diferenciada para esta sede con servicios confirmados."
+    },
+    {
+      "slug": "trastes-valladolid",
+      "name": "Trastes",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Juan García Hortelano, 11",
+        "postal_code": "47014",
+        "city_slug": "valladolid",
+        "city_name": "Valladolid",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.63677,
+        "longitude": -4.76184
+      },
+      "contact": {
+        "phone": "983378220",
+        "email": "parquesol@escuelainfantiltrastes.es",
+        "website": "https://escuelainfantiltrastes.es/escuela-infantil-guarderia-en-valladolid-parquesol/"
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "comedor",
+        "ingles",
+        "patio-exterior"
+      ],
+      "short_description": "Situado en C/ Juan García Hortelano, 11, 47014, Valladolid, Trastes es un centro privado que atiende el primer ciclo de educación infantil (0-3 años) y confirma en su web oficial servicios de comedor, inglés y patio exterior.",
+      "long_description": "Trastes es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en C/ Juan García Hortelano, 11, 47014, Valladolid.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, inglés y patio exterior. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nEl centro participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil de la Junta de Castilla y León, que desde el curso 2024-2025 ofrece plazas gratuitas para todas las edades (0 a 3 años) en los centros privados adheridos a esta oferta.\n\nPara conocer el proyecto educativo completo, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Trastes?",
+          "answer": "El centro se encuentra en C/ Juan García Hortelano, 11, 47014, en Valladolid."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025."
+        },
+        {
+          "question": "¿Qué servicios ofrece este centro?",
+          "answer": "Según su web oficial, el centro confirma los siguientes servicios: comedor, inglés y patio exterior."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 983378220, escribir a parquesol@escuelainfantiltrastes.es, consultar su web oficial (https://escuelainfantiltrastes.es/escuela-infantil-guarderia-en-valladolid-parquesol/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://escuelainfantiltrastes.es/escuela-infantil-guarderia-en-valladolid-parquesol/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "47007756",
+      "coords_flagged": false,
+      "notes_internal": null
+    }
+  ]
+}

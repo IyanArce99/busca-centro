@@ -1,0 +1,780 @@
+{
+  "_readme": "Dataset de trabajo para Salamanca, mismo formato snake_case que valladolid-centers.json/granada-centers.json/cordoba-centers.json. city_slug=salamanca. Ambito: unicamente el termino municipal de Salamanca capital (refine.municipio=SALAMANCA en el dataset oficial 'Directorio de Centros Docentes' de la Junta de Castilla y Leon, que usa la clasificacion administrativa municipal, sin mezcla con otros municipios de la provincia como Santa Marta de Tormes, Carbajosa de la Sagrada, Villamayor o Cabrerizos). Fuente primaria: dataset abierto 'Directorio de Centros Docentes' (analisis.datosabiertos.jcyl.es), filtrado por denominacion_generica en {'ESCUELA DE EDUCACION INFANTIL', 'CENTRO PRIVADO DE EDUCACION INFANTIL'}. Complementado con el listado oficial 'Escuelas de Educacion Infantil - Titularidad Junta Castilla y Leon' (educa.jcyl.es, para distinguir las 3 escuelas de titularidad JCyL genuina de las 4 escuelas infantiles municipales del Ayuntamiento de Salamanca / Fundacion Salamanca Ciudad de Cultura y de Saberes), la web oficial de las Escuelas Infantiles Municipales (barrio, plazas y servicios homogeneos), el listado oficial de centros adheridos al programa de gratuidad de primer ciclo curso 2026-2027 (educa.jcyl.es) y webs oficiales propias de un subconjunto de centros privados para confirmar servicios concretos del enum CenterService. Ver docs/data-sources-salamanca.md.",
+  "city": "salamanca",
+  "generated_at": "2026-07-12T00:00:00.000Z",
+  "stats": {
+    "centers_count": 15,
+    "excluded_count": 3
+  },
+  "centers": [
+    {
+      "slug": "lazarillo-de-tormes-salamanca",
+      "name": "Lazarillo de Tormes",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "C/ Maestro Serrano, 7",
+        "postal_code": "37008",
+        "city_slug": "salamanca",
+        "city_name": "Salamanca",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 40.94904,
+        "longitude": -5.65911
+      },
+      "contact": {
+        "phone": "923219922",
+        "email": null,
+        "website": null
+      },
+      "age_range": { "min_months": 4, "max_months": 36 },
+      "schedule": null,
+      "services": ["comedor"],
+      "short_description": "Lazarillo de Tormes es una escuela infantil de titularidad de la Junta de Castilla y León en C/ Maestro Serrano, 7, 37008, dentro de la red pública autonómica de primer ciclo de educación infantil (0-3 años) de Salamanca.",
+      "long_description": "Lazarillo de Tormes es una escuela infantil de titularidad de la Junta de Castilla y León, con sede en C/ Maestro Serrano, 7, 37008, Salamanca.\n\nForma parte de la red de Escuelas de Educación Infantil (EEI) de titularidad autonómica en Castilla y León, que imparte el primer ciclo de educación infantil (0-3 años) con plazas gratuitas para todas las familias desde el curso 2024-2025, dentro del programa de gratuidad del primer ciclo de educación infantil de la Junta de Castilla y León. Según el listado oficial de titularidad JCyL, el centro cuenta con 5 unidades y 74 plazas.\n\nSegún el registro oficial de centros docentes, el centro ofrece servicio de comedor.\n\nPara conocer el proceso de admisión, unidades disponibles y horario detallado, se recomienda contactar directamente con el centro o consultar el Portal de Educación de la Junta de Castilla y León.",
+      "faqs": [
+        { "question": "¿Dónde está ubicada la escuela infantil Lazarillo de Tormes?", "answer": "Se encuentra en C/ Maestro Serrano, 7, 37008, en Salamanca." },
+        { "question": "¿Qué edades atiende este centro?", "answer": "Es una escuela infantil de primer ciclo de educación infantil, dirigida a niños de 0 a 3 años." },
+        { "question": "¿Es un centro público o privado?", "answer": "Es un centro de titularidad pública, perteneciente a la red de Escuelas de Educación Infantil de la Junta de Castilla y León." },
+        { "question": "¿Es gratuita la plaza en este centro?", "answer": "Sí. Desde el curso 2024-2025, Castilla y León ofrece gratuidad total del primer ciclo de educación infantil (0-3 años) en los centros de titularidad de la Junta, dentro del programa de gratuidad de estas enseñanzas." },
+        { "question": "¿Tiene servicio de comedor?", "answer": "Sí, según el registro oficial de centros docentes de Castilla y León, el centro cuenta con servicio de comedor." },
+        { "question": "¿Cómo puedo contactar con el centro?", "answer": "Puedes llamar al teléfono 923219922." }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-escuelas-infantiles-titularidad-jcyl",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_jcyl",
+      "codigo_centro_rc": "37013250",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "san-bernardo-salamanca",
+      "name": "San Bernardo",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "C/ Arapiles, 16",
+        "postal_code": "37007",
+        "city_slug": "salamanca",
+        "city_name": "Salamanca",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 40.97048,
+        "longitude": -5.67193
+      },
+      "contact": {
+        "phone": "923222419",
+        "email": null,
+        "website": "http://eeisanbernardo.centros.educa.jcyl.es/sitio/"
+      },
+      "age_range": { "min_months": 4, "max_months": 36 },
+      "schedule": null,
+      "services": ["comedor"],
+      "short_description": "En C/ Arapiles, 16, 37007, Salamanca, la escuela infantil San Bernardo pertenece a la red de titularidad de la Junta de Castilla y León, dentro de la oferta pública de primer ciclo de educación infantil (0-3 años) de la ciudad.",
+      "long_description": "San Bernardo es una escuela infantil de titularidad de la Junta de Castilla y León, con sede en C/ Arapiles, 16, 37007, Salamanca.\n\nForma parte de la red de Escuelas de Educación Infantil (EEI) de titularidad autonómica en Castilla y León, que imparte el primer ciclo de educación infantil (0-3 años) con plazas gratuitas para todas las familias desde el curso 2024-2025, dentro del programa de gratuidad del primer ciclo de educación infantil de la Junta de Castilla y León. Según el listado oficial de titularidad JCyL, el centro cuenta con 3 unidades y 41 plazas.\n\nSegún el registro oficial de centros docentes, el centro ofrece servicio de comedor.\n\nPara conocer el proceso de admisión, unidades disponibles y horario detallado, se recomienda contactar directamente con el centro o consultar el Portal de Educación de la Junta de Castilla y León.",
+      "faqs": [
+        { "question": "¿Dónde está ubicada la escuela infantil San Bernardo?", "answer": "Se encuentra en C/ Arapiles, 16, 37007, en Salamanca." },
+        { "question": "¿Qué edades atiende este centro?", "answer": "Es una escuela infantil de primer ciclo de educación infantil, dirigida a niños de 0 a 3 años." },
+        { "question": "¿Es un centro público o privado?", "answer": "Es un centro de titularidad pública, perteneciente a la red de Escuelas de Educación Infantil de la Junta de Castilla y León." },
+        { "question": "¿Es gratuita la plaza en este centro?", "answer": "Sí. Desde el curso 2024-2025, Castilla y León ofrece gratuidad total del primer ciclo de educación infantil (0-3 años) en los centros de titularidad de la Junta, dentro del programa de gratuidad de estas enseñanzas." },
+        { "question": "¿Tiene servicio de comedor?", "answer": "Sí, según el registro oficial de centros docentes de Castilla y León, el centro cuenta con servicio de comedor." },
+        { "question": "¿Cómo puedo contactar con el centro?", "answer": "Puedes llamar al teléfono 923222419 o consultar su web (http://eeisanbernardo.centros.educa.jcyl.es/sitio/)." }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-escuelas-infantiles-titularidad-jcyl",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027",
+        "http://eeisanbernardo.centros.educa.jcyl.es/sitio/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_jcyl",
+      "codigo_centro_rc": "37010133",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "virgen-de-la-vega-salamanca",
+      "name": "Virgen de la Vega",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Av. de los Comuneros, 2",
+        "postal_code": "37003",
+        "city_slug": "salamanca",
+        "city_name": "Salamanca",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 40.96865,
+        "longitude": -5.65418
+      },
+      "contact": {
+        "phone": "923223287",
+        "email": null,
+        "website": null
+      },
+      "age_range": { "min_months": 4, "max_months": 36 },
+      "schedule": null,
+      "services": ["comedor"],
+      "short_description": "Virgen de la Vega, en Av. de los Comuneros, 2, 37003, es una de las tres escuelas infantiles de titularidad de la Junta de Castilla y León en Salamanca capital, dentro del primer ciclo de educación infantil (0-3 años).",
+      "long_description": "Virgen de la Vega es una escuela infantil de titularidad de la Junta de Castilla y León, con sede en Av. de los Comuneros, 2, 37003, Salamanca.\n\nForma parte de la red de Escuelas de Educación Infantil (EEI) de titularidad autonómica en Castilla y León, que imparte el primer ciclo de educación infantil (0-3 años) con plazas gratuitas para todas las familias desde el curso 2024-2025, dentro del programa de gratuidad del primer ciclo de educación infantil de la Junta de Castilla y León. Según el listado oficial de titularidad JCyL, el centro cuenta con 3 unidades y 39 plazas.\n\nSegún el registro oficial de centros docentes, el centro ofrece servicio de comedor.\n\nPara conocer el proceso de admisión, unidades disponibles y horario detallado, se recomienda contactar directamente con el centro o consultar el Portal de Educación de la Junta de Castilla y León.",
+      "faqs": [
+        { "question": "¿Dónde está ubicada la escuela infantil Virgen de la Vega?", "answer": "Se encuentra en Av. de los Comuneros, 2, 37003, en Salamanca." },
+        { "question": "¿Qué edades atiende este centro?", "answer": "Es una escuela infantil de primer ciclo de educación infantil, dirigida a niños de 0 a 3 años." },
+        { "question": "¿Es un centro público o privado?", "answer": "Es un centro de titularidad pública, perteneciente a la red de Escuelas de Educación Infantil de la Junta de Castilla y León." },
+        { "question": "¿Es gratuita la plaza en este centro?", "answer": "Sí. Desde el curso 2024-2025, Castilla y León ofrece gratuidad total del primer ciclo de educación infantil (0-3 años) en los centros de titularidad de la Junta, dentro del programa de gratuidad de estas enseñanzas." },
+        { "question": "¿Tiene servicio de comedor?", "answer": "Sí, según el registro oficial de centros docentes de Castilla y León, el centro cuenta con servicio de comedor." },
+        { "question": "¿Cómo puedo contactar con el centro?", "answer": "Puedes llamar al teléfono 923223287." }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-escuelas-infantiles-titularidad-jcyl",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_jcyl",
+      "codigo_centro_rc": "37013262",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "los-pizarrales-salamanca",
+      "name": "Los Pizarrales",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "C/ Obispo Alcolea, s/n",
+        "postal_code": "37006",
+        "city_slug": "salamanca",
+        "city_name": "Salamanca",
+        "district": "Pizarrales",
+        "neighborhood_barrio": null,
+        "latitude": 40.97985,
+        "longitude": -5.67487
+      },
+      "contact": {
+        "phone": "923255366",
+        "email": null,
+        "website": null
+      },
+      "age_range": { "min_months": 4, "max_months": 36 },
+      "schedule": "9:00-14:00h (septiembre), con servicio de madrugadores (7:30/8:30-9:00h) de octubre a mayo y posibilidad de \"tardones\" (15:30-17:00h) según demanda",
+      "services": ["comedor", "servicio-madrugadores"],
+      "short_description": "La Escuela Infantil Municipal Los Pizarrales, en C/ Obispo Alcolea, s/n, 37006, en el barrio de Pizarrales, es la mayor de las 4 escuelas infantiles del Ayuntamiento de Salamanca, con 135 plazas gratuitas de primer ciclo.",
+      "long_description": "Los Pizarrales es una escuela infantil municipal del Ayuntamiento de Salamanca, situada en C/ Obispo Alcolea, s/n, 37006, en el barrio de Pizarrales.\n\nForma parte de la red de 4 Escuelas Infantiles Municipales de Salamanca, gestionada por la Fundación Salamanca Ciudad de Cultura y de Saberes. Es la escuela con mayor capacidad de la red, con 135 plazas para niños desde los 4 meses hasta los 3 años. Según la información oficial de la red municipal, el horario habitual es de 9:00 a 14:00h, con servicio de madrugadores (7:30/8:30-9:00h) de octubre a mayo y posibilidad de ampliación de tarde (\"tardones\", 15:30-17:00h) según demanda mínima, además de servicio de comedor con cocina propia.\n\nLas 411 plazas del conjunto de las 4 escuelas infantiles municipales de Salamanca, incluidas las de este centro, están integradas en el programa de gratuidad del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025.\n\nPara conocer el calendario de admisión y las plazas disponibles, se recomienda consultar la web de la Fundación Salamanca Ciudad de Cultura y de Saberes o contactar directamente con el centro.",
+      "faqs": [
+        { "question": "¿Dónde está ubicada la Escuela Infantil Los Pizarrales?", "answer": "Se encuentra en C/ Obispo Alcolea, s/n, 37006, en el barrio de Pizarrales (Salamanca)." },
+        { "question": "¿Qué edades atiende este centro?", "answer": "Atiende a niños de 0 a 3 años, dentro del primer ciclo de educación infantil, desde los 4 meses según la web oficial de la red municipal." },
+        { "question": "¿Es un centro público o privado?", "answer": "Es un centro de titularidad pública municipal, gestionado por la Fundación Salamanca Ciudad de Cultura y de Saberes dentro de la red de Escuelas Infantiles Municipales del Ayuntamiento de Salamanca." },
+        { "question": "¿Es gratuita la plaza en este centro?", "answer": "Sí. Las 411 plazas de las escuelas infantiles municipales de Salamanca están incluidas en el programa de gratuidad total del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025." },
+        { "question": "¿Qué servicios ofrece este centro?", "answer": "Según la información oficial de la red municipal, cuenta con servicio de comedor (cocina propia) y servicio de madrugadores." },
+        { "question": "¿Cómo puedo contactar con el centro?", "answer": "Puedes llamar al teléfono 923255366." }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.ciudaddesaberes.es/html/es/EIM/",
+        "https://www.ciudaddesaberes.es/html/es/eimadmision/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_municipal",
+      "codigo_centro_rc": "37013298",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "el-rollo-salamanca",
+      "name": "El Rollo",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "C/ Ponferrada, s/n",
+        "postal_code": "37003",
+        "city_slug": "salamanca",
+        "city_name": "Salamanca",
+        "district": "El Rollo",
+        "neighborhood_barrio": null,
+        "latitude": 40.96663,
+        "longitude": -5.64837
+      },
+      "contact": {
+        "phone": "923182106",
+        "email": null,
+        "website": null
+      },
+      "age_range": { "min_months": 4, "max_months": 36 },
+      "schedule": "9:00-14:00h (septiembre), con servicio de madrugadores (7:30/8:30-9:00h) de octubre a mayo y posibilidad de \"tardones\" (15:30-17:00h) según demanda",
+      "services": ["comedor", "servicio-madrugadores"],
+      "short_description": "En C/ Ponferrada, s/n, 37003, en el barrio de El Rollo, la Escuela Infantil Municipal El Rollo forma parte de la red de 4 escuelas del Ayuntamiento de Salamanca, con 94 plazas gratuitas del primer ciclo de educación infantil.",
+      "long_description": "El Rollo es una escuela infantil municipal del Ayuntamiento de Salamanca, situada en C/ Ponferrada, s/n, 37003, en el barrio de El Rollo (Rollo-Puente Ladrillo).\n\nForma parte de la red de 4 Escuelas Infantiles Municipales de Salamanca, gestionada por la Fundación Salamanca Ciudad de Cultura y de Saberes, con 94 plazas para niños desde los 4 meses hasta los 3 años. Según la información oficial de la red municipal, el horario habitual es de 9:00 a 14:00h, con servicio de madrugadores (7:30/8:30-9:00h) de octubre a mayo y posibilidad de ampliación de tarde (\"tardones\", 15:30-17:00h) según demanda mínima, además de servicio de comedor con cocina propia.\n\nLas 411 plazas del conjunto de las 4 escuelas infantiles municipales de Salamanca, incluidas las de este centro, están integradas en el programa de gratuidad del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025.\n\nPara conocer el calendario de admisión y las plazas disponibles, se recomienda consultar la web de la Fundación Salamanca Ciudad de Cultura y de Saberes o contactar directamente con el centro.",
+      "faqs": [
+        { "question": "¿Dónde está ubicada la Escuela Infantil El Rollo?", "answer": "Se encuentra en C/ Ponferrada, s/n, 37003, en el barrio de El Rollo (Salamanca)." },
+        { "question": "¿Qué edades atiende este centro?", "answer": "Atiende a niños de 0 a 3 años, dentro del primer ciclo de educación infantil, desde los 4 meses según la web oficial de la red municipal." },
+        { "question": "¿Es un centro público o privado?", "answer": "Es un centro de titularidad pública municipal, gestionado por la Fundación Salamanca Ciudad de Cultura y de Saberes dentro de la red de Escuelas Infantiles Municipales del Ayuntamiento de Salamanca." },
+        { "question": "¿Es gratuita la plaza en este centro?", "answer": "Sí. Las 411 plazas de las escuelas infantiles municipales de Salamanca están incluidas en el programa de gratuidad total del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025." },
+        { "question": "¿Qué servicios ofrece este centro?", "answer": "Según la información oficial de la red municipal, cuenta con servicio de comedor (cocina propia) y servicio de madrugadores." },
+        { "question": "¿Cómo puedo contactar con el centro?", "answer": "Puedes llamar al teléfono 923182106." }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.ciudaddesaberes.es/html/es/EIM/",
+        "https://www.ciudaddesaberes.es/html/es/eimadmision/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_municipal",
+      "codigo_centro_rc": "37013572",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "garrido-salamanca",
+      "name": "Garrido",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "C/ Gloria Fuertes, s/n",
+        "postal_code": "37004",
+        "city_slug": "salamanca",
+        "city_name": "Salamanca",
+        "district": "Garrido",
+        "neighborhood_barrio": null,
+        "latitude": 40.97708,
+        "longitude": -5.64736
+      },
+      "contact": {
+        "phone": "923237481",
+        "email": null,
+        "website": null
+      },
+      "age_range": { "min_months": 4, "max_months": 36 },
+      "schedule": "9:00-14:00h (septiembre), con servicio de madrugadores (7:30/8:30-9:00h) de octubre a mayo y posibilidad de \"tardones\" (15:30-17:00h) según demanda",
+      "services": ["comedor", "servicio-madrugadores"],
+      "short_description": "Garrido es una de las 4 escuelas infantiles municipales de Salamanca, ubicada en C/ Gloria Fuertes, s/n, 37004, en el barrio de Garrido —el más poblado de la ciudad—, con 88 plazas gratuitas del primer ciclo de educación infantil (0-3 años).",
+      "long_description": "Garrido es una escuela infantil municipal del Ayuntamiento de Salamanca, situada en C/ Gloria Fuertes, s/n, 37004, en el barrio de Garrido, el de mayor población de la ciudad.\n\nForma parte de la red de 4 Escuelas Infantiles Municipales de Salamanca, gestionada por la Fundación Salamanca Ciudad de Cultura y de Saberes, con 88 plazas para niños desde los 4 meses hasta los 3 años. Según la información oficial de la red municipal, el horario habitual es de 9:00 a 14:00h, con servicio de madrugadores (7:30/8:30-9:00h) de octubre a mayo y posibilidad de ampliación de tarde (\"tardones\", 15:30-17:00h) según demanda mínima, además de servicio de comedor con cocina propia.\n\nLas 411 plazas del conjunto de las 4 escuelas infantiles municipales de Salamanca, incluidas las de este centro, están integradas en el programa de gratuidad del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025.\n\nPara conocer el calendario de admisión y las plazas disponibles, se recomienda consultar la web de la Fundación Salamanca Ciudad de Cultura y de Saberes o contactar directamente con el centro.",
+      "faqs": [
+        { "question": "¿Dónde está ubicada la Escuela Infantil Garrido?", "answer": "Se encuentra en C/ Gloria Fuertes, s/n, 37004, en el barrio de Garrido (Salamanca)." },
+        { "question": "¿Qué edades atiende este centro?", "answer": "Atiende a niños de 0 a 3 años, dentro del primer ciclo de educación infantil, desde los 4 meses según la web oficial de la red municipal." },
+        { "question": "¿Es un centro público o privado?", "answer": "Es un centro de titularidad pública municipal, gestionado por la Fundación Salamanca Ciudad de Cultura y de Saberes dentro de la red de Escuelas Infantiles Municipales del Ayuntamiento de Salamanca." },
+        { "question": "¿Es gratuita la plaza en este centro?", "answer": "Sí. Las 411 plazas de las escuelas infantiles municipales de Salamanca están incluidas en el programa de gratuidad total del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025." },
+        { "question": "¿Qué servicios ofrece este centro?", "answer": "Según la información oficial de la red municipal, cuenta con servicio de comedor (cocina propia) y servicio de madrugadores." },
+        { "question": "¿Cómo puedo contactar con el centro?", "answer": "Puedes llamar al teléfono 923237481." }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.ciudaddesaberes.es/html/es/EIM/",
+        "https://www.ciudaddesaberes.es/html/es/eimadmision/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_municipal",
+      "codigo_centro_rc": "37009830",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "el-zurguen-salamanca",
+      "name": "El Zurguén",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Av. Virgen del Cueto, s/n",
+        "postal_code": "37008",
+        "city_slug": "salamanca",
+        "city_name": "Salamanca",
+        "district": "El Zurguén",
+        "neighborhood_barrio": null,
+        "latitude": 40.94391,
+        "longitude": -5.67308
+      },
+      "contact": {
+        "phone": "923057082",
+        "email": null,
+        "website": null
+      },
+      "age_range": { "min_months": 4, "max_months": 36 },
+      "schedule": "9:00-14:00h (septiembre), con servicio de madrugadores (7:30/8:30-9:00h) de octubre a mayo y posibilidad de \"tardones\" (15:30-17:00h) según demanda",
+      "services": ["comedor", "servicio-madrugadores"],
+      "short_description": "La Escuela Infantil Municipal El Zurguén, en Av. Virgen del Cueto, s/n, 37008, en el barrio homónimo al sur del río Tormes, ofrece 94 plazas gratuitas de primer ciclo dentro de la red municipal del Ayuntamiento de Salamanca.",
+      "long_description": "El Zurguén es una escuela infantil municipal del Ayuntamiento de Salamanca, situada en Av. Virgen del Cueto, s/n, 37008, en el barrio de El Zurguén, al sur del río Tormes.\n\nForma parte de la red de 4 Escuelas Infantiles Municipales de Salamanca, gestionada por la Fundación Salamanca Ciudad de Cultura y de Saberes, con 94 plazas para niños desde los 4 meses hasta los 3 años. Según la información oficial de la red municipal, el horario habitual es de 9:00 a 14:00h, con servicio de madrugadores (7:30/8:30-9:00h) de octubre a mayo y posibilidad de ampliación de tarde (\"tardones\", 15:30-17:00h) según demanda mínima, además de servicio de comedor con cocina propia.\n\nLas 411 plazas del conjunto de las 4 escuelas infantiles municipales de Salamanca, incluidas las de este centro, están integradas en el programa de gratuidad del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025.\n\nPara conocer el calendario de admisión y las plazas disponibles, se recomienda consultar la web de la Fundación Salamanca Ciudad de Cultura y de Saberes o contactar directamente con el centro.",
+      "faqs": [
+        { "question": "¿Dónde está ubicada la Escuela Infantil El Zurguén?", "answer": "Se encuentra en Av. Virgen del Cueto, s/n, 37008, en el barrio de El Zurguén (Salamanca)." },
+        { "question": "¿Qué edades atiende este centro?", "answer": "Atiende a niños de 0 a 3 años, dentro del primer ciclo de educación infantil, desde los 4 meses según la web oficial de la red municipal." },
+        { "question": "¿Es un centro público o privado?", "answer": "Es un centro de titularidad pública municipal, gestionado por la Fundación Salamanca Ciudad de Cultura y de Saberes dentro de la red de Escuelas Infantiles Municipales del Ayuntamiento de Salamanca." },
+        { "question": "¿Es gratuita la plaza en este centro?", "answer": "Sí. Las 411 plazas de las escuelas infantiles municipales de Salamanca están incluidas en el programa de gratuidad total del primer ciclo de educación infantil de la Junta de Castilla y León desde el curso 2024-2025." },
+        { "question": "¿Qué servicios ofrece este centro?", "answer": "Según la información oficial de la red municipal, cuenta con servicio de comedor (cocina propia) y servicio de madrugadores." },
+        { "question": "¿Cómo puedo contactar con el centro?", "answer": "Puedes llamar al teléfono 923057082." }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.ciudaddesaberes.es/html/es/EIM/",
+        "https://www.ciudaddesaberes.es/html/es/eimadmision/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_municipal",
+      "codigo_centro_rc": "37013687",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "psn-bicos-salamanca",
+      "name": "PSN Bicos",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Juan Maluquer, 21",
+        "postal_code": "37007",
+        "city_slug": "salamanca",
+        "city_name": "Salamanca",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 40.97056,
+        "longitude": -5.67892
+      },
+      "contact": {
+        "phone": "923216810",
+        "email": "bicossalamanca@psnbicos.es",
+        "website": "https://www.psnbicos.es/"
+      },
+      "age_range": { "min_months": 4, "max_months": 36 },
+      "schedule": "7:30h en adelante, de lunes a viernes, todo el año (julio y agosto de 7:30 a 15:30h)",
+      "services": ["cocina-propia", "horario-ampliado", "bilingue", "patio-exterior"],
+      "short_description": "PSN Bicos, en C/ Juan Maluquer, 21, 37007, Salamanca, es un centro privado adherido al programa de gratuidad de la Junta de Castilla y León. Su web oficial confirma proyecto bilingüe, cocina propia, horario ampliado desde las 7:30h y patio exterior.",
+      "long_description": "PSN Bicos es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en C/ Juan Maluquer, 21, 37007, Salamanca, promovido por PSN Educación y Futuro en colaboración con el Colegio Oficial de Médicos de Salamanca.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: proyecto bilingüe (inglés y castellano), cocina propia con menús adaptados, horario flexible desde las 7:30h de la mañana y patio exterior de juego.\n\nEl centro participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil de la Junta de Castilla y León, que desde el curso 2024-2025 ofrece plazas gratuitas para todas las edades (0 a 3 años) en los centros privados adheridos a esta oferta.\n\nPara conocer el proyecto educativo completo, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        { "question": "¿Dónde está ubicado PSN Bicos?", "answer": "El centro se encuentra en C/ Juan Maluquer, 21, 37007, en Salamanca." },
+        { "question": "¿Qué edades atiende este centro?", "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años." },
+        { "question": "¿Es un centro público o privado?", "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025." },
+        { "question": "¿Es un centro bilingüe?", "answer": "Sí, según su propia web oficial, PSN Bicos es una escuela bilingüe en inglés y castellano." },
+        { "question": "¿Qué otros servicios ofrece este centro?", "answer": "Según su web oficial, el centro confirma cocina propia con menús adaptados, horario ampliado desde las 7:30h y patio exterior de juego." },
+        { "question": "¿Cómo puedo contactar con el centro?", "answer": "Puedes llamar al teléfono 923216810, escribir a bicossalamanca@psnbicos.es o consultar su web oficial (https://www.psnbicos.es/)." }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.psnbicos.es/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "37013596",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "chispitinas-salamanca",
+      "name": "Chispitinas",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Av. Filiberto Villalobos, 82",
+        "postal_code": "37006",
+        "city_slug": "salamanca",
+        "city_name": "Salamanca",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 40.97133,
+        "longitude": -5.67793
+      },
+      "contact": {
+        "phone": "923134236",
+        "email": null,
+        "website": "https://chispitinas.com/"
+      },
+      "age_range": { "min_months": 4, "max_months": 36 },
+      "schedule": "horario flexible de 7:30 a 18:00h",
+      "services": ["comedor", "horario-ampliado", "psicomotricidad", "escuela-de-padres"],
+      "short_description": "Chispitinas atiende el primer ciclo de educación infantil (0-3 años) en Av. Filiberto Villalobos, 82, 37006, Salamanca. Su web oficial confirma servicio de comedor, horario flexible de 7:30 a 18:00h, aula de psicomotricidad y escuela de padres.",
+      "long_description": "Chispitinas es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Av. Filiberto Villalobos, 82, 37006, Salamanca.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: servicio de comedor con menús adaptados para bebés y dietas especiales, horario flexible de 7:30 a 18:00h, aula específica de psicomotricidad y usos múltiples, y escuela de padres con reuniones formativas periódicas.\n\nEl centro participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil de la Junta de Castilla y León, que desde el curso 2024-2025 ofrece plazas gratuitas para todas las edades (0 a 3 años) en los centros privados adheridos a esta oferta.\n\nPara conocer el proyecto educativo completo, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        { "question": "¿Dónde está ubicado Chispitinas?", "answer": "El centro se encuentra en Av. Filiberto Villalobos, 82, 37006, en Salamanca." },
+        { "question": "¿Qué edades atiende este centro?", "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años." },
+        { "question": "¿Es un centro público o privado?", "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025." },
+        { "question": "¿Qué servicios ofrece este centro?", "answer": "Según su web oficial, el centro confirma servicio de comedor, horario flexible de 7:30 a 18:00h, aula de psicomotricidad y escuela de padres." },
+        { "question": "¿Tiene horario ampliado?", "answer": "Sí, según su web oficial el horario habitual es de 7:30 a 18:00h." },
+        { "question": "¿Cómo puedo contactar con el centro?", "answer": "Puedes llamar al teléfono 923134236 o consultar su web oficial (https://chispitinas.com/)." }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://chispitinas.com/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "37014072",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "educa-babys-salamanca",
+      "name": "Educa Babys",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Salesas, 10",
+        "postal_code": "37005",
+        "city_slug": "salamanca",
+        "city_name": "Salamanca",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 40.9739,
+        "longitude": -5.66391
+      },
+      "contact": {
+        "phone": "661736619",
+        "email": "info@educababys.com",
+        "website": "https://educababys.com/"
+      },
+      "age_range": { "min_months": 3, "max_months": 36 },
+      "schedule": "de 7:00 a 20:00h, de lunes a viernes",
+      "services": ["comedor", "ingles", "psicomotricidad", "musica", "horario-ampliado"],
+      "short_description": "Educa Babys, entre los barrios de Capuchinos y Garrido en C/ Salesas, 10, 37005, Salamanca, es un centro privado adherido a la gratuidad de la Junta de Castilla y León. Su web propia confirma proyecto de inglés, psicomotricidad, música y horario ampliado.",
+      "long_description": "Educa Babys es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en C/ Salesas, 10, 37005, Salamanca, en una zona entre los barrios de Capuchinos y Garrido.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: servicio de comedor (desayuno, comida y merienda, incluidas dietas especiales), proyecto de inglés para el aprendizaje temprano del idioma, talleres de psicomotricidad y música, y horario ampliado de 7:00 a 20:00h de lunes a viernes.\n\nEl centro participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil de la Junta de Castilla y León, que desde el curso 2024-2025 ofrece plazas gratuitas para todas las edades (0 a 3 años) en los centros privados adheridos a esta oferta.\n\nPara conocer el proyecto educativo completo, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        { "question": "¿Dónde está ubicado Educa Babys?", "answer": "El centro se encuentra en C/ Salesas, 10, 37005, en Salamanca, entre los barrios de Capuchinos y Garrido." },
+        { "question": "¿Qué edades atiende este centro?", "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños desde los tres meses hasta los 3 años, según su propia web." },
+        { "question": "¿Es un centro público o privado?", "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025." },
+        { "question": "¿Ofrece inglés?", "answer": "Sí, según su web oficial el centro tiene un proyecto propio de inglés para que los niños se familiaricen con el idioma." },
+        { "question": "¿Qué otros servicios ofrece este centro?", "answer": "Según su web oficial, el centro confirma servicio de comedor, talleres de psicomotricidad y música, y horario ampliado de 7:00 a 20:00h." },
+        { "question": "¿Cómo puedo contactar con el centro?", "answer": "Puedes llamar al teléfono 661736619, escribir a info@educababys.com o consultar su web oficial (https://educababys.com/)." }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://educababys.com/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "37014060",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "tebeo-salamanca",
+      "name": "Tebeo",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Enrique Sena, 22",
+        "postal_code": "37007",
+        "city_slug": "salamanca",
+        "city_name": "Salamanca",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 40.94946,
+        "longitude": -5.63062
+      },
+      "contact": {
+        "phone": "923207800",
+        "email": null,
+        "website": "https://www.centroeducacioninfantiltebeo.es/"
+      },
+      "age_range": { "min_months": 4, "max_months": 36 },
+      "schedule": "7:30-9:30h (madrugadores), 9:30-14:00h horario habitual, comedor 13:00-14:00h, siesta 14:00-15:30h, ampliación 18:00-20:00h",
+      "services": ["comedor", "cocina-propia", "horario-ampliado", "servicio-madrugadores"],
+      "short_description": "Centro de Educación Infantil Tebeo, en C/ Enrique Sena, 22, 37007, Salamanca, confirma en su web oficial servicio de comedor con cocina propia, madrugadores desde las 7:30h y ampliación de tarde hasta las 20:00h para el primer ciclo (0-3 años).",
+      "long_description": "Tebeo es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en C/ Enrique Sena, 22, 37007, Salamanca.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: servicio de comedor con cocina propia (13:00 a 14:00h), servicio de madrugadores (7:30 a 9:30h) y horario ampliado de tarde hasta las 20:00h, además de siesta de 14:00 a 15:30h dentro del horario habitual.\n\nEl centro participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil de la Junta de Castilla y León, que desde el curso 2024-2025 ofrece plazas gratuitas para todas las edades (0 a 3 años) en los centros privados adheridos a esta oferta.\n\nPara conocer el proyecto educativo completo, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        { "question": "¿Dónde está ubicado Tebeo?", "answer": "El centro se encuentra en C/ Enrique Sena, 22, 37007, en Salamanca." },
+        { "question": "¿Qué edades atiende este centro?", "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años." },
+        { "question": "¿Es un centro público o privado?", "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025." },
+        { "question": "¿Tiene servicio de madrugadores y horario ampliado?", "answer": "Sí, según su web oficial ofrece madrugadores desde las 7:30h y ampliación de tarde hasta las 20:00h." },
+        { "question": "¿Tiene cocina propia?", "answer": "Sí, según su web oficial el centro cuenta con servicio de comedor con cocina propia." },
+        { "question": "¿Cómo puedo contactar con el centro?", "answer": "Puedes llamar al teléfono 923207800 o consultar su web oficial (https://www.centroeducacioninfantiltebeo.es/)." }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.centroeducacioninfantiltebeo.es/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "37013389",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "aula-pimenton-maestro-avila-salamanca",
+      "name": "Aula Pimentón Maestro Ávila",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Fonseca, 29",
+        "postal_code": "37007",
+        "city_slug": "salamanca",
+        "city_name": "Salamanca",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 40.96456,
+        "longitude": -5.67084
+      },
+      "contact": {
+        "phone": "923214200",
+        "email": "secretario@colegiomaestroavila.com",
+        "website": "https://www.maestroavila.com"
+      },
+      "age_range": { "min_months": 4, "max_months": 36 },
+      "schedule": null,
+      "services": ["comedor", "horario-ampliado", "servicio-madrugadores", "psicomotricidad", "musica"],
+      "short_description": "Aula Pimentón es el aula de primer ciclo de educación infantil (0-3 años) del Colegio Maestro Ávila - Fundación EDUCERE, en C/ Fonseca, 29, 37007, Salamanca, con plazas gratuitas y servicios de comedor, madrugadores y horario ampliado confirmados.",
+      "long_description": "Aula Pimentón Maestro Ávila es el aula de primer ciclo de educación infantil (0-3 años) del Colegio Maestro Ávila, centro de la Fundación EDUCERE, con sede en C/ Fonseca, 29, 37007, Salamanca.\n\nSegún el registro oficial de centros docentes de la Junta de Castilla y León, el aula de primer ciclo tiene código de registro propio y diferenciado del resto de etapas del colegio (segundo ciclo de infantil, primaria y secundaria, que sí son concertadas). Según la información institucional del centro, el aula ofrece servicio de comedor, servicio de madrugadores y horario ampliado, además de actividades de psicomotricidad y música.\n\nEl aula participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil de la Junta de Castilla y León, con plazas gratuitas de 0 a 3 años para el curso 2026-2027.\n\nPara conocer el proyecto educativo completo, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        { "question": "¿Dónde está ubicada Aula Pimentón Maestro Ávila?", "answer": "El aula se encuentra en C/ Fonseca, 29, 37007, en Salamanca, dentro del Colegio Maestro Ávila." },
+        { "question": "¿Qué edades atiende este centro?", "answer": "Es un aula de educación infantil de primer ciclo, dirigida a niños de 0 a 3 años (matrícula abierta para el aula de dos años en el curso 2026-2027, según la información institucional del centro)." },
+        { "question": "¿Es un centro público o privado?", "answer": "El aula de primer ciclo tiene código de registro propio como centro privado (no concertado) según la Junta de Castilla y León, aunque el Colegio Maestro Ávila es concertado en etapas posteriores (segundo ciclo de infantil, primaria y secundaria)." },
+        { "question": "¿Es gratuita la plaza en este centro?", "answer": "Sí, según la información institucional del centro y el listado oficial de centros con unidades incluidas en el programa de gratuidad del primer ciclo de educación infantil de la Junta de Castilla y León." },
+        { "question": "¿Qué servicios ofrece este centro?", "answer": "Según la información institucional del centro, ofrece comedor, servicio de madrugadores, horario ampliado, psicomotricidad y música." },
+        { "question": "¿Cómo puedo contactar con el centro?", "answer": "Puedes llamar al teléfono 923214200, escribir a secretario@colegiomaestroavila.com o consultar su web oficial (https://www.maestroavila.com)." }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.maestroavila.com",
+        "https://fundacioneducere.es/colegio-maestro-avila-salamanca/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "37014102",
+      "coords_flagged": false,
+      "notes_internal": "El colegio matriz (Maestro Avila / Fundacion EDUCERE) es concertado en 2o ciclo infantil, primaria y secundaria, pero el codigo de registro 37014102 especifico del aula de primer ciclo (0-3) tiene concierto=N en el Directorio de Centros Docentes. Se mantiene ownership=privado siguiendo el criterio de usar el dato del codigo de registro especifico del primer ciclo, no el del colegio matriz. confidence_level=medium porque los datos de servicios proceden de fuentes institucionales generales del colegio (fundacioneducere.es, maestroavila.com), no de una pagina especifica del Aula Pimenton con detalle exhaustivo por servicio."
+    },
+    {
+      "slug": "mumakids-salamanca",
+      "name": "Mumakids",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Av. Raimundo de Borgoña, 41",
+        "postal_code": "37005",
+        "city_slug": "salamanca",
+        "city_name": "Salamanca",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 40.978,
+        "longitude": -5.66632
+      },
+      "contact": {
+        "phone": "691329455",
+        "email": "contacto@centroinfantilmumakids.es",
+        "website": "https://www.centroinfantilmumakids.es/"
+      },
+      "age_range": { "min_months": 12, "max_months": 36 },
+      "schedule": null,
+      "services": ["patio-exterior", "escuela-de-padres"],
+      "short_description": "Mumakids, en Av. Raimundo de Borgoña, 41, 37005, Salamanca, atiende a niños de 1 a 3 años dentro del primer ciclo de educación infantil. Su web oficial confirma zona ajardinada de 122 m² con arenero y columpios, y espacio de escuela de padres.",
+      "long_description": "Mumakids es un centro privado de educación infantil de primer ciclo, con sede en Av. Raimundo de Borgoña, 41, 37005, Salamanca, dirigido a niños de 1 a 3 años según su propia web.\n\nSegún la información publicada en su propia web oficial, el centro cuenta con tres aulas con luz natural y 122 m² de zona ajardinada con arenero y columpios (patio exterior), además de un espacio de escuela de padres para el intercambio de experiencias entre familias.\n\nEl centro participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil de la Junta de Castilla y León, que desde el curso 2024-2025 ofrece plazas gratuitas en los centros privados adheridos a esta oferta.\n\nPara conocer el proyecto educativo completo, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        { "question": "¿Dónde está ubicado Mumakids?", "answer": "El centro se encuentra en Av. Raimundo de Borgoña, 41, 37005, en Salamanca." },
+        { "question": "¿Qué edades atiende este centro?", "answer": "Según su propia web, atiende a niños de 1 a 3 años, dentro del primer ciclo de educación infantil." },
+        { "question": "¿Es un centro público o privado?", "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025." },
+        { "question": "¿Tiene patio exterior?", "answer": "Sí, según su web oficial cuenta con 122 m² de zona ajardinada con arenero y columpios." },
+        { "question": "¿Qué otros servicios ofrece este centro?", "answer": "Según su web oficial, el centro ofrece un espacio de escuela de padres para compartir experiencias entre familias." },
+        { "question": "¿Cómo puedo contactar con el centro?", "answer": "Puedes llamar al teléfono 691329455, escribir a contacto@centroinfantilmumakids.es o consultar su web oficial (https://www.centroinfantilmumakids.es/)." }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.centroinfantilmumakids.es/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "37014011",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "mi-mama-me-mima-salamanca",
+      "name": "Mi Mamá Me Mima",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ María la Brava, 42",
+        "postal_code": "37003",
+        "city_slug": "salamanca",
+        "city_name": "Salamanca",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 40.97068,
+        "longitude": -5.65038
+      },
+      "contact": {
+        "phone": "923186100",
+        "email": "guarderia@mimamamemima.net",
+        "website": "http://www.mimamamemima.net/"
+      },
+      "age_range": { "min_months": 4, "max_months": 36 },
+      "schedule": null,
+      "services": [],
+      "short_description": "Ubicado en C/ María la Brava, 42, 37003 (Salamanca), Mi Mamá Me Mima es un centro privado que imparte el primer ciclo de educación infantil dentro del programa de gratuidad de la Junta de Castilla y León. Conviene contactar directamente con el centro para conocer horario y servicios disponibles con detalle.",
+      "long_description": null,
+      "faqs": [
+        { "question": "¿Dónde está ubicado Mi Mamá Me Mima?", "answer": "El centro se encuentra en C/ María la Brava, 42, 37003, en Salamanca." },
+        { "question": "¿Qué edades atiende este centro?", "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años." },
+        { "question": "¿Es un centro público o privado?", "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025." },
+        { "question": "¿Cómo puedo contactar con el centro?", "answer": "Puedes llamar al teléfono 923186100, escribir a guarderia@mimamamemima.net o consultar su web (http://www.mimamamemima.net/)." },
+        { "question": "¿Está verificada la información de esta ficha?", "answer": "Los datos básicos proceden del registro oficial de centros docentes de la Junta de Castilla y León (Directorio de Centros Docentes) y del listado oficial de centros adheridos al programa de gratuidad del primer ciclo de educación infantil. Si representas este centro, puedes solicitar una actualización o reclamar la ficha." }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "http://www.mimamamemima.net/",
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "37014205",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "el-tren-salamanca",
+      "name": "El Tren",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Plaza Extremadura, 5",
+        "postal_code": "37008",
+        "city_slug": "salamanca",
+        "city_name": "Salamanca",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 40.9539,
+        "longitude": -5.70986
+      },
+      "contact": {
+        "phone": "671080625",
+        "email": "eltrenba@hotmail.com",
+        "website": null
+      },
+      "age_range": { "min_months": 4, "max_months": 36 },
+      "schedule": null,
+      "services": [],
+      "short_description": "El Tren es un centro de educación infantil de primer ciclo (0-3 años) situado en Plaza Extremadura, 5, 37008, Salamanca, gestionado por la asociación de desarrollo comunitario ASDECOBA desde 1995. Los servicios específicos no están confirmados en fuente oficial.",
+      "long_description": null,
+      "faqs": [
+        { "question": "¿Dónde está ubicado El Tren?", "answer": "El centro se encuentra en Plaza Extremadura, 5, 37008, en Salamanca." },
+        { "question": "¿Qué edades atiende este centro?", "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años." },
+        { "question": "¿Es un centro público o privado?", "answer": "Es un centro de titularidad privada. Según el registro oficial de centros docentes de la Junta de Castilla y León, participa en el programa de gratuidad de las enseñanzas de primer ciclo de educación infantil, que ofrece plazas gratuitas desde el curso 2024-2025." },
+        { "question": "¿Quién gestiona el centro?", "answer": "Según fuentes de prensa e institucionales, el centro está gestionado desde 1995 por ASDECOBA (Asociación de Desarrollo Comunitario de Buenos Aires)." },
+        { "question": "¿Cómo puedo contactar con el centro?", "answer": "Puedes llamar al teléfono 671080625 o escribir a eltrenba@hotmail.com." },
+        { "question": "¿Está verificada la información de esta ficha?", "answer": "Los datos básicos proceden del registro oficial de centros docentes de la Junta de Castilla y León (Directorio de Centros Docentes) y del listado oficial de centros adheridos al programa de gratuidad del primer ciclo de educación infantil. Si representas este centro, puedes solicitar una actualización o reclamar la ficha." }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/directorio-de-centros-docentes/",
+      "source_urls_secondary": [
+        "https://www.educa.jcyl.es/es/admision-alumnado/admision-centros-imparten-primer-ciclo-educacion-infantil/listado-centros-plazas-gratuitas-0-3-anos-curso-2026-2027"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido_gratuidad",
+      "codigo_centro_rc": "37014217",
+      "coords_flagged": false,
+      "notes_internal": null
+    }
+  ]
+}

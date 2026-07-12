@@ -1,0 +1,9 @@
+{
+  "_readme": "Centros descartados del dataset final de Alicante por no alcanzar el umbral minimo de verificacion del proyecto (nombre+slug+tipo+municipio+direccion+short_description + al menos uno de: servicio confirmado, long_description, web oficial, telefono confirmado, email confirmado, horario confirmado). No se incluyen en el CSV de importacion ni en el SQL de insercion.",
+  "city": "alicante",
+  "generated_at": "2026-07-12T10:00:00.000Z",
+  "stats": {
+    "excluded_count": 0
+  },
+  "centers": []
+}

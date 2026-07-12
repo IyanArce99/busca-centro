@@ -1,0 +1,9 @@
+{
+  "_readme": "Centros descartados del dataset final de Sevilla por no alcanzar el umbral minimo de verificacion (sin ningun dato de sustancia: ni telefono, ni email, ni web, ni servicio confirmado). No se incluyen en el CSV de importacion ni en el SQL de insercion.",
+  "city": "sevilla",
+  "generated_at": "2026-07-12T09:45:07.594Z",
+  "stats": {
+    "excluded_count": 0
+  },
+  "centers": []
+}

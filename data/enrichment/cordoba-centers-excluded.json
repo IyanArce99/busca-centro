@@ -1,0 +1,9 @@
+{
+  "_readme": "Centros descartados del dataset final de Cordoba por no alcanzar el umbral minimo de verificacion (sin ningun dato de sustancia: ni telefono, ni email, ni web, ni servicio confirmado, ni horario, ni long_description). No se incluyen en el CSV de importacion ni en el SQL de insercion. En este sprint, los 129 candidatos evaluados (129 filas con D_MUNICIPIO=Cordoba en la fuente oficial de la Junta de Andalucia) superaron el umbral minimo (127/129 con telefono, 129/129 con email de fuente oficial), por lo que no hay ningun centro excluido.",
+  "city": "cordoba",
+  "generated_at": "2026-07-12T00:00:00.000Z",
+  "stats": {
+    "excluded_count": 0
+  },
+  "centers": []
+}

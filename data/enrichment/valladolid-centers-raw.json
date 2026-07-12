@@ -1,0 +1,2261 @@
+{
+  "_readme": "Extraccion sin procesar (antes de normalizar/humanizar) de los 46 centros candidatos de primer ciclo de educacion infantil (0-3 anos) del municipio de Valladolid capital, obtenidos via API OpenDataSoft del dataset oficial 'Directorio de Centros Docentes' de la Junta de Castilla y Leon (analisis.datosabiertos.jcyl.es), filtrado por refine.municipio=VALLADOLID y refine.denominacion_generica en {'ESCUELA DE EDUCACION INFANTIL' (13 registros, titularidad publica), 'CENTRO PRIVADO DE EDUCACION INFANTIL' (33 registros, titularidad privada)}. Curso academico de referencia del dataset: 2025 (campo curso_academico). Ver docs/data-sources-valladolid.md.",
+  "source_api": "https://analisis.datosabiertos.jcyl.es/api/records/1.0/search/?dataset=directorio-de-centros-docentes&refine.municipio=VALLADOLID&refine.denominacion_generica=...",
+  "extracted_at": "2026-07-12",
+  "raw_records": {
+    "escuela_educacion_infantil_publicas": [
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "e79ccc1bb785650227b591846a658239515cd6b5",
+        "fields": {
+          "comedor": "S",
+          "localizacion": [
+            41.65425,
+            -4.73557
+          ],
+          "c_postal": 47014,
+          "c_via": "CALLE",
+          "c_naturaleza": 1,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "AMANECER",
+          "denominacion_generica": "ESCUELA DE EDUCACION INFANTIL",
+          "internado": "N",
+          "numero_ext": "S/N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47007665@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.73557,
+          "naturaleza": "PÚBLICO",
+          "codigo": "47007665",
+          "coord_latitud": 41.65425,
+          "c_denominacion_generica": 3,
+          "via": "CALLE",
+          "fax": 983330369,
+          "c_loca": 5,
+          "nombre_de_la_via": "JUANA DE CASTILLA",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "web": "http://eeiamanecer.centros.educa.jcyl.es/sitio/",
+          "telefono": 983330369,
+          "denominacion_generica_breve": "EEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.73557,
+            41.65425
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "764b82ed0b7f13a4ce2d24a495a9fd6a1a86f7cf",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.65316,
+            -4.70615
+          ],
+          "c_postal": 47011,
+          "c_via": "CALLE",
+          "c_naturaleza": 1,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "CABALLITO BLANCO",
+          "denominacion_generica": "ESCUELA DE EDUCACION INFANTIL",
+          "numero": 6,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012016@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.70615,
+          "naturaleza": "PÚBLICO",
+          "codigo": "47012016",
+          "coord_latitud": 41.65316,
+          "c_denominacion_generica": 3,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "ORDEN DE MALTA",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983857982,
+          "denominacion_generica_breve": "EEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.70615,
+            41.65316
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "14626f2ddd960cbad86ea808c6117e0d3e9727b6",
+        "fields": {
+          "comedor": "S",
+          "localizacion": [
+            41.64762,
+            -4.74431
+          ],
+          "c_postal": 47001,
+          "c_via": "CALLE",
+          "c_naturaleza": 1,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "CAMPANILLA",
+          "denominacion_generica": "ESCUELA DE EDUCACION INFANTIL",
+          "numero": 5,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47011565@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.74431,
+          "naturaleza": "PÚBLICO",
+          "codigo": "47011565",
+          "coord_latitud": 41.64762,
+          "c_denominacion_generica": 3,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "MONASTERIO DE SANTO TORIBIO DE LIÉBANA",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983375777,
+          "denominacion_generica_breve": "EEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.74431,
+            41.64762
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "cdb534179e666330e255d337c89bc01ed3206a34",
+        "fields": {
+          "comedor": "S",
+          "localizacion": [
+            41.66995,
+            -4.73192
+          ],
+          "c_postal": 47009,
+          "c_via": "PS.",
+          "c_naturaleza": 1,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "EL PRINCIPITO",
+          "denominacion_generica": "ESCUELA DE EDUCACION INFANTIL",
+          "internado": "N",
+          "numero_ext": "S/N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47007604@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.73192,
+          "naturaleza": "PÚBLICO",
+          "codigo": "47007604",
+          "coord_latitud": 41.66995,
+          "c_denominacion_generica": 3,
+          "via": "PASEO",
+          "fax": 983356942,
+          "c_loca": 5,
+          "nombre_de_la_via": "DEL JARDÍN BOTÁNICO",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983356942,
+          "denominacion_generica_breve": "EEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.73192,
+            41.66995
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "1b485fd3abc293bfca1e0f50c82c1ab745565a86",
+        "fields": {
+          "comedor": "S",
+          "localizacion": [
+            41.65057,
+            -4.7076
+          ],
+          "c_postal": 47012,
+          "c_via": "CALLE",
+          "c_naturaleza": 1,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "LA CIGÜEÑA",
+          "denominacion_generica": "ESCUELA DE EDUCACION INFANTIL",
+          "internado": "N",
+          "numero_ext": "S/N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47007677@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.7076,
+          "naturaleza": "PÚBLICO",
+          "codigo": "47007677",
+          "coord_latitud": 41.65057,
+          "c_denominacion_generica": 3,
+          "via": "CALLE",
+          "fax": 983309827,
+          "c_loca": 5,
+          "nombre_de_la_via": "CIGÜEÑA",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "web": "http://eeilaciguena.centros.educa.jcyl.es/",
+          "telefono": 983309827,
+          "denominacion_generica_breve": "EEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.7076,
+            41.65057
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "5fc71ed9b36afaedc8bdd7135d0cbdf0f016834b",
+        "fields": {
+          "comedor": "S",
+          "localizacion": [
+            41.6388,
+            -4.72303
+          ],
+          "c_postal": 47013,
+          "c_via": "CALLE",
+          "c_naturaleza": 1,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "LA COMETA",
+          "denominacion_generica": "ESCUELA DE EDUCACION INFANTIL",
+          "numero": 10,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47007288@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.72303,
+          "naturaleza": "PÚBLICO",
+          "codigo": "47007288",
+          "coord_latitud": 41.6388,
+          "c_denominacion_generica": 3,
+          "via": "CALLE",
+          "fax": 983234285,
+          "c_loca": 5,
+          "nombre_de_la_via": "ARCA REAL",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983234285,
+          "denominacion_generica_breve": "EEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.72303,
+            41.6388
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "e5a9c5a856bc85f267eb7e7330d5e5973abaadee",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.66059,
+            -4.73007
+          ],
+          "c_postal": 47010,
+          "c_via": "CALLE",
+          "c_naturaleza": 1,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "CASCABEL",
+          "denominacion_generica": "ESCUELA DE EDUCACION INFANTIL",
+          "numero": 4,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012193@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.73007,
+          "naturaleza": "PÚBLICO",
+          "codigo": "47012193",
+          "coord_latitud": 41.66059,
+          "c_denominacion_generica": 3,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "SEMINARIO",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "denominacion_generica_breve": "EEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.73007,
+            41.66059
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "fd2cc2b4bedd3b3f4b4a1ed5f2881a7f95920439",
+        "fields": {
+          "comedor": "S",
+          "localizacion": [
+            41.61767,
+            -4.75116
+          ],
+          "c_postal": 47008,
+          "c_via": "CALLE",
+          "c_naturaleza": 1,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "CASCANUECES",
+          "denominacion_generica": "ESCUELA DE EDUCACION INFANTIL",
+          "numero": 18,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47011334@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.75116,
+          "naturaleza": "PÚBLICO",
+          "codigo": "47011334",
+          "coord_latitud": 41.61767,
+          "c_denominacion_generica": 3,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "BOEDO",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983244927,
+          "denominacion_generica_breve": "EEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.75116,
+            41.61767
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "66c2c5e89d375f8640baa61297f1237a4a712d15",
+        "fields": {
+          "comedor": "S",
+          "localizacion": [
+            41.66516,
+            -4.71395
+          ],
+          "c_postal": 47010,
+          "c_via": "CALLE",
+          "c_naturaleza": 1,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "EL GLOBO",
+          "denominacion_generica": "ESCUELA DE EDUCACION INFANTIL",
+          "numero": 4,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47007483@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.71395,
+          "naturaleza": "PÚBLICO",
+          "codigo": "47007483",
+          "coord_latitud": 41.66516,
+          "c_denominacion_generica": 3,
+          "via": "CALLE",
+          "fax": 983256718,
+          "c_loca": 5,
+          "nombre_de_la_via": "CANTABRIA",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983256901,
+          "denominacion_generica_breve": "EEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.71395,
+            41.66516
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "c620e679b91672d9a4520cf138147238422e0883",
+        "fields": {
+          "comedor": "S",
+          "localizacion": [
+            41.62757,
+            -4.74056
+          ],
+          "c_postal": 47008,
+          "c_via": "CALLE",
+          "c_naturaleza": 1,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "EL TOBOGÁN",
+          "denominacion_generica": "ESCUELA DE EDUCACION INFANTIL",
+          "numero": 12,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47007495@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.74056,
+          "naturaleza": "PÚBLICO",
+          "codigo": "47007495",
+          "coord_latitud": 41.62757,
+          "c_denominacion_generica": 3,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "LA MOTA",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983223813,
+          "denominacion_generica_breve": "EEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.74056,
+            41.62757
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "88ae42910859adad21c536c915b060d42655ffde",
+        "fields": {
+          "comedor": "S",
+          "localizacion": [
+            41.65241,
+            -4.74357
+          ],
+          "c_postal": 47014,
+          "c_via": "CALLE",
+          "c_naturaleza": 1,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "FANTASÍA",
+          "denominacion_generica": "ESCUELA DE EDUCACION INFANTIL",
+          "internado": "N",
+          "numero_ext": "S/N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47011553@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.74357,
+          "naturaleza": "PÚBLICO",
+          "codigo": "47011553",
+          "coord_latitud": 41.65241,
+          "c_denominacion_generica": 3,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "RASTROJO",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983356549,
+          "denominacion_generica_breve": "EEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.74357,
+            41.65241
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "f88a55566ebc3213e8c6d39ecfd0b66f8797ebdf",
+        "fields": {
+          "comedor": "S",
+          "localizacion": [
+            41.63617,
+            -4.75142
+          ],
+          "c_postal": 47014,
+          "c_via": "CALLE",
+          "c_naturaleza": 1,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "MAFALDA Y GUILLE",
+          "denominacion_generica": "ESCUELA DE EDUCACION INFANTIL",
+          "numero": 2,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47007355@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.75142,
+          "naturaleza": "PÚBLICO",
+          "codigo": "47007355",
+          "coord_latitud": 41.63617,
+          "c_denominacion_generica": 3,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "REMIGIO CABELLO",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983337828,
+          "denominacion_generica_breve": "EEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.75142,
+            41.63617
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "efd45c0a1aefbe50179fa232ee925884b148ed76",
+        "fields": {
+          "comedor": "S",
+          "localizacion": [
+            41.63094,
+            -4.74704
+          ],
+          "c_postal": 47014,
+          "c_via": "CALLE",
+          "c_naturaleza": 1,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "PLATERO",
+          "denominacion_generica": "ESCUELA DE EDUCACION INFANTIL",
+          "numero": 12,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47007276@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.74704,
+          "naturaleza": "PÚBLICO",
+          "codigo": "47007276",
+          "coord_latitud": 41.63094,
+          "c_denominacion_generica": 3,
+          "via": "CALLE",
+          "fax": 983473085,
+          "c_loca": 5,
+          "nombre_de_la_via": "ECUADOR",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983473085,
+          "denominacion_generica_breve": "EEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.74704,
+            41.63094
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      }
+    ],
+    "centro_privado_educacion_infantil": [
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "b8c696d37184f34f544cfa5f1f08bb78d71c0937",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.62397,
+            -4.74259
+          ],
+          "c_postal": 47008,
+          "c_via": "CRA.",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "ARGENTINAS",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 41,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012341@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.74259,
+          "naturaleza": "PRIVADO",
+          "codigo": "47012341",
+          "coord_latitud": 41.62397,
+          "c_denominacion_generica": 4,
+          "via": "CARRETERA",
+          "c_loca": 5,
+          "nombre_de_la_via": "DE RUEDA",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 692964595,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.74259,
+            41.62397
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "23f944c9976ab8c9962d1d2471a969308ffaa83b",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.66443,
+            -4.72659
+          ],
+          "c_postal": 47010,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "CASA DE NIÑAS Y NIÑOS MAESTRO CLAUDIO LÓPEZ SERRANO",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 64,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012326@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.72659,
+          "naturaleza": "PRIVADO",
+          "codigo": "47012326",
+          "coord_latitud": 41.66443,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "SOTO",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983254673,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.72659,
+            41.66443
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "ce0d6d8635678ec852853f68dd6a4977a1582388",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.61648,
+            -4.7529
+          ],
+          "c_postal": 47008,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "CHUPETÍN",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 12,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012417@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.7529,
+          "naturaleza": "PRIVADO",
+          "codigo": "47012417",
+          "coord_latitud": 41.61648,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "VINOS DE RUEDA",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983246178,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.7529,
+            41.61648
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "fb84d3fbbee8c1a8c532e7b4440f468e6e0c4c43",
+        "fields": {
+          "comedor": "S",
+          "localizacion": [
+            41.48283,
+            -4.77193
+          ],
+          "c_postal": 47015,
+          "c_via": "PZ.",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "EL DESPERTADOR INFANTIL 2010",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 9,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47011589@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.77193,
+          "naturaleza": "PRIVADO",
+          "codigo": "47011589",
+          "coord_latitud": 41.48283,
+          "c_denominacion_generica": 4,
+          "via": "PLAZA",
+          "c_loca": 5,
+          "nombre_de_la_via": "DE JUAN PABLO II",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 601181149,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.77193,
+            41.48283
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "ec77b2171072ba2019a5f90430fba92e6a1c58ec",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.6276,
+            -4.72798
+          ],
+          "c_postal": 47013,
+          "c_via": "PZ.",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "HAKUNA MATATA",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 1,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012302@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.72798,
+          "naturaleza": "PRIVADO",
+          "codigo": "47012302",
+          "coord_latitud": 41.6276,
+          "c_denominacion_generica": 4,
+          "via": "PLAZA",
+          "c_loca": 5,
+          "nombre_de_la_via": "SAN FRANCISCO DE ASÍS",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 678873192,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.72798,
+            41.6276
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "0fbc89cc36688691ca6486b0f85fde9715ac5068",
+        "fields": {
+          "comedor": "N",
+          "c_postal": 47005,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "HAPPY KIDS HOUSE",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 6,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012259@educa.jcyl.es",
+          "situacion": "ALTA",
+          "naturaleza": "PRIVADO",
+          "codigo": "47012259",
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "ISAAC QUINTERO",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 629714804,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "5469c73b135f1ef0d57a3fc7a28a2234d1d62e81",
+        "fields": {
+          "comedor": "S",
+          "localizacion": [
+            41.65286,
+            -4.71806
+          ],
+          "c_postal": 47003,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "KID'S GARDEN 3",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "internado": "N",
+          "numero_ext": "S/N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47011279@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.71806,
+          "naturaleza": "PRIVADO",
+          "codigo": "47011279",
+          "coord_latitud": 41.65286,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "COLÓN",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 618199996,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.71806,
+            41.65286
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "dcdb98497cd74dbaad9d598a78cfe45c29a3ba5e",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.65354,
+            -4.70603
+          ],
+          "c_postal": 47011,
+          "c_via": "PS.",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "LA LUNA AZUL BILINGÜE",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 140,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012545@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.70603,
+          "naturaleza": "PRIVADO",
+          "codigo": "47012545",
+          "coord_latitud": 41.65354,
+          "c_denominacion_generica": 4,
+          "via": "PASEO",
+          "c_loca": 5,
+          "nombre_de_la_via": "JUAN CARLOS I",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 685740169,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.70603,
+            41.65354
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "16b50314775d1cafb6df5dca16a226ad80c90469",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.6543,
+            -4.70623
+          ],
+          "c_postal": 47011,
+          "c_via": "PS.",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "MIS PRIMEROS PASITOS",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 142,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012454@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.70623,
+          "naturaleza": "PRIVADO",
+          "codigo": "47012454",
+          "coord_latitud": 41.6543,
+          "c_denominacion_generica": 4,
+          "via": "PASEO",
+          "c_loca": 5,
+          "nombre_de_la_via": "JUAN CARLOS I",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 606239382,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.70623,
+            41.6543
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "6751f321f14379c4ab1806311fb7610f758afc33",
+        "fields": {
+          "comedor": "S",
+          "localizacion": [
+            41.65073,
+            -4.7181
+          ],
+          "c_postal": 47002,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "SAN ANTONIO",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 8,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47007781@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.7181,
+          "naturaleza": "PRIVADO",
+          "codigo": "47007781",
+          "coord_latitud": 41.65073,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "MALDONADO",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 666571578,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.7181,
+            41.65073
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "25d36e224d02c3f1d45dd5e9c3dcb2d72f6a7f2c",
+        "fields": {
+          "comedor": "S",
+          "localizacion": [
+            41.63677,
+            -4.76184
+          ],
+          "c_postal": 47014,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "TRASTES",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 11,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47007756@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.76184,
+          "naturaleza": "PRIVADO",
+          "codigo": "47007756",
+          "coord_latitud": 41.63677,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "JUAN GARCIA HORTELANO",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983378220,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.76184,
+            41.63677
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "95c3ebfaca74169200d584d7a8f84428d626f161",
+        "fields": {
+          "comedor": "S",
+          "localizacion": [
+            41.61654,
+            -4.75369
+          ],
+          "c_postal": 47008,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "KID'S GARDEN 2",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 102,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47011103@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.75369,
+          "naturaleza": "PRIVADO",
+          "codigo": "47011103",
+          "coord_latitud": 41.61654,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "CAÑADA REAL",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 650535438,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.75369,
+            41.61654
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "95e6e376770a87fd48d2ae51ce8d4b123da06269",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.6327,
+            -4.71351
+          ],
+          "c_postal": 47012,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "LA ABEJA MAYA",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 5,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012351@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.71351,
+          "naturaleza": "PRIVADO",
+          "codigo": "47012351",
+          "coord_latitud": 41.6327,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "CASTAÑUELAS",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983234288,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.71351,
+            41.6327
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "5bdb6a40f42887a3b58c2884f6c5d86213aa7a5f",
+        "fields": {
+          "comedor": "S",
+          "localizacion": [
+            41.6468,
+            -4.73884
+          ],
+          "c_postal": 47014,
+          "c_via": "AV.",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "LA CASA DE LOS NIÑOS",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "internado": "N",
+          "numero_ext": "S/N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47010925@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.73884,
+          "naturaleza": "PRIVADO",
+          "codigo": "47010925",
+          "coord_latitud": 41.6468,
+          "c_denominacion_generica": 4,
+          "via": "AVENIDA",
+          "c_loca": 5,
+          "nombre_de_la_via": "SÁNCHEZ ARJONA",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "web": "http://www.lacasadelosninos.net/",
+          "telefono": 983331621,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.73884,
+            41.6468
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "3a92610da9bbfa5fda3d66f6d25ab0582f90e506",
+        "fields": {
+          "comedor": "S",
+          "localizacion": [
+            41.6349,
+            -4.76119
+          ],
+          "c_postal": 47014,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "LA PEQUEÑA LUNA 2",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "internado": "N",
+          "numero_ext": "18-20",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012144@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.76119,
+          "naturaleza": "PRIVADO",
+          "codigo": "47012144",
+          "coord_latitud": 41.6349,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "JOSÉ GARROTE TOBAR",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.76119,
+            41.6349
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "f962dce47ca37f3b0764ed92a4833100f71bd229",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.64632,
+            -4.74593
+          ],
+          "c_postal": 47015,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "Mamá Kokeshi",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 11,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012569@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.74593,
+          "naturaleza": "PRIVADO",
+          "codigo": "47012569",
+          "coord_latitud": 41.64632,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "Monasterio San Millán de la Cogolla",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983454350,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.74593,
+            41.64632
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "e85502e882b50337796d3dcc2ebc5d944cdb4e0f",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.63762,
+            -4.76692
+          ],
+          "c_postal": 47014,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "MI BOSQUE ENCANTADO",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 14,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012478@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.76692,
+          "naturaleza": "PRIVADO",
+          "codigo": "47012478",
+          "coord_latitud": 41.63762,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "JUAN GARCÍA HORTELANO",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983514411,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.76692,
+            41.63762
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "955a8daff9e73cd302d3411a319f2a5ad226ea12",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.63402,
+            -4.74205
+          ],
+          "c_postal": 47008,
+          "c_via": "PS.",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "MI PEQUEÑO COLE",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 87,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012284@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.74205,
+          "naturaleza": "PRIVADO",
+          "codigo": "47012284",
+          "coord_latitud": 41.63402,
+          "c_denominacion_generica": 4,
+          "via": "PASEO",
+          "c_loca": 5,
+          "nombre_de_la_via": "ZORRILLA",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 650744507,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.74205,
+            41.63402
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "ac5829cf25810fb92e55e25ed389162ae94c7453",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.67147,
+            -4.73337
+          ],
+          "c_postal": 47009,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "PIPO",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 19,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012387@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.73337,
+          "naturaleza": "PRIVADO",
+          "codigo": "47012387",
+          "coord_latitud": 41.67147,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "HIERBABUENA",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.73337,
+            41.67147
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "cda9b0b302b253d5bef0a1afca5c89d3a730f470",
+        "fields": {
+          "comedor": "S",
+          "localizacion": [
+            41.62657,
+            -4.74126
+          ],
+          "c_postal": 47008,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "ROMER",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "internado": "N",
+          "numero_ext": "S/N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47005607@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.74126,
+          "naturaleza": "PRIVADO",
+          "codigo": "47005607",
+          "coord_latitud": 41.62657,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "LA LEGIÓN",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983279779,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.74126,
+            41.62657
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "a8a9b4d5c2e0846fe1433041bccec4cbacdfdc78",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.61823,
+            -4.7062
+          ],
+          "c_postal": 47012,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "TRASTES SAN CRISTÓBAL",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 39,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012120@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.7062,
+          "naturaleza": "PRIVADO",
+          "codigo": "47012120",
+          "coord_latitud": 41.61823,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "PLATA",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983847036,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.7062,
+            41.61823
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "406599639ee1c2accf5d81273b81dfffa5a1fa0b",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.61964,
+            -4.75711
+          ],
+          "c_postal": 47008,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "ÁRBOL SABIO",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 4,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012119@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.75711,
+          "naturaleza": "PRIVADO",
+          "codigo": "47012119",
+          "coord_latitud": 41.61964,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "VILLAFRANCA DE DUERO",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "web": "https://arbolsabio.com/",
+          "telefono": 983247742,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.75711,
+            41.61964
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "d39258ca5f842959bded229469e1a7b30a258937",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.66295,
+            -4.73855
+          ],
+          "c_postal": 47009,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "ARCO IRIS",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 12,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012481@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.73855,
+          "naturaleza": "PRIVADO",
+          "codigo": "47012481",
+          "coord_latitud": 41.66295,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "JÚPITER",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 657761603,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.73855,
+            41.66295
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "f081c95970a3a4587df9b90ebe1c638ac7b24a3e",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.65042,
+            -4.70903
+          ],
+          "c_postal": 47012,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "CASA DE NIÑAS Y NIÑOS PAJARILLOS",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 7,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012338@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.70903,
+          "naturaleza": "PRIVADO",
+          "codigo": "47012338",
+          "coord_latitud": 41.65042,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "TORDO",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983308942,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.70903,
+            41.65042
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "943c004b95b44397cf0b63fc4c2bc302012c6518",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.6703,
+            -4.73246
+          ],
+          "c_postal": 47009,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "CUBILLAS JARDÍN DE RECREO",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 5,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012296@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.73246,
+          "naturaleza": "PRIVADO",
+          "codigo": "47012296",
+          "coord_latitud": 41.6703,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "ROBLE",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 648615059,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.73246,
+            41.6703
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "e9b1c59b52a23a2d73fcafb909b2bc018ae324d7",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.66657,
+            -4.70511
+          ],
+          "c_postal": 47011,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "EL MAJUELO",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 43,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012041@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.70511,
+          "naturaleza": "PRIVADO",
+          "codigo": "47012041",
+          "coord_latitud": 41.66657,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "Enrique León",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.70511,
+            41.66657
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "d1cff171cc88e0260f35d0dc431d301f7acdbbd8",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.6711,
+            -4.73153
+          ],
+          "c_postal": 47009,
+          "c_via": "PS.",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "LA SUITE INFANTIL",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 15,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012375@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.73153,
+          "naturaleza": "PRIVADO",
+          "codigo": "47012375",
+          "coord_latitud": 41.6711,
+          "c_denominacion_generica": 4,
+          "via": "PASEO",
+          "fax": 644194608,
+          "c_loca": 5,
+          "nombre_de_la_via": "DEL OBREGON",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 624123800,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.73153,
+            41.6711
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "e0de151fa3995dd3013fe3e2d4989fbcb1f96874",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.61636,
+            -4.75315
+          ],
+          "c_postal": 47008,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "LUNA MÁGICA",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 14,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012491@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.75315,
+          "naturaleza": "PRIVADO",
+          "codigo": "47012491",
+          "coord_latitud": 41.61636,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "VINOS DE RUEDA",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983043843,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.75315,
+            41.61636
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "2a953201b245cdd5aee362c8d1c5713e1b745392",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.64639,
+            -4.71326
+          ],
+          "c_postal": 47012,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "NOELIA",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 17,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012442@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.71326,
+          "naturaleza": "PRIVADO",
+          "codigo": "47012442",
+          "coord_latitud": 41.64639,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "PELÍCANO",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983306847,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.71326,
+            41.64639
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "580900c01465d041a28034672263fc840e1f28d6",
+        "fields": {
+          "comedor": "N",
+          "localizacion": [
+            41.61033,
+            -4.75703
+          ],
+          "c_postal": 47008,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "OKAPI",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 2,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47012181@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.75703,
+          "naturaleza": "PRIVADO",
+          "codigo": "47012181",
+          "coord_latitud": 41.61033,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "VALLE INCLÁN",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 622919067,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.75703,
+            41.61033
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "c0c2f7b7d06db16a1f8afd058dedcba8d651ea65",
+        "fields": {
+          "comedor": "S",
+          "localizacion": [
+            41.63421,
+            -4.76309
+          ],
+          "c_postal": 47014,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "PEQUEÑA LUNA",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 39,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47011048@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.76309,
+          "naturaleza": "PRIVADO",
+          "codigo": "47011048",
+          "coord_latitud": 41.63421,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "CIUDAD DE LA HABANA",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983133733,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.76309,
+            41.63421
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "af381f7a9c5bf15f23167cd80895d9d5d3f97069",
+        "fields": {
+          "comedor": "S",
+          "localizacion": [
+            41.65261,
+            -4.72249
+          ],
+          "c_postal": 47002,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "S",
+          "curso_academico": "2025",
+          "denominacion_especifica": "SANTA CATALINA",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 23,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47004974@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.72249,
+          "naturaleza": "PRIVADO",
+          "codigo": "47004974",
+          "coord_latitud": 41.65261,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "fax": 983292845,
+          "c_loca": 5,
+          "nombre_de_la_via": "FERROCARRIL",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "telefono": 983292845,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.72249,
+            41.65261
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      },
+      {
+        "datasetid": "directorio-de-centros-docentes",
+        "recordid": "78b0bee5850edaa99d09cf55ef2cf6601a3bc017",
+        "fields": {
+          "comedor": "S",
+          "localizacion": [
+            41.63621,
+            -4.73661
+          ],
+          "c_postal": 47006,
+          "c_via": "CALLE",
+          "c_naturaleza": 2,
+          "c_situacion": "A",
+          "municipio": "VALLADOLID",
+          "c_r_a": "N",
+          "concierto": "N",
+          "curso_academico": "2025",
+          "denominacion_especifica": "SANTA MÓNICA",
+          "denominacion_generica": "CENTRO PRIVADO DE EDUCACION INFANTIL",
+          "numero": 10,
+          "internado": "N",
+          "c_muni": 186,
+          "provincia": "VALLADOLID",
+          "correo_electronico": "47004251@educa.jcyl.es",
+          "situacion": "ALTA",
+          "coord_longitud": -4.73661,
+          "naturaleza": "PRIVADO",
+          "codigo": "47004251",
+          "coord_latitud": 41.63621,
+          "c_denominacion_generica": 4,
+          "via": "CALLE",
+          "c_loca": 5,
+          "nombre_de_la_via": "Arzobispo García Goldáraz",
+          "c_prov": 47,
+          "jornada_continua": "N",
+          "transporte": "N",
+          "web": "http://www.ceisantamonica.es",
+          "telefono": 983235067,
+          "denominacion_generica_breve": "CPrEI",
+          "localidad": "VALLADOLID"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.73661,
+            41.63621
+          ]
+        },
+        "record_timestamp": "2026-07-11T20:00:15.447Z"
+      }
+    ]
+  }
+}

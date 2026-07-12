@@ -1,0 +1,9 @@
+{
+  "_readme": "Centros descartados del dataset final de Malaga por no alcanzar el umbral minimo de verificacion (sin ningun dato de sustancia: ni telefono, ni email, ni web, ni servicio confirmado, ni horario, ni long_description). No se incluyen en el CSV de importacion ni en el SQL de insercion.",
+  "city": "malaga",
+  "generated_at": "2026-07-12T00:00:00.000Z",
+  "stats": {
+    "excluded_count": 0
+  },
+  "centers": []
+}

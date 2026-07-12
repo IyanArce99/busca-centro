@@ -1,0 +1,1946 @@
+{
+  "_readme": "Dataset de trabajo para Castello de la Plana, mismo formato snake_case que alicante-centers.json / valencia-centers.json. city_slug=castellon-de-la-plana. Fuente primaria: 'Centres docents de la Comunitat Valenciana' (Generalitat Valenciana, Conselleria d'Educacio, Universitats i Ocupacio, portal dadesobertes.gva.es), filtrado por localidad in ('CASTELLÓ DE LA PLANA','GRAU DE CASTELLÓ') (termino municipal completo de Castello de la Plana capital, incluyendo el distrito de El Grao). Complementado con las webs oficiales propias de las 3 escuelas infantiles municipales gestionadas por concesion (EULEN Servicios Sociosanitarios: Chupetes, Biberons, Peücs), las webs oficiales de los 2 centros publicos de titularidad Generalitat (portal.edu.gva.es) y con webs oficiales propias de un subconjunto de centros privados para confirmar servicios concretos del enum CenterService. Ver docs/data-sources-castellon.md.",
+  "city": "castellon-de-la-plana",
+  "generated_at": "2026-07-12T11:00:00.000Z",
+  "stats": {
+    "centers_count": 27,
+    "excluded_count": 0
+  },
+  "centers": [
+    {
+      "slug": "ei-nuestra-senora-de-lourdes-castellon-de-la-plana",
+      "name": "EI Nuestra Señora de Lourdes",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Plaza Teodoro Izquierdo, 1",
+        "postal_code": "12004",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.994769,
+        "longitude": -0.037808
+      },
+      "contact": {
+        "phone": "964738375",
+        "email": null,
+        "website": "https://portal.edu.gva.es/escolainfatilnuestrasenoradelourdes/es/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "psicomotricidad",
+        "patio-exterior"
+      ],
+      "short_description": "EI Nuestra Señora de Lourdes es un centro público de educación infantil de primer ciclo en Plaza Teodoro Izquierdo, 1, 12004 (Castellón de la Plana), dirigido a niños de 0 a 3 años, según el Registre de Centres Docents de la Comunitat Valenciana. Según fuente oficial, ofrece psicomotricidad, patio exterior.",
+      "long_description": "EI Nuestra Señora de Lourdes es un centro público de educación infantil de primer ciclo (0-3 años), de la Generalitat Valenciana, con sede en Plaza Teodoro Izquierdo, 1, 12004, Castellón de la Plana.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: psicomotricidad, patio exterior. Estos datos proceden directamente de la fuente oficial del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, el proceso de admisión y las plazas disponibles, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado EI Nuestra Señora de Lourdes?",
+          "answer": "El centro se encuentra en Plaza Teodoro Izquierdo, 1, 12004, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, de la Generalitat Valenciana, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 964738375, consultar su web oficial (https://portal.edu.gva.es/escolainfatilnuestrasenoradelourdes/es/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://portal.edu.gva.es/escolainfatilnuestrasenoradelourdes/es/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12001010",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "ei-mar-de-somnis-castellon-de-la-plana",
+      "name": "EI Mar de Somnis",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle El Palmeral, 2",
+        "postal_code": "12100",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": "El Grao",
+        "neighborhood_barrio": null,
+        "latitude": 39.978653,
+        "longitude": 0.013815
+      },
+      "contact": {
+        "phone": "964738830",
+        "email": null,
+        "website": "https://portal.edu.gva.es/mardesomnis/es/centro/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "comedor",
+        "patio-exterior"
+      ],
+      "short_description": "Situado en Calle El Palmeral, 2, 12100, Castellón de la Plana, EI Mar de Somnis atiende el primer ciclo de educación infantil (0-3 años) dentro de la red pública de la Comunitat Valenciana. Servicios confirmados: comedor, patio exterior.",
+      "long_description": "EI Mar de Somnis es un centro público de educación infantil de primer ciclo (0-3 años), de la Generalitat Valenciana, con sede en Calle El Palmeral, 2, 12100, Castellón de la Plana.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, patio exterior. Estos datos proceden directamente de la fuente oficial del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, el proceso de admisión y las plazas disponibles, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado EI Mar de Somnis?",
+          "answer": "El centro se encuentra en Calle El Palmeral, 2, 12100, en Castellón de la Plana, en el distrito de El Grao."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, de la Generalitat Valenciana, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 964738830, consultar su web oficial (https://portal.edu.gva.es/mardesomnis/es/centro/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://portal.edu.gva.es/mardesomnis/es/centro/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12005787",
+      "pedagogical_approach": [],
+      "notes_internal": "Situada en el distrito de El Grao (Grau de Castelló), uno de los 6 distritos administrativos oficiales del municipio, con localidad propia \"GRAU DE CASTELLÓ\" en el registro oficial."
+    },
+    {
+      "slug": "escuela-infantil-municipal-los-duendes-castellon-de-la-plana",
+      "name": "Escuela Infantil Municipal Los Duendes",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Grupo San Lorenzo, Carretera Ribesalbes, s/n",
+        "postal_code": "12006",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.98061,
+        "longitude": -0.07148
+      },
+      "contact": {
+        "phone": "964246802",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Escuela Infantil Municipal Los Duendes, con sede en Grupo San Lorenzo, Carretera Ribesalbes, s/n, 12006 (Castellón de la Plana), es un centro público de primer ciclo de infantil para niños de 0 a 3 años, registrado como centro docente de la Generalitat Valenciana.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Escuela Infantil Municipal Los Duendes?",
+          "answer": "El centro se encuentra en Grupo San Lorenzo, Carretera Ribesalbes, s/n, 12006, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, municipal, del Ajuntament de Castelló de la Plana, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 964246802."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12006330",
+      "pedagogical_approach": [],
+      "notes_internal": "No se localizo web oficial propia verificable (fuentes de terceros mencionan una escuela trilingue de gestion privada con el mismo nombre en otra ubicacion/ciudad, que no se ha usado como fuente por no poder confirmarse que corresponda a este centro). Servicios no confirmados."
+    },
+    {
+      "slug": "escuela-infantil-municipal-chupetes-castellon-de-la-plana",
+      "name": "Escuela Infantil Municipal Chupetes",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Antonio Prades Safont, s/n",
+        "postal_code": "12004",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.993163,
+        "longitude": -0.028984
+      },
+      "contact": {
+        "phone": "964269307",
+        "email": "eichupetes@eulen.com",
+        "website": "https://escuelachupetes.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Horario central de 9:00 a 17:00 h. Horario ampliado de 7:30 a 9:00 h y de 17:00 a 18:00 h (según demanda).",
+      "services": [
+        "comedor",
+        "horario-ampliado",
+        "musica",
+        "psicomotricidad",
+        "verano-campamentos"
+      ],
+      "short_description": "Escuela Infantil Municipal Chupetes es una escuela infantil de titularidad municipal en Calle Antonio Prades Safont, s/n, 12004 (Castellón de la Plana), dirigida a niños de 0 a 3 años, gestionada por concesión del Ajuntament de Castelló de la Plana. Según su propia web oficial, ofrece comedor, horario ampliado, música, psicomotricidad, escuela de verano.",
+      "long_description": "Escuela Infantil Municipal Chupetes es un centro público de educación infantil de primer ciclo (0-3 años), municipal, del Ajuntament de Castelló de la Plana, gestionada mediante concesión de servicio público (EULEN Servicios Sociosanitarios), con sede en Calle Antonio Prades Safont, s/n, 12004, Castellón de la Plana.\n\nSegún su propia fuente oficial, el horario del centro es: Horario central de 9:00 a 17:00 h. Horario ampliado de 7:30 a 9:00 h y de 17:00 a 18:00 h (según demanda).\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, horario ampliado, música, psicomotricidad, escuela de verano. Estos datos proceden directamente de la fuente oficial del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, el proceso de admisión y las plazas disponibles, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Escuela Infantil Municipal Chupetes?",
+          "answer": "El centro se encuentra en Calle Antonio Prades Safont, s/n, 12004, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, municipal, del Ajuntament de Castelló de la Plana, gestionada mediante concesión de servicio público (EULEN Servicios Sociosanitarios), según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Horario central de 9:00 a 17:00 h. Horario ampliado de 7:30 a 9:00 h y de 17:00 a 18:00 h (según demanda)."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 964269307, escribir a eichupetes@eulen.com, consultar su web oficial (https://escuelachupetes.com/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://escuelachupetes.com/",
+        "https://escuelachupetes.com/contacto/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12007531",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "escuela-infantil-municipal-biberons-castellon-de-la-plana",
+      "name": "Escuela Infantil Municipal Biberons",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Desierto de las Palmas, 5",
+        "postal_code": "12006",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.972923,
+        "longitude": -0.054739
+      },
+      "contact": {
+        "phone": "964210099",
+        "email": "eibiberons@eulen.com",
+        "website": "https://escuelabiberons.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Horario ampliado de mañana de 7:30 a 9:00 h. Horario central de 9:00 a 17:00 h (salidas a las 12:00, 15:15 y 16:30 h). Horario ampliado de tarde de 17:00 a 18:00 h.",
+      "services": [
+        "comedor",
+        "horario-ampliado",
+        "verano-campamentos"
+      ],
+      "short_description": "Situada en Calle Desierto de las Palmas, 5, 12006, Castellón de la Plana, Escuela Infantil Municipal Biberons forma parte de la red de escuelas infantiles municipales de Castelló de la Plana para el primer ciclo de infantil (0-3 años). La web oficial del centro confirma: comedor, horario ampliado, escuela de verano.",
+      "long_description": "Escuela Infantil Municipal Biberons es un centro público de educación infantil de primer ciclo (0-3 años), municipal, del Ajuntament de Castelló de la Plana, gestionada mediante concesión de servicio público (EULEN Servicios Sociosanitarios), con sede en Calle Desierto de las Palmas, 5, 12006, Castellón de la Plana.\n\nSegún su propia fuente oficial, el horario del centro es: Horario ampliado de mañana de 7:30 a 9:00 h. Horario central de 9:00 a 17:00 h (salidas a las 12:00, 15:15 y 16:30 h). Horario ampliado de tarde de 17:00 a 18:00 h.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, horario ampliado, escuela de verano. Estos datos proceden directamente de la fuente oficial del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, el proceso de admisión y las plazas disponibles, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Escuela Infantil Municipal Biberons?",
+          "answer": "El centro se encuentra en Calle Desierto de las Palmas, 5, 12006, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, municipal, del Ajuntament de Castelló de la Plana, gestionada mediante concesión de servicio público (EULEN Servicios Sociosanitarios), según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Horario ampliado de mañana de 7:30 a 9:00 h. Horario central de 9:00 a 17:00 h (salidas a las 12:00, 15:15 y 16:30 h). Horario ampliado de tarde de 17:00 a 18:00 h."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 964210099, escribir a eibiberons@eulen.com, consultar su web oficial (https://escuelabiberons.com/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://escuelabiberons.com/",
+        "https://escuelabiberons.com/contacto/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12007541",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "escuela-infantil-municipal-peucs-castellon-de-la-plana",
+      "name": "Escuela Infantil Municipal Peücs",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle José María Mulet Ortiz, 10",
+        "postal_code": "12006",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.993894,
+        "longitude": -0.06043
+      },
+      "contact": {
+        "phone": "964731213",
+        "email": "eipeucs@eulen.com",
+        "website": "https://escuelapeucs.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Horario ampliado de mañana de 7:30 a 9:00 h. Horario central de 9:00 a 17:00 h (salidas a las 12:00 y 15:15 h). Horario ampliado de tarde de 17:00 a 18:00 h.",
+      "services": [
+        "comedor",
+        "horario-ampliado",
+        "verano-campamentos"
+      ],
+      "short_description": "Escuela Infantil Municipal Peücs, con sede en Calle José María Mulet Ortiz, 10, 12006 (Castellón de la Plana), atiende el primer ciclo de educación infantil (0-3 años) dentro de la red municipal de Castelló de la Plana. Su propia web confirma los siguientes servicios: comedor, horario ampliado, escuela de verano.",
+      "long_description": "Escuela Infantil Municipal Peücs es un centro público de educación infantil de primer ciclo (0-3 años), municipal, del Ajuntament de Castelló de la Plana, gestionada mediante concesión de servicio público (EULEN Servicios Sociosanitarios), con sede en Calle José María Mulet Ortiz, 10, 12006, Castellón de la Plana.\n\nSegún su propia fuente oficial, el horario del centro es: Horario ampliado de mañana de 7:30 a 9:00 h. Horario central de 9:00 a 17:00 h (salidas a las 12:00 y 15:15 h). Horario ampliado de tarde de 17:00 a 18:00 h.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, horario ampliado, escuela de verano. Estos datos proceden directamente de la fuente oficial del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, el proceso de admisión y las plazas disponibles, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Escuela Infantil Municipal Peücs?",
+          "answer": "El centro se encuentra en Calle José María Mulet Ortiz, 10, 12006, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, municipal, del Ajuntament de Castelló de la Plana, gestionada mediante concesión de servicio público (EULEN Servicios Sociosanitarios), según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Horario ampliado de mañana de 7:30 a 9:00 h. Horario central de 9:00 a 17:00 h (salidas a las 12:00 y 15:15 h). Horario ampliado de tarde de 17:00 a 18:00 h."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 964731213, escribir a eipeucs@eulen.com, consultar su web oficial (https://escuelapeucs.com/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://escuelapeucs.com/",
+        "https://escuelapeucs.com/contacto/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12007553",
+      "pedagogical_approach": [],
+      "notes_internal": "La direccion segun la web oficial propia del centro (\"C/ Jose Ma Mulet Ortiz, 10\") difiere ligeramente del numero registrado en el CSV de la Generalitat (\"s/n\"); se ha usado la version de la web oficial del centro, mas especifica."
+    },
+    {
+      "slug": "escuela-infantil-san-cristobal-castellon-de-la-plana",
+      "name": "Escuela Infantil San Cristóbal",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Moncófar, 6",
+        "postal_code": "12003",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.98738,
+        "longitude": -0.028753
+      },
+      "contact": {
+        "phone": "964233114",
+        "email": null,
+        "website": "https://www.sancristobalsl.com/educacion-infantil-primer-ciclo/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "bilingue",
+        "ingles",
+        "musica",
+        "psicomotricidad"
+      ],
+      "short_description": "Escuela Infantil San Cristóbal es un centro privado de educación infantil de primer ciclo en Calle Moncófar, 6, 12003 (Castellón de la Plana), dirigido a niños de 0 a 3 años. Según su propia web oficial, ofrece: proyecto bilingüe, inglés, música, psicomotricidad.",
+      "long_description": "Escuela Infantil San Cristóbal es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Moncófar, 6, 12003, Castellón de la Plana.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: proyecto bilingüe, inglés, música, psicomotricidad. Estos datos proceden directamente de la fuente oficial del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, el proceso de admisión y las plazas disponibles, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Escuela Infantil San Cristóbal?",
+          "answer": "El centro se encuentra en Calle Moncófar, 6, 12003, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Ofrece enseñanza bilingüe o de inglés?",
+          "answer": "Sí, según su propia fuente oficial es un centro con proyecto bilingüe o de enseñanza de inglés."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 964233114, consultar su web oficial (https://www.sancristobalsl.com/educacion-infantil-primer-ciclo/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://www.sancristobalsl.com/educacion-infantil-primer-ciclo/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12003602",
+      "pedagogical_approach": [],
+      "notes_internal": "Etapa de primer ciclo (0-3) del Colegio Internacional San Cristobal (centro con etapas educativas mas amplias). Solo se incluye el primer ciclo, unico dato del MVP."
+    },
+    {
+      "slug": "cei-los-angeles-castellon-de-la-plana",
+      "name": "CEI Los Ángeles",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Camino Fadrell, s/n",
+        "postal_code": "12005",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.964737,
+        "longitude": -0.052915
+      },
+      "contact": {
+        "phone": "964213635",
+        "email": "info@escuelainfantilosangeles.com",
+        "website": "https://www.escuelainfantilosangeles.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Horario ampliado de 7:30 a 18:00 h.",
+      "services": [
+        "comedor",
+        "cocina-propia",
+        "horario-ampliado",
+        "patio-exterior",
+        "verano-campamentos"
+      ],
+      "short_description": "Ubicado en Camino Fadrell, s/n, 12005, Castellón de la Plana, CEI Los Ángeles atiende el primer ciclo de infantil (0-3 años). Su web oficial confirma los siguientes servicios: comedor, cocina propia, horario ampliado, patio exterior, escuela de verano.",
+      "long_description": "CEI Los Ángeles es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Camino Fadrell, s/n, 12005, Castellón de la Plana.\n\nSegún su propia fuente oficial, el horario del centro es: Horario ampliado de 7:30 a 18:00 h.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, cocina propia, horario ampliado, patio exterior, escuela de verano. Estos datos proceden directamente de la fuente oficial del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, el proceso de admisión y las plazas disponibles, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado CEI Los Ángeles?",
+          "answer": "El centro se encuentra en Camino Fadrell, s/n, 12005, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Horario ampliado de 7:30 a 18:00 h."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor con cocina propia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 964213635, escribir a info@escuelainfantilosangeles.com, consultar su web oficial (https://www.escuelainfantilosangeles.com/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://www.escuelainfantilosangeles.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12005301",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "mikole-castellon-de-la-plana",
+      "name": "Mikole",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Cuadra Saboner, 4",
+        "postal_code": "12006",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.987284,
+        "longitude": -0.063483
+      },
+      "contact": {
+        "phone": "964270368",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Mikole es un centro privado de educación infantil de primer ciclo en Calle Cuadra Saboner, 4, 12006 (Castellón de la Plana), dirigido a niños de 0 a 3 años, según el Registre de Centres Docents de la Comunitat Valenciana.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Mikole?",
+          "answer": "El centro se encuentra en Calle Cuadra Saboner, 4, 12006, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 964270368."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12006071",
+      "pedagogical_approach": [],
+      "notes_internal": "No se localizo web oficial propia accesible y verificable dentro del alcance de esta investigacion."
+    },
+    {
+      "slug": "lom-castellon-de-la-plana",
+      "name": "L'Om",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle L'Illa de Baleato, 35",
+        "postal_code": "12006",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.97505,
+        "longitude": -0.05281
+      },
+      "contact": {
+        "phone": "638232034",
+        "email": "escolaom@gmail.com",
+        "website": "https://www.lomescolainfantil.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Ubicado en Calle L'Illa de Baleato, 35, 12006, Castellón de la Plana, L'Om figura en el registro oficial de centros docentes de la Comunitat Valenciana como centro privado de primer ciclo de educación infantil. No hay constancia oficial de servicios adicionales.",
+      "long_description": "L'Om es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle L'Illa de Baleato, 35, 12006, Castellón de la Plana.\n\nEl centro declara en su web oficial un enfoque pedagógico basado en pedagogía respetuosa.\n\nPara conocer el proyecto educativo completo, el proceso de admisión y las plazas disponibles, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado L'Om?",
+          "answer": "El centro se encuentra en Calle L'Illa de Baleato, 35, 12006, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 638232034, escribir a escolaom@gmail.com, consultar su web oficial (https://www.lomescolainfantil.com/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://www.lomescolainfantil.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12006329",
+      "pedagogical_approach": [
+        "Pedagogía respetuosa"
+      ],
+      "notes_internal": "Cooperativa valenciana. La web oficial confirma enfoque pedagogico (\"espacio de acompanamiento respetuoso\") pero no detalla servicios concretos del enum con precision suficiente."
+    },
+    {
+      "slug": "la-jirafa-castellon-de-la-plana",
+      "name": "La Jirafa",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Museros, 16",
+        "postal_code": "12005",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.97846,
+        "longitude": -0.032412
+      },
+      "contact": {
+        "phone": "964236262",
+        "email": null,
+        "website": "https://www.lajirafa.es/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Aula matinera de 7:30 a 9:00 h. Recogida de 12:30 a 17:00 h.",
+      "services": [
+        "comedor",
+        "horario-ampliado",
+        "bilingue",
+        "ingles"
+      ],
+      "short_description": "La Jirafa, con sede en Calle Museros, 16, 12005 (Castellón de la Plana), es un centro privado de primer ciclo de educación infantil que, según su propia web, ofrece comedor, horario ampliado, proyecto bilingüe, inglés.",
+      "long_description": "La Jirafa es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Museros, 16, 12005, Castellón de la Plana.\n\nSegún su propia fuente oficial, el horario del centro es: Aula matinera de 7:30 a 9:00 h. Recogida de 12:30 a 17:00 h.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, horario ampliado, proyecto bilingüe, inglés. Estos datos proceden directamente de la fuente oficial del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, el proceso de admisión y las plazas disponibles, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Jirafa?",
+          "answer": "El centro se encuentra en Calle Museros, 16, 12005, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Aula matinera de 7:30 a 9:00 h. Recogida de 12:30 a 17:00 h."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 964236262, consultar su web oficial (https://www.lajirafa.es/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://www.lajirafa.es/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12007103",
+      "pedagogical_approach": [],
+      "notes_internal": "Grupo con 2 centros en Castello (La Jirafa y La Jirafa II), mismo titular (Escola i Oci, SL) y misma web oficial de grupo. Metodo de ingles por inmersion (\"English Immersion\") confirmado en la web del grupo."
+    },
+    {
+      "slug": "iep-bebes-castellon-de-la-plana",
+      "name": "IEP Bebés",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Ronda Nord de Circumval·lació, 348",
+        "postal_code": "12005",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 40.001156,
+        "longitude": -0.030105
+      },
+      "contact": {
+        "phone": "964261241",
+        "email": "recepcioncastellon@iepgroup.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "bilingue",
+        "ingles"
+      ],
+      "short_description": "En Ronda Nord de Circumval·lació, 348, 12005, Castellón de la Plana, IEP Bebés es un centro privado dirigido a niños de 0 a 3 años. La web oficial del proyecto educativo (International English School Castellón, grupo Dukes Education) confirma un proyecto bilingüe con exposición diaria a profesorado en inglés y en español desde el primer ciclo.",
+      "long_description": "IEP Bebés es la etapa de primer ciclo (0-3 años) de International English School Castellón, con sede en Ronda Nord de Circumval·lació, 348, 12005, Castellón de la Plana.\n\nLa web oficial del proyecto educativo del centro, dentro del apartado Early Years, confirma que la etapa de 1 a 2 años (\"Baby Bears\") sigue un proyecto bilingüe: los niños se exponen diariamente a profesorado tanto en inglés como en español, no una inmersión exclusiva en inglés. Este dato procede de la fuente oficial citada en source_urls_secondary, no de inferencia sobre el nombre comercial del centro.\n\nPara conocer el proyecto educativo completo, el proceso de admisión y las plazas disponibles, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado IEP Bebés?",
+          "answer": "El centro se encuentra en Ronda Nord de Circumval·lació, 348, 12005, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Ofrece enseñanza bilingüe o de inglés?",
+          "answer": "Sí. La web oficial del proyecto educativo (International English School Castellón) confirma un proyecto bilingüe, con exposición diaria a profesorado en inglés y en español."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 964261241, escribir a recepcioncastellon@iepgroup.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://international-english-school-castellon.dukeseducation.es/proyecto-educativo/early-years/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12007437",
+      "pedagogical_approach": [],
+      "notes_internal": "Etapa de primer ciclo (0-3, \"IEP Bebes\") del centro International English School of Castellon (antes Elian's British School), grupo IEP Group / Dukes Education. Correccion post-auditoria (incidencia C1): el dominio original (iepenglish.es) fallaba por DNS durante la investigacion inicial y el servicio bilingue/ingles se asigno por consistencia de nombre comercial sin fuente citada, lo cual era una afirmacion de fuente inexistente en contenido indexable. Verificado ahora en la web oficial actual del centro (ver source_urls_secondary): confirma proyecto bilingue con exposicion diaria a profesorado en ingles y espanol desde la etapa Baby Bears (1-2 anos), no inmersion total en ingles. Direccion (Ronda Circunvalacion 348, Castello) coincide con el dato ya registrado."
+    },
+    {
+      "slug": "fabulinus-castellon-de-la-plana",
+      "name": "Fabulinus",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Vicente Blasco Ibáñez, 23",
+        "postal_code": "12003",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.991175,
+        "longitude": -0.024928
+      },
+      "contact": {
+        "phone": "964224465",
+        "email": null,
+        "website": "https://www.fabulinus.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Horario flexible de 7:30 a 18:00 h (ampliable hasta las 18:30 h según demanda).",
+      "services": [
+        "comedor",
+        "horario-ampliado",
+        "bilingue",
+        "ingles"
+      ],
+      "short_description": "Fabulinus atiende el primer ciclo de educación infantil (0-3 años) en Calle Vicente Blasco Ibáñez, 23, 12003 (Castellón de la Plana). Su propia web detalla los siguientes servicios confirmados: comedor, horario ampliado, proyecto bilingüe, inglés.",
+      "long_description": "Fabulinus es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Vicente Blasco Ibáñez, 23, 12003, Castellón de la Plana.\n\nSegún su propia fuente oficial, el horario del centro es: Horario flexible de 7:30 a 18:00 h (ampliable hasta las 18:30 h según demanda).\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, horario ampliado, proyecto bilingüe, inglés. Estos datos proceden directamente de la fuente oficial del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, el proceso de admisión y las plazas disponibles, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Fabulinus?",
+          "answer": "El centro se encuentra en Calle Vicente Blasco Ibáñez, 23, 12003, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Horario flexible de 7:30 a 18:00 h (ampliable hasta las 18:30 h según demanda)."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 964224465, consultar su web oficial (https://www.fabulinus.com/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://www.fabulinus.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12007498",
+      "pedagogical_approach": [],
+      "notes_internal": "Sede \"Fabulinus\" (Auditorio). Proyecto trilingue (valenciano, castellano, ingles) del mismo grupo que la sede \"Fabulinus Ribalta\"."
+    },
+    {
+      "slug": "la-papallona-menuda-castellon-de-la-plana",
+      "name": "La Papallona Menuda",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Calderón de la Barca, 15",
+        "postal_code": "12004",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.995895,
+        "longitude": -0.033216
+      },
+      "contact": {
+        "phone": "652823254",
+        "email": "guarderia@lapapallonamenuda.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "La Papallona Menuda, con sede en Calle Calderón de la Barca, 15, 12004 (Castellón de la Plana), es un centro privado autorizado para el primer ciclo de educación infantil (0-3 años). Se recomienda confirmar servicios y horario directamente con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Papallona Menuda?",
+          "answer": "El centro se encuentra en Calle Calderón de la Barca, 15, 12004, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 652823254, escribir a guarderia@lapapallonamenuda.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12007577",
+      "pedagogical_approach": [],
+      "notes_internal": "No se localizo web oficial propia estable y accesible con contenido citable dentro del alcance de esta investigacion."
+    },
+    {
+      "slug": "picarol-castellon-de-la-plana",
+      "name": "Picarol",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Juan Bautista Foliá Prades, 11",
+        "postal_code": "12006",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.989155,
+        "longitude": -0.065274
+      },
+      "contact": {
+        "phone": "964841511",
+        "email": "picarol@ceipicarol.es",
+        "website": "https://www.ceipicarol.es/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "De 7:30 a 17:30 h. Abierto de septiembre a julio.",
+      "services": [
+        "comedor",
+        "horario-ampliado"
+      ],
+      "short_description": "Localizado en Calle Juan Bautista Foliá Prades, 11, 12006, Castellón de la Plana, Picarol es un centro privado autorizado por la Conselleria d'Educació para niños de 0 a 3 años. Según fuente propia, dispone de comedor, horario ampliado.",
+      "long_description": "Picarol es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Juan Bautista Foliá Prades, 11, 12006, Castellón de la Plana.\n\nSegún su propia fuente oficial, el horario del centro es: De 7:30 a 17:30 h. Abierto de septiembre a julio.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, horario ampliado. Estos datos proceden directamente de la fuente oficial del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, el proceso de admisión y las plazas disponibles, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Picarol?",
+          "answer": "El centro se encuentra en Calle Juan Bautista Foliá Prades, 11, 12006, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De 7:30 a 17:30 h. Abierto de septiembre a julio."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 964841511, escribir a picarol@ceipicarol.es, consultar su web oficial (https://www.ceipicarol.es/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://www.ceipicarol.es/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12007589",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "la-jirafa-ii-castellon-de-la-plana",
+      "name": "La Jirafa II",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Plaza Cerámiques Diago, 1",
+        "postal_code": "12006",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.97909,
+        "longitude": -0.046462
+      },
+      "contact": {
+        "phone": "964245372",
+        "email": "escolaioci2@hotmail.com",
+        "website": "https://www.lajirafa.es/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Aula matinera de 7:30 a 9:00 h. Recogida de 12:30 a 17:00 h.",
+      "services": [
+        "comedor",
+        "horario-ampliado",
+        "bilingue",
+        "ingles"
+      ],
+      "short_description": "La Jirafa II, en Plaza Cerámiques Diago, 1, 12006 (Castellón de la Plana), ofrece educación infantil de primer ciclo (0-3 años) con los siguientes servicios confirmados en su propia web: comedor, horario ampliado, proyecto bilingüe, inglés.",
+      "long_description": "La Jirafa II es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Plaza Cerámiques Diago, 1, 12006, Castellón de la Plana.\n\nSegún su propia fuente oficial, el horario del centro es: Aula matinera de 7:30 a 9:00 h. Recogida de 12:30 a 17:00 h.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, horario ampliado, proyecto bilingüe, inglés. Estos datos proceden directamente de la fuente oficial del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, el proceso de admisión y las plazas disponibles, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Jirafa II?",
+          "answer": "El centro se encuentra en Plaza Cerámiques Diago, 1, 12006, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Aula matinera de 7:30 a 9:00 h. Recogida de 12:30 a 17:00 h."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 964245372, escribir a escolaioci2@hotmail.com, consultar su web oficial (https://www.lajirafa.es/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://www.lajirafa.es/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12007668",
+      "pedagogical_approach": [],
+      "notes_internal": "Segunda sede del grupo La Jirafa (mismo titular Escola i Oci, SL y misma web de grupo que \"La Jirafa\")."
+    },
+    {
+      "slug": "kids-garden-castellon-de-la-plana",
+      "name": "Kid's Garden",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Obispo Salinas, 48",
+        "postal_code": "12003",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.982776,
+        "longitude": -0.026385
+      },
+      "contact": {
+        "phone": "619539221",
+        "email": "info@kidsgardencastellon.com",
+        "website": "https://kidsgarden.edu.es/castellon/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "De lunes a viernes, de 9:00 a 17:00 h (horario de proyecto de 9:00 a 16:30 h). Servicio de acogida ampliado disponible para familias que lo soliciten.",
+      "services": [
+        "comedor",
+        "horario-ampliado",
+        "bilingue"
+      ],
+      "short_description": "Con sede en Calle Obispo Salinas, 48, 12003, Castellón de la Plana, Kid's Garden es un centro privado de primer ciclo de infantil. Su web oficial cita expresamente: comedor, horario ampliado, proyecto bilingüe.",
+      "long_description": "Kid's Garden es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Obispo Salinas, 48, 12003, Castellón de la Plana.\n\nSegún su propia fuente oficial, el horario del centro es: De lunes a viernes, de 9:00 a 17:00 h (horario de proyecto de 9:00 a 16:30 h). Servicio de acogida ampliado disponible para familias que lo soliciten.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, horario ampliado, proyecto bilingüe. Estos datos proceden directamente de la fuente oficial del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, el proceso de admisión y las plazas disponibles, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Kid's Garden?",
+          "answer": "El centro se encuentra en Calle Obispo Salinas, 48, 12003, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De lunes a viernes, de 9:00 a 17:00 h (horario de proyecto de 9:00 a 16:30 h). Servicio de acogida ampliado disponible para familias que lo soliciten."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 619539221, escribir a info@kidsgardencastellon.com, consultar su web oficial (https://kidsgarden.edu.es/castellon/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://kidsgarden.edu.es/castellon/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12007760",
+      "pedagogical_approach": [],
+      "notes_internal": "Franquicia de la red Kid's Garden (Fomento de Centros de Ensenanza, SA), presente en varias ciudades de Espana."
+    },
+    {
+      "slug": "la-lluna-uji-castellon-de-la-plana",
+      "name": "La Lluna-UJI",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avenida Vicent Sos Baynat, s/n (Campus del Riu Sec, UJI)",
+        "postal_code": "12006",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.996191,
+        "longitude": -0.067194
+      },
+      "contact": {
+        "phone": "964201211",
+        "email": "uji@lalluna.net",
+        "website": "https://lalluna.net/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "patio-exterior"
+      ],
+      "short_description": "La Lluna-UJI es un centro privado de educación infantil de primer ciclo en Avenida Vicent Sos Baynat, s/n (Campus del Riu Sec, UJI), 12006 (Castellón de la Plana), dirigido a niños de 0 a 3 años. Según su propia web oficial, ofrece: patio exterior.",
+      "long_description": "La Lluna-UJI es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Avenida Vicent Sos Baynat, s/n (Campus del Riu Sec, UJI), 12006, Castellón de la Plana.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: patio exterior. Estos datos proceden directamente de la fuente oficial del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nEl centro declara en su web oficial un enfoque pedagógico basado en pedagogía activa, materiales no estructurados.\n\nPara conocer el proyecto educativo completo, el proceso de admisión y las plazas disponibles, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Lluna-UJI?",
+          "answer": "El centro se encuentra en Avenida Vicent Sos Baynat, s/n (Campus del Riu Sec, UJI), 12006, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 964201211, escribir a uji@lalluna.net, consultar su web oficial (https://lalluna.net/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://lalluna.net/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12007841",
+      "pedagogical_approach": [
+        "Pedagogía activa",
+        "Materiales no estructurados"
+      ],
+      "notes_internal": "Escola Infantil La Lluna Coop.V. gestiona 2 centros en Castello (La Lluna y La Lluna-UJI); este registro corresponde a la sede del Campus del Riu Sec de la Universitat Jaume I, adjudicada por concurso publico de la propia universidad. Mas de 750 m² de espacio exterior confirmados en la web oficial."
+    },
+    {
+      "slug": "fabulinus-ribalta-castellon-de-la-plana",
+      "name": "Fabulinus Ribalta",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Cataluña, 3",
+        "postal_code": "12003",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.988218,
+        "longitude": -0.042631
+      },
+      "contact": {
+        "phone": "964224465",
+        "email": null,
+        "website": "https://www.fabulinus.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Horario flexible de 7:30 a 18:00 h (ampliable hasta las 18:30 h según demanda).",
+      "services": [
+        "comedor",
+        "horario-ampliado",
+        "bilingue",
+        "ingles"
+      ],
+      "short_description": "Ubicado en Calle Cataluña, 3, 12003, Castellón de la Plana, Fabulinus Ribalta atiende el primer ciclo de infantil (0-3 años). Su web oficial confirma los siguientes servicios: comedor, horario ampliado, proyecto bilingüe, inglés.",
+      "long_description": "Fabulinus Ribalta es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Cataluña, 3, 12003, Castellón de la Plana.\n\nSegún su propia fuente oficial, el horario del centro es: Horario flexible de 7:30 a 18:00 h (ampliable hasta las 18:30 h según demanda).\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, horario ampliado, proyecto bilingüe, inglés. Estos datos proceden directamente de la fuente oficial del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, el proceso de admisión y las plazas disponibles, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Fabulinus Ribalta?",
+          "answer": "El centro se encuentra en Calle Cataluña, 3, 12003, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Horario flexible de 7:30 a 18:00 h (ampliable hasta las 18:30 h según demanda)."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 964224465, consultar su web oficial (https://www.fabulinus.com/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://www.fabulinus.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12007863",
+      "pedagogical_approach": [],
+      "notes_internal": "Sede \"Fabulinus Ribalta\". Proyecto trilingue (valenciano, castellano, ingles) del mismo grupo que la sede \"Fabulinus\" (Auditorio)."
+    },
+    {
+      "slug": "apapachoa-castellon-de-la-plana",
+      "name": "Apapachoa",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Parque del Oeste, 42",
+        "postal_code": "12006",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.980844,
+        "longitude": -0.04761
+      },
+      "contact": {
+        "phone": "625338882",
+        "email": "info@apapachoaescuelainfantil.com",
+        "website": "https://apapachoaescuelainfantil.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "De lunes a viernes, de 8:00 a 17:00 h.",
+      "services": [
+        "comedor",
+        "cocina-propia",
+        "horario-ampliado",
+        "verano-campamentos"
+      ],
+      "short_description": "Apapachoa, con sede en Calle Parque del Oeste, 42, 12006 (Castellón de la Plana), es un centro privado de primer ciclo de educación infantil que, según su propia web, ofrece comedor, cocina propia, horario ampliado, escuela de verano.",
+      "long_description": "Apapachoa es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Parque del Oeste, 42, 12006, Castellón de la Plana.\n\nSegún su propia fuente oficial, el horario del centro es: De lunes a viernes, de 8:00 a 17:00 h.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, cocina propia, horario ampliado, escuela de verano. Estos datos proceden directamente de la fuente oficial del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nEl centro declara en su web oficial un enfoque pedagógico basado en pedagogía respetuosa.\n\nPara conocer el proyecto educativo completo, el proceso de admisión y las plazas disponibles, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Apapachoa?",
+          "answer": "El centro se encuentra en Calle Parque del Oeste, 42, 12006, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De lunes a viernes, de 8:00 a 17:00 h."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor con cocina propia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 625338882, escribir a info@apapachoaescuelainfantil.com, consultar su web oficial (https://apapachoaescuelainfantil.com/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://apapachoaescuelainfantil.com/servicios-escuela-infantil-castellon/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12007887",
+      "pedagogical_approach": [
+        "Pedagogía respetuosa"
+      ],
+      "notes_internal": null
+    },
+    {
+      "slug": "la-marieta-castellon-de-la-plana",
+      "name": "La Marieta",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Illa Baleato, 5",
+        "postal_code": "12006",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.978189,
+        "longitude": -0.051693
+      },
+      "contact": {
+        "phone": "665224772",
+        "email": "lamarietacescuelainfantil@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "En Calle Illa Baleato, 5, 12006, Castellón de la Plana, La Marieta atiende el primer ciclo de infantil (0-3 años) según el registro oficial de centros docentes de la Generalitat Valenciana. No se ha podido confirmar información adicional sobre servicios concretos.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Marieta?",
+          "answer": "El centro se encuentra en Calle Illa Baleato, 5, 12006, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 665224772, escribir a lamarietacescuelainfantil@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12008065",
+      "pedagogical_approach": [],
+      "notes_internal": "Web propia solo localizada como perfil de constructor de paginas (Wix) sin contenido estable citable dentro del alcance de esta investigacion."
+    },
+    {
+      "slug": "els-sentits-castellon-de-la-plana",
+      "name": "Els Sentits",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Cronista Revest, 9",
+        "postal_code": "12003",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.981387,
+        "longitude": -0.031376
+      },
+      "contact": {
+        "phone": "633319666",
+        "email": "info@elssentits.com",
+        "website": "https://www.elssentits.com/ca"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "De lunes a viernes, de 7:30 a 17:00 h, todo el año excepto la segunda quincena de agosto.",
+      "services": [
+        "comedor",
+        "cocina-propia",
+        "ingles",
+        "patio-exterior",
+        "horario-ampliado",
+        "verano-campamentos"
+      ],
+      "short_description": "En Calle Cronista Revest, 9, 12003, Castellón de la Plana, Els Sentits es un centro privado dirigido a niños de 0 a 3 años. La información publicada en su web oficial confirma estos servicios: comedor, cocina propia, inglés, patio exterior, horario ampliado, escuela de verano.",
+      "long_description": "Els Sentits es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Cronista Revest, 9, 12003, Castellón de la Plana.\n\nSegún su propia fuente oficial, el horario del centro es: De lunes a viernes, de 7:30 a 17:00 h, todo el año excepto la segunda quincena de agosto.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, cocina propia, inglés, patio exterior, horario ampliado, escuela de verano. Estos datos proceden directamente de la fuente oficial del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nEl centro declara en su web oficial un enfoque pedagógico basado en pedagogía activa.\n\nPara conocer el proyecto educativo completo, el proceso de admisión y las plazas disponibles, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Els Sentits?",
+          "answer": "El centro se encuentra en Calle Cronista Revest, 9, 12003, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De lunes a viernes, de 7:30 a 17:00 h, todo el año excepto la segunda quincena de agosto."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor con cocina propia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 633319666, escribir a info@elssentits.com, consultar su web oficial (https://www.elssentits.com/ca)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://www.elssentits.com/ca"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12008259",
+      "pedagogical_approach": [
+        "Pedagogía activa"
+      ],
+      "notes_internal": null
+    },
+    {
+      "slug": "primers-passos-castellon-de-la-plana",
+      "name": "Primers Passos",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Bernat Artola, 22",
+        "postal_code": "12004",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.993624,
+        "longitude": -0.033997
+      },
+      "contact": {
+        "phone": "615446933",
+        "email": "ceiprimerspassos@gmail.com",
+        "website": "https://primerspassos.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "De lunes a viernes, de 7:30 a 17:00 h.",
+      "services": [
+        "cocina-propia",
+        "ingles",
+        "musica",
+        "horario-ampliado",
+        "verano-campamentos"
+      ],
+      "short_description": "Primers Passos atiende el primer ciclo de educación infantil (0-3 años) en Calle Bernat Artola, 22, 12004 (Castellón de la Plana). Su propia web detalla los siguientes servicios confirmados: cocina propia, inglés, música, horario ampliado, escuela de verano.",
+      "long_description": "Primers Passos es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Bernat Artola, 22, 12004, Castellón de la Plana.\n\nSegún su propia fuente oficial, el horario del centro es: De lunes a viernes, de 7:30 a 17:00 h.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: cocina propia, inglés, música, horario ampliado, escuela de verano. Estos datos proceden directamente de la fuente oficial del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, el proceso de admisión y las plazas disponibles, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Primers Passos?",
+          "answer": "El centro se encuentra en Calle Bernat Artola, 22, 12004, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De lunes a viernes, de 7:30 a 17:00 h."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor con cocina propia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 615446933, escribir a ceiprimerspassos@gmail.com, consultar su web oficial (https://primerspassos.com/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://primerspassos.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12008351",
+      "pedagogical_approach": [],
+      "notes_internal": "Grupo con al menos 2 sedes confirmadas en la propia web (Bernat Artola y Guitarrista Fortea/Sensal), mismo titular Nova Escoleta, SL."
+    },
+    {
+      "slug": "primers-passos-sensal-castellon-de-la-plana",
+      "name": "Primers Passos Sensal",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Guitarrista Fortea, 25",
+        "postal_code": "12005",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.978239,
+        "longitude": -0.036954
+      },
+      "contact": {
+        "phone": "964197936",
+        "email": "ceiprimerspassos@gmail.com",
+        "website": "https://primerspassos.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "De lunes a viernes, de 7:30 a 17:00 h.",
+      "services": [
+        "cocina-propia",
+        "ingles",
+        "musica",
+        "horario-ampliado",
+        "verano-campamentos"
+      ],
+      "short_description": "Localizado en Calle Guitarrista Fortea, 25, 12005, Castellón de la Plana, Primers Passos Sensal es un centro privado autorizado por la Conselleria d'Educació para niños de 0 a 3 años. Según fuente propia, dispone de cocina propia, inglés, música, horario ampliado, escuela de verano.",
+      "long_description": "Primers Passos Sensal es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Guitarrista Fortea, 25, 12005, Castellón de la Plana.\n\nSegún su propia fuente oficial, el horario del centro es: De lunes a viernes, de 7:30 a 17:00 h.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: cocina propia, inglés, música, horario ampliado, escuela de verano. Estos datos proceden directamente de la fuente oficial del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, el proceso de admisión y las plazas disponibles, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Primers Passos Sensal?",
+          "answer": "El centro se encuentra en Calle Guitarrista Fortea, 25, 12005, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De lunes a viernes, de 7:30 a 17:00 h."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor con cocina propia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 964197936, escribir a ceiprimerspassos@gmail.com, consultar su web oficial (https://primerspassos.com/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://primerspassos.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12008454",
+      "pedagogical_approach": [],
+      "notes_internal": "Sede \"Sensal\" del grupo Primers Passos (mismo titular Nova Escoleta, SL, confirmada en la web oficial del grupo)."
+    },
+    {
+      "slug": "sirius-castellon-de-la-plana",
+      "name": "Sirius",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Gumbau, 19 bis",
+        "postal_code": "12001",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.984783,
+        "longitude": -0.035963
+      },
+      "contact": {
+        "phone": "646155182",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Sirius es un centro privado de primer ciclo de educación infantil en Calle Gumbau, 19 bis, 12001 (Castellón de la Plana). Los servicios concretos del centro no están confirmados en fuente oficial; conviene solicitarlos directamente.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Sirius?",
+          "answer": "El centro se encuentra en Calle Gumbau, 19 bis, 12001, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 646155182."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12008491",
+      "pedagogical_approach": [],
+      "notes_internal": "Existe una web de grupo \"Centros Infantiles Sirius\" (centrosinfantilessirius.com) que menciona una escuela infantil de primer ciclo, pero con una direccion (Plaza Escuelas Pias) que no coincide con la registrada oficialmente en este centro (Calle Gumbau) y sin poder confirmar de forma inequivoca que se trate del mismo centro; por prudencia no se han asignado servicios de esa web al presente registro."
+    },
+    {
+      "slug": "primers-passos-censal-ii-castellon-de-la-plana",
+      "name": "Primers Passos Censal II",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Río Nervión, 9",
+        "postal_code": "12005",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.973712,
+        "longitude": -0.040658
+      },
+      "contact": {
+        "phone": "654921522",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Situado en Calle Río Nervión, 9, 12005, Castellón de la Plana, Primers Passos Censal II es un centro privado registrado para niños de 0 a 3 años en Castelló de la Plana. La ficha se limita a los datos disponibles en el registro oficial.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Primers Passos Censal II?",
+          "answer": "El centro se encuentra en Calle Río Nervión, 9, 12005, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 654921522."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12008582",
+      "pedagogical_approach": [],
+      "notes_internal": "Mismo titular (Nova Escoleta, SL) que \"Primers Passos\" y \"Primers Passos Sensal\", pero esta tercera sede no aparece mencionada en la web oficial del grupo (primerspassos.com), que solo confirma 2 direcciones. Por prudencia no se han asignado los servicios del grupo a esta sede sin confirmacion directa."
+    },
+    {
+      "slug": "contam-un-conte-castellon-de-la-plana",
+      "name": "Conta'm un Conte",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avenida Vicente Sos Baynat, 31",
+        "postal_code": "12006",
+        "city_slug": "castellon-de-la-plana",
+        "city_name": "Castellón de la Plana",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 39.990705,
+        "longitude": -0.065722
+      },
+      "contact": {
+        "phone": "964036072",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Conta'm un Conte, en Avenida Vicente Sos Baynat, 31, 12006 (Castellón de la Plana), es un centro privado de educación infantil de primer ciclo (0-3 años) autorizado por la Conselleria d'Educació de la Generalitat Valenciana.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Conta'm un Conte?",
+          "answer": "El centro se encuentra en Avenida Vicente Sos Baynat, 31, 12006, en Castellón de la Plana."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 964036072."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T11:00:00.000Z",
+      "updated_at": "2026-07-12T11:00:00.000Z",
+      "codigo_centro_rc": "12008612",
+      "pedagogical_approach": [],
+      "notes_internal": "Solo se localizo un blog de Wordpress con contenido de actividades, sin datos de contacto ni servicios estructurados citables."
+    }
+  ]
+}

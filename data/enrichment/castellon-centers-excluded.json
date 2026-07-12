@@ -1,0 +1,10 @@
+{
+  "_readme": "Centros descartados del dataset final de Castello de la Plana por no alcanzar el umbral minimo de verificacion del proyecto (nombre+slug+tipo+municipio+direccion+short_description + al menos uno de: servicio confirmado, long_description, web oficial, telefono confirmado, email confirmado, horario confirmado, titularidad+etapa bien documentadas). No se incluyen en el CSV de importacion ni en el SQL de insercion.",
+  "city": "castellon-de-la-plana",
+  "generated_at": "2026-07-12T11:00:00.000Z",
+  "stats": {
+    "excluded_count": 0
+  },
+  "centers": [],
+  "notes": "Los 27 candidatos localizados en la fuente oficial de la Generalitat Valenciana (filtro localidad in ('CASTELLÓ DE LA PLANA','GRAU DE CASTELLÓ') + denominacion_generica_es de primer ciclo) cumplen el umbral minimo del proyecto: los 27 tienen telefono confirmado en fuente oficial (100%), direccion, titularidad y coordenadas verificables en el 100% de los casos. Por tanto ningun candidato ha sido descartado en este sprint."
+}

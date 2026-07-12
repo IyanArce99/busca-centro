@@ -1,0 +1,2013 @@
+{
+  "_readme": "Extraccion sin procesar (raw) de las fuentes oficiales para Zaragoza, ANTES de deduplicar, normalizar direcciones/nombres, generar slugs o redactar contenido. Ver docs/data-sources-zaragoza.md para el detalle de cada fuente. Este archivo documenta el punto de partida de la investigacion, incluye 1 registro con error de geolocalizacion de la fuente origen (E.E.I. Villanueva de Sijena, perteneciente a Huesca, excluido en el dataset final) y no incluye todavia las 4 escuelas municipales ni el ajuste de Loreto que se completaron con fuentes complementarias porque no aparecian en el dataset abierto del Gobierno de Aragon.",
+  "generated_at": "2026-07-12T08:54:27.980Z",
+  "sources": {
+    "ga_od_core": {
+      "description": "Extraccion cruda (GeoJSON) del endpoint GA_OD_Core del Gobierno de Aragon (vista 167, Directorio de Centros Educativos de Aragon), filtrada por localidad=Zaragoza y tipo_centr en [Escuela de Educacion Infantil, Centro Privado de Educacion Infantil, Escuela Infantil]. 53 registros brutos, incluye 1 error de geolocalizacion (Villanueva de Sijena, en realidad Huesca) que se excluyo en el dataset final tras verificacion cruzada (idcentrorc y codigo postal empiezan por 22, no 50).",
+      "url": "https://opendata.aragon.es/GA_OD_Core/download?view_id=167&formato=json",
+      "raw_features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              675406.72,
+              4611865.22
+            ]
+          },
+          "properties": {
+            "objectid": 5459,
+            "idcentrorc": 50019950,
+            "nombre_cen": "E.E.I Nanyland San Francisco",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Calle Ram de Viu, número 22",
+            "codpostal": 50006,
+            "telefono": "976 55 29 54",
+            "mail": "sanfrancisco@nanyland.com",
+            "fax": null,
+            "web": null,
+            "coordx": 675406,
+            "coordy": 4611865,
+            "xcen": "675406.72",
+            "ycen": "4611865.22",
+            "srs": null,
+            "refpar": null,
+            "longitud": "-0.89392261",
+            "latitud": "41.63923976"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              680649.66,
+              4615300.64
+            ]
+          },
+          "properties": {
+            "objectid": 4641,
+            "idcentrorc": 50018350,
+            "nombre_cen": "E.E.I. Brioletas",
+            "tipo_centr": "Escuela de Educación Infantil",
+            "naturaleza": "Público",
+            "localidad": "Zaragoza",
+            "direccion": "CL. LA IGLESIA, Nº 32",
+            "codpostal": 50058,
+            "telefono": "976 58 85 46",
+            "mail": "einfantil-santaisabel@zaragoza.es",
+            "fax": 976588546,
+            "web": null,
+            "coordx": 680649,
+            "coordy": 4615300,
+            "xcen": "680649.66",
+            "ycen": "4615300.64",
+            "srs": "25830",
+            "refpar": "0754211XM8105D",
+            "longitud": "-0.82997627",
+            "latitud": "41.66899077"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              673119.59,
+              4613450.77
+            ]
+          },
+          "properties": {
+            "objectid": 4715,
+            "idcentrorc": 50007613,
+            "nombre_cen": "C.E.I. Bosque Ternura",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Vía Hispanidad, 117",
+            "codpostal": 50011,
+            "telefono": "976 33 24 50",
+            "mail": null,
+            "fax": null,
+            "web": null,
+            "coordx": 673119,
+            "coordy": 4613450,
+            "xcen": "673119.59",
+            "ycen": "4613450.77",
+            "srs": "25830",
+            "refpar": "3236201XM7133E",
+            "longitud": "-0.92090728",
+            "latitud": "41.65401149"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              675020.2,
+              4611816
+            ]
+          },
+          "properties": {
+            "objectid": 5254,
+            "idcentrorc": 50011756,
+            "nombre_cen": "C.E.I. Peluche",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Cl. Pedro Cerbuna, 41",
+            "codpostal": 50009,
+            "telefono": "976 56 00 05",
+            "mail": null,
+            "fax": null,
+            "web": null,
+            "coordx": 675020,
+            "coordy": 4611816,
+            "xcen": "675020.20",
+            "ycen": 4611816,
+            "srs": "25830",
+            "refpar": "5120813XM7151G",
+            "longitud": "-0.89857488",
+            "latitud": "41.63888164"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              749052.83,
+              4622380.26
+            ]
+          },
+          "properties": {
+            "objectid": 5419,
+            "idcentrorc": 22010931,
+            "nombre_cen": "E.E.I. Villanueva de Sijena",
+            "tipo_centr": "Escuela Infantil",
+            "naturaleza": "Público",
+            "localidad": "Zaragoza",
+            "direccion": "CL. EL SALVADOR, 9",
+            "codpostal": 22231,
+            "telefono": "",
+            "mail": null,
+            "fax": null,
+            "web": null,
+            "coordx": 749052,
+            "coordy": 4622380,
+            "xcen": "749052.83",
+            "ycen": "4622380.26",
+            "srs": "25830",
+            "refpar": "9126112YM4292N",
+            "longitud": "-0.00627153",
+            "latitud": "41.71423265"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              667484.37,
+              4614329.88
+            ]
+          },
+          "properties": {
+            "objectid": 5265,
+            "idcentrorc": 50018040,
+            "nombre_cen": "E.E.I. Nuestra Señora de Loreto",
+            "tipo_centr": "Escuela de Educación Infantil",
+            "naturaleza": "Público",
+            "localidad": "Zaragoza",
+            "direccion": "BASE AÉREA DE ZARAGOZA, CTRA. DEL AEROPUERTO, S/N",
+            "codpostal": 50071,
+            "telefono": "976 70 90 90",
+            "mail": "lorena.gil@kidsco.es",
+            "fax": 976708017,
+            "web": null,
+            "coordx": 667484,
+            "coordy": 4614329,
+            "xcen": "667484.37",
+            "ycen": "4614329.88",
+            "srs": "25830",
+            "refpar": "000800200XM61D",
+            "longitud": "-0.98829670",
+            "latitud": "41.66312892"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              672170.57,
+              4613845.16
+            ]
+          },
+          "properties": {
+            "objectid": 5259,
+            "idcentrorc": 50018295,
+            "nombre_cen": "C.E.I. Zarapeques",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "CL. ENRIQUE VAL, 4-LOCAL",
+            "codpostal": 50011,
+            "telefono": "976 508 739",
+            "mail": "zarapeques@gmail.com",
+            "fax": null,
+            "web": null,
+            "coordx": 672170,
+            "coordy": 4613845,
+            "xcen": "672170.57",
+            "ycen": "4613845.16",
+            "srs": "25830",
+            "refpar": "2240901XM7124A",
+            "longitud": "-0.93218385",
+            "latitud": "41.65776708"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              677084.08,
+              4609629.59
+            ]
+          },
+          "properties": {
+            "objectid": 4512,
+            "idcentrorc": 50019639,
+            "nombre_cen": "C.E.I. Pequeños Venecianos",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "CL. VAPORETTO, 4, LOCAL",
+            "codpostal": 50021,
+            "telefono": "653818266",
+            "mail": "pvenecianos@gmail.com",
+            "fax": null,
+            "web": null,
+            "coordx": 677084,
+            "coordy": 4609629,
+            "xcen": "677084.08",
+            "ycen": "4609629.59",
+            "srs": "25830",
+            "refpar": "7298206XM7079G",
+            "longitud": "-0.87445751",
+            "latitud": "41.61874609"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              672602.59,
+              4611030.28
+            ]
+          },
+          "properties": {
+            "objectid": 5405,
+            "idcentrorc": 50018453,
+            "nombre_cen": "C.E.I. Las Torres de Montecanal",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "CL. TOMÁS ANZANO, Nº 37 URB. MONTECANAL",
+            "codpostal": 50297,
+            "telefono": "976 751 939",
+            "mail": "info@guarderiamontecanal.com",
+            "fax": 976751939,
+            "web": "www.guarderiamontecanal.com",
+            "coordx": 672602,
+            "coordy": 4611030,
+            "xcen": "672602.59",
+            "ycen": "4611030.28",
+            "srs": "25830",
+            "refpar": "2712205XM7121D",
+            "longitud": "-0.92781078",
+            "latitud": "41.63233599"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              677436.91,
+              4611975.43
+            ]
+          },
+          "properties": {
+            "objectid": 4926,
+            "idcentrorc": 50009142,
+            "nombre_cen": "C.E.I. Heidi",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Cl. Martín Abanto, 12",
+            "codpostal": 50013,
+            "telefono": "976 41 19 48",
+            "mail": "ciheidi@ono.com",
+            "fax": 976411948,
+            "web": null,
+            "coordx": 677436,
+            "coordy": 4611975,
+            "xcen": "677436.91",
+            "ycen": "4611975.43",
+            "srs": "25830",
+            "refpar": "7521409XM7172B",
+            "longitud": "-0.86952992",
+            "latitud": "41.63978266"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              675876.25,
+              4611427.24
+            ]
+          },
+          "properties": {
+            "objectid": 4965,
+            "idcentrorc": 50006682,
+            "nombre_cen": "C.E.I. Divina Pastora",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Cl. Maestro Estremiana, 31-33",
+            "codpostal": 50006,
+            "telefono": "976 27 10 42",
+            "mail": "colegio.divinapastora@hotmail.com",
+            "fax": null,
+            "web": null,
+            "coordx": 675876,
+            "coordy": 4611427,
+            "xcen": "675876.25",
+            "ycen": "4611427.24",
+            "srs": "25830",
+            "refpar": "5915312XM7151F",
+            "longitud": "-0.88841747",
+            "latitud": "41.63519405"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              673671.08,
+              4611026.94
+            ]
+          },
+          "properties": {
+            "objectid": 4977,
+            "idcentrorc": 50005483,
+            "nombre_cen": "C. Virgen de Guadalupe",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Cl. Isla De Yerba, 12",
+            "codpostal": 50012,
+            "telefono": "976 75 40 80",
+            "mail": "vguadalupez@planalfa.es",
+            "fax": 976754080,
+            "web": "http://colegiovirgenguadalupe.com/",
+            "coordx": 673671,
+            "coordy": 4611026,
+            "xcen": "673671.08",
+            "ycen": "4611026.94",
+            "srs": "25830",
+            "refpar": "3712647XM7131B",
+            "longitud": "-0.91499209",
+            "latitud": "41.63207402"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              676657.78,
+              4613064.7
+            ]
+          },
+          "properties": {
+            "objectid": 4914,
+            "idcentrorc": 50006931,
+            "nombre_cen": "C.E.I. Jesús Reparador",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Cl. Sancho Y Gil, 6",
+            "codpostal": 50001,
+            "telefono": "976 22 13 88",
+            "mail": null,
+            "fax": null,
+            "web": null,
+            "coordx": 676657,
+            "coordy": 4613064,
+            "xcen": "676657.78",
+            "ycen": "4613064.70",
+            "srs": "25830",
+            "refpar": "6732408XM7163D",
+            "longitud": "-0.87855695",
+            "latitud": "41.64976019"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              677265.14,
+              4614240.58
+            ]
+          },
+          "properties": {
+            "objectid": 5029,
+            "idcentrorc": 50018234,
+            "nombre_cen": "C.E.I. La Locomotora",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "CL. VALLE DE ZURIZA, 36-38, LOCAL 2",
+            "codpostal": 50014,
+            "telefono": "976 296 554",
+            "mail": "cei.locomotora@hotmail.com",
+            "fax": null,
+            "web": null,
+            "coordx": 677265,
+            "coordy": 4614240,
+            "xcen": "677265.14",
+            "ycen": "4614240.58",
+            "srs": "25830",
+            "refpar": "7344703XM7174F",
+            "longitud": "-0.87091946",
+            "latitud": "41.66020945"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              677415.35,
+              4612543.82
+            ]
+          },
+          "properties": {
+            "objectid": 5030,
+            "idcentrorc": 50018192,
+            "nombre_cen": "E.E.I. La Piraña",
+            "tipo_centr": "Escuela de Educación Infantil",
+            "naturaleza": "Público",
+            "localidad": "Zaragoza",
+            "direccion": "CL. FLORENTINO BALLESTEROS, 2",
+            "codpostal": 50002,
+            "telefono": "976 49 36 70",
+            "mail": "einfantil-pirana@zaragoza.es",
+            "fax": 976399071,
+            "web": null,
+            "coordx": 677415,
+            "coordy": 4612543,
+            "xcen": "677415.35",
+            "ycen": "4612543.82",
+            "srs": "25830",
+            "refpar": "7527201XM7172H",
+            "longitud": "-0.86962003",
+            "latitud": "41.64490353"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              676969.57,
+              4610585.82
+            ]
+          },
+          "properties": {
+            "objectid": 5054,
+            "idcentrorc": 50017291,
+            "nombre_cen": "C.E.I. Nuestra Señora de La Paz",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Cl La Salud, 11",
+            "codpostal": 50007,
+            "telefono": "976 27 27 89",
+            "mail": null,
+            "fax": null,
+            "web": null,
+            "coordx": 676969,
+            "coordy": 4610585,
+            "xcen": "676969.57",
+            "ycen": "4610585.82",
+            "srs": "25830",
+            "refpar": "7008704XM7170G",
+            "longitud": "-0.87554844",
+            "latitud": "41.62737857"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              676666.73,
+              4615888.74
+            ]
+          },
+          "properties": {
+            "objectid": 5038,
+            "idcentrorc": 50018167,
+            "nombre_cen": "C.E.I. Duendeduca",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "AVDA. SALVADOR ALLENDE, 71",
+            "codpostal": 50015,
+            "telefono": "976 736 464",
+            "mail": "duendeduca@hotmail.com",
+            "fax": null,
+            "web": null,
+            "coordx": 676666,
+            "coordy": 4615888,
+            "xcen": "676666.73",
+            "ycen": "4615888.74",
+            "srs": "25830",
+            "refpar": "6760402XM7166B",
+            "longitud": "-0.87761464",
+            "latitud": "41.67517742"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              677083.31,
+              4614161.14
+            ]
+          },
+          "properties": {
+            "objectid": 5141,
+            "idcentrorc": 50017849,
+            "nombre_cen": "C.E.I. El Tren Chu-Chu",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "CL. MATILDE SANGÜESA, 9-11",
+            "codpostal": 50014,
+            "telefono": "976 39 30 46",
+            "mail": "centroeltrenchuchu@gmail.com",
+            "fax": null,
+            "web": null,
+            "coordx": 677083,
+            "coordy": 4614161,
+            "xcen": "677083.31",
+            "ycen": "4614161.14",
+            "srs": "25830",
+            "refpar": "7142402XM7174C",
+            "longitud": "-0.87312545",
+            "latitud": "41.65953484"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              675696.33,
+              4610762.61
+            ]
+          },
+          "properties": {
+            "objectid": 4622,
+            "idcentrorc": 50017308,
+            "nombre_cen": "C.E.I. La Virgen Niña",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Cami.  De Cuarte, 71",
+            "codpostal": 50007,
+            "telefono": "976 37 92 96",
+            "mail": null,
+            "fax": null,
+            "web": null,
+            "coordx": 675696,
+            "coordy": 4610762,
+            "xcen": "675696.33",
+            "ycen": "4610762.61",
+            "srs": "25830",
+            "refpar": "5809930XM7150H",
+            "longitud": "-0.89077131",
+            "latitud": "41.62925128"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              676216.87,
+              4615806.06
+            ]
+          },
+          "properties": {
+            "objectid": 4628,
+            "idcentrorc": 50017539,
+            "nombre_cen": "E.E.I. Los Vientos",
+            "tipo_centr": "Escuela de Educación Infantil",
+            "naturaleza": "Público",
+            "localidad": "Zaragoza",
+            "direccion": "CL. POETA LUÍS CERNUDA",
+            "codpostal": 50018,
+            "telefono": "976 51 57 50",
+            "mail": "einfantil-vientos@zaragoza.es",
+            "fax": 976399071,
+            "web": null,
+            "coordx": 676216,
+            "coordy": 4615806,
+            "xcen": "676216.87",
+            "ycen": "4615806.06",
+            "srs": "25830",
+            "refpar": "6359402XM7166A",
+            "longitud": "-0.88303987",
+            "latitud": "41.67453286"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              676931.13,
+              4611305.05
+            ]
+          },
+          "properties": {
+            "objectid": 4638,
+            "idcentrorc": 50018386,
+            "nombre_cen": "C.E.I. El Arka",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "CL GERONA 3",
+            "codpostal": 50007,
+            "telefono": "976 254 985",
+            "mail": "cei.elarka@hotmail.com",
+            "fax": null,
+            "web": null,
+            "coordx": 676931,
+            "coordy": 4611305,
+            "xcen": "676931.13",
+            "ycen": "4611305.05",
+            "srs": "25830",
+            "refpar": "7015104XM7171E",
+            "longitud": "-0.87579698",
+            "latitud": "41.63386092"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              675508.94,
+              4613185.97
+            ]
+          },
+          "properties": {
+            "objectid": 4722,
+            "idcentrorc": 50017163,
+            "nombre_cen": "C.E.I. Fundación El Refugio",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Cl. Crespo De Agüero, 1",
+            "codpostal": 50004,
+            "telefono": "976 22 18 37",
+            "mail": null,
+            "fax": 976221837,
+            "web": null,
+            "coordx": 675508,
+            "coordy": 4613185,
+            "xcen": "675508.94",
+            "ycen": "4613185.97",
+            "srs": "25830",
+            "refpar": "5634902XM7153D",
+            "longitud": "-0.89230850",
+            "latitud": "41.65110550"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              676714.65,
+              4613493.18
+            ]
+          },
+          "properties": {
+            "objectid": 4723,
+            "idcentrorc": 50017229,
+            "nombre_cen": "C.E.I. Bolandrina",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Cl. Refugio, 9, Local",
+            "codpostal": 50001,
+            "telefono": "976 20 39 24",
+            "mail": "bolandrina@hotmail.com",
+            "fax": null,
+            "web": null,
+            "coordx": 676714,
+            "coordy": 4613493,
+            "xcen": "676714.65",
+            "ycen": "4613493.18",
+            "srs": "25830",
+            "refpar": "6837906XM7163F",
+            "longitud": "-0.87774782",
+            "latitud": "41.65360435"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              675652.3,
+              4613294.63
+            ]
+          },
+          "properties": {
+            "objectid": 4724,
+            "idcentrorc": 50017242,
+            "nombre_cen": "C.E.I. El Carmen",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "CL. DOCTOR FLEMING, 15; BAJO",
+            "codpostal": 50004,
+            "telefono": "976 40 45 50",
+            "mail": null,
+            "fax": null,
+            "web": null,
+            "coordx": 675652,
+            "coordy": 4613294,
+            "xcen": "675652.30",
+            "ycen": "4613294.63",
+            "srs": "25830",
+            "refpar": "5736711XM7153D",
+            "longitud": "-0.89055609",
+            "latitud": "41.65205198"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              676943.73,
+              4614249.34
+            ]
+          },
+          "properties": {
+            "objectid": 4779,
+            "idcentrorc": 50011872,
+            "nombre_cen": "E.E.I. Villacampa",
+            "tipo_centr": "Escuela de Educación Infantil",
+            "naturaleza": "Público",
+            "localidad": "Zaragoza",
+            "direccion": "Cl. Villacampa, 32-36",
+            "codpostal": 50015,
+            "telefono": "976 52 32 83",
+            "mail": "einfantil-villacampa@zaragoza.es",
+            "fax": 976399071,
+            "web": null,
+            "coordx": 676943,
+            "coordy": 4614249,
+            "xcen": "676943.73",
+            "ycen": "4614249.34",
+            "srs": "25830",
+            "refpar": "7044426XM7174C",
+            "longitud": "-0.87477467",
+            "latitud": "41.66035973"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              676628.6,
+              4616008.05
+            ]
+          },
+          "properties": {
+            "objectid": 4780,
+            "idcentrorc": 50017001,
+            "nombre_cen": "C.E.I. Andarines",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Cl. Matías Pastor Sancho, 2 , Blo. 4-5",
+            "codpostal": 50015,
+            "telefono": "976 52 32 60",
+            "mail": null,
+            "fax": null,
+            "web": null,
+            "coordx": 676628,
+            "coordy": 4616008,
+            "xcen": "676628.60",
+            "ycen": "4616008.05",
+            "srs": "25830",
+            "refpar": "6761401XM7166B",
+            "longitud": "-0.87803712",
+            "latitud": "41.67625978"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              674760.56,
+              4614127.5
+            ]
+          },
+          "properties": {
+            "objectid": 4781,
+            "idcentrorc": 50017011,
+            "nombre_cen": "C.E.I. Educando",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Cl. Río Cinca, 35",
+            "codpostal": 50003,
+            "telefono": "976 28 29 97",
+            "mail": "ceieducando@gmail.com",
+            "fax": null,
+            "web": null,
+            "coordx": 674760,
+            "coordy": 4614127,
+            "xcen": "674760.56",
+            "ycen": "4614127.50",
+            "srs": "25830",
+            "refpar": "4843209XM7144D",
+            "longitud": "-0.90101474",
+            "latitud": "41.65974477"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              672275.68,
+              4613207.03
+            ]
+          },
+          "properties": {
+            "objectid": 4642,
+            "idcentrorc": 50018349,
+            "nombre_cen": "E.E.I. Los Ibones",
+            "tipo_centr": "Escuela de Educación Infantil",
+            "naturaleza": "Público",
+            "localidad": "Zaragoza",
+            "direccion": "CL. ANTONIO LEYVA  Nº 102",
+            "codpostal": 50011,
+            "telefono": "976 48 91 60",
+            "mail": "einfantil-oliver@zaragoza.es",
+            "fax": 976489160,
+            "web": null,
+            "coordx": 672275,
+            "coordy": 4613207,
+            "xcen": "672275.68",
+            "ycen": "4613207.03",
+            "srs": "25830",
+            "refpar": "2334202XM7123C",
+            "longitud": "-0.93110614",
+            "latitud": "41.65200035"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              674996.71,
+              4616012.03
+            ]
+          },
+          "properties": {
+            "objectid": 4643,
+            "idcentrorc": 50018362,
+            "nombre_cen": "E.E.I. María Urrea",
+            "tipo_centr": "Escuela de Educación Infantil",
+            "naturaleza": "Público",
+            "localidad": "Zaragoza",
+            "direccion": "CL. LUIS LEGAZ LACAMBRA Nº 44",
+            "codpostal": 50018,
+            "telefono": "976 73 77 16",
+            "mail": "einfantil-acturnorte@zaragoza.es",
+            "fax": 976737716,
+            "web": null,
+            "coordx": 674996,
+            "coordy": 4616012,
+            "xcen": "674996.71",
+            "ycen": "4616012.03",
+            "srs": "25830",
+            "refpar": "5163903XM7156C",
+            "longitud": "-0.89762823",
+            "latitud": "41.67665582"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              677340.79,
+              4612203.94
+            ]
+          },
+          "properties": {
+            "objectid": 4792,
+            "idcentrorc": 50017175,
+            "nombre_cen": "C.E.I. Ntra. Sra. de Los Dolores",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Cl. Privilegio De La Unión, 39",
+            "codpostal": 50013,
+            "telefono": "976 49 97 03",
+            "mail": "patronato@albadanet.com",
+            "fax": 976480240,
+            "web": null,
+            "coordx": 677340,
+            "coordy": 4612203,
+            "xcen": "677340.79",
+            "ycen": "4612203.94",
+            "srs": "25830",
+            "refpar": "7324609XM7172C",
+            "longitud": "-0.87061551",
+            "latitud": "41.64186086"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              675060.82,
+              4614104.02
+            ]
+          },
+          "properties": {
+            "objectid": 4644,
+            "idcentrorc": 50018337,
+            "nombre_cen": "E.E.I. El Tren",
+            "tipo_centr": "Escuela de Educación Infantil",
+            "naturaleza": "Público",
+            "localidad": "Zaragoza",
+            "direccion": "CL. Reino nº 5",
+            "codpostal": 50003,
+            "telefono": "976 28 03 60",
+            "mail": "einfantil-tren@zaragoza.es",
+            "fax": 976399071,
+            "web": null,
+            "coordx": 675060,
+            "coordy": 4614104,
+            "xcen": "675060.82",
+            "ycen": "4614104.02",
+            "srs": "25830",
+            "refpar": "5141701XM7154C",
+            "longitud": "-0.89741764",
+            "latitud": "41.65946752"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              677385.62,
+              4613980.23
+            ]
+          },
+          "properties": {
+            "objectid": 4645,
+            "idcentrorc": 50018398,
+            "nombre_cen": "C.E.I. Zagalines",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "AVDA. PUENTE DEL PILAR/CL JESÚS, 41",
+            "codpostal": 50014,
+            "telefono": "976 39 10 61",
+            "mail": null,
+            "fax": null,
+            "web": null,
+            "coordx": 677385,
+            "coordy": 4613980,
+            "xcen": "677385.62",
+            "ycen": "4613980.23",
+            "srs": "25830",
+            "refpar": "7442810XM7174B",
+            "longitud": "-0.86955064",
+            "latitud": "41.65783924"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              677119.2,
+              4609846.75
+            ]
+          },
+          "properties": {
+            "objectid": 5443,
+            "idcentrorc": 50019718,
+            "nombre_cen": "C.E.I. Nanyland Puerto Venecia",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "C/ Palacio Ducal, número 18",
+            "codpostal": 50021,
+            "telefono": "976445479",
+            "mail": "parquevenecia@nanyland.com",
+            "fax": null,
+            "web": null,
+            "coordx": 677119,
+            "coordy": 4609846,
+            "xcen": "677119.20",
+            "ycen": "4609846.75",
+            "srs": null,
+            "refpar": null,
+            "longitud": "-0.87397201",
+            "latitud": "41.62069296"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              676135.01,
+              4612332.53
+            ]
+          },
+          "properties": {
+            "objectid": 5446,
+            "idcentrorc": 50019755,
+            "nombre_cen": "C.E.I Nemomarlin Paseo de Sagasta",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "C/ La Paz, 8",
+            "codpostal": 50008,
+            "telefono": "634512322",
+            "mail": "paseodesagasta@escuelanemomarlin.com",
+            "fax": 976368103,
+            "web": null,
+            "coordx": 676135,
+            "coordy": 4612332,
+            "xcen": "676135.01",
+            "ycen": "4612332.53",
+            "srs": null,
+            "refpar": null,
+            "longitud": "-0.88504629",
+            "latitud": "41.64328554"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              677790.13,
+              4613820.03
+            ]
+          },
+          "properties": {
+            "objectid": 4851,
+            "idcentrorc": 50011628,
+            "nombre_cen": "C.E.I. Tic Tac",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Cl. Pedro Arnal Cavero, 30",
+            "codpostal": 50014,
+            "telefono": "976 28 54 99",
+            "mail": null,
+            "fax": null,
+            "web": null,
+            "coordx": 677790,
+            "coordy": 4613820,
+            "xcen": "677790.13",
+            "ycen": "4613820.03",
+            "srs": "25830",
+            "refpar": "7840705XM7174B",
+            "longitud": "-0.86474326",
+            "latitud": "41.65630716"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              676731.17,
+              4612992.47
+            ]
+          },
+          "properties": {
+            "objectid": 5449,
+            "idcentrorc": 50019809,
+            "nombre_cen": "C. Fundación La Caridad",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Calle Segismundo Moret, número 4",
+            "codpostal": 50001,
+            "telefono": "976228891",
+            "mail": null,
+            "fax": 976224834,
+            "web": "www.centroinfantilcantinela.es",
+            "coordx": 676731,
+            "coordy": 4612992,
+            "xcen": "676731.17",
+            "ycen": "4612992.47",
+            "srs": null,
+            "refpar": null,
+            "longitud": "-0.87769756",
+            "latitud": "41.64909378"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              673825,
+              4611647.7
+            ]
+          },
+          "properties": {
+            "objectid": 5453,
+            "idcentrorc": 50019858,
+            "nombre_cen": "C.E.I. Nanyland Hispanidad",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Vía Hispanidad, número 30",
+            "codpostal": 50009,
+            "telefono": "976757741",
+            "mail": "hispanidad@nanyland.com",
+            "fax": null,
+            "web": "www.nanyland.com",
+            "coordx": 673825,
+            "coordy": 4611647,
+            "xcen": 673825,
+            "ycen": "4611647.70",
+            "srs": null,
+            "refpar": null,
+            "longitud": "-0.91296506",
+            "latitud": "41.63762812"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              677235.6,
+              4609173.3
+            ]
+          },
+          "properties": {
+            "objectid": 5454,
+            "idcentrorc": 50019871,
+            "nombre_cen": "C.E.I. Duendecillos",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Andrea Palladio, número 2.",
+            "codpostal": 50021,
+            "telefono": null,
+            "mail": null,
+            "fax": null,
+            "web": null,
+            "coordx": 677235,
+            "coordy": 4609173,
+            "xcen": "677235.60",
+            "ycen": "4609173.30",
+            "srs": null,
+            "refpar": null,
+            "longitud": "-0.87277504",
+            "latitud": "41.61460536"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              678181.5,
+              4612811.2
+            ]
+          },
+          "properties": {
+            "objectid": 5455,
+            "idcentrorc": 50019883,
+            "nombre_cen": "C.E.I. Arco Iris",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Calle Amistad, número 6",
+            "codpostal": 50002,
+            "telefono": "976 42 30 65",
+            "mail": "arcoiriscentroinfantil@gmail.com",
+            "fax": null,
+            "web": "www.arcoiriscentroinfantil.es",
+            "coordx": 678181,
+            "coordy": 4612811,
+            "xcen": "678181.50",
+            "ycen": "4612811.20",
+            "srs": null,
+            "refpar": null,
+            "longitud": "-0.86034671",
+            "latitud": "41.64713937"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              671107.39,
+              4611392.54
+            ]
+          },
+          "properties": {
+            "objectid": 4640,
+            "idcentrorc": 50018076,
+            "nombre_cen": "C.E.I. Pequeños Maestros",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "CL. LUDWIG VAN BEETHOVEN, 52",
+            "codpostal": 50012,
+            "telefono": "876 241455",
+            "mail": "rosales@pequeninos.net",
+            "fax": null,
+            "web": "www.pequeninos.net",
+            "coordx": 671107,
+            "coordy": 4611392,
+            "xcen": "671107.39",
+            "ycen": "4611392.54",
+            "srs": "25830",
+            "refpar": "",
+            "longitud": "-0.94564675",
+            "latitud": "41.63591898"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              672096.08,
+              4612973.01
+            ]
+          },
+          "properties": {
+            "objectid": 5019,
+            "idcentrorc": 50018064,
+            "nombre_cen": "C.E.I. Mi Cole",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "CL. LAGO DE MILLARES, 48",
+            "codpostal": 50011,
+            "telefono": "876 266 235",
+            "mail": "centroinfantilkokoro@gmail.com",
+            "fax": null,
+            "web": null,
+            "coordx": 672096,
+            "coordy": 4612973,
+            "xcen": "672096.08",
+            "ycen": "4612973.01",
+            "srs": "25830",
+            "refpar": "2132803XM7123A",
+            "longitud": "-0.93332900",
+            "latitud": "41.64993265"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              675263.8,
+              4612563.91
+            ]
+          },
+          "properties": {
+            "objectid": 5022,
+            "idcentrorc": 50018052,
+            "nombre_cen": "C.E.I. Patinete",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "CL. PAMPLONA ESCUDERO, 12",
+            "codpostal": 50005,
+            "telefono": "976 791 916",
+            "mail": "patinetezgz@hotmail.com",
+            "fax": null,
+            "web": null,
+            "coordx": 675263,
+            "coordy": 4612563,
+            "xcen": "675263.80",
+            "ycen": "4612563.91",
+            "srs": "25830",
+            "refpar": "5428221XM7152G",
+            "longitud": "-0.89543280",
+            "latitud": "41.64556019"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              677088.47,
+              4610714.53
+            ]
+          },
+          "properties": {
+            "objectid": 5027,
+            "idcentrorc": 50018374,
+            "nombre_cen": "E.E.I. La Paz",
+            "tipo_centr": "Escuela de Educación Infantil",
+            "naturaleza": "Público",
+            "localidad": "Zaragoza",
+            "direccion": "CL. EMILIO PÉREZ VIDAL, Nº 9",
+            "codpostal": 50007,
+            "telefono": "976 27 23 48",
+            "mail": "einfantil-lapaz@zaragoza.es",
+            "fax": 976272348,
+            "web": null,
+            "coordx": 677088,
+            "coordy": 4610714,
+            "xcen": "677088.47",
+            "ycen": "4610714.53",
+            "srs": "25830",
+            "refpar": "7109701XM7170G",
+            "longitud": "-0.87408396",
+            "latitud": "41.62851071"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              674222.46,
+              4613213.36
+            ]
+          },
+          "properties": {
+            "objectid": 4915,
+            "idcentrorc": 50007005,
+            "nombre_cen": "C.E.I. Madre de Dios de Begoña",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Cl. Terminillo, 22-24",
+            "codpostal": 50017,
+            "telefono": "976 33 81 19",
+            "mail": null,
+            "fax": null,
+            "web": null,
+            "coordx": 674222,
+            "coordy": 4613213,
+            "xcen": "674222.46",
+            "ycen": "4613213.36",
+            "srs": "25830",
+            "refpar": "4334111XM7143C",
+            "longitud": "-0.90773994",
+            "latitud": "41.65163423"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              677116.67,
+              4614881.73
+            ]
+          },
+          "properties": {
+            "objectid": 5042,
+            "idcentrorc": 50017527,
+            "nombre_cen": "E.E.I. Pirineos",
+            "tipo_centr": "Escuela de Educación Infantil",
+            "naturaleza": "Público",
+            "localidad": "Zaragoza",
+            "direccion": "CL. VALLE DE BROTO, S/N",
+            "codpostal": 50015,
+            "telefono": "976 51 33 23",
+            "mail": "einfantil-pirineos@zaragoza.es",
+            "fax": 976399071,
+            "web": null,
+            "coordx": 677116,
+            "coordy": 4614881,
+            "xcen": "677116.67",
+            "ycen": "4614881.73",
+            "srs": "25830",
+            "refpar": "7251803XM7175A",
+            "longitud": "-0.87251146",
+            "latitud": "41.66601344"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              677137.71,
+              4616145.45
+            ]
+          },
+          "properties": {
+            "objectid": 5053,
+            "idcentrorc": 50006670,
+            "nombre_cen": "C.E.I. Lenguatrapo",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Cl. San Juan De La Peña, 181- Bloque 25",
+            "codpostal": 50015,
+            "telefono": "976 51 66 01",
+            "mail": "vsantolaya@hotmail.com",
+            "fax": null,
+            "web": null,
+            "coordx": 677137,
+            "coordy": 4616145,
+            "xcen": "677137.71",
+            "ycen": "4616145.45",
+            "srs": "25830",
+            "refpar": "7162903XM7176C",
+            "longitud": "-0.87188412",
+            "latitud": "41.67738345"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              675369.37,
+              4615448.8
+            ]
+          },
+          "properties": {
+            "objectid": 5056,
+            "idcentrorc": 50017345,
+            "nombre_cen": "C.E.I. El Manzano",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Cl. Emilia Pardo Bazán, 12- Local-",
+            "codpostal": 50018,
+            "telefono": "976 06 30 63",
+            "mail": null,
+            "fax": null,
+            "web": null,
+            "coordx": 675369,
+            "coordy": 4615448,
+            "xcen": "675369.37",
+            "ycen": "4615448.80",
+            "srs": "25830",
+            "refpar": "5457704XM7155F",
+            "longitud": "-0.89331947",
+            "latitud": "41.67150418"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              678282.16,
+              4613574.06
+            ]
+          },
+          "properties": {
+            "objectid": 5059,
+            "idcentrorc": 50017382,
+            "nombre_cen": "C.E.I. Chicotes",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "Cl. Balbino Orensanz, 55",
+            "codpostal": 50014,
+            "telefono": "976 39 52 21",
+            "mail": null,
+            "fax": null,
+            "web": null,
+            "coordx": 678282,
+            "coordy": 4613574,
+            "xcen": "678282.16",
+            "ycen": "4613574.06",
+            "srs": "25830",
+            "refpar": "8337501XM7183G",
+            "longitud": "-0.85891131",
+            "latitud": "41.65398330"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              676307.76,
+              4614533.22
+            ]
+          },
+          "properties": {
+            "objectid": 5118,
+            "idcentrorc": 50017801,
+            "nombre_cen": "C.E.I. Cu Cu-Tas Tas",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "CL. MARÍA MONTESSORI, 12",
+            "codpostal": 50018,
+            "telefono": "976 73 39 44",
+            "mail": null,
+            "fax": null,
+            "web": null,
+            "coordx": 676307,
+            "coordy": 4614533,
+            "xcen": "676307.76",
+            "ycen": "4614533.22",
+            "srs": "25830",
+            "refpar": "6347602XM7164E",
+            "longitud": "-0.88232435",
+            "latitud": "41.66305589"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              674110.77,
+              4610240.83
+            ]
+          },
+          "properties": {
+            "objectid": 5119,
+            "idcentrorc": 50017771,
+            "nombre_cen": "C.E.I. Schoolhouse Vía Ibérica",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "CL. VÍA IBÉRICA, 67",
+            "codpostal": 50012,
+            "telefono": "976 56 99 00",
+            "mail": "mar@pequeninos.net",
+            "fax": null,
+            "web": null,
+            "coordx": 674110,
+            "coordy": 4610240,
+            "xcen": "674110.77",
+            "ycen": "4610240.83",
+            "srs": "25830",
+            "refpar": "4302318XM7140C",
+            "longitud": "-0.90994542",
+            "latitud": "41.62490221"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              676764.05,
+              4615587.33
+            ]
+          },
+          "properties": {
+            "objectid": 5075,
+            "idcentrorc": 50017461,
+            "nombre_cen": "C.E.I. Chip Y Chop",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "AVDA. SALVADOR ALLENDE, 44",
+            "codpostal": 50015,
+            "telefono": "976 74 27 07",
+            "mail": null,
+            "fax": null,
+            "web": null,
+            "coordx": 676764,
+            "coordy": 4615587,
+            "xcen": "676764.05",
+            "ycen": "4615587.33",
+            "srs": "25830",
+            "refpar": "6957301XM7165H",
+            "longitud": "-0.87653547",
+            "latitud": "41.67244284"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              674325.46,
+              4612989.72
+            ]
+          },
+          "properties": {
+            "objectid": 5137,
+            "idcentrorc": 50017941,
+            "nombre_cen": "C.E.I. El Barquito de Papel",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "CL. DAROCA, 42-44",
+            "codpostal": 50017,
+            "telefono": "976 53 57 62",
+            "mail": "barquitodepapelsm@yahoo.es",
+            "fax": null,
+            "web": null,
+            "coordx": 674325,
+            "coordy": 4612989,
+            "xcen": "674325.46",
+            "ycen": "4612989.72",
+            "srs": "25830",
+            "refpar": "4332644XM7143A",
+            "longitud": "-0.90656900",
+            "latitud": "41.64959869"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              679775,
+              4615248
+            ]
+          },
+          "properties": {
+            "objectid": 5408,
+            "idcentrorc": 50011811,
+            "nombre_cen": "C.E.I. Chiquitines II",
+            "tipo_centr": "Centro Privado de Educación Infantil",
+            "naturaleza": "Privado",
+            "localidad": "Zaragoza",
+            "direccion": "AVDA. SANTA ISABEL, 20",
+            "codpostal": 50003,
+            "telefono": "976 57 73 70",
+            "mail": null,
+            "fax": null,
+            "web": null,
+            "coordx": 679775,
+            "coordy": 4615248,
+            "xcen": 679775,
+            "ycen": 4615248,
+            "srs": "0",
+            "refpar": "9955407XM7195F",
+            "longitud": "-0.84049161",
+            "latitud": "41.66871481"
+          }
+        }
+      ]
+    },
+    "zaragoza_es_municipales": {
+      "description": "Datos de las 13 Escuelas Infantiles Municipales extraidos directamente de las fichas de equipamiento del Ayuntamiento de Zaragoza (zaragoza.es/sede/portal/escuelas-infantiles/centros y fichas individuales de equipamiento). 4 de estas 13 escuelas (El Bosque, Parque Bruil, El Anden, Parque Venecia) no aparecian en el dataset abierto GA_OD_Core del Gobierno de Aragon (desactualizado en ese subconjunto) y se incorporaron integramente desde esta fuente municipal, incluidas sus coordenadas, obtenidas por geocodificacion verificable de la direccion oficial (Nominatim/OpenStreetMap, contrastada por nombre exacto del centro).",
+      "url": "https://www.zaragoza.es/sede/portal/escuelas-infantiles/centros",
+      "raw_records": [
+        {
+          "nombre": "Escuela Infantil Municipal Los Vientos",
+          "direccion": "Calle Poeta Luis Cernuda, s/n",
+          "cp": "50008",
+          "barrio": "Actur-Rey Fernando",
+          "telefono": "976515750",
+          "email": "einfantil-vientos@zaragoza.es",
+          "lat": 41.67453286,
+          "lon": -0.88303987,
+          "services": [
+            "comedor",
+            "cocina-propia",
+            "escuela-de-padres",
+            "patio-exterior",
+            "psicomotricidad"
+          ]
+        },
+        {
+          "nombre": "Escuela Infantil Municipal María Urrea",
+          "direccion": "Calle Luis Legaz Lacambra, 44",
+          "cp": "50018",
+          "barrio": "Actur-Rey Fernando",
+          "telefono": "976737716",
+          "email": "einfantil-acturnorte@zaragoza.es",
+          "lat": 41.67665582,
+          "lon": -0.89762823,
+          "services": [
+            "comedor",
+            "cocina-propia",
+            "escuela-de-padres",
+            "patio-exterior"
+          ]
+        },
+        {
+          "nombre": "Escuela Infantil Municipal El Bosque",
+          "direccion": "Calle Echegaray y Caballero, 5",
+          "cp": "50003",
+          "barrio": "Casco Histórico",
+          "telefono": "976430862",
+          "email": "einfantil-cascohistorico@zaragoza.es",
+          "lat": 41.6595348,
+          "lon": -0.8905991,
+          "services": [
+            "comedor",
+            "cocina-propia",
+            "escuela-de-padres",
+            "patio-exterior"
+          ]
+        },
+        {
+          "nombre": "Escuela Infantil Municipal Parque Bruil",
+          "direccion": "Calle Vicente López Abadía, 4",
+          "cp": "50002",
+          "barrio": "Casco Histórico",
+          "telefono": "976203332",
+          "email": "einfantil-parquebruil@zaragoza.es",
+          "lat": 41.651838,
+          "lon": -0.8673325,
+          "services": [
+            "comedor",
+            "cocina-propia",
+            "escuela-de-padres",
+            "patio-exterior"
+          ]
+        },
+        {
+          "nombre": "Escuela Infantil Municipal El Andén",
+          "direccion": "Calle San Pedro Arbués, 4",
+          "cp": "50010",
+          "barrio": "Delicias",
+          "telefono": "976348103",
+          "email": "einfantil-delicias@zaragoza.es",
+          "lat": 41.650483,
+          "lon": -0.896083,
+          "services": [
+            "comedor",
+            "cocina-propia",
+            "escuela-de-padres",
+            "patio-exterior"
+          ]
+        },
+        {
+          "nombre": "Escuela Infantil Municipal Pirineos",
+          "direccion": "Calle Valle de Gistaín, 44",
+          "cp": "50015",
+          "barrio": "El Rabal",
+          "telefono": "976513323",
+          "email": "einfantil-pirineos@zaragoza.es",
+          "lat": 41.66601344,
+          "lon": -0.87251146,
+          "services": [
+            "comedor",
+            "cocina-propia",
+            "escuela-de-padres",
+            "patio-exterior"
+          ]
+        },
+        {
+          "nombre": "Escuela Infantil Municipal Villacampa",
+          "direccion": "Calle Pedro Villacampa, 36",
+          "cp": "50015",
+          "barrio": "El Rabal",
+          "telefono": "976523283",
+          "email": "einfantil-villacampa@zaragoza.es",
+          "lat": 41.66035973,
+          "lon": -0.87477467,
+          "services": [
+            "comedor",
+            "cocina-propia",
+            "escuela-de-padres",
+            "patio-exterior"
+          ]
+        },
+        {
+          "nombre": "Escuela Infantil Municipal El Tren",
+          "direccion": "Calle Reino, 5",
+          "cp": "50003",
+          "barrio": "La Almozara",
+          "telefono": "976280360",
+          "email": "einfantil-tren@zaragoza.es",
+          "lat": 41.65946752,
+          "lon": -0.89741764,
+          "services": [
+            "comedor",
+            "cocina-propia",
+            "escuela-de-padres",
+            "patio-exterior"
+          ]
+        },
+        {
+          "nombre": "Escuela Infantil Municipal La Piraña",
+          "direccion": "Calle Florentino Ballesteros, 2",
+          "cp": "50013",
+          "barrio": "Las Fuentes",
+          "telefono": "976493670",
+          "email": "einfantil-pirana@zaragoza.es",
+          "lat": 41.64490353,
+          "lon": -0.86962003,
+          "services": [
+            "comedor",
+            "cocina-propia",
+            "escuela-de-padres"
+          ],
+          "note_traslado": "Durante el curso 2025/26 el centro permanece cerrado y trasladado temporalmente a la Escuela Infantil Municipal Parque Bruil, según la propia ficha oficial del Ayuntamiento."
+        },
+        {
+          "nombre": "Escuela Infantil Municipal Los Ibones",
+          "direccion": "Calle Antonio Leyva, 102",
+          "cp": "50011",
+          "barrio": "Oliver-Valdefierro",
+          "telefono": "976489160",
+          "email": "einfantil-oliver@zaragoza.es",
+          "lat": 41.65200035,
+          "lon": -0.93110614,
+          "services": [
+            "comedor",
+            "cocina-propia",
+            "escuela-de-padres",
+            "patio-exterior"
+          ]
+        },
+        {
+          "nombre": "Escuela Infantil Municipal Brioletas",
+          "direccion": "Calle La Iglesia, 32",
+          "cp": "50058",
+          "barrio": "Santa Isabel",
+          "telefono": "976588546",
+          "email": "einfantil-santaisabel@zaragoza.es",
+          "lat": 41.66899077,
+          "lon": -0.82997627,
+          "services": [
+            "comedor",
+            "cocina-propia",
+            "escuela-de-padres",
+            "patio-exterior"
+          ]
+        },
+        {
+          "nombre": "Escuela Infantil Municipal La Paz",
+          "direccion": "Calle Emilio Pérez Vidal, 9",
+          "cp": "50007",
+          "barrio": "Torrero-La Paz",
+          "telefono": "976272348",
+          "email": "einfantil-lapaz@zaragoza.es",
+          "lat": 41.62851071,
+          "lon": -0.87408396,
+          "services": [
+            "comedor",
+            "cocina-propia",
+            "escuela-de-padres",
+            "patio-exterior"
+          ]
+        },
+        {
+          "nombre": "Escuela Infantil Municipal Parque Venecia",
+          "direccion": "Avenida Puente de los Suspiros, 2",
+          "cp": "50021",
+          "barrio": "Torrero-La Paz",
+          "telefono": "976134269",
+          "email": "einfantil-venecia@zaragoza.es",
+          "lat": 41.6176124,
+          "lon": -0.8753827,
+          "services": [
+            "comedor",
+            "cocina-propia",
+            "escuela-de-padres"
+          ]
+        }
+      ]
+    },
+    "dga_red_escuelas_infantiles": {
+      "description": "Las 4 escuelas infantiles de titularidad autonomica (Red de Escuelas Infantiles del Gobierno de Aragon en Zaragoza capital: Aragon, Inmaculada Concepcion, Monsalud, Santa Maria del Pilar) tampoco aparecian en el dataset GA_OD_Core bajo esos nombres. Se obtuvieron de las fichas oficiales aragon.es por centro, con coordenadas por geocodificacion verificable (Nominatim/OpenStreetMap, contrastada por nombre exacto del centro cuando fue posible).",
+      "url": "https://www.aragon.es/escolarizar-en-centros-educativos/red-de-escuelas-infantiles",
+      "raw_records": [
+        {
+          "nombre": "Escuela de Educación Infantil Aragón",
+          "direccion": "Calle Pablo Parellada, 46",
+          "cp": "50007",
+          "barrio": "Torrero-La Paz",
+          "telefono": "976385033",
+          "email": "giaragon@educa.aragon.es",
+          "lat": 41.6249998,
+          "lon": -0.8809954,
+          "services": [
+            "comedor",
+            "cocina-propia",
+            "servicio-madrugadores",
+            "patio-exterior"
+          ]
+        },
+        {
+          "nombre": "Escuela de Educación Infantil Inmaculada Concepción",
+          "direccion": "Avenida Manuel Rodríguez Ayuso, 45",
+          "cp": "50012",
+          "barrio": "Oliver-Valdefierro",
+          "telefono": "976332078",
+          "email": "eeiinmaculada@educa.aragon.es",
+          "lat": 41.6417712,
+          "lon": -0.9224479,
+          "services": [
+            "comedor",
+            "cocina-propia",
+            "servicio-madrugadores",
+            "psicomotricidad"
+          ]
+        },
+        {
+          "nombre": "Escuela de Educación Infantil Monsalud",
+          "direccion": "Calle Ramiro I de Aragón, s/n",
+          "cp": "50017",
+          "barrio": "Delicias",
+          "telefono": "976326291",
+          "email": "eeimonsalud@educa.aragon.es",
+          "lat": 41.652361,
+          "lon": -0.9145826,
+          "services": [
+            "comedor",
+            "cocina-propia"
+          ]
+        },
+        {
+          "nombre": "Escuela de Educación Infantil Santa María del Pilar",
+          "direccion": "Calle José Pellicer, 2",
+          "cp": "50007",
+          "barrio": "San José",
+          "telefono": "976272487",
+          "email": "gismdelpilar@educa.aragon.es",
+          "lat": 41.6384146,
+          "lon": -0.8801044,
+          "services": [
+            "comedor",
+            "cocina-propia",
+            "servicio-madrugadores",
+            "psicomotricidad",
+            "patio-exterior"
+          ]
+        }
+      ]
+    },
+    "loreto_base_aerea": {
+      "description": "La Escuela de Educacion Infantil Nuestra Senora de Loreto si aparecia en el dataset GA_OD_Core (naturaleza=Publico), pero se completo con el BOE-A-2007-2433 (convenio Ministerio de Defensa - Gobierno de Aragon) para documentar su caracter de acceso restringido a personal de la Base Aerea de Zaragoza.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2007-2433",
+      "raw_records": [
+        {
+          "nombre": "Escuela de Educación Infantil Nuestra Señora de Loreto",
+          "direccion": "Base Aérea de Zaragoza, Carretera del Aeropuerto, s/n",
+          "cp": "50071",
+          "barrio": "San Juan de Mozarrifar / Base Aérea",
+          "telefono": "976709090",
+          "email": "lorena.gil@kidsco.es",
+          "lat": 41.66312892,
+          "lon": -0.9882967,
+          "services": [
+            "comedor",
+            "cocina-propia",
+            "patio-exterior"
+          ],
+          "note_acceso": "Centro de uso exclusivo para hijos de personal del Ministerio de Defensa destinado en unidades de la Base Aérea de Zaragoza, gestionado por convenio entre el Ministerio de Defensa y el Gobierno de Aragón (BOE-A-2007-2433), operado por Kidsco. No oferta plaza al público general."
+        }
+      ]
+    }
+  }
+}

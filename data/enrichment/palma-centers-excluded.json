@@ -1,0 +1,40 @@
+{
+  "_readme": "Registro de centros/candidatos evaluados y descartados durante la construccion del dataset de Palma, con motivo explicito. No incluye los cientos de centros de otros niveles educativos (colegios, institutos, FP, conservatorios, etc.) ni de otros municipios de Mallorca que nunca fueron candidatos por estar fuera del filtro de tipo/municipio documentado en docs/data-sources-palma.md - esos quedan fuera del alcance MVP, no son \"exclusiones\" individuales. Este fichero recoge unicamente los casos evaluados uno a uno: centros dentro del filtro de municipio+tipo que no alcanzaron el minimo de calidad exigido, mas la fuente de datos alternativa descartada.",
+  "generated_at": "2026-07-12T00:00:00.000Z",
+  "excluded": [
+    {
+      "name_candidate": "Escola d'Infants Son Dameto Dalt (codi oficial 07017030)",
+      "reason": "centro_no_operativo",
+      "detail": "Nueva escuela infantil municipal del Patronat Municipal d'Escoles d'Infants de Palma. Aparece en el directorio oficial de centros educativos del Govern de les Illes Balears con codigo de centro asignado (autorizacion aprobada por el Consell de Govern el 30/12/2025), pero sin telefono ni email operativos en la fuente. Cobertura de prensa (Ultima Hora, 10/02/2026) confirma que las obras estaban terminandose y la apertura estaba prevista para el curso 2026-2027 (septiembre 2026), pendiente de \"las ultimas actuaciones tecnicas\". A fecha de generacion de este dataset (12/07/2026) no hay confirmacion de que el centro este ya operativo con alumnado matriculado, por lo que se excluye del dataset final para no publicar una ficha de un centro que aun no presta servicio.",
+      "source_checked": "https://www.caib.es/pidip2front/jsp/es/ficha-convocatoria/aprobada-la-creacion-de-las-nuevas-escuelas-infantiles-de-son-dameto-dalt-y-son-gibert"
+    },
+    {
+      "name_candidate": "Escola d'Infants Son Gibert (codi oficial 07016736)",
+      "reason": "centro_no_operativo",
+      "detail": "Nueva escuela infantil municipal del Patronat Municipal d'Escoles d'Infants de Palma, misma situacion que Son Dameto Dalt: autorizada por el Consell de Govern el 30/12/2025, con codigo de centro en el directorio oficial pero sin telefono ni email operativos, y cobertura de prensa (Ultima Hora, 13/01/2026) que confirma que las obras estaban terminandose para acoger a 92 ninos en septiembre 2026. No hay confirmacion de apertura efectiva a fecha de este dataset.",
+      "source_checked": "https://www.ultimahora.es/noticias/palma/2026/01/13/2548357/escoleta-son-gibert-esta-lista-para-acoger-ninos-este-mes-septiembre.html"
+    },
+    {
+      "name_candidate": "IKIGAI",
+      "reason": "sin_contacto_verificable",
+      "detail": "Centro localizado en el directorio oficial de centros educativos del Govern de les Illes Balears (codi oficial 07016980), pero sin telefono ni email en la fuente y sin web propia localizada, por lo que no alcanza el minimo de confianza exigido para el dataset final.",
+      "source_checked": "https://www3.caib.es/xestibback/external/llistes/llistaCentresDirectori.json"
+    },
+    {
+      "name_candidate": "LITTLE RAINBOW",
+      "reason": "sin_contacto_verificable",
+      "detail": "Centro localizado en el directorio oficial de centros educativos del Govern de les Illes Balears (codi oficial 07016785), pero sin telefono ni email en la fuente y sin web propia localizada, por lo que no alcanza el minimo de confianza exigido para el dataset final.",
+      "source_checked": "https://www3.caib.es/xestibback/external/llistes/llistaCentresDirectori.json"
+    },
+    {
+      "name_candidate": "Directori de centres educatius de les Illes Balears (recurso JSON/CSV del portal de dades obertes CAIB, resource_id 6d48fa08 / cebbad85)",
+      "reason": "fuente_descartada_datos_incompletos",
+      "detail": "Evaluado como posible fuente principal por ser el dataset con nombre mas directo (\"Directori de centres educatius de les Illes Balears\") en el catalogo oficial de datos abiertos. Descartado como fuente de extraccion porque tanto el recurso JSON como el CSV publicados en el portal solo exponen una muestra de 100 filas (de un total muy superior de centros de toda Baleares), sin paginacion funcional; el recurso CSV tiene datastore_active=true en la API de CKAN pero el datastore esta corrupto (parseo incorrecto del delimitador \";\", devuelve 0 registros reales via datastore_search). En su lugar se uso el endpoint publico de la herramienta Oferta Educativa (GestIB) del Govern de les Illes Balears, que devuelve el directorio completo (984 centros) sin paginacion.",
+      "source_checked": "https://intranet.caib.es/opendatacataleg/dataset/directori-de-centres-educatius-de-les-illes-balears"
+    }
+  ],
+  "stats": {
+    "total_excluded_centers": 4,
+    "total_excluded_sources": 1
+  }
+}

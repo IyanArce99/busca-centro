@@ -4,12 +4,10 @@ import GuideCard from "@/components/GuideCard";
 import { getAllGuides } from "@/lib/guides";
 import { buildMetadata } from "@/lib/seo";
 
-// Temporarily noindex until the blog has real, complete guides.
 export const metadata: Metadata = buildMetadata({
   title: "Blog y guías para familias",
   description: "Guías prácticas sobre cómo elegir guardería, adaptación, precios y ayudas para familias en España.",
   path: "/blog",
-  indexable: false,
 });
 
 export default function BlogPage() {

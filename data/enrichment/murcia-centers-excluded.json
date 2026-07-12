@@ -1,0 +1,35 @@
+{
+  "_readme": "Registro de centros/candidatos evaluados y descartados durante la construccion del dataset de Murcia, con motivo explicito. No incluye los 158 colegios/centros con seccion de infantil 3-6 (segundo ciclo) que la API de mapaescolar marca con infantil=S pero cuyo tipo no es 'Escuela de Educacion Infantil' ni 'Centro Privado de Educacion Infantil': esos nunca fueron candidatos, quedan fuera del filtro de origen documentado en docs/data-sources-murcia.md (fuera del alcance MVP de primer ciclo 0-3 anos), no son 'exclusiones' individuales. Este fichero recoge unicamente los casos evaluados uno a uno.",
+  "generated_at": "2026-07-12T00:00:00.000Z",
+  "excluded": [
+    {
+      "name_candidate": "Centros de la red 'educa-guarderias' del Ayuntamiento de Molina de Segura (10 centros: C.A.I. Altorreal, C.A.I. Ntra. Sra. Asuncion, Consolacion, CAI El Llano, El Limonar, Inmaculada, Canada de las Eras, CAI Alcayna, San Antonio, Santa Helena)",
+      "reason": "fuera_de_ambito_geografico",
+      "detail": "Pertenecen al municipio de Molina de Segura, un termino municipal distinto e independiente del municipio de Murcia dentro de la Region de Murcia. El dataset abierto 'educa-guarderias' que los publica es del Ayuntamiento de Molina de Segura, no del Ayuntamiento de Murcia ni de la CARM para el municipio de Murcia. Instruccion explicita: excluir Cartagena, Molina de Segura, Alcantarilla y otros municipios distintos al de Murcia.",
+      "source_checked": "https://datosabiertos.regiondemurcia.es/catalogo/recursos/ayuntamiento-de-molina-de-segura/educa-guarderias.json"
+    },
+    {
+      "name_candidate": "Listado de Centros Educativos del Ayuntamiento de Cartagena (opendata cartagena.es)",
+      "reason": "fuera_de_ambito_geografico",
+      "detail": "Dataset municipal de Cartagena, municipio distinto de Murcia. Evaluado como posible fuente comparativa, descartado por no aportar centros dentro del ambito asignado.",
+      "source_checked": "https://www.cartagena.es/api/educacion_centros_educativos/csv.asp"
+    },
+    {
+      "name_candidate": "El Atelier de Marte (codigo CARM 30020753)",
+      "reason": "confidence_insuficiente_para_servicios_pero_incluido_como_centro",
+      "detail": "NO excluido del dataset final (esta incluido con confidence medium, solo con telefono/email de la fuente CARM). Se documenta aqui porque su email institucional (rocio@ceiloscubos.com) sugiere relacion con otra entidad comercial ('Los Cubos') no confirmada como cadena o sede compartida con ningun otro centro de este dataset; no se le atribuyeron servicios de ningun otro centro para evitar arrastrar datos no verificados de una entidad distinta.",
+      "source_checked": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros"
+    },
+    {
+      "name_candidate": "El Atelier de la Luna (codigo CARM 30019398)",
+      "reason": "confidence_insuficiente_para_servicios_pero_incluido_como_centro",
+      "detail": "NO excluido del dataset final (incluido con confidence medium, solo telefono/email de la fuente CARM). Su email institucional (eraseunavezmurcia@ceieraseunavez.com) comparte dominio con el centro 'Erase Una Vez' (codigo 30019386, Casillas), cuya web oficial ceieraseunavez.com confirma servicios propios. Sin embargo, esa misma web solo menciona una sede unica en Casillas y no nombra 'El Atelier de la Luna' como sede propia, por lo que NO se le atribuyeron los servicios de 'Erase Una Vez' a este centro distinto (evitar inferencia de servicios entre entidades con registro/codigo de centro distinto).",
+      "source_checked": "https://ceieraseunavez.com/"
+    }
+  ],
+  "stats": {
+    "total_evaluated_as_individual_cases": 4,
+    "total_excluded_from_final_dataset": 2,
+    "total_kept_with_documented_limitation": 2
+  }
+}

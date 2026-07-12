@@ -1,0 +1,2545 @@
+{
+  "_readme": "Dataset de trabajo para Jerez de la Frontera, mismo formato snake_case que cordoba-centers.json/granada-centers.json/malaga-centers.json/sevilla-centers.json. city_slug=jerez-de-la-frontera. Ambito: unicamente el termino municipal de Jerez de la Frontera (D_MUNICIPIO=Jerez de la Frontera en la fuente oficial, incluye las pedanias de Guadalcacin, Mesas de Asta, La Barca de la Florida y Torrecera, excluye el resto de la provincia de Cadiz). Fuente primaria: \"Centros de primer ciclo de educacion infantil en Andalucia, con alumnado matriculado\" (Junta de Andalucia, Consejeria de Desarrollo Educativo y Formacion Profesional, portal de datos abiertos). Complementado con: Portal de Escolarizacion 0-3 anos de la Junta de Andalucia (horario homogeneo de la red publica autonomica) y webs oficiales propias de un subconjunto de centros privados para confirmar servicios concretos del enum CenterService. Ver docs/data-sources-jerez.md.",
+  "city": "jerez-de-la-frontera",
+  "generated_at": "2026-07-12T00:00:00.000Z",
+  "stats": {
+    "centers_count": 37,
+    "excluded_count": 0
+  },
+  "centers": [
+    {
+      "slug": "el-salvador-jerez",
+      "name": "El Salvador",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Plaza Ponce de León, 1",
+        "postal_code": "11403",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.685082,
+        "longitude": -6.141933
+      },
+      "contact": {
+        "phone": "956341688",
+        "email": "elsalvadorjf@planalfa.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "El Salvador, situado en Plaza Ponce de León, 1, 11403, Jerez de la Frontera, atiende el primer ciclo de educación infantil (0-3 años) y figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado El Salvador?",
+          "answer": "El centro se encuentra en Plaza Ponce de León, 1, 11403, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 956341688, escribir a elsalvadorjf@planalfa.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11001269",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "mundo-nuevo-jerez",
+      "name": "Mundo Nuevo",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Ventura Misa, 18",
+        "postal_code": "11401",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.6772349046795,
+        "longitude": -6.126905679702759
+      },
+      "contact": {
+        "phone": "656913893",
+        "email": "11003333.edu@juntadeandalucia.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Mundo Nuevo, situado en C/ Ventura Misa, 18, 11401, Jerez de la Frontera, atiende el primer ciclo de educación infantil (0-3 años) y figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Mundo Nuevo?",
+          "answer": "El centro se encuentra en C/ Ventura Misa, 18, 11401, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 656913893, escribir a 11003333.edu@juntadeandalucia.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11003333",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "el-centro-jerez",
+      "name": "El Centro",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Plaza Quemada, 9",
+        "postal_code": "11402",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.685142186633556,
+        "longitude": -6.132715344429016
+      },
+      "contact": {
+        "phone": "956332782",
+        "email": "elcentrocei@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "El Centro ofrece primer ciclo de educación infantil (0-3 años) en Plaza Quemada, 9, 11402, Jerez de la Frontera. Según el registro oficial de la Junta de Andalucía, el centro está adherido al Programa de Ayuda a las Familias.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado El Centro?",
+          "answer": "El centro se encuentra en Plaza Quemada, 9, 11402, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 956332782, escribir a elcentrocei@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11006176",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "el-pastorcito-divino-jerez",
+      "name": "El Pastorcito Divino",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Guindo, 6",
+        "postal_code": "11406",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.68013936151963,
+        "longitude": -6.1133489257445035
+      },
+      "contact": {
+        "phone": "653949449",
+        "email": "elpastorcitodivino@hotmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Centro privado de educación infantil de primer ciclo en C/ Guindo, 6, 11406, Jerez de la Frontera: El Pastorcito Divino está adherido al Programa de Ayuda a las Familias de la Junta de Andalucía. No se ha podido confirmar información adicional sobre servicios concretos.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado El Pastorcito Divino?",
+          "answer": "El centro se encuentra en C/ Guindo, 6, 11406, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 653949449, escribir a elpastorcitodivino@hotmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11006577",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "la-tortuga-jerez",
+      "name": "La Tortuga",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avda. de Las Delicias, 58, esquina C/ Galápago",
+        "postal_code": "11406",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.68550784649308,
+        "longitude": -6.105984449386597
+      },
+      "contact": {
+        "phone": "956391188",
+        "email": "11007144.edu@juntadeandalucia.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "La Tortuga es un centro privado de educación infantil de primer ciclo en Avda. de Las Delicias, 58, esquina C/ Galápago, 11406, Jerez de la Frontera, adherido al Programa de Ayuda a las Familias de la Junta de Andalucía. No consta información oficial adicional sobre servicios concretos en el momento de esta consulta.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Tortuga?",
+          "answer": "El centro se encuentra en Avda. de Las Delicias, 58, esquina C/ Galápago, 11406, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 956391188, escribir a 11007144.edu@juntadeandalucia.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11007144",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "blanca-paloma-jerez",
+      "name": "Blanca Paloma",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Polígo San Telmo, s/n",
+        "postal_code": "11408",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.673655,
+        "longitude": -6.130057
+      },
+      "contact": {
+        "phone": "649868730",
+        "email": "11008872.edu@juntadeandalucia.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Centro privado de educación infantil de primer ciclo en Polígo San Telmo, s/n, 11408, Jerez de la Frontera: Blanca Paloma está adherido al Programa de Ayuda a las Familias de la Junta de Andalucía. No se ha podido confirmar información adicional sobre servicios concretos.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Blanca Paloma?",
+          "answer": "El centro se encuentra en Polígo San Telmo, s/n, 11408, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 649868730, escribir a 11008872.edu@juntadeandalucia.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11008872",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "virgen-del-valle-jerez",
+      "name": "Virgen del Valle",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Plaza Barahona, s/n. Bda. Federico Mayo",
+        "postal_code": "11408",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.673995179588395,
+        "longitude": -6.135671138763428
+      },
+      "contact": {
+        "phone": "856812821",
+        "email": "11011263.edu@juntadeandalucia.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "Horario general de 7:30h a 17:00h, ininterrumpidamente, de lunes a viernes (excepto agosto), dividido en aula matinal (7:30-9:00), atención socioeducativa con comedor incluido (9:00-15:30) y aula de tarde (15:30-17:00), según la Consejería de Desarrollo Educativo y Formación Profesional de la Junta de Andalucía.",
+      "services": [],
+      "short_description": "Virgen del Valle, en Plaza Barahona, s/n. Bda. Federico Mayo, 11408, es un centro público de primer ciclo de educación infantil perteneciente a la red de escuelas infantiles de la Junta de Andalucía en Jerez de la Frontera.",
+      "long_description": "Virgen del Valle es una escuela infantil de titularidad pública, perteneciente a la red de escuelas infantiles de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional), con sede en Plaza Barahona, s/n. Bda. Federico Mayo, 11408.\n\nSegún la propia Consejería, el horario general de las escuelas infantiles públicas de Andalucía es de 7:30h a 17:00h ininterrumpidamente, de lunes a viernes (excepto agosto), estructurado en tres tramos: aula matinal (7:30-9:00), atención socioeducativa con comedor incluido (9:00-15:30) y aula de tarde (15:30-17:00).\n\nAtiende a niños y niñas desde las 16 semanas (aproximadamente 4 meses) hasta los 3 años. El acceso se realiza mediante un proceso de escolarización con procedimiento de reserva (para alumnado ya escolarizado) y procedimiento ordinario de nuevas solicitudes, pudiendo cada familia indicar un centro principal y hasta varios centros subsidiarios.\n\nPara conocer la disponibilidad de plazas y el calendario de escolarización del curso vigente, se recomienda contactar directamente con el centro o consultar el portal de escolarización de la Junta de Andalucía.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Virgen del Valle?",
+          "answer": "El centro se encuentra en Plaza Barahona, s/n. Bda. Federico Mayo, 11408, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, perteneciente a la red de escuelas infantiles de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional)."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De 7:30h a 17:00h, de lunes a viernes (excepto agosto), con aula matinal (7:30-9:00), atención socioeducativa con comedor (9:00-15:30) y aula de tarde (15:30-17:00), según la Junta de Andalucía."
+        },
+        {
+          "question": "¿Cómo se solicita plaza en este centro?",
+          "answer": "A través del proceso de escolarización de la Junta de Andalucía, con un procedimiento de reserva para alumnado ya escolarizado y un procedimiento ordinario de nuevas solicitudes cada curso, presencial o mediante Secretaría Virtual."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 856812821, escribir a 11011263.edu@juntadeandalucia.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [
+        "https://www.juntadeandalucia.es/educacion/portales/web/escolarizacion/0-a-3-anos/preguntas-frecuentes"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_junta",
+      "codigo_centro_rc": "11011263",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "santa-maria-jerez",
+      "name": "Santa María",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Avda. de la Fuente, 1",
+        "postal_code": "11590",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": "Mesas de Asta",
+        "neighborhood_barrio": null,
+        "latitude": 36.7890356921704,
+        "longitude": -6.173833608627319
+      },
+      "contact": {
+        "phone": "856811700",
+        "email": "11011287.edu@juntadeandalucia.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "Horario general de 7:30h a 17:00h, ininterrumpidamente, de lunes a viernes (excepto agosto), dividido en aula matinal (7:30-9:00), atención socioeducativa con comedor incluido (9:00-15:30) y aula de tarde (15:30-17:00), según la Consejería de Desarrollo Educativo y Formación Profesional de la Junta de Andalucía.",
+      "services": [],
+      "short_description": "Escuela infantil pública de la red de la Junta de Andalucía en Jerez de la Frontera, Santa María tiene su sede en Avda. de la Fuente, 1, 11590, Mesas de Asta y atiende el primer ciclo de educación infantil (0-3 años).",
+      "long_description": "Santa María es una escuela infantil de titularidad pública, perteneciente a la red de escuelas infantiles de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional), con sede en Avda. de la Fuente, 1, 11590, Mesas de Asta.\n\nSegún la propia Consejería, el horario general de las escuelas infantiles públicas de Andalucía es de 7:30h a 17:00h ininterrumpidamente, de lunes a viernes (excepto agosto), estructurado en tres tramos: aula matinal (7:30-9:00), atención socioeducativa con comedor incluido (9:00-15:30) y aula de tarde (15:30-17:00).\n\nAtiende a niños y niñas desde las 16 semanas (aproximadamente 4 meses) hasta los 3 años. El acceso se realiza mediante un proceso de escolarización con procedimiento de reserva (para alumnado ya escolarizado) y procedimiento ordinario de nuevas solicitudes, pudiendo cada familia indicar un centro principal y hasta varios centros subsidiarios.\n\nPara conocer la disponibilidad de plazas y el calendario de escolarización del curso vigente, se recomienda contactar directamente con el centro o consultar el portal de escolarización de la Junta de Andalucía.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Santa María?",
+          "answer": "El centro se encuentra en Avda. de la Fuente, 1, 11590, en Mesas de Asta (Jerez de la Frontera)."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, perteneciente a la red de escuelas infantiles de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional)."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De 7:30h a 17:00h, de lunes a viernes (excepto agosto), con aula matinal (7:30-9:00), atención socioeducativa con comedor (9:00-15:30) y aula de tarde (15:30-17:00), según la Junta de Andalucía."
+        },
+        {
+          "question": "¿Cómo se solicita plaza en este centro?",
+          "answer": "A través del proceso de escolarización de la Junta de Andalucía, con un procedimiento de reserva para alumnado ya escolarizado y un procedimiento ordinario de nuevas solicitudes cada curso, presencial o mediante Secretaría Virtual."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 856811700, escribir a 11011287.edu@juntadeandalucia.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [
+        "https://www.juntadeandalucia.es/educacion/portales/web/escolarizacion/0-a-3-anos/preguntas-frecuentes"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_junta",
+      "codigo_centro_rc": "11011287",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "san-carlos-jerez",
+      "name": "San Carlos",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "C/ Lealas, s/n",
+        "postal_code": "11404",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.691650672186384,
+        "longitude": -6.142982840538025
+      },
+      "contact": {
+        "phone": "856812822",
+        "email": "11011330.edu@juntadeandalucia.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "Horario general de 7:30h a 17:00h, ininterrumpidamente, de lunes a viernes (excepto agosto), dividido en aula matinal (7:30-9:00), atención socioeducativa con comedor incluido (9:00-15:30) y aula de tarde (15:30-17:00), según la Consejería de Desarrollo Educativo y Formación Profesional de la Junta de Andalucía.",
+      "services": [],
+      "short_description": "San Carlos es una escuela infantil de titularidad pública de la Junta de Andalucía, situada en C/ Lealas, s/n, 11404. Forma parte de la red autonómica de primer ciclo de educación infantil (0-3 años) de Jerez de la Frontera.",
+      "long_description": "San Carlos es una escuela infantil de titularidad pública, perteneciente a la red de escuelas infantiles de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional), con sede en C/ Lealas, s/n, 11404.\n\nSegún la propia Consejería, el horario general de las escuelas infantiles públicas de Andalucía es de 7:30h a 17:00h ininterrumpidamente, de lunes a viernes (excepto agosto), estructurado en tres tramos: aula matinal (7:30-9:00), atención socioeducativa con comedor incluido (9:00-15:30) y aula de tarde (15:30-17:00).\n\nAtiende a niños y niñas desde las 16 semanas (aproximadamente 4 meses) hasta los 3 años. El acceso se realiza mediante un proceso de escolarización con procedimiento de reserva (para alumnado ya escolarizado) y procedimiento ordinario de nuevas solicitudes, pudiendo cada familia indicar un centro principal y hasta varios centros subsidiarios.\n\nPara conocer la disponibilidad de plazas y el calendario de escolarización del curso vigente, se recomienda contactar directamente con el centro o consultar el portal de escolarización de la Junta de Andalucía.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado San Carlos?",
+          "answer": "El centro se encuentra en C/ Lealas, s/n, 11404, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, perteneciente a la red de escuelas infantiles de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional)."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De 7:30h a 17:00h, de lunes a viernes (excepto agosto), con aula matinal (7:30-9:00), atención socioeducativa con comedor (9:00-15:30) y aula de tarde (15:30-17:00), según la Junta de Andalucía."
+        },
+        {
+          "question": "¿Cómo se solicita plaza en este centro?",
+          "answer": "A través del proceso de escolarización de la Junta de Andalucía, con un procedimiento de reserva para alumnado ya escolarizado y un procedimiento ordinario de nuevas solicitudes cada curso, presencial o mediante Secretaría Virtual."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 856812822, escribir a 11011330.edu@juntadeandalucia.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [
+        "https://www.juntadeandalucia.es/educacion/portales/web/escolarizacion/0-a-3-anos/preguntas-frecuentes"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_junta",
+      "codigo_centro_rc": "11011330",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "rocinante-jerez",
+      "name": "Rocinante",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "C/ Amistad, s/n. Bda. San Telmo",
+        "postal_code": "11408",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.6720654777068,
+        "longitude": -6.13162100315094
+      },
+      "contact": {
+        "phone": "856812824",
+        "email": "11011408.edu@juntadeandalucia.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "Horario general de 7:30h a 17:00h, ininterrumpidamente, de lunes a viernes (excepto agosto), dividido en aula matinal (7:30-9:00), atención socioeducativa con comedor incluido (9:00-15:30) y aula de tarde (15:30-17:00), según la Consejería de Desarrollo Educativo y Formación Profesional de la Junta de Andalucía.",
+      "services": [],
+      "short_description": "Rocinante es una escuela infantil de titularidad pública de la Junta de Andalucía, situada en C/ Amistad, s/n. Bda. San Telmo, 11408. Forma parte de la red autonómica de primer ciclo de educación infantil (0-3 años) de Jerez de la Frontera.",
+      "long_description": "Rocinante es una escuela infantil de titularidad pública, perteneciente a la red de escuelas infantiles de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional), con sede en C/ Amistad, s/n. Bda. San Telmo, 11408.\n\nSegún la propia Consejería, el horario general de las escuelas infantiles públicas de Andalucía es de 7:30h a 17:00h ininterrumpidamente, de lunes a viernes (excepto agosto), estructurado en tres tramos: aula matinal (7:30-9:00), atención socioeducativa con comedor incluido (9:00-15:30) y aula de tarde (15:30-17:00).\n\nAtiende a niños y niñas desde las 16 semanas (aproximadamente 4 meses) hasta los 3 años. El acceso se realiza mediante un proceso de escolarización con procedimiento de reserva (para alumnado ya escolarizado) y procedimiento ordinario de nuevas solicitudes, pudiendo cada familia indicar un centro principal y hasta varios centros subsidiarios.\n\nPara conocer la disponibilidad de plazas y el calendario de escolarización del curso vigente, se recomienda contactar directamente con el centro o consultar el portal de escolarización de la Junta de Andalucía.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Rocinante?",
+          "answer": "El centro se encuentra en C/ Amistad, s/n. Bda. San Telmo, 11408, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, perteneciente a la red de escuelas infantiles de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional)."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De 7:30h a 17:00h, de lunes a viernes (excepto agosto), con aula matinal (7:30-9:00), atención socioeducativa con comedor (9:00-15:30) y aula de tarde (15:30-17:00), según la Junta de Andalucía."
+        },
+        {
+          "question": "¿Cómo se solicita plaza en este centro?",
+          "answer": "A través del proceso de escolarización de la Junta de Andalucía, con un procedimiento de reserva para alumnado ya escolarizado y un procedimiento ordinario de nuevas solicitudes cada curso, presencial o mediante Secretaría Virtual."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 856812824, escribir a 11011408.edu@juntadeandalucia.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [
+        "https://www.juntadeandalucia.es/educacion/portales/web/escolarizacion/0-a-3-anos/preguntas-frecuentes"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_junta",
+      "codigo_centro_rc": "11011408",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "primavera-jerez",
+      "name": "Primavera",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Bda. San Valentín, s/n",
+        "postal_code": "11404",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.691905537229964,
+        "longitude": -6.152398735284805
+      },
+      "contact": {
+        "phone": "856812827",
+        "email": "11011411.edu@juntadeandalucia.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "Horario general de 7:30h a 17:00h, ininterrumpidamente, de lunes a viernes (excepto agosto), dividido en aula matinal (7:30-9:00), atención socioeducativa con comedor incluido (9:00-15:30) y aula de tarde (15:30-17:00), según la Consejería de Desarrollo Educativo y Formación Profesional de la Junta de Andalucía.",
+      "services": [],
+      "short_description": "Primavera es una escuela infantil de titularidad pública de la Junta de Andalucía, situada en Bda. San Valentín, s/n, 11404. Forma parte de la red autonómica de primer ciclo de educación infantil (0-3 años) de Jerez de la Frontera.",
+      "long_description": "Primavera es una escuela infantil de titularidad pública, perteneciente a la red de escuelas infantiles de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional), con sede en Bda. San Valentín, s/n, 11404.\n\nSegún la propia Consejería, el horario general de las escuelas infantiles públicas de Andalucía es de 7:30h a 17:00h ininterrumpidamente, de lunes a viernes (excepto agosto), estructurado en tres tramos: aula matinal (7:30-9:00), atención socioeducativa con comedor incluido (9:00-15:30) y aula de tarde (15:30-17:00).\n\nAtiende a niños y niñas desde las 16 semanas (aproximadamente 4 meses) hasta los 3 años. El acceso se realiza mediante un proceso de escolarización con procedimiento de reserva (para alumnado ya escolarizado) y procedimiento ordinario de nuevas solicitudes, pudiendo cada familia indicar un centro principal y hasta varios centros subsidiarios.\n\nPara conocer la disponibilidad de plazas y el calendario de escolarización del curso vigente, se recomienda contactar directamente con el centro o consultar el portal de escolarización de la Junta de Andalucía.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Primavera?",
+          "answer": "El centro se encuentra en Bda. San Valentín, s/n, 11404, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, perteneciente a la red de escuelas infantiles de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional)."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De 7:30h a 17:00h, de lunes a viernes (excepto agosto), con aula matinal (7:30-9:00), atención socioeducativa con comedor (9:00-15:30) y aula de tarde (15:30-17:00), según la Junta de Andalucía."
+        },
+        {
+          "question": "¿Cómo se solicita plaza en este centro?",
+          "answer": "A través del proceso de escolarización de la Junta de Andalucía, con un procedimiento de reserva para alumnado ya escolarizado y un procedimiento ordinario de nuevas solicitudes cada curso, presencial o mediante Secretaría Virtual."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 856812827, escribir a 11011411.edu@juntadeandalucia.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [
+        "https://www.juntadeandalucia.es/educacion/portales/web/escolarizacion/0-a-3-anos/preguntas-frecuentes"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_junta",
+      "codigo_centro_rc": "11011411",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "pita-pita-jerez",
+      "name": "Pita-Pita",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Tajo, 19",
+        "postal_code": "11406",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.6884878073359,
+        "longitude": -6.09971178248748
+      },
+      "contact": {
+        "phone": "630482713",
+        "email": "11011494.edu@juntadeandalucia.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Centro privado de educación infantil de primer ciclo en C/ Tajo, 19, 11406, Jerez de la Frontera: Pita-Pita está adherido al Programa de Ayuda a las Familias de la Junta de Andalucía. No se ha podido confirmar información adicional sobre servicios concretos.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Pita-Pita?",
+          "answer": "El centro se encuentra en C/ Tajo, 19, 11406, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 630482713, escribir a 11011494.edu@juntadeandalucia.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11011494",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "perezoso-jerez",
+      "name": "Perezoso",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Real, 11",
+        "postal_code": "11591",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": "Guadalcacín",
+        "neighborhood_barrio": null,
+        "latitude": 36.71572517064792,
+        "longitude": -6.087709414555908
+      },
+      "contact": {
+        "phone": "956157247",
+        "email": "11011913.edu@juntadeandalucia.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Ubicado en C/ Real, 11, 11591, Guadalcacín, Jerez de la Frontera, Perezoso es un centro privado de primer ciclo de educación infantil que figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro oficial consultado.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Perezoso?",
+          "answer": "El centro se encuentra en C/ Real, 11, 11591, en Guadalcacín (Jerez de la Frontera)."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 956157247, escribir a 11011913.edu@juntadeandalucia.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11011913",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "la-granja-jerez",
+      "name": "La Granja",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Plaza Ronda, s/n. Bda. La Granja",
+        "postal_code": "11405",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.696325,
+        "longitude": -6.1061
+      },
+      "contact": {
+        "phone": "956312716",
+        "email": "11011998.edu@juntadeandalucia.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "La Granja es un centro privado de educación infantil de primer ciclo en Plaza Ronda, s/n. Bda. La Granja, 11405, Jerez de la Frontera, adherido al Programa de Ayuda a las Familias de la Junta de Andalucía. No consta información oficial adicional sobre servicios concretos en el momento de esta consulta.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Granja?",
+          "answer": "El centro se encuentra en Plaza Ronda, s/n. Bda. La Granja, 11405, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 956312716, escribir a 11011998.edu@juntadeandalucia.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11011998",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "pipos-jerez",
+      "name": "Pipos",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avda. Cruz Roja, 1",
+        "postal_code": "11407",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.688755202709224,
+        "longitude": -6.126638415168556
+      },
+      "contact": {
+        "phone": "651116350",
+        "email": "pburgos78@hotmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Pipos es un centro privado de educación infantil de primer ciclo en Avda. Cruz Roja, 1, 11407 (Jerez de la Frontera), no adherido al Programa de Ayuda a las Familias de la Junta de Andalucía según el registro oficial.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Pipos?",
+          "answer": "El centro se encuentra en Avda. Cruz Roja, 1, 11407, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, no figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 651116350, escribir a pburgos78@hotmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_no_adherido",
+      "codigo_centro_rc": "11012140",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "el-paje-jerez",
+      "name": "El Paje",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "C/ Tempul, s/n",
+        "postal_code": "11570",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": "La Barca de la Florida",
+        "neighborhood_barrio": null,
+        "latitude": 36.644181586865905,
+        "longitude": -5.92987060546875
+      },
+      "contact": {
+        "phone": "856587186",
+        "email": "11012188.edu@juntadeandalucia.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "Horario general de 7:30h a 17:00h, ininterrumpidamente, de lunes a viernes (excepto agosto), dividido en aula matinal (7:30-9:00), atención socioeducativa con comedor incluido (9:00-15:30) y aula de tarde (15:30-17:00), según la Consejería de Desarrollo Educativo y Formación Profesional de la Junta de Andalucía.",
+      "services": [],
+      "short_description": "El Paje es una escuela infantil de titularidad pública de la Junta de Andalucía, situada en C/ Tempul, s/n, 11570, La Barca de la Florida. Forma parte de la red autonómica de primer ciclo de educación infantil (0-3 años) de Jerez de la Frontera.",
+      "long_description": "El Paje es una escuela infantil de titularidad pública, perteneciente a la red de escuelas infantiles de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional), con sede en C/ Tempul, s/n, 11570, La Barca de la Florida.\n\nSegún la propia Consejería, el horario general de las escuelas infantiles públicas de Andalucía es de 7:30h a 17:00h ininterrumpidamente, de lunes a viernes (excepto agosto), estructurado en tres tramos: aula matinal (7:30-9:00), atención socioeducativa con comedor incluido (9:00-15:30) y aula de tarde (15:30-17:00).\n\nAtiende a niños y niñas desde las 16 semanas (aproximadamente 4 meses) hasta los 3 años. El acceso se realiza mediante un proceso de escolarización con procedimiento de reserva (para alumnado ya escolarizado) y procedimiento ordinario de nuevas solicitudes, pudiendo cada familia indicar un centro principal y hasta varios centros subsidiarios.\n\nPara conocer la disponibilidad de plazas y el calendario de escolarización del curso vigente, se recomienda contactar directamente con el centro o consultar el portal de escolarización de la Junta de Andalucía.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado El Paje?",
+          "answer": "El centro se encuentra en C/ Tempul, s/n, 11570, en La Barca de la Florida (Jerez de la Frontera)."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, perteneciente a la red de escuelas infantiles de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional)."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De 7:30h a 17:00h, de lunes a viernes (excepto agosto), con aula matinal (7:30-9:00), atención socioeducativa con comedor (9:00-15:30) y aula de tarde (15:30-17:00), según la Junta de Andalucía."
+        },
+        {
+          "question": "¿Cómo se solicita plaza en este centro?",
+          "answer": "A través del proceso de escolarización de la Junta de Andalucía, con un procedimiento de reserva para alumnado ya escolarizado y un procedimiento ordinario de nuevas solicitudes cada curso, presencial o mediante Secretaría Virtual."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 856587186, escribir a 11012188.edu@juntadeandalucia.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [
+        "https://www.juntadeandalucia.es/educacion/portales/web/escolarizacion/0-a-3-anos/preguntas-frecuentes"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "publico_junta",
+      "codigo_centro_rc": "11012188",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "el-recreo-jerez",
+      "name": "El Recreo",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Tecnología, B-15",
+        "postal_code": "11407",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.712174818211636,
+        "longitude": -6.125553846359253
+      },
+      "contact": {
+        "phone": "856050983",
+        "email": "info@elrecreodejerez.com",
+        "website": "https://www.elrecreodejerez.com/"
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "De 7:30 a 17:00 horas, de lunes a viernes, según su web oficial.",
+      "services": [
+        "comedor",
+        "patio-exterior"
+      ],
+      "short_description": "Con sede en C/ Tecnología, B-15, 11407, El Recreo es un centro privado de primer ciclo de educación infantil en Jerez de la Frontera que confirma en su web oficial los siguientes servicios: comedor, patio exterior.",
+      "long_description": "El Recreo es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en C/ Tecnología, B-15, 11407.\n\nSegún el registro oficial de la Junta de Andalucía, el centro figura adherido al Programa de Ayuda a las Familias para el fomento de la escolarización de educación infantil.\n\nServicios confirmados en la web oficial: comedor propio de 50 m² totalmente equipado, y patio exterior de 200 m² con suelo de seguridad.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado El Recreo?",
+          "answer": "El centro se encuentra en C/ Tecnología, B-15, 11407, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según fuente verificada el centro ofrece servicio de comedor."
+        },
+        {
+          "question": "¿Tiene patio exterior?",
+          "answer": "Sí, según su web oficial el centro dispone de patio o zona exterior propia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 856050983, escribir a info@elrecreodejerez.com, consultar su web oficial (https://www.elrecreodejerez.com/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [
+        "https://www.elrecreodejerez.com/instalaciones.php"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11012221",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "bugui-bugui-jerez",
+      "name": "Bugui Bugui",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ La Ina, s/n",
+        "postal_code": "11595",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": "Torrecera",
+        "neighborhood_barrio": null,
+        "latitude": 36.60891516793708,
+        "longitude": -5.942564408493164
+      },
+      "contact": {
+        "phone": "956161784",
+        "email": "administracion@torrecera.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Bugui Bugui, situado en C/ La Ina, s/n, 11595, Torrecera, Jerez de la Frontera, atiende el primer ciclo de educación infantil (0-3 años) y figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Bugui Bugui?",
+          "answer": "El centro se encuentra en C/ La Ina, s/n, 11595, en Torrecera (Jerez de la Frontera)."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 956161784, escribir a administracion@torrecera.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11012243",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "lolita-jerez",
+      "name": "Lolita",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ San Justo, 6",
+        "postal_code": "11402",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.677795829386,
+        "longitude": -6.13325191256954
+      },
+      "contact": {
+        "phone": "856927659",
+        "email": "guarderialolita@yahoo.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Centro privado de educación infantil de primer ciclo en C/ San Justo, 6, 11402, Jerez de la Frontera: Lolita está adherido al Programa de Ayuda a las Familias de la Junta de Andalucía. No se ha podido confirmar información adicional sobre servicios concretos.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Lolita?",
+          "answer": "El centro se encuentra en C/ San Justo, 6, 11402, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 856927659, escribir a guarderialolita@yahoo.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11012541",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "el-golfillo-2-jerez",
+      "name": "El Golfillo 2",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Martín Ferrador, 6",
+        "postal_code": "11405",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.691016953987464,
+        "longitude": -6.127407769133366
+      },
+      "contact": {
+        "phone": "956300768",
+        "email": "guarderiainfantilelgolfillo@hotmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Centro privado de educación infantil de primer ciclo en C/ Martín Ferrador, 6, 11405, Jerez de la Frontera: El Golfillo 2 está adherido al Programa de Ayuda a las Familias de la Junta de Andalucía. No se ha podido confirmar información adicional sobre servicios concretos.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado El Golfillo 2?",
+          "answer": "El centro se encuentra en C/ Martín Ferrador, 6, 11405, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 956300768, escribir a guarderiainfantilelgolfillo@hotmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11012619",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "montealto-jerez",
+      "name": "Montealto",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avda. Carrascal, 34",
+        "postal_code": "11407",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.7058487996776,
+        "longitude": -6.13537080197893
+      },
+      "contact": {
+        "phone": "956305772",
+        "email": "11012668.edu@juntadeandalucia.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Con sede en Avda. Carrascal, 34, 11407 (Jerez de la Frontera), Montealto es un centro privado de primer ciclo de educación infantil adherido al Programa de Ayuda a las Familias de la Junta de Andalucía, según el registro oficial consultado.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Montealto?",
+          "answer": "El centro se encuentra en Avda. Carrascal, 34, 11407, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 956305772, escribir a 11012668.edu@juntadeandalucia.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11012668",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "pequenos-pasitos-jerez",
+      "name": "Pequeños pasitos",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Abderramán, 16",
+        "postal_code": "11406",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.6859442696956,
+        "longitude": -6.11119181999794
+      },
+      "contact": {
+        "phone": "620565686",
+        "email": "monika.valenzuelatrigueros@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Con sede en C/ Abderramán, 16, 11406 (Jerez de la Frontera), Pequeños pasitos es un centro privado de primer ciclo de educación infantil adherido al Programa de Ayuda a las Familias de la Junta de Andalucía, según el registro oficial consultado.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Pequeños pasitos?",
+          "answer": "El centro se encuentra en C/ Abderramán, 16, 11406, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 620565686, escribir a monika.valenzuelatrigueros@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11012701",
+      "coords_flagged": false,
+      "notes_internal": "Comparte teléfono de contacto (620565686) con otros 2 centros del registro oficial (Pequeños pasitos / Baby Ilusiones / La Ardilla Pilla), y coincide además el email exacto con uno de ellos. Direcciones, códigos de centro y nombres son distintos y verificables individualmente en la fuente oficial -> no se considera duplicado, pero se documenta la posible gestión compartida por la misma persona/gestora."
+    },
+    {
+      "slug": "bambu-jerez",
+      "name": "Bambú",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Plaza de la Albahaca, 3",
+        "postal_code": "11407",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.7055793906786,
+        "longitude": -6.12956967598136
+      },
+      "contact": {
+        "phone": "609622797",
+        "email": "11012802.edu@juntadeandalucia.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Centro privado de educación infantil de primer ciclo en Plaza de la Albahaca, 3, 11407, Jerez de la Frontera: Bambú está adherido al Programa de Ayuda a las Familias de la Junta de Andalucía. No se ha podido confirmar información adicional sobre servicios concretos.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Bambú?",
+          "answer": "El centro se encuentra en Plaza de la Albahaca, 3, 11407, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 609622797, escribir a 11012802.edu@juntadeandalucia.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11012802",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "el-sonajero-jerez",
+      "name": "El Sonajero",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Bda. Ciudasol, s/n",
+        "postal_code": "11405",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.6803818038471,
+        "longitude": -6.11953433699893
+      },
+      "contact": {
+        "phone": "658919586",
+        "email": "majepa@hotmail.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "El Sonajero es un centro privado de educación infantil de primer ciclo en Bda. Ciudasol, s/n, 11405, Jerez de la Frontera, adherido al Programa de Ayuda a las Familias de la Junta de Andalucía. No consta información oficial adicional sobre servicios concretos en el momento de esta consulta.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado El Sonajero?",
+          "answer": "El centro se encuentra en Bda. Ciudasol, s/n, 11405, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 658919586, escribir a majepa@hotmail.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11012814",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "montealto-ii-jerez",
+      "name": "Montealto II",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Tilo, 11. Urbanización Montealto",
+        "postal_code": "11407",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.7054033836804,
+        "longitude": -6.13418757497956
+      },
+      "contact": {
+        "phone": "691625611",
+        "email": "11012851.edu@juntadeandalucia.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Con sede en C/ Tilo, 11. Urbanización Montealto, 11407 (Jerez de la Frontera), Montealto II es un centro privado de primer ciclo de educación infantil adherido al Programa de Ayuda a las Familias de la Junta de Andalucía, según el registro oficial consultado.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Montealto II?",
+          "answer": "El centro se encuentra en C/ Tilo, 11. Urbanización Montealto, 11407, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 691625611, escribir a 11012851.edu@juntadeandalucia.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11012851",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "el-nido-jerez",
+      "name": "El Nido",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Bruselas, 16",
+        "postal_code": "11405",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.68875709896686,
+        "longitude": -6.124945852737483
+      },
+      "contact": {
+        "phone": "956339624",
+        "email": "11012875.edu@juntadeandalucia.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Con sede en C/ Bruselas, 16, 11405 (Jerez de la Frontera), El Nido es un centro privado de primer ciclo de educación infantil adherido al Programa de Ayuda a las Familias de la Junta de Andalucía, según el registro oficial consultado.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado El Nido?",
+          "answer": "El centro se encuentra en C/ Bruselas, 16, 11405, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 956339624, escribir a 11012875.edu@juntadeandalucia.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11012875",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "baby-ilusiones-jerez",
+      "name": "Baby Ilusiones",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Amadeo Vives, 9",
+        "postal_code": "11406",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.6739752589696,
+        "longitude": -6.12003874760834
+      },
+      "contact": {
+        "phone": "620565686",
+        "email": "centroinfantilbabyilusiones@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Con sede en C/ Amadeo Vives, 9, 11406 (Jerez de la Frontera), Baby Ilusiones es un centro privado de primer ciclo de educación infantil adherido al Programa de Ayuda a las Familias de la Junta de Andalucía, según el registro oficial consultado.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Baby Ilusiones?",
+          "answer": "El centro se encuentra en C/ Amadeo Vives, 9, 11406, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 620565686, escribir a centroinfantilbabyilusiones@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11012929",
+      "coords_flagged": false,
+      "notes_internal": "Comparte teléfono de contacto (620565686) con otros 2 centros del registro oficial (Pequeños pasitos / Baby Ilusiones / La Ardilla Pilla), y coincide además el email exacto con uno de ellos. Direcciones, códigos de centro y nombres son distintos y verificables individualmente en la fuente oficial -> no se considera duplicado, pero se documenta la posible gestión compartida por la misma persona/gestora."
+    },
+    {
+      "slug": "colorines-house-jerez",
+      "name": "Colorines' House",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Tilo, 164 Montealto",
+        "postal_code": "11407",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.7051792635532,
+        "longitude": -6.13405742428247
+      },
+      "contact": {
+        "phone": "633045154",
+        "email": "11012930.edu@juntadeandalucia.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Ubicado en C/ Tilo, 164 Montealto, 11407, Jerez de la Frontera, Colorines' House es un centro privado de primer ciclo de educación infantil que figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro oficial consultado.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Colorines' House?",
+          "answer": "El centro se encuentra en C/ Tilo, 164 Montealto, 11407, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 633045154, escribir a 11012930.edu@juntadeandalucia.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11012930",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "educa-jerez",
+      "name": "Educa",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avda. de Francia, 20",
+        "postal_code": "11408",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.66626225703496,
+        "longitude": -6.147808605648606
+      },
+      "contact": {
+        "phone": "605927163",
+        "email": "centroinfantileduca@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Educa, situado en Avda. de Francia, 20, 11408, Jerez de la Frontera, atiende el primer ciclo de educación infantil (0-3 años) y figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Educa?",
+          "answer": "El centro se encuentra en Avda. de Francia, 20, 11408, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 605927163, escribir a centroinfantileduca@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11012966",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "pequeno-pony-jerez",
+      "name": "Pequeño Pony",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Nuestra Señora de la \"O\", 46",
+        "postal_code": "11406",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.6872675701227,
+        "longitude": -6.1131612929144
+      },
+      "contact": {
+        "phone": "665844342",
+        "email": "11013053.edu@juntadeandalucia.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Pequeño Pony, situado en C/ Nuestra Señora de la \"O\", 46, 11406, Jerez de la Frontera, atiende el primer ciclo de educación infantil (0-3 años) y figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Pequeño Pony?",
+          "answer": "El centro se encuentra en C/ Nuestra Señora de la \"O\", 46, 11406, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 665844342, escribir a 11013053.edu@juntadeandalucia.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11013053",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "la-ardilla-pilla-jerez",
+      "name": "La Ardilla Pilla",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Leones, 8",
+        "postal_code": "11401",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.676532274206465,
+        "longitude": -6.130663749801329
+      },
+      "contact": {
+        "phone": "620565686",
+        "email": "monika.valenzuelatrigueros@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Ubicado en C/ Leones, 8, 11401, Jerez de la Frontera, La Ardilla Pilla es un centro privado de primer ciclo de educación infantil que figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro oficial consultado.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Ardilla Pilla?",
+          "answer": "El centro se encuentra en C/ Leones, 8, 11401, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 620565686, escribir a monika.valenzuelatrigueros@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11013089",
+      "coords_flagged": false,
+      "notes_internal": "Comparte teléfono de contacto (620565686) con otros 2 centros del registro oficial (Pequeños pasitos / Baby Ilusiones / La Ardilla Pilla), y coincide además el email exacto con uno de ellos. Direcciones, códigos de centro y nombres son distintos y verificables individualmente en la fuente oficial -> no se considera duplicado, pero se documenta la posible gestión compartida por la misma persona/gestora."
+    },
+    {
+      "slug": "sol-y-luna-jerez",
+      "name": "Sol y Luna Escuela Infantil Jerez",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avda. María Auxiliadora, 16",
+        "postal_code": "11407",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.705146452532006,
+        "longitude": -6.133151633764939
+      },
+      "contact": {
+        "phone": "679697753",
+        "email": "info@solylunajerez.es",
+        "website": "https://www.solylunajerez.es/"
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "De 7:30 a 17:00 horas, de lunes a viernes, con aula matinal y aula de tarde (cerrado en agosto), según su web oficial.",
+      "services": [
+        "comedor",
+        "horario-ampliado",
+        "servicio-madrugadores"
+      ],
+      "short_description": "Centro privado de educación infantil de primer ciclo en Avda. María Auxiliadora, 16, 11407, Jerez de la Frontera: Sol y Luna Escuela Infantil Jerez confirma en su propia web servicios como comedor, horario ampliado, servicio de madrugadores/aula matinal.",
+      "long_description": "Sol y Luna Escuela Infantil Jerez es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Avda. María Auxiliadora, 16, 11407.\n\nSegún el registro oficial de la Junta de Andalucía, el centro figura adherido al Programa de Ayuda a las Familias para el fomento de la escolarización de educación infantil.\n\nServicios confirmados en la web oficial: comedor propio, aula matinal y aula de tarde (horario ampliado/madrugadores), horario de 7:30 a 17:00h. La web también menciona talleres sensoriales, yoga y metodología Montessori, que no corresponden a ningún valor del enum cerrado de servicios del proyecto y no se han incluido como tal.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Sol y Luna Escuela Infantil Jerez?",
+          "answer": "El centro se encuentra en Avda. María Auxiliadora, 16, 11407, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según fuente verificada el centro ofrece servicio de comedor."
+        },
+        {
+          "question": "¿Tiene horario ampliado o servicio de madrugadores?",
+          "answer": "Sí, según fuente verificada el centro ofrece aula matinal/madrugadores y horario ampliado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 679697753, escribir a info@solylunajerez.es, consultar su web oficial (https://www.solylunajerez.es/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [
+        "https://www.solylunajerez.es/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11013107",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "veo-veo-jerez",
+      "name": "Veo Veo",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avda. Limonar, 8, Montealto",
+        "postal_code": "11407",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.70391194583427,
+        "longitude": -6.1350508308651115
+      },
+      "contact": {
+        "phone": "856153545",
+        "email": "11013120.edu@juntadeandalucia.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Centro privado de educación infantil de primer ciclo en Avda. Limonar, 8, Montealto, 11407, Jerez de la Frontera: Veo Veo está adherido al Programa de Ayuda a las Familias de la Junta de Andalucía. No se ha podido confirmar información adicional sobre servicios concretos.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Veo Veo?",
+          "answer": "El centro se encuentra en Avda. Limonar, 8, Montealto, 11407, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 856153545, escribir a 11013120.edu@juntadeandalucia.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11013120",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "luna-de-caramelo-jerez",
+      "name": "Luna de Caramelo",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avda. de Italia, 44",
+        "postal_code": "11408",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.6665137688522,
+        "longitude": -6.15057072335566
+      },
+      "contact": {
+        "phone": "956143223",
+        "email": "guarderia@lunadecaramelo.com",
+        "website": "https://lunadecaramelo.com/"
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "De 7:30 a 17:00 horas, de lunes a viernes, según su web oficial.",
+      "services": [
+        "patio-exterior",
+        "psicomotricidad"
+      ],
+      "short_description": "Luna de Caramelo, situado en Avda. de Italia, 44, 11408 (Jerez de la Frontera), es un centro de educación infantil de primer ciclo cuya web oficial confirma: patio exterior, psicomotricidad.",
+      "long_description": "Luna de Caramelo es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Avda. de Italia, 44, 11408.\n\nSegún el registro oficial de la Junta de Andalucía, el centro figura adherido al Programa de Ayuda a las Familias para el fomento de la escolarización de educación infantil.\n\nServicios confirmados en la web oficial: aula específica para bebés de 0-12 meses, patio exterior de unos 300 m² dividido en tres zonas por edades, y sala multifuncional para psicomotricidad. IMPORTANTE: la web propia del centro se autodescribe como \"guardería pública\" y \"centro público\", pero según el registro oficial de la Junta de Andalucía (fuente primaria) el centro figura con D_TIPO=\"Privado\" y adherido al Programa de Ayuda a las Familias (priv_adh_inf1=S). Se mantiene ownership=privado siguiendo la fuente oficial, no la autodescripción comercial del propio centro (mismo criterio ya aplicado ante casos similares en Sevilla).\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Luna de Caramelo?",
+          "answer": "El centro se encuentra en Avda. de Italia, 44, 11408, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Tiene patio exterior?",
+          "answer": "Sí, según su web oficial el centro dispone de patio o zona exterior propia."
+        },
+        {
+          "question": "¿Ofrece actividades de psicomotricidad?",
+          "answer": "Sí, según su web oficial el centro dedica un espacio o sala a actividades de psicomotricidad."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 956143223, escribir a guarderia@lunadecaramelo.com, consultar su web oficial (https://lunadecaramelo.com/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [
+        "https://lunadecaramelo.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11013171",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "nazaret-jerez",
+      "name": "Nazaret",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avda. Nazaret, 19",
+        "postal_code": "11406",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.678290127258805,
+        "longitude": -6.1184524521147505
+      },
+      "contact": {
+        "phone": null,
+        "email": "direccion@clubnazaret.org",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Nazaret es un centro privado de educación infantil de primer ciclo en Avda. Nazaret, 19, 11406 (Jerez de la Frontera), no adherido al Programa de Ayuda a las Familias de la Junta de Andalucía según el registro oficial.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Nazaret?",
+          "answer": "El centro se encuentra en Avda. Nazaret, 19, 11406, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, no figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes escribir a direccion@clubnazaret.org."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_no_adherido",
+      "codigo_centro_rc": "11013478",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "chupetes-jerez",
+      "name": "Chupetes",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "C/ Hijuela de la Marquesa, s/n Edif. usos múltiples Ciudad de los Niños",
+        "postal_code": "11406",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.6929024424712,
+        "longitude": -6.10314275733997
+      },
+      "contact": {
+        "phone": "631224975",
+        "email": "info@chupetesescuelainfantil.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Ubicado en C/ Hijuela de la Marquesa, s/n Edif. usos múltiples Ciudad de los Niños, 11406, Jerez de la Frontera, Chupetes es un centro privado de primer ciclo de educación infantil que figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro oficial consultado.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Chupetes?",
+          "answer": "El centro se encuentra en C/ Hijuela de la Marquesa, s/n Edif. usos múltiples Ciudad de los Niños, 11406, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 631224975, escribir a info@chupetesescuelainfantil.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11013557",
+      "coords_flagged": false,
+      "notes_internal": null
+    },
+    {
+      "slug": "attendis-preschool-jerez",
+      "name": "Attendis Preschool Jerez",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avda. las Adelfas, 12 (Urb. Monte Alto)",
+        "postal_code": "11407",
+        "city_slug": "jerez-de-la-frontera",
+        "city_name": "Jerez de la Frontera",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 36.70591610976046,
+        "longitude": -6.135730608547607
+      },
+      "contact": {
+        "phone": "956305604",
+        "email": "jerez@attendispreschool.com",
+        "website": "https://attendis.com/attendis-preschool/"
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "comedor",
+        "bilingue",
+        "patio-exterior",
+        "psicomotricidad",
+        "escuela-de-padres"
+      ],
+      "short_description": "Attendis Preschool Jerez, situado en Avda. las Adelfas, 12 (Urb. Monte Alto), 11407 (Jerez de la Frontera), es un centro de educación infantil de primer ciclo cuya web oficial confirma: comedor, programa bilingüe, patio exterior, psicomotricidad, escuela de padres y madres.",
+      "long_description": "Attendis Preschool Jerez es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Avda. las Adelfas, 12 (Urb. Monte Alto), 11407.\n\nSegún el registro oficial de la Junta de Andalucía, el centro figura adherido al Programa de Ayuda a las Familias para el fomento de la escolarización de educación infantil.\n\nServicios confirmados en la web oficial del Grupo Attendis (programa Attendis Preschool, con sede en Jerez de la Frontera): comedor propio, educación bilingüe español-inglés desde el inicio, acceso a espacios naturales/jardín ecológico (patio exterior), espacio \"Baby Fit\" de desarrollo neuropsicomotor, y talleres/entrevistas para familias (escuela de padres). No se confirma horario ampliado ni madrugadores específicos para la sede de Jerez en la web oficial.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Attendis Preschool Jerez?",
+          "answer": "El centro se encuentra en Avda. las Adelfas, 12 (Urb. Monte Alto), 11407, en Jerez de la Frontera."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada. Según el registro de centros de primer ciclo de educación infantil de la Junta de Andalucía, figura adherido al Programa de Ayuda a las Familias de la Junta de Andalucía en el registro consultado."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según fuente verificada el centro ofrece servicio de comedor."
+        },
+        {
+          "question": "¿Es un centro bilingüe o con enseñanza de inglés?",
+          "answer": "Sí, según su web oficial el centro ofrece un programa bilingüe español-inglés."
+        },
+        {
+          "question": "¿Tiene patio exterior?",
+          "answer": "Sí, según su web oficial el centro dispone de patio o zona exterior propia."
+        },
+        {
+          "question": "¿Ofrece actividades de psicomotricidad?",
+          "answer": "Sí, según su web oficial el centro dedica un espacio o sala a actividades de psicomotricidad."
+        },
+        {
+          "question": "¿Ofrece actividades para las familias (escuela de padres)?",
+          "answer": "Sí, según su web oficial el centro organiza talleres y entrevistas personales con las familias."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 956305604, escribir a jerez@attendispreschool.com, consultar su web oficial (https://attendis.com/attendis-preschool/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del registro oficial de centros de primer ciclo de educación infantil de la Junta de Andalucía (Consejería de Desarrollo Educativo y Formación Profesional). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/centros-de-primer-ciclo-de-educacion-infantil-en-andalucia",
+      "source_urls_secondary": [
+        "https://attendis.com/attendis-preschool/",
+        "https://attendis.com/informacion-el-puerto-jerez/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T00:00:00.000Z",
+      "updated_at": "2026-07-12T00:00:00.000Z",
+      "source_group": "privado_adherido",
+      "codigo_centro_rc": "11603592",
+      "coords_flagged": false,
+      "notes_internal": null
+    }
+  ]
+}

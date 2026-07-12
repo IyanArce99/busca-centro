@@ -1,0 +1,34 @@
+{
+  "_readme": "Centros descartados del dataset final de Las Palmas de Gran Canaria por no alcanzar el umbral minimo de verificacion del proyecto o por quedar fuera del alcance MVP (solo primer ciclo 0-3 anos de acceso publico general). No se incluyen en el CSV de importacion ni en el SQL de insercion.",
+  "city": "las-palmas-de-gran-canaria",
+  "generated_at": "2026-07-12T10:00:00.000Z",
+  "stats": {
+    "excluded_count": 3
+  },
+  "centers": [
+    {
+      "name": "EEI Almirante Antequera",
+      "codigo_centro_rc": "35006266",
+      "address_raw": "C/ CÓRDOBA, 13. SAN CRISTÓBAL, 35016, LAS PALMAS DE GRAN CANARIA",
+      "titular_raw": "Cons. de Educación, Form. Prof., Activ. Física y Deportes",
+      "exclusion_reason": "Fuera de alcance MVP: verificado directamente en el blog educativo oficial del centro (gobiernodecanarias.org/medusa/edublog) que imparte exclusivamente segundo ciclo de educación infantil (3-6 años, grupos \"Mariposas\", \"Abejas\", \"Loros\"), sin primer ciclo (0-3 años). Aunque el Registro de Centros Docentes de Canarias lo clasifica genéricamente como \"EEI\" (Escuela de Educación Infantil), no oferta primer ciclo, que es el único alcance MVP de este proyecto.",
+      "source_checked": "https://www3.gobiernodecanarias.org/medusa/edublog/eeialmiranteantequera/"
+    },
+    {
+      "name": "EEI Grumete",
+      "codigo_centro_rc": "35014330",
+      "address_raw": "C/ CARVAJAL, 1 BAJO, 35004, LAS PALMAS DE GRAN CANARIA",
+      "titular_raw": "Otros Ministerios",
+      "exclusion_reason": "Centro de titularidad \"Otros Ministerios\" (Ministerio de Defensa / Armada), de acceso exclusivo para hijos de personal militar destinado en unidades adscritas al Ministerio de Defensa en Las Palmas. No es un servicio de escolarización de acceso público general ni de matrícula ordinaria abierta a cualquier familia, por lo que no encaja en el propósito de un directorio público de guarderías/escuelas infantiles para familias.",
+      "source_checked": "https://armada.defensa.gob.es/ArmadaPortal/page/Portal/ArmadaEspannola/personalasistencia/prefLang-es/032accionsocial--carpeta-centroseducacioninfantil--carpeta-guarderias"
+    },
+    {
+      "name": "EEI Aridamán (D.G. Protección del Menor)",
+      "codigo_centro_rc": "35900093",
+      "address_raw": "C/ CAMILO JOSÉ CELA, 3, 35017, LAS PALMAS DE GRAN CANARIA",
+      "titular_raw": "Otras Consejerías",
+      "exclusion_reason": "Centro de titularidad \"Otras Consejerías\", dependiente de la Dirección General de Protección a la Infancia y la Familia del Gobierno de Canarias. Las plazas se asignan por criterios de protección social/vulnerabilidad (Orden de 20 de septiembre de 1994), no por matrícula ordinaria abierta a cualquier familia mediante solicitud directa. No encaja en el propósito de un directorio público de escolarización infantil de acceso general.",
+      "source_checked": "https://www.gobiernodecanarias.org/educacion/centroseducativos/buscador-centros-openlayers/resultados/detalle?codigo=35900093"
+    }
+  ]
+}

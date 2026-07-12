@@ -1,0 +1,75 @@
+{
+  "_readme": "Centros descartados del dataset final de Zaragoza por no alcanzar el umbral mínimo de verificación. No se incluyen en el CSV de importación ni en el SQL de inserción.",
+  "city": "zaragoza",
+  "generated_at": "2026-07-12T08:51:40.765Z",
+  "stats": {
+    "excluded_count": 1
+  },
+  "centers": [
+    {
+      "slug": "duendecillos-zaragoza",
+      "name": "Duendecillos",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Andrea Palladio, número 2",
+        "postal_code": "50021",
+        "city_slug": "zaragoza",
+        "city_name": "Zaragoza",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 41.61460536,
+        "longitude": -0.87277504
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Localizado en Andrea Palladio, número 2, 50021, Zaragoza, Duendecillos es un centro privado de educación infantil de primer ciclo, incluido en el Registro de Centros Docentes del Gobierno de Aragón. No hay constancia oficial de servicios adicionales, así que recomendamos confirmarlos directamente con el centro antes de solicitar información.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Duendecillos?",
+          "answer": "El centro se encuentra en Andrea Palladio, número 2, 50021, en Zaragoza."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes del Gobierno de Aragón."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono null."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del Registro de Centros Docentes del Gobierno de Aragón. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://opendata.aragon.es/GA_OD_Core/download?view_id=167&formato=json",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T08:51:40.765Z",
+      "updated_at": "2026-07-12T08:51:40.765Z",
+      "source_group": "privado",
+      "idcentrorc": null,
+      "notes_internal": null,
+      "exclusion_reason": "Sin ningún dato de sustancia verificado (ni servicio confirmado, ni long_description, ni web, ni teléfono, ni email, ni horario)."
+    }
+  ]
+}

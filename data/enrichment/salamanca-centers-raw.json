@@ -1,0 +1,61 @@
+{
+  "_readme": "Extraccion sin procesar (pre-normalizacion) de las fuentes oficiales para Salamanca capital, antes de deduplicar, clasificar ownership/type y generar contenido humanizado. Fuente principal: API OpenDataSoft del dataset 'Directorio de Centros Docentes' de la Junta de Castilla y Leon (analisis.datosabiertos.jcyl.es), filtrado por refine.municipio=SALAMANCA y refine.denominacion_generica en {'ESCUELA DE EDUCACION INFANTIL', 'CENTRO PRIVADO DE EDUCACION INFANTIL'}. Los campos siguen el nombre original de la API (snake_case tal cual lo devuelve el dataset). Ver docs/data-sources-salamanca.md para el detalle de cada fuente y las incidencias detectadas.",
+  "city": "salamanca",
+  "extraction_date": "2026-07-12",
+  "source_dataset": "directorio-de-centros-docentes",
+  "source_api": "https://analisis.datosabiertos.jcyl.es/api/records/1.0/search/?dataset=directorio-de-centros-docentes&refine.municipio=SALAMANCA",
+  "raw_denominacion_generica_facets_municipio_salamanca": {
+    "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA": 24,
+    "CENTRO PRIVADO DE EDUCACION INFANTIL PRIMARIA Y SECUNDARIA": 22,
+    "INSTITUTO DE EDUCACION SECUNDARIA": 11,
+    "CENTRO PRIVADO DE EDUCACION INFANTIL": 10,
+    "ESCUELA DE EDUCACION INFANTIL": 7,
+    "CENTRO PRIVADO DE FORMACION PROFESIONAL ESPECIFICA": 4,
+    "otros_fuera_de_alcance_mvp": 16,
+    "total_municipio_salamanca_todas_etapas": 94
+  },
+  "raw_records_escuela_educacion_infantil": [
+    { "denominacion_especifica": "LOS PIZARRALES", "codigo": "37013298", "naturaleza": "PUBLICO", "via": "CALLE OBISPO ALCOLEA", "numero": "S/N", "c_postal": "37006", "municipio": "SALAMANCA", "telefono": "923255366", "correo_electronico": "37013298@educa.jcyl.es", "web": null, "coord_latitud": 40.97985, "coord_longitud": -5.67487, "comedor": "S" },
+    { "denominacion_especifica": "VIRGEN DE LA VEGA", "codigo": "37013262", "naturaleza": "PUBLICO", "via": "AV. DE LOS COMUNEROS", "numero": "2", "c_postal": "37003", "municipio": "SALAMANCA", "telefono": "923223287", "correo_electronico": "37013262@educa.jcyl.es", "web": null, "coord_latitud": 40.96865, "coord_longitud": -5.65418, "comedor": "S" },
+    { "denominacion_especifica": "EL ROLLO", "codigo": "37013572", "naturaleza": "PUBLICO", "via": "CALLE PONFERRADA", "numero": "S/N", "c_postal": "37003", "municipio": "SALAMANCA", "telefono": "923182106", "correo_electronico": "37013572@educa.jcyl.es", "web": null, "coord_latitud": 40.96663, "coord_longitud": -5.64837, "comedor": "S" },
+    { "denominacion_especifica": "GARRIDO", "codigo": "37009830", "naturaleza": "PUBLICO", "via": "CALLE GLORIA FUERTES", "numero": "S/N", "c_postal": "37004", "municipio": "SALAMANCA", "telefono": "923237481", "correo_electronico": "37009830@educa.jcyl.es", "web": null, "coord_latitud": 40.97708, "coord_longitud": -5.64736, "comedor": "S" },
+    { "denominacion_especifica": "SAN BERNARDO", "codigo": "37010133", "naturaleza": "PUBLICO", "via": "CALLE ARAPILES", "numero": "16", "c_postal": "37007", "municipio": "SALAMANCA", "telefono": "923222419", "correo_electronico": "37010133@educa.jcyl.es", "web": "eeisanbernardo.centros.educa.jcyl.es", "coord_latitud": 40.97048, "coord_longitud": -5.67193, "comedor": "S" },
+    { "denominacion_especifica": "EL ZURGUÉN", "codigo": "37013687", "naturaleza": "PUBLICO", "via": "AV. VIRGEN DEL CUETO", "numero": null, "c_postal": "37008", "municipio": "SALAMANCA", "telefono": "923057082", "correo_electronico": "37013687@educa.jcyl.es", "web": null, "coord_latitud": 40.94391, "coord_longitud": -5.67308, "comedor": "S" },
+    { "denominacion_especifica": "LAZARILLO DE TORMES", "codigo": "37013250", "naturaleza": "PUBLICO", "via": "CALLE MAESTRO SERRANO", "numero": "7", "c_postal": "37008", "municipio": "SALAMANCA", "telefono": "923219922", "correo_electronico": "37013250@educa.jcyl.es", "web": null, "coord_latitud": 40.94904, "coord_longitud": -5.65911, "comedor": "S" }
+  ],
+  "raw_records_centro_privado_educacion_infantil": [
+    { "denominacion_especifica": "El Tren", "codigo": "37014217", "naturaleza": "PRIVADO", "concierto": "N", "via": "PLAZA Extremadura", "numero": "5", "c_postal": "37008", "municipio": "SALAMANCA", "telefono": "671080625", "correo_electronico": "37014217@educa.jcyl.es", "web": null, "coord_latitud": 40.9539, "coord_longitud": -5.70986, "comedor": "N" },
+    { "denominacion_especifica": "PSN BICOS", "codigo": "37013596", "naturaleza": "PRIVADO", "concierto": "N", "via": "CALLE Juan Maluquer", "numero": "21", "c_postal": "37007", "municipio": "SALAMANCA", "telefono": "923216810", "correo_electronico": "37013596@educa.jcyl.es", "web": "https://www.psnbicos.es/", "coord_latitud": 40.97056, "coord_longitud": -5.67892, "comedor": "S" },
+    { "denominacion_especifica": "EL GLOBO ROJO II", "codigo": "37014126", "naturaleza": "PRIVADO", "concierto": "N", "via": "CALLE Los Hidalgos", "numero": "18", "c_postal": "37005", "municipio": "SALAMANCA", "telefono": "923243820", "correo_electronico": "37014126@educa.jcyl.es", "web": null, "coord_latitud": 40.97539, "coord_longitud": -5.66328, "comedor": "N" },
+    { "denominacion_especifica": "MI MAMÁ ME MIMA", "codigo": "37014205", "naturaleza": "PRIVADO", "concierto": "N", "via": "CALLE María La Brava", "numero": "42", "c_postal": "37003", "municipio": "SALAMANCA", "telefono": "923186100", "correo_electronico": "37014205@educa.jcyl.es", "web": null, "coord_latitud": 40.97068, "coord_longitud": -5.65038, "comedor": "N" },
+    { "denominacion_especifica": "MUMAKIDS", "codigo": "37014011", "naturaleza": "PRIVADO", "concierto": "N", "via": "AVENIDA Raimundo de Borgoña", "numero": "41-57", "c_postal": "37005", "municipio": "SALAMANCA", "telefono": null, "correo_electronico": "37014011@educa.jcyl.es", "web": null, "coord_latitud": 40.978, "coord_longitud": -5.66632, "comedor": "N" },
+    { "denominacion_especifica": "TEBEO", "codigo": "37013389", "naturaleza": "PRIVADO", "concierto": "N", "via": "CALLE Enrique Sena", "numero": "22", "c_postal": "37007", "municipio": "SALAMANCA", "telefono": "923207800", "correo_electronico": "37013389@educa.jcyl.es", "web": null, "coord_latitud": 40.94946, "coord_longitud": -5.63062, "comedor": "S" },
+    { "denominacion_especifica": "AULA PIMENTÓN MAESTRO ÁVILA", "codigo": "37014102", "naturaleza": "PRIVADO", "concierto": "N", "via": "CALLE Fonseca", "numero": "29", "c_postal": "37007", "municipio": "SALAMANCA", "telefono": null, "correo_electronico": "37014102@educa.jcyl.es", "web": null, "coord_latitud": 40.96456, "coord_longitud": -5.67084, "comedor": "N" },
+    { "denominacion_especifica": "CHISPITINAS", "codigo": "37014072", "naturaleza": "PRIVADO", "concierto": "N", "via": "AVENIDA Filiberto Villalobos", "numero": "82", "c_postal": "37006", "municipio": "SALAMANCA", "telefono": "923134236", "correo_electronico": "37014072@educa.jcyl.es", "web": null, "coord_latitud": 40.97133, "coord_longitud": -5.67793, "comedor": "N" },
+    { "denominacion_especifica": "EDUCA BABYS", "codigo": "37014060", "naturaleza": "PRIVADO", "concierto": "N", "via": "CALLE Salesas", "numero": "10", "c_postal": "37005", "municipio": "SALAMANCA", "telefono": "661736619", "correo_electronico": "37014060@educa.jcyl.es", "web": null, "coord_latitud": 40.9739, "coord_longitud": -5.66391, "comedor": "N" },
+    { "denominacion_especifica": "EL GLOBO ROJO", "codigo": "37010170", "naturaleza": "PRIVADO", "concierto": "S", "via": "CALLE Los Hidalgos - Parque Las Salesas", "numero": "14", "c_postal": "37005", "municipio": "SALAMANCA", "telefono": "923243820", "correo_electronico": "37010170@educa.jcyl.es", "web": null, "coord_latitud": 40.97563, "coord_longitud": -5.66115, "comedor": "S" }
+  ],
+  "raw_records_categoria_descartada_infantil_primaria_secundaria_count": 22,
+  "raw_records_categoria_descartada_nota": "22 filas de 'CENTRO PRIVADO DE EDUCACION INFANTIL PRIMARIA Y SECUNDARIA' en Salamanca capital, todas colegios concertados con oferta de segundo ciclo de infantil/primaria/secundaria. No se han extraido individualmente por no tener codigo de registro propio y diferenciado de primer ciclo (0-3), salvo Aula Pimenton Maestro Avila que si aparece en la categoria correcta CENTRO PRIVADO DE EDUCACION INFANTIL. Ver docs/data-sources-salamanca.md.",
+  "raw_titularidad_jcyl_pdf_salamanca": [
+    { "denominacion": "LAZARILLO DE TORMES", "unidades": 5, "plazas": 74, "direccion": "MAESTRO SERRANO, 7-15", "cp": "37008", "telefono": "923 21 99 22" },
+    { "denominacion": "SAN BERNARDO", "unidades": 3, "plazas": 41, "direccion": "ARAPILES, 14-16", "cp": "37007", "telefono": "923 22 24 19" },
+    { "denominacion": "VIRGEN DE LA VEGA", "unidades": 3, "plazas": 39, "direccion": "AVDA. DE LOS COMUNEROS, 2", "cp": "37003", "telefono": "923 22 32 87" }
+  ],
+  "raw_eim_ayuntamiento_salamanca": [
+    { "denominacion": "Los Pizarrales", "direccion": "C/ Obispo Alcolea, s/n", "cp": "37006", "telefono": "923 255 366", "plazas": 135, "barrio": "Pizarrales" },
+    { "denominacion": "El Rollo", "direccion": "C/ Ponferrada, s/n", "cp": "37003", "telefono": "923 18 21 06", "plazas": 94, "barrio": "El Rollo / Rollo-Puente Ladrillo" },
+    { "denominacion": "Garrido", "direccion": "C/ Gloria Fuertes, s/n", "cp": "37004", "telefono": "923 23 74 81", "plazas": 88, "barrio": "Garrido" },
+    { "denominacion": "El Zurguén", "direccion": "C/ Virgen del Cueto, s/n", "cp": "37008", "telefono": "923 05 70 82", "plazas": 94, "barrio": "El Zurguén" }
+  ],
+  "raw_gratuidad_2026_2027_listado_municipales_privados_salamanca_capital": [
+    "AULA PIMENTÓN MAESTRO ÁVILA", "BAMBI", "CALASANZ", "CHISPITINAS", "COCO MIEL",
+    "EDUCA BABYS", "EL GLOBO ROJO", "EL GLOBO ROJO II", "EL TREN", "LA MILAGROSA",
+    "MARÍA AUXILIADORA", "MARISTA CHAMPAGNAT", "MI MAMA ME MIMA", "MONTESSORI",
+    "MUMAKIDS", "PIZARRALES", "PSN BICOS", "SAGRADO CORAZÓN", "SALESIANO SAN JOSÉ",
+    "SAN AGUSTÍN", "SAN ESTANISLAO DE KOSTKA", "SAN JOSÉ", "SAN JUAN BOSCO",
+    "SANTÍSIMA TRINIDAD", "TEBEO",
+    "(municipales) EL ROLLO", "(municipales) EL ZURGUÉN", "(municipales) GARRIDO", "(municipales) LOS PIZARRALES"
+  ],
+  "raw_gratuidad_listado_nota": "Fuente: PDF '20260526 actualizacion listado municipales+privados', pagina 11-12 de 22, seccion SALAMANCA > SALAMANCA. Nota: 'EL GLOBO ROJO II' SI aparece en este listado de gratuidad (con 1 unidad tramo 1-2) pese a no localizarse posteriormente una web propia ni datos de contacto suficientes; se documenta como incidencia pero no cambia la decision de exclusion por falta de contacto verificable. Los nombres BAMBI, CALASANZ, COCO MIEL, LA MILAGROSA, MARIA AUXILIADORA, MARISTA CHAMPAGNAT, MONTESSORI, SAGRADO CORAZON, SALESIANO SAN JOSE, SAN AGUSTIN, SAN ESTANISLAO DE KOSTKA, SAN JOSE, SAN JUAN BOSCO, SANTISIMA TRINIDAD corresponden a colegios concertados de infantil-primaria-secundaria con aula de primer ciclo sin codigo de registro propio verificable en el Directorio de Centros Docentes (salvo Coco Miel, que tampoco tiene codigo propio verificable pese a no ser un colegio concertado conocido)."
+}

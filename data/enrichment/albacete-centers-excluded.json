@@ -1,0 +1,47 @@
+{
+  "_readme": "Centros descartados del dataset final de Albacete capital por no alcanzar el umbral minimo de verificacion del proyecto (nombre+slug+tipo+municipio+direccion+fuente principal valida+short_description+FAQs+confidence medium/high + al menos uno de: servicio confirmado, long_description, web oficial, telefono confirmado, email confirmado, horario confirmado, titularidad+etapa bien documentadas) o por quedar fuera del alcance MVP (guarderia/escuela-infantil de matriculacion abierta). No se incluyen en el CSV de importacion ni en el SQL de insercion.",
+  "city": "albacete",
+  "generated_at": "2026-07-12T12:00:00.000Z",
+  "stats": {
+    "excluded_count": 6
+  },
+  "centers": [
+    {
+      "name": "Escuela Infantil La Noria",
+      "address_hint": "Calle Feria, 43 Principal, 02005, Albacete",
+      "reason": "Colision de direccion exacta con 'Escuela Infantil Pekeñecos' (ambas en Calle Feria, 43). No se ha podido confirmar de forma inequivoca si se trata del mismo centro con doble denominacion comercial o de dos centros reales distintos en el mismo inmueble: los telefonos (967239095 vs 967044289) y los nombres son distintos en las fuentes consultadas, pero ninguna de las dos tiene una web oficial propia solida (La Noria solo tiene una pagina de constructor de webs sin contenido verificable mas alla de direccion/telefono/horario) que permita resolver la ambiguedad con confianza suficiente. Ante la duda, se excluyen ambos registros para evitar el riesgo de duplicado o de inventar una diferenciacion no verificada.",
+      "sources_checked": ["escuelainfantillanoria.espaciosweb.net", "búsquedas cruzadas de directorios de terceros"]
+    },
+    {
+      "name": "Escuela Infantil Pekeñecos",
+      "address_hint": "Calle Feria, 43, 02005, Albacete",
+      "reason": "Misma colision de direccion que 'Escuela Infantil La Noria' (ver motivo anterior). Sin web oficial propia localizada ni forma de confirmar identidad inequivoca frente al otro registro en la misma direccion.",
+      "sources_checked": ["directorios de terceros (Micole, Todoeduca)"]
+    },
+    {
+      "name": "Colegio Pemán - Escuela Infantil (etapa 0-3 años)",
+      "address_hint": "Calle Doctor Ferrán, 80, 02004, Albacete",
+      "reason": "La web oficial propia del colegio (colegiopeman.es) tuvo fallos de acceso (HTTP 404) en las paginas internas especificas de la etapa de primer ciclo (0-3 años) durante esta investigacion, y los resultados de busqueda solo confirman de forma generica que existe una 'escuela infantil'/'guarderia' dentro del colegio, sin poder citar textualmente servicios, horario o datos de contacto especificos de esa etapa distintos de los del colegio general (que en su segundo ciclo de infantil y primaria es un centro concertado, una etapa fuera del alcance MVP de este proyecto). No se alcanza el umbral minimo de verificacion especifico para el primer ciclo.",
+      "sources_checked": ["colegiopeman.es (fallo HTTP 404 en paginas internas)", "resultados de busqueda genericos"]
+    },
+    {
+      "name": "Centro de Ocio Infantil Veo Veo",
+      "address_hint": "Calle Doctor Collado Piña, 11-13, Albacete",
+      "reason": "Fuera del alcance MVP del proyecto: es un parque infantil de ocio y animacion para cumpleanos (minidisco, karaoke, pista americana), no un centro de educacion infantil reglada de primer ciclo autorizado por la Administracion educativa.",
+      "sources_checked": ["parqueinfantilveoveo.es y directorios de terceros"]
+    },
+    {
+      "name": "Escuela Infantil Kidsco B.A. Albacete (Base Aérea de Los Llanos)",
+      "address_hint": "Interior de la Base Aérea de Albacete, Carretera de Murcia, s/n",
+      "reason": "Centro de uso exclusivo para hijos del personal militar destinado en las unidades de la Base Aerea de Los Llanos (Ministerio de Defensa), sin matriculacion abierta a la poblacion general de Albacete capital. No encaja en el objetivo de un directorio publico de comparacion de centros accesibles para cualquier familia de la ciudad.",
+      "sources_checked": ["escuelasinfantiles.kidsco.es/centro/214"]
+    },
+    {
+      "name": "Escuelas Infantiles ABC",
+      "address_hint": "Calle Blasco Ibáñez, 34-36 Bajo, 02004, Albacete",
+      "reason": "No se ha localizado web oficial propia ni ningun dato mas alla de direccion y telefono en un unico directorio de terceros (Infoisinfo). Sin email, sin horario, sin servicios, sin segunda fuente independiente que confirme los datos basicos. No alcanza el umbral minimo de verificacion del proyecto (no hay ningun dato adicional mas alla de nombre+direccion+telefono de una unica fuente no oficial).",
+      "sources_checked": ["directorios de terceros (un unico resultado localizado, sin corroboracion cruzada)"]
+    }
+  ],
+  "notes": "6 candidatos evaluados y descartados de un total de 33 candidatos identificados en este sprint (27 en el dataset final + 6 excluidos). El principal motivo de exclusion en Albacete no fue la falta de existencia real del centro, sino la imposibilidad de resolver ambiguedad de identidad (La Noria/Pekeñecos), la falta de fuente verificable especifica para la etapa 0-3 (Peman) o quedar fuera del alcance MVP del proyecto (Veo Veo, Kidsco). Ver docs/data-sources-albacete.md para el detalle completo de fuentes evaluadas y la incidencia de bloqueo de acceso al portal municipal, que es la principal limitacion de cobertura de este sprint (es posible que existan mas centros privados en el PDF oficial no accesible)."
+}

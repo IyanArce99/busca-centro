@@ -1,0 +1,28 @@
+{
+  "_readme": "Centros descartados del dataset final de Salamanca por concierto educativo declarado no verificable para el primer ciclo 0-3 (riesgo de confundir con ownership=concertado, prohibido sin evidencia individual e inequivoca) o por falta de codigo de registro/contacto verificable en fuente oficial. No se incluyen en el CSV de importacion ni en el SQL de insercion.",
+  "city": "salamanca",
+  "generated_at": "2026-07-12T00:00:00.000Z",
+  "stats": {
+    "excluded_count": 3
+  },
+  "centers": [
+    {
+      "name": "El Globo Rojo",
+      "codigo_centro_rc": "37010170",
+      "address_hint": "C/ Los Hidalgos - Parque Las Salesas, 14, 37005",
+      "reason": "Unico centro de la categoria CENTRO PRIVADO DE EDUCACION INFANTIL en Salamanca capital con concierto='S' en el registro oficial de centros docentes de Castilla y Leon (el resto de las 9 filas de esa categoria tienen concierto='N'). El propio centro se describe en su web oficial como 'contratado' por la Consejeria de Educacion para el segundo ciclo (3-6 anos), pero no se ha localizado ninguna fuente oficial que confirme de forma inequivoca que el concierto declarado en el registro corresponda especificamente al primer ciclo de educacion infantil (0-3 anos) frente al segundo ciclo (3-6 anos) impartido por el mismo centro. Se excluye por prudencia, siguiendo la instruccion explicita de no usar ownership=concertado sin verificacion individual del marco normativo aplicable al primer ciclo, y de no forzar un centro dudoso dentro del dataset final."
+    },
+    {
+      "name": "El Globo Rojo II",
+      "codigo_centro_rc": "37014126",
+      "address_hint": "C/ Los Hidalgos, 18, 37005",
+      "reason": "Tiene codigo de registro valido en el Directorio de Centros Docentes (naturaleza=PRIVADO, concierto=N, comedor=N), pero no aparece en el listado oficial de centros con unidades incluidas en el programa de gratuidad curso 2026-2027, a diferencia del resto de centros privados del dataset final. No se ha localizado web propia independiente ni ningun dato de contacto verificable mas alla del telefono del registro (compartido textualmente con 'El Globo Rojo', codigo de centro distinto). Se excluye por falta de datos de contacto suficientes y por la incertidumbre sobre su situacion de adhesion vigente a la oferta gratuita."
+    },
+    {
+      "name": "Coco Miel",
+      "codigo_centro_rc": null,
+      "address_hint": "C/ Cuesta de San Blas, 14, 37002 (segun web propia grupococomiel.com)",
+      "reason": "Aparece con nombre propio en el listado oficial de centros con plazas gratuitas curso 2026-2027 y tiene web corporativa propia activa con servicios descritos, pero no se ha localizado ningun codigo de centro en el Directorio de Centros Docentes de la Junta de Castilla y Leon bajo ese nombre ni en esa direccion (busqueda directa en el directorio interactivo oficial devuelve 0 resultados). Sin un codigo de registro oficial verificable de primer ciclo, no se puede confirmar de forma fiable la naturaleza (publico/privado), el estado de concierto ni construir una ficha con el mismo nivel de verificacion que el resto del dataset. Se excluye por prudencia, documentando la incidencia para una fase de enriquecimiento posterior (posible centro de reciente incorporacion al programa de gratuidad aun sin actualizacion en el Directorio de Centros Docentes, o discrepancia de nomenclatura no resoluble sin contacto directo)."
+    }
+  ]
+}

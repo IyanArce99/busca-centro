@@ -1,0 +1,2586 @@
+{
+  "_readme": "Dataset de trabajo para Las Palmas de Gran Canaria, mismo formato snake_case que alicante-centers.json / sevilla-centers.json / palma-centers.json. city_slug=las-palmas-de-gran-canaria. Fuente primaria: 'Directorio de centros educativos de Canarias' (Consejeria de Educacion, Formacion Profesional, Actividad Fisica y Deportes, Gobierno de Canarias, portal datos.canarias.es), filtrado por Municipio='LAS PALMAS DE GRAN CANARIA' (termino municipal capital, excluye el resto de municipios de la isla de Gran Canaria) AND DesEtapaCentro in ['EEI','CPEI']. Complementado con la web oficial del Ayuntamiento de Las Palmas de Gran Canaria (Escuelas Infantiles Municipales gestionadas por la empresa municipal TRASA, 11 centros) y con webs oficiales propias de 13 centros privados para confirmar servicios concretos del enum CenterService. Ver docs/data-sources-las-palmas.md.",
+  "city": "las-palmas-de-gran-canaria",
+  "generated_at": "2026-07-12T10:00:00.000Z",
+  "stats": {
+    "centers_count": 37,
+    "excluded_count": 3
+  },
+  "centers": [
+    {
+      "slug": "escuela-infantil-municipal-pocahontas-las-palmas-de-gran-canaria",
+      "name": "Escuela Infantil Municipal Pocahontas",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Hoya del Enamorado, 9",
+        "postal_code": "35019",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": "La Feria (Ciudad Alta)",
+        "latitude": 28.107219577,
+        "longitude": -15.4484441189999
+      },
+      "contact": {
+        "phone": "623392323",
+        "email": "pocahontas@trasaservicios.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Horario base de 8:30 a 15:45 h (cierre a las 16:00 h). Acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales. Curso de septiembre a julio.",
+      "services": [
+        "comedor",
+        "horario-ampliado"
+      ],
+      "short_description": "Escuela Infantil Municipal Pocahontas es una escuela infantil de titularidad municipal en Calle Hoya del Enamorado, 9, 35019, dentro del barrio de La Feria (Ciudad Alta), en Las Palmas de Gran Canaria. Atiende a niños de 0 a 3 años dentro de la red de Escuelas Infantiles Municipales gestionada por el Ayuntamiento a través de TRASA.",
+      "long_description": "Escuela Infantil Municipal Pocahontas es una escuela infantil de titularidad municipal, integrada en la red de Escuelas Infantiles Municipales de Las Palmas de Gran Canaria, gestionada por el Ayuntamiento a través de la empresa municipal TRASA. Tiene su sede en Calle Hoya del Enamorado, 9, 35019, en el área de La Feria (Ciudad Alta).\n\nSegún la información publicada por el propio Ayuntamiento, el horario base de las escuelas de esta red es de 8:30 a 15:45 h (cierre a las 16:00 h), con acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales.\n\nEl servicio de comedor está incluido en la cuota, que se calcula según los ingresos de la unidad familiar (con un porcentaje relevante de plazas con cuota cero o reducida). La red municipal incorpora también actividades como inglés, psicomotricidad y huerto escolar dentro de su proyecto educativo, según la información difundida por el Ayuntamiento.\n\nPara conocer las plazas disponibles, el calendario de solicitud y el proceso de matrícula, se recomienda contactar directamente con la escuela o con TRASA (informacion@trasaservicios.es).",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada Escuela Infantil Municipal Pocahontas?",
+          "answer": "El centro se encuentra en Calle Hoya del Enamorado, 9, 35019, en el área de La Feria (Ciudad Alta), Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es una escuela infantil de primer ciclo, dirigida a niños de 0 a 3 años, con plazas organizadas por franjas de edad (0-1, 1-2 y 2-3 años)."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, integrado en la red de Escuelas Infantiles Municipales del Ayuntamiento de Las Palmas de Gran Canaria, gestionada a través de la empresa municipal TRASA."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Horario base de 8:30 a 15:45 h (cierre a las 16:00 h). Acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales. Curso de septiembre a julio."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según la información publicada por el Ayuntamiento el servicio de comedor está incluido en la cuota de las escuelas infantiles municipales."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 623392323, escribir a pocahontas@trasaservicios.es, o contactar con TRASA en el 928 948 525 / informacion@trasaservicios.es."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.laspalmasgc.es/es/areas-tematicas/educacion/escuelas-infantiles-municipales/",
+      "source_urls_secondary": [
+        "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35014378",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "escuela-infantil-municipal-heidi-las-palmas-de-gran-canaria",
+      "name": "Escuela Infantil Municipal Heidi",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Agustina de Aragón esquina Pedro Infinito",
+        "postal_code": "35013",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": "Schamann (Ciudad Alta)",
+        "latitude": 28.105481,
+        "longitude": -15.439736
+      },
+      "contact": {
+        "phone": "623224797",
+        "email": "heidi@trasaservicios.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Horario base de 8:30 a 15:45 h (cierre a las 16:00 h). Acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales. Curso de septiembre a julio.",
+      "services": [
+        "comedor",
+        "horario-ampliado"
+      ],
+      "short_description": "Situada en Calle Agustina de Aragón esquina Pedro Infinito, 35013 (Schamann (Ciudad Alta)), Escuela Infantil Municipal Heidi forma parte de la red de once escuelas infantiles municipales de Las Palmas de Gran Canaria, dirigida a niños de 0 a 3 años, con gestión del Ayuntamiento a través de TRASA.",
+      "long_description": "Escuela Infantil Municipal Heidi es una escuela infantil de titularidad municipal, integrada en la red de Escuelas Infantiles Municipales de Las Palmas de Gran Canaria, gestionada por el Ayuntamiento a través de la empresa municipal TRASA. Tiene su sede en Calle Agustina de Aragón esquina Pedro Infinito, 35013, en el área de Schamann (Ciudad Alta).\n\nSegún la información publicada por el propio Ayuntamiento, el horario base de las escuelas de esta red es de 8:30 a 15:45 h (cierre a las 16:00 h), con acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales.\n\nEl servicio de comedor está incluido en la cuota, que se calcula según los ingresos de la unidad familiar (con un porcentaje relevante de plazas con cuota cero o reducida). La red municipal incorpora también actividades como inglés, psicomotricidad y huerto escolar dentro de su proyecto educativo, según la información difundida por el Ayuntamiento.\n\nPara conocer las plazas disponibles, el calendario de solicitud y el proceso de matrícula, se recomienda contactar directamente con la escuela o con TRASA (informacion@trasaservicios.es).",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada Escuela Infantil Municipal Heidi?",
+          "answer": "El centro se encuentra en Calle Agustina de Aragón esquina Pedro Infinito, 35013, en el área de Schamann (Ciudad Alta), Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es una escuela infantil de primer ciclo, dirigida a niños de 0 a 3 años, con plazas organizadas por franjas de edad (0-1, 1-2 y 2-3 años)."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, integrado en la red de Escuelas Infantiles Municipales del Ayuntamiento de Las Palmas de Gran Canaria, gestionada a través de la empresa municipal TRASA."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Horario base de 8:30 a 15:45 h (cierre a las 16:00 h). Acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales. Curso de septiembre a julio."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según la información publicada por el Ayuntamiento el servicio de comedor está incluido en la cuota de las escuelas infantiles municipales."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 623224797, escribir a heidi@trasaservicios.es, o contactar con TRASA en el 928 948 525 / informacion@trasaservicios.es."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.laspalmasgc.es/es/areas-tematicas/educacion/escuelas-infantiles-municipales/",
+      "source_urls_secondary": [
+        "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35014381",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "escuela-infantil-municipal-la-sirenita-las-palmas-de-gran-canaria",
+      "name": "Escuela Infantil Municipal La Sirenita",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Pintor José Jorge Oramas, 7",
+        "postal_code": "35012",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": "Tamaraceite-San Lorenzo",
+        "latitude": 28.098756,
+        "longitude": -15.475773
+      },
+      "contact": {
+        "phone": "633438208",
+        "email": "lasirenita@trasaservicios.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Horario base de 8:30 a 15:45 h (cierre a las 16:00 h). Acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales. Curso de septiembre a julio.",
+      "services": [
+        "comedor",
+        "horario-ampliado"
+      ],
+      "short_description": "Escuela Infantil Municipal La Sirenita, con sede en Calle Pintor José Jorge Oramas, 7, 35012, es una de las once escuelas infantiles municipales de Las Palmas de Gran Canaria, en el área de Tamaraceite-San Lorenzo, para niños de 0 a 3 años.",
+      "long_description": "Escuela Infantil Municipal La Sirenita es una escuela infantil de titularidad municipal, integrada en la red de Escuelas Infantiles Municipales de Las Palmas de Gran Canaria, gestionada por el Ayuntamiento a través de la empresa municipal TRASA. Tiene su sede en Calle Pintor José Jorge Oramas, 7, 35012, en el área de Tamaraceite-San Lorenzo.\n\nSegún la información publicada por el propio Ayuntamiento, el horario base de las escuelas de esta red es de 8:30 a 15:45 h (cierre a las 16:00 h), con acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales.\n\nEl servicio de comedor está incluido en la cuota, que se calcula según los ingresos de la unidad familiar (con un porcentaje relevante de plazas con cuota cero o reducida). La red municipal incorpora también actividades como inglés, psicomotricidad y huerto escolar dentro de su proyecto educativo, según la información difundida por el Ayuntamiento.\n\nPara conocer las plazas disponibles, el calendario de solicitud y el proceso de matrícula, se recomienda contactar directamente con la escuela o con TRASA (informacion@trasaservicios.es).",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada Escuela Infantil Municipal La Sirenita?",
+          "answer": "El centro se encuentra en Calle Pintor José Jorge Oramas, 7, 35012, en el área de Tamaraceite-San Lorenzo, Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es una escuela infantil de primer ciclo, dirigida a niños de 0 a 3 años, con plazas organizadas por franjas de edad (0-1, 1-2 y 2-3 años)."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, integrado en la red de Escuelas Infantiles Municipales del Ayuntamiento de Las Palmas de Gran Canaria, gestionada a través de la empresa municipal TRASA."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Horario base de 8:30 a 15:45 h (cierre a las 16:00 h). Acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales. Curso de septiembre a julio."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según la información publicada por el Ayuntamiento el servicio de comedor está incluido en la cuota de las escuelas infantiles municipales."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 633438208, escribir a lasirenita@trasaservicios.es, o contactar con TRASA en el 928 948 525 / informacion@trasaservicios.es."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.laspalmasgc.es/es/areas-tematicas/educacion/escuelas-infantiles-municipales/",
+      "source_urls_secondary": [
+        "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35014391",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "escuela-infantil-municipal-pluto-las-palmas-de-gran-canaria",
+      "name": "Escuela Infantil Municipal Pluto",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Diego Betancor Suárez",
+        "postal_code": "35016",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": "Feria del Atlántico (Ciudad Alta)",
+        "latitude": 28.108761,
+        "longitude": -15.446011
+      },
+      "contact": {
+        "phone": "633438234",
+        "email": "pluto@trasaservicios.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Horario base de 8:30 a 15:45 h (cierre a las 16:00 h). Acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales. Curso de septiembre a julio.",
+      "services": [
+        "comedor",
+        "horario-ampliado"
+      ],
+      "short_description": "Escuela Infantil Municipal Pluto es una escuela infantil de titularidad municipal en Calle Diego Betancor Suárez, 35016, dentro del barrio de Feria del Atlántico (Ciudad Alta), en Las Palmas de Gran Canaria. Atiende a niños de 0 a 3 años dentro de la red de Escuelas Infantiles Municipales gestionada por el Ayuntamiento a través de TRASA.",
+      "long_description": "Escuela Infantil Municipal Pluto es una escuela infantil de titularidad municipal, integrada en la red de Escuelas Infantiles Municipales de Las Palmas de Gran Canaria, gestionada por el Ayuntamiento a través de la empresa municipal TRASA. Tiene su sede en Calle Diego Betancor Suárez, 35016, en el área de Feria del Atlántico (Ciudad Alta).\n\nSegún la información publicada por el propio Ayuntamiento, el horario base de las escuelas de esta red es de 8:30 a 15:45 h (cierre a las 16:00 h), con acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales.\n\nEl servicio de comedor está incluido en la cuota, que se calcula según los ingresos de la unidad familiar (con un porcentaje relevante de plazas con cuota cero o reducida). La red municipal incorpora también actividades como inglés, psicomotricidad y huerto escolar dentro de su proyecto educativo, según la información difundida por el Ayuntamiento.\n\nPara conocer las plazas disponibles, el calendario de solicitud y el proceso de matrícula, se recomienda contactar directamente con la escuela o con TRASA (informacion@trasaservicios.es).",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada Escuela Infantil Municipal Pluto?",
+          "answer": "El centro se encuentra en Calle Diego Betancor Suárez, 35016, en el área de Feria del Atlántico (Ciudad Alta), Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es una escuela infantil de primer ciclo, dirigida a niños de 0 a 3 años, con plazas organizadas por franjas de edad (0-1, 1-2 y 2-3 años)."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, integrado en la red de Escuelas Infantiles Municipales del Ayuntamiento de Las Palmas de Gran Canaria, gestionada a través de la empresa municipal TRASA."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Horario base de 8:30 a 15:45 h (cierre a las 16:00 h). Acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales. Curso de septiembre a julio."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según la información publicada por el Ayuntamiento el servicio de comedor está incluido en la cuota de las escuelas infantiles municipales."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 633438234, escribir a pluto@trasaservicios.es, o contactar con TRASA en el 928 948 525 / informacion@trasaservicios.es."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.laspalmasgc.es/es/areas-tematicas/educacion/escuelas-infantiles-municipales/",
+      "source_urls_secondary": [
+        "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35014411",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "escuela-infantil-municipal-bambi-las-palmas-de-gran-canaria",
+      "name": "Escuela Infantil Municipal Bambi",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Licenciado Agustín Rodríguez, 3",
+        "postal_code": "35013",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": "Cruz de Piedra (Centro)",
+        "latitude": 28.104862,
+        "longitude": -15.438008
+      },
+      "contact": {
+        "phone": "645296064",
+        "email": "bambi@trasaservicios.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Horario base de 8:30 a 15:45 h (cierre a las 16:00 h). Acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales. Curso de septiembre a julio.",
+      "services": [
+        "comedor",
+        "horario-ampliado"
+      ],
+      "short_description": "Situada en Calle Licenciado Agustín Rodríguez, 3, 35013 (Cruz de Piedra (Centro)), Escuela Infantil Municipal Bambi forma parte de la red de once escuelas infantiles municipales de Las Palmas de Gran Canaria, dirigida a niños de 0 a 3 años, con gestión del Ayuntamiento a través de TRASA.",
+      "long_description": "Escuela Infantil Municipal Bambi es una escuela infantil de titularidad municipal, integrada en la red de Escuelas Infantiles Municipales de Las Palmas de Gran Canaria, gestionada por el Ayuntamiento a través de la empresa municipal TRASA. Tiene su sede en Calle Licenciado Agustín Rodríguez, 3, 35013, en el área de Cruz de Piedra (Centro).\n\nSegún la información publicada por el propio Ayuntamiento, el horario base de las escuelas de esta red es de 8:30 a 15:45 h (cierre a las 16:00 h), con acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales.\n\nEl servicio de comedor está incluido en la cuota, que se calcula según los ingresos de la unidad familiar (con un porcentaje relevante de plazas con cuota cero o reducida). La red municipal incorpora también actividades como inglés, psicomotricidad y huerto escolar dentro de su proyecto educativo, según la información difundida por el Ayuntamiento.\n\nPara conocer las plazas disponibles, el calendario de solicitud y el proceso de matrícula, se recomienda contactar directamente con la escuela o con TRASA (informacion@trasaservicios.es).",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada Escuela Infantil Municipal Bambi?",
+          "answer": "El centro se encuentra en Calle Licenciado Agustín Rodríguez, 3, 35013, en el área de Cruz de Piedra (Centro), Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es una escuela infantil de primer ciclo, dirigida a niños de 0 a 3 años, con plazas organizadas por franjas de edad (0-1, 1-2 y 2-3 años)."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, integrado en la red de Escuelas Infantiles Municipales del Ayuntamiento de Las Palmas de Gran Canaria, gestionada a través de la empresa municipal TRASA."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Horario base de 8:30 a 15:45 h (cierre a las 16:00 h). Acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales. Curso de septiembre a julio."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según la información publicada por el Ayuntamiento el servicio de comedor está incluido en la cuota de las escuelas infantiles municipales."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 645296064, escribir a bambi@trasaservicios.es, o contactar con TRASA en el 928 948 525 / informacion@trasaservicios.es."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.laspalmasgc.es/es/areas-tematicas/educacion/escuelas-infantiles-municipales/",
+      "source_urls_secondary": [
+        "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35015413",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "escuela-infantil-municipal-dumbo-las-palmas-de-gran-canaria",
+      "name": "Escuela Infantil Municipal Dumbo",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Carretera Ciudad de San Juan de Dios, s/n",
+        "postal_code": "35019",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": "El Lasso (Vegueta-Cono Sur-Tafira)",
+        "latitude": 28.07982736,
+        "longitude": -15.42610244
+      },
+      "contact": {
+        "phone": "623227017",
+        "email": "dumbo@trasaservicios.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Horario base de 8:30 a 15:45 h (cierre a las 16:00 h). Acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales. Curso de septiembre a julio.",
+      "services": [
+        "comedor",
+        "horario-ampliado"
+      ],
+      "short_description": "Escuela Infantil Municipal Dumbo, con sede en Carretera Ciudad de San Juan de Dios, s/n, 35019, es una de las once escuelas infantiles municipales de Las Palmas de Gran Canaria, en el área de El Lasso (Vegueta-Cono Sur-Tafira), para niños de 0 a 3 años.",
+      "long_description": "Escuela Infantil Municipal Dumbo es una escuela infantil de titularidad municipal, integrada en la red de Escuelas Infantiles Municipales de Las Palmas de Gran Canaria, gestionada por el Ayuntamiento a través de la empresa municipal TRASA. Tiene su sede en Carretera Ciudad de San Juan de Dios, s/n, 35019, en el área de El Lasso (Vegueta-Cono Sur-Tafira).\n\nSegún la información publicada por el propio Ayuntamiento, el horario base de las escuelas de esta red es de 8:30 a 15:45 h (cierre a las 16:00 h), con acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales.\n\nEl servicio de comedor está incluido en la cuota, que se calcula según los ingresos de la unidad familiar (con un porcentaje relevante de plazas con cuota cero o reducida). La red municipal incorpora también actividades como inglés, psicomotricidad y huerto escolar dentro de su proyecto educativo, según la información difundida por el Ayuntamiento.\n\nPara conocer las plazas disponibles, el calendario de solicitud y el proceso de matrícula, se recomienda contactar directamente con la escuela o con TRASA (informacion@trasaservicios.es).",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada Escuela Infantil Municipal Dumbo?",
+          "answer": "El centro se encuentra en Carretera Ciudad de San Juan de Dios, s/n, 35019, en el área de El Lasso (Vegueta-Cono Sur-Tafira), Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es una escuela infantil de primer ciclo, dirigida a niños de 0 a 3 años, con plazas organizadas por franjas de edad (0-1, 1-2 y 2-3 años)."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, integrado en la red de Escuelas Infantiles Municipales del Ayuntamiento de Las Palmas de Gran Canaria, gestionada a través de la empresa municipal TRASA."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Horario base de 8:30 a 15:45 h (cierre a las 16:00 h). Acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales. Curso de septiembre a julio."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según la información publicada por el Ayuntamiento el servicio de comedor está incluido en la cuota de las escuelas infantiles municipales."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 623227017, escribir a dumbo@trasaservicios.es, o contactar con TRASA en el 928 948 525 / informacion@trasaservicios.es."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.laspalmasgc.es/es/areas-tematicas/educacion/escuelas-infantiles-municipales/",
+      "source_urls_secondary": [
+        "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35014408",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "escuela-infantil-municipal-la-carrucha-las-palmas-de-gran-canaria",
+      "name": "Escuela Infantil Municipal La Carrucha",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Coronel Rocha, 45",
+        "postal_code": "35009",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": "La Isleta (Puerto-Canteras)",
+        "latitude": 28.155069,
+        "longitude": -15.425735
+      },
+      "contact": {
+        "phone": "623222041",
+        "email": "lacarrucha@trasaservicios.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Horario base de 8:30 a 15:45 h (cierre a las 16:00 h). Acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales. Curso de septiembre a julio.",
+      "services": [
+        "comedor",
+        "horario-ampliado"
+      ],
+      "short_description": "Escuela Infantil Municipal La Carrucha es una escuela infantil de titularidad municipal en Calle Coronel Rocha, 45, 35009, dentro del barrio de La Isleta (Puerto-Canteras), en Las Palmas de Gran Canaria. Atiende a niños de 0 a 3 años dentro de la red de Escuelas Infantiles Municipales gestionada por el Ayuntamiento a través de TRASA.",
+      "long_description": "Escuela Infantil Municipal La Carrucha es una escuela infantil de titularidad municipal, integrada en la red de Escuelas Infantiles Municipales de Las Palmas de Gran Canaria, gestionada por el Ayuntamiento a través de la empresa municipal TRASA. Tiene su sede en Calle Coronel Rocha, 45, 35009, en el área de La Isleta (Puerto-Canteras).\n\nSegún la información publicada por el propio Ayuntamiento, el horario base de las escuelas de esta red es de 8:30 a 15:45 h (cierre a las 16:00 h), con acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales.\n\nEl servicio de comedor está incluido en la cuota, que se calcula según los ingresos de la unidad familiar (con un porcentaje relevante de plazas con cuota cero o reducida). La red municipal incorpora también actividades como inglés, psicomotricidad y huerto escolar dentro de su proyecto educativo, según la información difundida por el Ayuntamiento.\n\nPara conocer las plazas disponibles, el calendario de solicitud y el proceso de matrícula, se recomienda contactar directamente con la escuela o con TRASA (informacion@trasaservicios.es).",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada Escuela Infantil Municipal La Carrucha?",
+          "answer": "El centro se encuentra en Calle Coronel Rocha, 45, 35009, en el área de La Isleta (Puerto-Canteras), Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es una escuela infantil de primer ciclo, dirigida a niños de 0 a 3 años, con plazas organizadas por franjas de edad (0-1, 1-2 y 2-3 años)."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, integrado en la red de Escuelas Infantiles Municipales del Ayuntamiento de Las Palmas de Gran Canaria, gestionada a través de la empresa municipal TRASA."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Horario base de 8:30 a 15:45 h (cierre a las 16:00 h). Acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales. Curso de septiembre a julio."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según la información publicada por el Ayuntamiento el servicio de comedor está incluido en la cuota de las escuelas infantiles municipales."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 623222041, escribir a lacarrucha@trasaservicios.es, o contactar con TRASA en el 928 948 525 / informacion@trasaservicios.es."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.laspalmasgc.es/es/areas-tematicas/educacion/escuelas-infantiles-municipales/",
+      "source_urls_secondary": [
+        "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35015383",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "escuela-infantil-municipal-pinocho-las-palmas-de-gran-canaria",
+      "name": "Escuela Infantil Municipal Pinocho",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle San Borondón, 15",
+        "postal_code": "35018",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": "Tamaraceite-San Lorenzo",
+        "latitude": 28.098681,
+        "longitude": -15.47522
+      },
+      "contact": {
+        "phone": "623222039",
+        "email": "pinocho@trasaservicios.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Horario base de 8:30 a 15:45 h (cierre a las 16:00 h). Acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales. Curso de septiembre a julio.",
+      "services": [
+        "comedor",
+        "horario-ampliado"
+      ],
+      "short_description": "Situada en Calle San Borondón, 15, 35018 (Tamaraceite-San Lorenzo), Escuela Infantil Municipal Pinocho forma parte de la red de once escuelas infantiles municipales de Las Palmas de Gran Canaria, dirigida a niños de 0 a 3 años, con gestión del Ayuntamiento a través de TRASA.",
+      "long_description": "Escuela Infantil Municipal Pinocho es una escuela infantil de titularidad municipal, integrada en la red de Escuelas Infantiles Municipales de Las Palmas de Gran Canaria, gestionada por el Ayuntamiento a través de la empresa municipal TRASA. Tiene su sede en Calle San Borondón, 15, 35018, en el área de Tamaraceite-San Lorenzo.\n\nSegún la información publicada por el propio Ayuntamiento, el horario base de las escuelas de esta red es de 8:30 a 15:45 h (cierre a las 16:00 h), con acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales.\n\nEl servicio de comedor está incluido en la cuota, que se calcula según los ingresos de la unidad familiar (con un porcentaje relevante de plazas con cuota cero o reducida). La red municipal incorpora también actividades como inglés, psicomotricidad y huerto escolar dentro de su proyecto educativo, según la información difundida por el Ayuntamiento.\n\nPara conocer las plazas disponibles, el calendario de solicitud y el proceso de matrícula, se recomienda contactar directamente con la escuela o con TRASA (informacion@trasaservicios.es).",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada Escuela Infantil Municipal Pinocho?",
+          "answer": "El centro se encuentra en Calle San Borondón, 15, 35018, en el área de Tamaraceite-San Lorenzo, Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es una escuela infantil de primer ciclo, dirigida a niños de 0 a 3 años, con plazas organizadas por franjas de edad (0-1, 1-2 y 2-3 años)."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, integrado en la red de Escuelas Infantiles Municipales del Ayuntamiento de Las Palmas de Gran Canaria, gestionada a través de la empresa municipal TRASA."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Horario base de 8:30 a 15:45 h (cierre a las 16:00 h). Acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales. Curso de septiembre a julio."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según la información publicada por el Ayuntamiento el servicio de comedor está incluido en la cuota de las escuelas infantiles municipales."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 623222039, escribir a pinocho@trasaservicios.es, o contactar con TRASA en el 928 948 525 / informacion@trasaservicios.es."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.laspalmasgc.es/es/areas-tematicas/educacion/escuelas-infantiles-municipales/",
+      "source_urls_secondary": [
+        "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35015395",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "escuela-infantil-municipal-blancanieves-las-palmas-de-gran-canaria",
+      "name": "Escuela Infantil Municipal Blancanieves",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Doctor Jiménez Neyra, 35",
+        "postal_code": "35012",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": "Schamann (Ciudad Alta)",
+        "latitude": 28.110117,
+        "longitude": -15.428115
+      },
+      "contact": {
+        "phone": "623222084",
+        "email": "blancanieves@trasaservicios.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Horario base de 8:30 a 15:45 h (cierre a las 16:00 h). Acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales. Curso de septiembre a julio.",
+      "services": [
+        "comedor",
+        "horario-ampliado"
+      ],
+      "short_description": "Escuela Infantil Municipal Blancanieves, con sede en Calle Doctor Jiménez Neyra, 35, 35012, es una de las once escuelas infantiles municipales de Las Palmas de Gran Canaria, en el área de Schamann (Ciudad Alta), para niños de 0 a 3 años.",
+      "long_description": "Escuela Infantil Municipal Blancanieves es una escuela infantil de titularidad municipal, integrada en la red de Escuelas Infantiles Municipales de Las Palmas de Gran Canaria, gestionada por el Ayuntamiento a través de la empresa municipal TRASA. Tiene su sede en Calle Doctor Jiménez Neyra, 35, 35012, en el área de Schamann (Ciudad Alta).\n\nSegún la información publicada por el propio Ayuntamiento, el horario base de las escuelas de esta red es de 8:30 a 15:45 h (cierre a las 16:00 h), con acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales.\n\nEl servicio de comedor está incluido en la cuota, que se calcula según los ingresos de la unidad familiar (con un porcentaje relevante de plazas con cuota cero o reducida). La red municipal incorpora también actividades como inglés, psicomotricidad y huerto escolar dentro de su proyecto educativo, según la información difundida por el Ayuntamiento.\n\nPara conocer las plazas disponibles, el calendario de solicitud y el proceso de matrícula, se recomienda contactar directamente con la escuela o con TRASA (informacion@trasaservicios.es).",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada Escuela Infantil Municipal Blancanieves?",
+          "answer": "El centro se encuentra en Calle Doctor Jiménez Neyra, 35, 35012, en el área de Schamann (Ciudad Alta), Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es una escuela infantil de primer ciclo, dirigida a niños de 0 a 3 años, con plazas organizadas por franjas de edad (0-1, 1-2 y 2-3 años)."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, integrado en la red de Escuelas Infantiles Municipales del Ayuntamiento de Las Palmas de Gran Canaria, gestionada a través de la empresa municipal TRASA."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Horario base de 8:30 a 15:45 h (cierre a las 16:00 h). Acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales. Curso de septiembre a julio."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según la información publicada por el Ayuntamiento el servicio de comedor está incluido en la cuota de las escuelas infantiles municipales."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 623222084, escribir a blancanieves@trasaservicios.es, o contactar con TRASA en el 928 948 525 / informacion@trasaservicios.es."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.laspalmasgc.es/es/areas-tematicas/educacion/escuelas-infantiles-municipales/",
+      "source_urls_secondary": [
+        "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35015656",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "escuela-infantil-municipal-princesa-tenesoya-las-palmas-de-gran-canaria",
+      "name": "Escuela Infantil Municipal Princesa Tenesoya",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Debussy, s/n",
+        "postal_code": "35016",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": "Pedro Hidalgo (Vegueta-Cono Sur-Tafira)",
+        "latitude": 28.073328,
+        "longitude": -15.420233
+      },
+      "contact": {
+        "phone": "623222046",
+        "email": "princesatenesoya@trasaservicios.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Horario base de 8:30 a 15:45 h (cierre a las 16:00 h). Acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales. Curso de septiembre a julio.",
+      "services": [
+        "comedor",
+        "horario-ampliado"
+      ],
+      "short_description": "Escuela Infantil Municipal Princesa Tenesoya es una escuela infantil de titularidad municipal en Calle Debussy, s/n, 35016, dentro del barrio de Pedro Hidalgo (Vegueta-Cono Sur-Tafira), en Las Palmas de Gran Canaria. Atiende a niños de 0 a 3 años dentro de la red de Escuelas Infantiles Municipales gestionada por el Ayuntamiento a través de TRASA.",
+      "long_description": "Escuela Infantil Municipal Princesa Tenesoya es una escuela infantil de titularidad municipal, integrada en la red de Escuelas Infantiles Municipales de Las Palmas de Gran Canaria, gestionada por el Ayuntamiento a través de la empresa municipal TRASA. Tiene su sede en Calle Debussy, s/n, 35016, en el área de Pedro Hidalgo (Vegueta-Cono Sur-Tafira).\n\nSegún la información publicada por el propio Ayuntamiento, el horario base de las escuelas de esta red es de 8:30 a 15:45 h (cierre a las 16:00 h), con acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales.\n\nEl servicio de comedor está incluido en la cuota, que se calcula según los ingresos de la unidad familiar (con un porcentaje relevante de plazas con cuota cero o reducida). La red municipal incorpora también actividades como inglés, psicomotricidad y huerto escolar dentro de su proyecto educativo, según la información difundida por el Ayuntamiento.\n\nPara conocer las plazas disponibles, el calendario de solicitud y el proceso de matrícula, se recomienda contactar directamente con la escuela o con TRASA (informacion@trasaservicios.es).",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada Escuela Infantil Municipal Princesa Tenesoya?",
+          "answer": "El centro se encuentra en Calle Debussy, s/n, 35016, en el área de Pedro Hidalgo (Vegueta-Cono Sur-Tafira), Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es una escuela infantil de primer ciclo, dirigida a niños de 0 a 3 años, con plazas organizadas por franjas de edad (0-1, 1-2 y 2-3 años)."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, integrado en la red de Escuelas Infantiles Municipales del Ayuntamiento de Las Palmas de Gran Canaria, gestionada a través de la empresa municipal TRASA."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Horario base de 8:30 a 15:45 h (cierre a las 16:00 h). Acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales. Curso de septiembre a julio."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según la información publicada por el Ayuntamiento el servicio de comedor está incluido en la cuota de las escuelas infantiles municipales."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 623222046, escribir a princesatenesoya@trasaservicios.es, o contactar con TRASA en el 928 948 525 / informacion@trasaservicios.es."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.laspalmasgc.es/es/areas-tematicas/educacion/escuelas-infantiles-municipales/",
+      "source_urls_secondary": [
+        "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35015632",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "escuela-infantil-municipal-los-pitufos-las-palmas-de-gran-canaria",
+      "name": "Escuela Infantil Municipal Los Pitufos",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Obispo Marquina, 3",
+        "postal_code": "35014",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": "El Polvorín (Ciudad Alta)",
+        "latitude": 28.10742,
+        "longitude": -15.42659
+      },
+      "contact": {
+        "phone": "623224909",
+        "email": "lospitufos@trasaservicios.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Horario base de 8:30 a 15:45 h (cierre a las 16:00 h). Acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales. Curso de septiembre a julio.",
+      "services": [
+        "comedor",
+        "horario-ampliado"
+      ],
+      "short_description": "Situada en Calle Obispo Marquina, 3, 35014 (El Polvorín (Ciudad Alta)), Escuela Infantil Municipal Los Pitufos forma parte de la red de once escuelas infantiles municipales de Las Palmas de Gran Canaria, dirigida a niños de 0 a 3 años, con gestión del Ayuntamiento a través de TRASA.",
+      "long_description": "Escuela Infantil Municipal Los Pitufos es una escuela infantil de titularidad municipal, integrada en la red de Escuelas Infantiles Municipales de Las Palmas de Gran Canaria, gestionada por el Ayuntamiento a través de la empresa municipal TRASA. Tiene su sede en Calle Obispo Marquina, 3, 35014, en el área de El Polvorín (Ciudad Alta).\n\nSegún la información publicada por el propio Ayuntamiento, el horario base de las escuelas de esta red es de 8:30 a 15:45 h (cierre a las 16:00 h), con acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales.\n\nEl servicio de comedor está incluido en la cuota, que se calcula según los ingresos de la unidad familiar (con un porcentaje relevante de plazas con cuota cero o reducida). La red municipal incorpora también actividades como inglés, psicomotricidad y huerto escolar dentro de su proyecto educativo, según la información difundida por el Ayuntamiento.\n\nPara conocer las plazas disponibles, el calendario de solicitud y el proceso de matrícula, se recomienda contactar directamente con la escuela o con TRASA (informacion@trasaservicios.es).",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicada Escuela Infantil Municipal Los Pitufos?",
+          "answer": "El centro se encuentra en Calle Obispo Marquina, 3, 35014, en el área de El Polvorín (Ciudad Alta), Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es una escuela infantil de primer ciclo, dirigida a niños de 0 a 3 años, con plazas organizadas por franjas de edad (0-1, 1-2 y 2-3 años)."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, integrado en la red de Escuelas Infantiles Municipales del Ayuntamiento de Las Palmas de Gran Canaria, gestionada a través de la empresa municipal TRASA."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Horario base de 8:30 a 15:45 h (cierre a las 16:00 h). Acogida temprana desde las 7:30 h y horario ampliado hasta las 18:00 h para familias que lo justifiquen por motivos laborales. Curso de septiembre a julio."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según la información publicada por el Ayuntamiento el servicio de comedor está incluido en la cuota de las escuelas infantiles municipales."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 623224909, escribir a lospitufos@trasaservicios.es, o contactar con TRASA en el 928 948 525 / informacion@trasaservicios.es."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.laspalmasgc.es/es/areas-tematicas/educacion/escuelas-infantiles-municipales/",
+      "source_urls_secondary": [
+        "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35015644",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "anita-conrad-las-palmas-de-gran-canaria",
+      "name": "Anita Conrad",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Doctor García Castrillo, 19",
+        "postal_code": "35005",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.124483599,
+        "longitude": -15.433400895
+      },
+      "contact": {
+        "phone": "928292509",
+        "email": "admissions@anitaconrad.net",
+        "website": "https://anitaconrad.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "bilingue",
+        "comedor"
+      ],
+      "short_description": "Anita Conrad es un centro privado de educación infantil de primer ciclo en Calle Doctor García Castrillo, 19, 35005 (Las Palmas de Gran Canaria), dirigido a niños de 0 a 3 años. Según su propia web oficial, ofrece: proyecto bilingüe, comedor.",
+      "long_description": "Anita Conrad es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Doctor García Castrillo, 19, 35005, Las Palmas de Gran Canaria.\n\nSegún la información publicada en su propia web o canal oficial, el centro ofrece los siguientes servicios confirmados: proyecto bilingüe, comedor. Estos datos proceden directamente de la fuente propia del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Anita Conrad?",
+          "answer": "El centro se encuentra en Calle Doctor García Castrillo, 19, 35005, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor."
+        },
+        {
+          "question": "¿Ofrece enseñanza bilingüe o de inglés?",
+          "answer": "Sí, según su propia fuente oficial es un centro con proyecto bilingüe."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 928292509, escribir a admissions@anitaconrad.net, consultar su web oficial (https://anitaconrad.com/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [
+        "https://anitaconrad.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35010075",
+      "pedagogical_approach": [],
+      "notes_internal": "La propia web del centro indica la dirección \"Calle Doctor García Castrillo, 1\"; se mantiene el número \"19\" del registro oficial (Registro de Centros de Canarias) por ser la fuente de mayor autoridad geográfica."
+    },
+    {
+      "slug": "garabato-las-palmas-de-gran-canaria",
+      "name": "Garabato",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Pío XII, 17",
+        "postal_code": "35005",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.123907,
+        "longitude": -15.431564
+      },
+      "contact": {
+        "phone": "928245926",
+        "email": "direccion@garabato.es",
+        "website": "https://garabato.es/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Entrada anticipada de 7:30 a 8:30 h y horario ampliado de 16:30 a 17:30 h.",
+      "services": [
+        "bilingue",
+        "comedor",
+        "cocina-propia",
+        "horario-ampliado",
+        "musica",
+        "psicomotricidad"
+      ],
+      "short_description": "Situado en Calle Pío XII, 17, 35005, Las Palmas de Gran Canaria, Garabato atiende el primer ciclo de educación infantil (0-3 años). Su web oficial confirma los siguientes servicios: proyecto bilingüe, comedor, cocina propia, horario ampliado, música, psicomotricidad.",
+      "long_description": "Garabato es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Pío XII, 17, 35005, Las Palmas de Gran Canaria.\n\nSegún su propia fuente oficial, el horario del centro es: Entrada anticipada de 7:30 a 8:30 h y horario ampliado de 16:30 a 17:30 h.\n\nSegún la información publicada en su propia web o canal oficial, el centro ofrece los siguientes servicios confirmados: proyecto bilingüe, comedor, cocina propia, horario ampliado, música, psicomotricidad. Estos datos proceden directamente de la fuente propia del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Garabato?",
+          "answer": "El centro se encuentra en Calle Pío XII, 17, 35005, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Entrada anticipada de 7:30 a 8:30 h y horario ampliado de 16:30 a 17:30 h."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor con cocina propia."
+        },
+        {
+          "question": "¿Ofrece enseñanza bilingüe o de inglés?",
+          "answer": "Sí, según su propia fuente oficial es un centro con proyecto bilingüe."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [
+        "https://garabato.es/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35014275",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "la-gallina-turuleta-las-palmas-de-gran-canaria",
+      "name": "La Gallina Turuleta",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Carretera General de Tamaraceite, 63",
+        "postal_code": "35018",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.09664997,
+        "longitude": -15.469233908
+      },
+      "contact": {
+        "phone": "928437881",
+        "email": "gallinaturuleta@telefonica.net",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "La Gallina Turuleta es un centro privado de educación infantil de primer ciclo en Carretera General de Tamaraceite, 63, 35018 (Las Palmas de Gran Canaria), dirigido a niños de 0 a 3 años, según el Registro de Centros Docentes de Canarias.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Gallina Turuleta?",
+          "answer": "El centro se encuentra en Carretera General de Tamaraceite, 63, 35018, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 928437881, escribir a gallinaturuleta@telefonica.net."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35014512",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "el-barquito-las-palmas-de-gran-canaria",
+      "name": "El Barquito",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Párroco Francisco Rodríguez Rodríguez, 45",
+        "postal_code": "35010",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.128768,
+        "longitude": -15.444956
+      },
+      "contact": {
+        "phone": "928079403",
+        "email": "info@escuelainfantilelbarquito.com",
+        "website": "https://escuelainfantilelbarquito.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Localizado en Calle Párroco Francisco Rodríguez Rodríguez, 45, 35010, Las Palmas de Gran Canaria, El Barquito figura en el registro de centros docentes de Canarias como centro privado de primer ciclo de educación infantil. No hay constancia oficial de servicios adicionales.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado El Barquito?",
+          "answer": "El centro se encuentra en Calle Párroco Francisco Rodríguez Rodríguez, 45, 35010, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 928079403, escribir a info@escuelainfantilelbarquito.com, consultar su web oficial (https://escuelainfantilelbarquito.com/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [
+        "https://escuelainfantilelbarquito.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35014561",
+      "pedagogical_approach": [],
+      "notes_internal": "Registrado oficialmente como \"Centro Privado de Educación Infantil El Patio de mi Casa de Guanarteme\" (código 35014561); opera comercialmente como \"Escuela Infantil El Barquito\" (mismo teléfono y email en fuente oficial y en redes propias del centro)."
+    },
+    {
+      "slug": "first-steps-las-palmas-de-gran-canaria",
+      "name": "First Steps",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Camilo Saint Saens, 1",
+        "postal_code": "35005",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.125723,
+        "longitude": -15.431063
+      },
+      "contact": {
+        "phone": "928291599",
+        "email": "info@firststeps.es",
+        "website": "http://www.firststeps.es/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "First Steps, con sede en Calle Camilo Saint Saens, 1, 35005 (Las Palmas de Gran Canaria), es un centro privado autorizado para el primer ciclo de educación infantil (0-3 años). Los datos básicos de esta ficha proceden del Registro de Centros Docentes de Canarias.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado First Steps?",
+          "answer": "El centro se encuentra en Calle Camilo Saint Saens, 1, 35005, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 928291599, escribir a info@firststeps.es, consultar su web oficial (http://www.firststeps.es/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [
+        "http://www.firststeps.es/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35014597",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "pizquito-las-palmas-de-gran-canaria",
+      "name": "Pizquito",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Cano, 9",
+        "postal_code": "35002",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.104189,
+        "longitude": -15.416156
+      },
+      "contact": {
+        "phone": "928381591",
+        "email": "pizquito@pizquito.es",
+        "website": "https://pizquito.es/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "comedor",
+        "cocina-propia",
+        "horario-ampliado",
+        "actividades-extraescolares",
+        "verano-campamentos"
+      ],
+      "short_description": "Pizquito, con sede en Calle Cano, 9, 35002 (Las Palmas de Gran Canaria), es un centro privado de primer ciclo de infantil que, según su propia web, ofrece comedor, cocina propia, horario ampliado, actividades extraescolares, campamentos de verano.",
+      "long_description": "Pizquito es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Cano, 9, 35002, Las Palmas de Gran Canaria.\n\nSegún la información publicada en su propia web o canal oficial, el centro ofrece los siguientes servicios confirmados: comedor, cocina propia, horario ampliado, actividades extraescolares, campamentos de verano. Estos datos proceden directamente de la fuente propia del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Pizquito?",
+          "answer": "El centro se encuentra en Calle Cano, 9, 35002, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor con cocina propia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 928381591, escribir a pizquito@pizquito.es, consultar su web oficial (https://pizquito.es/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [
+        "https://pizquito.es/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35014573",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "micole-de-vegueta-las-palmas-de-gran-canaria",
+      "name": "MiCole de Vegueta",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Alcalde Francisco Hernández González, 32",
+        "postal_code": "35001",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.097706,
+        "longitude": -15.412612
+      },
+      "contact": {
+        "phone": "928339189",
+        "email": "info@micoledevegueta.net",
+        "website": "https://www.micoledevegueta.net/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Horario escolar de 7:30 a 13:30 h y horario extraescolar de 13:30 a 16:30 h. Abierto también en julio y agosto.",
+      "services": [
+        "comedor",
+        "cocina-propia",
+        "patio-exterior",
+        "horario-ampliado",
+        "verano-campamentos"
+      ],
+      "short_description": "En Calle Alcalde Francisco Hernández González, 32, 35001, Las Palmas de Gran Canaria, MiCole de Vegueta es un centro privado dirigido a niños de 0 a 3 años. La información publicada en su web oficial confirma estos servicios: comedor, cocina propia, patio exterior, horario ampliado, campamentos de verano.",
+      "long_description": "MiCole de Vegueta es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Alcalde Francisco Hernández González, 32, 35001, Las Palmas de Gran Canaria.\n\nSegún su propia fuente oficial, el horario del centro es: Horario escolar de 7:30 a 13:30 h y horario extraescolar de 13:30 a 16:30 h. Abierto también en julio y agosto.\n\nSegún la información publicada en su propia web o canal oficial, el centro ofrece los siguientes servicios confirmados: comedor, cocina propia, patio exterior, horario ampliado, campamentos de verano. Estos datos proceden directamente de la fuente propia del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado MiCole de Vegueta?",
+          "answer": "El centro se encuentra en Calle Alcalde Francisco Hernández González, 32, 35001, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Horario escolar de 7:30 a 13:30 h y horario extraescolar de 13:30 a 16:30 h. Abierto también en julio y agosto."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor con cocina propia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 928339189, escribir a info@micoledevegueta.net, consultar su web oficial (https://www.micoledevegueta.net/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [
+        "https://www.micoledevegueta.net/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35014615",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "domingo-alonso-las-palmas-de-gran-canaria",
+      "name": "Domingo Alonso",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Lomo la Plana, 16 - Bloque 31 - Portal 1",
+        "postal_code": "35019",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.102363,
+        "longitude": -15.451921
+      },
+      "contact": {
+        "phone": "639474042",
+        "email": "escuelainfantil@domingoalonsogroup.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Ubicado en Calle Lomo la Plana, 16 - Bloque 31 - Portal 1, 35019, Las Palmas de Gran Canaria, Domingo Alonso atiende a niños de 0 a 3 años dentro del primer ciclo de infantil. Los servicios concretos del centro no están confirmados en fuente oficial propia; conviene solicitarlos directamente.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Domingo Alonso?",
+          "answer": "El centro se encuentra en Calle Lomo la Plana, 16 - Bloque 31 - Portal 1, 35019, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 639474042, escribir a escuelainfantil@domingoalonsogroup.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35014688",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "la-piruleta-las-palmas-de-gran-canaria",
+      "name": "La Piruleta",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Alfredo Calderón, 57 - Bajo",
+        "postal_code": "35006",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.130523,
+        "longitude": -15.432708
+      },
+      "contact": {
+        "phone": "828982093",
+        "email": "childrensworldcpei.pioxII@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "La Piruleta es un centro privado de primer ciclo de educación infantil situado en Calle Alfredo Calderón, 57 - Bajo, 35006, Las Palmas de Gran Canaria, según consta en el Registro de Centros Docentes de Canarias.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Piruleta?",
+          "answer": "El centro se encuentra en Calle Alfredo Calderón, 57 - Bajo, 35006, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 828982093, escribir a childrensworldcpei.pioxII@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35014809",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "marpe-infantil-las-palmas-de-gran-canaria",
+      "name": "Marpe Infantil",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Valle Inclán, 4",
+        "postal_code": "35011",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.115765,
+        "longitude": -15.433477
+      },
+      "contact": {
+        "phone": "928205277",
+        "email": "altavistall@colegiomarpe.com",
+        "website": "https://colegiomarpe.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Horario ampliado de 7:30 a 18:00 h.",
+      "services": [
+        "comedor",
+        "horario-ampliado",
+        "actividades-extraescolares"
+      ],
+      "short_description": "Marpe Infantil es un centro privado de educación infantil de primer ciclo en Calle Valle Inclán, 4, 35011 (Las Palmas de Gran Canaria), dirigido a niños de 0 a 3 años. Según su propia web oficial, ofrece: comedor, horario ampliado, actividades extraescolares.",
+      "long_description": "Marpe Infantil es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Valle Inclán, 4, 35011, Las Palmas de Gran Canaria.\n\nSegún su propia fuente oficial, el horario del centro es: Horario ampliado de 7:30 a 18:00 h.\n\nSegún la información publicada en su propia web o canal oficial, el centro ofrece los siguientes servicios confirmados: comedor, horario ampliado, actividades extraescolares. Estos datos proceden directamente de la fuente propia del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Marpe Infantil?",
+          "answer": "El centro se encuentra en Calle Valle Inclán, 4, 35011, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Horario ampliado de 7:30 a 18:00 h."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 928205277, escribir a altavistall@colegiomarpe.com, consultar su web oficial (https://colegiomarpe.com/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [
+        "https://colegiomarpe.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35014895",
+      "pedagogical_approach": [],
+      "notes_internal": "El centro forma parte del Colegio Marpe Altavista, que tiene concierto educativo para las etapas de Primaria y Secundaria. La propia web del centro confirma que el primer ciclo de educación infantil (1-2 años) no está incluido en ese concierto y se gestiona como plaza privada, por lo que se mantiene ownership=privado para esta ficha, conforme al criterio del proyecto de no asumir concierto sin fuente oficial explícita para primer ciclo."
+    },
+    {
+      "slug": "el-patio-de-mi-casa-las-palmas-de-gran-canaria",
+      "name": "El Patio de mi Casa",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Alfonso el Sabio, 1",
+        "postal_code": "35005",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.118879,
+        "longitude": -15.429351
+      },
+      "contact": {
+        "phone": "828904918",
+        "email": "cpeielpatiodemicasa@gmail.com",
+        "website": "https://www.elpatiodemicasa.org/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "En Las Palmas de Gran Canaria, en Calle Alfonso el Sabio, 1, 35005, El Patio de mi Casa es un centro privado de educación infantil autorizado para el primer ciclo (0-3 años). Los datos básicos de esta ficha proceden del Registro de Centros Docentes de Canarias.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado El Patio de mi Casa?",
+          "answer": "El centro se encuentra en Calle Alfonso el Sabio, 1, 35005, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 828904918, escribir a cpeielpatiodemicasa@gmail.com, consultar su web oficial (https://www.elpatiodemicasa.org/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [
+        "https://www.elpatiodemicasa.org/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35014949",
+      "pedagogical_approach": [],
+      "notes_internal": "Identificada en la web del grupo como sede \"Ciudad Jardín\"."
+    },
+    {
+      "slug": "tambi-1-las-palmas-de-gran-canaria",
+      "name": "Tambi 1",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Luis Doreste Silva, 12 - Bajo A",
+        "postal_code": "35004",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.115609,
+        "longitude": -15.42008
+      },
+      "contact": {
+        "phone": "928231252",
+        "email": "tambi@tambi.es",
+        "website": "https://escuelainfantiltambi.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "comedor",
+        "cocina-propia"
+      ],
+      "short_description": "Situado en Calle Luis Doreste Silva, 12 - Bajo A, 35004, Las Palmas de Gran Canaria, Tambi 1 atiende el primer ciclo de educación infantil (0-3 años). Su web oficial confirma los siguientes servicios: comedor, cocina propia.",
+      "long_description": "Tambi 1 es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Luis Doreste Silva, 12 - Bajo A, 35004, Las Palmas de Gran Canaria.\n\nSegún la información publicada en su propia web o canal oficial, el centro ofrece los siguientes servicios confirmados: comedor, cocina propia. Estos datos proceden directamente de la fuente propia del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Tambi 1?",
+          "answer": "El centro se encuentra en Calle Luis Doreste Silva, 12 - Bajo A, 35004, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor con cocina propia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 928231252, escribir a tambi@tambi.es, consultar su web oficial (https://escuelainfantiltambi.com/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [
+        "https://escuelainfantiltambi.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35014913",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "tambi-2-las-palmas-de-gran-canaria",
+      "name": "Tambi 2",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Camelia, 13 - Bajo B",
+        "postal_code": "35010",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.114586,
+        "longitude": -15.451843
+      },
+      "contact": {
+        "phone": "928231252",
+        "email": "tambi@tambi.es",
+        "website": "https://escuelainfantiltambi.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "comedor",
+        "cocina-propia"
+      ],
+      "short_description": "Tambi 2, con sede en Calle Camelia, 13 - Bajo B, 35010 (Las Palmas de Gran Canaria), es un centro privado de primer ciclo de infantil que, según su propia web, ofrece comedor, cocina propia.",
+      "long_description": "Tambi 2 es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Camelia, 13 - Bajo B, 35010, Las Palmas de Gran Canaria.\n\nSegún la información publicada en su propia web o canal oficial, el centro ofrece los siguientes servicios confirmados: comedor, cocina propia. Estos datos proceden directamente de la fuente propia del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Tambi 2?",
+          "answer": "El centro se encuentra en Calle Camelia, 13 - Bajo B, 35010, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor con cocina propia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 928231252, escribir a tambi@tambi.es, consultar su web oficial (https://escuelainfantiltambi.com/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [
+        "https://escuelainfantiltambi.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35015000",
+      "pedagogical_approach": [],
+      "notes_internal": "Segunda sede del mismo grupo Tambi, comparte teléfono y web con Tambi 1."
+    },
+    {
+      "slug": "el-patio-de-mi-casa-7-palmas-las-palmas-de-gran-canaria",
+      "name": "El Patio de mi Casa 7 Palmas",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Lomo la Plana, 16 - Urb. 7 Palmas",
+        "postal_code": "35019",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.102363,
+        "longitude": -15.451817
+      },
+      "contact": {
+        "phone": "680977717",
+        "email": "edukkidssl@gmail.com",
+        "website": "https://www.elpatiodemicasa.org/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "El Patio de mi Casa 7 Palmas, situado en Calle Lomo la Plana, 16 - Urb. 7 Palmas, 35019 (Las Palmas de Gran Canaria), atiende el primer ciclo de educación infantil para niños de 0 a 3 años, según el registro autonómico de centros.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado El Patio de mi Casa 7 Palmas?",
+          "answer": "El centro se encuentra en Calle Lomo la Plana, 16 - Urb. 7 Palmas, 35019, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 680977717, escribir a edukkidssl@gmail.com, consultar su web oficial (https://www.elpatiodemicasa.org/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [
+        "https://www.elpatiodemicasa.org/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35014925",
+      "pedagogical_approach": [],
+      "notes_internal": "Segunda sede del grupo El Patio de mi Casa, identificada en la web del grupo como sede \"7 Palmas\". La propia web confirma horario ampliado para adaptarse a las familias, pero sin franja horaria concreta citable ni servicio de comedor propio."
+    },
+    {
+      "slug": "nueva-atlantida-las-palmas-de-gran-canaria",
+      "name": "Nueva Atlántida",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Paseo de Tomás Morales, 132",
+        "postal_code": "35004",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.11889,
+        "longitude": -15.427492
+      },
+      "contact": {
+        "phone": "928232518",
+        "email": "info@guarderianuevaatlantida.com",
+        "website": "http://www.guarderianuevaatlantida.com"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "comedor",
+        "cocina-propia"
+      ],
+      "short_description": "En Paseo de Tomás Morales, 132, 35004, Las Palmas de Gran Canaria, Nueva Atlántida es un centro privado dirigido a niños de 0 a 3 años. La información publicada en su web oficial confirma estos servicios: comedor, cocina propia.",
+      "long_description": "Nueva Atlántida es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Paseo de Tomás Morales, 132, 35004, Las Palmas de Gran Canaria.\n\nSegún la información publicada en su propia web o canal oficial, el centro ofrece los siguientes servicios confirmados: comedor, cocina propia. Estos datos proceden directamente de la fuente propia del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Nueva Atlántida?",
+          "answer": "El centro se encuentra en Paseo de Tomás Morales, 132, 35004, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor con cocina propia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 928232518, escribir a info@guarderianuevaatlantida.com, consultar su web oficial (http://www.guarderianuevaatlantida.com)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [
+        "http://www.guarderianuevaatlantida.com"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35015024",
+      "pedagogical_approach": [],
+      "notes_internal": "La web propia del centro presentaba contenido publicitario ajeno inyectado en parte de sus páginas en el momento de la consulta; solo se han tomado como confirmados los datos de contacto y el servicio de comedor casero mencionado en el bloque principal de la propia web."
+    },
+    {
+      "slug": "little-star-las-palmas-de-gran-canaria",
+      "name": "Little Star",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Canalejas, 65",
+        "postal_code": "35003",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.112175,
+        "longitude": -15.421199
+      },
+      "contact": {
+        "phone": "928961982",
+        "email": "elpatitofeolaspalmas@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Con dirección en Calle Canalejas, 65, 35003, Las Palmas de Gran Canaria, Little Star es un centro privado autorizado por la Consejería de Educación de Canarias para impartir el primer ciclo de infantil.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Little Star?",
+          "answer": "El centro se encuentra en Calle Canalejas, 65, 35003, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 928961982, escribir a elpatitofeolaspalmas@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35015048",
+      "pedagogical_approach": [],
+      "notes_internal": "Registrada oficialmente como \"Little Star Escuela Infantil\" (código 35015048); en redes propias del centro (Facebook) también aparece bajo el nombre \"El Patito Feo\", en la misma dirección y con el mismo email de contacto."
+    },
+    {
+      "slug": "mafalda-las-palmas-de-gran-canaria",
+      "name": "Mafalda",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Carretera General del Norte, km 4,1 - Los Tarahales",
+        "postal_code": "35010",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.0969659950001,
+        "longitude": -15.4517883149999
+      },
+      "contact": {
+        "phone": "928410375",
+        "email": "escuelainfantilmaphalda@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Mafalda es un centro privado de educación infantil de primer ciclo en Carretera General del Norte, km 4,1 - Los Tarahales, 35010 (Las Palmas de Gran Canaria), dirigido a niños de 0 a 3 años, según el Registro de Centros Docentes de Canarias.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Mafalda?",
+          "answer": "El centro se encuentra en Carretera General del Norte, km 4,1 - Los Tarahales, 35010, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 928410375, escribir a escuelainfantilmaphalda@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35015051",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "la-blanca-paloma-las-palmas-de-gran-canaria",
+      "name": "La Blanca Paloma",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Tirso de Molina, 3 - esquina Calle Emilio Lev",
+        "postal_code": "35005",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.11949,
+        "longitude": -15.4289337
+      },
+      "contact": {
+        "phone": "928246403",
+        "email": "fatimacardenes@hotmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Localizado en Calle Tirso de Molina, 3 - esquina Calle Emilio Lev, 35005, Las Palmas de Gran Canaria, La Blanca Paloma figura en el registro de centros docentes de Canarias como centro privado de primer ciclo de educación infantil. No hay constancia oficial de servicios adicionales.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Blanca Paloma?",
+          "answer": "El centro se encuentra en Calle Tirso de Molina, 3 - esquina Calle Emilio Lev, 35005, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 928246403, escribir a fatimacardenes@hotmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35015085",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "cascaron-las-palmas-de-gran-canaria",
+      "name": "Cascarón",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avenida Juan Carlos I, 3 - B8 - Urbanización Jardines de las Ramblas",
+        "postal_code": "35019",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.116601,
+        "longitude": -15.446913
+      },
+      "contact": {
+        "phone": "670064212",
+        "email": "info@centroinfantilcascaron.es",
+        "website": "https://cascaron.net/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "De lunes a viernes, de 7:30 a 17:00 h (agosto de 7:30 a 15:30 h), todo el año excepto festivos y una semana en Navidad y Semana Santa.",
+      "services": [
+        "comedor",
+        "cocina-propia",
+        "horario-ampliado"
+      ],
+      "short_description": "Cascarón es un centro privado de educación infantil de primer ciclo en Avenida Juan Carlos I, 3 - B8 - Urbanización Jardines de las Ramblas, 35019 (Las Palmas de Gran Canaria), dirigido a niños de 0 a 3 años. Según su propia web oficial, ofrece: comedor, cocina propia, horario ampliado.",
+      "long_description": "Cascarón es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Avenida Juan Carlos I, 3 - B8 - Urbanización Jardines de las Ramblas, 35019, Las Palmas de Gran Canaria.\n\nSegún su propia fuente oficial, el horario del centro es: De lunes a viernes, de 7:30 a 17:00 h (agosto de 7:30 a 15:30 h), todo el año excepto festivos y una semana en Navidad y Semana Santa.\n\nSegún la información publicada en su propia web o canal oficial, el centro ofrece los siguientes servicios confirmados: comedor, cocina propia, horario ampliado. Estos datos proceden directamente de la fuente propia del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Cascarón?",
+          "answer": "El centro se encuentra en Avenida Juan Carlos I, 3 - B8 - Urbanización Jardines de las Ramblas, 35019, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De lunes a viernes, de 7:30 a 17:00 h (agosto de 7:30 a 15:30 h), todo el año excepto festivos y una semana en Navidad y Semana Santa."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor con cocina propia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 670064212, escribir a info@centroinfantilcascaron.es, consultar su web oficial (https://cascaron.net/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [
+        "https://cascaron.net/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35015218",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "los-jaimitos-las-palmas-de-gran-canaria",
+      "name": "Los Jaimitos",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Juan de Juni, 54",
+        "postal_code": "35017",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.051901,
+        "longitude": -15.471535
+      },
+      "contact": {
+        "phone": "928351000",
+        "email": "info@colegiojaimebalmes.es",
+        "website": "https://www.colegiojaimebalmes.es/escuela-infantil-los-jaimitos-las-palmas/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Acogida temprana desde las 7:00 h.",
+      "services": [
+        "horario-ampliado"
+      ],
+      "short_description": "Situado en Calle Juan de Juni, 54, 35017, Las Palmas de Gran Canaria, Los Jaimitos atiende el primer ciclo de educación infantil (0-3 años). Su web oficial confirma los siguientes servicios: horario ampliado.",
+      "long_description": "Los Jaimitos es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Juan de Juni, 54, 35017, Las Palmas de Gran Canaria.\n\nSegún su propia fuente oficial, el horario del centro es: Acogida temprana desde las 7:00 h.\n\nSegún la información publicada en su propia web o canal oficial, el centro ofrece los siguientes servicios confirmados: horario ampliado. Estos datos proceden directamente de la fuente propia del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Los Jaimitos?",
+          "answer": "El centro se encuentra en Calle Juan de Juni, 54, 35017, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Acogida temprana desde las 7:00 h."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 928351000, escribir a info@colegiojaimebalmes.es, consultar su web oficial (https://www.colegiojaimebalmes.es/escuela-infantil-los-jaimitos-las-palmas/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [
+        "https://www.colegiojaimebalmes.es/escuela-infantil-los-jaimitos-las-palmas/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35015221",
+      "pedagogical_approach": [],
+      "notes_internal": "Escuela infantil de primer ciclo (0-3 años) asociada al Colegio Jaime Balmes, en Tafira Alta. La propia web del centro confirma que el segundo ciclo de infantil (3-6 años) del colegio es concertado y gratuito, mientras que el primer ciclo (0-3, Los Jaimitos) es una etapa no concertada, de pago. Se mantiene ownership=privado para esta ficha de primer ciclo."
+    },
+    {
+      "slug": "la-manzana-arenales-las-palmas-de-gran-canaria",
+      "name": "La Manzana Arenales",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Obispo Rabadán, 48",
+        "postal_code": "35003",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.111186,
+        "longitude": -15.422629
+      },
+      "contact": {
+        "phone": "928371724",
+        "email": "arenales@la-manzana.com",
+        "website": "https://la-manzana.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "comedor",
+        "cocina-propia"
+      ],
+      "short_description": "La Manzana Arenales, con sede en Calle Obispo Rabadán, 48, 35003 (Las Palmas de Gran Canaria), es un centro privado de primer ciclo de infantil que, según su propia web, ofrece comedor, cocina propia.",
+      "long_description": "La Manzana Arenales es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Obispo Rabadán, 48, 35003, Las Palmas de Gran Canaria.\n\nSegún la información publicada en su propia web o canal oficial, el centro ofrece los siguientes servicios confirmados: comedor, cocina propia. Estos datos proceden directamente de la fuente propia del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Manzana Arenales?",
+          "answer": "El centro se encuentra en Calle Obispo Rabadán, 48, 35003, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor con cocina propia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 928371724, escribir a arenales@la-manzana.com, consultar su web oficial (https://la-manzana.com/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [
+        "https://la-manzana.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35015012",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "el-arbolito-las-palmas-de-gran-canaria",
+      "name": "El Arbolito",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Pérez del Toro, 57",
+        "postal_code": "35004",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.1154,
+        "longitude": -15.426159
+      },
+      "contact": {
+        "phone": "928290261",
+        "email": "susherros@hotmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "El Arbolito, con sede en Calle Pérez del Toro, 57, 35004 (Las Palmas de Gran Canaria), es un centro privado autorizado para el primer ciclo de educación infantil (0-3 años). Los datos básicos de esta ficha proceden del Registro de Centros Docentes de Canarias.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado El Arbolito?",
+          "answer": "El centro se encuentra en Calle Pérez del Toro, 57, 35004, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 928290261, escribir a susherros@hotmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35015322",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "mis-peques-las-palmas-de-gran-canaria",
+      "name": "Mis Peques",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Hermanos García de la Torre, 4",
+        "postal_code": "35001",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.127461,
+        "longitude": -15.430389
+      },
+      "contact": {
+        "phone": "928241723",
+        "email": "mispequeslaspalmas@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Ubicado en Calle Hermanos García de la Torre, 4, 35001, Las Palmas de Gran Canaria, Mis Peques atiende a niños de 0 a 3 años dentro del primer ciclo de infantil. Los servicios concretos del centro no están confirmados en fuente oficial propia; conviene solicitarlos directamente.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Mis Peques?",
+          "answer": "El centro se encuentra en Calle Hermanos García de la Torre, 4, 35001, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 928241723, escribir a mispequeslaspalmas@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35015553",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "la-casita-de-los-ninos-las-palmas-de-gran-canaria",
+      "name": "La Casita de los Niños",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Carretera de Teror, 52-54",
+        "postal_code": "35017",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.097208,
+        "longitude": -15.482469
+      },
+      "contact": {
+        "phone": "928671871",
+        "email": "casitadelospequescpei@gmail.com",
+        "website": "https://xn--lacasitadelosnios-txb.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "De lunes a viernes, de 7:00 a 17:00 h.",
+      "services": [
+        "comedor",
+        "cocina-propia",
+        "horario-ampliado",
+        "patio-exterior"
+      ],
+      "short_description": "En Carretera de Teror, 52-54, 35017, Las Palmas de Gran Canaria, La Casita de los Niños es un centro privado dirigido a niños de 0 a 3 años. La información publicada en su web oficial confirma estos servicios: comedor, cocina propia, horario ampliado, patio exterior.",
+      "long_description": "La Casita de los Niños es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Carretera de Teror, 52-54, 35017, Las Palmas de Gran Canaria.\n\nSegún su propia fuente oficial, el horario del centro es: De lunes a viernes, de 7:00 a 17:00 h.\n\nSegún la información publicada en su propia web o canal oficial, el centro ofrece los siguientes servicios confirmados: comedor, cocina propia, horario ampliado, patio exterior. Estos datos proceden directamente de la fuente propia del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Casita de los Niños?",
+          "answer": "El centro se encuentra en Carretera de Teror, 52-54, 35017, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De lunes a viernes, de 7:00 a 17:00 h."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor con cocina propia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 928671871, escribir a casitadelospequescpei@gmail.com, consultar su web oficial (https://xn--lacasitadelosnios-txb.com/)."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [
+        "https://xn--lacasitadelosnios-txb.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35015565",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "children-s-world-las-palmas-de-gran-canaria",
+      "name": "Children's World",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Camilo Saint Saenz, 8",
+        "postal_code": "35005",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.126353,
+        "longitude": -15.431179
+      },
+      "contact": {
+        "phone": "616864064",
+        "email": "childrensworld.c.p.e.i@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "ingles"
+      ],
+      "short_description": "Children's World es un centro privado de educación infantil de primer ciclo en Calle Camilo Saint Saenz, 8, 35005 (Las Palmas de Gran Canaria), dirigido a niños de 0 a 3 años. Según su propia web oficial, ofrece: inglés.",
+      "long_description": "Children's World es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Camilo Saint Saenz, 8, 35005, Las Palmas de Gran Canaria.\n\nSegún la información publicada en su propia web o canal oficial, el centro ofrece los siguientes servicios confirmados: inglés. Estos datos proceden directamente de la fuente propia del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Children's World?",
+          "answer": "El centro se encuentra en Calle Camilo Saint Saenz, 8, 35005, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Ofrece enseñanza bilingüe o de inglés?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece actividades de introducción al inglés."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 616864064, escribir a childrensworld.c.p.e.i@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35015620",
+      "pedagogical_approach": [],
+      "notes_internal": "La propia web/redes del centro confirma actividades de introducción al inglés (bits de inteligencia, canciones y cuentos en inglés); no se ha asignado \"bilingue\" por no tratarse de un proyecto de inmersión, sino de sesiones de introducción al idioma."
+    },
+    {
+      "slug": "montessori-tafira-las-palmas-de-gran-canaria",
+      "name": "Montessori Tafira",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle San Quintín, 10 - Tafira Alta",
+        "postal_code": "35017",
+        "city_slug": "las-palmas-de-gran-canaria",
+        "city_name": "Las Palmas de Gran Canaria",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 28.053532384622116,
+        "longitude": -15.46422495258862
+      },
+      "contact": {
+        "phone": "613534033",
+        "email": "info@montessoritafira.com",
+        "website": "http://montessoritafira.com"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "bilingue"
+      ],
+      "short_description": "Situado en Calle San Quintín, 10 - Tafira Alta, 35017, Las Palmas de Gran Canaria, Montessori Tafira atiende el primer ciclo de educación infantil (0-3 años). Su web oficial confirma los siguientes servicios: proyecto bilingüe.",
+      "long_description": "Montessori Tafira es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle San Quintín, 10 - Tafira Alta, 35017, Las Palmas de Gran Canaria.\n\nSegún la información publicada en su propia web o canal oficial, el centro ofrece los siguientes servicios confirmados: proyecto bilingüe. Estos datos proceden directamente de la fuente propia del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nEl centro declara en su web oficial seguir un enfoque pedagógico Montessori.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Montessori Tafira?",
+          "answer": "El centro se encuentra en Calle San Quintín, 10 - Tafira Alta, 35017, en Las Palmas de Gran Canaria."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias)."
+        },
+        {
+          "question": "¿Ofrece enseñanza bilingüe o de inglés?",
+          "answer": "Sí, según su propia fuente oficial es un centro con proyecto bilingüe."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 613534033, escribir a info@montessoritafira.com, consultar su web oficial (http://montessoritafira.com)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registro de Centros Docentes de Canarias (Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://datos.canarias.es/catalogos/general/dataset/centros-educativos-de-canarias",
+      "source_urls_secondary": [
+        "http://montessoritafira.com"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "35016077",
+      "pedagogical_approach": [
+        "Montessori"
+      ],
+      "notes_internal": null
+    }
+  ]
+}

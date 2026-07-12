@@ -1,0 +1,2587 @@
+{
+  "_readme": "Dataset de trabajo para Alicante, mismo formato snake_case que sevilla-centers.json / valencia-centers.json / murcia-centers.json. city_slug=alicante. Fuente primaria: 'Centres docents de la Comunitat Valenciana' (Generalitat Valenciana, Conselleria d'Educacio, Universitats i Ocupacio, portal dadesobertes.gva.es), filtrado por localidad='ALACANT' (termino municipal de Alicante capital, excluye San Vicente del Raspeig, El Campello, Sant Joan d'Alacant y el resto del area metropolitana). Complementado con la web oficial del Ayuntamiento de Alicante (Patronato Municipal de Educacion Infantil, 2 escuelas municipales: Els Xiquets y Siete Enanitos) y con webs oficiales propias de 17 centros privados para confirmar servicios concretos del enum CenterService. Ver docs/data-sources-alicante.md.",
+  "city": "alicante",
+  "generated_at": "2026-07-12T10:00:00.000Z",
+  "stats": {
+    "centers_count": 37,
+    "excluded_count": 0
+  },
+  "centers": [
+    {
+      "slug": "ei-benacantil-alicante",
+      "name": "EI Benacantil",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Ejércitos Españoles, s/n",
+        "postal_code": "03014",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.369552,
+        "longitude": -0.482746
+      },
+      "contact": {
+        "phone": "965918710",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "EI Benacantil es un centro público de educación infantil de primer ciclo en Calle Ejércitos Españoles, s/n, 03014 (Alicante), dirigido a niños de 0 a 3 años, según el Registre de Centres Docents de la Comunitat Valenciana.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado EI Benacantil?",
+          "answer": "El centro se encuentra en Calle Ejércitos Españoles, s/n, 03014, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, de la Generalitat Valenciana, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965918710."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03001431",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "ei-el-tossalet-alicante",
+      "name": "EI El Tossalet",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Cronista Vicente Martínez Morella, s/n",
+        "postal_code": "03014",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.371001,
+        "longitude": -0.479546
+      },
+      "contact": {
+        "phone": "965936200",
+        "email": "03009968@gva.es",
+        "website": "https://portal.edu.gva.es/03009968/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "comedor"
+      ],
+      "short_description": "Situado en Calle Cronista Vicente Martínez Morella, s/n, 03014, Alicante, EI El Tossalet atiende el primer ciclo de educación infantil (0-3 años) dentro de la red pública de la Comunitat Valenciana.",
+      "long_description": "EI El Tossalet es un centro público de educación infantil de primer ciclo (0-3 años), de titularidad de la Generalitat Valenciana, con sede en Calle Cronista Vicente Martínez Morella, s/n, 03014, Alicante.\n\nEl centro confirma en fuente propia los siguientes servicios: comedor.\n\nPara conocer el proyecto educativo completo, el proceso de admisión y las plazas disponibles, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado EI El Tossalet?",
+          "answer": "El centro se encuentra en Calle Cronista Vicente Martínez Morella, s/n, 03014, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, de la Generalitat Valenciana, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965936200, escribir a 03009968@gva.es, consultar su web oficial (https://portal.edu.gva.es/03009968/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://portal.edu.gva.es/03009968/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03009968",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "ei-rayuela-alicante",
+      "name": "EI Rayuela",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Ciudad Real, 15",
+        "postal_code": "03005",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.351535,
+        "longitude": -0.500886
+      },
+      "contact": {
+        "phone": "965932520",
+        "email": "03013571@gva.es",
+        "website": "https://www.eirayuela.es/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Horario general de 9:00 a 16:00 h. Horario ampliado de 7:00 a 9:00 h y de 16:00 a 17:00 h.",
+      "services": [
+        "horario-ampliado"
+      ],
+      "short_description": "EI Rayuela, con sede en Calle Ciudad Real, 15, 03005 (Alicante), es un centro público de primer ciclo de infantil para niños de 0 a 3 años, registrado como centro docente de la Generalitat Valenciana. Horario general de 9:00 a 16:00 h. Horario ampliado de 7:00 a 9:00 h y de 16:00 a 17:00 h.",
+      "long_description": "EI Rayuela es un centro público de educación infantil de primer ciclo (0-3 años), de titularidad de la Generalitat Valenciana, con sede en Calle Ciudad Real, 15, 03005, Alicante.\n\nSegún su propia web oficial, el horario del centro es el siguiente: Horario general de 9:00 a 16:00 h. Horario ampliado de 7:00 a 9:00 h y de 16:00 a 17:00 h.\n\nEl centro confirma en fuente propia los siguientes servicios: horario ampliado.\n\nPara conocer el proyecto educativo completo, el proceso de admisión y las plazas disponibles, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado EI Rayuela?",
+          "answer": "El centro se encuentra en Calle Ciudad Real, 15, 03005, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, de la Generalitat Valenciana, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Horario general de 9:00 a 16:00 h. Horario ampliado de 7:00 a 9:00 h y de 16:00 a 17:00 h."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965932520, escribir a 03013571@gva.es, consultar su web oficial (https://www.eirayuela.es/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://www.eirayuela.es/escuela/horarios/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03013571",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "escuela-infantil-municipal-els-xiquets-alicante",
+      "name": "Escuela Infantil Municipal Els Xiquets",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle del Clot, 8",
+        "postal_code": "03011",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.376235,
+        "longitude": -0.495714
+      },
+      "contact": {
+        "phone": "965173565",
+        "email": "elsxiquets@alicante.es",
+        "website": "https://www.alicante.es/es/equipamientos/escuela-infantil-els-xiquets"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Guardería de 7:45 a 9:00 h. Escuela infantil de 9:00 a 17:00 h. Curso del 8 de septiembre al 22 de julio.",
+      "services": [
+        "horario-ampliado",
+        "comedor"
+      ],
+      "short_description": "Escuela Infantil Municipal Els Xiquets es un centro público de educación infantil de primer ciclo en Calle del Clot, 8, 03011 (Alicante), dirigido a niños de 0 a 3 años, según el Registre de Centres Docents de la Comunitat Valenciana. Guardería de 7:45 a 9:00 h. Escuela infantil de 9:00 a 17:00 h. Curso del 8 de septiembre al 22 de julio.",
+      "long_description": "Escuela Infantil Municipal Els Xiquets es una escuela infantil de titularidad municipal, gestionada por el Patronato Municipal de Educación Infantil del Ayuntamiento de Alicante, con sede en Calle del Clot, 8, 03011, Alicante.\n\nSegún la información publicada por el propio Ayuntamiento, el horario del centro combina un servicio de guardería de 7:45 a 9:00 h con el horario lectivo de escuela infantil de 9:00 a 17:00 h, dentro de un curso que va del 8 de septiembre al 22 de julio.\n\nEl centro ofrece servicio de comedor de carácter voluntario, con menús preparados en las propias instalaciones, además de atención de una trabajadora social y transporte gestionado por la Asociación de Madres y Padres (AMPA).\n\nPara conocer el proceso de matriculación, plazas disponibles y otros detalles, se recomienda contactar directamente con el centro o con el Patronato Municipal de Educación Infantil.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Escuela Infantil Municipal Els Xiquets?",
+          "answer": "El centro se encuentra en Calle del Clot, 8, 03011, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, gestionado por el Patronato Municipal de Educación Infantil del Ayuntamiento de Alicante."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Guardería de 7:45 a 9:00 h. Escuela infantil de 9:00 a 17:00 h. Curso del 8 de septiembre al 22 de julio."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965173565, escribir a elsxiquets@alicante.es, consultar su web oficial (https://www.alicante.es/es/equipamientos/escuela-infantil-els-xiquets)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Generalitat Valenciana y de la web oficial del Ayuntamiento de Alicante. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.alicante.es/es/area-tematica/escuelas-infantiles",
+      "source_urls_secondary": [
+        "https://www.alicante.es/es/equipamientos/escuela-infantil-els-xiquets"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03018349",
+      "pedagogical_approach": [],
+      "notes_internal": "Gestionada por el Patronato Municipal de Educación Infantil del Ayuntamiento de Alicante. Comedor de carácter voluntario, con menús preparados en el propio centro."
+    },
+    {
+      "slug": "escuela-infantil-municipal-siete-enanitos-alicante",
+      "name": "Escuela Infantil Municipal Siete Enanitos",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Miguel Jiménez Reyes, 18-20-22",
+        "postal_code": "03015",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.37736,
+        "longitude": -0.48373
+      },
+      "contact": {
+        "phone": "965182385",
+        "email": "7enanitos@alicante.es",
+        "website": "https://www.alicante.es/es/equipamientos/escuela-infantil-siete-enanitos"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Guardería de 7:45 a 9:00 h. Escuela infantil de 9:00 a 17:00 h. Curso del 8 de septiembre al 22 de julio.",
+      "services": [
+        "horario-ampliado",
+        "comedor"
+      ],
+      "short_description": "Situado en Calle Miguel Jiménez Reyes, 18-20-22, 03015, Alicante, Escuela Infantil Municipal Siete Enanitos atiende el primer ciclo de educación infantil (0-3 años) dentro de la red pública de la Comunitat Valenciana. Guardería de 7:45 a 9:00 h. Escuela infantil de 9:00 a 17:00 h. Curso del 8 de septiembre al 22 de julio.",
+      "long_description": "Escuela Infantil Municipal Siete Enanitos es una escuela infantil de titularidad municipal, gestionada por el Patronato Municipal de Educación Infantil del Ayuntamiento de Alicante, con sede en Calle Miguel Jiménez Reyes, 18-20-22, 03015, Alicante.\n\nSegún la información publicada por el propio Ayuntamiento, el horario del centro combina un servicio de guardería de 7:45 a 9:00 h con el horario lectivo de escuela infantil de 9:00 a 17:00 h, dentro de un curso que va del 8 de septiembre al 22 de julio.\n\nEl centro ofrece servicio de comedor de carácter voluntario, con menús preparados en las propias instalaciones, además de atención de una trabajadora social y transporte gestionado por la Asociación de Madres y Padres (AMPA).\n\nPara conocer el proceso de matriculación, plazas disponibles y otros detalles, se recomienda contactar directamente con el centro o con el Patronato Municipal de Educación Infantil.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Escuela Infantil Municipal Siete Enanitos?",
+          "answer": "El centro se encuentra en Calle Miguel Jiménez Reyes, 18-20-22, 03015, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública municipal, gestionado por el Patronato Municipal de Educación Infantil del Ayuntamiento de Alicante."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "Guardería de 7:45 a 9:00 h. Escuela infantil de 9:00 a 17:00 h. Curso del 8 de septiembre al 22 de julio."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965182385, escribir a 7enanitos@alicante.es, consultar su web oficial (https://www.alicante.es/es/equipamientos/escuela-infantil-siete-enanitos)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Generalitat Valenciana y de la web oficial del Ayuntamiento de Alicante. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://www.alicante.es/es/area-tematica/escuelas-infantiles",
+      "source_urls_secondary": [
+        "https://www.alicante.es/es/equipamientos/escuela-infantil-siete-enanitos"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03018337",
+      "pedagogical_approach": [],
+      "notes_internal": "Gestionada por el Patronato Municipal de Educación Infantil del Ayuntamiento de Alicante. Comedor de carácter voluntario, con menús preparados en el propio centro. La dirección del registro oficial de la Generalitat indica el número 18; la ficha municipal detalla 18-20-22."
+    },
+    {
+      "slug": "ciudad-infantil-san-jorge-alicante",
+      "name": "Ciudad Infantil San Jorge",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avenida del Doctor Rico, 15",
+        "postal_code": "03005",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.35384,
+        "longitude": -0.498204
+      },
+      "contact": {
+        "phone": "965927661",
+        "email": "info@ciudadinfantilsanjorge.com",
+        "website": "https://ciudadinfantilsanjorge.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "bilingue",
+        "actividades-extraescolares"
+      ],
+      "short_description": "Ciudad Infantil San Jorge es un centro privado de educación infantil de primer ciclo en Avenida del Doctor Rico, 15, 03005 (Alicante), dirigido a niños de 0 a 3 años. Según su propia web oficial, ofrece: proyecto bilingüe, actividades extraescolares.",
+      "long_description": "Ciudad Infantil San Jorge es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Avenida del Doctor Rico, 15, 03005, Alicante.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: proyecto bilingüe, actividades extraescolares. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Ciudad Infantil San Jorge?",
+          "answer": "El centro se encuentra en Avenida del Doctor Rico, 15, 03005, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Ofrece enseñanza bilingüe o de inglés?",
+          "answer": "Sí, según su propia fuente oficial es un centro con proyecto bilingüe o de inmersión en inglés."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965927661, escribir a info@ciudadinfantilsanjorge.com, consultar su web oficial (https://ciudadinfantilsanjorge.com/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://ciudadinfantilsanjorge.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03000931",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "vistahermosa-family-school-alicante",
+      "name": "Vistahermosa Family School",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avenida de la Albufereta, 25",
+        "postal_code": "03016",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.365113,
+        "longitude": -0.458733
+      },
+      "contact": {
+        "phone": "965151752",
+        "email": null,
+        "website": "https://www.escuelavistahermosa.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Vistahermosa Family School es un centro privado de educación infantil de primer ciclo en Avenida de la Albufereta, 25, 03016 (Alicante), dirigido a niños de 0 a 3 años. Los servicios concretos del centro no están confirmados en fuente oficial; conviene solicitarlos directamente.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Vistahermosa Family School?",
+          "answer": "El centro se encuentra en Avenida de la Albufereta, 25, 03016, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965151752, consultar su web oficial (https://www.escuelavistahermosa.com/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03009956",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "montessori-alicante",
+      "name": "Montessori",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Hondón de los Frailes, 2",
+        "postal_code": "03005",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.354571,
+        "longitude": -0.496369
+      },
+      "contact": {
+        "phone": "965256245",
+        "email": "info@eimontessori.com",
+        "website": "https://www.alicantemontessori.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "De 7:30 a 17:15 h.",
+      "services": [
+        "comedor",
+        "horario-ampliado"
+      ],
+      "short_description": "Ubicado en Calle Hondón de los Frailes, 2, 03005, Alicante, Montessori atiende el primer ciclo de infantil (0-3 años). Su web oficial confirma los siguientes servicios: comedor, horario ampliado.",
+      "long_description": "Montessori es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Hondón de los Frailes, 2, 03005, Alicante.\n\nSegún su propia web oficial, el horario del centro es: De 7:30 a 17:15 h.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, horario ampliado. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nEl centro declara en su web oficial seguir un enfoque pedagógico Montessori.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Montessori?",
+          "answer": "El centro se encuentra en Calle Hondón de los Frailes, 2, 03005, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De 7:30 a 17:15 h."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965256245, escribir a info@eimontessori.com, consultar su web oficial (https://www.alicantemontessori.com/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://www.alicantemontessori.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03011801",
+      "pedagogical_approach": [
+        "Montessori"
+      ],
+      "notes_internal": null
+    },
+    {
+      "slug": "angel-de-la-guarda-alicante",
+      "name": "Ángel de la Guarda",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Duque de Rivas, 10",
+        "postal_code": "03016",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.366665,
+        "longitude": -0.455025
+      },
+      "contact": {
+        "phone": "965261899",
+        "email": "sec.inf@angeldelaguarda.eu",
+        "website": "https://angeldelaguarda.eu/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "comedor",
+        "musica",
+        "psicomotricidad"
+      ],
+      "short_description": "Ángel de la Guarda, con sede en Calle Duque de Rivas, 10, 03016 (Alicante), es un centro privado de primer ciclo de educación infantil que, según su propia web, ofrece comedor, música, psicomotricidad.",
+      "long_description": "Ángel de la Guarda es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Duque de Rivas, 10, 03016, Alicante.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, música, psicomotricidad. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Ángel de la Guarda?",
+          "answer": "El centro se encuentra en Calle Duque de Rivas, 10, 03016, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965261899, escribir a sec.inf@angeldelaguarda.eu, consultar su web oficial (https://angeldelaguarda.eu/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://angeldelaguarda.eu/infantil/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03012803",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "elisa-tomas-yusti-alicante",
+      "name": "Elisa Tomás Yusti",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Camino del Faro, 31",
+        "postal_code": "03540",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.360444,
+        "longitude": -0.416075
+      },
+      "contact": {
+        "phone": "965263021",
+        "email": "info@elisatomasyusti.es",
+        "website": "https://www.elisatomasyusti.es/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "comedor",
+        "orientacion-pedagogica"
+      ],
+      "short_description": "En Camino del Faro, 31, 03540, Alicante, Elisa Tomás Yusti es un centro privado dirigido a niños de 0 a 3 años. La información publicada en su web oficial confirma estos servicios: comedor, orientación pedagógica.",
+      "long_description": "Elisa Tomás Yusti es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Camino del Faro, 31, 03540, Alicante.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, orientación pedagógica. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Elisa Tomás Yusti?",
+          "answer": "El centro se encuentra en Camino del Faro, 31, 03540, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965263021, escribir a info@elisatomasyusti.es, consultar su web oficial (https://www.elisatomasyusti.es/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://www.elisatomasyusti.es/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03014150",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "nido-alicante",
+      "name": "Nido",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle El Chopo, 11-13",
+        "postal_code": "03015",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.371624,
+        "longitude": -0.462145
+      },
+      "contact": {
+        "phone": "965156851",
+        "email": null,
+        "website": "https://escuelainfantilnido.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Localizado en Calle El Chopo, 11-13, 03015, Alicante, Nido figura en el registro de centros docentes de la Comunitat Valenciana como centro privado de primer ciclo de educación infantil. No hay constancia oficial de servicios adicionales.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Nido?",
+          "answer": "El centro se encuentra en Calle El Chopo, 11-13, 03015, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965156851, consultar su web oficial (https://escuelainfantilnido.com/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03014174",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "nuestra-escuela-garabatos-alicante",
+      "name": "Nuestra Escuela Garabatos",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Jávea, 15",
+        "postal_code": "03009",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.360466,
+        "longitude": -0.495534
+      },
+      "contact": {
+        "phone": "965173001",
+        "email": "direccion@nuestraescuelagarabatos.com",
+        "website": "https://www.nuestraescuelagarabatos.es/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "De lunes a viernes, de 7:30 a 18:00 h (jornada completa de 8:45 a 16:45 h).",
+      "services": [
+        "bilingue",
+        "horario-ampliado"
+      ],
+      "short_description": "Nuestra Escuela Garabatos es un centro privado de educación infantil de primer ciclo en Calle Jávea, 15, 03009 (Alicante), dirigido a niños de 0 a 3 años. Según su propia web oficial, ofrece: proyecto bilingüe, horario ampliado.",
+      "long_description": "Nuestra Escuela Garabatos es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Jávea, 15, 03009, Alicante.\n\nSegún su propia web oficial, el horario del centro es: De lunes a viernes, de 7:30 a 18:00 h (jornada completa de 8:45 a 16:45 h).\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: proyecto bilingüe, horario ampliado. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Nuestra Escuela Garabatos?",
+          "answer": "El centro se encuentra en Calle Jávea, 15, 03009, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De lunes a viernes, de 7:30 a 18:00 h (jornada completa de 8:45 a 16:45 h)."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965173001, escribir a direccion@nuestraescuelagarabatos.com, consultar su web oficial (https://www.nuestraescuelagarabatos.es/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://www.nuestraescuelagarabatos.es/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03014915",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "la-mar-salada-alicante",
+      "name": "La Mar Salada",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Manuel Azaña, s/n",
+        "postal_code": "03540",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.367813,
+        "longitude": -0.431921
+      },
+      "contact": {
+        "phone": "965159742",
+        "email": "info@eilamarsalada.com",
+        "website": "https://escuelalamarsalada.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "bilingue"
+      ],
+      "short_description": "Ubicado en Calle Manuel Azaña, s/n, 03540, Alicante, La Mar Salada atiende el primer ciclo de infantil (0-3 años). Su web oficial confirma los siguientes servicios: proyecto bilingüe.",
+      "long_description": "La Mar Salada es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Manuel Azaña, s/n, 03540, Alicante.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: proyecto bilingüe. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Mar Salada?",
+          "answer": "El centro se encuentra en Calle Manuel Azaña, s/n, 03540, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Ofrece enseñanza bilingüe o de inglés?",
+          "answer": "Sí, según su propia fuente oficial es un centro con proyecto bilingüe o de inmersión en inglés."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965159742, escribir a info@eilamarsalada.com, consultar su web oficial (https://escuelalamarsalada.com/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://escuelalamarsalada.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03016687",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "gran-via-parque-aventura-alicante",
+      "name": "Gran Vía Parque Aventura",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avenida Pintor Xavier Soler, 13",
+        "postal_code": "03015",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.363658,
+        "longitude": -0.466533
+      },
+      "contact": {
+        "phone": "966354050",
+        "email": "gv@escuelainfantilgranvia.es",
+        "website": "https://www.escuelainfantilgranvia.es/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "De lunes a viernes, de 7:30 a 18:00 h (verano hasta las 20:00 h).",
+      "services": [
+        "bilingue",
+        "cocina-propia",
+        "horario-ampliado"
+      ],
+      "short_description": "Gran Vía Parque Aventura, con sede en Avenida Pintor Xavier Soler, 13, 03015 (Alicante), es un centro privado de primer ciclo de educación infantil que, según su propia web, ofrece proyecto bilingüe, cocina propia, horario ampliado.",
+      "long_description": "Gran Vía Parque Aventura es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Avenida Pintor Xavier Soler, 13, 03015, Alicante.\n\nSegún su propia web oficial, el horario del centro es: De lunes a viernes, de 7:30 a 18:00 h (verano hasta las 20:00 h).\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: proyecto bilingüe, cocina propia, horario ampliado. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Gran Vía Parque Aventura?",
+          "answer": "El centro se encuentra en Avenida Pintor Xavier Soler, 13, 03015, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De lunes a viernes, de 7:30 a 18:00 h (verano hasta las 20:00 h)."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 966354050, escribir a gv@escuelainfantilgranvia.es, consultar su web oficial (https://www.escuelainfantilgranvia.es/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://www.escuelainfantilgranvia.es/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03018404",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "princesa-mercedes-alicante",
+      "name": "Princesa Mercedes",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Princesa Mercedes, 12-14",
+        "postal_code": "03006",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.346406,
+        "longitude": -0.504417
+      },
+      "contact": {
+        "phone": "965103891",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Princesa Mercedes, con sede en Calle Princesa Mercedes, 12-14, 03006 (Alicante), es un centro privado autorizado para el primer ciclo de educación infantil (0-3 años). Recomendamos confirmar servicios y horario directamente con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Princesa Mercedes?",
+          "answer": "El centro se encuentra en Calle Princesa Mercedes, 12-14, 03006, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965103891."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03018416",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "picapiedra-alicante",
+      "name": "Picapiedra",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Deportistas Hermanos Torres, 12",
+        "postal_code": "03016",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.367368,
+        "longitude": -0.435699
+      },
+      "contact": {
+        "phone": "965150663",
+        "email": "escuelainfantilpicapiedra@gmail.com",
+        "website": "https://escuelainfantilpicapiedra.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "En Calle Deportistas Hermanos Torres, 12, 03016, Alicante, Picapiedra atiende el primer ciclo de educación infantil según el registro oficial de centros docentes de la Generalitat Valenciana. No se ha podido confirmar información adicional sobre servicios concretos.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Picapiedra?",
+          "answer": "El centro se encuentra en Calle Deportistas Hermanos Torres, 12, 03016, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965150663, escribir a escuelainfantilpicapiedra@gmail.com, consultar su web oficial (https://escuelainfantilpicapiedra.com/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://escuelainfantilpicapiedra.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03018431",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "gran-via-alicante-alicante",
+      "name": "Gran Vía Alicante",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Esportista Juan Matos (Local 5), 2",
+        "postal_code": "03015",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.364121,
+        "longitude": -0.434142
+      },
+      "contact": {
+        "phone": "966106633",
+        "email": null,
+        "website": "https://www.escuelainfantilgranvia.es/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "De lunes a viernes, de 7:30 a 18:00 h (verano hasta las 20:00 h).",
+      "services": [
+        "bilingue",
+        "cocina-propia",
+        "horario-ampliado"
+      ],
+      "short_description": "En Calle Esportista Juan Matos (Local 5), 2, 03015, Alicante, Gran Vía Alicante es un centro privado dirigido a niños de 0 a 3 años. La información publicada en su web oficial confirma estos servicios: proyecto bilingüe, cocina propia, horario ampliado.",
+      "long_description": "Gran Vía Alicante es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Esportista Juan Matos (Local 5), 2, 03015, Alicante.\n\nSegún su propia web oficial, el horario del centro es: De lunes a viernes, de 7:30 a 18:00 h (verano hasta las 20:00 h).\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: proyecto bilingüe, cocina propia, horario ampliado. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nSede del mismo grupo Escuelas Infantiles Granvía que \"Gran Vía Parque Aventura\"; servicios confirmados en la web conjunta del grupo.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Gran Vía Alicante?",
+          "answer": "El centro se encuentra en Calle Esportista Juan Matos (Local 5), 2, 03015, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De lunes a viernes, de 7:30 a 18:00 h (verano hasta las 20:00 h)."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 966106633, consultar su web oficial (https://www.escuelainfantilgranvia.es/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://www.escuelainfantilgranvia.es/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03018571",
+      "pedagogical_approach": [],
+      "notes_internal": "Sede del mismo grupo Escuelas Infantiles Granvía que \"Gran Vía Parque Aventura\"; servicios confirmados en la web conjunta del grupo."
+    },
+    {
+      "slug": "pequeno-mundo-alicante",
+      "name": "Pequeño Mundo",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Padre Recadero de los Ríos, 14",
+        "postal_code": "03005",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.35111,
+        "longitude": -0.498215
+      },
+      "contact": {
+        "phone": "966305205",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Pequeño Mundo atiende el primer ciclo de educación infantil (0-3 años) en Calle Padre Recadero de los Ríos, 14, 03005, Alicante. Es un centro privado autorizado por la Conselleria d'Educació; sus servicios específicos no constan en fuente oficial verificable.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Pequeño Mundo?",
+          "answer": "El centro se encuentra en Calle Padre Recadero de los Ríos, 14, 03005, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 966305205."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03018684",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "hormiguitas-alicante",
+      "name": "Hormiguitas",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avenida Pintor Pérez Gil, 14",
+        "postal_code": "03540",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.384526,
+        "longitude": -0.430146
+      },
+      "contact": {
+        "phone": "965266107",
+        "email": null,
+        "website": "https://www.ceihormiguitas.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "comedor",
+        "cocina-propia",
+        "bilingue",
+        "patio-exterior"
+      ],
+      "short_description": "Hormiguitas es un centro privado de educación infantil de primer ciclo en Avenida Pintor Pérez Gil, 14, 03540 (Alicante), dirigido a niños de 0 a 3 años. Según su propia web oficial, ofrece: comedor, cocina propia, proyecto bilingüe, patio exterior.",
+      "long_description": "Hormiguitas es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Avenida Pintor Pérez Gil, 14, 03540, Alicante.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, cocina propia, proyecto bilingüe, patio exterior. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Hormiguitas?",
+          "answer": "El centro se encuentra en Avenida Pintor Pérez Gil, 14, 03540, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965266107, consultar su web oficial (https://www.ceihormiguitas.com/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://www.ceihormiguitas.com/en/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03019317",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "la-cometa-alicante",
+      "name": "La Cometa",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avenida de Dénia, 152",
+        "postal_code": "03016",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.376094,
+        "longitude": -0.453606
+      },
+      "contact": {
+        "phone": "965262212",
+        "email": "lacometaescuela@gmail.com",
+        "website": "http://www.escuelainfantilalicantelacometa.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Centro privado de primer ciclo de educación infantil situado en Avenida de Dénia, 152, 03016, Alicante: La Cometa. No consta información oficial adicional sobre servicios concretos en el momento de esta consulta.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Cometa?",
+          "answer": "El centro se encuentra en Avenida de Dénia, 152, 03016, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965262212, escribir a lacometaescuela@gmail.com, consultar su web oficial (http://www.escuelainfantilalicantelacometa.com/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03019470",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "los-olivos-2-alicante",
+      "name": "Los Olivos 2",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Alonso Cano, 40",
+        "postal_code": "03012",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.364327,
+        "longitude": -0.479763
+      },
+      "contact": {
+        "phone": "965254752",
+        "email": "ceilosolivos@gmail.com",
+        "website": "https://centroinfantillosolivos.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "De 7:45 a 17:30 h.",
+      "services": [
+        "musica",
+        "patio-exterior",
+        "horario-ampliado"
+      ],
+      "short_description": "Ubicado en Calle Alonso Cano, 40, 03012, Alicante, Los Olivos 2 atiende el primer ciclo de infantil (0-3 años). Su web oficial confirma los siguientes servicios: música, patio exterior, horario ampliado.",
+      "long_description": "Los Olivos 2 es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Alonso Cano, 40, 03012, Alicante.\n\nSegún su propia web oficial, el horario del centro es: De 7:45 a 17:30 h.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: música, patio exterior, horario ampliado. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Los Olivos 2?",
+          "answer": "El centro se encuentra en Calle Alonso Cano, 40, 03012, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De 7:45 a 17:30 h."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965254752, escribir a ceilosolivos@gmail.com, consultar su web oficial (https://centroinfantillosolivos.com/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://centroinfantillosolivos.com/centro-alicante/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03019536",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "peter-pan-alicante",
+      "name": "Peter Pan",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Plus Ultra, 50",
+        "postal_code": "03012",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.358943,
+        "longitude": -0.481538
+      },
+      "contact": {
+        "phone": "965256264",
+        "email": "cei.peter.pan.1986@gmail.com",
+        "website": "https://peterpanescuelainfantil.es/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Peter Pan es un centro de educación infantil de primer ciclo de titularidad privada, con dirección en Calle Plus Ultra, 50, 03012 (Alicante). Para conocer sus servicios y horario, se recomienda contactar directamente.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Peter Pan?",
+          "answer": "El centro se encuentra en Calle Plus Ultra, 50, 03012, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965256264, escribir a cei.peter.pan.1986@gmail.com, consultar su web oficial (https://peterpanescuelainfantil.es/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03019676",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "colorin-colorado-alicante",
+      "name": "Colorín Colorado",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Doctor Berguez, 37-39",
+        "postal_code": "03012",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.357727,
+        "longitude": -0.480118
+      },
+      "contact": {
+        "phone": "965256199",
+        "email": "info@ycolorincolorado.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Con sede en Calle Doctor Berguez, 37-39, 03012, Alicante, Colorín Colorado es un centro privado autorizado para el primer ciclo de educación infantil (0-3 años), sin servicios adicionales confirmados en fuente oficial.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Colorín Colorado?",
+          "answer": "El centro se encuentra en Calle Doctor Berguez, 37-39, 03012, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965256199, escribir a info@ycolorincolorado.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03019688",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "ninon-alicante",
+      "name": "Ninón",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle José de Cabo Palomares, 35",
+        "postal_code": "03008",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.328527,
+        "longitude": -0.515751
+      },
+      "contact": {
+        "phone": "966081174",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Ninón es un centro privado de educación infantil de primer ciclo en Calle José de Cabo Palomares, 35, 03008 (Alicante), dirigido a niños de 0 a 3 años. Los servicios concretos del centro no están confirmados en fuente oficial; conviene solicitarlos directamente.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Ninón?",
+          "answer": "El centro se encuentra en Calle José de Cabo Palomares, 35, 03008, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 966081174."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03019691",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "la-mar-salada-condomina-alicante",
+      "name": "La Mar Salada Condomina",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avenida de la Condomina, 83",
+        "postal_code": "03540",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.364238,
+        "longitude": -0.423043
+      },
+      "contact": {
+        "phone": "965150897",
+        "email": "info@eilamarsalada.com",
+        "website": "https://escuelalamarsalada.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "bilingue"
+      ],
+      "short_description": "La Mar Salada Condomina, con sede en Avenida de la Condomina, 83, 03540 (Alicante), es un centro privado de primer ciclo de educación infantil que, según su propia web, ofrece proyecto bilingüe.",
+      "long_description": "La Mar Salada Condomina es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Avenida de la Condomina, 83, 03540, Alicante.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: proyecto bilingüe. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Mar Salada Condomina?",
+          "answer": "El centro se encuentra en Avenida de la Condomina, 83, 03540, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Ofrece enseñanza bilingüe o de inglés?",
+          "answer": "Sí, según su propia fuente oficial es un centro con proyecto bilingüe o de inmersión en inglés."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965150897, escribir a info@eilamarsalada.com, consultar su web oficial (https://escuelalamarsalada.com/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://escuelalamarsalada.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03019706",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "el-almendro-alicante",
+      "name": "El Almendro",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Martin Luther King, 2",
+        "postal_code": "03010",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.360903,
+        "longitude": -0.488267
+      },
+      "contact": {
+        "phone": "965910067",
+        "email": "escuelainfantilelalmendro1997@gmail.com",
+        "website": "https://sites.google.com/view/escuela-infantil-el-almendro/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "comedor",
+        "cocina-propia",
+        "orientacion-pedagogica",
+        "patio-exterior"
+      ],
+      "short_description": "En Calle Martin Luther King, 2, 03010, Alicante, El Almendro es un centro privado dirigido a niños de 0 a 3 años. La información publicada en su web oficial confirma estos servicios: comedor, cocina propia, orientación pedagógica, patio exterior.",
+      "long_description": "El Almendro es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Martin Luther King, 2, 03010, Alicante.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, cocina propia, orientación pedagógica, patio exterior. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado El Almendro?",
+          "answer": "El centro se encuentra en Calle Martin Luther King, 2, 03010, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, según su propia fuente oficial el centro ofrece servicio de comedor."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965910067, escribir a escuelainfantilelalmendro1997@gmail.com, consultar su web oficial (https://sites.google.com/view/escuela-infantil-el-almendro/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://sites.google.com/view/escuela-infantil-el-almendro/servicios"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03019767",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "acuarelas-alicante",
+      "name": "Acuarelas",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Catral, 3-5",
+        "postal_code": "03007",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.341822,
+        "longitude": -0.510837
+      },
+      "contact": {
+        "phone": "622578486",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Localizado en Calle Catral, 3-5, 03007, Alicante, Acuarelas figura en el registro de centros docentes de la Comunitat Valenciana como centro privado de primer ciclo de educación infantil. No hay constancia oficial de servicios adicionales.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Acuarelas?",
+          "answer": "El centro se encuentra en Calle Catral, 3-5, 03007, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 622578486."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03019792",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "britania-alicante",
+      "name": "Britania",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avenida Ansaldo, 14",
+        "postal_code": "03540",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.367078,
+        "longitude": -0.431862
+      },
+      "contact": {
+        "phone": "965260279",
+        "email": null,
+        "website": "https://escuelainfantilbritania.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "De lunes a viernes, de 9:00 a 17:00 h; sábados de 11:00 a 16:00 h.",
+      "services": [
+        "bilingue",
+        "cocina-propia",
+        "patio-exterior"
+      ],
+      "short_description": "Britania es un centro privado de educación infantil de primer ciclo en Avenida Ansaldo, 14, 03540 (Alicante), dirigido a niños de 0 a 3 años. Según su propia web oficial, ofrece: proyecto bilingüe, cocina propia, patio exterior.",
+      "long_description": "Britania es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Avenida Ansaldo, 14, 03540, Alicante.\n\nSegún su propia web oficial, el horario del centro es: De lunes a viernes, de 9:00 a 17:00 h; sábados de 11:00 a 16:00 h.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: proyecto bilingüe, cocina propia, patio exterior. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Britania?",
+          "answer": "El centro se encuentra en Avenida Ansaldo, 14, 03540, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De lunes a viernes, de 9:00 a 17:00 h; sábados de 11:00 a 16:00 h."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965260279, consultar su web oficial (https://escuelainfantilbritania.com/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://escuelainfantilbritania.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03019809",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "mi-cole-el-solet-alicante",
+      "name": "Mi Cole - El Solet",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Agustín Jiménez Narvalaz, s/n",
+        "postal_code": "03010",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.36544,
+        "longitude": -0.490086
+      },
+      "contact": {
+        "phone": "965252189",
+        "email": "micolealicante@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Mi Cole - El Solet, con sede en Calle Agustín Jiménez Narvalaz, s/n, 03010 (Alicante), es un centro privado autorizado para el primer ciclo de educación infantil (0-3 años). Recomendamos confirmar servicios y horario directamente con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Mi Cole - El Solet?",
+          "answer": "El centro se encuentra en Calle Agustín Jiménez Narvalaz, s/n, 03010, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965252189, escribir a micolealicante@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03020095",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "little-land-alicante",
+      "name": "Little Land",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Caligua, 6",
+        "postal_code": "03112",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.395521,
+        "longitude": -0.489547
+      },
+      "contact": {
+        "phone": "638008760",
+        "email": "direccion@little-land.es",
+        "website": "https://little-land.es/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "De lunes a viernes, de 7:30 a 17:00 h.",
+      "services": [
+        "bilingue",
+        "comedor",
+        "musica",
+        "psicomotricidad",
+        "horario-ampliado"
+      ],
+      "short_description": "Ubicado en Calle Caligua, 6, 03112, Alicante, Little Land atiende el primer ciclo de infantil (0-3 años). Su web oficial confirma los siguientes servicios: proyecto bilingüe, comedor, música, psicomotricidad, horario ampliado.",
+      "long_description": "Little Land es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Caligua, 6, 03112, Alicante.\n\nSegún su propia web oficial, el horario del centro es: De lunes a viernes, de 7:30 a 17:00 h.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: proyecto bilingüe, comedor, música, psicomotricidad, horario ampliado. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Little Land?",
+          "answer": "El centro se encuentra en Calle Caligua, 6, 03112, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De lunes a viernes, de 7:30 a 17:00 h."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 638008760, escribir a direccion@little-land.es, consultar su web oficial (https://little-land.es/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://little-land.es/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03020526",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "kid-s-garden-alicante",
+      "name": "Kid's Garden",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avenida Costa Blanca (Local 1), 16",
+        "postal_code": "03540",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.359823,
+        "longitude": -0.431768
+      },
+      "contact": {
+        "phone": "965772068",
+        "email": null,
+        "website": "https://kidsgarden.edu.es/alicante/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "En Avenida Costa Blanca (Local 1), 16, 03540, Alicante, Kid's Garden atiende el primer ciclo de educación infantil según el registro oficial de centros docentes de la Generalitat Valenciana. No se ha podido confirmar información adicional sobre servicios concretos.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Kid's Garden?",
+          "answer": "El centro se encuentra en Avenida Costa Blanca (Local 1), 16, 03540, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965772068, consultar su web oficial (https://kidsgarden.edu.es/alicante/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03020617",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "children-isla-tabarca-alicante",
+      "name": "Children Isla Tabarca",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Ecuador (Urb. Isla Tabarca/San Gabriel), 2-B",
+        "postal_code": "03008",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.331295,
+        "longitude": -0.507917
+      },
+      "contact": {
+        "phone": "965507889",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Children Isla Tabarca atiende el primer ciclo de educación infantil (0-3 años) en Calle Ecuador (Urb. Isla Tabarca/San Gabriel), 2-B, 03008, Alicante. Es un centro privado autorizado por la Conselleria d'Educació; sus servicios específicos no constan en fuente oficial verificable.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Children Isla Tabarca?",
+          "answer": "El centro se encuentra en Calle Ecuador (Urb. Isla Tabarca/San Gabriel), 2-B, 03008, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965507889."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03020629",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "acuarelas-2-alicante",
+      "name": "Acuarelas 2",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Músico José Alcaraz Pérez, Local 1",
+        "postal_code": "03008",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.330687,
+        "longitude": -0.514823
+      },
+      "contact": {
+        "phone": "622578486",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Centro privado de primer ciclo de educación infantil situado en Calle Músico José Alcaraz Pérez, Local 1, 03008, Alicante: Acuarelas 2. No consta información oficial adicional sobre servicios concretos en el momento de esta consulta.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Acuarelas 2?",
+          "answer": "El centro se encuentra en Calle Músico José Alcaraz Pérez, Local 1, 03008, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 622578486."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03020769",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "princesa-mercedes-babel-alicante",
+      "name": "Princesa Mercedes Babel",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Plaza Farmacéutico Luis Gisbert, 1",
+        "postal_code": "03008",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.338863,
+        "longitude": -0.505325
+      },
+      "contact": {
+        "phone": "965506447",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Princesa Mercedes Babel es un centro de educación infantil de primer ciclo de titularidad privada, con dirección en Plaza Farmacéutico Luis Gisbert, 1, 03008 (Alicante). Para conocer sus servicios y horario, se recomienda contactar directamente.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Princesa Mercedes Babel?",
+          "answer": "El centro se encuentra en Plaza Farmacéutico Luis Gisbert, 1, 03008, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 965506447."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "recommended_indexable": false,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03020848",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "googie-s-alicante",
+      "name": "Googie's",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Maestro José Garberí Serrano, 11",
+        "postal_code": "03540",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.383443,
+        "longitude": -0.415621
+      },
+      "contact": {
+        "phone": "651618254",
+        "email": "info@googies.es",
+        "website": "https://googies.es/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "De lunes a viernes, de 7:00 a 19:00 h.",
+      "services": [
+        "bilingue",
+        "horario-ampliado"
+      ],
+      "short_description": "Googie's, con sede en Calle Maestro José Garberí Serrano, 11, 03540 (Alicante), es un centro privado de primer ciclo de educación infantil que, según su propia web, ofrece proyecto bilingüe, horario ampliado.",
+      "long_description": "Googie's es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Maestro José Garberí Serrano, 11, 03540, Alicante.\n\nSegún su propia web oficial, el horario del centro es: De lunes a viernes, de 7:00 a 19:00 h.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: proyecto bilingüe, horario ampliado. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Googie's?",
+          "answer": "El centro se encuentra en Calle Maestro José Garberí Serrano, 11, 03540, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De lunes a viernes, de 7:00 a 19:00 h."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 651618254, escribir a info@googies.es, consultar su web oficial (https://googies.es/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://googies.es/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03021154",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "somos-colores-alicante",
+      "name": "Somos Colores",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Vila de Sant Joan d'Alacant, 72",
+        "postal_code": "03540",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.37915,
+        "longitude": -0.429728
+      },
+      "contact": {
+        "phone": "659037483",
+        "email": "eisomoscolores@gmail.com",
+        "website": "https://www.somoscolores.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "De lunes a viernes, de 7:30 a 18:00 h.",
+      "services": [
+        "comedor",
+        "cocina-propia",
+        "horario-ampliado",
+        "psicomotricidad",
+        "musica",
+        "actividades-extraescolares",
+        "orientacion-pedagogica",
+        "escuela-de-padres"
+      ],
+      "short_description": "En Calle Vila de Sant Joan d'Alacant, 72, 03540, Alicante, Somos Colores es un centro privado dirigido a niños de 0 a 3 años. La información publicada en su web oficial confirma estos servicios: comedor, cocina propia, horario ampliado, psicomotricidad, música, actividades extraescolares, orientación pedagógica, escuela de padres y madres.",
+      "long_description": "Somos Colores es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Vila de Sant Joan d'Alacant, 72, 03540, Alicante.\n\nSegún su propia web oficial, el horario del centro es: De lunes a viernes, de 7:30 a 18:00 h.\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: comedor, cocina propia, horario ampliado, psicomotricidad, música, actividades extraescolares, orientación pedagógica, escuela de padres y madres. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Somos Colores?",
+          "answer": "El centro se encuentra en Calle Vila de Sant Joan d'Alacant, 72, 03540, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De lunes a viernes, de 7:30 a 18:00 h."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 659037483, escribir a eisomoscolores@gmail.com, consultar su web oficial (https://www.somoscolores.com/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://www.somoscolores.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03021622",
+      "pedagogical_approach": [],
+      "notes_internal": null
+    },
+    {
+      "slug": "gran-via-pau-i-alicante",
+      "name": "Gran Via Pau I",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Médico Antonio Arroyo, 2",
+        "postal_code": "03113",
+        "city_slug": "alicante",
+        "city_name": "Alicante",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.354771,
+        "longitude": -0.510945
+      },
+      "contact": {
+        "phone": "685858757",
+        "email": null,
+        "website": "https://www.escuelainfantilgranvia.es/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "De lunes a viernes, de 7:30 a 18:00 h (verano hasta las 20:00 h).",
+      "services": [
+        "bilingue",
+        "cocina-propia",
+        "horario-ampliado"
+      ],
+      "short_description": "Gran Via Pau I es un centro privado de educación infantil de primer ciclo en Calle Médico Antonio Arroyo, 2, 03113 (Alicante), dirigido a niños de 0 a 3 años. Según su propia web oficial, ofrece: proyecto bilingüe, cocina propia, horario ampliado.",
+      "long_description": "Gran Via Pau I es un centro privado de educación infantil de primer ciclo (0-3 años), con sede en Calle Médico Antonio Arroyo, 2, 03113, Alicante.\n\nSegún su propia web oficial, el horario del centro es: De lunes a viernes, de 7:30 a 18:00 h (verano hasta las 20:00 h).\n\nSegún la información publicada en su propia web oficial, el centro ofrece los siguientes servicios confirmados: proyecto bilingüe, cocina propia, horario ampliado. Estos datos proceden directamente de la web del centro, no de inferencia sobre lo habitual en este tipo de centros.\n\nSede del grupo Escuelas Infantiles Granvía (\"Pau\"). La dirección de la ficha oficial de la Generalitat (Calle Médico Antonio Arroyo, 2) difiere de la mencionada en la web del grupo (Plaza Juan Pablo II, 19) — posible cambio de local no reflejado aún en una de las dos fuentes. Se mantiene la dirección del registro oficial por ser la fuente de mayor autoridad geográfica, y se documenta la discrepancia.\n\nPara conocer el proyecto educativo completo, precios, plazas disponibles y proceso de admisión, se recomienda contactar directamente con el centro.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Gran Via Pau I?",
+          "answer": "El centro se encuentra en Calle Médico Antonio Arroyo, 2, 03113, en Alicante."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el Registre de Centres Docents de la Comunitat Valenciana."
+        },
+        {
+          "question": "¿Cuál es el horario del centro?",
+          "answer": "De lunes a viernes, de 7:30 a 18:00 h (verano hasta las 20:00 h)."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 685858757, consultar su web oficial (https://www.escuelainfantilgranvia.es/)."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos básicos proceden del Registre de Centres Docents de la Comunitat Valenciana (Conselleria d'Educació, Universitats i Ocupació). Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://dadesobertes.gva.es/va/dataset/edu-centros",
+      "source_urls_secondary": [
+        "https://www.escuelainfantilgranvia.es/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "recommended_indexable": true,
+      "created_at": "2026-07-12T10:00:00.000Z",
+      "updated_at": "2026-07-12T10:00:00.000Z",
+      "codigo_centro_rc": "03021865",
+      "pedagogical_approach": [],
+      "notes_internal": "Sede del grupo Escuelas Infantiles Granvía (\"Pau\"). La dirección de la ficha oficial de la Generalitat (Calle Médico Antonio Arroyo, 2) difiere de la mencionada en la web del grupo (Plaza Juan Pablo II, 19) — posible cambio de local no reflejado aún en una de las dos fuentes. Se mantiene la dirección del registro oficial por ser la fuente de mayor autoridad geográfica, y se documenta la discrepancia."
+    }
+  ]
+}

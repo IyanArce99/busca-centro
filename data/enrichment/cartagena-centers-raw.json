@@ -1,0 +1,73 @@
+{
+  "_readme": "Extraccion sin procesar (raw) para Cartagena, previa a normalizacion y humanizacion. Combina dos fuentes: (1) API oficial mapaescolar-api de la CARM, filtrada por muncen=CARTAGENA y tipo en [Escuela de Educacion Infantil, Centro Privado de Educacion Infantil]; (2) listado y fichas individuales de Escuelas Infantiles Municipales del Ayuntamiento de Cartagena (educacion.cartagena.es), usado para los 2 centros municipales (La Aljorra, Pozo Estrecho) sin registro de primer ciclo localizado en CARM, y como fuente complementaria de horario/servicios/edad minima real para las 8 EMEI que si tienen codigo CARM. Ver docs/data-sources-cartagena.md para el proceso completo de reconciliacion entre ambas fuentes y los 5 candidatos CARM descartados por corresponder a segundo ciclo (3-6) o no ser confirmables como primer ciclo con fuente oficial fiable.",
+  "city": "cartagena",
+  "generated_at": "2026-07-12T00:00:00.000Z",
+  "source_1_carm_raw_count_muncen_cartagena_all_levels": 115,
+  "source_1_carm_candidates_tipo_primer_ciclo": 19,
+  "source_1_carm_candidates_kept_after_reconciliation": 14,
+  "source_1_carm_candidates_excluded_ciclo_mismatch": [
+    { "codcen": "30011806", "dencen": "PIPIRIPAO", "motivo": "confirmado_3_a_5_anos_segundo_ciclo" },
+    { "codcen": "30019519", "dencen": "LA GAVIOTA", "motivo": "sin_confirmacion_oficial_de_ciclo_no_esta_en_listado_municipal_de_11_EEIIMM" },
+    { "codcen": "30019520", "dencen": "LOS DOLORES", "motivo": "sin_confirmacion_oficial_de_ciclo_no_esta_en_listado_municipal_de_11_EEIIMM" },
+    { "codcen": "30008832", "dencen": "HAZIM", "motivo": "confirmado_3_a_5_anos_segundo_ciclo_web_oficial_propia" },
+    { "codcen": "30008662", "dencen": "JARDINES", "motivo": "sin_confirmacion_oficial_de_ciclo_no_esta_en_listado_municipal_de_11_EEIIMM" }
+  ],
+  "source_2_municipal_emei_confirmed_count": 11,
+  "source_2_municipal_emei_not_in_carm": ["La Aljorra", "Pozo Estrecho"],
+  "raw_carm_records_kept": [
+    { "codcen": "30013244", "dencen": "VILLALBA", "tipo": "Escuela de Educación Infantil", "titularidad": "P", "domcen": "C/BARRIADA DE VILLALBA, S/N", "cpcen": "30205", "loccen": "CARTAGENA", "muncen": "CARTAGENA", "telcen": "637752980", "email": "30013244@murciaeduca.es", "lat": 37.61053629219532, "lon": -1.0106074064970016 },
+    { "codcen": "30012719", "dencen": "SAN ISIDORO", "tipo": "Escuela de Educación Infantil", "titularidad": "P", "domcen": "C/ SANTA TRINIDAD, S/N  LOS MATEOS", "cpcen": "30202", "loccen": "CARTAGENA", "muncen": "CARTAGENA", "telcen": "637752983", "email": "30012719@murciaeduca.es", "lat": 37.609441950917244, "lon": -0.9435210004448891 },
+    { "codcen": "30012781", "dencen": "VIRGEN DE LA CARIDAD", "tipo": "Escuela de Educación Infantil", "titularidad": "P", "domcen": "BDA.VIRGEN DE LA CARIDAD, S/N", "cpcen": "30203", "loccen": "CARTAGENA", "muncen": "CARTAGENA", "telcen": "637752967", "email": "30012781@murciaeduca.es", "lat": 37.615867936983705, "lon": -0.9800920821726322 },
+    { "codcen": "30013207", "dencen": "BARRIO PERAL", "tipo": "Escuela de Educación Infantil", "titularidad": "P", "domcen": "PLAZA CANTHAL, Nº 3", "cpcen": "30300", "loccen": "CARTAGENA", "muncen": "CARTAGENA", "telcen": "968528311", "telcen2": "637752489", "email": "30013207@murciaeduca.es", "lat": 37.62464596889913, "lon": -0.9910700283944607 },
+    { "codcen": "30013712", "dencen": "LA CONCEPCIÓN", "tipo": "Escuela de Educación Infantil", "titularidad": "P", "domcen": "C/ PERONIÑO, S/N, BARRIO LA CONCEPCIÓN.", "cpcen": "30205", "loccen": "CARTAGENA", "muncen": "CARTAGENA", "telcen": "636641324", "email": "30013712@murciaeduca.es", "lat": 37.60846495628357, "lon": -1.0002760402858257 },
+    { "codcen": "30017985", "dencen": "ALEVINES", "tipo": "Centro Privado de Educación Infantil", "titularidad": "N", "domcen": "C/ SUBIDA DEL NAZARENO, S/Nº", "cpcen": "30202", "loccen": "CARTAGENA", "muncen": "CARTAGENA", "telcen": "636307092", "email": "alevinescartagena@gmail.com", "lat": 37.59986897930503, "lon": -0.9751600027084351 },
+    { "codcen": "30018928", "dencen": "LA MILAGROSA", "tipo": "Escuela de Educación Infantil", "titularidad": "P", "domcen": "C/ SOR FRANCISCA ARMENDÁRIZ, 17 ", "cpcen": "30202", "loccen": "CARTAGENA", "muncen": "CARTAGENA", "telcen": "637752487", "email": "30018928@murciaeduca.es", "lat": 37.604265958070755, "lon": -0.9802940860390663 },
+    { "codcen": "30018655", "dencen": "PEPICO PALUCO", "tipo": "Centro Privado de Educación Infantil", "titularidad": "N", "domcen": "C/ JIMÉNEZ DE LA ESPADA, 21 - B", "cpcen": "30205", "loccen": "CARTAGENA", "muncen": "CARTAGENA", "telcen": "968500400", "telcen2": "678951655", "email": "p.paluco@hotmail.com", "lat": 37.608143677935004, "lon": -0.9889375045895576 },
+    { "codcen": "30020789", "dencen": "NICE DAY", "tipo": "Centro Privado de Educación Infantil", "titularidad": "N", "domcen": "C/ HERMANO PEDRO IGNACIO Nº 2", "cpcen": "30203", "loccen": "CARTAGENA", "muncen": "CARTAGENA", "telcen": "626657686", "email": "tano.arias@hotmail.com", "lat": 37.60872236452997, "lon": -0.982033833861351 },
+    { "codcen": "30020613", "dencen": "MEDITERRÁNEO CARTAGENA", "tipo": "Centro Privado de Educación Infantil", "titularidad": "N", "domcen": "C/ ABADESA Nº 5", "cpcen": "30310", "loccen": "CARTAGENA", "muncen": "CARTAGENA", "telcen": "608653103", "telcen2": "699183199", "email": "mediterraneo@cativos.com", "lat": 37.624648567289114, "lon": -1.0014780052006245 },
+    { "codcen": "30019039", "dencen": "EL PAÍS DE NUNCA JAMÁS", "tipo": "Centro Privado de Educación Infantil", "titularidad": "N", "domcen": "C/ ANTONIO SERRANO, ESQUINA TOMÁS FERRO", "cpcen": "30593", "loccen": "PALMA (LA)", "muncen": "CARTAGENA", "telcen": "606217494", "telcen2": "610080140", "email": "nuncajamas0-3@hotmail.com", "lat": 37.68918192945421, "lon": -0.9596781246364117 },
+    { "codcen": "30013268", "dencen": "BAMBI", "tipo": "Escuela de Educación Infantil", "titularidad": "P", "domcen": "C/ MEJORANA, 2", "cpcen": "30366", "loccen": "ALGAR (EL)", "muncen": "CARTAGENA", "telcen": "968135264", "telcen2": "690215516", "email": "30013268@murciaeduca.es", "lat": 37.64775797724724, "lon": -0.865436028689146 },
+    { "codcen": "30013256", "dencen": "VISTA ALEGRE", "tipo": "Escuela de Educación Infantil", "titularidad": "P", "domcen": "C/ San José, s/n. Bda. Vista Alegre. ", "cpcen": "30392", "loccen": "VISTA ALEGRE", "muncen": "CARTAGENA", "telcen": "968135902", "telcen2": "637752968", "email": "30013256@murciaeduca.es", "lat": 37.64438895508647, "lon": -0.8677501045167446 },
+    { "codcen": "30013611", "dencen": "LA COMETA DE LOS DOLORES", "tipo": "Centro Privado de Educación Infantil", "titularidad": "N", "domcen": "C/ TURÍN Nº 3, POLÍGONO RESID. SANTA ANA", "cpcen": "30319", "loccen": "DOLORES (LOS)", "muncen": "CARTAGENA", "telcen": "968310188", "telcen2": "648490815", "email": "ceilacometa@hotmail.es", "lat": 37.6419819239527, "lon": -1.0079151391983032 }
+  ],
+  "raw_municipal_only_records": [
+    {
+      "nombre": "Escuela Infantil Municipal La Aljorra",
+      "direccion": "C/ Híspalis, 9. La Aljorra. 30390 Cartagena",
+      "telefono": "637 25 52 76",
+      "email": "eimaljorra@ayto-cartagena.es",
+      "fuente": "https://educacion.cartagena.es/escuelas_infantiles.asp",
+      "lat_geocoded_nominatim_calle": 37.6908642,
+      "lon_geocoded_nominatim_calle": -1.0756648,
+      "nota_coordenadas": "Nominatim solo resolvio la calle (Calle Hispalis), no el numero exacto 9. Aproximacion documentada, no exacta."
+    },
+    {
+      "nombre": "Escuela Infantil Municipal Pozo Estrecho",
+      "direccion": "Avda. Vasco Núñez de Balboa, 2. Pozo Estrecho. 30594 Cartagena",
+      "telefono": "637 25 57 61",
+      "email": "EIMPozo@ayto-cartagena.es",
+      "fuente": "https://educacion.cartagena.es/escuelas_infantiles.asp y https://educacion.cartagena.es/detalle_centros.asp?idCentro=2086",
+      "lat_geocoded": null,
+      "lon_geocoded": null,
+      "nota_coordenadas": "No se localizaron coordenadas fiables de la direccion exacta; Nominatim solo devolvio el centroide de la pedania. Se deja sin coordenadas en el dataset final en lugar de aproximar."
+    }
+  ],
+  "municipal_common_data_all_11_emei": {
+    "edad_minima_meses": 4,
+    "edad_maxima_meses": 36,
+    "horario_oct_jun": "Centro abierto de 7:30 a 16:00 h; horario lectivo de 8:30 a 15:30 h; comedor de 13:00 a 14:00 h; siesta de 14:00 a 15:30 h; horario ampliado de 7:30 a 8:30 h y de 15:30 a 16:00 h",
+    "horario_julio": "Centro de 7:30 a 15:00 h; horario lectivo de 8:30 a 15:00 h",
+    "servicios_confirmados": ["comedor", "cocina-propia", "horario-ampliado", "servicio-madrugadores"],
+    "fuente_horario": "https://educacion.cartagena.es/escuelas_infantiles_horario.asp",
+    "fuente_servicios": "https://educacion.cartagena.es/escuelas_infantiles_servicios.asp",
+    "fuente_gratuidad_plazas": "https://educacion.cartagena.es/escuelas_infantiles_matriculacion.asp y https://www.cartagena.es/detalle_noticias.asp?id=87047 (1.010 plazas gratuitas, curso 2026-2027, 12 escuelas a partir de septiembre 2026)"
+  },
+  "private_centers_web_verification": {
+    "nice-day": { "web": "https://www.nicedayschool.es/centro-infantil-britanico-cartagena/", "servicios_confirmados": ["bilingue", "ingles", "psicomotricidad", "patio-exterior"], "horario": "7:45 a 17:00 h" },
+    "mediterraneo-cartagena": { "web": "https://cativos.com/mediterraneo/", "servicios_confirmados": ["comedor"], "nota": "web con informacion limitada, solo confirma servicio de comedor con claridad textual" },
+    "pepico-paluco": { "web": "http://www.pepicopaluco.es/", "servicios_confirmados": [], "nota": "error de certificado SSL al intentar fetch directo, no se pudo verificar contenido; sin servicios asignados" },
+    "la-cometa-de-los-dolores": { "web": "https://www.ceilacometa.es/", "servicios_confirmados": [], "nota": "web accedida pero sin detalle textual claro de servicios especificos del enum" },
+    "alevines": { "web": null, "servicios_confirmados": [], "nota": "sin web propia funcional verificable, solo Facebook (no usado como fuente)" },
+    "el-pais-de-nunca-jamas": { "web": null, "servicios_confirmados": [], "nota": "dominio encontrado en busqueda (ceielpaisdenuncajamas.es) pertenece a centro homonimo distinto en Huelva, no usado" }
+  }
+}

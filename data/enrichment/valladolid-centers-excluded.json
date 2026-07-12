@@ -1,0 +1,34 @@
+{
+  "_readme": "Centros descartados del dataset final de Valladolid por no alcanzar el umbral minimo de verificacion del proyecto (sin telefono/email/web confirmados) o por dato de titularidad/financiacion no verificable de forma inequivoca para el primer ciclo de educacion infantil 0-3 anos (concierto educativo declarado en el registro sin confirmacion de alcance al tramo 0-3). No se incluyen en el CSV de importacion ni en el SQL de insercion.",
+  "city": "valladolid",
+  "generated_at": "2026-07-12T00:00:00.000Z",
+  "stats": {
+    "excluded_count": 4
+  },
+  "centers": [
+    {
+      "name": "La Pequeña Luna 2",
+      "codigo_centro_rc": "47012144",
+      "address_hint": "C/ José Garrote Tobar, 18-20, 47014",
+      "reason": "Sin telefono, email ni web confirmados en fuente oficial ni en busqueda de web propia."
+    },
+    {
+      "name": "Pipo",
+      "codigo_centro_rc": "47012387",
+      "address_hint": "C/ Hierbabuena, 19, 47009",
+      "reason": "Sin telefono, email ni web confirmados en fuente oficial ni en busqueda de web propia."
+    },
+    {
+      "name": "El Majuelo",
+      "codigo_centro_rc": "47012041",
+      "address_hint": "C/ Enrique León, 43, 47011",
+      "reason": "Sin telefono, email ni web confirmados en fuente oficial ni en busqueda de web propia."
+    },
+    {
+      "name": "Santa Catalina",
+      "codigo_centro_rc": "47004974",
+      "address_hint": "C/ Ferrocarril, 23, 47002",
+      "reason": "Unico centro del listado con concierto='S' en el registro oficial de centros docentes de Castilla y Leon. No se ha localizado confirmacion en fuente oficial de que ese concierto corresponda especificamente al primer ciclo de educacion infantil (0-3 anos) frente a otras etapas del mismo centro; se documenta la incidencia y se excluye del dataset final por falta de verificacion suficiente sobre el alcance exacto del concierto en el tramo 0-3."
+    }
+  ]
+}

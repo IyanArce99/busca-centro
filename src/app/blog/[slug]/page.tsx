@@ -20,12 +20,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const guide = getGuideBySlug(slug);
   if (!guide) return {};
 
-  // Temporarily noindex until the blog has real, complete guides.
   return buildMetadata({
     title: guide.title,
     description: guide.excerpt,
     path: `/blog/${guide.slug}`,
-    indexable: false,
   });
 }
 
@@ -68,6 +66,16 @@ export default async function GuidePage({ params }: PageProps) {
       <article className="flex flex-col gap-4 text-base leading-relaxed text-slate-700">
         {guide.content.map((paragraph, index) => (
           <p key={index}>{paragraph}</p>
+        ))}
+        {guide.sections?.map((section) => (
+          <section key={section.heading} className="mt-4">
+            <h2 className="mb-3 text-2xl font-bold text-slate-900">{section.heading}</h2>
+            <div className="flex flex-col gap-4">
+              {section.paragraphs.map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
+              ))}
+            </div>
+          </section>
         ))}
       </article>
 

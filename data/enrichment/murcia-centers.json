@@ -1,0 +1,3456 @@
+{
+  "_readme": "Dataset de trabajo para Murcia (termino municipal, incluye pedanias), mismo formato snake_case que barcelona-centers.json y valencia-centers.json. city_slug=murcia. Fuente primaria: API oficial mapaescolar-api de la CARM (Consejeria de Educacion, Formacion Profesional y Empleo de la Region de Murcia), dataset \"Sedes de los Centros Educativos de la Region de Murcia\". Filtro: muncen=MURCIA (termino municipal, no solo la localidad/capital) AND tipo en [Escuela de Educacion Infantil, Centro Privado de Educacion Infantil]. Los 7 centros con source_group=publico_municipal son las Escuelas Infantiles Municipales del Ayuntamiento de Murcia, contrastadas con informajoven.org (Ayuntamiento de Murcia). district queda null: ninguna fuente disponible incluye distritos formales de Murcia capital; neighborhood_barrio recoge la pedania cuando el centro esta fuera de la capital (loccen != MURCIA en la fuente CARM). Ver docs/data-sources-murcia.md.",
+  "city": "murcia",
+  "generated_at": "2026-07-12T08:40:31.689Z",
+  "stats": {
+    "centers_count": 52,
+    "pending_review_count": 0
+  },
+  "centers": [
+    {
+      "slug": "bambi-murcia",
+      "name": "Bambi",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle La Seda, Nº 1 - Edif. Madrid",
+        "postal_code": "30009",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 37.990504978224635,
+        "longitude": -1.1423741094768047
+      },
+      "contact": {
+        "phone": "968292806",
+        "email": "belen70mz@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Bambi aparece registrada en el mapa escolar de la Región de Murcia como centro privado de educación infantil, con dirección en Calle La Seda, Nº 1 - Edif. Madrid, 30009, en Murcia. Atiende a niños de 0 a 3 años. Para conocer horarios, servicios y disponibilidad de plazas, lo recomendable es ponerse en contacto con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Bambi?",
+          "answer": "El centro se encuentra en Calle La Seda, Nº 1 - Edif. Madrid, 30009, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968292806 o escribir a belen70mz@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30012185",
+      "pedania": null
+    },
+    {
+      "slug": "futurines-s-l-l-murcia",
+      "name": "Futurines, S.l.l.",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avenida Joven Futura, 29, Bajo (Espinardo)",
+        "postal_code": "30100",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.00329802557826,
+        "longitude": -1.1587702855467796
+      },
+      "contact": {
+        "phone": "637314864",
+        "email": "newfuturines1@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Con dirección en Avenida Joven Futura, 29, Bajo (Espinardo), 30100, en Murcia, Futurines, S.l.l. es una guardería de titularidad privada que atiende el primer ciclo de educación infantil (0-3 años). El mapa escolar de la Consejería de Educación no detalla servicios adicionales, por lo que recomendamos confirmarlos directamente con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Futurines, S.l.l.?",
+          "answer": "El centro se encuentra en Avenida Joven Futura, 29, Bajo (Espinardo), 30100, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 637314864 o escribir a newfuturines1@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30020200",
+      "pedania": null
+    },
+    {
+      "slug": "virgen-de-la-fuensanta-murcia",
+      "name": "Virgen de la Fuensanta",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Paseo de las Moreras, s/n (Espinardo)",
+        "postal_code": "30100",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 37.94745493680239,
+        "longitude": -1.1660741083323956
+      },
+      "contact": {
+        "phone": "968846074",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Virgen de la Fuensanta es una guardería privada situada en Paseo de las Moreras, s/n (Espinardo), 30100, en Murcia, dedicada a niños de 0 a 3 años según consta en el mapa escolar de la Región de Murcia. Esta ficha se limita a los datos confirmados en la fuente oficial; para conocer el resto de detalles, recomendamos contactar con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Virgen de la Fuensanta?",
+          "answer": "El centro se encuentra en Paseo de las Moreras, s/n (Espinardo), 30100, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968846074."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30012604",
+      "pedania": null
+    },
+    {
+      "slug": "ntra-sra-de-la-fuensanta-murcia",
+      "name": "Ntra. Sra. de la Fuensanta",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Renacimiento, s/n",
+        "postal_code": "30012",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 37.97178299166262,
+        "longitude": -1.1248891241848469
+      },
+      "contact": {
+        "phone": "968254230",
+        "email": "30000717@murciaeduca.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "Lunes a viernes de 8:15 a 16:00 h, con servicio de matinal desde las 7:30 h",
+      "services": [
+        "comedor",
+        "servicio-madrugadores"
+      ],
+      "short_description": "Ntra. Sra. de la Fuensanta, en Calle Renacimiento, s/n, 30012, es una escuela infantil de titularidad pública dependiente del Ayuntamiento de Murcia. Como el resto de la red municipal, atiende a niños de 0 a 3 años y dispone de comedor y matinal. Recomendamos consultar el calendario de preinscripción municipal para conocer plazas disponibles.",
+      "long_description": "Ntra. Sra. de la Fuensanta es una de las siete escuelas infantiles municipales que gestiona el Ayuntamiento de Murcia a través de su Patronato de Escuelas Infantiles, con sede en Calle Renacimiento, s/n, 30012.\n\nComo el resto de la red municipal (que suma 6 escuelas más, repartidas entre la capital y varias pedanías del término municipal), atiende el primer ciclo de educación infantil: niños de 4 meses a 3 años, organizados en aulas nido para los bebés de menor edad y aulas de 1 y 2 años para el resto. El horario habitual es de 8:15 a 16:00 h, con posibilidad de entrada anticipada desde las 7:30 h mediante el servicio de matinal, y todas las escuelas cuentan con servicio de comedor con menús adaptados a estas edades.\n\nEl acceso a una plaza no es directo: se tramita cada curso mediante un proceso de admisión municipal con baremación pública (empadronamiento, situación laboral y familiar, entre otros criterios), y la demanda suele superar la oferta, por lo que conviene informarse con antelación sobre plazos de preinscripción. Para más información sobre plazas y calendario, el Patronato de Escuelas Infantiles del Ayuntamiento de Murcia atiende en la calle Amberes, 3.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Ntra. Sra. de la Fuensanta?",
+          "answer": "El centro se encuentra en Calle Renacimiento, s/n, 30012, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende esta escuela infantil municipal?",
+          "answer": "Atiende a niños de 4 meses a 3 años, organizados en aulas nido para los más pequeños y aulas de 1 y 2 años para el resto."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro público, una de las siete escuelas infantiles municipales gestionadas por el Ayuntamiento de Murcia a través de su Patronato de Escuelas Infantiles."
+        },
+        {
+          "question": "¿Tiene servicio de comedor y horario ampliado?",
+          "answer": "Sí. Todas las escuelas infantiles municipales de Murcia ofrecen comedor y servicio de matinal desde las 7:30 h, con horario lectivo de 8:15 a 16:00 h."
+        },
+        {
+          "question": "¿Cómo se solicita una plaza?",
+          "answer": "El acceso se tramita mediante el proceso anual de admisión del Ayuntamiento de Murcia, con baremación pública. Dada la alta demanda de la red municipal, conviene informarse con antelación sobre los plazos de preinscripción."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968254230 o escribir a 30000717@murciaeduca.es. También puedes dirigirte al Patronato de Escuelas Infantiles del Ayuntamiento de Murcia (C/ Amberes, 3) para consultas sobre el proceso de admisión."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [
+        "https://www.informajoven.org/info/educacion/B_9_2.asp"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "publico_municipal",
+      "codigo_centro_carm": "30000717",
+      "pedania": null
+    },
+    {
+      "slug": "los-molinos-murcia",
+      "name": "Los Molinos",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Jumilla, 11",
+        "postal_code": "30002",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 37.98118396662176,
+        "longitude": -1.1324630118906498
+      },
+      "contact": {
+        "phone": "968221411",
+        "email": "escuelainfantillosmolinos@gmail.com",
+        "website": "https://www.escuelainfantil-losmolinos.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Horario ampliado de 7:30 a 17:00 h",
+      "services": [
+        "comedor",
+        "cocina-propia",
+        "horario-ampliado",
+        "patio-exterior",
+        "psicomotricidad",
+        "actividades-extraescolares"
+      ],
+      "short_description": "Los Molinos, en Calle Jumilla, 11, 30002, en Murcia, es un centro privado de primer ciclo de educación infantil. Su web oficial confirma cocina propia, dos patios de juego y psicomotricidad. Antes de solicitar plaza, conviene confirmar horarios y disponibilidad directamente con el centro.",
+      "long_description": "Los Molinos es un centro privado de educación infantil de primer ciclo situado en Calle Jumilla, 11, 30002, en Murcia, dedicado a niños de 0 a 3 años. Su presencia en el mapa escolar de la Consejería de Educación de la Región de Murcia confirma su autorización como centro de esta etapa educativa.\n\nSegún la información publicada en su propia web, el centro ofrece: Cocina propia con menús adaptados por edad, dos patios de juego, psicomotricidad, visitas y actividades acuáticas en verano. El horario habitual es: horario ampliado de 7:30 a 17:00 h.\n\nEstos datos proceden directamente de la web oficial del centro, por lo que pueden variar de un curso a otro. Antes de solicitar plaza, recomendamos confirmar con Los Molinos la disponibilidad, precios y condiciones actualizadas de matrícula.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Los Molinos?",
+          "answer": "El centro se encuentra en Calle Jumilla, 11, 30002, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, el centro confirma en su web que dispone de servicio de comedor con cocina propia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968221411 o escribir a escuelainfantillosmolinos@gmail.com, o visitar https://www.escuelainfantil-losmolinos.com/."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia y de la web oficial del centro. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [
+        "https://www.escuelainfantil-losmolinos.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30013301",
+      "pedania": null
+    },
+    {
+      "slug": "pequenas-sonrisas-murcia",
+      "name": "Pequeñas Sonrisas",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Reyes Catolicos, 26 - Bº El Ranero",
+        "postal_code": "30100",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 37.9984659422189,
+        "longitude": -1.1461471393704414
+      },
+      "contact": {
+        "phone": "968299556",
+        "email": "eipequesonrisas@hotmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Pequeñas Sonrisas aparece registrada en el mapa escolar de la Región de Murcia como centro privado de educación infantil, con dirección en Calle Reyes Catolicos, 26 - Bº El Ranero, 30100, en Murcia. Atiende a niños de 0 a 3 años. Para conocer horarios, servicios y disponibilidad de plazas, lo recomendable es ponerse en contacto con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Pequeñas Sonrisas?",
+          "answer": "El centro se encuentra en Calle Reyes Catolicos, 26 - Bº El Ranero, 30100, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968299556 o escribir a eipequesonrisas@hotmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30018059",
+      "pedania": null
+    },
+    {
+      "slug": "educa-murcia",
+      "name": "Educa",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Enrique Tierno Galván (Espinardo)",
+        "postal_code": "30100",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.00871692597866,
+        "longitude": -1.1608260311186314
+      },
+      "contact": {
+        "phone": "616531437",
+        "email": "espinardoeduca3@hotmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Educa aparece registrada en el mapa escolar de la Región de Murcia como centro privado de educación infantil, con dirección en Calle Enrique Tierno Galván (Espinardo), 30100, en Murcia. Atiende a niños de 0 a 3 años. Para conocer horarios, servicios y disponibilidad de plazas, lo recomendable es ponerse en contacto con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Educa?",
+          "answer": "El centro se encuentra en Calle Enrique Tierno Galván (Espinardo), 30100, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 616531437 o escribir a espinardoeduca3@hotmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30013694",
+      "pedania": null
+    },
+    {
+      "slug": "abenarabi-murcia",
+      "name": "Abenarabi",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Abenarabí, Edf. Granada Nº 7 Bajo",
+        "postal_code": "30007",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 37.997291972860694,
+        "longitude": -1.1298631131649017
+      },
+      "contact": {
+        "phone": "607666610",
+        "email": "escuelainfantilabenarabi@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Abenarabi aparece registrada en el mapa escolar de la Región de Murcia como centro privado de educación infantil, con dirección en Calle Abenarabí, Edf. Granada Nº 7 Bajo, 30007, en Murcia. Atiende a niños de 0 a 3 años. Para conocer horarios, servicios y disponibilidad de plazas, lo recomendable es ponerse en contacto con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Abenarabi?",
+          "answer": "El centro se encuentra en Calle Abenarabí, Edf. Granada Nº 7 Bajo, 30007, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 607666610 o escribir a escuelainfantilabenarabi@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30017951",
+      "pedania": null
+    },
+    {
+      "slug": "nico-murcia",
+      "name": "Nico",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avenida Antonete Gálvez, 7",
+        "postal_code": "30006",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 37.98949898220599,
+        "longitude": -1.1227571032941341
+      },
+      "contact": {
+        "phone": "968203048",
+        "email": "centroinfantilnico@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "En Avenida Antonete Gálvez, 7, 30006, en Murcia se ubica Nico, una guardería privada de primer ciclo de educación infantil según el mapa escolar oficial de la Región de Murcia. No constan en la fuente consultada datos sobre comedor, horario ampliado o idiomas, por lo que conviene preguntar directamente al centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Nico?",
+          "answer": "El centro se encuentra en Avenida Antonete Gálvez, 7, 30006, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968203048 o escribir a centroinfantilnico@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30017961",
+      "pedania": null
+    },
+    {
+      "slug": "el-chupete-murcia",
+      "name": "El Chupete",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Mayor, 26 - Barrio del Progreso",
+        "postal_code": "30012",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 37.96623417176306,
+        "longitude": -1.1194388754665852
+      },
+      "contact": {
+        "phone": "699125022",
+        "email": "alvaroyyoli@hotmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Localizada en Calle Mayor, 26 - Barrio del Progreso, 30012, en Murcia, El Chupete es un centro privado de educación infantil de primer ciclo, incluido en el mapa escolar de la Región de Murcia. No hay constancia oficial de servicios adicionales como comedor o idiomas, así que recomendamos confirmarlos directamente con el centro antes de solicitar información.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado El Chupete?",
+          "answer": "El centro se encuentra en Calle Mayor, 26 - Barrio del Progreso, 30012, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 699125022 o escribir a alvaroyyoli@hotmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30019817",
+      "pedania": null
+    },
+    {
+      "slug": "las-claras-de-la-flota-murcia",
+      "name": "Las Claras de la Flota",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avenida Marina Española, s/n",
+        "postal_code": "30007",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 37.99527604132891,
+        "longitude": -1.121208630502224
+      },
+      "contact": {
+        "phone": "968930628",
+        "email": "v.candel@lasclaras.es",
+        "website": "https://nurseryschoolmurcia.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "cocina-propia",
+        "bilingue",
+        "ingles",
+        "musica",
+        "psicomotricidad",
+        "patio-exterior"
+      ],
+      "short_description": "Ubicado en Avenida Marina Española, s/n, 30007, en Murcia, Las Claras de la Flota es una guardería privada que atiende a niños de 0 a 3 años. El propio centro confirma en su web cocina propia, programa bilingüe y psicomotricidad. Recomendamos contactar directamente para conocer plazas disponibles.",
+      "long_description": "Las Claras de la Flota es un centro privado de educación infantil de primer ciclo situado en Avenida Marina Española, s/n, 30007, en Murcia, dedicado a niños de 0 a 3 años. Su presencia en el mapa escolar de la Consejería de Educación de la Región de Murcia confirma su autorización como centro de esta etapa educativa.\n\nSegún la información publicada en su propia web, el centro ofrece: Cocina propia, programa bilingüe con método propio de inmersión en inglés, música, psicomotricidad, dos patios exteriores.\n\nEstos datos proceden directamente de la web oficial del centro, por lo que pueden variar de un curso a otro. Antes de solicitar plaza, recomendamos confirmar con Las Claras de la Flota la disponibilidad, precios y condiciones actualizadas de matrícula.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Las Claras de la Flota?",
+          "answer": "El centro se encuentra en Avenida Marina Española, s/n, 30007, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Es un centro bilingüe?",
+          "answer": "Sí, Las Claras de la Flota confirma en su web que ofrece un programa bilingüe o de inmersión en inglés."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968930628 o escribir a v.candel@lasclaras.es, o visitar https://nurseryschoolmurcia.com/."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia y de la web oficial del centro. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [
+        "https://nurseryschoolmurcia.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30018916",
+      "pedania": null
+    },
+    {
+      "slug": "girasoles-murcia",
+      "name": "Girasoles",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Plaza Carlos Iii Nº 1",
+        "postal_code": "30008",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 37.986919954419136,
+        "longitude": -1.1343087069690228
+      },
+      "contact": {
+        "phone": "665977072",
+        "email": "anasanchezgirasoles@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Girasoles aparece registrada en el mapa escolar de la Región de Murcia como centro privado de educación infantil, con dirección en Plaza Carlos Iii Nº 1, 30008, en Murcia. Atiende a niños de 0 a 3 años. Para conocer horarios, servicios y disponibilidad de plazas, lo recomendable es ponerse en contacto con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Girasoles?",
+          "answer": "El centro se encuentra en Plaza Carlos Iii Nº 1, 30008, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 665977072 o escribir a anasanchezgirasoles@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30018965",
+      "pedania": null
+    },
+    {
+      "slug": "solcitos-murcia",
+      "name": "Solcitos",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Fernando Poo, Esq. Ps. Fdez Caballero",
+        "postal_code": "30007",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.00218197517097,
+        "longitude": -1.1307821050286293
+      },
+      "contact": {
+        "phone": "627235458",
+        "email": "dialoguemos.solcitos@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Con dirección en Calle Fernando Poo, Esq. Ps. Fdez Caballero, 30007, en Murcia, Solcitos es una guardería de titularidad privada que atiende el primer ciclo de educación infantil (0-3 años). El mapa escolar de la Consejería de Educación no detalla servicios adicionales, por lo que recomendamos confirmarlos directamente con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Solcitos?",
+          "answer": "El centro se encuentra en Calle Fernando Poo, Esq. Ps. Fdez Caballero, 30007, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 627235458 o escribir a dialoguemos.solcitos@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30019015",
+      "pedania": null
+    },
+    {
+      "slug": "la-paz-murcia",
+      "name": "La Paz",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Avenida Juana Jugan, 2",
+        "postal_code": "30006",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 37.98919999971986,
+        "longitude": -1.11606415361166
+      },
+      "contact": {
+        "phone": "968241416",
+        "email": "30019325@murciaeduca.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "Lunes a viernes de 8:15 a 16:00 h, con servicio de matinal desde las 7:30 h",
+      "services": [
+        "comedor",
+        "servicio-madrugadores"
+      ],
+      "short_description": "El Ayuntamiento de Murcia gestiona La Paz, escuela infantil municipal ubicada en Avenida Juana Jugan, 2, 30006. Al igual que las otras seis escuelas de la red, cubre el primer ciclo de infantil (0-3 años) con comedor y matinal desde las 7:30 h. Dado que la red municipal suele completar sus plazas cada curso, conviene solicitar información con antelación.",
+      "long_description": "La Paz es una de las siete escuelas infantiles municipales que gestiona el Ayuntamiento de Murcia a través de su Patronato de Escuelas Infantiles, con sede en Avenida Juana Jugan, 2, 30006.\n\nComo el resto de la red municipal (que suma 6 escuelas más, repartidas entre la capital y varias pedanías del término municipal), atiende el primer ciclo de educación infantil: niños de 4 meses a 3 años, organizados en aulas nido para los bebés de menor edad y aulas de 1 y 2 años para el resto. El horario habitual es de 8:15 a 16:00 h, con posibilidad de entrada anticipada desde las 7:30 h mediante el servicio de matinal, y todas las escuelas cuentan con servicio de comedor con menús adaptados a estas edades.\n\nEl acceso a una plaza no es directo: se tramita cada curso mediante un proceso de admisión municipal con baremación pública (empadronamiento, situación laboral y familiar, entre otros criterios), y la demanda suele superar la oferta, por lo que conviene informarse con antelación sobre plazos de preinscripción. Para más información sobre plazas y calendario, el Patronato de Escuelas Infantiles del Ayuntamiento de Murcia atiende en la calle Amberes, 3.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Paz?",
+          "answer": "El centro se encuentra en Avenida Juana Jugan, 2, 30006, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende esta escuela infantil municipal?",
+          "answer": "Atiende a niños de 4 meses a 3 años, organizados en aulas nido para los más pequeños y aulas de 1 y 2 años para el resto."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro público, una de las siete escuelas infantiles municipales gestionadas por el Ayuntamiento de Murcia a través de su Patronato de Escuelas Infantiles."
+        },
+        {
+          "question": "¿Tiene servicio de comedor y horario ampliado?",
+          "answer": "Sí. Todas las escuelas infantiles municipales de Murcia ofrecen comedor y servicio de matinal desde las 7:30 h, con horario lectivo de 8:15 a 16:00 h."
+        },
+        {
+          "question": "¿Cómo se solicita una plaza?",
+          "answer": "El acceso se tramita mediante el proceso anual de admisión del Ayuntamiento de Murcia, con baremación pública. Dada la alta demanda de la red municipal, conviene informarse con antelación sobre los plazos de preinscripción."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968241416 o escribir a 30019325@murciaeduca.es. También puedes dirigirte al Patronato de Escuelas Infantiles del Ayuntamiento de Murcia (C/ Amberes, 3) para consultas sobre el proceso de admisión."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [
+        "https://www.informajoven.org/info/educacion/B_9_2.asp"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "publico_municipal",
+      "codigo_centro_carm": "30019325",
+      "pedania": null
+    },
+    {
+      "slug": "chiquitin-murcia",
+      "name": "Chiquitín",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avenida Europa, 23",
+        "postal_code": "30007",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 37.99830995500088,
+        "longitude": -1.1354843527078629
+      },
+      "contact": {
+        "phone": "968202751",
+        "email": "navarrolorca@hotmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Chiquitín aparece registrada en el mapa escolar de la Región de Murcia como centro privado de educación infantil, con dirección en Avenida Europa, 23, 30007, en Murcia. Atiende a niños de 0 a 3 años. Para conocer horarios, servicios y disponibilidad de plazas, lo recomendable es ponerse en contacto con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Chiquitín?",
+          "answer": "El centro se encuentra en Avenida Europa, 23, 30007, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968202751 o escribir a navarrolorca@hotmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30018473",
+      "pedania": null
+    },
+    {
+      "slug": "pompitas-com-murcia",
+      "name": "Pompitas.com",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avenida Marina Española, 28 - Bajo",
+        "postal_code": "30007",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 37.99621196463704,
+        "longitude": -1.1193210259079933
+      },
+      "contact": {
+        "phone": "968232330",
+        "email": "info@pompitas.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Pompitas.com es una guardería privada situada en Avenida Marina Española, 28 - Bajo, 30007, en Murcia, dedicada a niños de 0 a 3 años según consta en el mapa escolar de la Región de Murcia. Esta ficha se limita a los datos confirmados en la fuente oficial; para conocer el resto de detalles, recomendamos contactar con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Pompitas.com?",
+          "answer": "El centro se encuentra en Avenida Marina Española, 28 - Bajo, 30007, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968232330 o escribir a info@pompitas.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30018394",
+      "pedania": null
+    },
+    {
+      "slug": "jc1-murcia",
+      "name": "JC1",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Monseñor Manuel Lorca, Nº 58 (Espinardo)",
+        "postal_code": "30100",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.00956475548446,
+        "longitude": -1.1501369252800941
+      },
+      "contact": {
+        "phone": "658288367",
+        "email": "jc1centroinfantil@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Con dirección en Calle Monseñor Manuel Lorca, Nº 58 (Espinardo), 30100, en Murcia, JC1 es una guardería de titularidad privada que atiende el primer ciclo de educación infantil (0-3 años). El mapa escolar de la Consejería de Educación no detalla servicios adicionales, por lo que recomendamos confirmarlos directamente con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado JC1?",
+          "answer": "El centro se encuentra en Calle Monseñor Manuel Lorca, Nº 58 (Espinardo), 30100, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 658288367 o escribir a jc1centroinfantil@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30019738",
+      "pedania": null
+    },
+    {
+      "slug": "arco-iris-murcia",
+      "name": "Arco Iris",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Luis Fernández, Nº 8- Bajo",
+        "postal_code": "30011",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 37.977546975016594,
+        "longitude": -1.1188211292028427
+      },
+      "contact": {
+        "phone": "968266272",
+        "email": "elpatiodelarcoiris@hotmail.es",
+        "website": "https://www.elpatiodelarcoiris.es/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "comedor",
+        "horario-ampliado",
+        "psicomotricidad",
+        "actividades-extraescolares",
+        "verano-campamentos",
+        "orientacion-pedagogica"
+      ],
+      "short_description": "Arco Iris es un centro privado de educación infantil situado en Calle Luis Fernández, Nº 8- Bajo, 30011, en Murcia, dedicado al primer ciclo de esta etapa (0-3 años). Según su propia web, confirma comedor, horario ampliado y orientación pedagógica. Puedes contactar con el centro para conocer plazas y condiciones actualizadas.",
+      "long_description": "Arco Iris es un centro privado de educación infantil de primer ciclo situado en Calle Luis Fernández, Nº 8- Bajo, 30011, en Murcia, dedicado a niños de 0 a 3 años. Su presencia en el mapa escolar de la Consejería de Educación de la Región de Murcia confirma su autorización como centro de esta etapa educativa.\n\nSegún la información publicada en su propia web, el centro ofrece: Comedor, horario ampliado (ludoteca de 16 a 20h), psicomotricidad, escuelas de vacaciones y orientación pedagógica.\n\nEstos datos proceden directamente de la web oficial del centro, por lo que pueden variar de un curso a otro. Antes de solicitar plaza, recomendamos confirmar con Arco Iris la disponibilidad, precios y condiciones actualizadas de matrícula.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Arco Iris?",
+          "answer": "El centro se encuentra en Calle Luis Fernández, Nº 8- Bajo, 30011, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, el centro confirma en su web que dispone de servicio de comedor."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968266272 o escribir a elpatiodelarcoiris@hotmail.es, o visitar https://www.elpatiodelarcoiris.es/."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia y de la web oficial del centro. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [
+        "https://www.elpatiodelarcoiris.es/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30019428",
+      "pedania": null
+    },
+    {
+      "slug": "infante-juan-manuel-murcia",
+      "name": "Infante Juan Manuel",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Vicente Aleixandre, s/n",
+        "postal_code": "30011",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 37.976108975708485,
+        "longitude": -1.116942074149847
+      },
+      "contact": {
+        "phone": "968262594",
+        "email": "30019571@murciaeduca.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Infante Juan Manuel aparece registrada como escuela de educación infantil de titularidad pública en Calle Vicente Aleixandre, s/n, 30011, en Murcia, según el mapa escolar de la Consejería de Educación de la Región de Murcia. Recomendamos confirmar con el centro los datos de admisión y horario antes de solicitar plaza.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Infante Juan Manuel?",
+          "answer": "El centro se encuentra en Calle Vicente Aleixandre, s/n, 30011, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es una escuela infantil; recomendamos confirmar directamente con el centro el ciclo exacto y las edades atendidas."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968262594 o escribir a 30019571@murciaeduca.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "publico_autonomico",
+      "codigo_centro_carm": "30019571",
+      "pedania": null
+    },
+    {
+      "slug": "san-basilio-murcia",
+      "name": "San Basilio",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Sierra de Peñarrubia, s/n",
+        "postal_code": "30009",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 37.99414096400142,
+        "longitude": -1.1439680121839046
+      },
+      "contact": {
+        "phone": "968295416",
+        "email": "30019581@murciaeduca.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "San Basilio es una escuela infantil de titularidad pública situada en Calle Sierra de Peñarrubia, s/n, 30009, en Murcia. Figura en el catálogo de centros de la Consejería de Educación de la Región de Murcia como centro de educación infantil. Recomendamos contactar directamente con el centro para conocer edades atendidas, horario y proceso de admisión.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado San Basilio?",
+          "answer": "El centro se encuentra en Calle Sierra de Peñarrubia, s/n, 30009, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es una escuela infantil; recomendamos confirmar directamente con el centro el ciclo exacto y las edades atendidas."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968295416 o escribir a 30019581@murciaeduca.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "publico_autonomico",
+      "codigo_centro_carm": "30019581",
+      "pedania": null
+    },
+    {
+      "slug": "sol-y-luna-murcia",
+      "name": "Sol y Luna",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Raimundo González Frutos, 2 Bajo",
+        "postal_code": "30001",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 37.98861569724977,
+        "longitude": -1.1475492641329765
+      },
+      "contact": {
+        "phone": "618136189",
+        "email": "solylunamarjo@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "En Calle Raimundo González Frutos, 2 Bajo, 30001, en Murcia se ubica Sol y Luna, una guardería privada de primer ciclo de educación infantil según el mapa escolar oficial de la Región de Murcia. No constan en la fuente consultada datos sobre comedor, horario ampliado o idiomas, por lo que conviene preguntar directamente al centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Sol y Luna?",
+          "answer": "El centro se encuentra en Calle Raimundo González Frutos, 2 Bajo, 30001, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 618136189 o escribir a solylunamarjo@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30019635",
+      "pedania": null
+    },
+    {
+      "slug": "nice-day-school-murcia",
+      "name": "Nice Day School",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Plaza Dentistas Murcianos, Nº 44",
+        "postal_code": "30007",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.00083818845451,
+        "longitude": -1.1406913585960865
+      },
+      "contact": {
+        "phone": "626657686",
+        "email": "gerencia@nicedayschool.es",
+        "website": "https://www.nicedayschool.es/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "bilingue",
+        "ingles"
+      ],
+      "short_description": "Ubicado en Plaza Dentistas Murcianos, Nº 44, 30007, en Murcia, Nice Day School es una guardería privada que atiende a niños de 0 a 3 años. El propio centro confirma en su web inmersión en inglés con personal nativo. Recomendamos contactar directamente para conocer plazas disponibles.",
+      "long_description": "Nice Day School es un centro privado de educación infantil de primer ciclo situado en Plaza Dentistas Murcianos, Nº 44, 30007, en Murcia, dedicado a niños de 0 a 3 años. Su presencia en el mapa escolar de la Consejería de Educación de la Región de Murcia confirma su autorización como centro de esta etapa educativa.\n\nSegún la información publicada en su propia web, el centro ofrece: Escuela infantil bilingüe con inmersión en inglés y personal nativo británico.\n\nEstos datos proceden directamente de la web oficial del centro, por lo que pueden variar de un curso a otro. Antes de solicitar plaza, recomendamos confirmar con Nice Day School la disponibilidad, precios y condiciones actualizadas de matrícula.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Nice Day School?",
+          "answer": "El centro se encuentra en Plaza Dentistas Murcianos, Nº 44, 30007, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Es un centro bilingüe?",
+          "answer": "Sí, Nice Day School confirma en su web que ofrece un programa bilingüe o de inmersión en inglés."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 626657686 o escribir a gerencia@nicedayschool.es, o visitar https://www.nicedayschool.es/."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia y de la web oficial del centro. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [
+        "https://www.nicedayschool.es/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30020182",
+      "pedania": null
+    },
+    {
+      "slug": "el-jardin-de-julia-murcia",
+      "name": "El Jardín de Julia",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Avenida de la Libertad, 6 Bajo J",
+        "postal_code": "30009",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 37.990786945447326,
+        "longitude": -1.1353247612714767
+      },
+      "contact": {
+        "phone": "610959938",
+        "email": "info@eljardindejulia.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "El Jardín de Julia aparece registrada en el mapa escolar de la Región de Murcia como centro privado de educación infantil, con dirección en Avenida de la Libertad, 6 Bajo J, 30009, en Murcia. Atiende a niños de 0 a 3 años. Para conocer horarios, servicios y disponibilidad de plazas, lo recomendable es ponerse en contacto con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado El Jardín de Julia?",
+          "answer": "El centro se encuentra en Avenida de la Libertad, 6 Bajo J, 30009, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 610959938 o escribir a info@eljardindejulia.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30020285",
+      "pedania": null
+    },
+    {
+      "slug": "initial-school-murcia",
+      "name": "Initial School",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Acisclo Díaz, Nº 7 - Bajo",
+        "postal_code": "30005",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 37.98770198598504,
+        "longitude": -1.1359837464988232
+      },
+      "contact": {
+        "phone": "968297568",
+        "email": "info@initialschool.es",
+        "website": "https://initialschool.es/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "bilingue",
+        "ingles"
+      ],
+      "short_description": "Initial School, en Calle Acisclo Díaz, Nº 7 - Bajo, 30005, en Murcia, es un centro privado de primer ciclo de educación infantil. Su web oficial confirma un proyecto bilingüe en inglés. Antes de solicitar plaza, conviene confirmar horarios y disponibilidad directamente con el centro.",
+      "long_description": "Initial School es un centro privado de educación infantil de primer ciclo situado en Calle Acisclo Díaz, Nº 7 - Bajo, 30005, en Murcia, dedicado a niños de 0 a 3 años. Su presencia en el mapa escolar de la Consejería de Educación de la Región de Murcia confirma su autorización como centro de esta etapa educativa.\n\nSegún la información publicada en su propia web, el centro ofrece: Centro de educación infantil bilingüe en inglés, con metodología propia de inmersión lingüística.\n\nEstos datos proceden directamente de la web oficial del centro, por lo que pueden variar de un curso a otro. Antes de solicitar plaza, recomendamos confirmar con Initial School la disponibilidad, precios y condiciones actualizadas de matrícula.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Initial School?",
+          "answer": "El centro se encuentra en Calle Acisclo Díaz, Nº 7 - Bajo, 30005, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Es un centro bilingüe?",
+          "answer": "Sí, Initial School confirma en su web que ofrece un programa bilingüe o de inmersión en inglés."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968297568 o escribir a info@initialschool.es, o visitar https://initialschool.es/."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia y de la web oficial del centro. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [
+        "https://initialschool.es/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30020315",
+      "pedania": null
+    },
+    {
+      "slug": "crecemos-murcia",
+      "name": "Crecemos",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Plaza I. Nicolás Noguera, Nº 10 - Bajo 1",
+        "postal_code": "30007",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 38.00379239022732,
+        "longitude": -1.1427472718060017
+      },
+      "contact": {
+        "phone": "696577108",
+        "email": "info@ceicrecemos.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "En Plaza I. Nicolás Noguera, Nº 10 - Bajo 1, 30007, en Murcia se ubica Crecemos, una guardería privada de primer ciclo de educación infantil según el mapa escolar oficial de la Región de Murcia. No constan en la fuente consultada datos sobre comedor, horario ampliado o idiomas, por lo que conviene preguntar directamente al centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Crecemos?",
+          "answer": "El centro se encuentra en Plaza I. Nicolás Noguera, Nº 10 - Bajo 1, 30007, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 696577108 o escribir a info@ceicrecemos.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30020901",
+      "pedania": null
+    },
+    {
+      "slug": "escuela-murciana-de-primera-infancia-murcia",
+      "name": "Escuela Murciana de Primera Infancia",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Morera, s/n",
+        "postal_code": "30010",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 37.97196077182889,
+        "longitude": -1.1278335191309452
+      },
+      "contact": {
+        "phone": "678653310",
+        "email": "info@empi.es",
+        "website": "https://www.empi.es/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "psicomotricidad",
+        "musica",
+        "orientacion-pedagogica"
+      ],
+      "short_description": "Escuela Murciana de Primera Infancia es un centro privado de educación infantil situado en Calle Morera, s/n, 30010, en Murcia, dedicado al primer ciclo de esta etapa (0-3 años). Según su propia web, confirma psicomotricidad, música y orientación educativa. Puedes contactar con el centro para conocer plazas y condiciones actualizadas.",
+      "long_description": "Escuela Murciana de Primera Infancia es un centro privado de educación infantil de primer ciclo situado en Calle Morera, s/n, 30010, en Murcia, dedicado a niños de 0 a 3 años. Su presencia en el mapa escolar de la Consejería de Educación de la Región de Murcia confirma su autorización como centro de esta etapa educativa.\n\nSegún la información publicada en su propia web, el centro ofrece: Cooperativa de profesionales de educación infantil; ofrece psicomotricidad, música (método Gordon), orientación educativa y talleres para familias.\n\nEstos datos proceden directamente de la web oficial del centro, por lo que pueden variar de un curso a otro. Antes de solicitar plaza, recomendamos confirmar con Escuela Murciana de Primera Infancia la disponibilidad, precios y condiciones actualizadas de matrícula.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Escuela Murciana de Primera Infancia?",
+          "answer": "El centro se encuentra en Calle Morera, s/n, 30010, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 678653310 o escribir a info@empi.es, o visitar https://www.empi.es/."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia y de la web oficial del centro. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [
+        "https://www.empi.es/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30020121",
+      "pedania": null
+    },
+    {
+      "slug": "el-sitio-de-tu-recreo-murcia",
+      "name": "El Sitio de Tu Recreo",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Greco, 5",
+        "postal_code": "30006",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": null,
+        "latitude": 37.99049743451178,
+        "longitude": -1.1257236264646053
+      },
+      "contact": {
+        "phone": "639492598",
+        "email": "elsitiodeturecreomurcia@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "El Sitio de Tu Recreo es un centro privado de educación infantil situado en Calle Greco, 5, 30006, en Murcia. Figura en el mapa escolar de la Región de Murcia como centro de primer ciclo, dedicado a niños de 0 a 3 años. Recomendamos contactar directamente con el centro para conocer plazas, horarios y servicios disponibles.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado El Sitio de Tu Recreo?",
+          "answer": "El centro se encuentra en Calle Greco, 5, 30006, en Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 639492598 o escribir a elsitiodeturecreomurcia@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30020856",
+      "pedania": null
+    },
+    {
+      "slug": "el-lugarico-murcia",
+      "name": "El Lugarico",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Cronista Carlos Valcárcel, 12",
+        "postal_code": "30120",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "El Palmar",
+        "latitude": 37.939562955871224,
+        "longitude": -1.1620900221168995
+      },
+      "contact": {
+        "phone": "968884375",
+        "email": "30013190@murciaeduca.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "Lunes a viernes de 8:15 a 16:00 h, con servicio de matinal desde las 7:30 h",
+      "services": [
+        "comedor",
+        "servicio-madrugadores"
+      ],
+      "short_description": "El Ayuntamiento de Murcia gestiona El Lugarico, escuela infantil municipal ubicada en Calle Cronista Carlos Valcárcel, 12, 30120, El Palmar. Al igual que las otras seis escuelas de la red, cubre el primer ciclo de infantil (0-3 años) con comedor y matinal desde las 7:30 h. Dado que la red municipal suele completar sus plazas cada curso, conviene solicitar información con antelación.",
+      "long_description": "El Lugarico es una de las siete escuelas infantiles municipales que gestiona el Ayuntamiento de Murcia a través de su Patronato de Escuelas Infantiles, con sede en Calle Cronista Carlos Valcárcel, 12, 30120, en la pedanía de El Palmar.\n\nComo el resto de la red municipal (que suma 6 escuelas más, repartidas entre la capital y varias pedanías del término municipal), atiende el primer ciclo de educación infantil: niños de 4 meses a 3 años, organizados en aulas nido para los bebés de menor edad y aulas de 1 y 2 años para el resto. El horario habitual es de 8:15 a 16:00 h, con posibilidad de entrada anticipada desde las 7:30 h mediante el servicio de matinal, y todas las escuelas cuentan con servicio de comedor con menús adaptados a estas edades.\n\nEl acceso a una plaza no es directo: se tramita cada curso mediante un proceso de admisión municipal con baremación pública (empadronamiento, situación laboral y familiar, entre otros criterios), y la demanda suele superar la oferta, por lo que conviene informarse con antelación sobre plazos de preinscripción. Para más información sobre plazas y calendario, el Patronato de Escuelas Infantiles del Ayuntamiento de Murcia atiende en la calle Amberes, 3.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado El Lugarico?",
+          "answer": "El centro se encuentra en Calle Cronista Carlos Valcárcel, 12, 30120, en la pedanía de El Palmar, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende esta escuela infantil municipal?",
+          "answer": "Atiende a niños de 4 meses a 3 años, organizados en aulas nido para los más pequeños y aulas de 1 y 2 años para el resto."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro público, una de las siete escuelas infantiles municipales gestionadas por el Ayuntamiento de Murcia a través de su Patronato de Escuelas Infantiles."
+        },
+        {
+          "question": "¿Tiene servicio de comedor y horario ampliado?",
+          "answer": "Sí. Todas las escuelas infantiles municipales de Murcia ofrecen comedor y servicio de matinal desde las 7:30 h, con horario lectivo de 8:15 a 16:00 h."
+        },
+        {
+          "question": "¿Cómo se solicita una plaza?",
+          "answer": "El acceso se tramita mediante el proceso anual de admisión del Ayuntamiento de Murcia, con baremación pública. Dada la alta demanda de la red municipal, conviene informarse con antelación sobre los plazos de preinscripción."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968884375 o escribir a 30013190@murciaeduca.es. También puedes dirigirte al Patronato de Escuelas Infantiles del Ayuntamiento de Murcia (C/ Amberes, 3) para consultas sobre el proceso de admisión."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [
+        "https://www.informajoven.org/info/educacion/B_9_2.asp"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "publico_municipal",
+      "codigo_centro_carm": "30013190",
+      "pedania": "El Palmar"
+    },
+    {
+      "slug": "los-rosales-murcia",
+      "name": "Los Rosales",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Plaza de las Viñas, s/n",
+        "postal_code": "30120",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "El Palmar",
+        "latitude": 37.93444094248116,
+        "longitude": -1.1649420484900475
+      },
+      "contact": {
+        "phone": "968884142",
+        "email": "30019593@murciaeduca.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Los Rosales es una escuela infantil de titularidad pública situada en Plaza de las Viñas, s/n, 30120, en la pedanía de El Palmar (Murcia). Figura en el catálogo de centros de la Consejería de Educación de la Región de Murcia como centro de educación infantil. Recomendamos contactar directamente con el centro para conocer edades atendidas, horario y proceso de admisión.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Los Rosales?",
+          "answer": "El centro se encuentra en Plaza de las Viñas, s/n, 30120, en la pedanía de El Palmar, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es una escuela infantil; recomendamos confirmar directamente con el centro el ciclo exacto y las edades atendidas."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968884142 o escribir a 30019593@murciaeduca.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "publico_autonomico",
+      "codigo_centro_carm": "30019593",
+      "pedania": "El Palmar"
+    },
+    {
+      "slug": "el-atelier-de-marte-murcia",
+      "name": "El Atelier de Marte",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Rio Taibilla Nº 7",
+        "postal_code": "30110",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "Churra",
+        "latitude": 38.00792827270925,
+        "longitude": -1.131383255124092
+      },
+      "contact": {
+        "phone": "968838134",
+        "email": "rocio@ceiloscubos.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "El Atelier de Marte aparece registrada en el mapa escolar de la Región de Murcia como centro privado de educación infantil, con dirección en Calle Rio Taibilla Nº 7, 30110, en la pedanía de Churra (Murcia). Atiende a niños de 0 a 3 años. Para conocer horarios, servicios y disponibilidad de plazas, lo recomendable es ponerse en contacto con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado El Atelier de Marte?",
+          "answer": "El centro se encuentra en Calle Rio Taibilla Nº 7, 30110, en la pedanía de Churra, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968838134 o escribir a rocio@ceiloscubos.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30020753",
+      "pedania": "Churra"
+    },
+    {
+      "slug": "villapeques-murcia",
+      "name": "Villapeques",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Vereda de las Cayuelas Nº 40",
+        "postal_code": "30163",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "Esparragal",
+        "latitude": 38.0391544662416,
+        "longitude": -1.0680965334177017
+      },
+      "contact": {
+        "phone": "645332607",
+        "email": "villapeques.centroinfantil@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Villapeques aparece registrada en el mapa escolar de la Región de Murcia como centro privado de educación infantil, con dirección en Vereda de las Cayuelas Nº 40, 30163, en la pedanía de Esparragal (Murcia). Atiende a niños de 0 a 3 años. Para conocer horarios, servicios y disponibilidad de plazas, lo recomendable es ponerse en contacto con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Villapeques?",
+          "answer": "El centro se encuentra en Vereda de las Cayuelas Nº 40, 30163, en la pedanía de Esparragal, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 645332607 o escribir a villapeques.centroinfantil@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30020078",
+      "pedania": "Esparragal"
+    },
+    {
+      "slug": "mirasierra-murcia",
+      "name": "Mirasierra",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Carretera Santa Catalina, s/n",
+        "postal_code": "30151",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "Santo Ángel",
+        "latitude": 37.944612968713045,
+        "longitude": -1.1339528113603592
+      },
+      "contact": {
+        "phone": "692178220",
+        "email": "guarderiatil@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Mirasierra es una guardería privada situada en Carretera Santa Catalina, s/n, 30151, en la pedanía de Santo Ángel (Murcia), dedicada a niños de 0 a 3 años según consta en el mapa escolar de la Región de Murcia. Esta ficha se limita a los datos confirmados en la fuente oficial; para conocer el resto de detalles, recomendamos contactar con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Mirasierra?",
+          "answer": "El centro se encuentra en Carretera Santa Catalina, s/n, 30151, en la pedanía de Santo Ángel, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 692178220 o escribir a guarderiatil@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30019441",
+      "pedania": "Santo Ángel"
+    },
+    {
+      "slug": "reina-victoria-murcia",
+      "name": "Reina Victoria",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Paseo de Florencia, Nº 36 - Bajo",
+        "postal_code": "30012",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "Ermita de Patiño",
+        "latitude": 37.96761986799538,
+        "longitude": -1.135728769004345
+      },
+      "contact": {
+        "phone": "968341772",
+        "email": "c.e.p.reinavictoria@hotmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Localizada en Paseo de Florencia, Nº 36 - Bajo, 30012, en la pedanía de Ermita de Patiño (Murcia), Reina Victoria es un centro privado de educación infantil de primer ciclo, incluido en el mapa escolar de la Región de Murcia. No hay constancia oficial de servicios adicionales como comedor o idiomas, así que recomendamos confirmarlos directamente con el centro antes de solicitar información.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Reina Victoria?",
+          "answer": "El centro se encuentra en Paseo de Florencia, Nº 36 - Bajo, 30012, en la pedanía de Ermita de Patiño, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968341772 o escribir a c.e.p.reinavictoria@hotmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30019763",
+      "pedania": "Ermita de Patiño"
+    },
+    {
+      "slug": "nubes-de-papel-murcia",
+      "name": "Nubes de Papel",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Paseo Virgen de la Fuensanta, 4 - Bajo",
+        "postal_code": "30163",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "Cobatillas",
+        "latitude": 38.05130965076387,
+        "longitude": -1.0818145237863064
+      },
+      "contact": {
+        "phone": "968864115",
+        "email": "nubesdepapel2@hotmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "En Paseo Virgen de la Fuensanta, 4 - Bajo, 30163, en la pedanía de Cobatillas (Murcia) se ubica Nubes de Papel, una guardería privada de primer ciclo de educación infantil según el mapa escolar oficial de la Región de Murcia. No constan en la fuente consultada datos sobre comedor, horario ampliado o idiomas, por lo que conviene preguntar directamente al centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Nubes de Papel?",
+          "answer": "El centro se encuentra en Paseo Virgen de la Fuensanta, 4 - Bajo, 30163, en la pedanía de Cobatillas, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968864115 o escribir a nubesdepapel2@hotmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30018591",
+      "pedania": "Cobatillas"
+    },
+    {
+      "slug": "erase-una-vez-murcia",
+      "name": "Érase Una Vez",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle el Pino, Nº 1 Bajo",
+        "postal_code": "30007",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "Casillas",
+        "latitude": 38.007583944126964,
+        "longitude": -1.091093122959137
+      },
+      "contact": {
+        "phone": "968300155",
+        "email": "info@ceieraseunavez.com",
+        "website": "https://ceieraseunavez.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Lunes a viernes de 7:30 a 18:00 h",
+      "services": [
+        "comedor",
+        "cocina-propia",
+        "horario-ampliado",
+        "servicio-madrugadores",
+        "bilingue",
+        "ingles",
+        "actividades-extraescolares",
+        "verano-campamentos"
+      ],
+      "short_description": "Érase Una Vez es un centro privado de educación infantil situado en Calle el Pino, Nº 1 Bajo, 30007, en la pedanía de Casillas (Murcia), dedicado al primer ciclo de esta etapa (0-3 años). Según su propia web, confirma comedor con cocina propia, horario ampliado y programa bilingüe. Puedes contactar con el centro para conocer plazas y condiciones actualizadas.",
+      "long_description": "Érase Una Vez es un centro privado de educación infantil de primer ciclo situado en Calle el Pino, Nº 1 Bajo, 30007, en la pedanía de Casillas (Murcia), dedicado a niños de 0 a 3 años. Su presencia en el mapa escolar de la Consejería de Educación de la Región de Murcia confirma su autorización como centro de esta etapa educativa.\n\nSegún la información publicada en su propia web, el centro ofrece: Aula matinal desde 7:30h, comedor con cocina propia, horario ampliado hasta las 18:00h, centro bilingüe, escuela de verano/Navidad/Semana Santa, actividades extraescolares, apoyo de psicología y logopedia. El horario habitual es: lunes a viernes de 7:30 a 18:00 h.\n\nEstos datos proceden directamente de la web oficial del centro, por lo que pueden variar de un curso a otro. Antes de solicitar plaza, recomendamos confirmar con Érase Una Vez la disponibilidad, precios y condiciones actualizadas de matrícula.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Érase Una Vez?",
+          "answer": "El centro se encuentra en Calle el Pino, Nº 1 Bajo, 30007, en la pedanía de Casillas, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Es un centro bilingüe?",
+          "answer": "Sí, Érase Una Vez confirma en su web que ofrece un programa bilingüe o de inmersión en inglés."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, el centro confirma en su web que dispone de servicio de comedor con cocina propia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968300155 o escribir a info@ceieraseunavez.com, o visitar https://ceieraseunavez.com/."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia y de la web oficial del centro. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [
+        "https://ceieraseunavez.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30019386",
+      "pedania": "Casillas"
+    },
+    {
+      "slug": "la-naranja-murcia",
+      "name": "La Naranja",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Escuelas, s/n",
+        "postal_code": "30570",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "Beniaján",
+        "latitude": 37.973398603498936,
+        "longitude": -1.0718321800231934
+      },
+      "contact": {
+        "phone": "968873314",
+        "email": "30012021@murciaeduca.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "La Naranja es una escuela infantil de titularidad pública situada en Escuelas, s/n, 30570, en la pedanía de Beniaján (Murcia). Figura en el catálogo de centros de la Consejería de Educación de la Región de Murcia como centro de educación infantil. Recomendamos contactar directamente con el centro para conocer edades atendidas, horario y proceso de admisión.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Naranja?",
+          "answer": "El centro se encuentra en Escuelas, s/n, 30570, en la pedanía de Beniaján, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es una escuela infantil; recomendamos confirmar directamente con el centro el ciclo exacto y las edades atendidas."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968873314 o escribir a 30012021@murciaeduca.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "publico_autonomico",
+      "codigo_centro_carm": "30012021",
+      "pedania": "Beniaján"
+    },
+    {
+      "slug": "beniajan-murcia",
+      "name": "Beniaján",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Escuelas, s/n",
+        "postal_code": "30367",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "Beniaján",
+        "latitude": 37.97335099428892,
+        "longitude": -1.0717030987143517
+      },
+      "contact": {
+        "phone": "968820198",
+        "email": "30009642@murciaeduca.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "Lunes a viernes de 8:15 a 16:00 h, con servicio de matinal desde las 7:30 h",
+      "services": [
+        "comedor",
+        "servicio-madrugadores"
+      ],
+      "short_description": "Beniaján es una de las siete escuelas infantiles municipales de Murcia, gestionada por el Ayuntamiento y situada en Calle Escuelas, s/n, 30367, en Beniaján. Atiende el primer ciclo de educación infantil, de 0 a 3 años, con servicio de comedor y matinal. El acceso se tramita mediante el proceso anual de admisión municipal.",
+      "long_description": "Beniaján es una de las siete escuelas infantiles municipales que gestiona el Ayuntamiento de Murcia a través de su Patronato de Escuelas Infantiles, con sede en Calle Escuelas, s/n, 30367, en la pedanía de Beniaján.\n\nComo el resto de la red municipal (que suma 6 escuelas más, repartidas entre la capital y varias pedanías del término municipal), atiende el primer ciclo de educación infantil: niños de 4 meses a 3 años, organizados en aulas nido para los bebés de menor edad y aulas de 1 y 2 años para el resto. El horario habitual es de 8:15 a 16:00 h, con posibilidad de entrada anticipada desde las 7:30 h mediante el servicio de matinal, y todas las escuelas cuentan con servicio de comedor con menús adaptados a estas edades.\n\nEl acceso a una plaza no es directo: se tramita cada curso mediante un proceso de admisión municipal con baremación pública (empadronamiento, situación laboral y familiar, entre otros criterios), y la demanda suele superar la oferta, por lo que conviene informarse con antelación sobre plazos de preinscripción. Para más información sobre plazas y calendario, el Patronato de Escuelas Infantiles del Ayuntamiento de Murcia atiende en la calle Amberes, 3.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Beniaján?",
+          "answer": "El centro se encuentra en Calle Escuelas, s/n, 30367, en la pedanía de Beniaján, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende esta escuela infantil municipal?",
+          "answer": "Atiende a niños de 4 meses a 3 años, organizados en aulas nido para los más pequeños y aulas de 1 y 2 años para el resto."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro público, una de las siete escuelas infantiles municipales gestionadas por el Ayuntamiento de Murcia a través de su Patronato de Escuelas Infantiles."
+        },
+        {
+          "question": "¿Tiene servicio de comedor y horario ampliado?",
+          "answer": "Sí. Todas las escuelas infantiles municipales de Murcia ofrecen comedor y servicio de matinal desde las 7:30 h, con horario lectivo de 8:15 a 16:00 h."
+        },
+        {
+          "question": "¿Cómo se solicita una plaza?",
+          "answer": "El acceso se tramita mediante el proceso anual de admisión del Ayuntamiento de Murcia, con baremación pública. Dada la alta demanda de la red municipal, conviene informarse con antelación sobre los plazos de preinscripción."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968820198 o escribir a 30009642@murciaeduca.es. También puedes dirigirte al Patronato de Escuelas Infantiles del Ayuntamiento de Murcia (C/ Amberes, 3) para consultas sobre el proceso de admisión."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [
+        "https://www.informajoven.org/info/educacion/B_9_2.asp"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "publico_municipal",
+      "codigo_centro_carm": "30009642",
+      "pedania": "Beniaján"
+    },
+    {
+      "slug": "aepio-murcia",
+      "name": "Aepio",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Alcalde Clemente García - Parcela 20",
+        "postal_code": "30169",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "San Ginés",
+        "latitude": 37.95533518306911,
+        "longitude": -1.2612531334161758
+      },
+      "contact": {
+        "phone": "968836500",
+        "email": "info@ceiaepio.es",
+        "website": "https://ceiaepio.es/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": "Lunes a viernes de 7:30 a 17:30 h",
+      "services": [
+        "cocina-propia",
+        "patio-exterior"
+      ],
+      "short_description": "Ubicado en Calle Alcalde Clemente García - Parcela 20, 30169, en la pedanía de San Ginés (Murcia), Aepio es una guardería privada que atiende a niños de 0 a 3 años. El propio centro confirma en su web cocina propia y amplio patio/huerto exterior. Recomendamos contactar directamente para conocer plazas disponibles.",
+      "long_description": "Aepio es un centro privado de educación infantil de primer ciclo situado en Calle Alcalde Clemente García - Parcela 20, 30169, en la pedanía de San Ginés (Murcia), dedicado a niños de 0 a 3 años. Su presencia en el mapa escolar de la Consejería de Educación de la Región de Murcia confirma su autorización como centro de esta etapa educativa.\n\nSegún la información publicada en su propia web, el centro ofrece: Cocina propia, huerto/jardín escolar de más de 2.000 m², ludoteca, apoyo a la lactancia. El horario habitual es: lunes a viernes de 7:30 a 17:30 h.\n\nEstos datos proceden directamente de la web oficial del centro, por lo que pueden variar de un curso a otro. Antes de solicitar plaza, recomendamos confirmar con Aepio la disponibilidad, precios y condiciones actualizadas de matrícula.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Aepio?",
+          "answer": "El centro se encuentra en Calle Alcalde Clemente García - Parcela 20, 30169, en la pedanía de San Ginés, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968836500 o escribir a info@ceiaepio.es, o visitar https://ceiaepio.es/."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia y de la web oficial del centro. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [
+        "https://ceiaepio.es/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30019696",
+      "pedania": "San Ginés"
+    },
+    {
+      "slug": "la-ermita-murcia",
+      "name": "La Ermita",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Los Huertos, 10",
+        "postal_code": "30150",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "La Alberca",
+        "latitude": 37.943450985476375,
+        "longitude": -1.1415191553533077
+      },
+      "contact": {
+        "phone": "968843104",
+        "email": "30012811@murciaeduca.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "Lunes a viernes de 8:15 a 16:00 h, con servicio de matinal desde las 7:30 h",
+      "services": [
+        "comedor",
+        "servicio-madrugadores"
+      ],
+      "short_description": "La Ermita es una de las siete escuelas infantiles municipales de Murcia, gestionada por el Ayuntamiento y situada en Calle Los Huertos, 10, 30150, en La Alberca. Atiende el primer ciclo de educación infantil, de 0 a 3 años, con servicio de comedor y matinal. El acceso se tramita mediante el proceso anual de admisión municipal.",
+      "long_description": "La Ermita es una de las siete escuelas infantiles municipales que gestiona el Ayuntamiento de Murcia a través de su Patronato de Escuelas Infantiles, con sede en Calle Los Huertos, 10, 30150, en la pedanía de La Alberca.\n\nComo el resto de la red municipal (que suma 6 escuelas más, repartidas entre la capital y varias pedanías del término municipal), atiende el primer ciclo de educación infantil: niños de 4 meses a 3 años, organizados en aulas nido para los bebés de menor edad y aulas de 1 y 2 años para el resto. El horario habitual es de 8:15 a 16:00 h, con posibilidad de entrada anticipada desde las 7:30 h mediante el servicio de matinal, y todas las escuelas cuentan con servicio de comedor con menús adaptados a estas edades.\n\nEl acceso a una plaza no es directo: se tramita cada curso mediante un proceso de admisión municipal con baremación pública (empadronamiento, situación laboral y familiar, entre otros criterios), y la demanda suele superar la oferta, por lo que conviene informarse con antelación sobre plazos de preinscripción. Para más información sobre plazas y calendario, el Patronato de Escuelas Infantiles del Ayuntamiento de Murcia atiende en la calle Amberes, 3.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Ermita?",
+          "answer": "El centro se encuentra en Calle Los Huertos, 10, 30150, en la pedanía de La Alberca, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende esta escuela infantil municipal?",
+          "answer": "Atiende a niños de 4 meses a 3 años, organizados en aulas nido para los más pequeños y aulas de 1 y 2 años para el resto."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro público, una de las siete escuelas infantiles municipales gestionadas por el Ayuntamiento de Murcia a través de su Patronato de Escuelas Infantiles."
+        },
+        {
+          "question": "¿Tiene servicio de comedor y horario ampliado?",
+          "answer": "Sí. Todas las escuelas infantiles municipales de Murcia ofrecen comedor y servicio de matinal desde las 7:30 h, con horario lectivo de 8:15 a 16:00 h."
+        },
+        {
+          "question": "¿Cómo se solicita una plaza?",
+          "answer": "El acceso se tramita mediante el proceso anual de admisión del Ayuntamiento de Murcia, con baremación pública. Dada la alta demanda de la red municipal, conviene informarse con antelación sobre los plazos de preinscripción."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968843104 o escribir a 30012811@murciaeduca.es. También puedes dirigirte al Patronato de Escuelas Infantiles del Ayuntamiento de Murcia (C/ Amberes, 3) para consultas sobre el proceso de admisión."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [
+        "https://www.informajoven.org/info/educacion/B_9_2.asp"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "publico_municipal",
+      "codigo_centro_carm": "30012811",
+      "pedania": "La Alberca"
+    },
+    {
+      "slug": "mi-pequena-escuela-murcia",
+      "name": "Mi Pequeña Escuela",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Emilio Macabich, Nº 14, Planta Bajo 2",
+        "postal_code": "30150",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "La Alberca",
+        "latitude": 37.94110497459769,
+        "longitude": -1.146755162626505
+      },
+      "contact": {
+        "phone": "634601304",
+        "email": "info.mipequeñaescuela2.0@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Mi Pequeña Escuela es un centro privado de educación infantil situado en Calle Emilio Macabich, Nº 14, Planta Bajo 2, 30150, en la pedanía de La Alberca (Murcia). Figura en el mapa escolar de la Región de Murcia como centro de primer ciclo, dedicado a niños de 0 a 3 años. Recomendamos contactar directamente con el centro para conocer plazas, horarios y servicios disponibles.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Mi Pequeña Escuela?",
+          "answer": "El centro se encuentra en Calle Emilio Macabich, Nº 14, Planta Bajo 2, 30150, en la pedanía de La Alberca, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 634601304 o escribir a info.mipequeñaescuela2.0@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30013827",
+      "pedania": "La Alberca"
+    },
+    {
+      "slug": "el-arbolico-murcia",
+      "name": "El Arbolico",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Calderón de la Barca, 24",
+        "postal_code": "30150",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "La Alberca",
+        "latitude": 37.94825691729784,
+        "longitude": -1.1370440572500229
+      },
+      "contact": {
+        "phone": "649102079",
+        "email": "enrique@guarderiaenriquemunoz.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "El Arbolico es una guardería privada situada en Calle Calderón de la Barca, 24, 30150, en la pedanía de La Alberca (Murcia), dedicada a niños de 0 a 3 años según consta en el mapa escolar de la Región de Murcia. Esta ficha se limita a los datos confirmados en la fuente oficial; para conocer el resto de detalles, recomendamos contactar con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado El Arbolico?",
+          "answer": "El centro se encuentra en Calle Calderón de la Barca, 24, 30150, en la pedanía de La Alberca, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 649102079 o escribir a enrique@guarderiaenriquemunoz.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30018451",
+      "pedania": "La Alberca"
+    },
+    {
+      "slug": "san-roque-murcia",
+      "name": "San Roque",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Subida a la Fuensanta, s/n",
+        "postal_code": "30157",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "Algezares",
+        "latitude": 37.941671926528215,
+        "longitude": -1.1163940653204918
+      },
+      "contact": {
+        "phone": "968843510",
+        "email": "30012793@murciaeduca.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "Lunes a viernes de 8:15 a 16:00 h, con servicio de matinal desde las 7:30 h",
+      "services": [
+        "comedor",
+        "servicio-madrugadores"
+      ],
+      "short_description": "Situada en Subida a la Fuensanta, s/n, 30157, en Algezares, San Roque forma parte de la red de escuelas infantiles municipales del Ayuntamiento de Murcia. Es un centro público de primer ciclo (0-3 años) que ofrece comedor y servicio de matinal desde las 7:30 h. La admisión se realiza a través de la convocatoria municipal anual.",
+      "long_description": "San Roque es una de las siete escuelas infantiles municipales que gestiona el Ayuntamiento de Murcia a través de su Patronato de Escuelas Infantiles, con sede en Subida a la Fuensanta, s/n, 30157, en la pedanía de Algezares.\n\nComo el resto de la red municipal (que suma 6 escuelas más, repartidas entre la capital y varias pedanías del término municipal), atiende el primer ciclo de educación infantil: niños de 4 meses a 3 años, organizados en aulas nido para los bebés de menor edad y aulas de 1 y 2 años para el resto. El horario habitual es de 8:15 a 16:00 h, con posibilidad de entrada anticipada desde las 7:30 h mediante el servicio de matinal, y todas las escuelas cuentan con servicio de comedor con menús adaptados a estas edades.\n\nEl acceso a una plaza no es directo: se tramita cada curso mediante un proceso de admisión municipal con baremación pública (empadronamiento, situación laboral y familiar, entre otros criterios), y la demanda suele superar la oferta, por lo que conviene informarse con antelación sobre plazos de preinscripción. Para más información sobre plazas y calendario, el Patronato de Escuelas Infantiles del Ayuntamiento de Murcia atiende en la calle Amberes, 3.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado San Roque?",
+          "answer": "El centro se encuentra en Subida a la Fuensanta, s/n, 30157, en la pedanía de Algezares, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende esta escuela infantil municipal?",
+          "answer": "Atiende a niños de 4 meses a 3 años, organizados en aulas nido para los más pequeños y aulas de 1 y 2 años para el resto."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro público, una de las siete escuelas infantiles municipales gestionadas por el Ayuntamiento de Murcia a través de su Patronato de Escuelas Infantiles."
+        },
+        {
+          "question": "¿Tiene servicio de comedor y horario ampliado?",
+          "answer": "Sí. Todas las escuelas infantiles municipales de Murcia ofrecen comedor y servicio de matinal desde las 7:30 h, con horario lectivo de 8:15 a 16:00 h."
+        },
+        {
+          "question": "¿Cómo se solicita una plaza?",
+          "answer": "El acceso se tramita mediante el proceso anual de admisión del Ayuntamiento de Murcia, con baremación pública. Dada la alta demanda de la red municipal, conviene informarse con antelación sobre los plazos de preinscripción."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968843510 o escribir a 30012793@murciaeduca.es. También puedes dirigirte al Patronato de Escuelas Infantiles del Ayuntamiento de Murcia (C/ Amberes, 3) para consultas sobre el proceso de admisión."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [
+        "https://www.informajoven.org/info/educacion/B_9_2.asp"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "publico_municipal",
+      "codigo_centro_carm": "30012793",
+      "pedania": "Algezares"
+    },
+    {
+      "slug": "la-rivera-murcia",
+      "name": "La Rivera",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Carril de los Leales, Nº 8",
+        "postal_code": "30009",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "La Arboleja",
+        "latitude": 37.97963909804821,
+        "longitude": -1.1571366526186466
+      },
+      "contact": {
+        "phone": "968297452",
+        "email": "info@centroinfantillarivera.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Localizada en Carril de los Leales, Nº 8, 30009, en la pedanía de La Arboleja (Murcia), La Rivera es un centro privado de educación infantil de primer ciclo, incluido en el mapa escolar de la Región de Murcia. No hay constancia oficial de servicios adicionales como comedor o idiomas, así que recomendamos confirmarlos directamente con el centro antes de solicitar información.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado La Rivera?",
+          "answer": "El centro se encuentra en Carril de los Leales, Nº 8, 30009, en la pedanía de La Arboleja, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968297452 o escribir a info@centroinfantillarivera.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30018047",
+      "pedania": "La Arboleja"
+    },
+    {
+      "slug": "campanilla-murcia",
+      "name": "Campanilla",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Francisco de Quevedo, 15",
+        "postal_code": "30110",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "Cabezo de Torres",
+        "latitude": 38.02420693449676,
+        "longitude": -1.133142113685608
+      },
+      "contact": {
+        "phone": "968964002",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Campanilla es un centro privado de educación infantil situado en Calle Francisco de Quevedo, 15, 30110, en la pedanía de Cabezo de Torres (Murcia). Figura en el mapa escolar de la Región de Murcia como centro de primer ciclo, dedicado a niños de 0 a 3 años. Recomendamos contactar directamente con el centro para conocer plazas, horarios y servicios disponibles.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Campanilla?",
+          "answer": "El centro se encuentra en Calle Francisco de Quevedo, 15, 30110, en la pedanía de Cabezo de Torres, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968964002."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30019623",
+      "pedania": "Cabezo de Torres"
+    },
+    {
+      "slug": "guadalupe-murcia",
+      "name": "Guadalupe",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Enrique Tierno Galván, s/n - Urb. Agr",
+        "postal_code": "30107",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "Guadalupe",
+        "latitude": 37.998153967782855,
+        "longitude": -1.1760051548480988
+      },
+      "contact": {
+        "phone": "968834740",
+        "email": "30019601@murciaeduca.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Guadalupe aparece registrada como escuela de educación infantil de titularidad pública en Calle Enrique Tierno Galván, s/n - Urb. Agr, 30107, en la pedanía de Guadalupe (Murcia), según el mapa escolar de la Consejería de Educación de la Región de Murcia. Recomendamos confirmar con el centro los datos de admisión y horario antes de solicitar plaza.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Guadalupe?",
+          "answer": "El centro se encuentra en Calle Enrique Tierno Galván, s/n - Urb. Agr, 30107, en la pedanía de Guadalupe, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es una escuela infantil; recomendamos confirmar directamente con el centro el ciclo exacto y las edades atendidas."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968834740 o escribir a 30019601@murciaeduca.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "publico_autonomico",
+      "codigo_centro_carm": "30019601",
+      "pedania": "Guadalupe"
+    },
+    {
+      "slug": "origami-centro-de-educacion-infantil-bilingue-murcia",
+      "name": "Origami Centro de Educación Infantil Bilingüe",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Plaza Tomas y Valiente, s/n",
+        "postal_code": "30006",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "Puente Tocinos",
+        "latitude": 38.02775792777538,
+        "longitude": -1.090616025030613
+      },
+      "contact": {
+        "phone": "633381120",
+        "email": "info@escuelainfantilorigami.com",
+        "website": "https://www.escuelainfantilorigami.com/"
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [
+        "bilingue",
+        "ingles",
+        "comedor",
+        "horario-ampliado",
+        "musica",
+        "actividades-extraescolares",
+        "verano-campamentos",
+        "orientacion-pedagogica"
+      ],
+      "short_description": "Origami Centro de Educación Infantil Bilingüe, en Plaza Tomas y Valiente, s/n, 30006, en la pedanía de Puente Tocinos (Murcia), es un centro privado de primer ciclo de educación infantil. Su web oficial confirma programa bilingüe, comedor, aula matinal y actividades extraescolares. Antes de solicitar plaza, conviene confirmar horarios y disponibilidad directamente con el centro.",
+      "long_description": "Origami Centro de Educación Infantil Bilingüe es un centro privado de educación infantil de primer ciclo situado en Plaza Tomas y Valiente, s/n, 30006, en la pedanía de Puente Tocinos (Murcia), dedicado a niños de 0 a 3 años. Su presencia en el mapa escolar de la Consejería de Educación de la Región de Murcia confirma su autorización como centro de esta etapa educativa.\n\nSegún la información publicada en su propia web, el centro ofrece: Centro bilingüe, comedor con menús propios, aula matinal, escuela de verano/Navidad, ludoteca, música, logopedia y orientación psicopedagógica, actividades extraescolares.\n\nEstos datos proceden directamente de la web oficial del centro, por lo que pueden variar de un curso a otro. Antes de solicitar plaza, recomendamos confirmar con Origami Centro de Educación Infantil Bilingüe la disponibilidad, precios y condiciones actualizadas de matrícula.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Origami Centro de Educación Infantil Bilingüe?",
+          "answer": "El centro se encuentra en Plaza Tomas y Valiente, s/n, 30006, en la pedanía de Puente Tocinos, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Es un centro bilingüe?",
+          "answer": "Sí, Origami Centro de Educación Infantil Bilingüe confirma en su web que ofrece un programa bilingüe o de inmersión en inglés."
+        },
+        {
+          "question": "¿Tiene servicio de comedor?",
+          "answer": "Sí, el centro confirma en su web que dispone de servicio de comedor."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 633381120 o escribir a info@escuelainfantilorigami.com, o visitar https://www.escuelainfantilorigami.com/."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia y de la web oficial del centro. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [
+        "https://www.escuelainfantilorigami.com/"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30019076",
+      "pedania": "Puente Tocinos"
+    },
+    {
+      "slug": "torreaguera-murcia",
+      "name": "Torreagüera",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Avenida Huerto San Blas, 28",
+        "postal_code": "30579",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "Torreagüera",
+        "latitude": 37.98341799527407,
+        "longitude": -1.051556020975113
+      },
+      "contact": {
+        "phone": "968822555",
+        "email": "30019611@murciaeduca.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Torreagüera es una escuela infantil de titularidad pública situada en Avenida Huerto San Blas, 28, 30579, en la pedanía de Torreagüera (Murcia). Figura en el catálogo de centros de la Consejería de Educación de la Región de Murcia como centro de educación infantil. Recomendamos contactar directamente con el centro para conocer edades atendidas, horario y proceso de admisión.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Torreagüera?",
+          "answer": "El centro se encuentra en Avenida Huerto San Blas, 28, 30579, en la pedanía de Torreagüera, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es una escuela infantil; recomendamos confirmar directamente con el centro el ciclo exacto y las edades atendidas."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968822555 o escribir a 30019611@murciaeduca.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "publico_autonomico",
+      "codigo_centro_carm": "30019611",
+      "pedania": "Torreagüera"
+    },
+    {
+      "slug": "anitos-felices-murcia",
+      "name": "Añitos Felices",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Los Ángeles, Edif. Los Ángeles",
+        "postal_code": "30158",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "San José de la Montaña",
+        "latitude": 37.95987566001713,
+        "longitude": -1.0817783139646053
+      },
+      "contact": {
+        "phone": "680252943",
+        "email": "veronicacampoysanchez@gmail.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Localizada en Calle Los Ángeles, Edif. Los Ángeles, 30158, en la pedanía de San José de la Montaña (Murcia), Añitos Felices es un centro privado de educación infantil de primer ciclo, incluido en el mapa escolar de la Región de Murcia. No hay constancia oficial de servicios adicionales como comedor o idiomas, así que recomendamos confirmarlos directamente con el centro antes de solicitar información.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Añitos Felices?",
+          "answer": "El centro se encuentra en Calle Los Ángeles, Edif. Los Ángeles, 30158, en la pedanía de San José de la Montaña, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 680252943 o escribir a veronicacampoysanchez@gmail.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30020819",
+      "pedania": "San José de la Montaña"
+    },
+    {
+      "slug": "el-atelier-de-la-luna-murcia",
+      "name": "El Atelier de la Luna",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Félix Esteban Guerrero, Nº8",
+        "postal_code": "30007",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "Santiago y Zaraiche",
+        "latitude": 38.00164394080639,
+        "longitude": -1.1240581423044205
+      },
+      "contact": {
+        "phone": "968239000",
+        "email": "eraseunavezmurcia@ceieraseunavez.com",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "En Calle Félix Esteban Guerrero, Nº8, 30007, en la pedanía de Santiago y Zaraiche (Murcia) se ubica El Atelier de la Luna, una guardería privada de primer ciclo de educación infantil según el mapa escolar oficial de la Región de Murcia. No constan en la fuente consultada datos sobre comedor, horario ampliado o idiomas, por lo que conviene preguntar directamente al centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado El Atelier de la Luna?",
+          "answer": "El centro se encuentra en Calle Félix Esteban Guerrero, Nº8, 30007, en la pedanía de Santiago y Zaraiche, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968239000 o escribir a eraseunavezmurcia@ceieraseunavez.com."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30019398",
+      "pedania": "Santiago y Zaraiche"
+    },
+    {
+      "slug": "bambino-murcia",
+      "name": "Bambino",
+      "type": "guarderia",
+      "ownership": "privado",
+      "address": {
+        "street": "Calle Aristóteles, Nº 6 (Sangonera la Verde)",
+        "postal_code": "30833",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "Sangonera la Verde",
+        "latitude": 37.927525620907545,
+        "longitude": -1.2104988656938076
+      },
+      "contact": {
+        "phone": "647988359",
+        "email": null,
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "Bambino aparece registrada en el mapa escolar de la Región de Murcia como centro privado de educación infantil, con dirección en Calle Aristóteles, Nº 6 (Sangonera la Verde), 30833, en la pedanía de Sangonera la Verde (Murcia). Atiende a niños de 0 a 3 años. Para conocer horarios, servicios y disponibilidad de plazas, lo recomendable es ponerse en contacto con el centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Bambino?",
+          "answer": "El centro se encuentra en Calle Aristóteles, Nº 6 (Sangonera la Verde), 30833, en la pedanía de Sangonera la Verde, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es un centro de educación infantil de primer ciclo, dirigido a niños de 0 a 3 años."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad privada, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 647988359."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "medium",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "privado",
+      "codigo_centro_carm": "30020111",
+      "pedania": "Sangonera la Verde"
+    },
+    {
+      "slug": "ntra-sra-de-los-angeles-murcia",
+      "name": "Ntra. Sra. de los Ángeles",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Calle Comandante Cousteau, s/n",
+        "postal_code": "30833",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "Sangonera la Verde",
+        "latitude": 37.93052491731942,
+        "longitude": -1.2123110331594944
+      },
+      "contact": {
+        "phone": "968869015",
+        "email": "30012801@murciaeduca.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 4,
+        "max_months": 36
+      },
+      "schedule": "Lunes a viernes de 8:15 a 16:00 h, con servicio de matinal desde las 7:30 h",
+      "services": [
+        "comedor",
+        "servicio-madrugadores"
+      ],
+      "short_description": "Situada en Calle Comandante Cousteau, s/n, 30833, en Sangonera la Verde, Ntra. Sra. de los Ángeles forma parte de la red de escuelas infantiles municipales del Ayuntamiento de Murcia. Es un centro público de primer ciclo (0-3 años) que ofrece comedor y servicio de matinal desde las 7:30 h. La admisión se realiza a través de la convocatoria municipal anual.",
+      "long_description": "Ntra. Sra. de los Ángeles es una de las siete escuelas infantiles municipales que gestiona el Ayuntamiento de Murcia a través de su Patronato de Escuelas Infantiles, con sede en Calle Comandante Cousteau, s/n, 30833, en la pedanía de Sangonera la Verde.\n\nComo el resto de la red municipal (que suma 6 escuelas más, repartidas entre la capital y varias pedanías del término municipal), atiende el primer ciclo de educación infantil: niños de 4 meses a 3 años, organizados en aulas nido para los bebés de menor edad y aulas de 1 y 2 años para el resto. El horario habitual es de 8:15 a 16:00 h, con posibilidad de entrada anticipada desde las 7:30 h mediante el servicio de matinal, y todas las escuelas cuentan con servicio de comedor con menús adaptados a estas edades.\n\nEl acceso a una plaza no es directo: se tramita cada curso mediante un proceso de admisión municipal con baremación pública (empadronamiento, situación laboral y familiar, entre otros criterios), y la demanda suele superar la oferta, por lo que conviene informarse con antelación sobre plazos de preinscripción. Para más información sobre plazas y calendario, el Patronato de Escuelas Infantiles del Ayuntamiento de Murcia atiende en la calle Amberes, 3.",
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Ntra. Sra. de los Ángeles?",
+          "answer": "El centro se encuentra en Calle Comandante Cousteau, s/n, 30833, en la pedanía de Sangonera la Verde, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende esta escuela infantil municipal?",
+          "answer": "Atiende a niños de 4 meses a 3 años, organizados en aulas nido para los más pequeños y aulas de 1 y 2 años para el resto."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro público, una de las siete escuelas infantiles municipales gestionadas por el Ayuntamiento de Murcia a través de su Patronato de Escuelas Infantiles."
+        },
+        {
+          "question": "¿Tiene servicio de comedor y horario ampliado?",
+          "answer": "Sí. Todas las escuelas infantiles municipales de Murcia ofrecen comedor y servicio de matinal desde las 7:30 h, con horario lectivo de 8:15 a 16:00 h."
+        },
+        {
+          "question": "¿Cómo se solicita una plaza?",
+          "answer": "El acceso se tramita mediante el proceso anual de admisión del Ayuntamiento de Murcia, con baremación pública. Dada la alta demanda de la red municipal, conviene informarse con antelación sobre los plazos de preinscripción."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968869015 o escribir a 30012801@murciaeduca.es. También puedes dirigirte al Patronato de Escuelas Infantiles del Ayuntamiento de Murcia (C/ Amberes, 3) para consultas sobre el proceso de admisión."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [
+        "https://www.informajoven.org/info/educacion/B_9_2.asp"
+      ],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "publico_municipal",
+      "codigo_centro_carm": "30012801",
+      "pedania": "Sangonera la Verde"
+    },
+    {
+      "slug": "ntra-sra-del-carmen-murcia",
+      "name": "Ntra. Sra. del Carmen",
+      "type": "escuela-infantil",
+      "ownership": "publico",
+      "address": {
+        "street": "Gea y Truyols",
+        "postal_code": "30590",
+        "city_slug": "murcia",
+        "city_name": "Murcia",
+        "district": null,
+        "neighborhood_barrio": "Gea y Truyols",
+        "latitude": 37.88087345659733,
+        "longitude": -1.0108657367527485
+      },
+      "contact": {
+        "phone": "968370126",
+        "email": "30012148@murciaeduca.es",
+        "website": null
+      },
+      "age_range": {
+        "min_months": 0,
+        "max_months": 36
+      },
+      "schedule": null,
+      "services": [],
+      "short_description": "En Gea y Truyols, 30590, en la pedanía de Gea y Truyols (Murcia) se encuentra Ntra. Sra. del Carmen, escuela infantil pública que consta en el mapa escolar de la Región de Murcia. Al tratarse de un centro de educación infantil, atiende a niños en el primer ciclo de esta etapa. Para conocer plazas y horario, lo más fiable es llamar directamente al centro.",
+      "long_description": null,
+      "faqs": [
+        {
+          "question": "¿Dónde está ubicado Ntra. Sra. del Carmen?",
+          "answer": "El centro se encuentra en Gea y Truyols, 30590, en la pedanía de Gea y Truyols, dentro del término municipal de Murcia."
+        },
+        {
+          "question": "¿Qué edades atiende este centro?",
+          "answer": "Es una escuela infantil; recomendamos confirmar directamente con el centro el ciclo exacto y las edades atendidas."
+        },
+        {
+          "question": "¿Es un centro público o privado?",
+          "answer": "Es un centro de titularidad pública, según el mapa escolar de la Consejería de Educación de la Región de Murcia."
+        },
+        {
+          "question": "¿Cómo puedo contactar con el centro?",
+          "answer": "Puedes llamar al teléfono 968370126 o escribir a 30012148@murciaeduca.es."
+        },
+        {
+          "question": "¿Está verificada la información de esta ficha?",
+          "answer": "Los datos proceden del mapa escolar de la Consejería de Educación de la Región de Murcia. Si representas este centro, puedes solicitar una actualización o reclamar la ficha."
+        }
+      ],
+      "is_claimed": false,
+      "is_verified": false,
+      "source_url": "https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros",
+      "source_urls_secondary": [],
+      "verified_at": "2026-07-12",
+      "verification_status": "unverified",
+      "confidence_level": "high",
+      "created_at": "2026-07-12T08:40:31.689Z",
+      "updated_at": "2026-07-12T08:40:31.689Z",
+      "source_group": "publico_autonomico",
+      "codigo_centro_carm": "30012148",
+      "pedania": "Gea y Truyols"
+    }
+  ]
+}

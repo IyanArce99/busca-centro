@@ -1,0 +1,47 @@
+{
+  "_readme": "Registro de centros/candidatos evaluados y descartados durante la construccion del dataset de Cartagena, con motivo explicito. No incluye los 96 colegios/centros con seccion de infantil 3-6 (segundo ciclo) que la API de mapaescolar marca con infantil=S pero cuyo tipo no es 'Escuela de Educacion Infantil' ni 'Centro Privado de Educacion Infantil': esos nunca fueron candidatos de primer ciclo, quedan fuera del filtro de origen documentado en docs/data-sources-cartagena.md (fuera del alcance MVP), no son 'exclusiones' individuales. Este fichero recoge unicamente los 6 casos evaluados uno a uno.",
+  "generated_at": "2026-07-12T00:00:00.000Z",
+  "excluded": [
+    {
+      "name_candidate": "Pipiripao (código CARM 30011806)",
+      "reason": "fuera_de_alcance_mvp_segundo_ciclo",
+      "detail": "El dataset CARM lo marca con tipo='Escuela de Educación Infantil', etiqueta que en Cartagena no distingue de forma fiable primer ciclo (0-3) de segundo ciclo (3-6). Confirmado por noticia oficial del Ayuntamiento de Cartagena (25º aniversario del centro, cartagena.es) que atiende a niños de 3 a 5 años, con proyectos de aula propios de segundo ciclo (AMPA, proyectos comunitarios). No aparece en el listado oficial de las 11 Escuelas Infantiles Municipales de 0-3 años del Ayuntamiento. Fuera del alcance MVP de este proyecto (solo primer ciclo, 0-3 años).",
+      "source_checked": "https://www.cartagena.es/detalle_noticias.asp?id=46786 y https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros"
+    },
+    {
+      "name_candidate": "Hazim / E.E.I. Hazim (código CARM 30008832, La Aparecida)",
+      "reason": "fuera_de_alcance_mvp_segundo_ciclo",
+      "detail": "Igual que Pipiripao: marcado por CARM como 'Escuela de Educación Infantil' con presentacionCorta 'ESCUELA BILINGÜE DE EDUCACIÓN INFANTIL', pero su propia web oficial institucional (murciaeduca.es/eeihazim/sitio/) confirma explícitamente que atiende Educación Infantil de 3 a 5 años, con jornada lectiva ampliada de 8:45 a 14:15 y programa bilingüe avanzado propio de esa etapa. No aparece en el listado municipal de las 11 EEIIMM de 0-3. Fuera del alcance MVP.",
+      "source_checked": "https://www.murciaeduca.es/eeihazim/sitio/"
+    },
+    {
+      "name_candidate": "La Gaviota (código CARM 30019519, Ensanche)",
+      "reason": "ciclo_no_confirmable_con_fuente_oficial_fiable",
+      "detail": "Marcado por CARM como 'Escuela de Educación Infantil' de titularidad pública. No tiene ficha propia en el listado oficial de las 11 Escuelas Infantiles Municipales del Ayuntamiento de Cartagena (educacion.cartagena.es/escuelas_infantiles.asp), a diferencia de las 11 que sí están una a una en ese listado con ficha de detalle propia. Agregadores de terceros (no usados como fuente de datos, solo como señal) mencionan de forma contradictoria un rango de edad 0-3 o 0-6 según la fuente. Ante la imposibilidad de confirmar con una fuente oficial primaria fiable si es centro de primer o segundo ciclo, se excluye por precaución en lugar de asumir 0-3.",
+      "source_checked": "https://educacion.cartagena.es/escuelas_infantiles.asp y https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros"
+    },
+    {
+      "name_candidate": "Los Dolores / Jardines (código CARM 30019520 y 30008662)",
+      "reason": "ciclo_no_confirmable_con_fuente_oficial_fiable",
+      "detail": "Mismo caso que La Gaviota: marcados por CARM como 'Escuela de Educación Infantil' de titularidad pública en la pedanía de Los Dolores, pero sin ficha propia en el listado oficial de las 11 EEIIMM municipales de 0-3 años. Nótese que 'La Cometa de los Dolores' (código CARM 30013611, centro privado) sí se mantiene en el dataset final por estar marcado inequívocamente como 'Centro Privado de Educación Infantil' en CARM, categoría que no presentó ambigüedad de ciclo en ningún caso de este municipio.",
+      "source_checked": "https://educacion.cartagena.es/escuelas_infantiles.asp y https://mapaescolar.murciaeduca.es/mapaescolar-api/api/centros"
+    },
+    {
+      "name_candidate": "Escuela Infantil Municipal del Parque de la Rosa (Ciudad Jardín)",
+      "reason": "datos_insuficientes_centro_de_apertura_muy_reciente",
+      "detail": "Duodécima escuela infantil municipal de Cartagena, confirmada oficialmente por el Ayuntamiento con apertura el 8 de septiembre de 2026 (inversión ~1,7M€, 6 aulas, capacidad aproximada de 120 plazas, cofinanciada con fondos Next Generation UE). No se ha incluido en el dataset final por no disponer de ficha propia en educacion.cartagena.es con dirección exacta (solo 'Parque de la Rosa, Ciudad Jardín, Calle Pedro Díaz' mencionado en prensa, sin número), sin teléfono ni email de contacto propio verificable, y sin coordenadas geocodificables con precisión suficiente en el momento de este sprint. Candidato claro para incorporar en una futura actualización una vez el centro tenga ficha operativa propia en el sitio oficial del Ayuntamiento.",
+      "source_checked": "https://www.cartagena.es/detalle_noticias.asp?id=87047 y https://www.cartagenaactualidad.com/articulo/actualidad/cartagena-finaliza-nueva-escuela-infantil-parque-rosa-supera-1000-plazas-gratuitas-3-anos/20260702123826220091.html"
+    },
+    {
+      "name_candidate": "Listado de Centros Educativos del Ayuntamiento de Cartagena (opendata cartagena.es, categoría genérica sin filtrar ciclo)",
+      "reason": "fuente_evaluada_como_complementaria_no_como_fuente_unica",
+      "detail": "El propio dataset abierto municipal de Cartagena (cartagena.es/api/educacion_centros_educativos) no distingue de forma explícita primer ciclo (0-3) frente a otras etapas en su categoría genérica de 'centros educativos'. Se ha usado únicamente la sección específica de Escuelas Infantiles (educacion.cartagena.es/escuelas_infantiles.asp) como fuente principal municipal, no el listado genérico completo, para evitar arrastrar centros de otras etapas educativas.",
+      "source_checked": "https://www.cartagena.es/api/educacion_centros_educativos/html.asp?cat=1"
+    }
+  ],
+  "stats": {
+    "total_evaluated_as_individual_cases": 6,
+    "total_excluded_from_final_dataset": 5,
+    "total_final_dataset_centers": 17
+  }
+}
