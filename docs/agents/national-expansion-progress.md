@@ -1027,19 +1027,31 @@ esperar acceso MCP a Search Console y datos reales de Madrid/Barcelona/Valencia
 antes de publicar nada de lo integrado (Rondas 1, 2 y 3 completas, todo en
 código, nada en producción salvo las 3 ciudades originales).
 
-## SIGUIENTE ACCIÓN EXACTA
+## SIGUIENTE ACCIÓN EXACTA (actualizado 2026-07-13)
 
-Esperar a que el usuario conceda acceso MCP a Google Search Console. Con esos
-datos: revisar qué tipo de landing/contenido genera impresiones/clics reales en
-Madrid/Barcelona/Valencia, y decidir con el usuario qué zonas publicar primero
-y si el patrón de landings aplicado en las 15 zonas nuevas necesita ajuste antes
-de publicar. No investigar más ciudades hasta esa revisión, salvo que el
-usuario lo pida explícitamente de nuevo.
+**MCP de Search Console CONECTADO y funcionando** (ver memoria
+`project_gsc_mcp_estado_funcionando`). Primeros datos reales (28 días): el 100%
+de los clics vienen de fichas de centro vía búsquedas navegacionales de nombre;
+las landings genéricas están en evaluación (pos ~50 con solo 7 días indexadas);
+las landings de servicio muestran señal temprana positiva (comedor Madrid pos 6,
+horario-ampliado Barcelona pos 4).
+
+**DECISIÓN DEL USUARIO (2026-07-13): publicación escalonada.** Ronda 1
+(Zaragoza, Murcia, Sevilla, Palma, Málaga, Alicante — 593 centros) se publica
+YA; Rondas 2+3 (391 centros restantes) en ~2 semanas tras vigilar indexación
+por MCP. Racional: el motor SEO demostrado son las fichas (long tail de
+nombres), y cada semana en draft es maduración perdida; el escalonado evita
+multiplicar x5 el sitio de golpe con dominio joven.
+
+Preparadas `data/migrations/publish-ronda1-centers.sql` +
+`rollback-publish-ronda1-centers.sql`. **Orden de ejecución manual por el
+usuario**: primero los 6 `insert-{ciudad}-centers.sql` de Ronda 1 (los INSERT
+nunca se ejecutaron), después `publish-ronda1-centers.sql`. Pendiente en ~2
+semanas: preparar publish de Rondas 2+3 y revisar evolución en Search Console.
 
 **TOTAL ACUMULADO (Rondas 1+2+3): 984 centros nuevos en código, 74 landings
 nuevas, 18 zonas integradas en código además de Madrid/Barcelona/Valencia (21
-zonas totales). Ninguna zona nueva publicada en Supabase — el usuario sigue
-esperando acceso a Search Console antes de publicar cualquiera de ellas.**
+zonas totales).**
 
 **Salamanca — completada (2026-07-12), pendiente auditoría.** Ámbito:
 `refine.municipio=SALAMANCA`, excluye Santa Marta de Tormes, Carbajosa de la

@@ -24,11 +24,19 @@ export const metadata: Metadata = buildMetadata({
 
 export default async function GuarderiasPage() {
   const [allCenters, cities] = await Promise.all([getCenters(), getCities()]);
-  const featuredCities = cities.filter((c) => c.isFeatured).length > 0 ? cities.filter((c) => c.isFeatured) : cities;
   const centerCountByCity = allCenters.reduce<Record<string, number>>((acc, c) => {
     acc[c.address.citySlug] = (acc[c.address.citySlug] ?? 0) + 1;
     return acc;
   }, {});
+  // Only surface cities with published centers (see home page for rationale).
+  const citiesWithCenters = cities.filter((c) => (centerCountByCity[c.slug] ?? 0) > 0);
+  const featuredWithCenters = citiesWithCenters.filter((c) => c.isFeatured);
+  const featuredCities =
+    featuredWithCenters.length > 0
+      ? featuredWithCenters
+      : citiesWithCenters.length > 0
+        ? citiesWithCenters
+        : cities.filter((c) => c.isFeatured);
 
   // One "guarderías en X" entry per city with an indexable landing, instead
   // of a single hardcoded city — grows automatically as new cities qualify.

@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} | Guarderías y escuelas infantiles en Madrid`,
+    default: `${SITE_NAME} | Guarderías y escuelas infantiles en España`,
     template: `%s | ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,

@@ -57,11 +57,22 @@ const HOW_IT_WORKS = [
 
 export default async function HomePage() {
   const [allCenters, cities] = await Promise.all([getCenters(), getCities()]);
-  const featuredCities = cities.filter((c) => c.isFeatured).length > 0 ? cities.filter((c) => c.isFeatured) : cities;
   const centerCountByCity = allCenters.reduce<Record<string, number>>((acc, c) => {
     acc[c.address.citySlug] = (acc[c.address.citySlug] ?? 0) + 1;
     return acc;
   }, {});
+  // Only surface cities that actually have published centers, so a city flagged
+  // as featured but not yet published (draft in Supabase) doesn't render an
+  // empty "0 centros" card. Falls back to all featured cities if none have
+  // centers yet (e.g. local dev with the mock fallback).
+  const citiesWithCenters = cities.filter((c) => (centerCountByCity[c.slug] ?? 0) > 0);
+  const featuredWithCenters = citiesWithCenters.filter((c) => c.isFeatured);
+  const featuredCities =
+    featuredWithCenters.length > 0
+      ? featuredWithCenters
+      : citiesWithCenters.length > 0
+        ? citiesWithCenters
+        : cities.filter((c) => c.isFeatured);
   const cityCountWithCenters = Object.keys(centerCountByCity).length;
   const recentCenters = [...allCenters].sort((a, b) => (a.updatedAt < b.updatedAt ? 1 : -1)).slice(0, 6);
   const featuredGuides = getAllGuides().slice(0, 3);
