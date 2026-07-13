@@ -19,7 +19,10 @@ import type { NextConfig } from "next";
  *     'unsafe-inline' is required. 'unsafe-eval' is only needed by the dev
  *     runtime (Turbopack/HMR), hence it is added conditionally in development.
  *   - style-src: Tailwind + Next inline styles require 'unsafe-inline'.
- *   - connect-src: allow the Supabase backend for API/auth/realtime calls.
+ *   - connect-src: allow the Supabase backend for API/auth/realtime calls, plus
+ *     Vercel Analytics (va.vercel-scripts.com) where page-view events are sent.
+ *   - script-src: also allows va.vercel-scripts.com, the origin the Vercel
+ *     Analytics <Analytics /> component loads its script from.
  *   - font-src: Geist is auto-hosted by next/font at build time, served from
  *     'self' — no Google Fonts domains needed.
  *   - img-src: 'self' plus data:/blob: for inline and generated images.
@@ -28,11 +31,11 @@ const isDev = process.env.NODE_ENV !== "production";
 
 const cspDirectives = [
   "default-src 'self'",
-  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}`,
+  `script-src 'self' 'unsafe-inline' https://va.vercel-scripts.com${isDev ? " 'unsafe-eval'" : ""}`,
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: blob:",
   "font-src 'self'",
-  "connect-src 'self' https://qqjojugpidgjdffgcmso.supabase.co",
+  "connect-src 'self' https://qqjojugpidgjdffgcmso.supabase.co https://va.vercel-scripts.com",
   "object-src 'none'",
   "base-uri 'self'",
   "form-action 'self'",
