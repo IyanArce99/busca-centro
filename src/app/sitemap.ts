@@ -6,6 +6,11 @@ import { getCenters } from "@/lib/data/centers";
 import { isSeoPageIndexableFromCenters } from "@/lib/data/seo-pages";
 import { getAllGuides } from "@/lib/guides";
 
+// Regenerate at most once per hour so the sitemap re-syncs with Supabase
+// (new cities/centers crossing the indexability threshold) without needing a
+// manual redeploy. Without this the sitemap is frozen to the last build.
+export const revalidate = 3600;
+
 // IS_INDEXABLE=false means this deployment (e.g. a Vercel preview) should not
 // be indexed at all. Keep the sitemap empty so crawlers get nothing useful.
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

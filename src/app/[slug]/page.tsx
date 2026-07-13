@@ -18,6 +18,11 @@ interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
+// Revalidate hourly so index/noindex and the rendered center list re-sync with
+// Supabase after new centers are published, instead of staying frozen to the
+// build snapshot until the next deploy.
+export const revalidate = 3600;
+
 // Only pre-render landing pages that have enough real published centers.
 // Pages failing the threshold are excluded from the build rather than being
 // served as near-empty thin-content pages.

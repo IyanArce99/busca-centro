@@ -68,18 +68,35 @@ function rowToCenter(row: CenterRow): Center {
   };
 }
 
+// Supabase caps every query at 1000 rows by default. Once the published
+// catalog exceeds 1000 centers, a single select silently drops the overflow —
+// and because we order by updated_at, whichever cities were edited least
+// recently fall off the end, disappearing from the sitemap and flipping their
+// city landings to noindex. Page through in 1000-row chunks so getCenters()
+// always returns the full published set regardless of catalog size.
+const SUPABASE_PAGE_SIZE = 1000;
+
 export async function getCenters(): Promise<Center[]> {
   const client = getServerClient();
   if (!client) return getMockCenters();
 
-  const { data, error } = await client
-    .from("centers")
-    .select("*")
-    .eq("status", "published")
-    .order("updated_at", { ascending: false });
+  const rows: CenterRow[] = [];
+  for (let from = 0; ; from += SUPABASE_PAGE_SIZE) {
+    const { data, error } = await client
+      .from("centers")
+      .select("*")
+      .eq("status", "published")
+      .order("updated_at", { ascending: false })
+      .range(from, from + SUPABASE_PAGE_SIZE - 1);
 
-  if (error || !data?.length) return getMockCenters();
-  return data.map(rowToCenter);
+    if (error) return rows.length ? rows.map(rowToCenter) : getMockCenters();
+    if (!data?.length) break;
+    rows.push(...data);
+    if (data.length < SUPABASE_PAGE_SIZE) break;
+  }
+
+  if (!rows.length) return getMockCenters();
+  return rows.map(rowToCenter);
 }
 
 export async function getCenterBySlug(slug: string): Promise<Center | undefined> {

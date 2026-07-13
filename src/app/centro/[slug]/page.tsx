@@ -22,6 +22,10 @@ interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
+// Revalidate hourly so newly published centers become indexable and enter the
+// sitemap without waiting for the next deploy.
+export const revalidate = 3600;
+
 export async function generateStaticParams() {
   const centers = await getCenters();
   return centers.filter(isCenterIndexable).map((center) => ({ slug: center.slug }));
