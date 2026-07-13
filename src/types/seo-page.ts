@@ -20,6 +20,22 @@ export interface SeoContentSection {
   paragraphs: string[];
 }
 
+/**
+ * A contextual pointer from a landing page to the in-depth blog guide that
+ * covers the same city topic (price, deadline, aid). The `text` carries the
+ * citable figures as plain copy and the link is rendered as a crawlable
+ * `next/link` "ver guía completa" pointer — figures the guides already state,
+ * surfaced on the landing so the entity is not isolated in the blog.
+ */
+export interface SeoRelatedGuide {
+  /** Plain-text sentence(s) with concrete, guide-sourced figures. */
+  text: string;
+  /** Anchor text for the "read the full guide" link. */
+  linkLabel: string;
+  /** Internal blog guide path, e.g. `/blog/cuanto-cuesta-una-guarderia`. */
+  href: string;
+}
+
 export interface SeoPage {
   id: string;
   slug: string;
@@ -38,6 +54,13 @@ export interface SeoPage {
    * source; the Supabase row mapper leaves this undefined.
    */
   sections?: SeoContentSection[];
+  /**
+   * Optional pointer to the blog guide that covers this city's price/aid/deadline
+   * topic, shown as a short figures paragraph plus a crawlable "ver guía completa"
+   * link. Only set on priority city landings; the Supabase row mapper leaves it
+   * undefined.
+   */
+  relatedGuide?: SeoRelatedGuide;
   /** When true the page is excluded from sitemap, generateStaticParams, and
    *  any internal SEO links. Accessing it directly returns noindex. */
   disabled?: boolean;

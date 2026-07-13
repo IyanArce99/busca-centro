@@ -126,6 +126,31 @@ export const mockGuides: Guide[] = [
         ],
       },
     ],
+    faqs: [
+      {
+        question: "¿Cuánto cuesta una guardería privada en Madrid en 2026?",
+        answer:
+          "En las guarderías y escuelas infantiles privadas de Madrid, las cuotas habituales se mueven orientativamente entre 400 y 800 euros mensuales con comedor, según zona y servicios. La red pública, en cambio, es gratuita en escolaridad desde el curso 2019-2020: se paga aparte solo el comedor y el horario ampliado.",
+      },
+      {
+        question: "¿Cuánto se paga en las escoles bressol municipals de Barcelona?",
+        answer:
+          "Barcelona aplica tarificación social: no hay un precio único, cada familia paga según su renta y el tamaño de la familia. El rango va aproximadamente de 50 a 406 euros mensuales con comedor incluido, según los tramos vigentes. El Ayuntamiento ofrece un simulador oficial para calcular tu cuota antes de solicitar.",
+      },
+      {
+        question: "¿Es gratis la guardería en Valencia?",
+        answer:
+          "Desde el curso 2024-2025, la Generalitat Valenciana aplica la gratuidad del 0-3 años mediante el Bono Infantil. El tramo de 2-3 años es gratuito con carácter general y los tramos de 0-2 tienen bonificaciones muy amplias. Aplica en la red pública y en los centros privados adheridos; muchas familias pagan solo el comedor.",
+      },
+    ],
+    relatedLinks: {
+      intro: "Compara centros y precios en las ciudades de esta guía:",
+      links: [
+        { label: "Guarderías en Madrid", href: "/guarderias-en-madrid" },
+        { label: "Guarderías en Barcelona", href: "/guarderias-en-barcelona" },
+        { label: "Guarderías en Valencia", href: "/guarderias-en-valencia" },
+      ],
+    },
   },
   {
     id: "guide-que-preguntar-visita",
@@ -206,6 +231,26 @@ export const mockGuides: Guide[] = [
         ],
       },
     ],
+    faqs: [
+      {
+        question: "¿Qué diferencia hay entre una guardería pública y una privada?",
+        answer:
+          "Las escuelas infantiles públicas son la opción más económica: gratuitas en Madrid desde 2019 y en la Comunitat Valenciana desde 2024 vía Bono Infantil, y con tarificación social según renta en Barcelona. La plaza se asigna por baremo en un proceso anual con plazos cerrados. Las privadas gestionan sus propias plazas y permiten matrícula en cualquier momento del año si hay hueco.",
+      },
+      {
+        question: "¿Existen guarderías concertadas en el 0-3?",
+        answer:
+          "A diferencia de los colegios de primaria, el concierto educativo formal apenas existe en el primer ciclo (0-3 años) en la mayoría de comunidades. Muchos centros que se anuncian como «concertados» en esta etapa son en realidad privados adheridos a programas de ayudas a la demanda, como el Bono Infantil valenciano: la titularidad y la gestión siguen siendo privadas.",
+      },
+    ],
+    relatedLinks: {
+      intro: "Consulta centros por titularidad en cada ciudad:",
+      links: [
+        { label: "Escuelas infantiles en Madrid", href: "/escuelas-infantiles-en-madrid" },
+        { label: "Escuelas infantiles en Barcelona", href: "/escuelas-infantiles-en-barcelona" },
+        { label: "Escuelas infantiles en Valencia", href: "/escuelas-infantiles-en-valencia" },
+      ],
+    },
   },
   {
     id: "guide-cheque-guarderia",
@@ -250,6 +295,93 @@ export const mockGuides: Guide[] = [
         ],
       },
     ],
+    faqs: [
+      {
+        question: "¿Cuánto dinero es el cheque guardería de Madrid en 2026?",
+        answer:
+          "En la convocatoria 2026, la cuantía oscila orientativamente entre 177 y 283 euros al mes según el nivel de renta familiar. Se aplica como descuento directo en la cuota del centro: no recibes el dinero tú, lo descuenta el centro de la mensualidad. La ayuda cubre los meses del curso escolar.",
+      },
+      {
+        question: "¿Cuándo se solicita el cheque guardería en Madrid?",
+        answer:
+          "El plazo es corto y cambia cada año. En la convocatoria 2026 fue del 19 de mayo al 8 de junio, con solicitud habitualmente telemática. Conviene marcarlo en el calendario en primavera y preparar con antelación la documentación (renta, empadronamiento, matrícula), porque quedarse fuera de plazo significa un año entero sin ayuda.",
+      },
+      {
+        question: "¿En qué centros se puede usar el cheque guardería?",
+        answer:
+          "Solo en centros privados autorizados por la Comunidad de Madrid para el primer ciclo de Educación Infantil. No aplica en la red pública, que ya es gratuita en escolaridad desde 2019, ni en centros sin autorización educativa. La inmensa mayoría de los centros privados autorizados admite el cheque; conviene confirmarlo con cada centro antes de matricular.",
+      },
+    ],
+    relatedLinks: {
+      intro: "Compara guarderías y escuelas infantiles de Madrid donde aplicar la ayuda:",
+      links: [
+        { label: "Guarderías en Madrid", href: "/guarderias-en-madrid" },
+        { label: "Escuelas infantiles en Madrid", href: "/escuelas-infantiles-en-madrid" },
+      ],
+    },
+  },
+  {
+    id: "guide-cheque-guarderia-subsanacion-julio-2026",
+    slug: "cheque-guarderia-madrid-subsanacion-julio-2026",
+    title: "Cheque guardería Madrid 2026-2027: plazo de subsanación abierto hasta el 23 de julio",
+    excerpt:
+      "La Comunidad de Madrid ha abierto el plazo de subsanación de las becas de Educación Infantil 2026-2027 del 10 al 23 de julio de 2026. Qué es, a quién afecta y cómo revisar tu solicitud.",
+    category: "Precios y ayudas",
+    publishedAt: "2026-07-13",
+    updatedAt: "2026-07-13",
+    readingTimeMinutes: 4,
+    content: [
+      "La Comunidad de Madrid ha abierto el plazo de subsanación de las becas de escolarización en el primer ciclo de Educación Infantil —el conocido «cheque guardería»— para el curso 2026-2027. El periodo para subsanar solicitudes va del 10 al 23 de julio de 2026, ambos inclusive.",
+      "Esto no es un nuevo plazo de solicitud: la presentación ordinaria de solicitudes para el curso 2026-2027 se cerró en primavera (fue del 19 de mayo al 8 de junio de 2026). La subsanación es la fase en la que las familias que ya presentaron su solicitud pueden corregir errores o aportar documentación que faltaba, después de que la Administración publique los listados provisionales. Si presentaste la solicitud y aparece como excluida o con documentación pendiente, esta es la ventana para arreglarlo.",
+    ],
+    sections: [
+      {
+        heading: "A quién afecta este plazo",
+        paragraphs: [
+          "Afecta a las familias con hijos de 0 a 3 años que solicitaron el cheque guardería para el curso 2026-2027 y cuya solicitud figura en los listados provisionales como excluida, con reparos o con documentación incompleta. Si tu solicitud fue admitida sin incidencias, no necesitas hacer nada en esta fase.",
+          "Conviene revisar el estado de la solicitud en la sede electrónica de la Comunidad de Madrid dentro del plazo: quien no subsane a tiempo un defecto subsanable puede quedar fuera de la ayuda para todo el curso, aunque cumpliera los requisitos de fondo.",
+        ],
+      },
+      {
+        heading: "Cuantía de la ayuda para 2026-2027",
+        paragraphs: [
+          "Según la convocatoria, la beca es de 177 euros mensuales, abonados en los meses en los que el menor asista efectivamente al centro durante el periodo escolar (entre el 1 de septiembre de 2026 y el 31 de julio de 2027), lo que supone una cuantía total de hasta 1.947 euros. Esa cantidad se incrementa hasta 283 euros mensuales para las familias que obtienen 5 puntos en el criterio de ingresos familiares.",
+          "La ayuda se aplica como descuento en la cuota del centro y solo es válida en centros privados autorizados por la Comunidad de Madrid para el primer ciclo de Educación Infantil. Confirma siempre las cifras y condiciones exactas en los canales oficiales antes de hacer números definitivos.",
+        ],
+      },
+      {
+        heading: "Cómo revisar y subsanar tu solicitud",
+        paragraphs: [
+          "Consulta los listados provisionales y el estado de tu solicitud en la sede electrónica de la Comunidad de Madrid, revisa el motivo concreto de exclusión o el documento que falta, y presenta la subsanación por el mismo canal telemático antes del 23 de julio de 2026. Ten a mano la documentación habitual (renta, empadronamiento, matrícula en el centro).",
+          "Si buscas centro donde aplicar la ayuda para el próximo curso, puedes comparar guarderías y escuelas infantiles privadas de Madrid en nuestro directorio y confirmar con cada centro cómo gestiona el cheque guardería.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Qué es el plazo de subsanación del cheque guardería en Madrid?",
+        answer:
+          "Es la fase, del 10 al 23 de julio de 2026, en la que las familias que ya solicitaron la beca de Educación Infantil 2026-2027 pueden corregir errores o aportar documentación que faltaba, después de publicarse los listados provisionales. No es un nuevo plazo de solicitud: la presentación ordinaria se cerró el 8 de junio de 2026.",
+      },
+      {
+        question: "¿Cuánto es el cheque guardería de Madrid para el curso 2026-2027?",
+        answer:
+          "La beca es de 177 euros mensuales durante los meses de asistencia efectiva entre septiembre de 2026 y julio de 2027, hasta un total de 1.947 euros. La cuantía sube a 283 euros mensuales para las familias que obtienen 5 puntos en el criterio de ingresos familiares.",
+      },
+      {
+        question: "¿Qué pasa si no subsano mi solicitud a tiempo?",
+        answer:
+          "Quien no corrija a tiempo un defecto subsanable de su solicitud puede quedar excluido de la ayuda para todo el curso 2026-2027, aunque cumpliera los requisitos de fondo. Por eso conviene revisar el estado de la solicitud en la sede electrónica dentro del plazo del 10 al 23 de julio.",
+      },
+    ],
+    relatedLinks: {
+      intro: "Más información y centros donde aplicar la ayuda:",
+      links: [
+        { label: "Guía completa del cheque guardería", href: "/blog/que-es-el-cheque-guarderia" },
+        { label: "Guarderías en Madrid", href: "/guarderias-en-madrid" },
+        { label: "Escuelas infantiles en Madrid", href: "/escuelas-infantiles-en-madrid" },
+      ],
+    },
   },
   {
     id: "guide-guarderias-bilingues",
@@ -366,6 +498,30 @@ export const mockGuides: Guide[] = [
         ],
       },
     ],
+    faqs: [
+      {
+        question: "¿Cuándo se pide plaza en una escuela infantil pública de Madrid?",
+        answer:
+          "La solicitud se presenta una vez al año, en un plazo que suele abrirse en abril para el curso que empieza en septiembre. Como referencia, en el proceso para el curso 2026-2027 el plazo fue del 6 al 17 de abril. Las fechas exactas se publican cada año en los canales oficiales del Ayuntamiento y de la Comunidad de Madrid.",
+      },
+      {
+        question: "¿Cómo se asignan las plazas en las escuelas infantiles públicas de Madrid?",
+        answer:
+          "Las plazas se asignan por puntuación. Los criterios habituales incluyen hermanos ya matriculados en el centro, proximidad del domicilio o del lugar de trabajo, situación laboral de los tutores, renta familiar, familia numerosa o monoparental y discapacidad en la unidad familiar. El detalle y los puntos de cada criterio se publican con cada convocatoria.",
+      },
+      {
+        question: "¿Qué hago si no consigo plaza pública en Madrid?",
+        answer:
+          "Quedas en lista de espera del centro, que se mueve durante el verano y el primer trimestre por renuncias y traslados. Como plan B, muchas familias reservan en un centro privado, donde el cheque guardería de la Comunidad de Madrid puede reducir la cuota entre 177 y 283 euros mensuales según renta, y renuncian si la pública llega después.",
+      },
+    ],
+    relatedLinks: {
+      intro: "Ten localizadas las alternativas de tu zona en Madrid:",
+      links: [
+        { label: "Escuelas infantiles en Madrid", href: "/escuelas-infantiles-en-madrid" },
+        { label: "Guarderías en Madrid", href: "/guarderias-en-madrid" },
+      ],
+    },
   },
   {
     id: "guide-preinscripcio-bressol-barcelona",
@@ -410,6 +566,30 @@ export const mockGuides: Guide[] = [
         ],
       },
     ],
+    faqs: [
+      {
+        question: "¿Cuándo es la preinscripció de las escoles bressol de Barcelona?",
+        answer:
+          "El plazo se abre cada primavera para el curso siguiente. Como referencia, para el curso 2026-2027 fue del 4 al 15 de mayo, con solicitud telemática indicando varios centros por orden de preferencia. Las fechas exactas se publican cada año en el portal de escoles bressol del Ayuntamiento de Barcelona.",
+      },
+      {
+        question: "¿Cómo se asignan las plazas en las escoles bressol de Barcelona?",
+        answer:
+          "Las plazas se adjudican por puntos. Los criterios clásicos son hermanos ya escolarizados en el centro, proximidad del domicilio o del trabajo, renta (con atención a situaciones de vulnerabilidad) y circunstancias familiares específicas. En caso de empate, se resuelve por sorteo público. El detalle exacto de puntos se publica en cada convocatoria.",
+      },
+      {
+        question: "¿Cuánto cuesta una escola bressol municipal de Barcelona?",
+        answer:
+          "Barcelona no tiene una cuota única: aplica tarificació social, de modo que cada familia paga según su renta y tamaño, en un rango que va aproximadamente de 50 a 406 euros mensuales con comedor incluido, según los tramos vigentes. El Ayuntamiento ofrece un simulador oficial para calcular tu cuota antes de solicitar.",
+      },
+    ],
+    relatedLinks: {
+      intro: "Compara la oferta pública y privada de cada distrito de Barcelona:",
+      links: [
+        { label: "Escuelas infantiles en Barcelona", href: "/escuelas-infantiles-en-barcelona" },
+        { label: "Guarderías en Barcelona", href: "/guarderias-en-barcelona" },
+      ],
+    },
   },
   {
     id: "guide-bono-infantil-valencia",
@@ -447,5 +627,34 @@ export const mockGuides: Guide[] = [
         ],
       },
     ],
+    faqs: [
+      {
+        question: "¿Qué es el Bono Infantil de la Comunitat Valenciana?",
+        answer:
+          "Es una ayuda de la Generalitat Valenciana que, desde el curso 2024-2025, aplica la gratuidad de la educación infantil de 0 a 3 años. Se gestiona directamente entre la administración y el centro, sin que la familia tenga que hacer ningún trámite específico para cobrarla: simplemente ve la cuota reducida o eliminada.",
+      },
+      {
+        question: "¿Qué tramos de edad cubre el Bono Infantil en Valencia?",
+        answer:
+          "El tramo de 2-3 años es gratuito con carácter general para todas las familias. En los tramos de 0-1 y 1-2 años, las bonificaciones son muy amplias y dependen de la convocatoria vigente, de modo que muchas familias pagan poco o nada también en esas edades.",
+      },
+      {
+        question: "¿Qué costes no cubre el Bono Infantil?",
+        answer:
+          "El bono cubre el servicio educativo básico del primer ciclo, pero puede dejar fuera el comedor, el horario ampliado (matinera o vespertina) y las actividades o servicios complementarios que cada centro ofrezca. Una familia valenciana típica con un niño de 2 años paga hoy el comedor y poco más; conviene pedir siempre el desglose.",
+      },
+      {
+        question: "¿En qué centros se aplica el Bono Infantil de Valencia?",
+        answer:
+          "Se aplica tanto en la red pública (escoles infantils municipals y escuelas de la Generalitat) como en los centros privados de primer ciclo adheridos al programa, que son la gran mayoría de los autorizados. El centro lo gestiona directamente, así que conviene confirmar su adhesión al bono antes de matricular.",
+      },
+    ],
+    relatedLinks: {
+      intro: "Consulta los centros de Valencia y confirma su adhesión al bono:",
+      links: [
+        { label: "Escuelas infantiles en Valencia", href: "/escuelas-infantiles-en-valencia" },
+        { label: "Guarderías en Valencia", href: "/guarderias-en-valencia" },
+      ],
+    },
   },
 ];

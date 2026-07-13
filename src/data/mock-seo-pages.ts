@@ -28,6 +28,11 @@ export const mockSeoPages: SeoPage[] = [
         ],
       },
     ],
+    relatedGuide: {
+      text: "En las guarderías y escuelas infantiles privadas de Madrid, las cuotas habituales se mueven orientativamente entre 400 y 800 euros mensuales con comedor según zona y servicios, mientras que la red pública es gratuita en escolaridad desde el curso 2019-2020. El cheque guardería de la Comunidad de Madrid puede reducir la cuota entre 177 y 283 euros al mes según renta en la convocatoria 2026.",
+      linkLabel: "Ver la guía completa de precios y ayudas",
+      href: "/blog/cuanto-cuesta-una-guarderia",
+    },
     outroText:
       "Los datos de cada ficha pueden proceder de fuentes públicas o de información facilitada por el propio centro, y pueden estar pendientes de verificación. Antes de decidir, te recomendamos confirmar plazas, horarios y cuotas directamente con la guardería. Si representas un centro de Madrid, puedes reclamar su ficha para mantener sus datos al día.",
     faqs: [
@@ -86,6 +91,11 @@ export const mockSeoPages: SeoPage[] = [
         ],
       },
     ],
+    relatedGuide: {
+      text: "Las escoles bressol municipals de Barcelona aplican tarificación social: cada familia paga según su renta y tamaño, en un rango que va aproximadamente de 50 a 406 euros mensuales con comedor incluido según los tramos vigentes. En las llars d'infants y guarderías privadas, los rangos habituales son similares o superiores en las zonas céntricas.",
+      linkLabel: "Ver la guía completa de precios y ayudas",
+      href: "/blog/cuanto-cuesta-una-guarderia",
+    },
     outroText:
       "Los datos de cada ficha pueden proceder de fuentes públicas o de información facilitada por el propio centro, y pueden estar pendientes de verificación. Antes de decidir, te recomendamos confirmar plazas, horarios y cuotas directamente con la guardería. Si representas un centro de Barcelona, puedes reclamar su ficha para mantener sus datos al día.",
     faqs: [
@@ -144,6 +154,11 @@ export const mockSeoPages: SeoPage[] = [
         ],
       },
     ],
+    relatedGuide: {
+      text: "Desde el curso 2024-2025, la Generalitat Valenciana aplica la gratuidad del 0-3 años mediante el Bono Infantil: el tramo de 2-3 años es gratuito con carácter general y los tramos de 0-2 tienen bonificaciones muy amplias. Aplica tanto en la red pública como en los centros privados adheridos, que gestionan la ayuda directamente sin trámite para la familia.",
+      linkLabel: "Ver la guía completa del Bono Infantil",
+      href: "/blog/bono-infantil-valencia",
+    },
     outroText:
       "Los datos de cada ficha proceden del Registre de Centres Docents de la Generalitat Valenciana y pueden estar pendientes de verificación o de ampliación por el propio centro. Antes de decidir, te recomendamos confirmar plazas, horarios y precios directamente con la guardería. Si representas un centro de Valencia, puedes reclamar su ficha para mantener sus datos al día.",
     faqs: [
@@ -493,6 +508,11 @@ export const mockSeoPages: SeoPage[] = [
         ],
       },
     ],
+    relatedGuide: {
+      text: "La solicitud de plaza en la red pública se presenta una vez al año, en un plazo que suele abrirse en abril: en el proceso para el curso 2026-2027 fue del 6 al 17 de abril. Si no obtienes plaza pública, el cheque guardería de la Comunidad de Madrid puede reducir la cuota de un centro privado entre 177 y 283 euros mensuales según renta.",
+      linkLabel: "Ver la guía completa para pedir plaza en Madrid",
+      href: "/blog/como-pedir-plaza-escuela-infantil-madrid",
+    },
     outroText:
       "La información de cada escuela infantil puede proceder de registros y fuentes públicas o de datos facilitados por el propio centro, y puede requerir confirmación. Para conocer el proyecto educativo, las plazas y el proceso de admisión, contacta directamente con el centro. Si representas una escuela infantil de Madrid, puedes reclamar su ficha para completarla.",
     faqs: [
@@ -561,6 +581,11 @@ export const mockSeoPages: SeoPage[] = [
         ],
       },
     ],
+    relatedGuide: {
+      text: "El acceso a las escoles bressol municipals se realiza mediante la preinscripció anual del Ayuntamiento de Barcelona: para el curso 2026-2027 el plazo fue del 4 al 15 de mayo. La cuota se calcula por tarificación social, en un rango que va aproximadamente de 50 a 406 euros mensuales con comedor incluido según la renta y el tamaño de la familia.",
+      linkLabel: "Ver la guía completa de la preinscripció",
+      href: "/blog/preinscripcion-escola-bressol-barcelona",
+    },
     outroText:
       "La información de cada escuela infantil puede proceder de registros y fuentes públicas o de datos facilitados por el propio centro, y puede requerir confirmación. Para conocer el proyecto educativo, las plazas y el proceso de admisión, contacta directamente con el centro. Si representas una escuela infantil de Barcelona, puedes reclamar su ficha para completarla.",
     faqs: [
@@ -626,6 +651,11 @@ export const mockSeoPages: SeoPage[] = [
         ],
       },
     ],
+    relatedGuide: {
+      text: "Desde el curso 2024-2025, la Generalitat Valenciana aplica la gratuidad del 0-3 años mediante el Bono Infantil: el tramo de 2-3 años es gratuito con carácter general y los tramos de 0-2 tienen bonificaciones muy amplias. Aplica tanto en la red pública como en los centros privados adheridos; servicios como el comedor o el horario ampliado pueden mantener un coste aparte.",
+      linkLabel: "Ver la guía completa del Bono Infantil",
+      href: "/blog/bono-infantil-valencia",
+    },
     outroText:
       "La información de cada escuela infantil procede del Registre de Centres Docents de la Generalitat Valenciana y puede requerir confirmación directa con el centro, especialmente en aspectos como horario, comedor o proceso de admisión. Si representas una escuela infantil de Valencia, puedes reclamar su ficha para completarla.",
     faqs: [
@@ -1020,6 +1050,13 @@ export const mockSeoPages: SeoPage[] = [
           "Antes de decidir, conviene preguntar directamente al centro cómo gestiona los menús especiales, si hay opción de dieta sin gluten o sin lactosa, y si el precio del comedor está incluido en la cuota mensual o se factura aparte.",
         ],
       },
+      {
+        heading: "Menús, alérgenos e intolerancias: qué preguntar al centro",
+        paragraphs: [
+          "En un comedor infantil el menú suele estar diseñado para las edades de 0 a 3 años, con texturas y raciones adaptadas y, cuando es posible, revisado o supervisado por un profesional de la nutrición. Muchos centros publican el menú mensual y van introduciendo los alimentos de forma progresiva, coordinándose con la familia en el paso de la lactancia a la alimentación complementaria. No podemos confirmar el menú concreto de cada guardería desde aquí, así que la referencia siempre es lo que te facilite el propio centro.",
+          "En cuanto a alergias e intolerancias, lo habitual es que el centro solicite un informe médico o justificante para preparar un menú adaptado (por ejemplo, sin gluten, sin lactosa o sin proteína de huevo) y aplique protocolos de manipulación para evitar contaminaciones cruzadas. Conviene preguntar por escrito cómo gestionan cada caso, si hay coste adicional por el menú especial y quién supervisa la cocina, sobre todo cuando la comida se elabora mediante catering externo en lugar de cocina propia.",
+        ],
+      },
     ],
     outroText:
       "Confirma con cada centro el tipo de menú, cómo gestionan alergias e intolerancias y si el comedor es de cocina propia o catering. Los datos de la ficha pueden proceder de fuentes públicas o del propio centro y estar pendientes de verificación.",
@@ -1033,6 +1070,16 @@ export const mockSeoPages: SeoPage[] = [
         question: "¿Cuántas de estas guarderías tienen cocina propia?",
         answer:
           "Una parte significativa de los centros de este listado indica en su ficha que elabora los menús con cocina propia. Puedes comprobarlo en la descripción de cada centro y confirmarlo directamente antes de solicitar plaza.",
+      },
+      {
+        question: "¿Las guarderías con comedor en Barcelona ofrecen menús para alergias e intolerancias?",
+        answer:
+          "Muchos centros adaptan el menú a alergias e intolerancias frecuentes, como la dieta sin gluten, sin lactosa o sin proteína de huevo, normalmente a partir de un informe o justificante médico. No podemos confirmar la oferta de cada guardería concreta desde el directorio, así que conviene preguntar directamente al centro cómo gestiona los menús especiales, qué protocolos aplica para evitar contaminaciones cruzadas y si suponen un coste añadido.",
+      },
+      {
+        question: "¿El comedor de la guardería tiene cocina propia o funciona con catering?",
+        answer:
+          "Se dan ambos modelos. Algunos centros elaboran la comida en su propia cocina, dentro del mismo edificio, mientras que otros trabajan con un servicio de catering externo especializado en comedores infantiles. Ninguna de las dos fórmulas es intrínsecamente mejor: lo importante es preguntar al centro cómo gestiona el menú, el origen de los alimentos y la manipulación de las dietas especiales. En la ficha de cada guardería puedes ver si consta que dispone de cocina propia.",
       },
       {
         question: "¿Puedo consultar el menú antes de matricular a mi hijo o hija?",

@@ -322,6 +322,16 @@ export default async function HomePage() {
                 <GuideCard key={guide.id} guide={guide} />
               ))}
             </div>
+            <p className="mt-6 text-sm text-slate-600">
+              ¿Quieres saber el precio antes de empezar? Consulta{" "}
+              <Link
+                href="/blog/cuanto-cuesta-una-guarderia"
+                className="font-medium text-sky-700 underline underline-offset-2 hover:text-sky-800"
+              >
+                cuánto cuesta una guardería en 2026
+              </Link>
+              , con rangos por ciudad y ayudas disponibles.
+            </p>
           </div>
         </section>
       ) : null}

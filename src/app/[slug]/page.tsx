@@ -160,6 +160,20 @@ export default async function SeoLandingPage({ params }: PageProps) {
         </div>
       ) : null}
 
+      {seoPage.relatedGuide ? (
+        <section className="max-w-3xl rounded-2xl border border-slate-200 bg-slate-50 p-6">
+          <p className="text-base leading-relaxed text-slate-600">{seoPage.relatedGuide.text}</p>
+          <p className="mt-3">
+            <Link
+              href={seoPage.relatedGuide.href}
+              className="font-semibold text-sky-700 underline underline-offset-2 hover:text-sky-800"
+            >
+              {seoPage.relatedGuide.linkLabel}
+            </Link>
+          </p>
+        </section>
+      ) : null}
+
       <section>
         <h2 className="text-2xl font-bold text-slate-900">Centros disponibles</h2>
         <div className="mt-6">

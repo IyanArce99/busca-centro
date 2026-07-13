@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import GuideCard from "@/components/GuideCard";
 import CTASection from "@/components/CTASection";
+import FAQ from "@/components/FAQ";
 import { getAllGuides, getGuideBySlug, getRelatedGuides } from "@/lib/guides";
 import { buildMetadata } from "@/lib/seo";
+import { faqPageJsonLd } from "@/lib/jsonld";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
 
 interface PageProps {
@@ -46,11 +49,18 @@ export default async function GuidePage({ params }: PageProps) {
     publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
   };
 
+  // Only emit FAQPage schema when the FAQs are actually rendered on the page,
+  // so the structured data always matches the DOM.
+  const faqs = guide.faqs ?? [];
+  const hasFaqs = faqs.length > 0;
+
+  const jsonLd = hasFaqs ? [articleJsonLd, faqPageJsonLd(faqs)] : articleJsonLd;
+
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
     <div className="mx-auto flex max-w-3xl flex-col gap-10 px-4 py-10 sm:px-6">
       <Breadcrumbs items={[{ label: "Inicio", href: "/" }, { label: "Blog", href: "/blog" }, { label: guide.title }]} />
@@ -78,6 +88,27 @@ export default async function GuidePage({ params }: PageProps) {
           </section>
         ))}
       </article>
+
+      {guide.relatedLinks ? (
+        <section className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+          <h2 className="text-lg font-bold text-slate-900">Enlaces útiles</h2>
+          <p className="mt-2 text-base leading-relaxed text-slate-600">{guide.relatedLinks.intro}</p>
+          <ul className="mt-3 flex flex-col gap-2">
+            {guide.relatedLinks.links.map((link) => (
+              <li key={link.href}>
+                <Link
+                  href={link.href}
+                  className="font-semibold text-sky-700 underline underline-offset-2 hover:text-sky-800"
+                >
+                  {link.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
+
+      {hasFaqs ? <FAQ items={faqs} /> : null}
 
       <CTASection
         variant="light"

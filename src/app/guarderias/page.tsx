@@ -45,6 +45,16 @@ export default async function GuarderiasPage() {
     return page && isSeoPageIndexableFromCenters(page, allCenters) ? [{ city, page }] : [];
   });
 
+  // Priority service landing (guarderías con comedor en Barcelona): the head
+  // keyword we want to concentrate internal link equity on. Only linked when
+  // the landing is itself indexable, so we never point internal links at a
+  // thin/noindex page.
+  const comedorBarcelonaPage = getSeoPageBySlug("guarderias-con-comedor-en-barcelona");
+  const comedorBarcelonaLink =
+    comedorBarcelonaPage && isSeoPageIndexableFromCenters(comedorBarcelonaPage, allCenters)
+      ? comedorBarcelonaPage
+      : null;
+
   const breadcrumbs = [{ label: "Inicio", href: "/" }, { label: "Guarderías" }];
   const jsonLd = [breadcrumbJsonLd(breadcrumbs, "/guarderias"), faqPageJsonLd(guarderiasFaqs)];
 
@@ -84,6 +94,23 @@ export default async function GuarderiasPage() {
               </Link>
             </div>
           ))}
+        </section>
+      ) : null}
+
+      {comedorBarcelonaLink ? (
+        <section>
+          <h2 className="text-2xl font-bold text-slate-900">Guarderías por servicio</h2>
+          <p className="mt-2 max-w-2xl text-base leading-relaxed text-slate-600">
+            Si el comedor es determinante para tu día a día, puedes centrar la búsqueda en centros con este servicio.
+            Consulta las{" "}
+            <Link
+              href={`/${comedorBarcelonaLink.slug}`}
+              className="font-semibold text-sky-700 underline underline-offset-2 hover:text-sky-800"
+            >
+              guarderías con comedor en Barcelona
+            </Link>
+            , muchas de ellas con cocina propia, y compara cómo gestionan los menús, las alergias y las intolerancias.
+          </p>
         </section>
       ) : null}
 
