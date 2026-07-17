@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:interdiario.es)",
+      "Bash(npx tsc *)"
+    ]
+  }
+}

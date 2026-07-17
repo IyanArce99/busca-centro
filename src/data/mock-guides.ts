@@ -592,6 +592,74 @@ export const mockGuides: Guide[] = [
     },
   },
   {
+    id: "guide-bono-infantil-valencia-2026-2027",
+    slug: "bono-infantil-valencia-2026-2027",
+    title: "Bono Infantil Valencia 2026-2027: cuantías confirmadas y plazo hasta el 30 de julio",
+    excerpt:
+      "La Generalitat Valenciana mantiene la gratuidad del 0-3 con 163 millones de euros para el curso 2026-2027. Cuantías por tramo de edad, plazo de solicitud y en qué centros aplica.",
+    category: "Precios y ayudas",
+    publishedAt: "2026-07-15",
+    updatedAt: "2026-07-15",
+    readingTimeMinutes: 4,
+    content: [
+      "La Generalitat Valenciana ha confirmado que mantiene por tercer curso consecutivo la gratuidad de la educación infantil de 0 a 3 años, con una inversión de 163 millones de euros para el curso 2026-2027. De esa cantidad, 64,6 millones corresponden al ejercicio 2026 y 98,3 millones al presupuesto de 2027.",
+      "El programa —conocido como Bono Infantil— financia la escolarización en centros privados autorizados de Educación Infantil y en escuelas infantiles municipales de primer ciclo. El dato clave para las familias es el plazo: la presentación ordinaria de solicitudes finaliza el 30 de julio de 2026, con una fase excepcional a partir del 4 de agosto.",
+    ],
+    sections: [
+      {
+        heading: "Cuantías de la ayuda por tramo de edad",
+        paragraphs: [
+          "Para el curso 2026-2027, las ayudas mensuales en centros privados autorizados alcanzan hasta 460 euros para el tramo de 0-1 año, 350 euros para el de 1-2 años y 300 euros para el de 2-3 años. En las escuelas infantiles municipales la financiación se establece mediante módulos por aula, con importes que oscilan entre los 3.680 y los 6.000 euros mensuales.",
+          "Como en cursos anteriores, «gratuidad» no siempre significa coste cero absoluto: el bono cubre el servicio educativo básico, pero servicios como el comedor o el horario ampliado pueden quedar fuera. Confirma siempre con el centro qué te quedaría por pagar cada mes con tu caso concreto, y contrasta las cifras en los canales oficiales de la Generalitat antes de hacer números definitivos.",
+        ],
+      },
+      {
+        heading: "Plazo de solicitud y cambios para este curso",
+        paragraphs: [
+          "El plazo ordinario para presentar solicitudes termina el 30 de julio de 2026. Las solicitudes excepcionales podrán presentarse a partir del 4 de agosto. Este curso la Generalitat ha reforzado el procedimiento digital, ha simplificado algunas obligaciones administrativas y ha adelantado el período de matriculación para evitar duplicidades y agilizar la tramitación.",
+          "El objetivo declarado de estos cambios es que ninguna familia se quede fuera de la gratuidad por motivos burocráticos. Aun así, conviene no apurar el plazo: revisa con tu centro que la solicitud está correctamente presentada antes del 30 de julio.",
+        ],
+      },
+      {
+        heading: "En qué centros aplica y cuántas familias se benefician",
+        paragraphs: [
+          "El bono aplica tanto en la red pública (escoles infantils municipals y escuelas de la Generalitat) como en los centros privados de primer ciclo adheridos al programa, que son la gran mayoría de los autorizados. El centro lo gestiona directamente: la familia ve la cuota reducida o eliminada, sin tener que tramitar el cobro por su cuenta.",
+          "La medida no es menor por volumen: en el curso 2024-2025 se beneficiaron 42.706 alumnos y en el 2025-2026 se superaron las 45.000 solicitudes. Al comparar centros en Valencia, la pregunta clave ya no es «¿cuánto cuesta?» sino «¿está adherido al Bono Infantil y qué me quedaría por pagar cada mes?». Cualquier centro adherido te lo calcula al momento.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Cuánto es el Bono Infantil de Valencia para el curso 2026-2027?",
+        answer:
+          "En centros privados autorizados, las ayudas mensuales alcanzan hasta 460 euros en el tramo de 0-1 año, 350 euros en el de 1-2 años y 300 euros en el de 2-3 años. En las escuelas infantiles municipales la financiación se articula por módulos de aula, entre 3.680 y 6.000 euros mensuales. La Generalitat destina 163 millones de euros al programa este curso.",
+      },
+      {
+        question: "¿Hasta cuándo se puede solicitar el Bono Infantil en Valencia?",
+        answer:
+          "El plazo ordinario de presentación de solicitudes finaliza el 30 de julio de 2026. Las solicitudes excepcionales podrán presentarse a partir del 4 de agosto. Conviene revisar con el centro que la solicitud está correctamente presentada antes de que termine el plazo ordinario.",
+      },
+      {
+        question: "¿En qué centros se aplica el Bono Infantil de Valencia?",
+        answer:
+          "Se aplica en centros privados autorizados de Educación Infantil de primer ciclo adheridos al programa y en escuelas infantiles municipales. El centro gestiona la ayuda directamente, así que la familia ve la cuota reducida o eliminada. Conviene confirmar la adhesión al bono antes de matricular.",
+      },
+      {
+        question: "¿La gratuidad cubre el comedor y el horario ampliado?",
+        answer:
+          "No necesariamente. El Bono Infantil cubre el servicio educativo básico del primer ciclo, pero servicios como el comedor, la matinera o la vespertina y otras actividades complementarias pueden quedar fuera. Conviene pedir siempre al centro el desglose de lo que quedaría por pagar cada mes.",
+      },
+    ],
+    relatedLinks: {
+      intro: "Consulta los centros de Valencia y confirma su adhesión al bono:",
+      links: [
+        { label: "Cómo funciona la gratuidad del 0-3 en Valencia", href: "/blog/bono-infantil-valencia" },
+        { label: "Escuelas infantiles en Valencia", href: "/escuelas-infantiles-en-valencia" },
+        { label: "Guarderías en Valencia", href: "/guarderias-en-valencia" },
+      ],
+    },
+  },
+  {
     id: "guide-bono-infantil-valencia",
     slug: "bono-infantil-valencia",
     title: "Bono Infantil en Valencia: así funciona la gratuidad del 0-3",
@@ -652,6 +720,7 @@ export const mockGuides: Guide[] = [
     relatedLinks: {
       intro: "Consulta los centros de Valencia y confirma su adhesión al bono:",
       links: [
+        { label: "Cuantías y plazo del Bono Infantil 2026-2027", href: "/blog/bono-infantil-valencia-2026-2027" },
         { label: "Escuelas infantiles en Valencia", href: "/escuelas-infantiles-en-valencia" },
         { label: "Guarderías en Valencia", href: "/guarderias-en-valencia" },
       ],
