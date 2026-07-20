@@ -47,17 +47,36 @@ function enrichCenter(row: CenterRow): AdminCenter {
   };
 }
 
+// Supabase caps every query at 1000 rows by default. Same pitfall as the
+// public getCenters() (src/lib/data/centers.ts): once the catalog exceeds
+// 1000 rows, a single select silently drops the overflow — and because we
+// order by updated_at, the least-recently-edited cities (e.g. Madrid) vanish
+// from the dashboard and every stat undercounts. Page through in 1000-row
+// chunks so the admin always sees the full catalog.
+const SUPABASE_PAGE_SIZE = 1000;
+
 /** All centers regardless of status — admin needs to see drafts/archived too. */
 export async function getAllCentersAdmin(): Promise<AdminCenter[]> {
   const client = getServerClient();
   if (!client) return [];
 
-  const { data, error } = await client.from("centers").select("*").order("updated_at", { ascending: false });
-  if (error) {
-    console.error("[admin:getAllCentersAdmin]", error.message);
-    return [];
+  const rows: CenterRow[] = [];
+  for (let from = 0; ; from += SUPABASE_PAGE_SIZE) {
+    const { data, error } = await client
+      .from("centers")
+      .select("*")
+      .order("updated_at", { ascending: false })
+      .range(from, from + SUPABASE_PAGE_SIZE - 1);
+
+    if (error) {
+      console.error("[admin:getAllCentersAdmin]", error.message);
+      return rows.map(enrichCenter);
+    }
+    if (!data?.length) break;
+    rows.push(...data);
+    if (data.length < SUPABASE_PAGE_SIZE) break;
   }
-  return data.map(enrichCenter);
+  return rows.map(enrichCenter);
 }
 
 export async function getCenterByIdAdmin(id: string): Promise<AdminCenter | null> {
