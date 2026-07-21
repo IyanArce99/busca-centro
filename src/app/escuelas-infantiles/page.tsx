@@ -10,7 +10,7 @@ import { AcademicCapIcon, HomeModernIcon, MapPinIcon } from "@/components/Icons"
 import { getCenters } from "@/lib/data/centers";
 import { getCities } from "@/lib/data/cities";
 import { getSeoPageBySlug } from "@/lib/seo-pages";
-import { isSeoPageIndexableFromCenters } from "@/lib/data/seo-pages";
+import { isSeoPageIndexableFromCenters, resolveCityLandingHref } from "@/lib/data/seo-pages";
 import { escuelasInfantilesFaqs } from "@/data/mock-faqs";
 import { buildMetadata } from "@/lib/seo";
 import { faqPageJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
@@ -129,7 +129,7 @@ export default async function EscuelasInfantilesPage() {
               key={city.id}
               city={city}
               centerCount={centerCountByCity[city.slug] ?? 0}
-              href={`/escuelas-infantiles-en-${city.slug}`}
+              href={resolveCityLandingHref(`escuelas-infantiles-en-${city.slug}`, allCenters)}
             />
           ))}
         </div>

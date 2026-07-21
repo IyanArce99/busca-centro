@@ -73,6 +73,23 @@ export { getMockSeoPages as getAllSeoPages };
  *   - City-level page (no service/ownership filter): city needs ≥10 centers total.
  *   - Narrowed page (service or ownership filter): ≥5 centers matching the full filter.
  */
+/**
+ * Resolve the href for a city landing, or `null` when there is nothing safe to
+ * link to.
+ *
+ * City grids used to build hrefs by template (`/guarderias-en-${slug}`) without
+ * checking the landing existed, which shipped hard 404s from the home page and
+ * the hubs — e.g. `/guarderias-en-salamanca`, linked from the home, has no
+ * entry in mock-seo-pages at all. Callers should pass the result straight to
+ * `CityCard`, which renders an unlinked card when it receives `null`, so we
+ * never point internal link equity at a 404 or a noindex page.
+ */
+export function resolveCityLandingHref(slug: string, allCenters: Center[]): string | null {
+  const page = getMockSeoPageBySlug(slug);
+  if (!page || !isSeoPageIndexableFromCenters(page, allCenters)) return null;
+  return `/${page.slug}`;
+}
+
 export function isSeoPageIndexableFromCenters(seoPage: SeoPage, allCenters: Center[]): boolean {
   // A disabled page is never indexable, regardless of center counts.
   if (seoPage.disabled) return false;

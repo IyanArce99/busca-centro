@@ -5,8 +5,13 @@ import { MapPinIcon, BuildingOfficeIcon } from "@/components/Icons";
 interface CityCardProps {
   city: City;
   centerCount: number;
-  /** Defaults to the guarderías landing for this city. */
-  href?: string;
+  /**
+   * Destination landing. Pass `null` when the city has no indexable landing to
+   * point at — the card then renders unlinked instead of emitting a 404.
+   * Resolve it with `resolveCityLandingHref` rather than building it by
+   * template.
+   */
+  href: string | null;
 }
 
 function CityCardBody({ city, centerCount }: Omit<CityCardProps, "href">) {
@@ -36,19 +41,19 @@ function CityCardBody({ city, centerCount }: Omit<CityCardProps, "href">) {
 export default function CityCard({ city, centerCount, href }: CityCardProps) {
   const cardClass = "group flex items-center gap-4 rounded-xl border border-slate-200 bg-white p-5 shadow-sm";
 
-  // Cities with no centers would link to an empty, noindex landing. Render them
-  // as a non-clickable "Próximamente" card instead of passing internal link
-  // equity to a thin page.
-  if (centerCount === 0) {
+  // Render unlinked when the city has no centers yet (a "Próximamente" card) or
+  // when there is no indexable landing to send the user to. Either way we avoid
+  // passing internal link equity to a thin, noindex or non-existent page.
+  if (centerCount === 0 || !href) {
     return (
-      <div className={`${cardClass} opacity-80`}>
+      <div className={`${cardClass} ${centerCount === 0 ? "opacity-80" : ""}`}>
         <CityCardBody city={city} centerCount={centerCount} />
       </div>
     );
   }
 
   return (
-    <Link href={href ?? `/guarderias-en-${city.slug}`} className={`${cardClass} transition-all hover:-translate-y-0.5 hover:border-sky-200 hover:shadow-md`}>
+    <Link href={href} className={`${cardClass} transition-all hover:-translate-y-0.5 hover:border-sky-200 hover:shadow-md`}>
       <CityCardBody city={city} centerCount={centerCount} />
     </Link>
   );

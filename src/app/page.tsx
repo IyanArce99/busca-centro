@@ -23,7 +23,7 @@ import { getCenters } from "@/lib/data/centers";
 import { getCities } from "@/lib/data/cities";
 import { getAllGuides } from "@/lib/guides";
 import { getSeoPageBySlug } from "@/lib/seo-pages";
-import { isSeoPageIndexableFromCenters } from "@/lib/data/seo-pages";
+import { isSeoPageIndexableFromCenters, resolveCityLandingHref } from "@/lib/data/seo-pages";
 import { homeFaqs } from "@/data/mock-faqs";
 import { buildMetadata } from "@/lib/seo";
 import { faqPageJsonLd } from "@/lib/jsonld";
@@ -214,7 +214,12 @@ export default async function HomePage() {
           <SectionHeader eyebrow="Ciudades" title="Accesos rápidos a ciudades principales" />
           <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {featuredCities.map((city) => (
-              <CityCard key={city.id} city={city} centerCount={centerCountByCity[city.slug] ?? 0} />
+              <CityCard
+                key={city.id}
+                city={city}
+                centerCount={centerCountByCity[city.slug] ?? 0}
+                href={resolveCityLandingHref(`guarderias-en-${city.slug}`, allCenters)}
+              />
             ))}
           </div>
         </div>

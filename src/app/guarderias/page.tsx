@@ -10,7 +10,7 @@ import { SparklesIcon, HomeModernIcon, MapPinIcon } from "@/components/Icons";
 import { getCenters } from "@/lib/data/centers";
 import { getCities } from "@/lib/data/cities";
 import { getSeoPageBySlug } from "@/lib/seo-pages";
-import { isSeoPageIndexableFromCenters } from "@/lib/data/seo-pages";
+import { isSeoPageIndexableFromCenters, resolveCityLandingHref } from "@/lib/data/seo-pages";
 import { guarderiasFaqs } from "@/data/mock-faqs";
 import { buildMetadata } from "@/lib/seo";
 import { faqPageJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
@@ -135,7 +135,12 @@ export default async function GuarderiasPage() {
         <h2 className="text-2xl font-bold text-slate-900">Guarderías por ciudad</h2>
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {featuredCities.map((city) => (
-            <CityCard key={city.id} city={city} centerCount={centerCountByCity[city.slug] ?? 0} />
+            <CityCard
+              key={city.id}
+              city={city}
+              centerCount={centerCountByCity[city.slug] ?? 0}
+              href={resolveCityLandingHref(`guarderias-en-${city.slug}`, allCenters)}
+            />
           ))}
         </div>
       </section>

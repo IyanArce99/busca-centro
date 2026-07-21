@@ -120,7 +120,27 @@ export default async function SeoLandingPage({ params }: PageProps) {
           })),
         }
       : null;
-  const jsonLd = faqJsonLd ? [breadcrumbJsonLd, faqJsonLd] : [breadcrumbJsonLd];
+  // ItemList describing the centers this landing actually lists. Without it a
+  // page listing 200 businesses only declares Breadcrumbs, so search engines
+  // have no structured signal that this is a directory listing. Emitted only
+  // when indexable, and built from the same `centers` array rendered below so
+  // the markup never disagrees with the DOM.
+  const itemListJsonLd =
+    indexable && centers.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          name: seoPage.h1,
+          numberOfItems: centers.length,
+          itemListElement: centers.map((center, index) => ({
+            "@type": "ListItem",
+            position: index + 1,
+            url: `${SITE_URL}/centro/${center.slug}`,
+            name: center.name,
+          })),
+        }
+      : null;
+  const jsonLd = [breadcrumbJsonLd, itemListJsonLd, faqJsonLd].filter(Boolean);
 
   return (
     <div className="mx-auto flex max-w-6xl flex-col gap-12 px-4 py-10 sm:px-6">

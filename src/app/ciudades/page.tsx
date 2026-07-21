@@ -4,7 +4,7 @@ import CityCard from "@/components/CityCard";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { getCenters } from "@/lib/data/centers";
 import { getCities } from "@/lib/data/cities";
-import { getSeoPageBySlug, isSeoPageIndexableFromCenters } from "@/lib/data/seo-pages";
+import { getSeoPageBySlug, isSeoPageIndexableFromCenters, resolveCityLandingHref } from "@/lib/data/seo-pages";
 import { buildMetadata } from "@/lib/seo";
 import { breadcrumbJsonLd } from "@/lib/jsonld";
 
@@ -68,7 +68,12 @@ export default async function CiudadesPage() {
           <h2 className="text-2xl font-bold text-slate-900">Ciudades disponibles</h2>
           <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {citiesWithCenters.map((city) => (
-              <CityCard key={city.id} city={city} centerCount={centerCountByCity[city.slug] ?? 0} />
+              <CityCard
+                key={city.id}
+                city={city}
+                centerCount={centerCountByCity[city.slug] ?? 0}
+                href={resolveCityLandingHref(`guarderias-en-${city.slug}`, allCenters)}
+              />
             ))}
           </div>
           <div className="mt-6 flex flex-wrap gap-3">
@@ -104,7 +109,7 @@ export default async function CiudadesPage() {
           </p>
           <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {upcomingCities.map((city) => (
-              <CityCard key={city.id} city={city} centerCount={0} />
+              <CityCard key={city.id} city={city} centerCount={0} href={null} />
             ))}
           </div>
         </section>
