@@ -726,4 +726,90 @@ export const mockGuides: Guide[] = [
       ],
     },
   },
+  {
+    id: "guide-programa-ayuda-familias-andalucia",
+    slug: "programa-ayuda-familias-andalucia",
+    title: "Programa de Ayuda a las Familias en Andalucía: cómo funciona la bonificación del 0-3",
+    excerpt:
+      "Qué es el Programa de Ayuda a las Familias de la Junta de Andalucía, qué servicios bonifica, en qué centros se aplica y cuáles son los seis plazos de solicitud del curso 2026-2027.",
+    category: "Precios y ayudas",
+    publishedAt: "2026-08-10",
+    updatedAt: "2026-08-10",
+    readingTimeMinutes: 6,
+    content: [
+      "En Andalucía, el coste de una plaza de primer ciclo de Educación Infantil no depende solo del centro que elijas: depende sobre todo de si ese centro está adherido al Programa de Ayuda a las Familias y de la renta de tu unidad familiar. Es el sistema con el que la Junta de Andalucía bonifica el precio de los servicios del 0-3, y explica por qué dos familias pueden pagar cantidades muy distintas por el mismo centro.",
+      "A diferencia de otras convocatorias, esta no tiene un único plazo anual: el curso 2026-2027 se organiza en seis procedimientos de selección sucesivos, de modo que una familia que escolariza a su hijo en mitad de curso también puede solicitar la ayuda. Esta guía explica el funcionamiento, los plazos y qué conviene preguntar en el centro.",
+    ],
+    sections: [
+      {
+        heading: "Qué bonifica exactamente el programa",
+        paragraphs: [
+          "La jornada de los centros de primer ciclo en Andalucía se organiza de 7:30 a 17:00 h de forma ininterrumpida, pero no es un bloque único a efectos de precio. Se distingue el servicio de atención socioeducativa (de 9:00 a 15:30 h, que incluye el comedor), el aula matinal (de 7:30 a 9:00 h) y el aula de tarde (de 15:30 a 17:00 h).",
+          "La ayuda funciona como un descuento sobre el precio de esos servicios, calculado en función de la renta per cápita de la unidad familiar y del número de miembros, además de los supuestos de gratuidad que recoge la normativa. El tramo de 2-3 años viene aplicando la gratuidad del servicio de atención socioeducativa, y la Junta ha ido ampliando la medida a tramos de menor edad en cursos sucesivos. Como las condiciones concretas se fijan en cada convocatoria, conviene confirmar en el centro qué te correspondería en tu caso antes de dar por hecho un importe.",
+          "Un matiz que suele generar confusión: los servicios complementarios (aula matinal y aula de tarde) se bonifican según renta, pero no siempre quedan a coste cero aunque la atención socioeducativa sí lo esté. Si necesitas horario ampliado, pide el desglose por servicios y no solo la cuota total.",
+        ],
+      },
+      {
+        heading: "En qué centros se aplica: la palabra clave es «adherido»",
+        paragraphs: [
+          "El programa no cubre cualquier centro. Solo se aplica en los centros educativos de primer ciclo de Educación Infantil que están adheridos al programa de ayuda, que pueden ser tanto de titularidad pública como privados que se han sumado al convenio. Un centro privado no adherido queda fuera: sus precios los fija libremente y la bonificación autonómica no le es de aplicación.",
+          "Por eso, al comparar centros en Andalucía la pregunta más rentable no es «¿cuánto cuesta?» sino «¿está adherido al Programa de Ayuda a las Familias?». El listado oficial de centros adheridos se consulta en el Portal de Escolarización de la Consejería, y el propio centro puede confirmártelo y calcularte el importe estimado según tu situación.",
+          "En nuestras fichas de centros de Andalucía indicamos, cuando consta en el registro oficial, si el centro figura adherido al programa. Es un dato que cambia de un curso a otro, así que conviene contrastarlo siempre con el centro antes de matricular.",
+        ],
+      },
+      {
+        heading: "Los seis plazos del curso 2026-2027",
+        paragraphs: [
+          "La convocatoria del curso 2026-2027 (Resolución de 30 de marzo de 2026, publicada en BOJA) establece seis procedimientos de selección sucesivos, con estos plazos de presentación de solicitudes: del 7 de abril al 6 de mayo; del 1 de septiembre al 31 de octubre; del 1 de noviembre al 31 de diciembre; del 1 de enero al 28 de febrero; del 1 de marzo al 30 de abril; y del 1 de mayo al 30 de junio.",
+          "Esto es más flexible de lo que parece: si no solicitaste la ayuda en primavera, o si vas a escolarizar a tu hijo una vez empezado el curso, el segundo procedimiento abre el 1 de septiembre de 2026 y se cierra el 31 de octubre. No hace falta esperar al curso siguiente.",
+          "Ten en cuenta que la ayuda tiene carácter anual: hay que solicitarla para cada curso escolar, aunque ya se haya obtenido el año anterior. Y se resuelve en régimen de concurrencia competitiva, así que presentar la solicitud completa y en plazo importa.",
+        ],
+      },
+      {
+        heading: "Qué preparar antes de solicitarla",
+        paragraphs: [
+          "El cálculo se apoya en la renta per cápita de la unidad familiar referida al periodo impositivo anterior, junto con el número de miembros que la componen. Conviene tener a mano la documentación de ingresos, el libro de familia o documentación equivalente y los datos de matrícula o reserva de plaza en el centro.",
+          "La solicitud puede presentarse de forma telemática a través de la Secretaría Virtual de los centros educativos o presencialmente en el propio centro. Si tienes dudas sobre qué tramo te corresponde, el centro adherido está acostumbrado a hacer ese cálculo y es la vía más rápida para salir de dudas.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Qué es el Programa de Ayuda a las Familias de Andalucía?",
+        answer:
+          "Es el sistema con el que la Junta de Andalucía bonifica el precio de los servicios del primer ciclo de Educación Infantil (0-3 años). La ayuda se aplica como un descuento sobre el precio que paga la familia al centro, calculado según la renta per cápita de la unidad familiar y el número de miembros, además de los supuestos de gratuidad previstos en la normativa.",
+      },
+      {
+        question: "¿Hasta cuándo se puede solicitar la ayuda en el curso 2026-2027?",
+        answer:
+          "La convocatoria establece seis procedimientos de selección sucesivos. El segundo va del 1 de septiembre al 31 de octubre de 2026, y después hay plazos del 1 de noviembre al 31 de diciembre, del 1 de enero al 28 de febrero, del 1 de marzo al 30 de abril y del 1 de mayo al 30 de junio. Quien no la pidió en primavera puede solicitarla en alguno de estos periodos.",
+      },
+      {
+        question: "¿Se aplica la ayuda en cualquier guardería de Andalucía?",
+        answer:
+          "No. Solo se aplica en los centros de primer ciclo de Educación Infantil adheridos al programa de ayuda. Un centro privado no adherido fija sus precios libremente y la bonificación no le es de aplicación. El listado de centros adheridos se consulta en el Portal de Escolarización de la Consejería y conviene confirmarlo con el propio centro.",
+      },
+      {
+        question: "¿La gratuidad cubre también el comedor y el horario ampliado?",
+        answer:
+          "El servicio de atención socioeducativa (de 9:00 a 15:30 h) incluye el comedor. El aula matinal (7:30-9:00 h) y el aula de tarde (15:30-17:00 h) son servicios complementarios que se bonifican según la renta familiar, pero no siempre quedan a coste cero. Conviene pedir al centro el desglose por servicios y no solo la cuota total.",
+      },
+      {
+        question: "¿Hay que pedir la ayuda todos los años?",
+        answer:
+          "Sí. El programa tiene carácter anual, de modo que la ayuda debe solicitarse para cada curso escolar aunque se haya obtenido en el curso anterior. Además se resuelve en régimen de concurrencia competitiva, por lo que conviene presentar la solicitud completa y dentro de plazo.",
+      },
+    ],
+    relatedLinks: {
+      intro: "Consulta centros de primer ciclo en Andalucía y confirma con cada uno su adhesión al programa:",
+      links: [
+        { label: "Guarderías en Sevilla", href: "/guarderias-en-sevilla" },
+        { label: "Guarderías en Málaga", href: "/guarderias-en-malaga" },
+        { label: "Guarderías en Córdoba", href: "/guarderias-en-cordoba" },
+        { label: "Guarderías en Granada", href: "/guarderias-en-granada" },
+        { label: "Guarderías en Jerez de la Frontera", href: "/guarderias-en-jerez-de-la-frontera" },
+        { label: "Cuánto cuesta una guardería: precios y ayudas por ciudad", href: "/blog/cuanto-cuesta-una-guarderia" },
+      ],
+    },
+  },
 ];

@@ -24,7 +24,9 @@ function computeIndexable(row: CenterRow, realServices: string[]): boolean {
   );
   if (!hasCore) return false;
   const hasDescription = Boolean(row.short_description?.trim());
-  const hasSubstance = realServices.length > 0 || Boolean(row.long_description?.trim());
+  // Services only — a long description no longer counts as substance. See the
+  // rationale in src/lib/centers.ts#isCenterIndexable (July 2026 demotion).
+  const hasSubstance = realServices.length > 0;
   return hasDescription && hasSubstance;
 }
 

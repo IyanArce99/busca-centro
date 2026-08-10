@@ -29,11 +29,22 @@ export function getCentersByFilters(filters: SeoPageFilters): Center[] {
  * data needed to render a useful page and (b) enough real content to avoid a
  * thin, template-like ficha at launch.
  *
- * Quality gate (b): a short description PLUS at least one substantive signal —
- * confirmed services or an editorial long description. Centers failing this gate
- * (e.g. only name + type + district) stay `noindex, follow`: still crawlable and
- * reachable via internal links, but held back from the index until enriched.
- * Loosen this if you prefer volume over quality once more fichas are completed.
+ * Quality gate (b): a short description PLUS **confirmed services**.
+ *
+ * This gate used to also accept a long description as the substantive signal
+ * (`services.length > 0 || longDescription`). That proved to be the wrong
+ * trade-off: a bulk pass in July 2026 added editorial long descriptions to ~660
+ * fichas that had no confirmed services, which flipped them all to indexable at
+ * once. Indexed pages jumped 459 → 1,290 in days, and Google responded with a
+ * site-wide quality demotion — impressions fell from ~1,700/day to ~10/day while
+ * every page stayed indexed. A long description written from the same public
+ * registry the ficha already shows adds no information a searcher cannot get
+ * elsewhere; confirmed services do.
+ *
+ * So substance now means services only. Fichas without them stay
+ * `noindex, follow`: still online, still crawlable, still passing internal link
+ * equity — just held out of the index until real data is confirmed for them.
+ * The way to grow the indexed set is to confirm services, not to generate prose.
  */
 export function isCenterIndexable(center: Center): boolean {
   const hasCore = Boolean(
@@ -47,8 +58,7 @@ export function isCenterIndexable(center: Center): boolean {
   if (!hasCore) return false;
 
   const hasDescription = Boolean(center.shortDescription?.trim());
-  const hasSubstance =
-    center.services.length > 0 || Boolean(center.longDescription?.trim());
+  const hasSubstance = center.services.length > 0;
   return hasDescription && hasSubstance;
 }
 

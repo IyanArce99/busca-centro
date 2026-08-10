@@ -2,7 +2,15 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:interdiario.es)",
-      "Bash(npx tsc *)"
+      "Bash(npx tsc *)",
+      "Bash(curl -s https://www.buscacentro.es/sitemap.xml)",
+      "Bash(curl -s https://www.buscacentro.es/centro/concilio-sevilla)",
+      "Bash(/usr/bin/curl -s https://www.buscacentro.es/centro/concilio-sevilla -o /tmp/cs.html)",
+      "Bash(/usr/bin/grep -oE '\"robots\":\"[^\"]*\"|name=.robots[^>]*content=.[^\"]*' /tmp/cs.html)",
+      "Bash(/usr/bin/curl -s https://www.buscacentro.es/sitemap.xml)",
+      "Bash(/usr/bin/grep -c \"concilio-sevilla\")",
+      "Bash(/usr/bin/grep -oE 'fuentes públicas|procede de|Programa de Ayuda' /tmp/cs.html)",
+      "Bash(node -e ' *)"
     ]
   }
 }
