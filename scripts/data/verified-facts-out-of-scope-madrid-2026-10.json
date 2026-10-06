@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-06",
+  "centers": [
+    {
+      "slug": "colegio-sei-dos-parques-madrid",
+      "note": "No es un centro de 0-3 años. Solo segundo ciclo de infantil y primaria. Se despublica.",
+      "set": {
+        "status": "draft"
+      },
+      "facts": []
+    },
+    {
+      "slug": "estudio-conde-orgaz-madrid",
+      "note": "No es un centro de 0-3 años. El registro autoriza solo segundo ciclo, primaria y ESO; tarifas desde 3 años. Se despublica.",
+      "set": {
+        "status": "draft"
+      },
+      "facts": []
+    },
+    {
+      "slug": "preschool-fem-madrid",
+      "note": "No es un centro de 0-3 años. Registro y madrid.es: solo segundo ciclo de infantil. Se despublica.",
+      "set": {
+        "status": "draft"
+      },
+      "facts": []
+    }
+  ]
+}

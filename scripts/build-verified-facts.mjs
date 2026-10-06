@@ -45,8 +45,11 @@ for (const file of readdirSync(BATCH_DIR).filter((f) => /^extra-facts-.*\.json$/
 const centers = [...latest.values()]
 
 const own = (c) => c.facts.filter((f) => !f.shared)
+// `restricted`: workplace nurseries (ministries, hospitals, universities) that
+// are not open to the general public. The ficha is shown, but never indexed.
 const qualifies = (c) =>
   c.set?.status !== 'draft' &&
+  !c.restricted &&
   own(c).length >= MIN_OWN_FACTS &&
   own(c).filter((f) => !f.registry).length >= MIN_OWN_SOURCE_FACTS
 

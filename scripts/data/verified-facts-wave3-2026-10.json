@@ -10192,7 +10192,8 @@
           "registry": true
         }
       ],
-      "note": "Web operativa y actualizada para el curso 2026-2027. Centro de acceso restringido a la comunidad universitaria: decidir si debe mostrarse como una escuela pública más. La web da la dirección como Bulevar Louis Pasteur s/n; el registro de la Junta dice número 23. Inglés y música son actividades opcionales de pago, no parte del proyecto general. La hoja informativa del curso dice que en septiembre se abre a las 8:00 y las normas dicen 7:45."
+      "note": "Web operativa y actualizada para el curso 2026-2027. Centro de acceso restringido a la comunidad universitaria: decidir si debe mostrarse como una escuela pública más. La web da la dirección como Bulevar Louis Pasteur s/n; el registro de la Junta dice número 23. Inglés y música son actividades opcionales de pago, no parte del proyecto general. La hoja informativa del curso dice que en septiembre se abre a las 8:00 y las normas dicen 7:45.",
+      "restricted": true
     },
     {
       "slug": "happy-kids-house-valladolid",
