@@ -81,9 +81,14 @@ export function hasEnoughOwnFacts(facts: CenterFact[]): boolean {
   );
 }
 
-/** True once the release date (YYYY-MM-DD) has arrived; no date means no hold. */
+/**
+ * True once the release date (YYYY-MM-DD) has arrived. A reviewed ficha with
+ * no date is NOT released: the build withholds the date on purpose from
+ * fichas that must stay out of the index (e.g. workplace nurseries that are
+ * not open to the public), so "no date" must never read as "no hold".
+ */
 export function isReleased(indexableFrom: string | undefined): boolean {
-  return !indexableFrom || indexableFrom <= new Date().toISOString().slice(0, 10);
+  return Boolean(indexableFrom) && (indexableFrom as string) <= new Date().toISOString().slice(0, 10);
 }
 
 export function isOwnWebsite(website: string | null | undefined): boolean {
