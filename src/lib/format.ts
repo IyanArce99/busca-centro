@@ -95,6 +95,12 @@ const FACT_LABELS: Record<CenterFactKey, string> = {
   precio: "Precio",
   historia: "Trayectoria",
   gestion: "Gestión",
+  actividades: "Actividades y talleres",
+  rutina: "El día a día",
+  adaptacion: "Periodo de adaptación",
+  salud: "Salud y seguridad",
+  transporte: "Cómo llegar",
+  entorno: "Entorno",
 };
 
 export function formatFactLabel(key: CenterFactKey): string {

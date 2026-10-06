@@ -27,8 +27,9 @@ const client = createClient(
 )
 
 const ALLOWED = new Set([
-  'schedule', 'phone', 'email', 'website', 'street', 'postal_code', 'age_min_months',
-  'age_max_months', 'services', 'status', 'long_description', 'faqs',
+  'schedule', 'phone', 'email', 'website', 'street', 'postal_code', 'district',
+  'neighborhood_barrio', 'latitude', 'longitude', 'age_min_months', 'age_max_months',
+  'services', 'status', 'long_description', 'faqs',
 ])
 const batch = JSON.parse(readFileSync(file, 'utf8'))
 const short = (v) => {

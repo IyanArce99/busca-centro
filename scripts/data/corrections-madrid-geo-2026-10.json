@@ -1,0 +1,1195 @@
+{
+  "checkedAt": "2026-10-06",
+  "centers": [
+    {
+      "slug": "agarimo-madrid",
+      "set": {
+        "street": "Calle de Fernando el Católico, 61"
+      },
+      "facts": []
+    },
+    {
+      "slug": "ana-de-austria-madrid",
+      "set": {
+        "street": "Calle de Ana de Austria, 32"
+      },
+      "facts": []
+    },
+    {
+      "slug": "andal-madrid",
+      "set": {
+        "street": "Calle de Antonio Díaz-Cañabate, 18"
+      },
+      "facts": []
+    },
+    {
+      "slug": "afuera-iii-b-madrid",
+      "set": {
+        "street": "Calle de Ángel Ganivet, 12"
+      },
+      "facts": []
+    },
+    {
+      "slug": "cocorico-madrid",
+      "set": {
+        "street": "Calle de Clara del Rey, 8"
+      },
+      "facts": []
+    },
+    {
+      "slug": "alaria-nuevos-ministerios-nursery-school-madrid",
+      "set": {
+        "latitude": 40.441786,
+        "longitude": -3.684424,
+        "street": "Calle de Pablo Aranda, 16",
+        "neighborhood_barrio": "El Viso"
+      },
+      "facts": []
+    },
+    {
+      "slug": "casita-maravillas-baby-madrid",
+      "set": {
+        "latitude": 40.394397,
+        "longitude": -3.683937,
+        "street": "Calle de las Nebulosas, 2",
+        "neighborhood_barrio": "Delicias"
+      },
+      "facts": []
+    },
+    {
+      "slug": "pedagogia-waldorf-de-aravaca-madrid",
+      "set": {
+        "street": "Calle del Zenit, 10"
+      },
+      "facts": []
+    },
+    {
+      "slug": "alaria-serrano-nursey-school-madrid",
+      "set": {
+        "latitude": 40.451256,
+        "longitude": -3.681353,
+        "street": "Calle de Serrano, 212",
+        "neighborhood_barrio": "El Viso"
+      },
+      "facts": []
+    },
+    {
+      "slug": "pippo-madrid",
+      "set": {
+        "street": "Calle de Clara del Rey, 33"
+      },
+      "facts": []
+    },
+    {
+      "slug": "alicia-madrid",
+      "set": {
+        "street": "Calle de Ferraz, 60"
+      },
+      "facts": []
+    },
+    {
+      "slug": "2-semillas-madrid",
+      "set": {
+        "latitude": 40.462241,
+        "longitude": -3.646344,
+        "street": "Calle de Andorra, 3",
+        "neighborhood_barrio": "Canillas"
+      },
+      "facts": []
+    },
+    {
+      "slug": "andal-ii-madrid",
+      "set": {
+        "street": "Calle de Francisco Vitoria, 21"
+      },
+      "facts": []
+    },
+    {
+      "slug": "laly-madrid",
+      "set": {
+        "street": "Calle de Europa, 4"
+      },
+      "facts": []
+    },
+    {
+      "slug": "pequenecos-parque-norte-madrid",
+      "set": {
+        "street": "Calle de Serrano Galvache, 56"
+      },
+      "facts": []
+    },
+    {
+      "slug": "educando-madrid",
+      "set": {
+        "street": "Calle del Doctor Esquerdo, 183"
+      },
+      "facts": []
+    },
+    {
+      "slug": "educando-juntos-madrid",
+      "set": {
+        "street": "Calle de las Adelfas, 12"
+      },
+      "facts": []
+    },
+    {
+      "slug": "can-ta-chimutri-sol-y-luna-madrid",
+      "set": {
+        "street": "Calle Ruperto Andrés, 6"
+      },
+      "facts": []
+    },
+    {
+      "slug": "carrusel-madrid",
+      "set": {
+        "street": "Calle de Luis de Salazar, 3"
+      },
+      "facts": []
+    },
+    {
+      "slug": "buen-consejo-madrid",
+      "set": {
+        "street": "Calle de Hiendelaencina, 10"
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-duende-travieso-ii-madrid",
+      "set": {
+        "street": "Paseo de las Acacias, 30"
+      },
+      "facts": []
+    },
+    {
+      "slug": "afuera-iii-a-madrid",
+      "set": {
+        "street": "Calle de Francisco Vitoria, 16"
+      },
+      "facts": []
+    },
+    {
+      "slug": "casita-maravillas-madrid",
+      "set": {
+        "street": "Calle del Hierro, 6"
+      },
+      "facts": []
+    },
+    {
+      "slug": "casa-nido-madrid",
+      "set": {
+        "latitude": 40.392435,
+        "longitude": -3.690888,
+        "street": "Calle Bolívar, 24",
+        "neighborhood_barrio": "Legazpi"
+      },
+      "facts": []
+    },
+    {
+      "slug": "chamberines-madrid",
+      "set": {
+        "street": "Calle de García de Paredes, 14"
+      },
+      "facts": []
+    },
+    {
+      "slug": "chiqui-madrid",
+      "set": {
+        "street": "Calle de Fernando el Católico, 13"
+      },
+      "facts": []
+    },
+    {
+      "slug": "colegio-sei-dos-parques-madrid",
+      "set": {
+        "street": "Calle de San Anastasio, 4"
+      },
+      "facts": []
+    },
+    {
+      "slug": "cucutras-madrid",
+      "set": {
+        "street": "Plaza Patricio Aguado, 6"
+      },
+      "facts": []
+    },
+    {
+      "slug": "dina-condado-2-madrid",
+      "set": {
+        "street": "Calle del Condado de Treviño, 35"
+      },
+      "facts": []
+    },
+    {
+      "slug": "cuna-de-jesus-madrid",
+      "set": {
+        "street": "Calle de Ferrer del Río, 26"
+      },
+      "facts": []
+    },
+    {
+      "slug": "diabolo-madrid",
+      "set": {
+        "street": "Calle de Cáceres, 10"
+      },
+      "facts": []
+    },
+    {
+      "slug": "educando-pitufos-madrid",
+      "set": {
+        "street": "Calle Reyes Magos, 6"
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-bosque-madrid",
+      "set": {
+        "latitude": 40.403473,
+        "longitude": -3.691547,
+        "street": "Calle de las Delicias, 32",
+        "neighborhood_barrio": "Palos de la Frontera"
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-carmen-madrid",
+      "set": {
+        "latitude": 40.479267,
+        "longitude": -3.661048,
+        "street": "Calle de Vélez Rubio, 181",
+        "neighborhood_barrio": "Apóstol Santiago"
+      },
+      "facts": []
+    },
+    {
+      "slug": "dina-condado-madrid",
+      "set": {
+        "street": "Calle del Condado de Treviño, 35"
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-jardin-de-los-genios-madrid",
+      "set": {
+        "street": "Calle de Evaristo San Miguel, 11"
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-parque-de-la-piovera-madrid",
+      "set": {
+        "latitude": 40.455027,
+        "longitude": -3.615195,
+        "street": "Calle de Guadalajara, 21"
+      },
+      "facts": []
+    },
+    {
+      "slug": "planeta-enano-nino-jesus-madrid",
+      "set": {
+        "street": "Avenida de Menéndez Pelayo, 65"
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-tren-de-la-fresa-madrid",
+      "set": {
+        "street": "Calle de Ramírez de Prado, 6"
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-nido-del-buho-madrid",
+      "set": {
+        "street": "Calle de Donoso Cortés, 8"
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-osito-2-madrid",
+      "set": {
+        "latitude": 40.44552,
+        "longitude": -3.666513,
+        "street": "Calle del Corazón de María, 58"
+      },
+      "facts": []
+    },
+    {
+      "slug": "rosa-madrid",
+      "set": {
+        "latitude": 40.465536,
+        "longitude": -3.679966,
+        "street": "Paseo de La Habana, 173",
+        "neighborhood_barrio": "Nueva España"
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-reino-del-reves-madrid",
+      "set": {
+        "street": "Calle de Fernando Poo, 8"
+      },
+      "facts": []
+    },
+    {
+      "slug": "boreal-dreaming-together-madrid",
+      "set": {
+        "latitude": 40.46179,
+        "longitude": -3.625722,
+        "street": "Calle de Silvano, 182",
+        "neighborhood_barrio": "Piovera"
+      },
+      "facts": []
+    },
+    {
+      "slug": "la-virgen-nina-madrid",
+      "set": {
+        "street": "Calle de Gregorio Benítez, 8"
+      },
+      "facts": []
+    },
+    {
+      "slug": "eipa-escuela-infantil-parque-de-las-avenidas-madrid",
+      "set": {
+        "latitude": 40.439118,
+        "longitude": -3.662552,
+        "street": "Calle de Bristol, 1",
+        "neighborhood_barrio": "Guindalera"
+      },
+      "facts": []
+    },
+    {
+      "slug": "mudarra-madrid",
+      "set": {
+        "latitude": 40.487858,
+        "longitude": -3.612129,
+        "street": "Calle de María Reiche, 29",
+        "neighborhood_barrio": "Valdefuentes"
+      },
+      "facts": []
+    },
+    {
+      "slug": "los-nanos-chiflados-madrid",
+      "set": {
+        "street": "Calle de Marcenado, 46"
+      },
+      "facts": []
+    },
+    {
+      "slug": "chiqui-tin-alcantara-madrid",
+      "set": {
+        "latitude": 40.430553,
+        "longitude": -3.673519,
+        "street": "Calle Alcántara, 52",
+        "neighborhood_barrio": "Lista"
+      },
+      "facts": []
+    },
+    {
+      "slug": "donde-estan-las-llaves-madrid",
+      "set": {
+        "street": "Calle de Tomás Bretón, 58"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escuela-de-educacion-infantil-del-complejo-cuzco-madrid",
+      "set": {
+        "street": "Paseo de la Castellana, 162"
+      },
+      "facts": []
+    },
+    {
+      "slug": "mi-primer-cole-4-madrid",
+      "set": {
+        "latitude": 40.46652,
+        "longitude": -3.637272,
+        "street": "Calle de Tiberíades, 10",
+        "neighborhood_barrio": "Canillas"
+      },
+      "facts": []
+    },
+    {
+      "slug": "iris-ii-madrid",
+      "set": {
+        "latitude": 40.469398,
+        "longitude": -3.65274,
+        "street": "Calle Seo de Urgel, 15",
+        "neighborhood_barrio": "Pinar del Rey"
+      },
+      "facts": []
+    },
+    {
+      "slug": "guardilla-infantil-madrid",
+      "set": {
+        "street": "Calle de Guzmán el Bueno, 110"
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-osito-madrid",
+      "set": {
+        "street": "Calle de López de Hoyos, 212"
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-osito-de-luis-de-larrainza-madrid",
+      "set": {
+        "street": "Calle de Luis Larrainza, 46"
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-parque-madrid",
+      "set": {
+        "latitude": 40.444122,
+        "longitude": -3.670064,
+        "street": "Calle del Cardenal Silíceo, 25",
+        "neighborhood_barrio": "Prosperidad"
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-tren-de-arganda-madrid",
+      "set": {
+        "street": "Plaza del Doctor Laguna, 11"
+      },
+      "facts": []
+    },
+    {
+      "slug": "garabatos-y-ocho-patos-madrid",
+      "set": {
+        "latitude": 40.401386,
+        "longitude": -3.710318,
+        "street": "Calle de Melilla, 6",
+        "neighborhood_barrio": "Las Acacias"
+      },
+      "facts": []
+    },
+    {
+      "slug": "little-witch-madrid",
+      "set": {
+        "street": "Calle de la Buganvilla, 2"
+      },
+      "facts": []
+    },
+    {
+      "slug": "magos-madrid",
+      "set": {
+        "street": "Calle del Doce de Octubre, 24"
+      },
+      "facts": []
+    },
+    {
+      "slug": "san-miguel-madrid",
+      "set": {
+        "latitude": 40.474412,
+        "longitude": -3.652274,
+        "street": "Avenida de la Virgen del Carmen, 32",
+        "neighborhood_barrio": "Pinar del Rey"
+      },
+      "facts": []
+    },
+    {
+      "slug": "la-almudena-madrid",
+      "set": {
+        "street": "Calle de Motilla del Palancar, 19"
+      },
+      "facts": []
+    },
+    {
+      "slug": "la-estrella-infantil-madrid",
+      "set": {
+        "street": "Calle de la Estrella Polar, 22"
+      },
+      "facts": []
+    },
+    {
+      "slug": "la-gran-via-madrid",
+      "set": {
+        "street": "Calle de Silvano, 99"
+      },
+      "facts": []
+    },
+    {
+      "slug": "la-jirafa-madrid",
+      "set": {
+        "street": "Calle de las Sicélidas, 6"
+      },
+      "facts": []
+    },
+    {
+      "slug": "nemomarlin-paseo-de-la-habana-madrid",
+      "set": {
+        "street": "Paseo de La Habana, 87"
+      },
+      "facts": []
+    },
+    {
+      "slug": "nemomarlin-pintor-rosales-madrid",
+      "set": {
+        "street": "Paseo del Pintor Rosales, 32"
+      },
+      "facts": []
+    },
+    {
+      "slug": "nemomarlin-retiro-madrid",
+      "set": {
+        "street": "Avenida de Menéndez Pelayo, 71"
+      },
+      "facts": []
+    },
+    {
+      "slug": "osobuco-madrid",
+      "set": {
+        "street": "Calle Huelva, 4"
+      },
+      "facts": []
+    },
+    {
+      "slug": "st-alices-nursery-galileo-madrid",
+      "set": {
+        "street": "Calle de Galileo, 47"
+      },
+      "facts": []
+    },
+    {
+      "slug": "ulu-madrid",
+      "set": {
+        "latitude": 40.40786,
+        "longitude": -3.682014,
+        "street": "Calle de Andrés Torrejón, 18",
+        "neighborhood_barrio": "Jerónimos"
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-sol-madrid",
+      "set": {
+        "street": "Calle de Enrique Jardiel Poncela, 8"
+      },
+      "facts": []
+    },
+    {
+      "slug": "preschool-fem-madrid",
+      "set": {
+        "street": "Calle de los Olivos, 9"
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-tren-de-los-ninos-madrid",
+      "set": {
+        "street": "Avenida de Burgos, 34"
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-tren-de-los-ninos-ii-madrid",
+      "set": {
+        "street": "Avenida de Burgos, 28"
+      },
+      "facts": []
+    },
+    {
+      "slug": "gran-via-madrid",
+      "set": {
+        "street": "Calle de Alejandro Villegas, 48"
+      },
+      "facts": []
+    },
+    {
+      "slug": "internacional-valdemarin-madrid",
+      "set": {
+        "street": "Calle de Torreadrada, 1"
+      },
+      "facts": []
+    },
+    {
+      "slug": "international-montessori-kindergarten-madrid",
+      "set": {
+        "latitude": 40.452562,
+        "longitude": -3.633062,
+        "street": "Ronda de la Abubilla, 20",
+        "neighborhood_barrio": "Piovera"
+      },
+      "facts": []
+    },
+    {
+      "slug": "kinder-santamarca-madrid",
+      "set": {
+        "latitude": 40.450454,
+        "longitude": -3.673653,
+        "street": "Calle de Marcenado, 50",
+        "neighborhood_barrio": "Ciudad Jardín"
+      },
+      "facts": []
+    },
+    {
+      "slug": "la-estrella-infantil-iii-madrid",
+      "set": {
+        "street": "Calle Rafael Salazar Alonso, 17"
+      },
+      "facts": []
+    },
+    {
+      "slug": "lar-madrid",
+      "set": {
+        "latitude": 40.387795,
+        "longitude": -3.692681,
+        "street": "Calle del Teniente Coronel Noreña, 28",
+        "neighborhood_barrio": "Legazpi"
+      },
+      "facts": []
+    },
+    {
+      "slug": "las-nubes-madrid",
+      "set": {
+        "street": "Calle de Antonio Nebrija, 7"
+      },
+      "facts": []
+    },
+    {
+      "slug": "las-vinas-madrid",
+      "set": {
+        "street": "Calle del Estudio, 6"
+      },
+      "facts": []
+    },
+    {
+      "slug": "little-clovers-madrid",
+      "set": {
+        "street": "Calle Antonio Cavero, 91"
+      },
+      "facts": []
+    },
+    {
+      "slug": "mi-primer-cole-2-madrid",
+      "set": {
+        "latitude": 40.42708,
+        "longitude": -3.663907,
+        "street": "Calle de Ramón de Aguinaga, 5",
+        "neighborhood_barrio": "Fuente del Berro"
+      },
+      "facts": []
+    },
+    {
+      "slug": "luis-bello-madrid",
+      "set": {
+        "street": "Calle de Juan Bautista de Toledo, 5"
+      },
+      "facts": []
+    },
+    {
+      "slug": "mamatina-madrid",
+      "set": {
+        "street": "Calle de Húmera, 37"
+      },
+      "facts": []
+    },
+    {
+      "slug": "nazaret-madrid",
+      "set": {
+        "latitude": 40.441798,
+        "longitude": -3.676663,
+        "street": "Calle de Quintiliano, 3",
+        "neighborhood_barrio": "Prosperidad"
+      },
+      "facts": []
+    },
+    {
+      "slug": "margot-madrid",
+      "set": {
+        "street": "Calle Valdesangil, 41"
+      },
+      "facts": []
+    },
+    {
+      "slug": "menagar-madrid",
+      "set": {
+        "street": "Calle de Chile, 12"
+      },
+      "facts": []
+    },
+    {
+      "slug": "mis-mis-madrid",
+      "set": {
+        "latitude": 40.438459,
+        "longitude": -3.697108,
+        "street": "Calle de José Abascal, 39",
+        "neighborhood_barrio": "Ríos Rosas"
+      },
+      "facts": []
+    },
+    {
+      "slug": "nemomarlin-chamberi-madrid",
+      "set": {
+        "street": "Calle de Meléndez Valdés, 28"
+      },
+      "facts": []
+    },
+    {
+      "slug": "nemomarlin-ciudad-jardin-madrid",
+      "set": {
+        "street": "Calle de Nieremberg, 8"
+      },
+      "facts": []
+    },
+    {
+      "slug": "nemomarlin-guindalera-madrid",
+      "set": {
+        "street": "Calle de María Teresa, 14"
+      },
+      "facts": []
+    },
+    {
+      "slug": "nuestra-senora-de-los-dolores-madrid",
+      "set": {
+        "street": "Calle de San Bernardo, 99"
+      },
+      "facts": []
+    },
+    {
+      "slug": "parque-de-hortaleza-madrid",
+      "set": {
+        "latitude": 40.473181,
+        "longitude": -3.646543,
+        "street": "Calle del Mar Caspio, 6"
+      },
+      "facts": []
+    },
+    {
+      "slug": "paso-a-paso-madrid",
+      "set": {
+        "street": "Calle de Valdelasierra, 7"
+      },
+      "facts": []
+    },
+    {
+      "slug": "san-gabriel-arcangel-madrid",
+      "set": {
+        "street": "Calle Isla de Nelson, 1"
+      },
+      "facts": []
+    },
+    {
+      "slug": "san-jose-de-cluny-madrid",
+      "set": {
+        "street": "Calle de San Restituto, 24"
+      },
+      "facts": []
+    },
+    {
+      "slug": "pipos-madrid",
+      "set": {
+        "latitude": 40.399026,
+        "longitude": -3.699962,
+        "street": "Calle de Cáceres, 50"
+      },
+      "facts": []
+    },
+    {
+      "slug": "projardin-delicias-madrid",
+      "set": {
+        "street": "Paseo de las Delicias, 65"
+      },
+      "facts": []
+    },
+    {
+      "slug": "projardin-retiro-madrid",
+      "set": {
+        "street": "Plaza del Doctor Laguna, 5"
+      },
+      "facts": []
+    },
+    {
+      "slug": "reina-de-los-angeles-madrid",
+      "set": {
+        "street": "Calle del Darro, 30"
+      },
+      "facts": []
+    },
+    {
+      "slug": "ruiz-jimenez-madrid",
+      "set": {
+        "street": "Calle José Picón, 17"
+      },
+      "facts": []
+    },
+    {
+      "slug": "santa-rosalia-madrid",
+      "set": {
+        "street": "Calle de Motilla del Palancar, 36"
+      },
+      "facts": []
+    },
+    {
+      "slug": "tierra-lala-madrid",
+      "set": {
+        "latitude": 40.457288,
+        "longitude": -3.64836,
+        "street": "Calle del Moscatelar, 21",
+        "neighborhood_barrio": "Canillas"
+      },
+      "facts": []
+    },
+    {
+      "slug": "trazos-madrid",
+      "set": {
+        "street": "Calle Condes de Torreanaz, 4"
+      },
+      "facts": []
+    },
+    {
+      "slug": "vallehermoso-madrid",
+      "set": {
+        "street": "Calle de Fernández de los Ríos, 42"
+      },
+      "facts": []
+    },
+    {
+      "slug": "verbo-encarnado-madrid",
+      "set": {
+        "latitude": 40.445639,
+        "longitude": -3.700243,
+        "street": "Calle de Alenza, 28"
+      },
+      "facts": []
+    },
+    {
+      "slug": "alaria-bernabeu-nursery-school-madrid",
+      "set": {
+        "latitude": 40.449845,
+        "longitude": -3.683449,
+        "street": "Calle del Jarama, 9"
+      },
+      "facts": []
+    },
+    {
+      "slug": "pequemun-madrid",
+      "set": {
+        "street": "Calle de los Olivos, 8"
+      },
+      "facts": []
+    },
+    {
+      "slug": "las-acacias-madrid",
+      "set": {
+        "street": "Calle Francisco de Diego, 44"
+      },
+      "facts": []
+    },
+    {
+      "slug": "los-nidos-de-manoteras-madrid",
+      "set": {
+        "street": "Avenida de Manoteras, 8"
+      },
+      "facts": []
+    },
+    {
+      "slug": "mama-queca-ii-madrid",
+      "set": {
+        "latitude": 40.466586,
+        "longitude": -3.653087,
+        "street": "Calle Sánchez Guerrero, 7",
+        "neighborhood_barrio": "Canillas"
+      },
+      "facts": []
+    },
+    {
+      "slug": "alegre-koala-madrid",
+      "set": {
+        "latitude": 40.399679,
+        "longitude": -3.707022,
+        "street": "Calle de Arganda, 32"
+      },
+      "facts": []
+    },
+    {
+      "slug": "de-peques-madrid",
+      "set": {
+        "latitude": 40.407571,
+        "longitude": -3.671892,
+        "street": "Calle de Walia, 7",
+        "neighborhood_barrio": "Niño Jesús"
+      },
+      "facts": []
+    },
+    {
+      "slug": "jardiimar-madrid",
+      "set": {
+        "latitude": 40.406205,
+        "longitude": -3.719068,
+        "street": "Calle de Cobos de Segovia, 5",
+        "neighborhood_barrio": "Imperial"
+      },
+      "facts": []
+    },
+    {
+      "slug": "st-alices-nursery-madrid",
+      "set": {
+        "latitude": 40.433793,
+        "longitude": -3.695049,
+        "street": "Calle de Fernández de la Hoz, 21"
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-alba-madrid",
+      "set": {
+        "latitude": 40.401634,
+        "longitude": -3.713548,
+        "street": "Calle de Toledo, 181"
+      },
+      "facts": []
+    },
+    {
+      "slug": "bra-institucion-orgaz-madrid",
+      "set": {
+        "street": "Calle de Frascuelo, 2"
+      },
+      "facts": []
+    },
+    {
+      "slug": "domo-madrid",
+      "set": {
+        "street": "Calle Torregrosa, 16"
+      },
+      "facts": []
+    },
+    {
+      "slug": "casa-del-nino-madrid",
+      "set": {
+        "street": "Calle de Mateo Inurria, 20"
+      },
+      "facts": []
+    },
+    {
+      "slug": "dallington-infants-madrid",
+      "set": {
+        "street": "Ronda de Sobradiel, 20"
+      },
+      "facts": []
+    },
+    {
+      "slug": "up-kids-school-madrid",
+      "set": {
+        "latitude": 40.454852,
+        "longitude": -3.64289,
+        "street": "Ronda de Sobradiel, 68",
+        "neighborhood_barrio": "Piovera"
+      },
+      "facts": []
+    },
+    {
+      "slug": "kids-retiro-madrid",
+      "set": {
+        "street": "Calle Luis Mitjans, 29"
+      },
+      "facts": []
+    },
+    {
+      "slug": "vib-valdebebas-madrid",
+      "set": {
+        "latitude": 40.480791,
+        "longitude": -3.633138,
+        "street": "Calle de Carmen Bravo Villasante, 10",
+        "neighborhood_barrio": "Valdefuentes"
+      },
+      "facts": []
+    },
+    {
+      "slug": "kika-madrid",
+      "set": {
+        "street": "Calle de la Antracita, 24"
+      },
+      "facts": []
+    },
+    {
+      "slug": "pinocho-madrid",
+      "set": {
+        "latitude": 40.405597,
+        "longitude": -3.675484,
+        "street": "Calle de Cavanilles, 36",
+        "neighborhood_barrio": "Pacífico"
+      },
+      "facts": []
+    },
+    {
+      "slug": "chuly-madrid",
+      "set": {
+        "street": "Calle de Las Naves, 21"
+      },
+      "facts": []
+    },
+    {
+      "slug": "micos-mi-primer-cole-madrid",
+      "set": {
+        "street": "Calle del Guadalquivir, 16"
+      },
+      "facts": []
+    },
+    {
+      "slug": "todo-para-la-infancia-madrid",
+      "set": {
+        "street": "Avenida del Doctor Federico Rubio y Galí, 106"
+      },
+      "facts": []
+    },
+    {
+      "slug": "ciudad-jardin-madrid",
+      "set": {
+        "street": "Calle de Colombia, 42"
+      },
+      "facts": []
+    },
+    {
+      "slug": "yaki-madrid",
+      "set": {
+        "street": "Avenida de Ramón y Cajal, 49"
+      },
+      "facts": []
+    },
+    {
+      "slug": "cuchitos-madrid",
+      "set": {
+        "street": "Calle del General Díaz Porlier, 99"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escuela-infantil-bilingue-sus-pequenos-pasos-arturo-soria-madrid",
+      "set": {
+        "latitude": 40.462577,
+        "longitude": -3.660801,
+        "street": "Calle Mesena, 18",
+        "neighborhood_barrio": "Colina"
+      },
+      "facts": []
+    },
+    {
+      "slug": "osobuco-ii-madrid",
+      "set": {
+        "street": "Avenida de Alfonso XIII, 30"
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-sitio-de-tu-recreo-madrid",
+      "set": {
+        "street": "Calle de Juan de Austria, 7"
+      },
+      "facts": []
+    },
+    {
+      "slug": "los-pinos-madrid",
+      "set": {
+        "street": "Calle José Celestino Mutis, 38"
+      },
+      "facts": []
+    },
+    {
+      "slug": "mafalda-madrid",
+      "set": {
+        "street": "Calle de Palafox, 18"
+      },
+      "facts": []
+    },
+    {
+      "slug": "iris-madrid",
+      "set": {
+        "street": "Calle de Calanda, 14"
+      },
+      "facts": []
+    },
+    {
+      "slug": "educando-v-madrid",
+      "set": {
+        "street": "Calle del Doctor Esquerdo, 183"
+      },
+      "facts": []
+    },
+    {
+      "slug": "jardin-infantil-madrid",
+      "set": {
+        "street": "Calle de Embajadores, 173"
+      },
+      "facts": []
+    },
+    {
+      "slug": "pasitos-magicos-madrid",
+      "set": {
+        "latitude": 40.402276,
+        "longitude": -3.668454,
+        "street": "Calle Juan de Juanes, 10",
+        "neighborhood_barrio": "Adelfas"
+      },
+      "facts": []
+    },
+    {
+      "slug": "ramon-y-cajal-madrid",
+      "set": {
+        "street": "Calle de López de Hoyos, 386"
+      },
+      "facts": []
+    },
+    {
+      "slug": "embajadores-madrid",
+      "set": {
+        "latitude": 40.404488,
+        "longitude": -3.699407,
+        "street": "Calle de Sebastián Elcano, 16",
+        "neighborhood_barrio": "Palos de la Frontera"
+      },
+      "facts": []
+    },
+    {
+      "slug": "la-casa-del-rio-miriam-madrid",
+      "set": {
+        "street": "Paseo del Comandante Fortea, 81"
+      },
+      "facts": []
+    },
+    {
+      "slug": "santa-bernardita-madrid",
+      "set": {
+        "street": "Calle Príncipe de Asturias, 10"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escuela-montessori-madrid-madrid",
+      "set": {
+        "latitude": 40.473884,
+        "longitude": -3.821522,
+        "street": "Calle Lamiaco, 12",
+        "neighborhood_barrio": "El Plantío"
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-jardin-de-las-mariposas-madrid",
+      "set": {
+        "latitude": 40.479183,
+        "longitude": -3.64576,
+        "street": "Calle de Santa Susana, 30",
+        "neighborhood_barrio": "Pinar del Rey"
+      },
+      "facts": []
+    },
+    {
+      "slug": "san-alonso-de-orozco-madrid",
+      "set": {
+        "street": "Calle de Vicente Aleixandre, 6"
+      },
+      "facts": []
+    },
+    {
+      "slug": "jardin-de-las-delicias-madrid",
+      "set": {
+        "street": "Calle de Tomás Bretón, 43"
+      },
+      "facts": []
+    }
+  ]
+}

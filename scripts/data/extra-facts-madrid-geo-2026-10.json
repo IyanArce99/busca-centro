@@ -1,0 +1,1883 @@
+{
+  "checkedAt": "2026-10-06",
+  "facts": {
+    "agarimo-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Moncloa (a unos 380 m), Metro Argüelles (a unos 400 m) y Metro Islas Filipinas (a unos 550 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43418&mlon=-3.71491#map=16/40.43418/-3.71491",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardines del Concejal Alejandro Muñoz Revenga (a unos 220 m) y Jardín de José Luis Sampedro (a unos 300 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43418&mlon=-3.71491#map=16/40.43418/-3.71491",
+        "registry": true
+      }
+    ],
+    "ana-de-austria-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Ligero Blasco Ibáñez (a unos 180 m), Metro Ligero María Tudor (a unos 360 m) y Metro Ligero Álvarez de Villaamil (a unos 760 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.49529&mlon=-3.65548#map=16/40.49529/-3.65548",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque María Tudor (a unos 290 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.49529&mlon=-3.65548#map=16/40.49529/-3.65548",
+        "registry": true
+      }
+    ],
+    "andal-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Conde de Casal (a unos 240 m), Metro Sainz de Baranda (a unos 700 m) y Metro Pacífico (a unos 810 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40852&mlon=-3.67276#map=16/40.40852/-3.67276",
+        "registry": true
+      }
+    ],
+    "afuera-iii-b-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Conde de Casal (a unos 250 m), Metro Sainz de Baranda (a unos 710 m) y Metro Pacífico (a unos 810 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40856&mlon=-3.67295#map=16/40.40856/-3.67295",
+        "registry": true
+      }
+    ],
+    "cocorico-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Cartagena (a unos 130 m), Metro Prosperidad (a unos 540 m) y Metro Avenida de América (a unos 620 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44036&mlon=-3.67093#map=16/40.44036/-3.67093",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardín de Francisco Javier Sáenz de Oiza (a unos 130 m) y Jardín de Margarita Salas (a unos 360 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44036&mlon=-3.67093#map=16/40.44036/-3.67093",
+        "registry": true
+      }
+    ],
+    "alaria-nuevos-ministerios-nursery-school-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro República Argentina (a unos 280 m), Metro Cruz del Rayo (a unos 590 m) y Metro Gregorio Marañón (a unos 710 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44179&mlon=-3.68442#map=16/40.44179/-3.68442",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Aviador Lindbergh (a unos 360 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44179&mlon=-3.68442#map=16/40.44179/-3.68442",
+        "registry": true
+      }
+    ],
+    "casita-maravillas-baby-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Méndez Álvaro (a unos 360 m), Metro Arganzuela-Planetario (a unos 400 m) y Cercanías Méndez Álvaro (a unos 470 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39440&mlon=-3.68394#map=16/40.39440/-3.68394",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Enrique Tierno Galván (a unos 50 m) y Parque Oriana (a unos 200 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39440&mlon=-3.68394#map=16/40.39440/-3.68394",
+        "registry": true
+      }
+    ],
+    "pedagogia-waldorf-de-aravaca-madrid": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Valdemarín (a unos 340 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46364&mlon=-3.79018#map=16/40.46364/-3.79018",
+        "registry": true
+      }
+    ],
+    "alaria-serrano-nursey-school-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Concha Espina (a unos 320 m), Metro Colombia (a unos 750 m) y Metro Cruz del Rayo (a unos 790 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45126&mlon=-3.68135#map=16/40.45126/-3.68135",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Berlín (a unos 340 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45126&mlon=-3.68135#map=16/40.45126/-3.68135",
+        "registry": true
+      }
+    ],
+    "pippo-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Cartagena (a unos 320 m), Metro Prosperidad (a unos 400 m) y Metro Cruz del Rayo (a unos 690 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44220&mlon=-3.67091#map=16/40.44220/-3.67091",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardín de Francisco Javier Sáenz de Oiza (a unos 130 m) y Jardines de Medardo Fraile (a unos 240 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44220&mlon=-3.67091#map=16/40.44220/-3.67091",
+        "registry": true
+      }
+    ],
+    "alicia-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Argüelles (a unos 390 m), Metro Ventura Rodríguez (a unos 490 m) y Cercanías Madrid-Príncipe Pío (a unos 710 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.42796&mlon=-3.71891#map=16/40.42796/-3.71891",
+        "registry": true
+      }
+    ],
+    "2-semillas-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Esperanza (a unos 340 m) y Metro Pinar del Rey (a unos 650 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46224&mlon=-3.64634#map=16/40.46224/-3.64634",
+        "registry": true
+      }
+    ],
+    "andal-ii-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Conde de Casal (a unos 200 m), Metro Pacífico (a unos 730 m) y Metro Sainz de Baranda (a unos 780 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40769&mlon=-3.67244#map=16/40.40769/-3.67244",
+        "registry": true
+      }
+    ],
+    "laly-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Plaza de Castilla (a unos 370 m), Metro Duque de Pastrana (a unos 420 m) y Cercanías Madrid-Chamartín-Clara Campoamor (a unos 710 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46610&mlon=-3.68527#map=16/40.46610/-3.68527",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque del Cuarto Depósito (a unos 60 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46610&mlon=-3.68527#map=16/40.46610/-3.68527",
+        "registry": true
+      }
+    ],
+    "pequenecos-parque-norte-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Bambú (a unos 410 m), Metro Ligero Pinar de Chamartín (a unos 610 m) y Metro Manoteras (a unos 780 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.47599&mlon=-3.67189#map=16/40.47599/-3.67189",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Doctor Fernández Catalina (a unos 380 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.47599&mlon=-3.67189#map=16/40.47599/-3.67189",
+        "registry": true
+      }
+    ],
+    "educando-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Conde de Casal (a unos 370 m), Metro Pacífico (a unos 470 m) y Metro Puente de Vallecas (a unos 750 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40458&mlon=-3.67132#map=16/40.40458/-3.67132",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Martin Luther King (a unos 220 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40458&mlon=-3.67132#map=16/40.40458/-3.67132",
+        "registry": true
+      }
+    ],
+    "educando-juntos-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Pacífico (a unos 310 m), Metro Conde de Casal (a unos 550 m) y Metro Puente de Vallecas (a unos 610 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40306&mlon=-3.67192#map=16/40.40306/-3.67192",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Martin Luther King (a unos 260 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40306&mlon=-3.67192#map=16/40.40306/-3.67192",
+        "registry": true
+      }
+    ],
+    "can-ta-chimutri-sol-y-luna-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Antonio Machado (a unos 590 m) y Metro Valdezarza (a unos 660 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46720&mlon=-3.72370#map=16/40.46720/-3.72370",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Luisa Carnés (a unos 380 m) y Lugar Poetas (a unos 380 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46720&mlon=-3.72370#map=16/40.46720/-3.72370",
+        "registry": true
+      }
+    ],
+    "carrusel-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Alfonso XIII (a unos 90 m), Metro Avenida de la Paz (a unos 740 m) y Metro Prosperidad (a unos 770 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44774&mlon=-3.66708#map=16/40.44774/-3.66708",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardín del Cerro Ventoso (a unos 290 m) y Jardín de Luis de Trelles (a unos 320 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44774&mlon=-3.66708#map=16/40.44774/-3.66708",
+        "registry": true
+      }
+    ],
+    "buen-consejo-madrid": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque La Rinconada (a unos 70 m) y Parque del Arroyo Pozuelo (a unos 330 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45822&mlon=-3.76705#map=16/40.45822/-3.76705",
+        "registry": true
+      }
+    ],
+    "el-duende-travieso-ii-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Cercanías Pirámides (a unos 220 m), Metro Pirámides (a unos 260 m) y Metro Acacias (a unos 300 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40330&mlon=-3.70940#map=16/40.40330/-3.70940",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Lavanderas del Manzanares (a unos 60 m) y Jardín del Rastro (a unos 210 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40330&mlon=-3.70940#map=16/40.40330/-3.70940",
+        "registry": true
+      }
+    ],
+    "afuera-iii-a-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Conde de Casal (a unos 250 m), Metro Pacífico (a unos 710 m) y Metro Menéndez Pelayo (a unos 770 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40767&mlon=-3.67310#map=16/40.40767/-3.67310",
+        "registry": true
+      }
+    ],
+    "casita-maravillas-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Arganzuela-Planetario (a unos 350 m) y Metro Legazpi (a unos 360 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39069&mlon=-3.69088#map=16/40.39069/-3.69088",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque del Bronce (a unos 280 m) y Parque de Enrique Tierno Galván (a unos 390 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39069&mlon=-3.69088#map=16/40.39069/-3.69088",
+        "registry": true
+      }
+    ],
+    "casa-nido-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Arganzuela-Planetario (a unos 230 m), Metro Legazpi (a unos 360 m) y Metro Delicias (a unos 810 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39244&mlon=-3.69089#map=16/40.39244/-3.69089",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque del Bronce (a unos 310 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39244&mlon=-3.69089#map=16/40.39244/-3.69089",
+        "registry": true
+      }
+    ],
+    "chamberines-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Alonso Cano (a unos 270 m), Metro Canal (a unos 290 m) y Metro Iglesia (a unos 290 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43687&mlon=-3.70176#map=16/40.43687/-3.70176",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Ríos Rosas (a unos 300 m) y Jardines de Enrique Herreros (a unos 320 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43687&mlon=-3.70176#map=16/40.43687/-3.70176",
+        "registry": true
+      }
+    ],
+    "chiqui-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Quevedo (a unos 270 m), Metro San Bernardo (a unos 470 m) y Metro Canal (a unos 600 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43382&mlon=-3.70755#map=16/40.43382/-3.70755",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardín de José Luis Sampedro (a unos 250 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43382&mlon=-3.70755#map=16/40.43382/-3.70755",
+        "registry": true
+      }
+    ],
+    "colegio-sei-dos-parques-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Acacias (a unos 790 m), Metro Delicias (a unos 820 m) y Metro Embajadores (a unos 850 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39724&mlon=-3.70337#map=16/40.39724/-3.70337",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Madrid Río (a unos 60 m) y Parque de Peñuelas (a unos 190 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39724&mlon=-3.70337#map=16/40.39724/-3.70337",
+        "registry": true
+      }
+    ],
+    "cucutras-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Canillas (a unos 150 m) y Metro Mar de Cristal (a unos 620 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46435&mlon=-3.63706#map=16/40.46435/-3.63706",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Villa Rosa Paco Caño (a unos 390 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46435&mlon=-3.63706#map=16/40.46435/-3.63706",
+        "registry": true
+      }
+    ],
+    "dina-condado-2-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Ligero Pinar de Chamartín (a unos 160 m), Metro Ligero Fuente de la Mora (a unos 650 m) y Cercanías Fuente de la Mora (a unos 670 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.48074&mlon=-3.66868#map=16/40.48074/-3.66868",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Condado de Treviño (a unos 50 m) y Parque Caleruega (a unos 170 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.48074&mlon=-3.66868#map=16/40.48074/-3.66868",
+        "registry": true
+      }
+    ],
+    "cuna-de-jesus-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Diego de León (a unos 310 m), Metro Cartagena (a unos 490 m) y Metro Avenida de América (a unos 590 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43502&mlon=-3.67119#map=16/40.43502/-3.67119",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardín de Aurora Auñón (a unos 70 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43502&mlon=-3.67119#map=16/40.43502/-3.67119",
+        "registry": true
+      }
+    ],
+    "diabolo-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Delicias (a unos 150 m), Metro Palos de la Frontera (a unos 500 m) y Metro Legazpi (a unos 800 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39866&mlon=-3.69567#map=16/40.39866/-3.69567",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardín de Palestina (a unos 380 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39866&mlon=-3.69567#map=16/40.39866/-3.69567",
+        "registry": true
+      }
+    ],
+    "educando-pitufos-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Sainz de Baranda (a unos 530 m), Metro Conde de Casal (a unos 590 m) y Metro Ibiza (a unos 790 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.41174&mlon=-3.67482#map=16/40.41174/-3.67482",
+        "registry": true
+      }
+    ],
+    "el-bosque-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Palos de la Frontera (a unos 280 m), Cercanías Madrid-Puerta de Atocha-Almudena Grandes (a unos 280 m) y Cercanías Atocha-Cercanías (a unos 360 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40347&mlon=-3.69155#map=16/40.40347/-3.69155",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardines de Palestina (a unos 230 m) y Jardín de Palestina (a unos 290 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40347&mlon=-3.69155#map=16/40.40347/-3.69155",
+        "registry": true
+      }
+    ],
+    "el-carmen-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Manoteras (a unos 320 m), Metro Ligero Pinar de Chamartín (a unos 520 m) y Metro Ligero Fuente de la Mora (a unos 630 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.47927&mlon=-3.66105#map=16/40.47927/-3.66105",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Manoteras (a unos 140 m) y Parque del Alcalde de Madrid Don José Luis Álvarez y Álvarez (a unos 310 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.47927&mlon=-3.66105#map=16/40.47927/-3.66105",
+        "registry": true
+      }
+    ],
+    "dina-condado-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Ligero Pinar de Chamartín (a unos 160 m), Metro Ligero Fuente de la Mora (a unos 650 m) y Cercanías Fuente de la Mora (a unos 670 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.48074&mlon=-3.66868#map=16/40.48074/-3.66868",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Condado de Treviño (a unos 50 m) y Parque Caleruega (a unos 170 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.48074&mlon=-3.66868#map=16/40.48074/-3.66868",
+        "registry": true
+      }
+    ],
+    "el-jardin-de-los-genios-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Ventura Rodríguez (a unos 220 m), Metro Argüelles (a unos 500 m) y Metro Plaza de España (a unos 530 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.42628&mlon=-3.71585#map=16/40.42628/-3.71585",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardines de la condesa Emilia Pardo Bazán (a unos 240 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.42628&mlon=-3.71585#map=16/40.42628/-3.71585",
+        "registry": true
+      }
+    ],
+    "el-parque-de-la-piovera-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Canillejas (a unos 860 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45503&mlon=-3.61519#map=16/40.45503/-3.61519",
+        "registry": true
+      }
+    ],
+    "planeta-enano-nino-jesus-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Ibiza (a unos 490 m), Metro Sainz de Baranda (a unos 540 m) y Metro Conde de Casal (a unos 870 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.41424&mlon=-3.67605#map=16/40.41424/-3.67605",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardines Doce de Octubre (a unos 250 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.41424&mlon=-3.67605#map=16/40.41424/-3.67605",
+        "registry": true
+      }
+    ],
+    "el-tren-de-la-fresa-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Delicias (a unos 490 m), Metro Arganzuela-Planetario (a unos 650 m) y Metro Palos de la Frontera (a unos 700 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39908&mlon=-3.68837#map=16/40.39908/-3.68837",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Enrique Tierno Galván (a unos 370 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39908&mlon=-3.68837#map=16/40.39908/-3.68837",
+        "registry": true
+      }
+    ],
+    "el-nido-del-buho-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Canal (a unos 290 m), Metro Quevedo (a unos 340 m) y Metro Iglesia (a unos 540 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43614&mlon=-3.70535#map=16/40.43614/-3.70535",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardines de Enrique Herreros (a unos 300 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43614&mlon=-3.70535#map=16/40.43614/-3.70535",
+        "registry": true
+      }
+    ],
+    "el-osito-2-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Alfonso XIII (a unos 320 m), Metro Prosperidad (a unos 720 m) y Metro Parque de las Avenidas (a unos 760 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44552&mlon=-3.66651#map=16/40.44552/-3.66651",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardín de Luis de Trelles (a unos 150 m) y Jardines de Medardo Fraile (a unos 220 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44552&mlon=-3.66651#map=16/40.44552/-3.66651",
+        "registry": true
+      }
+    ],
+    "rosa-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Duque de Pastrana (a unos 220 m), Metro Pío XII (a unos 510 m) y Cercanías Madrid-Chamartín-Clara Campoamor (a unos 750 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46554&mlon=-3.67997#map=16/40.46554/-3.67997",
+        "registry": true
+      }
+    ],
+    "el-reino-del-reves-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Delicias (a unos 460 m), Metro Palos de la Frontera (a unos 580 m) y Metro Embajadores (a unos 650 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39935&mlon=-3.69958#map=16/40.39935/-3.69958",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Peñuelas (a unos 320 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39935&mlon=-3.69958#map=16/40.39935/-3.69958",
+        "registry": true
+      }
+    ],
+    "boreal-dreaming-together-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Feria de Madrid (a unos 830 m) y Metro Canillas (a unos 850 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46179&mlon=-3.62572#map=16/40.46179/-3.62572",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Villa Rosa Paco Caño (a unos 150 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46179&mlon=-3.62572#map=16/40.46179/-3.62572",
+        "registry": true
+      }
+    ],
+    "la-virgen-nina-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Arturo Soria (a unos 890 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44981&mlon=-3.64940#map=16/40.44981/-3.64940",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Telemaco Park (a unos 360 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44981&mlon=-3.64940#map=16/40.44981/-3.64940",
+        "registry": true
+      }
+    ],
+    "eipa-escuela-infantil-parque-de-las-avenidas-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Parque de las Avenidas (a unos 50 m), Metro Cartagena (a unos 780 m) y Metro Barrio de la Concepción (a unos 890 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43912&mlon=-3.66255#map=16/40.43912/-3.66255",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de las Avenidas (a unos 140 m) y Parque de Breogán (a unos 180 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43912&mlon=-3.66255#map=16/40.43912/-3.66255",
+        "registry": true
+      }
+    ],
+    "mudarra-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Cercanías Valdebebas (a unos 760 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.48786&mlon=-3.61213#map=16/40.48786/-3.61213",
+        "registry": true
+      }
+    ],
+    "los-nanos-chiflados-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Concha Espina (a unos 450 m), Metro Prosperidad (a unos 490 m) y Metro Alfonso XIII (a unos 490 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44853&mlon=-3.67369#map=16/40.44853/-3.67369",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Berlín (a unos 100 m) y Jardines de Próspero Soynard (a unos 160 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44853&mlon=-3.67369#map=16/40.44853/-3.67369",
+        "registry": true
+      }
+    ],
+    "chiqui-tin-alcantara-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Lista (a unos 200 m), Metro Diego de León (a unos 450 m) y Metro Manuel Becerra (a unos 490 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43055&mlon=-3.67352#map=16/40.43055/-3.67352",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardines de Eva Duarte de Perón (a unos 270 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43055&mlon=-3.67352#map=16/40.43055/-3.67352",
+        "registry": true
+      }
+    ],
+    "donde-estan-las-llaves-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Arganzuela-Planetario (a unos 410 m), Metro Delicias (a unos 420 m) y Metro Legazpi (a unos 630 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39633&mlon=-3.69113#map=16/40.39633/-3.69113",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque del Bronce (a unos 370 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39633&mlon=-3.69113#map=16/40.39633/-3.69113",
+        "registry": true
+      }
+    ],
+    "escuela-de-educacion-infantil-del-complejo-cuzco-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Cuzco (a unos 220 m), Metro Santiago Bernabéu (a unos 630 m) y Metro Tetuán (a unos 880 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45777&mlon=-3.68868#map=16/40.45777/-3.68868",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de San Fernando (a unos 160 m) y Olivar de Castillejo (a unos 360 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45777&mlon=-3.68868#map=16/40.45777/-3.68868",
+        "registry": true
+      }
+    ],
+    "mi-primer-cole-4-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Canillas (a unos 340 m) y Metro Mar de Cristal (a unos 380 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46652&mlon=-3.63727#map=16/40.46652/-3.63727",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Villa Rosa Paco Caño (a unos 180 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46652&mlon=-3.63727#map=16/40.46652/-3.63727",
+        "registry": true
+      }
+    ],
+    "iris-ii-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Pinar del Rey (a unos 390 m) y Metro Hortaleza (a unos 590 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46940&mlon=-3.65274#map=16/40.46940/-3.65274",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Pinar del Rey (a unos 340 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46940&mlon=-3.65274#map=16/40.46940/-3.65274",
+        "registry": true
+      }
+    ],
+    "guardilla-infantil-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Guzmán el Bueno (a unos 250 m), Metro Islas Filipinas (a unos 590 m) y Metro Vicente Aleixandre (a unos 640 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44415&mlon=-3.71215#map=16/40.44415/-3.71215",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: parque de las naciones (a unos 80 m) y parque con fuente (a unos 280 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44415&mlon=-3.71215#map=16/40.44415/-3.71215",
+        "registry": true
+      }
+    ],
+    "el-osito-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Alfonso XIII (a unos 250 m) y Metro Avenida de la Paz (a unos 490 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44957&mlon=-3.66555#map=16/40.44957/-3.66555",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Félix Rodríguez de la Fuente (a unos 240 m) y Jardín del Cerro Ventoso (a unos 270 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44957&mlon=-3.66555#map=16/40.44957/-3.66555",
+        "registry": true
+      }
+    ],
+    "el-osito-de-luis-de-larrainza-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Alfonso XIII (a unos 290 m), Metro Avenida de la Paz (a unos 650 m) y Metro Concha Espina (a unos 730 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45064&mlon=-3.66902#map=16/40.45064/-3.66902",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardín del Cerro Ventoso (a unos 50 m) y Jardines Verónica Forqué (a unos 320 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45064&mlon=-3.66902#map=16/40.45064/-3.66902",
+        "registry": true
+      }
+    ],
+    "el-parque-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Prosperidad (a unos 410 m), Metro Alfonso XIII (a unos 490 m) y Metro Cartagena (a unos 550 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44412&mlon=-3.67006#map=16/40.44412/-3.67006",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardines de Medardo Fraile (a unos 80 m) y Jardín de Margarita Salas (a unos 240 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44412&mlon=-3.67006#map=16/40.44412/-3.67006",
+        "registry": true
+      }
+    ],
+    "el-tren-de-arganda-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Sainz de Baranda (a unos 290 m), Metro Ibiza (a unos 600 m) y Metro Conde de Casal (a unos 800 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.41464&mlon=-3.67308#map=16/40.41464/-3.67308",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardines Doce de Octubre (a unos 90 m) y Jardines de John Lennon (a unos 400 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.41464&mlon=-3.67308#map=16/40.41464/-3.67308",
+        "registry": true
+      }
+    ],
+    "garabatos-y-ocho-patos-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Pirámides (a unos 160 m), Cercanías Pirámides (a unos 220 m) y Metro Acacias (a unos 480 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40139&mlon=-3.71032#map=16/40.40139/-3.71032",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Jardín Papelera Peninsular (a unos 160 m) y Parque Lavanderas del Manzanares (a unos 180 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40139&mlon=-3.71032#map=16/40.40139/-3.71032",
+        "registry": true
+      }
+    ],
+    "little-witch-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Cercanías Madrid-Chamartín-Clara Campoamor (a unos 510 m), Metro Duque de Pastrana (a unos 570 m) y Metro Chamartín (a unos 620 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.47142&mlon=-3.67624#map=16/40.47142/-3.67624",
+        "registry": true
+      }
+    ],
+    "magos-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Ibiza (a unos 400 m) y Metro Sainz de Baranda (a unos 490 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.41542&mlon=-3.67534#map=16/40.41542/-3.67534",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardines Doce de Octubre (a unos 150 m) y Senda botánica Hospital Gregorio Marañón (a unos 380 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.41542&mlon=-3.67534#map=16/40.41542/-3.67534",
+        "registry": true
+      }
+    ],
+    "san-miguel-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Hortaleza (a unos 50 m), Metro Parque de Santa María (a unos 630 m) y Metro Pinar del Rey (a unos 790 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.47441&mlon=-3.65227#map=16/40.47441/-3.65227",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Doña Guiomar (a unos 290 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.47441&mlon=-3.65227#map=16/40.47441/-3.65227",
+        "registry": true
+      }
+    ],
+    "la-almudena-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Canillas (a unos 320 m) y Metro Mar de Cristal (a unos 650 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46589&mlon=-3.63291#map=16/40.46589/-3.63291",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Villa Rosa Paco Caño (a unos 260 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46589&mlon=-3.63291#map=16/40.46589/-3.63291",
+        "registry": true
+      }
+    ],
+    "la-estrella-infantil-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Estrella (a unos 420 m), Metro Conde de Casal (a unos 470 m) y Metro Sainz de Baranda (a unos 480 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.41087&mlon=-3.66633#map=16/40.41087/-3.66633",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardines de José Luis Jiménez Manso (a unos 340 m) y Parque de Roma (a unos 380 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.41087&mlon=-3.66633#map=16/40.41087/-3.66633",
+        "registry": true
+      }
+    ],
+    "la-gran-via-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Canillas (a unos 140 m) y Metro Mar de Cristal (a unos 860 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46280&mlon=-3.63444#map=16/40.46280/-3.63444",
+        "registry": true
+      }
+    ],
+    "la-jirafa-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Canillas (a unos 150 m), Metro Mar de Cristal (a unos 710 m) y Metro Esperanza (a unos 860 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46357&mlon=-3.63715#map=16/40.46357/-3.63715",
+        "registry": true
+      }
+    ],
+    "nemomarlin-paseo-de-la-habana-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Colombia (a unos 390 m), Metro Pío XII (a unos 640 m) y Metro Cuzco (a unos 750 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45749&mlon=-3.68155#map=16/40.45749/-3.68155",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Juan de la Cosa (a unos 180 m) y Olivar de Castillejo (a unos 220 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45749&mlon=-3.68155#map=16/40.45749/-3.68155",
+        "registry": true
+      }
+    ],
+    "nemomarlin-pintor-rosales-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Argüelles (a unos 490 m), Metro Ventura Rodríguez (a unos 560 m) y Cercanías Madrid-Príncipe Pío (a unos 640 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.42730&mlon=-3.71986#map=16/40.42730/-3.71986",
+        "registry": true
+      }
+    ],
+    "nemomarlin-retiro-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Conde de Casal (a unos 620 m), Metro Sainz de Baranda (a unos 670 m) y Metro Menéndez Pelayo (a unos 840 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.41091&mlon=-3.67619#map=16/40.41091/-3.67619",
+        "registry": true
+      }
+    ],
+    "osobuco-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Alfonso XIII (a unos 230 m) y Metro Avenida de la Paz (a unos 530 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44914&mlon=-3.66546#map=16/40.44914/-3.66546",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardín del Cerro Ventoso (a unos 290 m) y Parque de Félix Rodríguez de la Fuente (a unos 290 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44914&mlon=-3.66546#map=16/40.44914/-3.66546",
+        "registry": true
+      }
+    ],
+    "st-alices-nursery-galileo-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Quevedo (a unos 520 m), Metro Islas Filipinas (a unos 570 m) y Metro Argüelles (a unos 660 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43468&mlon=-3.71037#map=16/40.43468/-3.71037",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardín de José Luis Sampedro (a unos 120 m) y Jardines del Concejal Alejandro Muñoz Revenga (a unos 180 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43468&mlon=-3.71037#map=16/40.43468/-3.71037",
+        "registry": true
+      }
+    ],
+    "ulu-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Menéndez Pelayo (a unos 400 m), Metro Atocha (a unos 570 m) y Cercanías Atocha-Cercanías (a unos 610 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40786&mlon=-3.68201#map=16/40.40786/-3.68201",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Real Observatorio de Madrid (a unos 350 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40786&mlon=-3.68201#map=16/40.40786/-3.68201",
+        "registry": true
+      }
+    ],
+    "el-sol-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Pío XII (a unos 530 m) y Metro Colombia (a unos 720 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46116&mlon=-3.67036#map=16/40.46116/-3.67036",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardines de Berta Cáceres (a unos 50 m) y Jardín de Miguel Ángel Blanco (a unos 220 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46116&mlon=-3.67036#map=16/40.46116/-3.67036",
+        "registry": true
+      }
+    ],
+    "preschool-fem-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Vicente Aleixandre (a unos 280 m), Metro Guzmán el Bueno (a unos 420 m) y Metro Islas Filipinas (a unos 660 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44431&mlon=-3.71744#map=16/40.44431/-3.71744",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardin del Tribunal constitucional (a unos 320 m) y parque con fuente (a unos 320 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44431&mlon=-3.71744#map=16/40.44431/-3.71744",
+        "registry": true
+      }
+    ],
+    "el-tren-de-los-ninos-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Bambú (a unos 380 m) y Metro Ligero Pinar de Chamartín (a unos 650 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.48009&mlon=-3.67471#map=16/40.48009/-3.67471",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Caleruega (a unos 270 m) y Parque Santa María del Pinar (a unos 370 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.48009&mlon=-3.67471#map=16/40.48009/-3.67471",
+        "registry": true
+      }
+    ],
+    "el-tren-de-los-ninos-ii-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Bambú (a unos 210 m), Metro Ligero Pinar de Chamartín (a unos 700 m) y Metro Chamartín (a unos 820 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.47852&mlon=-3.67509#map=16/40.47852/-3.67509",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Caleruega (a unos 380 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.47852&mlon=-3.67509#map=16/40.47852/-3.67509",
+        "registry": true
+      }
+    ],
+    "gran-via-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Pinar del Rey (a unos 150 m) y Metro Esperanza (a unos 860 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46653&mlon=-3.64902#map=16/40.46653/-3.64902",
+        "registry": true
+      }
+    ],
+    "international-montessori-kindergarten-madrid": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque del Pinar de Barajas (a unos 80 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45256&mlon=-3.63306#map=16/40.45256/-3.63306",
+        "registry": true
+      }
+    ],
+    "kinder-santamarca-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Concha Espina (a unos 350 m), Metro Alfonso XIII (a unos 550 m) y Metro Prosperidad (a unos 700 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45045&mlon=-3.67365#map=16/40.45045/-3.67365",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Berlín (a unos 110 m) y Jardines de Próspero Soynard (a unos 260 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45045&mlon=-3.67365#map=16/40.45045/-3.67365",
+        "registry": true
+      }
+    ],
+    "la-estrella-infantil-iii-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Sainz de Baranda (a unos 210 m), Metro Estrella (a unos 700 m) y Metro O'Donnell (a unos 760 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.41542&mlon=-3.66763#map=16/40.41542/-3.66763",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardines de John Lennon (a unos 130 m) y Parque de Roma (a unos 150 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.41542&mlon=-3.66763#map=16/40.41542/-3.66763",
+        "registry": true
+      }
+    ],
+    "lar-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Legazpi (a unos 450 m), Metro Almendrales (a unos 620 m) y Metro Arganzuela-Planetario (a unos 700 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.38780&mlon=-3.69268#map=16/40.38780/-3.69268",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Madrid Río (a unos 240 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.38780&mlon=-3.69268#map=16/40.38780/-3.69268",
+        "registry": true
+      }
+    ],
+    "las-nubes-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Menéndez Pelayo (a unos 260 m), Cercanías Atocha-Cercanías (a unos 490 m) y Metro Atocha (a unos 550 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40349&mlon=-3.68403#map=16/40.40349/-3.68403",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: La Costa (a unos 50 m) y Laberinto (a unos 220 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40349&mlon=-3.68403#map=16/40.40349/-3.68403",
+        "registry": true
+      }
+    ],
+    "las-vinas-madrid": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardín Espíritu de Ermua (a unos 330 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46106&mlon=-3.78567#map=16/40.46106/-3.78567",
+        "registry": true
+      }
+    ],
+    "little-clovers-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Arturo Soria (a unos 760 m), Metro Pinar del Rey (a unos 790 m) y Metro Esperanza (a unos 900 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46271&mlon=-3.65512#map=16/40.46271/-3.65512",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Pinar del Rey (a unos 130 m) y Parque de Gomeznarro (a unos 220 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46271&mlon=-3.65512#map=16/40.46271/-3.65512",
+        "registry": true
+      }
+    ],
+    "mi-primer-cole-2-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Manuel Becerra (a unos 420 m), Metro Ventas (a unos 440 m) y Metro O'Donnell (a unos 700 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.42708&mlon=-3.66391#map=16/40.42708/-3.66391",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Isabel II (a unos 60 m) y Los Jardines de las Mujeres de Ventas (a unos 100 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.42708&mlon=-3.66391#map=16/40.42708/-3.66391",
+        "registry": true
+      }
+    ],
+    "luis-bello-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Prosperidad (a unos 100 m), Metro Cruz del Rayo (a unos 400 m) y Metro Cartagena (a unos 510 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44376&mlon=-3.67384#map=16/40.44376/-3.67384",
+        "registry": true
+      }
+    ],
+    "mamatina-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Cercanías Aravaca (a unos 300 m) y Metro Ligero Aravaca (a unos 380 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44946&mlon=-3.78210#map=16/40.44946/-3.78210",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque del Arroyo Pozuelo (a unos 340 m) y Bosque Metropolitano - Avenida Talgo (a unos 350 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44946&mlon=-3.78210#map=16/40.44946/-3.78210",
+        "registry": true
+      }
+    ],
+    "nazaret-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Prosperidad (a unos 310 m), Metro Cruz del Rayo (a unos 340 m) y Metro Avenida de América (a unos 460 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44180&mlon=-3.67666#map=16/40.44180/-3.67666",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardín de Joaquín Masmitjá (a unos 60 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44180&mlon=-3.67666#map=16/40.44180/-3.67666",
+        "registry": true
+      }
+    ],
+    "margot-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Antonio Machado (a unos 150 m), Metro Valdezarza (a unos 470 m) y Metro Peñagrande (a unos 760 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46912&mlon=-3.71674#map=16/40.46912/-3.71674",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Luisa Carnés (a unos 220 m) y Lugar Poetas (a unos 330 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46912&mlon=-3.71674#map=16/40.46912/-3.71674",
+        "registry": true
+      }
+    ],
+    "menagar-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Colombia (a unos 160 m), Metro Concha Espina (a unos 560 m) y Metro Pío XII (a unos 640 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45608&mlon=-3.67559#map=16/40.45608/-3.67559",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardines de los Huérfanos de la Guardia Civil (a unos 50 m) y Jardines del Instituto Santamarca (a unos 120 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45608&mlon=-3.67559#map=16/40.45608/-3.67559",
+        "registry": true
+      }
+    ],
+    "mis-mis-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Alonso Cano (a unos 180 m), Metro Iglesia (a unos 390 m) y Metro Gregorio Marañón (a unos 500 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43846&mlon=-3.69711#map=16/40.43846/-3.69711",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardín de Concha Méndez (a unos 200 m) y Parque Ríos Rosas (a unos 350 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43846&mlon=-3.69711#map=16/40.43846/-3.69711",
+        "registry": true
+      }
+    ],
+    "nemomarlin-chamberi-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Argüelles (a unos 490 m), Metro Quevedo (a unos 570 m) y Metro San Bernardo (a unos 580 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43301&mlon=-3.71118#map=16/40.43301/-3.71118",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardín de José Luis Sampedro (a unos 50 m) y Jardines del Concejal Alejandro Muñoz Revenga (a unos 50 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43301&mlon=-3.71118#map=16/40.43301/-3.71118",
+        "registry": true
+      }
+    ],
+    "nemomarlin-ciudad-jardin-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Alfonso XIII (a unos 320 m), Metro Prosperidad (a unos 460 m) y Metro Concha Espina (a unos 670 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44748&mlon=-3.67154#map=16/40.44748/-3.67154",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Berlín (a unos 300 m) y Jardín del Cerro Ventoso (a unos 300 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44748&mlon=-3.67154#map=16/40.44748/-3.67154",
+        "registry": true
+      }
+    ],
+    "nemomarlin-guindalera-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Cartagena (a unos 470 m), Metro Diego de León (a unos 520 m) y Metro Parque de las Avenidas (a unos 630 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43586&mlon=-3.66879#map=16/40.43586/-3.66879",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardín de Aurora Auñón (a unos 180 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43586&mlon=-3.66879#map=16/40.43586/-3.66879",
+        "registry": true
+      }
+    ],
+    "nuestra-senora-de-los-dolores-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro San Bernardo (a unos 120 m), Metro Quevedo (a unos 290 m) y Metro Bilbao (a unos 390 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43084&mlon=-3.70603#map=16/40.43084/-3.70603",
+        "registry": true
+      }
+    ],
+    "parque-de-hortaleza-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Parque de Santa María (a unos 440 m), Metro Hortaleza (a unos 500 m) y Metro San Lorenzo (a unos 610 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.47318&mlon=-3.64654#map=16/40.47318/-3.64654",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Isabel Clara Eugenia (a unos 50 m) y Parque de la Huerta de la Salud (a unos 190 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.47318&mlon=-3.64654#map=16/40.47318/-3.64654",
+        "registry": true
+      }
+    ],
+    "paso-a-paso-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Acacias (a unos 650 m), Metro Pirámides (a unos 680 m) y Cercanías Pirámides (a unos 750 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39824&mlon=-3.70572#map=16/40.39824/-3.70572",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Madrid Río (a unos 120 m) y Parque de Peñuelas (a unos 140 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39824&mlon=-3.70572#map=16/40.39824/-3.70572",
+        "registry": true
+      }
+    ],
+    "san-gabriel-arcangel-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Valdezarza (a unos 570 m) y Metro Antonio Machado (a unos 730 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46500&mlon=-3.72322#map=16/40.46500/-3.72322",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Blas de Otero (a unos 300 m) y Parque de Luisa Carnés (a unos 370 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46500&mlon=-3.72322#map=16/40.46500/-3.72322",
+        "registry": true
+      }
+    ],
+    "san-jose-de-cluny-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Valdezarza (a unos 390 m) y Metro Antonio Machado (a unos 740 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46528&mlon=-3.71191#map=16/40.46528/-3.71191",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Agustín Rodríguez Sahagún (a unos 150 m) y Parque de Luisa Carnés (a unos 350 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46528&mlon=-3.71191#map=16/40.46528/-3.71191",
+        "registry": true
+      }
+    ],
+    "pipos-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Delicias (a unos 500 m), Metro Palos de la Frontera (a unos 630 m) y Metro Embajadores (a unos 670 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39903&mlon=-3.69996#map=16/40.39903/-3.69996",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Peñuelas (a unos 290 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39903&mlon=-3.69996#map=16/40.39903/-3.69996",
+        "registry": true
+      }
+    ],
+    "projardin-delicias-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Delicias (a unos 80 m), Metro Palos de la Frontera (a unos 500 m) y Metro Arganzuela-Planetario (a unos 770 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39865&mlon=-3.69403#map=16/40.39865/-3.69403",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardín de Palestina (a unos 380 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39865&mlon=-3.69403#map=16/40.39865/-3.69403",
+        "registry": true
+      }
+    ],
+    "projardin-retiro-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Sainz de Baranda (a unos 290 m), Metro Ibiza (a unos 550 m) y Metro O'Donnell (a unos 780 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.41570&mlon=-3.67260#map=16/40.41570/-3.67260",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardines Doce de Octubre (a unos 50 m) y Senda botánica Hospital Gregorio Marañón (a unos 290 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.41570&mlon=-3.67260#map=16/40.41570/-3.67260",
+        "registry": true
+      }
+    ],
+    "reina-de-los-angeles-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Santiago Bernabéu (a unos 450 m), Metro Concha Espina (a unos 690 m) y Metro República Argentina (a unos 730 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45084&mlon=-3.68576#map=16/40.45084/-3.68576",
+        "registry": true
+      }
+    ],
+    "ruiz-jimenez-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Diego de León (a unos 210 m), Metro Cartagena (a unos 480 m) y Metro Avenida de América (a unos 500 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43509&mlon=-3.67239#map=16/40.43509/-3.67239",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardín de Aurora Auñón (a unos 120 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43509&mlon=-3.67239#map=16/40.43509/-3.67239",
+        "registry": true
+      }
+    ],
+    "santa-rosalia-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Canillas (a unos 450 m) y Metro Mar de Cristal (a unos 760 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46611&mlon=-3.63107#map=16/40.46611/-3.63107",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Villa Rosa Paco Caño (a unos 180 m) y Paseo sobre M-40 (a unos 310 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46611&mlon=-3.63107#map=16/40.46611/-3.63107",
+        "registry": true
+      }
+    ],
+    "tierra-lala-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Esperanza (a unos 320 m) y Metro Arturo Soria (a unos 680 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45729&mlon=-3.64836#map=16/40.45729/-3.64836",
+        "registry": true
+      }
+    ],
+    "trazos-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro O'Donnell (a unos 160 m), Metro Manuel Becerra (a unos 740 m) y Metro Sainz de Baranda (a unos 820 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.42157&mlon=-3.66730#map=16/40.42157/-3.66730",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Senda botánica Hospital Gregorio Marañón (a unos 250 m) y Parque de Roma (a unos 330 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.42157&mlon=-3.66730#map=16/40.42157/-3.66730",
+        "registry": true
+      }
+    ],
+    "vallehermoso-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Quevedo (a unos 490 m), Metro Islas Filipinas (a unos 550 m) y Metro Canal (a unos 580 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43536&mlon=-3.70959#map=16/40.43536/-3.70959",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardín de José Luis Sampedro (a unos 210 m) y Jardines del Concejal Alejandro Muñoz Revenga (a unos 280 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43536&mlon=-3.70959#map=16/40.43536/-3.70959",
+        "registry": true
+      }
+    ],
+    "verbo-encarnado-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Cuatro Caminos (a unos 340 m), Metro Ríos Rosas (a unos 460 m) y Metro Alvarado (a unos 570 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44564&mlon=-3.70024#map=16/40.44564/-3.70024",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardines de Andrés Saborit (a unos 60 m) y Jardín de Salvador Rivas Goday (a unos 150 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44564&mlon=-3.70024#map=16/40.44564/-3.70024",
+        "registry": true
+      }
+    ],
+    "alaria-bernabeu-nursery-school-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Concha Espina (a unos 520 m), Metro República Argentina (a unos 620 m) y Metro Santiago Bernabéu (a unos 680 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44985&mlon=-3.68345#map=16/40.44985/-3.68345",
+        "registry": true
+      }
+    ],
+    "pequemun-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Vicente Aleixandre (a unos 280 m), Metro Guzmán el Bueno (a unos 380 m) y Metro Islas Filipinas (a unos 660 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44450&mlon=-3.71707#map=16/40.44450/-3.71707",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: parque con fuente (a unos 280 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44450&mlon=-3.71707#map=16/40.44450/-3.71707",
+        "registry": true
+      }
+    ],
+    "las-acacias-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Francos Rodríguez (a unos 300 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45682&mlon=-3.71570#map=16/40.45682/-3.71570",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Dehesa de la Villa (a unos 80 m) y Jardines José Manuel Caballero Bonald (a unos 100 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45682&mlon=-3.71570#map=16/40.45682/-3.71570",
+        "registry": true
+      }
+    ],
+    "los-nidos-de-manoteras-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Cercanías Fuente de la Mora (a unos 780 m), Metro Ligero Fuente de la Mora (a unos 800 m) y Metro Ligero Virgen del Cortijo (a unos 870 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.48791&mlon=-3.67151#map=16/40.48791/-3.67151",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Isla de Chamartín (a unos 160 m) y Parque Ana de Austria (a unos 370 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.48791&mlon=-3.67151#map=16/40.48791/-3.67151",
+        "registry": true
+      }
+    ],
+    "mama-queca-ii-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Pinar del Rey (a unos 400 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46659&mlon=-3.65309#map=16/40.46659/-3.65309",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Pinar del Rey (a unos 120 m) y Parque de Gomeznarro (a unos 380 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46659&mlon=-3.65309#map=16/40.46659/-3.65309",
+        "registry": true
+      }
+    ],
+    "alegre-koala-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Pirámides (a unos 490 m), Metro Acacias (a unos 500 m) y Cercanías Pirámides (a unos 560 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39968&mlon=-3.70702#map=16/40.39968/-3.70702",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Peñuelas (a unos 110 m) y Parque Jardín Papelera Peninsular (a unos 130 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39968&mlon=-3.70702#map=16/40.39968/-3.70702",
+        "registry": true
+      }
+    ],
+    "de-peques-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Conde de Casal (a unos 150 m), Metro Pacífico (a unos 730 m) y Metro Sainz de Baranda (a unos 780 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40757&mlon=-3.67189#map=16/40.40757/-3.67189",
+        "registry": true
+      }
+    ],
+    "jardiimar-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Puerta de Toledo (a unos 680 m), Cercanías Pirámides (a unos 700 m) y Metro Pirámides (a unos 760 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40620&mlon=-3.71907#map=16/40.40620/-3.71907",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardín del Maestro Padilla (a unos 230 m) y Madrid Río (a unos 240 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40620&mlon=-3.71907#map=16/40.40620/-3.71907",
+        "registry": true
+      }
+    ],
+    "st-alices-nursery-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Iglesia (a unos 370 m), Metro Rubén Darío (a unos 460 m) y Metro Gregorio Marañón (a unos 570 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43379&mlon=-3.69505#map=16/40.43379/-3.69505",
+        "registry": true
+      }
+    ],
+    "el-alba-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Pirámides (a unos 140 m), Cercanías Pirámides (a unos 200 m) y Metro Marqués de Vadillo (a unos 520 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40163&mlon=-3.71355#map=16/40.40163/-3.71355",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardines de Doña Concha Piquer (a unos 50 m) y Madrid Río (a unos 150 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40163&mlon=-3.71355#map=16/40.40163/-3.71355",
+        "registry": true
+      }
+    ],
+    "bra-institucion-orgaz-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Esperanza (a unos 520 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45458&mlon=-3.64511#map=16/40.45458/-3.64511",
+        "registry": true
+      }
+    ],
+    "domo-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Pinar del Rey (a unos 440 m), Metro Hortaleza (a unos 470 m) y Metro Parque de Santa María (a unos 620 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.47180&mlon=-3.64807#map=16/40.47180/-3.64807",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Isabel Clara Eugenia (a unos 80 m) y Parque de la Huerta de la Salud (a unos 390 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.47180&mlon=-3.64807#map=16/40.47180/-3.64807",
+        "registry": true
+      }
+    ],
+    "casa-del-nino-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Duque de Pastrana (a unos 270 m), Metro Plaza de Castilla (a unos 510 m) y Cercanías Madrid-Chamartín-Clara Campoamor (a unos 580 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46696&mlon=-3.68372#map=16/40.46696/-3.68372",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque del Cuarto Depósito (a unos 200 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46696&mlon=-3.68372#map=16/40.46696/-3.68372",
+        "registry": true
+      }
+    ],
+    "dallington-infants-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Esperanza (a unos 870 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45202&mlon=-3.64176#map=16/40.45202/-3.64176",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque del Pinar de Barajas (a unos 200 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45202&mlon=-3.64176#map=16/40.45202/-3.64176",
+        "registry": true
+      }
+    ],
+    "up-kids-school-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Esperanza (a unos 540 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45485&mlon=-3.64289#map=16/40.45485/-3.64289",
+        "registry": true
+      }
+    ],
+    "kids-retiro-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Pacífico (a unos 460 m), Metro Conde de Casal (a unos 490 m) y Metro Puente de Vallecas (a unos 600 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40342&mlon=-3.67021#map=16/40.40342/-3.67021",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Martin Luther King (a unos 120 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40342&mlon=-3.67021#map=16/40.40342/-3.67021",
+        "registry": true
+      }
+    ],
+    "vib-valdebebas-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro San Lorenzo (a unos 880 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.48079&mlon=-3.63314#map=16/40.48079/-3.63314",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Mirador de las Cárcavas-José Díaz Fernández (a unos 190 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.48079&mlon=-3.63314#map=16/40.48079/-3.63314",
+        "registry": true
+      }
+    ],
+    "kika-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Arganzuela-Planetario (a unos 290 m), Metro Legazpi (a unos 650 m) y Metro Méndez Álvaro (a unos 830 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39078&mlon=-3.68738#map=16/40.39078/-3.68738",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque del Bronce (a unos 50 m) y Parque de Enrique Tierno Galván (a unos 100 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39078&mlon=-3.68738#map=16/40.39078/-3.68738",
+        "registry": true
+      }
+    ],
+    "pinocho-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Pacífico (a unos 470 m), Metro Menéndez Pelayo (a unos 500 m) y Metro Conde de Casal (a unos 520 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40560&mlon=-3.67548#map=16/40.40560/-3.67548",
+        "registry": true
+      }
+    ],
+    "chuly-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Acacias (a unos 510 m), Metro Pirámides (a unos 560 m) y Cercanías Pirámides (a unos 620 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39947&mlon=-3.70629#map=16/40.39947/-3.70629",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Peñuelas (a unos 60 m) y Parque Jardín Papelera Peninsular (a unos 200 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39947&mlon=-3.70629#map=16/40.39947/-3.70629",
+        "registry": true
+      }
+    ],
+    "micos-mi-primer-cole-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro República Argentina (a unos 350 m), Metro Nuevos Ministerios (a unos 420 m) y Cercanías Nuevos Ministerios (a unos 480 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44695&mlon=-3.68690#map=16/40.44695/-3.68690",
+        "registry": true
+      }
+    ],
+    "todo-para-la-infancia-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Francos Rodríguez (a unos 140 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45624&mlon=-3.71370#map=16/40.45624/-3.71370",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardines José Manuel Caballero Bonald (a unos 70 m) y Parque de Francos Rodríguez (a unos 230 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45624&mlon=-3.71370#map=16/40.45624/-3.71370",
+        "registry": true
+      }
+    ],
+    "ciudad-jardin-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Colombia (a unos 550 m), Metro Pío XII (a unos 760 m) y Metro Avenida de la Paz (a unos 810 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45677&mlon=-3.67049#map=16/40.45677/-3.67049",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardines del Instituto Santamarca (a unos 160 m) y Parque Orlando Zapata Tamayo (a unos 270 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45677&mlon=-3.67049#map=16/40.45677/-3.67049",
+        "registry": true
+      }
+    ],
+    "yaki-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Alfonso XIII (a unos 530 m), Metro Concha Espina (a unos 600 m) y Metro Avenida de la Paz (a unos 720 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45251&mlon=-3.67069#map=16/40.45251/-3.67069",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardines Verónica Forqué (a unos 70 m) y Parque Orlando Zapata Tamayo (a unos 170 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45251&mlon=-3.67069#map=16/40.45251/-3.67069",
+        "registry": true
+      }
+    ],
+    "cuchitos-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Diego de León (a unos 160 m), Metro Avenida de América (a unos 300 m) y Metro Núñez de Balboa (a unos 370 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43498&mlon=-3.67650#map=16/40.43498/-3.67650",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardín de Gregorio Ordóñez (a unos 240 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43498&mlon=-3.67650#map=16/40.43498/-3.67650",
+        "registry": true
+      }
+    ],
+    "escuela-infantil-bilingue-sus-pequenos-pasos-arturo-soria-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Arturo Soria (a unos 840 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46258&mlon=-3.66080#map=16/40.46258/-3.66080",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Pinar del Rey (a unos 260 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46258&mlon=-3.66080#map=16/40.46258/-3.66080",
+        "registry": true
+      }
+    ],
+    "osobuco-ii-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Alfonso XIII (a unos 280 m), Metro Avenida de la Paz (a unos 510 m) y Metro Concha Espina (a unos 880 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45070&mlon=-3.66725#map=16/40.45070/-3.66725",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardín del Cerro Ventoso (a unos 140 m) y Parque de Félix Rodríguez de la Fuente (a unos 200 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.45070&mlon=-3.66725#map=16/40.45070/-3.66725",
+        "registry": true
+      }
+    ],
+    "el-sitio-de-tu-recreo-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Iglesia (a unos 340 m), Metro Bilbao (a unos 390 m) y Metro Quevedo (a unos 450 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43218&mlon=-3.69933#map=16/40.43218/-3.69933",
+        "registry": true
+      }
+    ],
+    "los-pinos-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro O'Donnell (a unos 510 m), Metro Manuel Becerra (a unos 730 m) y Metro Ventas (a unos 880 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.42316&mlon=-3.66315#map=16/40.42316/-3.66315",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de la Quinta de la Fuente del Berro (a unos 50 m) y Parque de Roma (a unos 380 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.42316&mlon=-3.66315#map=16/40.42316/-3.66315",
+        "registry": true
+      }
+    ],
+    "mafalda-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Bilbao (a unos 300 m), Metro Quevedo (a unos 300 m) y Metro Iglesia (a unos 420 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.43191&mlon=-3.70132#map=16/40.43191/-3.70132",
+        "registry": true
+      }
+    ],
+    "iris-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Esperanza (a unos 240 m), Metro Canillas (a unos 780 m) y Metro Pinar del Rey (a unos 870 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46093&mlon=-3.64383#map=16/40.46093/-3.64383",
+        "registry": true
+      }
+    ],
+    "educando-v-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Conde de Casal (a unos 370 m), Metro Pacífico (a unos 470 m) y Metro Puente de Vallecas (a unos 750 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40458&mlon=-3.67132#map=16/40.40458/-3.67132",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Martin Luther King (a unos 220 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40458&mlon=-3.67132#map=16/40.40458/-3.67132",
+        "registry": true
+      }
+    ],
+    "jardin-infantil-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Legazpi (a unos 260 m), Metro Arganzuela-Planetario (a unos 490 m) y Metro Delicias (a unos 620 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39371&mlon=-3.69416#map=16/40.39371/-3.69416",
+        "registry": true
+      }
+    ],
+    "pasitos-magicos-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Puente de Vallecas (a unos 470 m), Metro Pacífico (a unos 550 m) y Metro Conde de Casal (a unos 630 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40228&mlon=-3.66845#map=16/40.40228/-3.66845",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Martin Luther King (a unos 50 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40228&mlon=-3.66845#map=16/40.40228/-3.66845",
+        "registry": true
+      }
+    ],
+    "ramon-y-cajal-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Arturo Soria (a unos 620 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46120&mlon=-3.65849#map=16/40.46120/-3.65849",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Pinar del Rey (a unos 240 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.46120&mlon=-3.65849#map=16/40.46120/-3.65849",
+        "registry": true
+      }
+    ],
+    "embajadores-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Embajadores (a unos 250 m), Cercanías Embajadores (a unos 310 m) y Metro Palos de la Frontera (a unos 420 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40449&mlon=-3.69941#map=16/40.40449/-3.69941",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Esta es una Plaza (a unos 310 m) y Jardín de Palestina (a unos 380 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.40449&mlon=-3.69941#map=16/40.40449/-3.69941",
+        "registry": true
+      }
+    ],
+    "la-casa-del-rio-miriam-madrid": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Ribera del Manzanares (a unos 110 m) y Parque de la Bombilla (a unos 340 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.42932&mlon=-3.73477#map=16/40.42932/-3.73477",
+        "registry": true
+      }
+    ],
+    "santa-bernardita-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Manuel Becerra (a unos 250 m), Metro Lista (a unos 350 m) y Metro Goya (a unos 540 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.42805&mlon=-3.67166#map=16/40.42805/-3.67166",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardines de Eva Duarte de Perón (a unos 230 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.42805&mlon=-3.67166#map=16/40.42805/-3.67166",
+        "registry": true
+      }
+    ],
+    "el-jardin-de-las-mariposas-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Parque de Santa María (a unos 230 m), Metro San Lorenzo (a unos 730 m) y Metro Hortaleza (a unos 730 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.47918&mlon=-3.64576#map=16/40.47918/-3.64576",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Hortaleza (a unos 230 m) y Parque de Santa María (a unos 290 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.47918&mlon=-3.64576#map=16/40.47918/-3.64576",
+        "registry": true
+      }
+    ],
+    "san-alonso-de-orozco-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Vicente Aleixandre (a unos 110 m), Metro Guzmán el Bueno (a unos 410 m) y Metro Ciudad Universitaria (a unos 750 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44589&mlon=-3.71798#map=16/40.44589/-3.71798",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: parque con fuente (a unos 300 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.44589&mlon=-3.71798#map=16/40.44589/-3.71798",
+        "registry": true
+      }
+    ],
+    "jardin-de-las-delicias-madrid": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Delicias (a unos 260 m), Metro Arganzuela-Planetario (a unos 570 m) y Metro Palos de la Frontera (a unos 670 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.39739&mlon=-3.69237#map=16/40.39739/-3.69237",
+        "registry": true
+      }
+    ]
+  }
+}

@@ -58,7 +58,13 @@ export type CenterFactKey =
   | "admision"
   | "precio"
   | "historia"
-  | "gestion";
+  | "gestion"
+  | "actividades"
+  | "rutina"
+  | "adaptacion"
+  | "salud"
+  | "transporte"
+  | "entorno";
 
 /**
  * A single data point checked against the center's own channels or an official

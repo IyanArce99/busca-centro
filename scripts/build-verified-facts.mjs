@@ -22,11 +22,27 @@ const MIN_OWN_FACTS = 5
 const MIN_OWN_SOURCE_FACTS = 3
 
 const previous = existsSync(OUT) ? JSON.parse(readFileSync(OUT, 'utf8')) : {}
-const centers = []
+// A center reviewed more than once keeps its most recent review (later
+// `checkedAt`; on a tie, the later file).
+const latest = new Map()
 for (const file of readdirSync(BATCH_DIR).filter((f) => /^verified-facts-.*\.json$/.test(f)).sort()) {
   const batch = JSON.parse(readFileSync(`${BATCH_DIR}/${file}`, 'utf8'))
-  for (const center of batch.centers) centers.push({ ...center, checkedAt: batch.checkedAt })
+  for (const center of batch.centers) {
+    const seen = latest.get(center.slug)
+    if (!seen || batch.checkedAt >= seen.checkedAt) latest.set(center.slug, { ...center, checkedAt: batch.checkedAt })
+  }
 }
+// extra-facts-*.json add facts computed outside a review (e.g. nearby stations
+// from map data) on top of whatever the review found: { checkedAt, facts: { slug: [fact] } }.
+for (const file of readdirSync(BATCH_DIR).filter((f) => /^extra-facts-.*\.json$/.test(f)).sort()) {
+  const extra = JSON.parse(readFileSync(`${BATCH_DIR}/${file}`, 'utf8'))
+  for (const [slug, facts] of Object.entries(extra.facts)) {
+    const center = latest.get(slug) ?? { slug, facts: [], checkedAt: extra.checkedAt }
+    const keys = new Set(facts.map((f) => f.key))
+    latest.set(slug, { ...center, facts: [...center.facts.filter((f) => !keys.has(f.key)), ...facts] })
+  }
+}
+const centers = [...latest.values()]
 
 const own = (c) => c.facts.filter((f) => !f.shared)
 const qualifies = (c) =>
