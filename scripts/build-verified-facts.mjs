@@ -40,36 +40,45 @@ const addDays = (iso, days) => {
   return d.toISOString().slice(0, 10)
 }
 
-// Richest fichas first, interleaving cities so no weekly batch is a single city.
-const hasPrice = (c) => c.facts.some((f) => f.key === 'precio' && /€/.test(f.value))
-const city = (slug) => slug.split('-').slice(-1)[0]
-const byCity = new Map()
-for (const c of centers.filter((c) => qualifies(c) && !previous[c.slug]?.indexableFrom)) {
-  if (!byCity.has(city(c.slug))) byCity.set(city(c.slug), [])
-  byCity.get(city(c.slug)).push(c)
+// A date that has already arrived is final. Dates still in the future are
+// re-planned on every build, so the priority below always applies.
+const today = new Date().toISOString().slice(0, 10)
+const releasedOn = (slug) => {
+  const d = previous[slug]?.indexableFrom
+  return d && d <= today ? d : undefined
 }
-for (const list of byCity.values()) {
+
+// Weekly quota per pool: Madrid and Barcelona go first because that is where
+// the search demand is; the first plan interleaved all cities evenly and left
+// both for the last weeks. Spare slots go to whichever pool still has fichas.
+const QUOTA = [['madrid', 14], ['barcelona', 14], ['rest', 12]]
+const poolOf = (slug) =>
+  slug.endsWith('-madrid') ? 'madrid' : slug.endsWith('-barcelona') ? 'barcelona' : 'rest'
+const hasPrice = (c) => c.facts.some((f) => f.key === 'precio' && /€/.test(f.value))
+const pending = { madrid: [], barcelona: [], rest: [] }
+for (const c of centers.filter((c) => qualifies(c) && !releasedOn(c.slug))) pending[poolOf(c.slug)].push(c)
+// Richest fichas first within each pool.
+for (const list of Object.values(pending)) {
   list.sort((a, b) => own(b).length - own(a).length || hasPrice(b) - hasPrice(a) || a.slug.localeCompare(b.slug))
 }
-const queue = []
-const lists = [...byCity.values()].sort((a, b) => b.length - a.length)
-while (lists.some((l) => l.length)) for (const l of lists) if (l.length) queue.push(l.shift())
 
-const scheduled = Object.values(previous).map((e) => e.indexableFrom).filter(Boolean).sort()
-const lastDate = scheduled.at(-1)
-const inLast = scheduled.filter((d) => d === lastDate).length
-let date = lastDate ?? RELEASE_START
-let slots = lastDate ? RELEASE_SIZE - inLast : RELEASE_SIZE
+const lastReleased = centers.map((c) => releasedOn(c.slug)).filter(Boolean).sort().at(-1)
+let date = lastReleased ? addDays(lastReleased, RELEASE_EVERY_DAYS) : RELEASE_START
 const release = new Map()
-for (const c of queue) {
-  if (slots <= 0) { date = addDays(date, RELEASE_EVERY_DAYS); slots = RELEASE_SIZE }
-  release.set(c.slug, date)
-  slots--
+while (Object.values(pending).some((l) => l.length)) {
+  let left = RELEASE_SIZE
+  for (const [pool, quota] of QUOTA) {
+    for (const c of pending[pool].splice(0, Math.min(quota, left))) { release.set(c.slug, date); left-- }
+  }
+  for (const [pool] of QUOTA) {
+    for (const c of pending[pool].splice(0, left)) { release.set(c.slug, date); left-- }
+  }
+  date = addDays(date, RELEASE_EVERY_DAYS)
 }
 
 const out = {}
 for (const c of centers.sort((a, b) => a.slug.localeCompare(b.slug))) {
-  const indexableFrom = qualifies(c) ? previous[c.slug]?.indexableFrom ?? release.get(c.slug) : undefined
+  const indexableFrom = qualifies(c) ? releasedOn(c.slug) ?? release.get(c.slug) : undefined
   out[c.slug] = {
     checkedAt: c.checkedAt,
     ...(indexableFrom ? { indexableFrom } : {}),
