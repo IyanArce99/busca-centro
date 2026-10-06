@@ -323,45 +323,51 @@ export const mockGuides: Guide[] = [
   {
     id: "guide-cheque-guarderia-subsanacion-julio-2026",
     slug: "cheque-guarderia-madrid-subsanacion-julio-2026",
-    title: "Cheque guardería Madrid 2026-2027: plazo de subsanación abierto hasta el 23 de julio",
+    title: "Cheque guardería Madrid 2026-2027: en qué punto está la beca y qué falta por publicarse",
     excerpt:
-      "La Comunidad de Madrid ha abierto el plazo de subsanación de las becas de Educación Infantil 2026-2027 del 10 al 23 de julio de 2026. Qué es, a quién afecta y cómo revisar tu solicitud.",
+      "La subsanación de las becas de Educación Infantil de la Comunidad de Madrid terminó el 6 de agosto de 2026. Falta la lista definitiva. Fechas, cuantías y cómo consultar tu solicitud.",
     category: "Precios y ayudas",
     publishedAt: "2026-07-13",
-    updatedAt: "2026-07-13",
-    readingTimeMinutes: 4,
+    updatedAt: "2026-10-06",
+    readingTimeMinutes: 5,
     content: [
-      "La Comunidad de Madrid ha abierto el plazo de subsanación de las becas de escolarización en el primer ciclo de Educación Infantil —el conocido «cheque guardería»— para el curso 2026-2027. El periodo para subsanar solicitudes va del 10 al 23 de julio de 2026, ambos inclusive.",
-      "Esto no es un nuevo plazo de solicitud: la presentación ordinaria de solicitudes para el curso 2026-2027 se cerró en primavera (fue del 19 de mayo al 8 de junio de 2026). La subsanación es la fase en la que las familias que ya presentaron su solicitud pueden corregir errores o aportar documentación que faltaba, después de que la Administración publique los listados provisionales. Si presentaste la solicitud y aparece como excluida o con documentación pendiente, esta es la ventana para arreglarlo.",
+      "Las becas de la Comunidad de Madrid para el primer ciclo de Educación Infantil en centros privados, el conocido «cheque guardería», están en la recta final de su tramitación para el curso 2026-2027. El plazo de solicitud y la fase de subsanación ya han terminado. Lo que falta es la orden de resolución, con la lista definitiva de beneficiarios.",
+      "A 6 de octubre de 2026, el calendario de actuaciones de la sede electrónica de la Comunidad de Madrid todavía no recoge esa resolución: la última actuación publicada es la ampliación del plazo de subsanación. Esta página resume en qué fase está cada cosa y qué puedes hacer mientras tanto.",
     ],
     sections: [
       {
-        heading: "A quién afecta este plazo",
+        heading: "Las fechas de la convocatoria 2026-2027",
         paragraphs: [
-          "Afecta a las familias con hijos de 0 a 3 años que solicitaron el cheque guardería para el curso 2026-2027 y cuya solicitud figura en los listados provisionales como excluida, con reparos o con documentación incompleta. Si tu solicitud fue admitida sin incidencias, no necesitas hacer nada en esta fase.",
-          "Conviene revisar el estado de la solicitud en la sede electrónica de la Comunidad de Madrid dentro del plazo: quien no subsane a tiempo un defecto subsanable puede quedar fuera de la ayuda para todo el curso, aunque cumpliera los requisitos de fondo.",
+          "Las solicitudes se presentaron del 19 de mayo al 8 de junio de 2026. El 9 de julio se publicó la lista provisional de admitidos y excluidos, y con ella se abrió la subsanación: primero del 10 al 23 de julio, y después ampliada hasta el 6 de agosto de 2026 por un acuerdo del Consejo de Gobierno del 29 de julio. La subsanación era la fase para corregir errores o aportar documentación que faltaba; no era un nuevo plazo de solicitud.",
+          "Ese plazo está cerrado. Si tu solicitud aparecía como excluida o con documentación pendiente y no lo corregiste antes del 6 de agosto, ya no hay una vía ordinaria para hacerlo en esta convocatoria. La norma fija un plazo máximo de seis meses para resolver, y el silencio es desestimatorio: si pasa ese tiempo sin resolución, la solicitud se entiende denegada a efectos de poder recurrir.",
         ],
       },
       {
         heading: "Cuantía de la ayuda para 2026-2027",
         paragraphs: [
           "Según la convocatoria, la beca es de 177 euros mensuales, abonados en los meses en los que el menor asista efectivamente al centro durante el periodo escolar (entre el 1 de septiembre de 2026 y el 31 de julio de 2027), lo que supone una cuantía total de hasta 1.947 euros. Esa cantidad se incrementa hasta 283 euros mensuales para las familias que obtienen 5 puntos en el criterio de ingresos familiares.",
-          "La ayuda se aplica como descuento en la cuota del centro y solo es válida en centros privados autorizados por la Comunidad de Madrid para el primer ciclo de Educación Infantil. Confirma siempre las cifras y condiciones exactas en los canales oficiales antes de hacer números definitivos.",
+          "La ayuda se aplica como descuento en la cuota del centro y solo es válida en centros privados autorizados por la Comunidad de Madrid para el primer ciclo de Educación Infantil, siempre que el niño no ocupe una plaza sostenida con fondos públicos.",
         ],
       },
       {
-        heading: "Cómo revisar y subsanar tu solicitud",
+        heading: "Cómo consultar tu solicitud y qué viene ahora",
         paragraphs: [
-          "Consulta los listados provisionales y el estado de tu solicitud en la sede electrónica de la Comunidad de Madrid, revisa el motivo concreto de exclusión o el documento que falta, y presenta la subsanación por el mismo canal telemático antes del 23 de julio de 2026. Ten a mano la documentación habitual (renta, empadronamiento, matrícula en el centro).",
-          "Si buscas centro donde aplicar la ayuda para el próximo curso, puedes comparar guarderías y escuelas infantiles privadas de Madrid en nuestro directorio y confirmar con cada centro cómo gestiona el cheque guardería.",
+          "En la página del trámite «Becas de Educación Infantil 2026-2027» de la sede electrónica de la Comunidad de Madrid hay una consulta individual del estado de la solicitud. Cuando se resuelva la convocatoria, la lista definitiva se publicará en el calendario de actuaciones de ese mismo trámite y en la web institucional, con los beneficiarios por orden de puntuación, los no beneficiarios y los excluidos con su causa. También informan de forma individual las Direcciones de Área Territorial y el punto de información de la Consejería de Educación.",
+          "La orden se publicará además en el Boletín Oficial de la Comunidad de Madrid, sin anexos, y desde el día siguiente empiezan a contar los plazos para recurrir: un mes para el recurso de reposición y dos meses para el contencioso-administrativo. Para dudas sobre un expediente, el contacto de la Subdirección General de Becas y Ayudas es becas.infantil@madrid.org.",
+        ],
+      },
+      {
+        heading: "Si vives en Madrid capital, hay una segunda beca",
+        paragraphs: [
+          "El Ayuntamiento de Madrid tiene su propia ayuda para escuelas infantiles privadas, la Beca Infantil Plus, de 118, 220 o 385 euros al mes según la renta. Es una convocatoria distinta, con sus propios plazos y listados, y es compatible con el cheque guardería de la Comunidad hasta cubrir el coste completo del centro. Su propuesta de resolución provisional se publicó el 17 de septiembre de 2026.",
         ],
       },
     ],
     faqs: [
       {
-        question: "¿Qué es el plazo de subsanación del cheque guardería en Madrid?",
+        question: "¿Ha salido ya la lista definitiva del cheque guardería de Madrid 2026-2027?",
         answer:
-          "Es la fase, del 10 al 23 de julio de 2026, en la que las familias que ya solicitaron la beca de Educación Infantil 2026-2027 pueden corregir errores o aportar documentación que faltaba, después de publicarse los listados provisionales. No es un nuevo plazo de solicitud: la presentación ordinaria se cerró el 8 de junio de 2026.",
+          "A 6 de octubre de 2026, el calendario de actuaciones de la sede electrónica de la Comunidad de Madrid no la recoge todavía. La última actuación publicada es la ampliación del plazo de subsanación hasta el 6 de agosto de 2026. La resolución se publicará en ese calendario y en la web de la Comunidad.",
       },
       {
         question: "¿Cuánto es el cheque guardería de Madrid para el curso 2026-2027?",
@@ -369,17 +375,135 @@ export const mockGuides: Guide[] = [
           "La beca es de 177 euros mensuales durante los meses de asistencia efectiva entre septiembre de 2026 y julio de 2027, hasta un total de 1.947 euros. La cuantía sube a 283 euros mensuales para las familias que obtienen 5 puntos en el criterio de ingresos familiares.",
       },
       {
-        question: "¿Qué pasa si no subsano mi solicitud a tiempo?",
+        question: "¿Todavía puedo subsanar mi solicitud del cheque guardería?",
         answer:
-          "Quien no corrija a tiempo un defecto subsanable de su solicitud puede quedar excluido de la ayuda para todo el curso 2026-2027, aunque cumpliera los requisitos de fondo. Por eso conviene revisar el estado de la solicitud en la sede electrónica dentro del plazo del 10 al 23 de julio.",
+          "No. La subsanación estuvo abierta del 10 al 23 de julio de 2026 y se amplió hasta el 6 de agosto. Tampoco se pueden presentar solicitudes nuevas: el plazo fue del 19 de mayo al 8 de junio de 2026.",
+      },
+      {
+        question: "¿Qué puedo hacer si me deniegan la beca de Educación Infantil?",
+        answer:
+          "Desde el día siguiente a la publicación de la orden de resolución puedes presentar recurso de reposición en el plazo de un mes, o recurso contencioso-administrativo ante el Tribunal Superior de Justicia de Madrid en el plazo de dos meses.",
+      },
+      {
+        question: "¿Es compatible el cheque guardería con la beca del Ayuntamiento de Madrid?",
+        answer:
+          "Sí. La Beca Infantil Plus del Ayuntamiento es compatible con las ayudas de otras administraciones hasta cubrir el coste completo del servicio. Son dos convocatorias separadas, cada una con sus requisitos y plazos.",
       },
     ],
     relatedLinks: {
       intro: "Más información y centros donde aplicar la ayuda:",
       links: [
+        { label: "Beca Infantil Plus del Ayuntamiento de Madrid 2026-2027", href: "/blog/beca-infantil-plus-madrid-2026-2027" },
         { label: "Guía completa del cheque guardería", href: "/blog/que-es-el-cheque-guarderia" },
-        { label: "Guarderías en Madrid", href: "/guarderias-en-madrid" },
+        { label: "Guarderías privadas en Madrid", href: "/guarderias-privadas-en-madrid" },
         { label: "Escuelas infantiles en Madrid", href: "/escuelas-infantiles-en-madrid" },
+      ],
+    },
+  },
+  {
+    id: "guide-beca-infantil-plus-madrid-2026-2027",
+    slug: "beca-infantil-plus-madrid-2026-2027",
+    title: "Beca Infantil Plus Madrid 2026-2027: listas provisionales, cuantías y qué pasa ahora",
+    excerpt:
+      "El Ayuntamiento de Madrid publicó el 17 de septiembre de 2026 la propuesta provisional de la Beca Infantil Plus: 118, 220 o 385 euros al mes para escuelas infantiles privadas. Cómo leer los anexos y qué falta.",
+    category: "Precios y ayudas",
+    publishedAt: "2026-10-06",
+    updatedAt: "2026-10-06",
+    readingTimeMinutes: 6,
+    content: [
+      "La Beca Infantil Plus es la ayuda del Ayuntamiento de Madrid para familias con niños de 0 a 3 años matriculados en escuelas infantiles privadas de la ciudad. Para el curso 2026-2027 paga 118, 220 o 385 euros al mes, según la renta, y tiene un presupuesto de 6,9 millones de euros, 1,8 millones más que el curso anterior.",
+      "El plazo de solicitud se cerró en abril, así que esta página no es para pedirla, sino para quien ya la pidió. El 17 de septiembre de 2026 se publicó la propuesta de resolución provisional, con los listados de beneficiarios propuestos, las listas de reserva y las solicitudes desestimadas. El plazo de alegaciones ya ha terminado y falta la resolución definitiva. Aquí explicamos cómo leer esos listados y qué viene después.",
+      "No es la misma ayuda que el cheque guardería de la Comunidad de Madrid. Son dos becas distintas, de dos administraciones, y se pueden cobrar a la vez.",
+    ],
+    sections: [
+      {
+        heading: "Cuánto se cobra: los tres tramos",
+        paragraphs: [
+          "La cuantía depende de la renta per cápita de la unidad familiar, es decir, los ingresos totales divididos entre el número de miembros. Tramo 1: 385 euros al mes (4.235 euros en el curso) para rentas per cápita de hasta 10.420 euros. Tramo 2: 220 euros al mes (2.420 euros) entre 10.420 y 17.020 euros. Tramo 3: 118 euros al mes (1.298 euros) entre 17.020 y 30.000 euros. Por encima de 30.000 euros per cápita no hay beca.",
+          "Los importes se calculan sobre once mensualidades, de septiembre de 2026 a julio de 2027. La ayuda sirve para pagar la matrícula, las mensualidades, el comedor y el horario ampliado, y es compatible con otras becas públicas o privadas hasta cubrir el coste completo del servicio.",
+        ],
+      },
+      {
+        heading: "Quién podía pedirla",
+        paragraphs: [
+          "La convocatoria pedía cuatro cosas. Que el menor hubiera nacido en 2024, 2025 o 2026, o tuviera el nacimiento previsto antes del 1 de enero de 2027. Que estuviera matriculado o con reserva de plaza para 2026-2027 en el primer ciclo de Educación Infantil de un centro privado del municipio de Madrid, autorizado por la administración educativa, sin ocupar una plaza sostenida total o parcialmente con fondos públicos. Que la renta per cápita de la familia no superase los 30.000 euros. Y que el padre, la madre o el tutor estuviera empadronado en Madrid en la fecha de publicación de la convocatoria y lo hubiera estado sin interrupción durante los dos años anteriores; basta con que lo cumpla uno de los dos progenitores.",
+          "El plazo de solicitud fue del 9 al 28 de abril de 2026. Quien no la pidió entonces ya no puede hacerlo para este curso. La convocatoria se publicó en el Boletín Oficial del Ayuntamiento de Madrid (BOAM) número 10101, de 8 de abril de 2026.",
+        ],
+      },
+      {
+        heading: "En qué punto está la tramitación",
+        paragraphs: [
+          "El calendario ha sido este. El 16 de julio de 2026 se publicaron los requerimientos de subsanación, con diez días hábiles para aportar lo que faltaba. El 3 de septiembre salió el decreto que da por desistidas las solicitudes que no se subsanaron. El 8 de septiembre se reunió la comisión de valoración y el 17 de septiembre se publicó, en el BOAM número 10215, la propuesta de resolución provisional, firmada el día 14.",
+          "Desde el 18 de septiembre hubo diez días hábiles para presentar alegaciones, un plazo que ya ha terminado. Quedan dos pasos: la propuesta de resolución definitiva y el decreto de concesión. A 6 de octubre de 2026, la sede electrónica del Ayuntamiento todavía no indica fecha para ninguno de los dos. Como referencia, el decreto de concesión del curso anterior se publicó el 11 de noviembre de 2025.",
+        ],
+      },
+      {
+        heading: "Cómo leer los anexos de la propuesta provisional",
+        paragraphs: [
+          "La propuesta tiene seis anexos. El Anexo I recoge a los solicitantes propuestos como beneficiarios. Los Anexos II, III y IV son listas de reserva: familias que cumplen todos los requisitos pero para las que no alcanza el presupuesto. Cada una corresponde a un tramo: el II a quienes cobrarían 4.235 euros, el III a los de 2.420 y el IV a los de 1.298. El Anexo V lista las solicitudes desestimadas y el VI las inadmitidas por haberse presentado fuera de plazo.",
+          "Estar en el Anexo I todavía no es tener la beca: la propia resolución advierte de que la propuesta provisional no crea ningún derecho hasta que se publique la concesión definitiva. Y estar en reserva no es quedarse fuera del todo. En la convocatoria 2025-2026, el Ayuntamiento publicó el 14 de julio de 2026 un decreto de nuevos beneficiarios para repartir los fondos que habían sobrado. La reserva puede acabar cobrando, aunque tarde.",
+        ],
+      },
+      {
+        heading: "Cómo y cuándo se cobra",
+        paragraphs: [
+          "La beca no se paga al terminar el curso. Por segundo año consecutivo, el Ayuntamiento la abona cada dos meses a través de una entidad colaboradora, que revisa los justificantes de gasto que aporta cada familia y paga los importes ya justificados. Conviene guardar todos los recibos de la escuela desde septiembre.",
+          "La cuenta bancaria debe estar a nombre del progenitor que firmó la solicitud. Si necesitas cambiarla, en la página de la beca hay un formulario específico de cambio de cuenta.",
+        ],
+      },
+      {
+        heading: "Dónde consultar los listados y a quién preguntar",
+        paragraphs: [
+          "Los anexos y el resto de la documentación están en dos sitios: el trámite «Becas para el primer ciclo de educación infantil en escuelas infantiles privadas. Curso 2026-2027» de la sede electrónica del Ayuntamiento (sede.madrid.es) y el apartado de becas de escuelas privadas de madrid.es. Para dudas sobre un expediente concreto, el Ayuntamiento atiende de lunes a viernes de 9:00 a 14:00 en los teléfonos 914 801 244, 917 001 618 y 911 417 906, y en el correo becasinfantilayuntamientomadrid@madrid.es.",
+          "Si estás eligiendo escuela para el curso que viene, recuerda que la beca solo vale en centros privados autorizados dentro del municipio de Madrid. En las fichas de nuestro directorio indicamos, cuando el centro lo publica, qué ayudas y cheques guardería acepta.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Cuánto es la Beca Infantil Plus de Madrid en el curso 2026-2027?",
+        answer:
+          "385 euros al mes para rentas per cápita de hasta 10.420 euros, 220 euros al mes entre 10.420 y 17.020 euros, y 118 euros al mes entre 17.020 y 30.000 euros. Se calcula sobre once mensualidades, de septiembre de 2026 a julio de 2027, lo que supone 4.235, 2.420 o 1.298 euros en el curso.",
+      },
+      {
+        question: "¿Han salido ya las listas de la Beca Infantil Plus 2026-2027?",
+        answer:
+          "Han salido las provisionales. La propuesta de resolución provisional se publicó el 17 de septiembre de 2026 en el BOAM número 10215 y en la sede electrónica del Ayuntamiento, y el plazo de diez días hábiles para alegar empezó el 18 de septiembre y ya ha terminado. A 6 de octubre de 2026 faltan la propuesta definitiva y el decreto de concesión.",
+      },
+      {
+        question: "¿Qué significa estar en lista de reserva en la Beca Infantil Plus?",
+        answer:
+          "Que la solicitud cumple todos los requisitos pero no ha entrado en el presupuesto disponible. Los Anexos II, III y IV de la propuesta son las listas de reserva de cada tramo. Si sobran fondos pueden concederse más becas: en la convocatoria 2025-2026 se publicó en julio de 2026 un decreto de nuevos beneficiarios con el dinero sobrante.",
+      },
+      {
+        question: "¿La Beca Infantil Plus es compatible con el cheque guardería de la Comunidad de Madrid?",
+        answer:
+          "Sí. La ayuda municipal es compatible con las que concedan otras administraciones públicas o entidades privadas, hasta cubrir el coste completo del servicio. Son convocatorias distintas, con requisitos y plazos propios.",
+      },
+      {
+        question: "¿Puedo solicitar ahora la Beca Infantil Plus?",
+        answer:
+          "No para el curso 2026-2027: el plazo fue del 9 al 28 de abril de 2026. La convocatoria de este curso se publicó a principios de abril, así que conviene estar atento en primavera a la del curso siguiente.",
+      },
+      {
+        question: "¿Cuándo se paga la Beca Infantil Plus?",
+        answer:
+          "Cada dos meses, no al final del curso. Una entidad colaboradora revisa los justificantes de gasto que presenta la familia y abona los importes ya justificados.",
+      },
+      {
+        question: "¿Vale la Beca Infantil Plus para cualquier guardería?",
+        answer:
+          "No. Solo para centros de titularidad privada del municipio de Madrid autorizados por la administración educativa para impartir el primer ciclo de Educación Infantil, y siempre que el niño no ocupe una plaza sostenida total o parcialmente con fondos públicos.",
+      },
+    ],
+    relatedLinks: {
+      intro: "Otras ayudas y centros de Madrid donde aplicar la beca:",
+      links: [
+        { label: "Cheque guardería de la Comunidad de Madrid: cómo funciona", href: "/blog/que-es-el-cheque-guarderia" },
+        { label: "Cheque guardería 2026-2027: en qué punto está", href: "/blog/cheque-guarderia-madrid-subsanacion-julio-2026" },
+        { label: "Guarderías privadas en Madrid", href: "/guarderias-privadas-en-madrid" },
+        { label: "Escuelas infantiles en Madrid", href: "/escuelas-infantiles-en-madrid" },
+        { label: "Cuánto cuesta una guardería", href: "/blog/cuanto-cuesta-una-guarderia" },
       ],
     },
   },
@@ -594,16 +718,16 @@ export const mockGuides: Guide[] = [
   {
     id: "guide-bono-infantil-valencia-2026-2027",
     slug: "bono-infantil-valencia-2026-2027",
-    title: "Bono Infantil Valencia 2026-2027: cuantías confirmadas y plazo hasta el 30 de julio",
+    title: "Bono Infantil Valencia 2026-2027: cuantías y listados provisionales ya publicados",
     excerpt:
-      "La Generalitat Valenciana mantiene la gratuidad del 0-3 con 163 millones de euros para el curso 2026-2027. Cuantías por tramo de edad, plazo de solicitud y en qué centros aplica.",
+      "Los listados provisionales del Bono Infantil 2026-2027 se publicaron en septiembre y el plazo de alegaciones ya ha terminado. Cuantías por edad, en qué centros aplica y cómo consultar tu resolución.",
     category: "Precios y ayudas",
     publishedAt: "2026-07-15",
-    updatedAt: "2026-07-15",
+    updatedAt: "2026-10-06",
     readingTimeMinutes: 4,
     content: [
       "La Generalitat Valenciana ha confirmado que mantiene por tercer curso consecutivo la gratuidad de la educación infantil de 0 a 3 años, con una inversión de 163 millones de euros para el curso 2026-2027. De esa cantidad, 64,6 millones corresponden al ejercicio 2026 y 98,3 millones al presupuesto de 2027.",
-      "El programa —conocido como Bono Infantil— financia la escolarización en centros privados autorizados de Educación Infantil y en escuelas infantiles municipales de primer ciclo. El dato clave para las familias es el plazo: la presentación ordinaria de solicitudes finaliza el 30 de julio de 2026, con una fase excepcional a partir del 4 de agosto.",
+      "El programa —conocido como Bono Infantil— financia la escolarización en centros privados autorizados de Educación Infantil y en escuelas infantiles municipales de primer ciclo. El plazo ordinario de solicitud terminó el 30 de julio de 2026 y los listados provisionales se publicaron en septiembre: el día 8 los de las escuelas infantiles municipales y el día 17 los de los centros privados.",
     ],
     sections: [
       {
@@ -614,10 +738,10 @@ export const mockGuides: Guide[] = [
         ],
       },
       {
-        heading: "Plazo de solicitud y cambios para este curso",
+        heading: "En qué fase está el Bono Infantil 2026-2027",
         paragraphs: [
-          "El plazo ordinario para presentar solicitudes termina el 30 de julio de 2026. Las solicitudes excepcionales podrán presentarse a partir del 4 de agosto. Este curso la Generalitat ha reforzado el procedimiento digital, ha simplificado algunas obligaciones administrativas y ha adelantado el período de matriculación para evitar duplicidades y agilizar la tramitación.",
-          "El objetivo declarado de estos cambios es que ninguna familia se quede fuera de la gratuidad por motivos burocráticos. Aun así, conviene no apurar el plazo: revisa con tu centro que la solicitud está correctamente presentada antes del 30 de julio.",
+          "El plazo ordinario para presentar solicitudes terminó el 30 de julio de 2026, y desde el 4 de agosto se admiten solicitudes excepcionales. El 8 de septiembre se publicó el listado provisional de las escuelas infantiles municipales, con alegaciones del 9 al 22 de septiembre. El 17 de septiembre salió el de los centros privados, con alegaciones del 18 de septiembre al 1 de octubre. Los dos plazos de alegaciones han terminado.",
+          "Cada familia puede consultar su resolución provisional en la aplicación del Bono Infantil de la Generalitat (gestioboinfantil.edu.gva.es), y los centros acceden al listado de admitidos y excluidos desde su propia aplicación. A 6 de octubre de 2026, la Conselleria no ha anunciado todavía el listado definitivo. Si en el provisional apareces como excluido y presentaste alegaciones, tu centro es quien puede decirte en qué estado está.",
         ],
       },
       {
@@ -635,9 +759,14 @@ export const mockGuides: Guide[] = [
           "En centros privados autorizados, las ayudas mensuales alcanzan hasta 460 euros en el tramo de 0-1 año, 350 euros en el de 1-2 años y 300 euros en el de 2-3 años. En las escuelas infantiles municipales la financiación se articula por módulos de aula, entre 3.680 y 6.000 euros mensuales. La Generalitat destina 163 millones de euros al programa este curso.",
       },
       {
-        question: "¿Hasta cuándo se puede solicitar el Bono Infantil en Valencia?",
+        question: "¿Se puede solicitar todavía el Bono Infantil en Valencia?",
         answer:
-          "El plazo ordinario de presentación de solicitudes finaliza el 30 de julio de 2026. Las solicitudes excepcionales podrán presentarse a partir del 4 de agosto. Conviene revisar con el centro que la solicitud está correctamente presentada antes de que termine el plazo ordinario.",
+          "El plazo ordinario terminó el 30 de julio de 2026. Desde el 4 de agosto solo se admiten solicitudes excepcionales. Si tu hijo se incorpora ahora a una escuela, pregunta allí si tu caso entra en esa vía y cómo se tramita.",
+      },
+      {
+        question: "¿Dónde consulto si me han concedido el Bono Infantil 2026-2027?",
+        answer:
+          "En la aplicación del Bono Infantil de la Generalitat Valenciana (gestioboinfantil.edu.gva.es), donde cada solicitante puede ver su resolución provisional. El listado provisional de centros privados se publicó el 17 de septiembre de 2026 y el de escuelas municipales el 8 de septiembre.",
       },
       {
         question: "¿En qué centros se aplica el Bono Infantil de Valencia?",
