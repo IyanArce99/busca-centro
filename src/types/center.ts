@@ -43,6 +43,49 @@ export interface DataConflict {
   status: "pending_manual_review" | "resolved" | "dismissed";
 }
 
+export type CenterFactKey =
+  | "horario"
+  | "calendario"
+  | "edades"
+  | "aulas"
+  | "equipo"
+  | "comedor"
+  | "idiomas"
+  | "metodologia"
+  | "instalaciones"
+  | "comunicacion"
+  | "ayudas"
+  | "admision"
+  | "precio"
+  | "historia"
+  | "gestion";
+
+/**
+ * A single data point checked against the center's own channels or an official
+ * source. `sourceUrl` is mandatory: a fact without a traceable source is not a
+ * verified fact and must not be stored here.
+ */
+export interface CenterFact {
+  key: CenterFactKey;
+  value: string;
+  sourceUrl: string;
+  /** ISO date (YYYY-MM-DD) of the last check. */
+  checkedAt: string;
+  /**
+   * True when the same fact applies to a whole network or group (municipal
+   * network hours, a chain's shared website). Shown on the ficha, but it does
+   * not count towards indexability: it is the same text on every sibling ficha.
+   */
+  shared?: boolean;
+  /**
+   * True when the source is a regional registry or open-data portal rather
+   * than the center's own channels. Valid and shown, but a ficha built only on
+   * administrative records says nothing a parent is looking for, so at least
+   * MIN_OWN_SOURCE_FACTS_FOR_INDEXABLE_CENTER facts must come from elsewhere.
+   */
+  registry?: boolean;
+}
+
 export interface CenterSocialLinks {
   instagram?: string;
   facebook?: string;
@@ -99,6 +142,10 @@ export interface Center {
   verificationStatus?: VerificationStatus;
   confidenceLevel?: ConfidenceLevel;
   dataConflicts?: Record<string, DataConflict>;
+  /** Defined (possibly empty) once the ficha has been reviewed; undefined otherwise. */
+  verifiedFacts?: CenterFact[];
+  /** ISO date (YYYY-MM-DD) from which a reviewed ficha may be indexed. */
+  indexableFrom?: string;
   createdAt: string;
   updatedAt: string;
 }

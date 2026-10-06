@@ -45,3 +45,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# row snapshots taken before applying review batches
+scripts/data/backups/
+# intermediate list superseded by verified-facts-out-of-scope-*.json
+scripts/data/pending-*.json

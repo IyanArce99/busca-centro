@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-03",
+  "centers": [
+    {
+      "slug": "arcangel-madrid",
+      "note": "No es un centro de 0-3 años. Registro: solo segundo ciclo y primaria. Se despublica.",
+      "set": {
+        "status": "draft"
+      },
+      "facts": []
+    },
+    {
+      "slug": "nuestra-senora-de-la-paz-madrid",
+      "note": "No es un centro de 0-3 años. Registro: solo segundo ciclo y primaria. Se despublica.",
+      "set": {
+        "status": "draft"
+      },
+      "facts": []
+    },
+    {
+      "slug": "trilema-safa-madrid",
+      "note": "No es un centro de 0-3 años. Registro: solo segundo ciclo y primaria. Se despublica.",
+      "set": {
+        "status": "draft"
+      },
+      "facts": []
+    },
+    {
+      "slug": "dionisia-plaza-madrid",
+      "note": "No es un centro de 0-3 años. Centro de rehabilitación / hospital de día para 3-14 años. Se despublica.",
+      "set": {
+        "status": "draft"
+      },
+      "facts": []
+    },
+    {
+      "slug": "virgen-milagrosa-madrid",
+      "note": "No es un centro de 0-3 años. Registro: solo segundo ciclo y primaria. Se despublica.",
+      "set": {
+        "status": "draft"
+      },
+      "facts": []
+    }
+  ]
+}

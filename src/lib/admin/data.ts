@@ -2,6 +2,13 @@ import "server-only";
 import { getServerClient } from "@/lib/supabase/server";
 import type { Database } from "@/types/database";
 import type { DataConflict } from "@/types/center";
+import {
+  MIN_SERVICES_FOR_INDEXABLE_CENTER,
+  hasEnoughOwnFacts,
+  isOwnWebsite,
+  isReleased,
+} from "@/lib/centers";
+import { getReviewedCenter } from "@/lib/verified-facts";
 
 export type CenterRow = Database["public"]["Tables"]["centers"]["Row"];
 export type LeadRow = Database["public"]["Tables"]["leads"]["Row"];
@@ -24,10 +31,14 @@ function computeIndexable(row: CenterRow, realServices: string[]): boolean {
   );
   if (!hasCore) return false;
   const hasDescription = Boolean(row.short_description?.trim());
-  // Services only — a long description no longer counts as substance. See the
-  // rationale in src/lib/centers.ts#isCenterIndexable (July 2026 demotion).
-  const hasSubstance = realServices.length > 0;
-  return hasDescription && hasSubstance;
+  if (!hasDescription) return false;
+  // See the rationale in src/lib/centers.ts#isCenterIndexable (July 2026 demotion).
+  const reviewed = getReviewedCenter(row.slug);
+  if (reviewed) return hasEnoughOwnFacts(reviewed.facts) && isReleased(reviewed.indexableFrom);
+  const hasSubstance =
+    realServices.length >= MIN_SERVICES_FOR_INDEXABLE_CENTER && Boolean(row.schedule?.trim());
+  const hasOwnSource = isOwnWebsite(row.website) || (row.source_urls_secondary?.length ?? 0) > 0;
+  return hasSubstance && hasOwnSource;
 }
 
 function enrichCenter(row: CenterRow): AdminCenter {

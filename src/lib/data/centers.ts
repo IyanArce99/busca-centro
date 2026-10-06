@@ -11,6 +11,7 @@ import type {
 import type { SeoPageFilters } from "@/types/seo-page";
 import type { FAQItem } from "@/types/faq";
 import { getServerClient } from "@/lib/supabase/server";
+import { getReviewedCenter } from "@/lib/verified-facts";
 import {
   getAllCenters as getMockCenters,
   getCenterBySlug as getMockCenterBySlug,
@@ -21,6 +22,7 @@ import type { Database } from "@/types/database";
 type CenterRow = Database["public"]["Tables"]["centers"]["Row"];
 
 function rowToCenter(row: CenterRow): Center {
+  const reviewed = getReviewedCenter(row.slug);
   return {
     id: row.id,
     slug: row.slug,
@@ -63,6 +65,8 @@ function rowToCenter(row: CenterRow): Center {
     verificationStatus: (row.verification_status as VerificationStatus) ?? undefined,
     confidenceLevel: (row.confidence_level as ConfidenceLevel) ?? undefined,
     dataConflicts: (row.data_conflicts as unknown as Record<string, DataConflict>) ?? undefined,
+    verifiedFacts: reviewed?.facts,
+    indexableFrom: reviewed?.indexableFrom,
     createdAt: row.created_at,
     updatedAt: row.updated_at,
   };

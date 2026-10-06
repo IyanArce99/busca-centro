@@ -1,11 +1,14 @@
 import Link from "next/link";
-import type { Center, CenterService } from "@/types/center";
+import type { Center, CenterFactKey, CenterService } from "@/types/center";
+import { hasEnoughOwnFacts } from "@/lib/centers";
 import {
   emailHref,
   formatCenterType,
+  formatFactLabel,
   formatOwnership,
   formatPedagogicalApproach,
   formatService,
+  formatSourceHost,
   formatWebsiteLabel,
   mapsEmbedUrl,
   mapsSearchUrl,
@@ -108,6 +111,13 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
     center.socialLinks?.linkedin
   );
   const hasPedagogicalApproach = !!center.pedagogicalApproach?.length;
+  const verifiedFacts = center.verifiedFacts ?? [];
+  // ISO dates sort lexicographically, so the max string is the latest check.
+  const lastFactCheck = verifiedFacts.reduce((latest, f) => (f.checkedAt > latest ? f.checkedAt : latest), "");
+  // A ficha with enough facts of its own drops the generic filler sections:
+  // the same paragraphs on every page are what made fichas read as templates.
+  const isEnriched = hasEnoughOwnFacts(verifiedFacts);
+  const hasFact = (key: CenterFactKey) => verifiedFacts.some((fact) => fact.key === key);
 
   const locationText = buildLocationText(center);
   const educationStageText = buildEducationStageText(center);
@@ -138,6 +148,11 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
             <span className="flex items-center gap-1 rounded-full bg-emerald-100 px-2.5 py-1 text-emerald-700">
               <CheckBadgeIcon className="h-3.5 w-3.5" />
               Ficha verificada
+            </span>
+          ) : isEnriched ? (
+            <span className="flex items-center gap-1 rounded-full bg-emerald-50 px-2.5 py-1 text-emerald-700">
+              <CheckBadgeIcon className="h-3.5 w-3.5" />
+              Datos comprobados con su fuente
             </span>
           ) : (
             <span className="flex items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-amber-700">
@@ -290,6 +305,46 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
         )}
       </section>
 
+      {/* ── 3b. Datos comprobados ───────────────────────────────────────────── */}
+      {verifiedFacts.length > 0 ? (
+        <section className="rounded-xl border border-emerald-200 bg-white p-6 shadow-sm">
+          <h2 className="flex items-center gap-2 text-base font-semibold text-slate-900">
+            <CheckBadgeIcon className="h-4 w-4 text-emerald-500" />
+            Datos comprobados
+          </h2>
+          <p className="mt-1 text-xs text-slate-500">
+            Cada dato enlaza a la página donde lo hemos comprobado. Pueden cambiar: confírmalos con
+            el centro antes de decidir.
+          </p>
+          <dl className="mt-4 flex flex-col gap-4">
+            {verifiedFacts.map((fact) => (
+              <div key={`${fact.key}-${fact.value}`} className="text-sm">
+                <dt className="font-medium text-slate-700">{formatFactLabel(fact.key)}</dt>
+                <dd className="mt-0.5 leading-relaxed text-slate-600">
+                  {fact.value}{" "}
+                  <a
+                    href={fact.sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="whitespace-nowrap text-xs text-sky-700 hover:underline"
+                  >
+                    Fuente: {formatSourceHost(fact.sourceUrl)}
+                  </a>
+                </dd>
+              </div>
+            ))}
+          </dl>
+          <p className="mt-4 text-xs text-slate-400">
+            Última comprobación:{" "}
+            {new Date(lastFactCheck).toLocaleDateString("es-ES", {
+              day: "numeric",
+              month: "long",
+              year: "numeric",
+            })}
+          </p>
+        </section>
+      ) : null}
+
       {/* ── 4. Ubicación y Contacto ─────────────────────────────────────────── */}
       <div className="grid gap-6 sm:grid-cols-2">
         {/* Ubicación */}
@@ -437,13 +492,15 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
       </div>
 
       {/* ── 5. Etapa educativa y edades ─────────────────────────────────────── */}
-      <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-        <h2 className="mb-3 flex items-center gap-2 text-base font-semibold text-slate-900">
-          <AcademicCapIcon className="h-4 w-4 text-slate-400" />
-          Etapa educativa y edades
-        </h2>
-        <p className="text-sm leading-relaxed text-slate-600">{educationStageText}</p>
-      </section>
+      {isEnriched && hasFact("edades") ? null : (
+        <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 className="mb-3 flex items-center gap-2 text-base font-semibold text-slate-900">
+            <AcademicCapIcon className="h-4 w-4 text-slate-400" />
+            Etapa educativa y edades
+          </h2>
+          <p className="text-sm leading-relaxed text-slate-600">{educationStageText}</p>
+        </section>
+      )}
 
       {/* ── 6. Servicios disponibles ─────────────────────────────────────────── */}
       <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
@@ -461,7 +518,9 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
                 </span>
               ))}
             </div>
-            <p className="text-sm leading-relaxed text-slate-600">{servicesText}</p>
+            {isEnriched ? null : (
+              <p className="text-sm leading-relaxed text-slate-600">{servicesText}</p>
+            )}
           </>
         ) : (
           <div className="rounded-lg border border-slate-100 bg-slate-50 p-4">
@@ -477,29 +536,33 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
       </section>
 
       {/* ── 7. Horario, plazas y admisión ────────────────────────────────────── */}
-      <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-        <h2 className="mb-3 flex items-center gap-2 text-base font-semibold text-slate-900">
-          <ClockIcon className="h-4 w-4 text-slate-400" />
-          Horario, plazas y admisión
-        </h2>
-        <p className="text-sm leading-relaxed text-slate-600">{scheduleText}</p>
-      </section>
+      {isEnriched && hasFact("horario") ? null : (
+        <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 className="mb-3 flex items-center gap-2 text-base font-semibold text-slate-900">
+            <ClockIcon className="h-4 w-4 text-slate-400" />
+            Horario, plazas y admisión
+          </h2>
+          <p className="text-sm leading-relaxed text-slate-600">{scheduleText}</p>
+        </section>
+      )}
 
       {/* ── 8. Qué preguntar antes de elegir ─────────────────────────────────── */}
-      <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-        <h2 className="mb-3 flex items-center gap-2 text-base font-semibold text-slate-900">
-          <InformationCircleIcon className="h-4 w-4 text-slate-400" />
-          Qué preguntar antes de elegir este centro
-        </h2>
-        <ul className="mt-2 flex flex-col gap-2">
-          {questionsToAsk.map((question) => (
-            <li key={question} className="flex items-start gap-2.5 text-sm text-slate-600">
-              <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-sky-400" aria-hidden="true" />
-              {question}
-            </li>
-          ))}
-        </ul>
-      </section>
+      {isEnriched ? null : (
+        <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 className="mb-3 flex items-center gap-2 text-base font-semibold text-slate-900">
+            <InformationCircleIcon className="h-4 w-4 text-slate-400" />
+            Qué preguntar antes de elegir este centro
+          </h2>
+          <ul className="mt-2 flex flex-col gap-2">
+            {questionsToAsk.map((question) => (
+              <li key={question} className="flex items-start gap-2.5 text-sm text-slate-600">
+                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-sky-400" aria-hidden="true" />
+                {question}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {/* ── 9. Verificación ──────────────────────────────────────────────────── */}
       <section

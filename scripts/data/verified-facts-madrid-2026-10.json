@@ -1,0 +1,590 @@
+{
+  "checkedAt": "2026-10-03",
+  "centers": [
+    {
+      "slug": "alaria-bernabeu-nursery-school-madrid",
+      "set": {
+        "schedule": "Lunes a viernes de 7:30 a 18:30",
+        "age_min_months": 12,
+        "long_description": "Alaria Bernabéu es una de las cuatro escuelas del grupo Alaria en Madrid. Está en la colonia de El Viso, abrió en junio de 2013 y admite niños de 1 a 6 años, así que cubre también el segundo ciclo de infantil.\n\nDos cosas conviene saber antes de visitarla. Desde septiembre de 2026 cierra a las 18:30, media hora antes que en cursos anteriores. Y esta sede no abre en julio ni en agosto: quien necesite verano tiene que ir a otra escuela del grupo.\n\nLas comidas se preparan en la propia escuela y van incluidas en la cuota. Cerca de la mitad del tiempo de clase es en inglés.",
+        "faqs": [
+          {
+            "question": "¿Alaria Bernabéu abre en julio y agosto?",
+            "answer": "No. Según la web del grupo, esta sede cierra en julio y en agosto, y también durante el campamento de Navidad. En esas fechas los alumnos pueden acudir a otras escuelas de Alaria en Madrid."
+          },
+          {
+            "question": "¿A qué hora cierra Alaria Bernabéu?",
+            "answer": "A las 18:30 desde el 1 de septiembre de 2026; la última recogida es a las 18:25. Hasta el curso anterior cerraba a las 19:00, y esa hora sigue apareciendo en alguna página antigua de su web."
+          },
+          {
+            "question": "¿Desde qué edad admite niños Alaria Bernabéu?",
+            "answer": "La página de esta sede la describe como escuela para niños de 1 a 6 años. Otras escuelas del grupo sí tienen aula de bebés."
+          },
+          {
+            "question": "¿Hay descuento por hermanos en Alaria Bernabéu?",
+            "answer": "Sí. Con dos hermanos matriculados, el mayor tiene un descuento de 55 € al mes. Con tres, el mayor tiene 100 € y el mediano 55 € al mes. Conviene confirmar las condiciones con el centro."
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "horario",
+          "value": "Abre a las 7:30 y cierra a las 18:30 desde septiembre de 2026 (antes cerraba a las 19:00). La entrada es flexible hasta las 9:50 y la última recogida es a las 18:25.",
+          "sourceUrl": "https://www.alariaescuelasinfantiles.es/horarios/"
+        },
+        {
+          "key": "calendario",
+          "value": "El curso va del 1 de septiembre al 30 de junio. Esta sede cierra en julio, en agosto y durante el campamento de Navidad; en esas fechas los alumnos pueden ir a otras escuelas del grupo.",
+          "sourceUrl": "https://www.alariaescuelasinfantiles.es/abiertos-todo-el-ano/"
+        },
+        {
+          "key": "edades",
+          "value": "La sede de Bernabéu admite de 1 a 6 años.",
+          "sourceUrl": "https://www.alariaescuelasinfantiles.es/alaria-bernabeu/"
+        },
+        {
+          "key": "comedor",
+          "value": "Cocina propia: la comida se elabora a diario en la escuela. Todas las comidas, incluido el desayuno hasta las 9:00, van incluidas en la cuota. Adaptan los menús a alergias e intolerancias y no se puede llevar comida de casa.",
+          "sourceUrl": "https://www.alariaescuelasinfantiles.es/comedor/"
+        },
+        {
+          "key": "idiomas",
+          "value": "Entre el 40 % y el 50 % del tiempo de clase es en inglés, con profesoras nativas británicas y otras bilingües de nivel C1 o C2. Preparan el examen Trinity a los 5 años.",
+          "sourceUrl": "https://www.alariaescuelasinfantiles.es/bilinguismo-real-en-la-escuela/"
+        },
+        {
+          "key": "instalaciones",
+          "value": "Más de 200 m² de jardines y patios, aula de psicomotricidad, huerto y circuito de seguridad vial.",
+          "sourceUrl": "https://www.alariaescuelasinfantiles.es/alaria-bernabeu/"
+        },
+        {
+          "key": "equipo",
+          "value": "Al menos dos personas por aula: una tutora y una asistente. No publica la ratio de niños por educadora.",
+          "sourceUrl": "https://www.alariaescuelasinfantiles.es/equipo-de-confianza/"
+        },
+        {
+          "key": "ayudas",
+          "value": "Acepta tickets guardería y pago mixto. Descuento por hermanos: 55 € al mes para el mayor si hay dos matriculados; con tres, 100 € para el mayor y 55 € para el mediano.",
+          "sourceUrl": "https://www.alariaescuelasinfantiles.es/descuentos/"
+        },
+        {
+          "key": "precio",
+          "value": "No publica las cuotas. En julio y agosto no se cobra mensualidad: el campamento de verano se paga por semanas, con un mínimo de dos.",
+          "sourceUrl": "https://www.alariaescuelasinfantiles.es/pagos/"
+        },
+        {
+          "key": "gestion",
+          "value": "Forma parte del grupo Alaria, con cuatro escuelas en Madrid. Titular: Alaria Centros de Educación Infantil, S.L.",
+          "sourceUrl": "https://gestiona.comunidad.madrid/wpad_pub/run/j/MostrarFichaCentro.icm?cdCentro=28074906",
+          "registry": true
+        }
+      ]
+    },
+    {
+      "slug": "las-acacias-madrid",
+      "set": {
+        "long_description": "Las Acacias ocupa un chalet con jardín junto a la Dehesa de la Villa y funciona desde 1978. Es una escuela de primer ciclo, de 0 a 3 años, con siete aulas.\n\nPublica algo poco habitual: el máximo de niños por aula. Son 8 en bebés, 14 en 1-2 años y 20 en 2-3 años, siempre con dos profesionales. La comida se cocina en la escuela.\n\nUn detalle a confirmar en la visita es la hora de cierre: la portada de su web dice las 19:00, pero otra de sus páginas habla de las 18:00.",
+        "faqs": [
+          {
+            "question": "¿Cuántos niños hay por aula en Las Acacias?",
+            "answer": "Según su web, un máximo de 8 en las aulas de 0-1 año, 14 en las de 1-2 años y 20 en las de 2-3 años, con dos profesionales en cada aula."
+          },
+          {
+            "question": "¿Las Acacias tiene cocina propia?",
+            "answer": "Sí. La comida se elabora a diario en la escuela. Preparan menús triturados para los más pequeños y menús especiales para celíacos y alérgicos, y publican el menú de cada mes."
+          },
+          {
+            "question": "¿Qué horario tiene Las Acacias?",
+            "answer": "Abre a las 7:30. La portada de su web indica cierre a las 19:00, aunque la página del campamento de verano menciona las 18:00, así que conviene confirmarlo con el centro."
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "aulas",
+          "value": "Siete aulas: dos de 0-1 año, tres de 1-2 años y dos de 2-3 años. Máximo de 8, 14 y 20 niños por aula según la edad, con dos profesionales en cada una.",
+          "sourceUrl": "https://www.escuelainfantilacacias.es/instalaciones/"
+        },
+        {
+          "key": "instalaciones",
+          "value": "Chalet de 450 m² con 800 m² de jardín y patios propios. Las aulas de bebés tienen terraza. Natación semanal en una piscina cercana, a unos cinco minutos, acompañados por las profesoras.",
+          "sourceUrl": "https://www.escuelainfantilacacias.es/instalaciones/"
+        },
+        {
+          "key": "horario",
+          "value": "Abre a las 7:30, con desayuno en el centro. La portada de su web indica cierre a las 19:00; la página del campamento de verano menciona las 18:00.",
+          "sourceUrl": "https://www.escuelainfantilacacias.es/padres/"
+        },
+        {
+          "key": "comedor",
+          "value": "Cocina propia con elaboración diaria. Menús triturados para los pequeños y especiales para celíacos y alérgicos. Publica el menú de cada mes.",
+          "sourceUrl": "https://www.escuelainfantilacacias.es/comedor2/"
+        },
+        {
+          "key": "calendario",
+          "value": "Organiza campamento de verano en julio y agosto, abierto también a niños de 2 a 6 años de fuera de la escuela. No publica los días de cierre.",
+          "sourceUrl": "https://www.escuelainfantilacacias.es/campamento-de-verano/"
+        },
+        {
+          "key": "metodologia",
+          "value": "Proyecto propio basado en las inteligencias múltiples, con trabajo por proyectos y por rincones.",
+          "sourceUrl": "https://www.escuelainfantilacacias.es/proyecto/"
+        },
+        {
+          "key": "idiomas",
+          "value": "La tutora de cada aula usa castellano e inglés a diario en las mismas rutinas. No indica horas semanales ni profesorado nativo.",
+          "sourceUrl": "https://www.escuelainfantilacacias.es/ingles/"
+        },
+        {
+          "key": "ayudas",
+          "value": "Descuento en la mensualidad según el número de hermanos matriculados (sin cifras publicadas). Acepta cheques guardería y tiene acuerdos con algunas empresas para sus empleados.",
+          "sourceUrl": "https://www.escuelainfantilacacias.es/padres/"
+        },
+        {
+          "key": "historia",
+          "value": "En funcionamiento desde 1978, según la propia escuela.",
+          "sourceUrl": "https://www.escuelainfantilacacias.es/nuestra-historia/"
+        },
+        {
+          "key": "gestion",
+          "value": "Escuela privada independiente. Titular: Proacacias Educación, S.L.",
+          "sourceUrl": "https://gestiona.comunidad.madrid/wpad_pub/run/j/MostrarFichaCentro.icm?cdCentro=28059152",
+          "registry": true
+        }
+      ]
+    },
+    {
+      "slug": "mama-queca-ii-madrid",
+      "set": {
+        "phone": "913887424",
+        "long_description": "Mamá Queca II está en la calle Sánchez Guerrero, en Hortaleza, y abrió en junio de 1999. Admite niños desde los 4 meses hasta los 3 años, repartidos en tres grupos de edad.\n\nAbre todo el año de 7:30 a 18:00. En Navidad, Semana Santa y días no lectivos funciona como aula de vacaciones, también para hermanos mayores.\n\nLa comida del mediodía llega por catering, con menús elaborados por nutricionista; el desayuno y la merienda se preparan en el centro. Un pediatra pasa por la escuela una vez por semana.\n\nNo debe confundirse con Mamá Queca, que es otro centro registrado en la calle Aránzazu.",
+        "faqs": [
+          {
+            "question": "¿Desde qué edad admite niños Mamá Queca II?",
+            "answer": "Desde los 4 meses. Tiene tres grupos: bebés, 1-2 años y 2-3 años."
+          },
+          {
+            "question": "¿Mamá Queca II abre en verano?",
+            "answer": "Sí, según su web abre todo el año. En julio y agosto la cuota se paga en proporción a los días de asistencia."
+          },
+          {
+            "question": "¿La comida de Mamá Queca II es de cocina propia?",
+            "answer": "No. La comida del mediodía es de catering, con menús elaborados por nutricionista. El desayuno y la merienda sí se preparan en el centro. Hay menús adaptados para celíacos y para intolerancia a la lactosa o alergia al huevo."
+          },
+          {
+            "question": "¿Mamá Queca y Mamá Queca II son el mismo centro?",
+            "answer": "No. Son dos centros registrados por separado: Mamá Queca II está en la calle Sánchez Guerrero 7 y Mamá Queca en la calle Aránzazu 4, las dos en Hortaleza."
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "horario",
+          "value": "Lunes a viernes de 7:30 a 18:00. Desayuno hasta las 9:00, comida a las 12:00, siesta a las 13:00 y merienda a las 16:00.",
+          "sourceUrl": "https://mamaqueca.es/normativas-mamaqueca/"
+        },
+        {
+          "key": "calendario",
+          "value": "Abre todo el año. En julio y agosto se paga en proporción a la asistencia. Aula de vacaciones en Navidad, Semana Santa y días no lectivos, abierta también a hermanos y a niños de fuera menores de 10 años.",
+          "sourceUrl": "https://mamaqueca.es/servicios-mamaqueca-hortaleza/"
+        },
+        {
+          "key": "edades",
+          "value": "Admite desde los 4 meses. Tres grupos: bebés, 1-2 años y 2-3 años.",
+          "sourceUrl": "https://mamaqueca.es/normativas-mamaqueca/"
+        },
+        {
+          "key": "comedor",
+          "value": "Comida de catering de dieta mediterránea, con menús elaborados por nutricionista; el desayuno y la merienda se preparan en el centro. Menús adaptados para celíacos, intolerancia a la lactosa y alergia al huevo.",
+          "sourceUrl": "https://mamaqueca.es/centro-infantil-mamaqueca/"
+        },
+        {
+          "key": "equipo",
+          "value": "Maestros y técnicos superiores de educación infantil. Cuenta con gabinete psicopedagógico y un pediatra que visita la escuela una vez por semana.",
+          "sourceUrl": "https://mamaqueca.es/servicios-mamaqueca-hortaleza/"
+        },
+        {
+          "key": "comunicacion",
+          "value": "Agenda diaria de cada niño, que incluye lo que ha comido, y área privada para familias en la web.",
+          "sourceUrl": "https://mamaqueca.es/normativas-mamaqueca/"
+        },
+        {
+          "key": "precio",
+          "value": "No publica las cuotas. Cobra matrícula, que incluye la reserva de plaza y el seguro escolar. El uniforme es obligatorio.",
+          "sourceUrl": "https://mamaqueca.es/normativas-mamaqueca/"
+        },
+        {
+          "key": "ayudas",
+          "value": "Acepta tickets guardería y ayuda a tramitar la beca de la Comunidad de Madrid y la del Ayuntamiento para escuelas infantiles privadas.",
+          "sourceUrl": "https://mamaqueca.es/becas-y-ayudas-mamaqueca/"
+        },
+        {
+          "key": "historia",
+          "value": "Abrió en junio de 1999.",
+          "sourceUrl": "https://mamaqueca.es/centro-infantil-mamaqueca/"
+        },
+        {
+          "key": "gestion",
+          "value": "Titular: Escuela Infantil Mama Queca, S.L. Es un centro distinto de Mamá Queca, registrado en la calle Aránzazu 4.",
+          "sourceUrl": "https://gestiona.comunidad.madrid/wpad_pub/run/j/MostrarFichaCentro.icm?cdCentro=28065127",
+          "registry": true
+        }
+      ]
+    },
+    {
+      "slug": "de-peques-madrid",
+      "set": {
+        "long_description": "De Peques es una escuela infantil privada e independiente en la calle Walia, cerca de Conde de Casal. Ocupa un edificio propio de dos plantas con patio exterior de uso exclusivo.\n\nSu web describe cuatro aulas, dos de 1-2 años y dos de 2-3 años, y no menciona aula de bebés, así que conviene preguntar si admiten menores de un año.\n\nAbre de 8:00 a 18:15 y cierra todo el mes de agosto, además del 24 y el 31 de diciembre y el 5 de enero. Se pueden contratar horas sueltas de ampliación y días sueltos de comedor.",
+        "faqs": [
+          {
+            "question": "¿De Peques cierra en agosto?",
+            "answer": "Sí. Según su web cierra todo el mes de agosto, el 24 y el 31 de diciembre, el 5 de enero y los festivos de Madrid. El calendario de cada curso se confirma en septiembre."
+          },
+          {
+            "question": "¿Cómo es el proceso de admisión en De Peques?",
+            "answer": "Tiene tres pasos: rellenar el formulario de contacto, visitar la escuela con cita previa y entregar la inscripción con el justificante de pago de la matrícula. El importe de la matrícula no está publicado."
+          },
+          {
+            "question": "¿De Peques tiene aula de bebés?",
+            "answer": "Su web solo describe aulas de 1-2 y de 2-3 años. Si buscas plaza para un bebé menor de un año, pregúntalo directamente al centro."
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "horario",
+          "value": "Lunes a viernes de 8:00 a 18:15, con varias modalidades de jornada. Se pueden contratar horas sueltas de ampliación, que se cobran en la cuota del mes siguiente.",
+          "sourceUrl": "https://www.depeques.es/escuela-infantil-retiro/preguntas-frecuentes/"
+        },
+        {
+          "key": "calendario",
+          "value": "Cierra todo agosto, el 24 y el 31 de diciembre, el 5 de enero y los festivos de Madrid. El calendario del curso se confirma en septiembre.",
+          "sourceUrl": "https://www.depeques.es/escuela-infantil-retiro/preguntas-frecuentes/"
+        },
+        {
+          "key": "aulas",
+          "value": "Cuatro aulas: dos de 1-2 años y dos de 2-3 años. Agrupan a los niños por año y mes de nacimiento. La web no describe aula de 0-1 año.",
+          "sourceUrl": "https://www.depeques.es/escuela-infantil-retiro/preguntas-frecuentes/"
+        },
+        {
+          "key": "instalaciones",
+          "value": "Edificio independiente de dos plantas, con patio exterior privado y aula de psicomotricidad.",
+          "sourceUrl": "https://www.depeques.es/conoce-depeques/"
+        },
+        {
+          "key": "comedor",
+          "value": "Menús especiales para celiaquía e intolerancia al huevo o a la leche. Se pueden contratar días sueltos de comedor.",
+          "sourceUrl": "https://www.depeques.es/escuela-infantil-retiro/preguntas-frecuentes/"
+        },
+        {
+          "key": "idiomas",
+          "value": "El inglés se integra en las actividades diarias. El personal de inglés tiene nivel C1 o superior. No indica horas semanales.",
+          "sourceUrl": "https://www.depeques.es/conoce-depeques/"
+        },
+        {
+          "key": "admision",
+          "value": "Tres pasos: formulario de contacto, visita con cita previa e inscripción con el justificante de pago de la matrícula. En septiembre hay periodo de adaptación con horario reducido.",
+          "sourceUrl": "https://www.depeques.es/proceso-de-admision/"
+        },
+        {
+          "key": "ayudas",
+          "value": "Admite pago total o parcial con ticket guardería o retribución flexible. Al ser centro autorizado, las familias pueden pedir la beca de la Comunidad de Madrid.",
+          "sourceUrl": "https://www.depeques.es/beneficios-economicos/"
+        },
+        {
+          "key": "precio",
+          "value": "No publica las cuotas. Cobra matrícula y el uniforme es obligatorio.",
+          "sourceUrl": "https://www.depeques.es/proceso-de-admision/"
+        }
+      ]
+    },
+    {
+      "slug": "jardiimar-madrid",
+      "set": {
+        "schedule": null,
+        "long_description": "Jardiimar es una escuela infantil pequeña en la calle Cobos de Segovia, en Arganzuela. No pertenece a ningún grupo.\n\nLo más concreto que publica tiene que ver con la comida: hay cocinero propio, el menú es de dieta mediterránea con producto de temporada y, cuando toca, usan verdura de su propia huerta.\n\nEl equipo lo forman cuatro educadores tutores y dos de apoyo, más un psicólogo que se reúne con las familias. Su web no publica horario ni precios, así que hay que pedirlos al centro.",
+        "faqs": [
+          {
+            "question": "¿Jardiimar tiene cocina propia?",
+            "answer": "Sí. Según su web, la comida la prepara un cocinero del centro, con menú mediterráneo y alimentos de temporada. En temporada usan productos de su propia huerta."
+          },
+          {
+            "question": "¿Qué horario tiene Jardiimar?",
+            "answer": "La web del centro no lo publica. El registro de la Comunidad de Madrid indica que ofrece horario ampliado y comedor, sin detallar horas. Lo mejor es llamar al centro."
+          },
+          {
+            "question": "¿Cuántos educadores tiene Jardiimar?",
+            "answer": "Su web habla de cuatro educadores tutores y dos de apoyo, todos educadores o maestros de infantil, además de un servicio de psicología."
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "equipo",
+          "value": "Cuatro educadores tutores y dos de apoyo, todos educadores o maestros de infantil. Hay servicio de psicología, con reuniones con las familias e informe a final de curso.",
+          "sourceUrl": "http://www.jardiimar.es/"
+        },
+        {
+          "key": "comedor",
+          "value": "Cocina propia con cocinero del centro. Menú mediterráneo con alimentos de temporada, verdura a diario y, en temporada, productos de su propia huerta.",
+          "sourceUrl": "http://www.jardiimar.es/"
+        },
+        {
+          "key": "instalaciones",
+          "value": "Patio con arenero y huerta. Ofrece natación a partir de los 24 meses en una piscina cubierta externa, en grupos de cinco niños y sesiones de 30 minutos.",
+          "sourceUrl": "http://www.jardiimar.es/"
+        },
+        {
+          "key": "metodologia",
+          "value": "Proyecto propio que toma ideas de Pikler-Lóczy, Montessori, Waldorf y las inteligencias múltiples, centrado en la actividad autónoma del niño.",
+          "sourceUrl": "http://www.jardiimar.es/"
+        },
+        {
+          "key": "comunicacion",
+          "value": "Agenda digital para las familias y escuela de padres con el psicólogo del centro.",
+          "sourceUrl": "http://www.jardiimar.es/"
+        },
+        {
+          "key": "idiomas",
+          "value": "El inglés forma parte de las actividades diarias. No indica horas ni profesorado nativo.",
+          "sourceUrl": "http://www.jardiimar.es/"
+        },
+        {
+          "key": "horario",
+          "value": "La web del centro no publica el horario. El registro autonómico indica que tiene horario ampliado, comedor y jornada continuada, sin detallar horas.",
+          "sourceUrl": "https://gestiona.comunidad.madrid/wpad_pub/run/j/MostrarFichaCentro.icm?cdCentro=28059577",
+          "registry": true
+        }
+      ]
+    },
+    {
+      "slug": "nemomarlin-arganzuela-madrid",
+      "set": {
+        "schedule": null,
+        "long_description": "Nemomarlin Arganzuela es una de las escuelas del grupo Nemomarlin, una red de franquicias con centros en toda España. Está en la calle Carmen Cobeña, cerca del metro de Pirámides.\n\nLo que más la distingue es la comunicación con las familias: las aulas tienen cámaras web con acceso privado, y cada día se anota en la agenda lo que el niño ha comido y dormido.\n\nLa comida se cocina en la escuela, con menús supervisados por dietistas-nutricionistas. La página de esta escuela no publica horario concreto, solo habla de flexibilidad horaria.",
+        "faqs": [
+          {
+            "question": "¿Nemomarlin Arganzuela tiene cámaras en las aulas?",
+            "answer": "Sí. Según su web, hay cámaras web con acceso privado para las familias."
+          },
+          {
+            "question": "¿Qué horario tiene Nemomarlin Arganzuela?",
+            "answer": "La página de esta escuela no publica horas concretas. La web del grupo menciona apertura desde las 7:00, sin precisar en qué escuelas. Conviene confirmarlo con el centro."
+          },
+          {
+            "question": "¿Nemomarlin Arganzuela tiene cocina propia?",
+            "answer": "Sí. Una cocinera elabora los menús a diario en la escuela, supervisados por dietistas-nutricionistas."
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "comunicacion",
+          "value": "Cámaras web con acceso privado para las familias y agenda con información diaria de alimentación, descanso e higiene.",
+          "sourceUrl": "https://www.escuelanemomarlin.com/escuelas/escuela-infantil-arganzuela/"
+        },
+        {
+          "key": "comedor",
+          "value": "Cocina propia: una cocinera elabora los menús a diario, supervisados por dietistas-nutricionistas.",
+          "sourceUrl": "https://www.escuelanemomarlin.com/escuelas/escuela-infantil-arganzuela/"
+        },
+        {
+          "key": "equipo",
+          "value": "Equipo con psicopedagoga, coordinadora pedagógica, profesores, técnicos y personal nativo de inglés. No indica el número de personas.",
+          "sourceUrl": "https://www.escuelanemomarlin.com/escuelas/escuela-infantil-arganzuela/"
+        },
+        {
+          "key": "metodologia",
+          "value": "Inteligencias múltiples con metodología activa. Aulas multisensoriales.",
+          "sourceUrl": "https://www.escuelanemomarlin.com/escuelas/escuela-infantil-arganzuela/"
+        },
+        {
+          "key": "idiomas",
+          "value": "Inglés todos los días, con apoyo de personal nativo. No indica horas semanales.",
+          "sourceUrl": "https://www.escuelanemomarlin.com/escuelas/escuela-infantil-arganzuela/"
+        },
+        {
+          "key": "horario",
+          "value": "La página de esta escuela no publica horas concretas. La web del grupo menciona apertura de 7:00 a 9:00 y sábados por la mañana, sin precisar en qué escuelas.",
+          "sourceUrl": "https://www.escuelanemomarlin.com/servicios"
+        },
+        {
+          "key": "gestion",
+          "value": "Pertenece al grupo Nemomarlin. Titular: Nemomarlin Franchise, S.L.U.",
+          "sourceUrl": "https://gestiona.comunidad.madrid/wpad_pub/run/j/MostrarFichaCentro.icm?cdCentro=28073185",
+          "registry": true
+        }
+      ]
+    },
+    {
+      "slug": "st-alices-nursery-madrid",
+      "set": {
+        "schedule": null,
+        "long_description": "St. Alice's Nursery tiene dos escuelas en Chamberí. Esta ficha corresponde a la de la calle Fernández de la Hoz 21, en Almagro; la otra está en Galileo 47.\n\nEl local de Almagro tiene 450 m², con aulas y patio interior climatizados. Se entra con huella dactilar y hay dos puertas de acceso.\n\nCada aula tiene una educadora titular y una segunda de apoyo. El inglés se usa en las rutinas de todo el día, no en una franja concreta. Su web no publica horario ni calendario.",
+        "faqs": [
+          {
+            "question": "¿Cuántas escuelas tiene St. Alice's Nursery?",
+            "answer": "Dos, las dos en Chamberí: una en Fernández de la Hoz 21 (Almagro) y otra en Galileo 47 (Arapiles). Son centros registrados por separado."
+          },
+          {
+            "question": "¿Qué horario tiene St. Alice's Nursery?",
+            "answer": "Su web no publica horario ni calendario de cierres. Hay que pedirlos al centro por teléfono o con el formulario de su web."
+          },
+          {
+            "question": "¿Cómo trabajan el inglés en St. Alice's Nursery?",
+            "answer": "Según su web, el inglés se integra en las rutinas de todo el día y usan el método Jolly Phonics. No indican horas ni profesorado nativo."
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "instalaciones",
+          "value": "La escuela de Fernández de la Hoz tiene 450 m², con aulas y patio interior climatizados. Acceso por huella dactilar y doble puerta.",
+          "sourceUrl": "https://stalices.es/escuela-infantil-en-arapiles/"
+        },
+        {
+          "key": "equipo",
+          "value": "Cada aula tiene una educadora titular y una segunda de apoyo. El equipo incluye psicóloga, pediatra, nutricionista y fisioterapeuta respiratoria pediátrica.",
+          "sourceUrl": "https://stalices.es/escuela-infantil-calidad-chamberi/"
+        },
+        {
+          "key": "edades",
+          "value": "Primer ciclo en tres niveles: 0-1, 1-2 y 2-3 años. Los bebés se agrupan por mes de nacimiento.",
+          "sourceUrl": "https://stalices.es/escuela-infantil-bebes-chamberi/"
+        },
+        {
+          "key": "idiomas",
+          "value": "El inglés se integra en las rutinas diarias, no por franjas horarias. Usan el método Jolly Phonics.",
+          "sourceUrl": "https://stalices.es/"
+        },
+        {
+          "key": "metodologia",
+          "value": "Proyecto propio, llamado 8MINDS, basado en las inteligencias múltiples.",
+          "sourceUrl": "https://stalices.es/escuela-infantil-inteligencias-multiples-multilingue/"
+        },
+        {
+          "key": "comedor",
+          "value": "Una nutricionista elabora el menú de cada mes. No indica si la cocina es propia.",
+          "sourceUrl": "https://stalices.es/servicios-padres-escuela-infantil-chamberi/"
+        },
+        {
+          "key": "gestion",
+          "value": "Titular: St. Alice's Nursery, S.L., con dos escuelas en Chamberí registradas por separado.",
+          "sourceUrl": "https://gestiona.comunidad.madrid/wpad_pub/run/j/MostrarFichaCentro.icm?cdCentro=28073987",
+          "registry": true
+        }
+      ]
+    },
+    {
+      "slug": "el-alba-madrid",
+      "set": {
+        "schedule": "Lunes a viernes de 9:00 a 16:00; horario ampliado entre las 7:30 y las 17:30",
+        "website": null,
+        "age_min_months": 4
+      },
+      "facts": [
+        {
+          "key": "horario",
+          "value": "Horario general de 9:00 a 16:00, con horario ampliado posible entre las 7:30 y las 17:30. Es el horario común de la red municipal; la ficha oficial de El Alba no detalla horas.",
+          "sourceUrl": "https://www.madrid.es/portales/munimadrid/es/Inicio/Educacion-y-empleo/Escuelas-Infantiles-de-titularidad-del-Ayuntamiento-de-Madrid/?vgnextfmt=default&vgnextoid=69b3db36a21d1610VgnVCM1000001d4a900aRCRD&vgnextchannel=4d9d31d3b28fe410VgnVCM1000000b205a0aRCRD&idCapitulo=10639078",
+          "shared": true
+        },
+        {
+          "key": "calendario",
+          "value": "Abre once meses al año y cierra en agosto, como toda la red municipal.",
+          "sourceUrl": "https://www.madrid.es/portales/munimadrid/es/Inicio/Educacion-y-empleo/Escuelas-Infantiles-de-titularidad-del-Ayuntamiento-de-Madrid/?vgnextfmt=default&vgnextoid=69b3db36a21d1610VgnVCM1000001d4a900aRCRD&vgnextchannel=4d9d31d3b28fe410VgnVCM1000000b205a0aRCRD&idCapitulo=10639078",
+          "shared": true
+        },
+        {
+          "key": "precio",
+          "value": "La escolaridad es gratuita en la red municipal. Las familias pagan solo la cuota de comedor; la fuente no indica el importe.",
+          "sourceUrl": "https://www.madrid.es/portales/munimadrid/es/Inicio/Educacion-y-empleo/Escuelas-Infantiles-de-titularidad-del-Ayuntamiento-de-Madrid/?vgnextfmt=default&vgnextoid=69b3db36a21d1610VgnVCM1000001d4a900aRCRD&vgnextchannel=4d9d31d3b28fe410VgnVCM1000000b205a0aRCRD&idCapitulo=10639078",
+          "shared": true
+        },
+        {
+          "key": "instalaciones",
+          "value": "Instalación accesible para personas con movilidad reducida. Metro Pirámides.",
+          "sourceUrl": "https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/Arganzuela/Direcciones-y-telefonos/Escuela-infantil-municipal-El-Alba/?vgnextfmt=default&vgnextoid=0b41059cb751c010VgnVCM2000000c205a0aRCRD&vgnextchannel=fbf1283017e28010VgnVCM100000dc0ca8c0RCRD"
+        },
+        {
+          "key": "gestion",
+          "value": "Escuela infantil municipal: el titular es el Ayuntamiento de Madrid. Es una de las cuatro escuelas municipales del distrito de Arganzuela.",
+          "sourceUrl": "https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/Arganzuela/Direcciones-y-telefonos/Escuela-infantil-municipal-El-Alba/?vgnextfmt=default&vgnextoid=0b41059cb751c010VgnVCM2000000c205a0aRCRD&vgnextchannel=fbf1283017e28010VgnVCM100000dc0ca8c0RCRD"
+        }
+      ]
+    },
+    {
+      "slug": "fernando-el-catolico-madrid",
+      "set": {
+        "schedule": "Lunes a viernes de 9:00 a 16:00; horario ampliado entre las 7:30 y las 17:30",
+        "website": null,
+        "age_min_months": 4
+      },
+      "facts": [
+        {
+          "key": "horario",
+          "value": "Horario general de 9:00 a 16:00, con horario ampliado posible entre las 7:30 y las 17:30. Es el horario común de la red municipal; las fuentes oficiales no detallan horas propias de este centro.",
+          "sourceUrl": "https://www.madrid.es/portales/munimadrid/es/Inicio/Educacion-y-empleo/Escuelas-Infantiles-de-titularidad-del-Ayuntamiento-de-Madrid/?vgnextfmt=default&vgnextoid=69b3db36a21d1610VgnVCM1000001d4a900aRCRD&vgnextchannel=4d9d31d3b28fe410VgnVCM1000000b205a0aRCRD&idCapitulo=10639078",
+          "shared": true
+        },
+        {
+          "key": "calendario",
+          "value": "Abre once meses al año y cierra en agosto, como toda la red municipal.",
+          "sourceUrl": "https://www.madrid.es/portales/munimadrid/es/Inicio/Educacion-y-empleo/Escuelas-Infantiles-de-titularidad-del-Ayuntamiento-de-Madrid/?vgnextfmt=default&vgnextoid=69b3db36a21d1610VgnVCM1000001d4a900aRCRD&vgnextchannel=4d9d31d3b28fe410VgnVCM1000000b205a0aRCRD&idCapitulo=10639078",
+          "shared": true
+        },
+        {
+          "key": "precio",
+          "value": "La escolaridad es gratuita en la red municipal. Las familias pagan solo la cuota de comedor; la fuente no indica el importe.",
+          "sourceUrl": "https://www.madrid.es/portales/munimadrid/es/Inicio/Educacion-y-empleo/Escuelas-Infantiles-de-titularidad-del-Ayuntamiento-de-Madrid/?vgnextfmt=default&vgnextoid=69b3db36a21d1610VgnVCM1000001d4a900aRCRD&vgnextchannel=4d9d31d3b28fe410VgnVCM1000000b205a0aRCRD&idCapitulo=10639078",
+          "shared": true
+        },
+        {
+          "key": "instalaciones",
+          "value": "Instalación accesible para personas con movilidad reducida.",
+          "sourceUrl": "https://www.madrid.es/portales/munimadrid/es/Inicio/Infancia-y-familia/Direcciones-y-telefonos/Escuela-infantil-municipal-Fernando-el-Catolico/?vgnextfmt=default&vgnextoid=f87b0dde9b3b7210VgnVCM2000000c205a0aRCRD&vgnextchannel=a581b7dd3f7fe410VgnVCM1000000b205a0aRCRD"
+        },
+        {
+          "key": "gestion",
+          "value": "Escuela infantil municipal: el titular es el Ayuntamiento de Madrid, no la Comunidad de Madrid.",
+          "sourceUrl": "https://gestiona.comunidad.madrid/wpad_pub/run/j/MostrarFichaCentro.icm?cdCentro=28071942",
+          "registry": true
+        }
+      ]
+    },
+    {
+      "slug": "olavide-madrid",
+      "note": "Cierre definitivo el 30 de junio de 2026 según El Español (10 jun 2026). Se despublica.",
+      "set": {
+        "status": "draft"
+      },
+      "facts": []
+    },
+    {
+      "slug": "pequemun-madrid",
+      "note": "Dominio pequemun.com caído y horario sin fuente oficial. Se quitan ambos.",
+      "set": {
+        "schedule": null,
+        "website": null
+      },
+      "facts": []
+    },
+    {
+      "slug": "los-nidos-de-manoteras-madrid",
+      "note": "losnidos.es muestra la página por defecto del hosting; horario sin fuente oficial. Se quitan ambos.",
+      "set": {
+        "schedule": null,
+        "website": null
+      },
+      "facts": []
+    },
+    {
+      "slug": "alegre-koala-madrid",
+      "note": "Horario solo presente en directorios de terceros. Se quita.",
+      "set": {
+        "schedule": null
+      },
+      "facts": []
+    }
+  ]
+}

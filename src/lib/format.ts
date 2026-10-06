@@ -1,4 +1,10 @@
-import type { CenterAgeRange, CenterOwnership, CenterService, CenterType } from "@/types/center";
+import type {
+  CenterAgeRange,
+  CenterFactKey,
+  CenterOwnership,
+  CenterService,
+  CenterType,
+} from "@/types/center";
 
 const CENTER_TYPE_LABELS: Record<CenterType, string> = {
   guarderia: "Guardería",
@@ -71,6 +77,37 @@ export function formatService(service: CenterService): string {
 
 export function formatPedagogicalApproach(approach: string): string {
   return PEDAGOGICAL_APPROACH_LABELS[approach] ?? approach;
+}
+
+const FACT_LABELS: Record<CenterFactKey, string> = {
+  horario: "Horario",
+  calendario: "Calendario y cierres",
+  edades: "Edades",
+  aulas: "Aulas y grupos",
+  equipo: "Equipo",
+  comedor: "Comedor",
+  idiomas: "Idiomas",
+  metodologia: "Proyecto educativo",
+  instalaciones: "Instalaciones",
+  comunicacion: "Comunicación con las familias",
+  ayudas: "Ayudas y descuentos",
+  admision: "Admisión",
+  precio: "Precio",
+  historia: "Trayectoria",
+  gestion: "Gestión",
+};
+
+export function formatFactLabel(key: CenterFactKey): string {
+  return FACT_LABELS[key] ?? key;
+}
+
+/** Hostname without `www.`, for showing where a fact was checked. */
+export function formatSourceHost(url: string): string {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "");
+  } catch {
+    return formatWebsiteLabel(url);
+  }
 }
 
 export function formatAgeRange({ minMonths, maxMonths }: CenterAgeRange): string {
