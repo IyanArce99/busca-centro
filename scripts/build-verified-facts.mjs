@@ -98,8 +98,9 @@ for (const c of centers.sort((a, b) => a.slug.localeCompare(b.slug))) {
   out[c.slug] = {
     checkedAt: c.checkedAt,
     ...(indexableFrom ? { indexableFrom } : {}),
-    facts: c.facts.map(({ key, value, sourceUrl, shared, registry }) => ({
-      key, value, sourceUrl, ...(shared ? { shared: true } : {}), ...(registry ? { registry: true } : {}),
+    facts: c.facts.map(({ key, value, sourceUrl, shared, registry, unlinked }) => ({
+      key, value, sourceUrl,
+      ...(shared ? { shared: true } : {}), ...(registry ? { registry: true } : {}), ...(unlinked ? { unlinked: true } : {}),
     })),
   }
 }

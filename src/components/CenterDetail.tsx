@@ -322,14 +322,20 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
                 <dt className="font-medium text-slate-700">{formatFactLabel(fact.key)}</dt>
                 <dd className="mt-0.5 leading-relaxed text-slate-600">
                   {fact.value}{" "}
-                  <a
-                    href={fact.sourceUrl}
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                    className="whitespace-nowrap text-xs text-sky-700 hover:underline"
-                  >
-                    Fuente: {formatSourceHost(fact.sourceUrl)}
-                  </a>
+                  {fact.unlinked ? (
+                    <span className="whitespace-nowrap text-xs text-slate-500">
+                      Fuente: {formatSourceHost(fact.sourceUrl)}
+                    </span>
+                  ) : (
+                    <a
+                      href={fact.sourceUrl}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      className="whitespace-nowrap text-xs text-sky-700 hover:underline"
+                    >
+                      Fuente: {formatSourceHost(fact.sourceUrl)}
+                    </a>
+                  )}
                 </dd>
               </div>
             ))}

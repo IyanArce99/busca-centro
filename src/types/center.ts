@@ -90,6 +90,11 @@ export interface CenterFact {
    * MIN_OWN_SOURCE_FACTS_FOR_INDEXABLE_CENTER facts must come from elsewhere.
    */
   registry?: boolean;
+  /**
+   * True when the source page should be named but not linked, because the
+   * center's website carries injected spam or malware.
+   */
+  unlinked?: boolean;
 }
 
 export interface CenterSocialLinks {
