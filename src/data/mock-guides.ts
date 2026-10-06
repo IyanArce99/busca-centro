@@ -146,6 +146,7 @@ export const mockGuides: Guide[] = [
     relatedLinks: {
       intro: "Compara centros y precios en las ciudades de esta guía:",
       links: [
+        { label: "Tarifas publicadas por guarderías privadas de Madrid en 2026-2027", href: "/blog/precios-guarderias-privadas-madrid-2026-2027" },
         { label: "Guarderías en Madrid", href: "/guarderias-en-madrid" },
         { label: "Guarderías en Barcelona", href: "/guarderias-en-barcelona" },
         { label: "Guarderías en Valencia", href: "/guarderias-en-valencia" },
@@ -504,6 +505,134 @@ export const mockGuides: Guide[] = [
         { label: "Guarderías privadas en Madrid", href: "/guarderias-privadas-en-madrid" },
         { label: "Escuelas infantiles en Madrid", href: "/escuelas-infantiles-en-madrid" },
         { label: "Cuánto cuesta una guardería", href: "/blog/cuanto-cuesta-una-guarderia" },
+      ],
+    },
+  },
+  {
+    id: "guide-precios-guarderias-privadas-madrid-2026-2027",
+    slug: "precios-guarderias-privadas-madrid-2026-2027",
+    title: "Cuánto cuesta una guardería privada en Madrid en 2026-2027: las tarifas que sí publican los centros",
+    excerpt:
+      "Hemos revisado la información de 148 escuelas infantiles privadas de Madrid y solo 18 publican sus cuotas. Estas son las cifras, centro a centro: mensualidad, comedor, matrícula y extras.",
+    category: "Precios y ayudas",
+    publishedAt: "2026-10-06",
+    updatedAt: "2026-10-06",
+    readingTimeMinutes: 9,
+    content: [
+      "Preguntar el precio de una guardería privada en Madrid suele acabar en un «pide información y te lo contamos en la visita». Para saber qué cifras hay de verdad, hemos repasado una a una las webs y los documentos públicos de 148 escuelas infantiles y guarderías privadas de la ciudad de Madrid que tenemos en el directorio. Solo en 18 encontramos una tarifa de escolaridad publicada: una de cada ocho.",
+      "Con esas 18 no se puede calcular un precio medio de Madrid, y no vamos a inventarlo. Lo que sí se puede hacer es enseñar las cifras tal cual, con el nombre del centro, el horario al que corresponden y lo que incluyen. En las escuelas infantiles que publican su cuota, una jornada completa con comida cuesta entre 430 y 700 euros al mes. En los colegios privados que tienen aulas de 1 y 2 años, entre unos 770 y 1.070.",
+      "Todas las cifras proceden de la web o de las hojas de tarifas de cada centro, consultadas el 6 de octubre de 2026. Pueden cambiar, así que conviene confirmarlas con la escuela antes de hacer cuentas.",
+    ],
+    sections: [
+      {
+        heading: "Solo una de cada ocho publica sus cuotas",
+        paragraphs: [
+          "De las 148 privadas revisadas, 18 publican cuánto cuesta la escolaridad. En 89, la propia web no da ninguna cifra o remite a pedir presupuesto. En las 41 restantes no localizamos ninguna tarifa.",
+          "Tampoco las 18 están igual de al día. Doce publican las tarifas del curso 2026-2027. Tres tienen una tabla de precios sin fecha, de modo que no se sabe a qué curso corresponde. Y otras tres siguen mostrando las tarifas de cursos anteriores.",
+          "Hay otro límite que conviene tener presente: casi todas las que publican precios están en Chamartín, Hortaleza, Salamanca, Chamberí y Moncloa-Aravaca. Estas cifras describen a esos centros concretos y no sirven como referencia para toda la ciudad.",
+        ],
+      },
+      {
+        heading: "Jornada completa con comida: de 430 a 700 euros al mes",
+        paragraphs: [
+          "De menos a más, esto es lo que publican las escuelas infantiles para una jornada completa con comida, que suele ser de siete u ocho horas. Domo (Hortaleza) anuncia 430 euros por la jornada completa con comedor, en una página que no indica el curso. San Alonso de Orozco (Chamberí) cobra 320 euros de mensualidad más 170 de comedor, 490 en total, de septiembre a julio; su página de tarifas no dice qué horario cubre. El Duende Travieso II (Arganzuela), 510 euros de 9:00 a 16:30 con comida y merienda, o 580 de 8:00 a 17:00 con desayuno incluido; los bebés pagan 50 euros más. El Parque (Chamartín), 520 euros de 9:00 a 17:00 con comida y merienda, en una tabla sin fecha.",
+          "Osobuco II (Chamartín) publica «desde 565 euros» de 9:00 a 17:00 con comida y merienda. Cocorico (Chamartín), 608 euros de 9:00 a 16:00 con comida: 460 de escolaridad y 148 de comedor; con la hora siguiente y la merienda son 670. El colegio Ramón y Cajal cobra en su etapa de 0 a 3 años 660 euros de 9:00 a 17:00 con comida y merienda. Casa del Niño (Chamartín), 670 euros por ocho horas con comida y 833 por diez horas con comida y merienda. Cuchitos (Salamanca) publica una única mensualidad de 690 euros para niños de 1 a 3 años y de 730 para bebés, y describe jornadas con comida y merienda hasta las 17:30. Y la escuela Waldorf de Aravaca, en su grupo de 1 a 3 años, 645 euros hasta las 14:00 con la comida incluida y 700 hasta las 16:15, en una tabla sin fecha.",
+          "Dos casos se salen del patrón. El Columpio de Claudia (Sanchinarro) cobra 520 euros de 9:00 a 16:00, pero sin comedor: la comida se lleva de casa. Y Verbo Encarnado (Chamberí), un centro concertado cuyo primer ciclo es privado, cobra 300 euros de enseñanza, con salida a las 14:00, y 145 más a quien se queda al comedor.",
+        ],
+      },
+      {
+        heading: "Colegios privados con aulas de 1 y 2 años: otra escala",
+        paragraphs: [
+          "Los colegios privados que admiten niños antes de los 3 años publican sus honorarios con más frecuencia que las escuelas infantiles pequeñas, y sus cifras están un escalón por encima. San Patricio, en su campus de Serrano, cobra 7.700 euros al año en el aula de 1 a 2 años, con el comedor incluido, y 9.390 euros más 1.275 de comedor en la de 2 a 3; se pagan en diez mensualidades, lo que supone 770 y unos 1.067 euros al mes.",
+          "Colegio Madrid FSM (Hortaleza) cobra 638 euros al mes en el primer ciclo de infantil y 185 de comedor: 823 en total. Brains Nursery School, en el barrio de Salamanca, cobra 740 euros al mes en el aula de bebés con desayuno, comida y merienda; a partir de 1 año la comida va aparte, y la cuenta sale por 906 euros al mes con 1 año (670 más 236 de almuerzo) y 945 de 2 a 4 años (709 más 236). El colegio Brains de Conde de Orgaz publica 6.980 euros al año de enseñanza para 1 y 2 años, con comedor opcional de 217 euros al mes.",
+        ],
+      },
+      {
+        heading: "Media jornada: entre 60 y 110 euros menos",
+        paragraphs: [
+          "Quien solo necesita la mañana paga menos, pero no la mitad. En los centros que publican las dos tarifas, la diferencia entre salir a mediodía con la comida hecha y quedarse hasta la tarde es de 60 euros en El Duende Travieso II (450 frente a 510), 80 en El Parque (440 frente a 520), 90 en Ramón y Cajal (570 frente a 660) y 107 en Osobuco II (desde 458 frente a desde 565).",
+          "La opción más corta, de 9:00 a 12:00 y sin comida, cuesta desde 340 euros en Osobuco II, 380 en El Duende Travieso II y 470 en Ramón y Cajal. En Casa del Niño el mínimo que se puede contratar son seis horas con comida, por 560 euros.",
+        ],
+      },
+      {
+        heading: "Lo que no está en la mensualidad",
+        paragraphs: [
+          "La matrícula se paga cada curso, y varios centros advierten de que no se devuelve si el niño no llega a empezar. En las escuelas infantiles que la publican va de 105 a 420 euros: 105 en San Alonso de Orozco, donde cubre reserva de plaza, material y secretaría; 185 en Osobuco II, 200 en El Parque, 230 en El Columpio de Claudia, 300 en Cuchitos, 333 en Casa del Niño y 420 en Cocorico. El Duende Travieso II anuncia una matrícula de 150 euros y una reserva de plaza de 125. En los colegios sube: 400 euros en Ramón y Cajal, 600 en Colegio Madrid FSM, 890 en Waldorf de Aravaca para alumnos nuevos y 1.400 en San Patricio. Brains Nursery cobra una inscripción de 90 euros, pero añade una cuota anual de 380 euros en bebés y 530 en el resto.",
+          "El material es el segundo extra más habitual: 250 euros al año en Cuchitos, 75 al trimestre en El Duende Travieso II, 45 al trimestre en Colegio Madrid FSM, 123 al año en Waldorf de Aravaca y un único pago de 75 euros en El Columpio de Claudia. Algunos centros exigen además uniforme, que se compra aparte.",
+          "La hora extra de mañana o de tarde, contratada por meses, cuesta entre 50 y 63 euros en la mayoría: 50 en Colegio Madrid FSM, 55 en El Columpio de Claudia, 60 en El Duende Travieso II con desayuno, 62 en Cocorico con desayuno o merienda y 63 en Ramón y Cajal por hora y media. Y hay costes que no se ven hasta leer la letra pequeña: Cuchitos suma entre 5 y 15 euros al mes a quien paga con cheque guardería de empresa, según la emisora, y 2 euros por domiciliar el recibo.",
+          "Fíjate también en cuántos meses se pagan. Osobuco II y San Alonso de Orozco publican tarifas de septiembre a julio, once recibos. San Patricio y Colegio Madrid FSM reparten el curso en diez.",
+        ],
+      },
+      {
+        heading: "La referencia pública: 96 euros de comedor",
+        paragraphs: [
+          "En las escuelas infantiles públicas de Madrid la escolaridad es gratuita, tanto en la red del Ayuntamiento como en la de la Comunidad. Para el curso 2026-2027 las familias pagan el comedor, 96 euros al mes, y el horario ampliado solo si lo usan: 12 euros al mes por cada media hora en la red municipal y 10,83 en la autonómica. Una familia que necesite comedor y una hora más al día paga 120 euros al mes en una escuela municipal.",
+          "Esa es la distancia real con la privada: entre 300 y 600 euros al mes en las escuelas infantiles de este recuento. El problema de la pública no es el precio, sino que haya plaza.",
+        ],
+      },
+      {
+        heading: "Cuánto queda después de las becas",
+        paragraphs: [
+          "Las cuotas de arriba son antes de ayudas, y en Madrid hay dos que se pueden sumar. La beca de la Comunidad de Madrid para el primer ciclo en centros privados, el cheque guardería, es de 177 euros al mes en la convocatoria 2026-2027, o de 283 para las rentas más bajas. La Beca Infantil Plus del Ayuntamiento paga 118, 220 o 385 euros al mes según la renta per cápita. Son compatibles entre sí hasta cubrir el coste del servicio.",
+          "Con una cuota de 608 euros como la de Cocorico, una familia con la beca autonómica básica pagaría 431 euros; si además cobra la cuantía mínima de la municipal, 313. Las dos ayudas tienen requisitos de renta y plazos que ya se cerraron para este curso, y a 6 de octubre de 2026 ninguna de las dos tiene resolución definitiva. Solo valen en centros privados autorizados, así que conviene preguntarlo antes de matricular.",
+        ],
+      },
+      {
+        heading: "Cómo hemos hecho este recuento",
+        paragraphs: [
+          "Partimos de las 148 escuelas infantiles y guarderías privadas de Madrid capital cuya ficha hemos revisado en BuscaCentro. Para cada una leímos su web y los documentos enlazados desde ella, como hojas de tarifas, circulares o impresos de matrícula, y anotamos solo lo que el propio centro publica. No hemos llamado a los centros ni usado precios de terceros, foros o reseñas.",
+          "Para este artículo volvimos a abrir, el 6 de octubre de 2026, la fuente de cada cifra citada. Cuando una tabla no indica el curso lo decimos, y las tarifas de cursos pasados no se han usado para los rangos. Las sumas de escolaridad y comedor son nuestras; los importes de cada concepto son los del centro.",
+          "Si representas a una escuela y quieres que añadamos o corrijamos tus tarifas, puedes pedirlo desde su ficha. Publicar el precio ahorra a las familias una llamada y, a la vista de este recuento, sigue siendo poco habitual.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Cuánto cuesta una guardería privada en Madrid en el curso 2026-2027?",
+        answer:
+          "En las escuelas infantiles privadas de Madrid que publican sus tarifas, una jornada completa con comida cuesta entre 430 y 700 euros al mes. En los colegios privados con aulas de 1 y 2 años, entre unos 770 y 1.070 euros. Son cifras de centros concretos, casi todos del norte y el centro de la ciudad, no una media de Madrid.",
+      },
+      {
+        question: "¿Cuántas guarderías privadas de Madrid publican sus precios?",
+        answer:
+          "Pocas. De las 148 escuelas infantiles privadas de Madrid capital cuya información hemos revisado, solo 18 publican la cuota de escolaridad, y de ellas doce tienen las tarifas del curso 2026-2027. El resto no da cifras o remite a pedir información.",
+      },
+      {
+        question: "¿Cuánto cuesta la matrícula de una escuela infantil privada en Madrid?",
+        answer:
+          "En las escuelas infantiles que la publican, entre 105 y 420 euros al año. En colegios privados con primer ciclo va de 400 a 1.400 euros. Suele pagarse al reservar la plaza, y varios centros advierten de que no se devuelve.",
+      },
+      {
+        question: "¿El comedor está incluido en la cuota de la guardería?",
+        answer:
+          "Depende del centro. Algunos publican una tarifa por horario con la comida incluida, como El Parque, El Duende Travieso II o Ramón y Cajal. Otros lo cobran aparte: 148 euros al mes en Cocorico, 160 en Casa del Niño, 170 en San Alonso de Orozco o 236 en Brains Nursery. Al comparar, suma siempre escolaridad y comedor.",
+      },
+      {
+        question: "¿Cuánto se paga en una escuela infantil pública de Madrid?",
+        answer:
+          "La escolaridad es gratuita. En el curso 2026-2027 se pagan 96 euros al mes de comedor y, si se usa, el horario ampliado: 12 euros al mes por cada media hora en las escuelas del Ayuntamiento y 10,83 en las de la Comunidad de Madrid.",
+      },
+      {
+        question: "¿Qué ayudas rebajan la cuota de una guardería privada en Madrid?",
+        answer:
+          "La beca de la Comunidad de Madrid para primer ciclo en centros privados, de 177 euros al mes o 283 para las rentas más bajas, y la Beca Infantil Plus del Ayuntamiento, de 118, 220 o 385 euros al mes según la renta. Son compatibles y solo se aplican en centros privados autorizados.",
+      },
+    ],
+    relatedLinks: {
+      intro: "Las fichas de los centros citados, con la fuente de cada dato, y las guías de ayudas:",
+      links: [
+        { label: "Casa del Niño (Chamartín)", href: "/centro/casa-del-nino-madrid" },
+        { label: "Cocorico (Chamartín)", href: "/centro/cocorico-madrid" },
+        { label: "Cuchitos (Salamanca)", href: "/centro/cuchitos-madrid" },
+        { label: "Domo (Hortaleza)", href: "/centro/domo-madrid" },
+        { label: "El Columpio de Claudia (Sanchinarro)", href: "/centro/el-columpio-de-claudia-madrid" },
+        { label: "El Duende Travieso II (Arganzuela)", href: "/centro/el-duende-travieso-ii-madrid" },
+        { label: "El Parque (Chamartín)", href: "/centro/el-parque-madrid" },
+        { label: "Osobuco II (Chamartín)", href: "/centro/osobuco-ii-madrid" },
+        { label: "San Alonso de Orozco (Chamberí)", href: "/centro/san-alonso-de-orozco-madrid" },
+        { label: "Beca Infantil Plus Madrid 2026-2027", href: "/blog/beca-infantil-plus-madrid-2026-2027" },
+        { label: "Cheque guardería de la Comunidad de Madrid", href: "/blog/que-es-el-cheque-guarderia" },
+        { label: "Guarderías privadas en Madrid", href: "/guarderias-privadas-en-madrid" },
       ],
     },
   },
