@@ -51,7 +51,12 @@ export async function generateMetadata({ params }: Readonly<PageProps>): Promise
 
   return buildMetadata({
     title: `${center.name} en ${titleCity} | ${typeLabel} ${adj}`,
-    description: buildCenterSummary(center),
+    // A hand-written summary is unique to the center; the generated one differs
+    // from ficha to ficha only in name and location.
+    description:
+      center.hasEditorialSummary && center.shortDescription.trim()
+        ? center.shortDescription.trim()
+        : buildCenterSummary(center),
     path: `/centro/${center.slug}`,
     indexable,
   });

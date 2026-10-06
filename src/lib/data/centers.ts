@@ -67,6 +67,7 @@ function rowToCenter(row: CenterRow): Center {
     dataConflicts: (row.data_conflicts as unknown as Record<string, DataConflict>) ?? undefined,
     verifiedFacts: reviewed?.facts,
     indexableFrom: reviewed?.indexableFrom,
+    hasEditorialSummary: reviewed?.hasEditorialSummary,
     createdAt: row.created_at,
     updatedAt: row.updated_at,
   };

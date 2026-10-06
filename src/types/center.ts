@@ -157,6 +157,8 @@ export interface Center {
   verifiedFacts?: CenterFact[];
   /** ISO date (YYYY-MM-DD) from which a reviewed ficha may be indexed. */
   indexableFrom?: string;
+  /** True when `shortDescription` was written by hand from the verified facts. */
+  hasEditorialSummary?: boolean;
   createdAt: string;
   updatedAt: string;
 }

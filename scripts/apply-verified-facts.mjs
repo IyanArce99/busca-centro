@@ -27,7 +27,7 @@ const client = createClient(
 )
 
 const ALLOWED = new Set([
-  'schedule', 'phone', 'email', 'website', 'street', 'postal_code', 'district',
+  'name', 'short_description', 'schedule', 'phone', 'email', 'website', 'street', 'postal_code', 'district',
   'neighborhood_barrio', 'latitude', 'longitude', 'age_min_months', 'age_max_months',
   'services', 'status', 'long_description', 'faqs',
 ])

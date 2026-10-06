@@ -42,6 +42,15 @@ for (const file of readdirSync(BATCH_DIR).filter((f) => /^extra-facts-.*\.json$/
     latest.set(slug, { ...center, facts: [...center.facts.filter((f) => !keys.has(f.key)), ...facts] })
   }
 }
+// editorial-*.json hold rewritten texts (applied to Supabase like any other
+// correction). A ficha whose short description was rewritten there gets
+// `summary: true`, which lets the page use it as its meta description.
+const hasSummary = new Set()
+for (const file of readdirSync(BATCH_DIR).filter((f) => /^editorial-.*\.json$/.test(f))) {
+  for (const c of JSON.parse(readFileSync(`${BATCH_DIR}/${file}`, 'utf8')).centers) {
+    if (c.set?.short_description?.trim()) hasSummary.add(c.slug)
+  }
+}
 const centers = [...latest.values()]
 
 const own = (c) => c.facts.filter((f) => !f.shared)
@@ -101,6 +110,7 @@ for (const c of centers.sort((a, b) => a.slug.localeCompare(b.slug))) {
   out[c.slug] = {
     checkedAt: c.checkedAt,
     ...(indexableFrom ? { indexableFrom } : {}),
+    ...(hasSummary.has(c.slug) ? { summary: true } : {}),
     facts: c.facts.map(({ key, value, sourceUrl, shared, registry, unlinked }) => ({
       key, value, sourceUrl,
       ...(shared ? { shared: true } : {}), ...(registry ? { registry: true } : {}), ...(unlinked ? { unlinked: true } : {}),

@@ -14521,7 +14521,7 @@
     },
     {
       "slug": "agarimo-madrid",
-      "note": "Tiene web propia en Jimdo (escuelainfantilagarimo.jimdofree.com), pero no parece actualizada desde 2015-2017: decidir si se enlaza y si se publica el horario de 7:30 a 19:30 que indica. La ficha pública del registro (cdCentro=28033394) devuelve error y la búsqueda por nombre no da resultados, aunque los datos abiertos de la Comunidad de Madrid la listan en alta; conviene confirmar por teléfono que sigue abierta. La web dice que está concertada con la Comunidad, pero los datos abiertos la clasifican como privada.",
+      "note": "Tiene web propia en Jimdo (escuelainfantilagarimo.jimdofree.com), pero no parece actualizada desde 2015-2017: decidir si se enlaza y si se publica el horario de 7:30 a 19:30 que indica. La ficha pública del registro (cdCentro=28033394) devuelve error y la búsqueda por nombre no da resultados, aunque los datos abiertos de la Comunidad de Madrid la listan en alta; conviene confirmar por teléfono que sigue abierta. La web dice que está concertada con la Comunidad, pero los datos abiertos la clasifican como privada. [No indexar: todos los datos proceden de una web sin actualizar desde 2015.]",
       "set": {
         "website": "https://escuelainfantilagarimo.jimdofree.com/",
         "long_description": "Agarimo es una escuela infantil privada de primer ciclo, hasta los 3 años, en la calle Fernando el Católico, en Chamberí. Figura en el registro de centros de la Comunidad de Madrid desde 1992.\n\nSu web indica un horario flexible de 7:30 a 19:30 y dice que no cierra ningún mes del año y que abre los días sin cole. Hay que tomar estos datos con cautela: la web no parece actualizada desde hace años y el último menú que publica es de octubre de 2015. Conviene confirmarlos por teléfono.\n\nPara el inglés usa la metodología Kids&Us. También menciona educación emocional, psicomotricidad y un servicio de telepediatría de lunes a viernes.\n\nLa escuela dice tener acuerdos con cinco colegios de la zona para obtener el punto de libre elección al pasar al colegio: Fray Luis de León, Sagrado Corazón, Sagrados Corazones, María Auxiliadora y La Salle San Rafael.\n\nNo publica precios. Según su web acepta tickets guardería y el cheque guardería de la Comunidad de Madrid.",
@@ -14611,7 +14611,8 @@
           "sourceUrl": "https://datos.comunidad.madrid/catalogo/dataset/c750856d-3166-4dac-8e80-d1b824c968b5/resource/28d60557-1d73-4281-ab08-6cfd3b2f5f83/download/centros_educativos.csv",
           "registry": true
         }
-      ]
+      ],
+      "restricted": true
     },
     {
       "slug": "alba-lucero-madrid",
