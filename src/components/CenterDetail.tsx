@@ -104,6 +104,9 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
       : address.street
         ? [address.street, address.postalCode, address.cityName].filter(Boolean).join(", ")
         : `${center.name}, ${address.cityName}`;
+  // Searching by name and address opens the center's own listing (with its
+  // reviews), which a bare coordinate pin does not.
+  const reviewsQuery = [center.name, address.street, address.cityName].filter(Boolean).join(", ");
   const hasContactInfo = !!(contact.phone || contact.email || contact.website);
   const hasSocialLinks = !!(
     center.socialLinks?.instagram ||
@@ -350,6 +353,23 @@ export default function CenterDetail({ center }: Readonly<CenterDetailProps>) {
           </p>
         </section>
       ) : null}
+
+      {/* ── 3c. Opiniones ───────────────────────────────────────────────────── */}
+      <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+        <h2 className="text-base font-semibold text-slate-900">Opiniones de otras familias</h2>
+        <p className="mt-2 text-sm leading-relaxed text-slate-600">
+          No copiamos reseñas de otras webs ni publicamos valoraciones que no podamos comprobar.
+          Lo que cuentan otras familias puedes leerlo directamente en Google Maps.
+        </p>
+        <a
+          href={mapsSearchUrl(reviewsQuery)}
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          className="mt-3 inline-block text-sm font-medium text-sky-700 hover:underline"
+        >
+          Ver las opiniones de {center.name} en Google Maps →
+        </a>
+      </section>
 
       {/* ── 4. Ubicación y Contacto ─────────────────────────────────────────── */}
       <div className="grid gap-6 sm:grid-cols-2">
