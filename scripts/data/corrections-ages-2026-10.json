@@ -1,0 +1,1139 @@
+{
+  "checkedAt": "2026-10-07",
+  "centers": [
+    {
+      "slug": "2-semillas-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "agarimo-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "alaria-aravaca-nursery-school-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "alaria-serrano-nursey-school-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "alba-lucero-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "alicia-ii-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "alicia-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "allegra-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "ana-de-austria-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "andal-ii-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "andal-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "antonio-mercero-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "arbol-sabio-valladolid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "aula-pimenton-maestro-avila-salamanca",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "belen-granada",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "betica-mudarra-cordoba",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "bola-de-oro-granada",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "boreal-dreaming-together-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "bularas-inia-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "carana-valdemarin-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "carrusel-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "casa-del-nino-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "casa-nido-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "casita-maravillas-baby-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "casita-maravillas-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "casita-maravillas-nebulosas-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "chamberines-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "chiqui-tin-alcantara-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "chispitinas-salamanca",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "chupetines-la-arruzafa-cordoba",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "ciudad-jardin-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "cocolan-cve-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "cucos-home-valdebebas-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "cucutras-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "cuna-de-jesus-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "de-peques-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "diabolo-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "dina-condado-2-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "dina-condado-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "domo-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "donde-estan-las-llaves-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "educando-juntos-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "educando-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "educando-pitufos-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "educando-v-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "educare-eduquere-cordoba",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "eipa-escuela-infantil-parque-de-las-avenidas-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-alba-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-carmen-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-despertador-infantil-2010-valladolid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-duende-travieso-ii-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-jardin-de-las-mariposas-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-jardin-de-los-genios-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-nido-del-buho-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-osito-de-luis-de-larrainza-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-parque-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-puzzle-cordoba",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-recreo-jerez",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-reino-del-reves-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-sitio-de-tu-recreo-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-tren-de-los-ninos-ii-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-tren-de-los-ninos-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-valle-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "embajadores-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "escuela-de-educacion-infantil-del-complejo-cuzco-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "escuela-infantil-municipal-los-vientos-zaragoza",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "fernando-el-catolico-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "gaviota-granada",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "guardilla-infantil-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "hakuna-matata-valladolid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "happy-children-2-cordoba",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "happy-kids-house-valladolid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "institucion-miramar-malaga",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "internacional-valdemarin-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "iris-ii-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "iris-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "jardiimar-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "jardin-de-las-delicias-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "jardin-infantil-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "jugando-en-azahara-cordoba",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "kids-retiro-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "la-casa-de-los-ninos-valladolid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "la-estrella-infantil-iii-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "la-estrella-infantil-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "la-jirafa-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "la-salle-cordoba",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "la-virgen-nina-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "laly-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "lar-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "las-acacias-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "las-perlas-granada",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "little-fem-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "little-witch-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-agora-barcelona",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-la-ciutat-del-nado-barcelona",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "los-angeles-granada",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "los-nanos-chiflados-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "los-nidos-de-manoteras-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "luna-de-caramelo-jerez",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "maberogan-valdebebas-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "mama-kokeshi-valladolid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "mamatina-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "margot-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "menagar-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "mi-casita-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "mi-mama-me-mima-salamanca",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "mi-pequeno-planeta-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "mi-primer-cole-2-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "mis-mis-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "mowgli-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "mudarra-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "my-kids-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "nazaret-granada",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "nemomarlin-chamberi-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "nemomarlin-ciudad-jardin-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "nemomarlin-conde-de-orgaz-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "nemomarlin-guindalera-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "nemomarlin-paseo-de-la-habana-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "nemomarlin-pintor-rosales-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "nemomarlin-retiro-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "nuestra-senora-de-los-dolores-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "nuestra-senora-del-rosario-cordoba",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "ohana-barbara-molina-valladares-granada",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "osobuco-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "pasitos-magicos-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "paso-a-paso-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "pequeando-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "pequemun-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "pinocho-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "pippo-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "piruleta-malaga",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "pizarrin-granada",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "planeta-enano-nino-jesus-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "playschool-cordoba",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "projardin-delicias-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "projardin-madiba-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "projardin-retiro-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "psn-bicos-salamanca",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "reina-de-los-angeles-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "rocio-durcal-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "rosa-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "ruiz-jimenez-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "san-isidoro-granada",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "santa-rosalia-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "snoopy-cordoba",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "snoopy-sevilla",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "sol-y-luna-jerez",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "st-alices-nursery-galileo-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "tebeo-salamanca",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "teo-breton-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "the-globe-granada",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "the-little-one-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "tierra-lala-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "todo-para-la-infancia-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "trastes-valladolid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "trazos-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "ulu-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "up-kids-school-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "virgen-del-pilar-granada",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "cocorico-madrid",
+      "set": {
+        "age_min_months": 0
+      },
+      "facts": []
+    },
+    {
+      "slug": "mafalda-madrid",
+      "set": {
+        "age_min_months": 6
+      },
+      "facts": []
+    },
+    {
+      "slug": "san-miguel-madrid",
+      "set": {
+        "age_min_months": 3
+      },
+      "facts": []
+    }
+  ]
+}

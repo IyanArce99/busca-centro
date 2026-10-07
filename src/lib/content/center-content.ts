@@ -50,6 +50,8 @@ function ageText(minMonths: number, maxMonths: number): string {
     const y = m / 12;
     return Number.isInteger(y) ? `${y} ${y === 1 ? "año" : "años"}` : `${y.toFixed(1)} años`;
   };
+  // 0 means "the whole stage", not a verified minimum age: say "de 0 a 3 años".
+  if (minMonths === 0) return `de 0 a ${fmt(maxMonths)}`;
   return `de ${fmt(minMonths)} a ${fmt(maxMonths)}`;
 }
 

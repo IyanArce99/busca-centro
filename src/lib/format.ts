@@ -121,7 +121,7 @@ export function formatAgeRange({ minMonths, maxMonths }: CenterAgeRange): string
   const maxYears = maxMonths / 12;
   const formatYears = (years: number) => (Number.isInteger(years) ? `${years}` : years.toFixed(1));
 
-  if (minMonths < 12 && maxMonths <= 36) {
+  if (minMonths > 0 && minMonths < 12 && maxMonths <= 36) {
     return `De ${minMonths} meses a ${formatYears(maxYears)} años`;
   }
   return `De ${formatYears(minYears)} a ${formatYears(maxYears)} años`;
