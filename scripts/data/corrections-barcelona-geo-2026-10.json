@@ -1,0 +1,1520 @@
+{
+  "checkedAt": "2026-10-07",
+  "centers": [
+    {
+      "slug": "escola-bressol-municipal-aurora-barcelona",
+      "set": {
+        "street": "Carrer de l'Aurora, 24",
+        "neighborhood_barrio": "el Raval"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-canigo-barcelona",
+      "set": {
+        "street": "Carrer dels Àngels, 7",
+        "neighborhood_barrio": "el Raval"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-carabassa-barcelona",
+      "set": {
+        "street": "Carrer d'en Carabassa, 8 bis",
+        "neighborhood_barrio": "el Gòtic"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-germanetes-barcelona",
+      "set": {
+        "street": "Carrer del Comte Borrell, 159",
+        "neighborhood_barrio": "la Nova Esquerra de l'Eixample"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-portal-nou-barcelona",
+      "set": {
+        "street": "Carrer del Portal Nou, 2",
+        "neighborhood_barrio": "Sant Pere, Santa Caterina i la Ribera"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-la-fassina-barcelona",
+      "set": {
+        "street": "Carrer de Nàpols, 244",
+        "neighborhood_barrio": "la Sagrada Família"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-leonor-serrano-barcelona",
+      "set": {
+        "street": "Carrer de Cartagena, 159",
+        "neighborhood_barrio": "la Sagrada Família"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-londres-barcelona",
+      "set": {
+        "street": "Carrer de Londres, 56",
+        "neighborhood_barrio": "l'Antiga Esquerra de l'Eixample"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-bellmunt-barcelona",
+      "set": {
+        "street": "Carrer de la Font Florida, 93",
+        "neighborhood_barrio": "la Font de la Guatlla"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-collserola-barcelona",
+      "set": {
+        "street": "Carrer de la Mare de Déu de Port, 183 bis",
+        "neighborhood_barrio": "la Marina de Port"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-el-fil-barcelona",
+      "set": {
+        "street": "Carrer de Nicaragua, 45",
+        "neighborhood_barrio": "Sants"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-el-timbal-barcelona",
+      "set": {
+        "street": "Carrer de Guitard, 23",
+        "neighborhood_barrio": "Sants"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-forestier-barcelona",
+      "set": {
+        "street": "Carrer dels Segons Jocs Mediterranis, 2",
+        "neighborhood_barrio": "el Poble-sec"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-guinbo-barcelona",
+      "set": {
+        "street": "Carrer d'Olzinelles, 73",
+        "neighborhood_barrio": "la Bordeta"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-lesquirol-barcelona",
+      "set": {
+        "street": "Carrer de la Noguera Pallaresa, 32",
+        "neighborhood_barrio": "la Bordeta"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-niu-dinfants-barcelona",
+      "set": {
+        "street": "Carrer de la Pedrera del Mussol, 10",
+        "neighborhood_barrio": "la Marina de Port"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-can-bacardi-barcelona",
+      "set": {
+        "neighborhood_barrio": "la Maternitat i Sant Ramon"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-xiroi-barcelona",
+      "set": {
+        "street": "Carrer de Francesc Pedra, 1-3",
+        "neighborhood_barrio": "les Corts"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-can-caralleu-barcelona",
+      "set": {
+        "street": "Carrer Major de Can Caralleu, 1",
+        "neighborhood_barrio": "Sarrià"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-el-putxet-barcelona",
+      "set": {
+        "street": "Carrer de Marmellà, 13",
+        "neighborhood_barrio": "el Putxet i el Farró"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-caspolino-barcelona",
+      "set": {
+        "street": "Carrer de Neptú, 12",
+        "neighborhood_barrio": "la Vila de Gràcia"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-el-gat-negre-barcelona",
+      "set": {
+        "street": "Camí de Can Móra, 13",
+        "neighborhood_barrio": "el Coll"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-enxaneta-barcelona",
+      "set": {
+        "street": "Carrer de Jaén, 22-26",
+        "neighborhood_barrio": "la Vila de Gràcia"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-galatea-barcelona",
+      "set": {
+        "neighborhood_barrio": "Vallcarca i els Penitents"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-gracia-barcelona",
+      "set": {
+        "street": "Carrer de Maignon, 2",
+        "neighborhood_barrio": "Vallcarca i els Penitents"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-la-fontana-barcelona",
+      "set": {
+        "street": "Carrer Gran de Gràcia, 123",
+        "neighborhood_barrio": "la Vila de Gràcia"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-petit-univers-barcelona",
+      "set": {
+        "street": "Carrer de Quevedo, 14-26",
+        "neighborhood_barrio": "la Vila de Gràcia"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-trencadis-barcelona",
+      "set": {
+        "neighborhood_barrio": "la Salut"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-albi-barcelona",
+      "set": {
+        "street": "Carrer de Bernat Bransi, 3-9",
+        "neighborhood_barrio": "el Carmel"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-cargol-barcelona",
+      "set": {
+        "street": "Carrer de Mossèn Josep Bundó, 6",
+        "neighborhood_barrio": "la Font d'en Fargues"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-guinardo-barcelona",
+      "set": {
+        "street": "Carrer de Teodor Llorente, 16-18",
+        "neighborhood_barrio": "el Guinardó"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-larquet-barcelona",
+      "set": {
+        "street": "Carrer de Jorge Manrique, 12",
+        "neighborhood_barrio": "la Vall d'Hebron"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-lharmonia-barcelona",
+      "set": {
+        "street": "Carrer de l'Harmonia, 37",
+        "neighborhood_barrio": "Montbau"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-llar-dinfants-barcelona",
+      "set": {
+        "street": "Carrer de la Rectoria, 31",
+        "neighborhood_barrio": "Horta"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-marina-barcelona",
+      "set": {
+        "street": "Carrer de la Marina, 347",
+        "neighborhood_barrio": "el Baix Guinardó"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-montserrat-barcelona",
+      "set": {
+        "street": "Carrer de Gènova, 2 bis",
+        "neighborhood_barrio": "el Guinardó"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-sant-genis-barcelona",
+      "set": {
+        "street": "Carrer de Natzaret, 83",
+        "neighborhood_barrio": "Sant Genís dels Agudells"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-teixonera-barcelona",
+      "set": {
+        "street": "Carrer d'Arenys, 83",
+        "neighborhood_barrio": "la Teixonera"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-tris-tras-barcelona",
+      "set": {
+        "street": "Carrer del Llobregós, 109",
+        "neighborhood_barrio": "el Carmel"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-valldaura-barcelona",
+      "set": {
+        "neighborhood_barrio": "Horta"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-aqueducte-barcelona",
+      "set": {
+        "street": "Carrer de Perafita, 48",
+        "neighborhood_barrio": "Ciutat Meridiana"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-can-drago-barcelona",
+      "set": {
+        "neighborhood_barrio": "Porta"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-ciutat-de-mallorca-barcelona",
+      "set": {
+        "street": "Carrer de Deià, 12",
+        "neighborhood_barrio": "Porta"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-el-vent-barcelona",
+      "set": {
+        "street": "Carrer de Miguel Hernández, 20",
+        "neighborhood_barrio": "Canyelles"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-la-muntanya-barcelona",
+      "set": {
+        "street": "Carrer de Sant Feliu de Codines, 4",
+        "neighborhood_barrio": "Torre Baró"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-largimon-barcelona",
+      "set": {
+        "street": "Carrer de l'Artesania, 39",
+        "neighborhood_barrio": "la Guineueta"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-nenes-i-nens-barcelona",
+      "set": {
+        "street": "Carrer d'Ignasi Agustí, 4",
+        "neighborhood_barrio": "Canyelles"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-ralet-barcelona",
+      "set": {
+        "street": "Carrer de Joaquim Valls, 10",
+        "neighborhood_barrio": "la Prosperitat"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-turo-barcelona",
+      "set": {
+        "street": "Carrer d'Aneto, 15",
+        "neighborhood_barrio": "el Turó de la Peira"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-el-palomar-barcelona",
+      "set": {
+        "street": "Carrer de Malats, 45",
+        "neighborhood_barrio": "Sant Andreu de Palomar"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-icaria-barcelona",
+      "set": {
+        "street": "Carrer de Costa Rica, 22",
+        "neighborhood_barrio": "la Sagrera"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-la-morera-barcelona",
+      "set": {
+        "street": "Carrer del Cardenal Tedeschini, 24",
+        "neighborhood_barrio": "el Congrés i els Indians"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-les-quatre-torres-barcelona",
+      "set": {
+        "street": "Carrer d'Augusto César Sandino, 9",
+        "neighborhood_barrio": "el Bon Pastor"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-manigua-barcelona",
+      "set": {
+        "street": "Carrer de Garcilaso, 232",
+        "neighborhood_barrio": "el Congrés i els Indians"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-alchemika-barcelona",
+      "set": {
+        "street": "Carrer de Sant Antoni Maria Claret, 358 bis",
+        "neighborhood_barrio": "el Camp de l'Arpa del Clot"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-arrels-barcelona",
+      "set": {
+        "street": "Carrer del Degà Bahí, 88",
+        "neighborhood_barrio": "el Camp de l'Arpa del Clot"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-cobi-barcelona",
+      "set": {
+        "street": "Carrer d'Àlaba, 37",
+        "neighborhood_barrio": "la Vila Olímpica del Poblenou"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-diagonal-mar-barcelona",
+      "set": {
+        "street": "Carrer de Josep Pla, 57",
+        "neighborhood_barrio": "Diagonal Mar i el Front Marítim del Poblenou"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-dolors-canals-barcelona",
+      "set": {
+        "street": "Carrer del Perú, 251-267",
+        "neighborhood_barrio": "Provençals del Poblenou"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-jupiter-barcelona",
+      "set": {
+        "street": "Carrer de Lope de Vega, 78",
+        "neighborhood_barrio": "el Poblenou"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-la-farinera-barcelona",
+      "set": {
+        "street": "Carrer d'Hernán Cortés, 2",
+        "neighborhood_barrio": "el Clot"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-la-mar-xica-barcelona",
+      "set": {
+        "street": "Carrer Carmen Amaya, 2",
+        "neighborhood_barrio": "el Poblenou"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-la-verneda-de-sant-marti-barcelona",
+      "set": {
+        "street": "Carrer de Josep Miret, 22",
+        "neighborhood_barrio": "la Verneda i la Pau"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-lalianca-barcelona",
+      "set": {
+        "street": "Carrer de Llull, 163",
+        "neighborhood_barrio": "el Poblenou"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-lestacio-barcelona",
+      "set": {
+        "street": "Carrer de Fluvià, 253",
+        "neighborhood_barrio": "Sant Martí de Provençals"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-pere-calafell-barcelona",
+      "set": {
+        "latitude": 41.417294,
+        "longitude": 2.20383,
+        "street": "Carrer d'Andrade, 184-196",
+        "neighborhood_barrio": "Sant Martí de Provençals"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-mont-taber-barcelona",
+      "set": {
+        "street": "Carrer de Santa Elena, 4",
+        "neighborhood_barrio": "el Raval"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-puigmal-barcelona",
+      "set": {
+        "street": "Carrer d'en Mònec, 2",
+        "neighborhood_barrio": "Sant Pere, Santa Caterina i la Ribera"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-barrufets-barcelona",
+      "set": {
+        "street": "Carrer de la Marina, 356 interior",
+        "neighborhood_barrio": "la Sagrada Família"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-casa-dels-nens-barcelona",
+      "set": {
+        "street": "Carrer de Roger de Llúria, 132",
+        "neighborhood_barrio": "la Dreta de l'Eixample"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-el-roure-barcelona",
+      "set": {
+        "street": "Carrer del Comte d'Urgell, 145",
+        "neighborhood_barrio": "la Nova Esquerra de l'Eixample"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escolapies-lluria-barcelona-barcelona",
+      "set": {
+        "neighborhood_barrio": "la Dreta de l'Eixample"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-municipal-la-mar-barcelona",
+      "set": {
+        "street": "Carrer d'Andrea Dòria, 40",
+        "neighborhood_barrio": "la Barceloneta"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-el-vuit-barcelona",
+      "set": {
+        "neighborhood_barrio": "la Verneda i la Pau"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-lairet-barcelona",
+      "set": {
+        "street": "Carrer de la Pedrosa, 19",
+        "neighborhood_barrio": "la Trinitat Nova"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-la-gavina-barcelona",
+      "set": {
+        "street": "Carrer de la Concòrdia, 82",
+        "neighborhood_barrio": "el Poble-sec"
+      },
+      "facts": []
+    },
+    {
+      "slug": "lleo-xiii-barcelona",
+      "set": {
+        "neighborhood_barrio": "Sant Gervasi - la Bonanova"
+      },
+      "facts": []
+    },
+    {
+      "slug": "nausica-barcelona",
+      "set": {
+        "neighborhood_barrio": "Sant Gervasi - Galvany"
+      },
+      "facts": []
+    },
+    {
+      "slug": "lloret-barcelona",
+      "set": {
+        "neighborhood_barrio": "Sants"
+      },
+      "facts": []
+    },
+    {
+      "slug": "amor-de-dios-barcelona",
+      "set": {
+        "neighborhood_barrio": "el Turó de la Peira"
+      },
+      "facts": []
+    },
+    {
+      "slug": "jesuites-sarria-sant-ignasi-barcelona",
+      "set": {
+        "neighborhood_barrio": "Sarrià"
+      },
+      "facts": []
+    },
+    {
+      "slug": "jesuites-gracia-kostka-barcelona",
+      "set": {
+        "street": "Carrer d'Antequera, 2-4",
+        "neighborhood_barrio": "la Salut"
+      },
+      "facts": []
+    },
+    {
+      "slug": "reial-monestir-de-santa-isabel-barcelona",
+      "set": {
+        "neighborhood_barrio": "Sarrià"
+      },
+      "facts": []
+    },
+    {
+      "slug": "sagrat-cor-sarria-barcelona",
+      "set": {
+        "street": "Carrer del Sagrat Cor, 25",
+        "neighborhood_barrio": "Sarrià"
+      },
+      "facts": []
+    },
+    {
+      "slug": "mare-del-divi-pastor-barcelona",
+      "set": {
+        "neighborhood_barrio": "la Dreta de l'Eixample"
+      },
+      "facts": []
+    },
+    {
+      "slug": "st-peters-school-barcelona",
+      "set": {
+        "street": "Carrer d'Eduard Toldrà, 18",
+        "neighborhood_barrio": "Pedralbes"
+      },
+      "facts": []
+    },
+    {
+      "slug": "pare-manyanet-barcelona",
+      "set": {
+        "neighborhood_barrio": "les Corts"
+      },
+      "facts": []
+    },
+    {
+      "slug": "perez-iborra-barcelona",
+      "set": {
+        "street": "Carrer del Consell de Cent, 321-323",
+        "neighborhood_barrio": "la Dreta de l'Eixample"
+      },
+      "facts": []
+    },
+    {
+      "slug": "reina-elisenda-barcelona",
+      "set": {
+        "street": "Carrer d'Olot, 18",
+        "neighborhood_barrio": "la Salut"
+      },
+      "facts": []
+    },
+    {
+      "slug": "sagrat-cor-esclaves-barcelona",
+      "set": {
+        "neighborhood_barrio": "la Dreta de l'Eixample"
+      },
+      "facts": []
+    },
+    {
+      "slug": "josep-tous-barcelona",
+      "set": {
+        "neighborhood_barrio": "Sants-Badal"
+      },
+      "facts": []
+    },
+    {
+      "slug": "gravi-barcelona",
+      "set": {
+        "neighborhood_barrio": "Vallcarca i els Penitents"
+      },
+      "facts": []
+    },
+    {
+      "slug": "canigo-barcelona",
+      "set": {
+        "street": "Carrer del Cister, 23",
+        "neighborhood_barrio": "Sant Gervasi - la Bonanova"
+      },
+      "facts": []
+    },
+    {
+      "slug": "princeps-23-dabril-barcelona",
+      "set": {
+        "street": "Via Júlia, 31",
+        "neighborhood_barrio": "Verdun"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-grimm-barcelona",
+      "set": {
+        "neighborhood_barrio": "el Camp de l'Arpa del Clot"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-blauet-barcelona",
+      "set": {
+        "neighborhood_barrio": "Sarrià"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-grans-somnis-barcelona",
+      "set": {
+        "street": "Carrer del Consell de Cent, 344",
+        "neighborhood_barrio": "la Dreta de l'Eixample"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-el-llimoner-i-barcelona",
+      "set": {
+        "street": "Carrer de la Independència, 329",
+        "neighborhood_barrio": "el Camp de l'Arpa del Clot"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-cuc-barcelona",
+      "set": {
+        "neighborhood_barrio": "Sants"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-petit-mon-de-les-corts-barcelona",
+      "set": {
+        "neighborhood_barrio": "les Corts"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-la-gavina-laforja-barcelona",
+      "set": {
+        "neighborhood_barrio": "Sant Gervasi - Galvany"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-el-sol-les-corts-barcelona",
+      "set": {
+        "neighborhood_barrio": "les Corts"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-bon-sol-barcelona",
+      "set": {
+        "neighborhood_barrio": "l'Antiga Esquerra de l'Eixample"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-tic-tac-gran-via-barcelona",
+      "set": {
+        "neighborhood_barrio": "la Nova Esquerra de l'Eixample"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-quitxalla-barcelona",
+      "set": {
+        "neighborhood_barrio": "la Guineueta"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-lairet-oblit-barcelona",
+      "set": {
+        "street": "Carrer de l'Oblit, 52",
+        "neighborhood_barrio": "el Guinardó"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-la-pau-barcelona",
+      "set": {
+        "neighborhood_barrio": "la Font de la Guatlla"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-sol-solet-barcelona",
+      "set": {
+        "neighborhood_barrio": "el Fort Pienc"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-el-cigronet-barcelona",
+      "set": {
+        "latitude": 41.385782,
+        "longitude": 2.160348
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-olorien-les-corts-barcelona",
+      "set": {
+        "latitude": 41.379641,
+        "longitude": 2.130282
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-el-cami-felic-poble-nou-barcelona",
+      "set": {
+        "latitude": 41.401274,
+        "longitude": 2.201978
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-el-petit-rossinyol-barcelona",
+      "set": {
+        "latitude": 41.379159,
+        "longitude": 2.158639
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-el-cau-barcelona",
+      "set": {
+        "latitude": 41.408487,
+        "longitude": 2.158991,
+        "street": "Carrer d'Argentona, 17"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-bambi-roig-barcelona",
+      "set": {
+        "latitude": 41.380212,
+        "longitude": 2.162467
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-pandy-de-sant-marc-barcelona",
+      "set": {
+        "latitude": 41.408034,
+        "longitude": 2.179072
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-el-cami-felic-les-corts-barcelona",
+      "set": {
+        "latitude": 41.387278,
+        "longitude": 2.134532,
+        "neighborhood_barrio": "les Corts"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-esclop-barcelona",
+      "set": {
+        "latitude": 41.393383,
+        "longitude": 2.177115
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-acuarella-melcior-barcelona",
+      "set": {
+        "latitude": 41.381026,
+        "longitude": 2.137886
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-drac-xic-barcelona",
+      "set": {
+        "latitude": 41.403627,
+        "longitude": 2.165226
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-els-gegants-barcelona",
+      "set": {
+        "latitude": 41.360116,
+        "longitude": 2.1394,
+        "street": "Passeig de la Zona Franca, 168"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-nostra-senyora-barcelona",
+      "set": {
+        "latitude": 41.403644,
+        "longitude": 2.126302
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-fep-petit-santa-maria-barcelona",
+      "set": {
+        "latitude": 41.422446,
+        "longitude": 2.207986,
+        "street": "Carrer del Concili de Trento, 293-299"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-el-cami-felic-turo-parc-barcelona",
+      "set": {
+        "latitude": 41.393097,
+        "longitude": 2.139457
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-brusi-barcelona",
+      "set": {
+        "latitude": 41.401091,
+        "longitude": 2.145505
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-olorien-pumby-barcelona",
+      "set": {
+        "latitude": 41.377767,
+        "longitude": 2.136481
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-flors-de-maig-barcelona",
+      "set": {
+        "latitude": 41.417066,
+        "longitude": 2.17567,
+        "street": "Rambla de Volart, 79 bis"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escuela-infantil-nemomarlin-gracia-barcelona",
+      "set": {
+        "latitude": 41.404792,
+        "longitude": 2.151143
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-petits-barcelona",
+      "set": {
+        "latitude": 41.397279,
+        "longitude": 2.170322
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-petit-mon-nou-barris-barcelona",
+      "set": {
+        "latitude": 41.428155,
+        "longitude": 2.17139,
+        "neighborhood_barrio": "Vilapicina i la Torre Llobeta"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-petits-bruc-barcelona",
+      "set": {
+        "latitude": 41.39374,
+        "longitude": 2.170077
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-olorien-st-marti-barcelona",
+      "set": {
+        "latitude": 41.408667,
+        "longitude": 2.195514,
+        "neighborhood_barrio": "Provençals del Poblenou"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-la-gavina-ii-marc-aureli-barcelona",
+      "set": {
+        "latitude": 41.401317,
+        "longitude": 2.142835
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-sarria-barcelona",
+      "set": {
+        "latitude": 41.392501,
+        "longitude": 2.123895
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-bon-cami-barcelona",
+      "set": {
+        "latitude": 41.431674,
+        "longitude": 2.191872,
+        "street": "Carrer del Doctor Santponç, 58"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-el-cami-felic-sant-gervasi-barcelona",
+      "set": {
+        "latitude": 41.410292,
+        "longitude": 2.134709,
+        "street": "Carrer del Cister, 8",
+        "neighborhood_barrio": "Sant Gervasi - la Bonanova"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-nemomarlin-turo-park-barcelona",
+      "set": {
+        "latitude": 41.395404,
+        "longitude": 2.139076
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-nemomarlin-passeig-maragall-barcelona",
+      "set": {
+        "latitude": 41.426819,
+        "longitude": 2.171726,
+        "neighborhood_barrio": "Vilapicina i la Torre Llobeta"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-el-cami-felic-arc-de-triomf-barcelona",
+      "set": {
+        "latitude": 41.394413,
+        "longitude": 2.178593,
+        "street": "Carrer de Roger de Flor, 98",
+        "neighborhood_barrio": "el Fort Pienc"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-petit-lys-barcelona",
+      "set": {
+        "latitude": 41.404587,
+        "longitude": 2.145294,
+        "street": "Carrer de Saragossa, 125-131"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-serralada-ii-barcelona",
+      "set": {
+        "latitude": 41.41421,
+        "longitude": 2.192321
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-petit-sant-marc-barcelona",
+      "set": {
+        "latitude": 41.395194,
+        "longitude": 2.168123
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-jesus-maria-tamarit-barcelona",
+      "set": {
+        "latitude": 41.374249,
+        "longitude": 2.155302
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-goi-goi-barcelona",
+      "set": {
+        "latitude": 41.39545,
+        "longitude": 2.171276
+      },
+      "facts": []
+    },
+    {
+      "slug": "santa-teresa-ganduxer-barcelona",
+      "set": {
+        "neighborhood_barrio": "les Tres Torres"
+      },
+      "facts": []
+    },
+    {
+      "slug": "sant-josep-barcelona",
+      "set": {
+        "street": "Carrer del Montseny, 31-39",
+        "neighborhood_barrio": "la Vila de Gràcia"
+      },
+      "facts": []
+    },
+    {
+      "slug": "ipse-barcelona",
+      "set": {
+        "neighborhood_barrio": "l'Antiga Esquerra de l'Eixample"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-els-xumets-de-la-vibria-barcelona",
+      "set": {
+        "latitude": 41.398722,
+        "longitude": 2.203821
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-blau-barcelona",
+      "set": {
+        "latitude": 41.412665,
+        "longitude": 2.195206,
+        "neighborhood_barrio": "Sant Martí de Provençals"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-nins-nena-cases-barcelona",
+      "set": {
+        "latitude": 41.395386,
+        "longitude": 2.131389
+      },
+      "facts": []
+    },
+    {
+      "slug": "sant-marc-de-sarria-barcelona",
+      "set": {
+        "neighborhood_barrio": "Sarrià"
+      },
+      "facts": []
+    },
+    {
+      "slug": "abat-oliba-loreto-barcelona",
+      "set": {
+        "neighborhood_barrio": "Pedralbes"
+      },
+      "facts": []
+    },
+    {
+      "slug": "peter-pan-barcelona",
+      "set": {
+        "street": "Carrer de la Immaculada, 4",
+        "neighborhood_barrio": "Sarrià"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-pas-a-pas-del-guinardo-barcelona",
+      "set": {
+        "latitude": 41.413298,
+        "longitude": 2.169127
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-magnolia-barcelona",
+      "set": {
+        "latitude": 41.430819,
+        "longitude": 2.178196,
+        "street": "Carrer d'Emili Roca, 52-58"
+      },
+      "facts": []
+    },
+    {
+      "slug": "padre-damian-sagrados-corazones-barcelona",
+      "set": {
+        "neighborhood_barrio": "Sarrià"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-petita-de-gomis-barcelona",
+      "set": {
+        "latitude": 41.411994,
+        "longitude": 2.142395
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-infantil-begonia-barcelona",
+      "set": {
+        "latitude": 41.384637,
+        "longitude": 2.144723
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-petit-aloma-barcelona",
+      "set": {
+        "latitude": 41.432136,
+        "longitude": 2.179383,
+        "street": "Carrer del Torrent de Can Piquer, 21"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-kasperle-barcelona",
+      "set": {
+        "latitude": 41.400914,
+        "longitude": 2.154072
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-balmespi-barcelona",
+      "set": {
+        "neighborhood_barrio": "Sant Gervasi - Galvany"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-el-cuquet-barcelona",
+      "set": {
+        "latitude": 41.387816,
+        "longitude": 2.150667,
+        "street": "Carrer del Comte d'Urgell, 169"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-ninets-barcelona",
+      "set": {
+        "neighborhood_barrio": "l'Antiga Esquerra de l'Eixample"
+      },
+      "facts": []
+    },
+    {
+      "slug": "lestonnac-barcelona",
+      "set": {
+        "neighborhood_barrio": "la Dreta de l'Eixample"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-milton-barcelona",
+      "set": {
+        "latitude": 41.402191,
+        "longitude": 2.163833
+      },
+      "facts": []
+    },
+    {
+      "slug": "sagrada-familia-barcelona",
+      "set": {
+        "street": "Carrer d'Avinyó, 20",
+        "neighborhood_barrio": "el Gòtic"
+      },
+      "facts": []
+    },
+    {
+      "slug": "lhoritzo-barcelona",
+      "set": {
+        "neighborhood_barrio": "Sant Gervasi - la Bonanova"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-canigo-barcelona",
+      "set": {
+        "latitude": 41.398968,
+        "longitude": 2.178717,
+        "street": "Carrer de la Diputació, 412"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-oikia-barcelona",
+      "set": {
+        "latitude": 41.390462,
+        "longitude": 2.121636
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-petits-lheura-barcelona",
+      "set": {
+        "latitude": 41.407797,
+        "longitude": 2.168331
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-teddy-barcelona",
+      "set": {
+        "street": "Carrer del Dos de Maig, 222",
+        "neighborhood_barrio": "el Camp de l'Arpa del Clot"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-el-ginjoler-pere-tarres-barcelona",
+      "set": {
+        "latitude": 41.404359,
+        "longitude": 2.137009
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-la-nau-barcelona",
+      "set": {
+        "latitude": 41.398929,
+        "longitude": 2.175955
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-i-beth-barcelona",
+      "set": {
+        "latitude": 41.38032,
+        "longitude": 2.14854,
+        "street": "Carrer d'Aragó, 47 baixos"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-pam-i-pipa-gracia-barcelona",
+      "set": {
+        "latitude": 41.406138,
+        "longitude": 2.156126,
+        "street": "Carrer de la Providència, 21"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escola-bressol-cap-i-cua-barcelona",
+      "set": {
+        "neighborhood_barrio": "el Camp de l'Arpa del Clot"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-lescoleta-de-montjuic-barcelona",
+      "set": {
+        "neighborhood_barrio": "la Font de la Guatlla"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-la-granota-barcelona",
+      "set": {
+        "latitude": 41.40472,
+        "longitude": 2.179692
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-petit-montessori-barcelona",
+      "set": {
+        "neighborhood_barrio": "les Corts"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-peggy-barcelona",
+      "set": {
+        "neighborhood_barrio": "Sant Gervasi - Galvany"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-solcar-barcelona",
+      "set": {
+        "latitude": 41.424765,
+        "longitude": 2.159694
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-el-tricicle-barcelona",
+      "set": {
+        "street": "Carrer dels Jocs Florals, 128-136, baixos",
+        "neighborhood_barrio": "Sants"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-petit-kinder-barcelona",
+      "set": {
+        "latitude": 41.40723,
+        "longitude": 2.148461
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-xiulet-barcelona",
+      "set": {
+        "street": "Carrer d'Entença, 100-106",
+        "neighborhood_barrio": "la Nova Esquerra de l'Eixample"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-roseto-barcelona",
+      "set": {
+        "neighborhood_barrio": "la Dreta de l'Eixample"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-tagore-barcelona",
+      "set": {
+        "neighborhood_barrio": "Sant Gervasi - Galvany"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-mainada-barcelona",
+      "set": {
+        "latitude": 41.397916,
+        "longitude": 2.151712,
+        "neighborhood_barrio": "Sant Gervasi - Galvany"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-dracs-i-barcelona",
+      "set": {
+        "neighborhood_barrio": "Sants"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-tabalet-barcelona",
+      "set": {
+        "street": "Carrer de la Providència, 119",
+        "neighborhood_barrio": "el Camp d'en Grassot i Gràcia Nova"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-calimero-dhorta-barcelona",
+      "set": {
+        "latitude": 41.42559,
+        "longitude": 2.158789
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-ratolinet-barcelona",
+      "set": {
+        "street": "Carrer d'Alcolea, 15-17",
+        "neighborhood_barrio": "Sants"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-donald-barcelona",
+      "set": {
+        "street": "Carrer de les Acàcies, 9-11",
+        "neighborhood_barrio": "el Congrés i els Indians"
+      },
+      "facts": []
+    },
+    {
+      "slug": "llar-dinfants-lacis-barcelona",
+      "set": {
+        "latitude": 41.414459,
+        "longitude": 2.160512
+      },
+      "facts": []
+    }
+  ]
+}

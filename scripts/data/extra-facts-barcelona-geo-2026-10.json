@@ -1,0 +1,2517 @@
+{
+  "checkedAt": "2026-10-07",
+  "facts": {
+    "escola-bressol-municipal-aurora-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Sant Antoni (a unos 370 m), Metro Paral·lel (a unos 390 m) y Metro Liceu (a unos 620 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37803&mlon=2.16710#map=16/41.37803/2.16710",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc de Josep Maria Folch i Torres (a unos 190 m) y Jardins de Sant Pau del Camp (a unos 260 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37803&mlon=2.16710#map=16/41.37803/2.16710",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-canigo-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Barcelona-Plaça Catalunya (a unos 360 m), Metro Universitat (a unos 400 m) y Metro Liceu (a unos 460 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38260&mlon=2.16778#map=16/41.38260/2.16778",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Victòria de los Ángeles (a unos 160 m) y Jardins de Rubió i Lluch (a unos 220 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38260&mlon=2.16778#map=16/41.38260/2.16778",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-carabassa-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro La Rambla | Drassanes (a unos 450 m), Metro Jaume I (a unos 450 m) y Metro Liceu (a unos 520 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37994&mlon=2.17894#map=16/41.37994/2.17894",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-germanetes-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Urgell (a unos 310 m), Metro Rocafort (a unos 390 m) y Metro Hospital Clínic (a unos 710 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38276&mlon=2.15516#map=16/41.38276/2.15516",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins d'Emma de Barcelona (a unos 50 m) y Jardins de Cèsar Martinell (a unos 350 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38276&mlon=2.15516#map=16/41.38276/2.15516",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-portal-nou-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Arc de Triomf (a unos 430 m), Rodalies Barcelona-Arc de Triomf (a unos 450 m) y Metro Jaume I (a unos 500 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38825&mlon=2.18067#map=16/41.38825/2.18067",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-la-fassina-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía Sicília (a unos 260 m), Metro Verdaguer (a unos 300 m) y Metro Sagrada Família (a unos 340 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40148&mlon=2.17153#map=16/41.40148/2.17153",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Beatriu de Provença (Myrurgia) (a unos 50 m) y Jardins de Constaça de Aragó (a unos 280 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40148&mlon=2.17153#map=16/41.40148/2.17153",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-leonor-serrano-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía Glòries (a unos 300 m), Tranvía Monumental (a unos 310 m) y Metro Glòries (a unos 330 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40368&mlon=2.18403#map=16/41.40368/2.18403",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc de les Glòries (a unos 50 m) y Jardins dels Encants Nous (a unos 240 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40368&mlon=2.18403#map=16/41.40368/2.18403",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-londres-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Hospital Clínic (a unos 400 m), Tranvía Francesc Macià (a unos 410 m) y Metro Entença (a unos 840 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39120&mlon=2.14793#map=16/41.39120/2.14793",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Montserrat Figueras (a unos 200 m) y Jardins de Marcos Redondo (a unos 240 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39120&mlon=2.14793#map=16/41.39120/2.14793",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-bellmunt-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Magòria-La Campana (a unos 260 m), Metro Foneria (a unos 810 m) y Metro Ciutat de la Justícia (a unos 890 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.36722&mlon=2.14231#map=16/41.36722/2.14231",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc de la Font Florida (a unos 50 m) y Parc de Can Batlló (a unos 340 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.36722&mlon=2.14231#map=16/41.36722/2.14231",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-collserola-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Foc (a unos 290 m) y Metro Foneria (a unos 780 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.35575&mlon=2.14557#map=16/41.35575/2.14557",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc del Mirador del Migdia (a unos 50 m) y Jardins d'Elies Ortiz (a unos 200 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.35575&mlon=2.14557#map=16/41.35575/2.14557",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-el-fil-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Sants Estació (a unos 160 m), Metro Entença (a unos 390 m) y Rodalies Barcelona - Sants (a unos 430 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38284&mlon=2.14060#map=16/41.38284/2.14060",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Màlaga (a unos 50 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38284&mlon=2.14060#map=16/41.38284/2.14060",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-el-timbal-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Sants Estació (a unos 180 m), Rodalies Barcelona - Sants (a unos 240 m) y Metro Plaça del Centre (a unos 270 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38090&mlon=2.13858#map=16/41.38090/2.13858",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Joaquim Domingo i Sanchez (a unos 200 m) y Jardins de Màlaga (a unos 230 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38090&mlon=2.13858#map=16/41.38090/2.13858",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-forestier-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Espanya (a unos 550 m), Metro El Poble-sec (a unos 640 m) y FGC Barcelona-Plaça Espanya (a unos 680 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37091&mlon=2.15521#map=16/41.37091/2.15521",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-guinbo-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Mercat Nou (a unos 370 m), Metro Plaça de Sants (a unos 430 m) y FGC Magòria-La Campana (a unos 440 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37149&mlon=2.13736#map=16/41.37149/2.13736",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Celestina Vigneaux i Cibils (a unos 270 m) y Parc de Can Batlló (a unos 270 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37149&mlon=2.13736#map=16/41.37149/2.13736",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-lesquirol-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Plaça de Sants (a unos 360 m), Metro Hostafrancs (a unos 480 m) y Metro Mercat Nou (a unos 490 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37231&mlon=2.13918#map=16/41.37231/2.13918",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Celestina Vigneaux i Cibils (a unos 180 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37231&mlon=2.13918#map=16/41.37231/2.13918",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-niu-dinfants-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Foc (a unos 710 m) y Metro Foneria (a unos 740 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.36076&mlon=2.14756#map=16/41.36076/2.14756",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins del Tren de la Potassa (a unos 150 m) y Parc del Mirador del Migdia (a unos 210 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.36076&mlon=2.14756#map=16/41.36076/2.14756",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-can-bacardi-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Collblanc (a unos 590 m), Metro Badal (a unos 600 m) y Tranvía Avinguda de Xile (a unos 760 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37930&mlon=2.12382#map=16/41.37930/2.12382",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Bacardí (a unos 80 m) y Jardins de Josep Goday i Casals (a unos 160 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37930&mlon=2.12382#map=16/41.37930/2.12382",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-xiroi-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía Numància (a unos 170 m), Metro les Corts (a unos 420 m) y Tranvía Maria Cristina (a unos 470 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38782&mlon=2.13215#map=16/41.38782/2.13215",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Clara Campoamor (a unos 160 m) y Jardins de Can Batllori (a unos 290 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38782&mlon=2.13215#map=16/41.38782/2.13215",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-can-caralleu-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Reina Elisenda (a unos 610 m) y FGC Peu del Funicular (a unos 860 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40140&mlon=2.11260#map=16/41.40140/2.11260",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Can Sentmenat (a unos 130 m) y Parc de Joan Reventós (a unos 290 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40140&mlon=2.11260#map=16/41.40140/2.11260",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-el-putxet-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Vallcarca (a unos 310 m), FGC Avinguda Tibidabo (a unos 380 m) y Tranvía Plaça Kennedy (a unos 410 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41008&mlon=2.14169#map=16/41.41008/2.14169",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc del Turó del Putxet (a unos 50 m) y Jardins de Marià Manent (a unos 60 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41008&mlon=2.14169#map=16/41.41008/2.14169",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-caspolino-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Gràcia (a unos 340 m), Metro Diagonal (a unos 450 m) y Metro Fontana (a unos 530 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39757&mlon=2.15496#map=16/41.39757/2.15496",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins del Palau Robert (a unos 360 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39757&mlon=2.15496#map=16/41.39757/2.15496",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-el-gat-negre-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro El Coll | La Teixonera (a unos 520 m), Metro el Carmel (a unos 820 m) y Metro Vallcarca (a unos 870 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41737&mlon=2.15193#map=16/41.41737/2.15193",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc del Carmel (a unos 60 m) y Parc Güell (a unos 70 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41737&mlon=2.15193#map=16/41.41737/2.15193",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-enxaneta-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Fontana (a unos 160 m), FGC Gràcia (a unos 390 m) y Metro Lesseps (a unos 550 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40274&mlon=2.15471#map=16/41.40274/2.15471",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-galatea-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Penitents (a unos 190 m), Metro Vall d’Hebron | Sant Genís (a unos 650 m) y Tranvía Josep Garí (a unos 760 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41921&mlon=2.14070#map=16/41.41921/2.14070",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Margaret Michaelis (a unos 190 m) y Parc de la Creueta del Coll (a unos 300 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41921&mlon=2.14070#map=16/41.41921/2.14070",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-gracia-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Lesseps (a unos 230 m), Metro Vallcarca (a unos 610 m) y Metro Fontana (a unos 730 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40820&mlon=2.14991#map=16/41.40820/2.14991",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins del Mestre Balcells (a unos 310 m) y Parc Güell (a unos 390 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40820&mlon=2.14991#map=16/41.40820/2.14991",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-la-fontana-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Fontana (a unos 50 m), FGC Gràcia (a unos 220 m) y FGC Plaça Molina (a unos 490 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40161&mlon=2.15324#map=16/41.40161/2.15324",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-petit-univers-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Joanic (a unos 400 m), Metro Verdaguer (a unos 600 m) y Tranvía Verdaguer (a unos 660 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40277&mlon=2.16204#map=16/41.40277/2.16204",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-trencadis-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Alfons X (a unos 700 m), Metro Joanic (a unos 710 m) y Metro Lesseps (a unos 800 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41084&mlon=2.15730#map=16/41.41084/2.15730",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc Güell (a unos 350 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41084&mlon=2.15730#map=16/41.41084/2.15730",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-albi-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro el Carmel (a unos 50 m), Metro El Coll | La Teixonera (a unos 560 m) y Metro Horta (a unos 720 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42467&mlon=2.15481#map=16/41.42467/2.15481",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc dels Garrofers (a unos 270 m) y Parc de Santa Rosalia (a unos 360 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42467&mlon=2.15481#map=16/41.42467/2.15481",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-cargol-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Vilapicina (a unos 390 m), Metro Horta (a unos 640 m) y Metro Virrei Amat (a unos 710 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42704&mlon=2.16715#map=16/41.42704/2.16715",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc del Guinardó (a unos 360 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42704&mlon=2.16715#map=16/41.42704/2.16715",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-guinardo-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Maragall (a unos 470 m), Metro Congrés | Indians (a unos 490 m) y Metro Camp de l'Arpa (a unos 510 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41919&mlon=2.17966#map=16/41.41919/2.17966",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Frederica Montseny (a unos 290 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41919&mlon=2.17966#map=16/41.41919/2.17966",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-larquet-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Mundet (a unos 520 m), Metro Montbau (a unos 560 m) y Metro Horta (a unos 750 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43149&mlon=2.15160#map=16/41.43149/2.15160",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Rosa Luxemburg (a unos 50 m) y Parc de les Rieres d'Horta (a unos 190 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43149&mlon=2.15160#map=16/41.43149/2.15160",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-lharmonia-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Montbau (a unos 540 m) y Metro Mundet (a unos 720 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43379&mlon=2.14008#map=16/41.43379/2.14008",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Montbau (a unos 160 m) y Jardins del Palau de les Heures (a unos 200 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43379&mlon=2.14008#map=16/41.43379/2.14008",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-llar-dinfants-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Valldaura (a unos 480 m), Metro Horta (a unos 530 m) y Metro Vilapicina (a unos 800 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43442&mlon=2.16010#map=16/41.43442/2.16010",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc del Turó de la Peira (a unos 290 m) y Parc Central de Nou Barris (a unos 390 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43442&mlon=2.16010#map=16/41.43442/2.16010",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-marina-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Alfons X (a unos 360 m), Metro Joanic (a unos 520 m) y Metro Sant Pau | Dos de Maig (a unos 690 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40939&mlon=2.16786#map=16/41.40939/2.16786",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins del Baix Guinardó (a unos 50 m) y Parc de les Aigües (a unos 390 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40939&mlon=2.16786#map=16/41.40939/2.16786",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-montserrat-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Guinardó | Hospital de Sant Pau (a unos 300 m), Metro Alfons X (a unos 740 m) y Metro Maragall (a unos 840 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41734&mlon=2.17092#map=16/41.41734/2.17092",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc del Guinardó (a unos 140 m) y Jardins de Frederica Montseny (a unos 300 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41734&mlon=2.17092#map=16/41.41734/2.17092",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-sant-genis-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Vall d’Hebron | Sant Genís (a unos 560 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42593&mlon=2.13584#map=16/41.42593/2.13584",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Manuel Jiménez Arnalot (a unos 50 m) y Jardins de Violant de Bar (a unos 50 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42593&mlon=2.13584#map=16/41.42593/2.13584",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-teixonera-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Vall d’Hebron | Sant Genís (a unos 340 m), Metro El Coll | La Teixonera (a unos 360 m) y Metro Penitents (a unos 670 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42272&mlon=2.14526#map=16/41.42272/2.14526",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Pepita Pardell Terrade (a unos 210 m) y Parc de la Creueta del Coll (a unos 230 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42272&mlon=2.14526#map=16/41.42272/2.14526",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-tris-tras-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro el Carmel (a unos 190 m), Metro Horta (a unos 590 m) y Metro El Coll | La Teixonera (a unos 760 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42485&mlon=2.15736#map=16/41.42485/2.15736",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-valldaura-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Valldaura (a unos 170 m) y Metro Mundet (a unos 600 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43706&mlon=2.15529#map=16/41.43706/2.15529",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc de les Rieres d'Horta (a unos 320 m) y Parc de Xavier Montsalvatge (a unos 370 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43706&mlon=2.15529#map=16/41.43706/2.15529",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-aqueducte-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Can Cuiàs (a unos 490 m) y Metro Ciutat Meridiana (a unos 510 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.45944&mlon=2.16871#map=16/41.45944/2.16871",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-can-drago-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Rodalies Barcelona-Fabra i Puig (a unos 320 m), Metro Fabra i Puig (a unos 450 m) y Metro Virrei Amat (a unos 580 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43298&mlon=2.18028#map=16/41.43298/2.18028",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Trinidad Gallego (a unos 80 m) y Jardins de Can Verdaguer (a unos 160 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43298&mlon=2.18028#map=16/41.43298/2.18028",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-ciutat-de-mallorca-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Virrei Amat (a unos 420 m), Rodalies Barcelona-Fabra i Puig (a unos 520 m) y Metro Llucmajor | República (a unos 570 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43289&mlon=2.17736#map=16/41.43289/2.17736",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Trinidad Gallego (a unos 210 m) y Jardins de Can Verdaguer (a unos 220 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43289&mlon=2.17736#map=16/41.43289/2.17736",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-el-vent-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Canyelles (a unos 160 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.44316&mlon=2.16581#map=16/41.44316/2.16581",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc de Josep Maria Serra Martí (a unos 110 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.44316&mlon=2.16581#map=16/41.44316/2.16581",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-la-muntanya-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Rodalies Barcelona-Torre Baró | Vallbona (a unos 130 m), Metro Torre Baró | Vallbona (a unos 150 m) y Metro Ciutat Meridiana (a unos 500 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.46047&mlon=2.18059#map=16/41.46047/2.18059",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-largimon-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Llucmajor | República (a unos 490 m), Metro Canyelles (a unos 530 m) y Metro Via Júlia (a unos 560 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.44135&mlon=2.17279#map=16/41.44135/2.17279",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc de la Guineueta (a unos 50 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.44135&mlon=2.17279#map=16/41.44135/2.17279",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-nenes-i-nens-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Canyelles (a unos 330 m) y Metro Roquetes (a unos 740 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.44454&mlon=2.16771#map=16/41.44454/2.16771",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc de Josep Maria Serra Martí (a unos 90 m) y Parc de la Guineueta (a unos 340 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.44454&mlon=2.16771#map=16/41.44454/2.16771",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-ralet-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Via Júlia (a unos 390 m), Metro Torras i Bages (a unos 650 m) y Metro Trinitat Nova (a unos 740 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.44253&mlon=2.18291#map=16/41.44253/2.18291",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-turo-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Vilapicina (a unos 320 m), Metro Virrei Amat (a unos 370 m) y Metro Llucmajor | República (a unos 600 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43177&mlon=2.17158#map=16/41.43177/2.17158",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc del Turó de la Peira (a unos 300 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43177&mlon=2.17158#map=16/41.43177/2.17158",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-el-palomar-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Sant Andreu (a unos 330 m), Rodalies Barcelona-Sant Andreu (a unos 550 m) y Rodalies Barcelona-Fabra i Puig (a unos 690 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43635&mlon=2.18724#map=16/41.43635/2.18724",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins Dones Motor Ibèrica (a unos 350 m) y Jardins de Gatcpac (a unos 360 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43635&mlon=2.18724#map=16/41.43635/2.18724",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-icaria-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro La Sagrera (a unos 270 m), Rodalies Barcelona-La Sagrera-Meridiana (a unos 310 m) y Metro Navas (a unos 670 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42165&mlon=2.19001#map=16/41.42165/2.19001",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-la-morera-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Congrés | Indians (a unos 340 m), Rodalies Barcelona-La Sagrera-Meridiana (a unos 400 m) y Metro La Sagrera (a unos 440 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42577&mlon=2.18386#map=16/41.42577/2.18386",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Vèliia (a unos 210 m) y Jardins de Villa Clara (a unos 290 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42577&mlon=2.18386#map=16/41.42577/2.18386",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-les-quatre-torres-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Bon Pastor (a unos 390 m) y Rodalies Barcelona-Sant Andreu (a unos 750 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43898&mlon=2.20216#map=16/41.43898/2.20216",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins d'Isabel Domínguez Paniagua (a unos 380 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43898&mlon=2.20216#map=16/41.43898/2.20216",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-manigua-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Congrés | Indians (a unos 170 m), Metro Maragall (a unos 180 m) y Rodalies Barcelona-La Sagrera-Meridiana (a unos 630 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42387&mlon=2.17932#map=16/41.42387/2.17932",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Massana (a unos 290 m) y Jardins de Villa Clara (a unos 350 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42387&mlon=2.17932#map=16/41.42387/2.17932",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-alchemika-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Camp de l'Arpa (a unos 200 m), Metro Navas (a unos 460 m) y Metro Guinardó | Hospital de Sant Pau (a unos 620 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41641&mlon=2.18148#map=16/41.41641/2.18148",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Can Miralletes (a unos 310 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41641&mlon=2.18148#map=16/41.41641/2.18148",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-arrels-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Navas (a unos 260 m), Metro El Clot (a unos 400 m) y Metro Camp de l'Arpa (a unos 420 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41386&mlon=2.18594#map=16/41.41386/2.18594",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-cobi-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Bogatell (a unos 360 m), Metro Llacuna (a unos 550 m) y Metro Ciutadella | Vila Olímpica (a unos 780 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39451&mlon=2.19628#map=16/41.39451/2.19628",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Mercè Plantada (a unos 60 m) y Jardins d'Alícia de Larrocha (a unos 70 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39451&mlon=2.19628#map=16/41.39451/2.19628",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-diagonal-mar-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía Selva de Mar (a unos 270 m), Tranvía El Maresme (a unos 280 m) y Metro El Maresme | Fòrum (a unos 360 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41116&mlon=2.21240#map=16/41.41116/2.21240",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Rosa M. Arquimbau (a unos 280 m) y Jardins de Núria Pompeia (a unos 330 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41116&mlon=2.21240#map=16/41.41116/2.21240",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-dolors-canals-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía Sant Martí de Provençals (a unos 270 m), Tranvía Espronceda (a unos 560 m) y Metro Sant Martí (a unos 590 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41419&mlon=2.20345#map=16/41.41419/2.20345",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins d'Ana Figuera (a unos 230 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41419&mlon=2.20345#map=16/41.41419/2.20345",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-jupiter-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Poblenou (a unos 100 m), Tranvía Fluvià (a unos 420 m) y Tranvía Pere IV (a unos 560 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40398&mlon=2.20437#map=16/41.40398/2.20437",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Josep Trueta (a unos 50 m) y Jardins de Gandhi (a unos 180 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40398&mlon=2.20437#map=16/41.40398/2.20437",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-la-farinera-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Rodalies Barcelona-El Clot (a unos 270 m), Tranvía Ca l'Aranyó (a unos 380 m) y Metro El Clot (a unos 400 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40664&mlon=2.18789#map=16/41.40664/2.18789",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc del Clot (a unos 110 m) y Parc de les Glòries (a unos 190 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40664&mlon=2.18789#map=16/41.40664/2.18789",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-la-mar-xica-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Llacuna (a unos 720 m) y Metro Bogatell (a unos 870 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39403&mlon=2.20242#map=16/41.39403/2.20242",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc del Poblenou (a unos 120 m) y Parc de Nova Icària (a unos 160 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39403&mlon=2.20242#map=16/41.39403/2.20242",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-la-verneda-de-sant-marti-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Sant Martí (a unos 430 m), Metro La Pau (a unos 520 m) y Tranvía Sant Martí de Provençals (a unos 830 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42269&mlon=2.19911#map=16/41.42269/2.19911",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc de Sant Martí (a unos 260 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42269&mlon=2.19911#map=16/41.42269/2.19911",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-lalianca-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Llacuna (a unos 290 m), Metro Poblenou (a unos 420 m) y Tranvía Pere IV (a unos 690 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40024&mlon=2.20099#map=16/41.40024/2.20099",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-lestacio-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Bac de Roda (a unos 200 m), Metro Navas (a unos 600 m) y Metro Sant Martí (a unos 620 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41647&mlon=2.19411#map=16/41.41647/2.19411",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc de Sant Martí (a unos 100 m) y Jardins de la Torre del Fang (a unos 170 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41647&mlon=2.19411#map=16/41.41647/2.19411",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-pere-calafell-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía Sant Martí de Provençals (a unos 120 m), Metro Sant Martí (a unos 320 m) y Tranvía Besòs (a unos 570 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41729&mlon=2.20383#map=16/41.41729/2.20383",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins d'Ana Figuera (a unos 140 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41729&mlon=2.20383#map=16/41.41729/2.20383",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-mont-taber-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Paral·lel (a unos 260 m), Metro Sant Antoni (a unos 540 m) y Metro La Rambla | Drassanes (a unos 580 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37722&mlon=2.16882#map=16/41.37722/2.16882",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Sant Pau del Camp (a unos 90 m) y Parc de Josep Maria Folch i Torres (a unos 280 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37722&mlon=2.16882#map=16/41.37722/2.16882",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-puigmal-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Urquinaona (a unos 340 m), Metro Jaume I (a unos 470 m) y Metro Arc de Triomf (a unos 490 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38821&mlon=2.17817#map=16/41.38821/2.17817",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-barrufets-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Sagrada Família (a unos 520 m), Metro Sant Pau | Dos de Maig (a unos 580 m) y Metro Joanic (a unos 620 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40781&mlon=2.17028#map=16/41.40781/2.17028",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins del Baix Guinardó (a unos 130 m) y Jardins de la Sedeta (a unos 320 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40781&mlon=2.17028#map=16/41.40781/2.17028",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-casa-dels-nens-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Diagonal (a unos 320 m), Metro Verdaguer (a unos 390 m) y Tranvía Verdaguer (a unos 430 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39822&mlon=2.16230#map=16/41.39822/2.16230",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Laura Albéniz (a unos 170 m) y Jardins del Palau Robert (a unos 330 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39822&mlon=2.16230#map=16/41.39822/2.16230",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-el-roure-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Hospital Clínic (a unos 190 m), Metro Entença (a unos 660 m) y Metro Urgell (a unos 750 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38679&mlon=2.15193#map=16/41.38679/2.15193",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins Maria Mercè Marçal (a unos 180 m) y Jardins Beatriu de Pinós-Milany (a unos 240 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38679&mlon=2.15193#map=16/41.38679/2.15193",
+        "registry": true
+      }
+    ],
+    "escolapies-lluria-barcelona-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Rodalies Barcelona-Passeig de Gràcia (a unos 270 m), Metro Girona (a unos 280 m) y Metro Passeig de Gràcia (a unos 340 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39390&mlon=2.16802#map=16/41.39390/2.16802",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins del Rector Oliveras (a unos 120 m) y Jardins de Sofia Barat (a unos 350 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39390&mlon=2.16802#map=16/41.39390/2.16802",
+        "registry": true
+      }
+    ],
+    "escola-bressol-municipal-la-mar-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Barceloneta (a unos 630 m), Rodalies Barcelona-Estació de França (a unos 730 m) y Tranvía Ciutadella | Vila Olímpica (a unos 770 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38075&mlon=2.19281#map=16/41.38075/2.19281",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc de la Barceloneta (a unos 100 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38075&mlon=2.19281#map=16/41.38075/2.19281",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-el-vuit-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro La Pau (a unos 370 m), Metro Verneda (a unos 440 m) y Metro Besòs (a unos 850 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42737&mlon=2.20573#map=16/41.42737/2.20573",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-lairet-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Trinitat Nova (a unos 110 m), Metro Casa de l'Aigua (a unos 300 m) y Metro Via Júlia (a unos 720 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.44856&mlon=2.18449#map=16/41.44856/2.18449",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc de la Trinitat Nova (a unos 60 m) y Parc del Pla de Fornells (a unos 390 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.44856&mlon=2.18449#map=16/41.44856/2.18449",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-la-gavina-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro El Poble-sec (a unos 450 m), Metro Espanya (a unos 660 m) y FGC Barcelona-Plaça Espanya (a unos 850 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37148&mlon=2.15790#map=16/41.37148/2.15790",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Joan Prats (a unos 310 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37148&mlon=2.15790#map=16/41.37148/2.15790",
+        "registry": true
+      }
+    ],
+    "lleo-xiii-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía Josep Mª Florensa (a unos 150 m), Tranvía Román Macaya (a unos 200 m) y Tranvía Plaça Kennedy (a unos 230 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41249&mlon=2.13709#map=16/41.41249/2.13709",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de la Tamarita (a unos 190 m) y Jardins de Martí Luter (a unos 310 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41249&mlon=2.13709#map=16/41.41249/2.13709",
+        "registry": true
+      }
+    ],
+    "nausica-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Muntaner (a unos 290 m), FGC Sant Gervasi (a unos 470 m) y FGC Plaça Molina (a unos 510 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39703&mlon=2.14548#map=16/41.39703/2.14548",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Moragas (a unos 130 m) y Jardins de Can Ferrer (a unos 370 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39703&mlon=2.14548#map=16/41.39703/2.14548",
+        "registry": true
+      }
+    ],
+    "lloret-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Plaça de Sants (a unos 50 m), Metro Mercat Nou (a unos 340 m) y Rodalies Barcelona - Sants (a unos 550 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37526&mlon=2.13566#map=16/41.37526/2.13566",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de la Rambla de Sants (a unos 50 m) y Parc de l'Espanya Industrial (a unos 360 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37526&mlon=2.13566#map=16/41.37526/2.13566",
+        "registry": true
+      }
+    ],
+    "amor-de-dios-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Vilapicina (a unos 170 m), Metro Horta (a unos 640 m) y Metro Virrei Amat (a unos 690 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43187&mlon=2.16736#map=16/41.43187/2.16736",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc del Turó de la Peira (a unos 50 m) y Jardins de Tiberio Ávila (a unos 240 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43187&mlon=2.16736#map=16/41.43187/2.16736",
+        "registry": true
+      }
+    ],
+    "jesuites-sarria-sant-ignasi-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Reina Elisenda (a unos 500 m) y FGC Sarrià (a unos 550 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40293&mlon=2.12150#map=16/41.40293/2.12150",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins dels Setze Jutges (a unos 240 m) y Parc de Joan Reventós (a unos 300 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40293&mlon=2.12150#map=16/41.40293/2.12150",
+        "registry": true
+      }
+    ],
+    "jesuites-gracia-kostka-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Alfons X (a unos 720 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41407&mlon=2.15726#map=16/41.41407/2.15726",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc Güell (a unos 180 m) y Parc del Carmel (a unos 250 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41407&mlon=2.15726#map=16/41.41407/2.15726",
+        "registry": true
+      }
+    ],
+    "reial-monestir-de-santa-isabel-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Sarrià (a unos 200 m), FGC Les Tres Torres (a unos 400 m) y FGC Reina Elisenda (a unos 620 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39724&mlon=2.12615#map=16/41.39724/2.12615",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Can Senillosa (a unos 290 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39724&mlon=2.12615#map=16/41.39724/2.12615",
+        "registry": true
+      }
+    ],
+    "sagrat-cor-sarria-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Reina Elisenda (a unos 200 m) y FGC Sarrià (a unos 550 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40061&mlon=2.11905#map=16/41.40061/2.11905",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc de Joan Reventós (a unos 50 m) y Jardins dels Setze Jutges (a unos 330 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40061&mlon=2.11905#map=16/41.40061/2.11905",
+        "registry": true
+      }
+    ],
+    "mare-del-divi-pastor-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Tetuan (a unos 150 m), Metro Girona (a unos 400 m) y Metro Urquinaona (a unos 440 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39352&mlon=2.17527#map=16/41.39352/2.17527",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins del Doctor Robert (a unos 110 m) y Jardins de Jaume Perich (a unos 170 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39352&mlon=2.17527#map=16/41.39352/2.17527",
+        "registry": true
+      }
+    ],
+    "st-peters-school-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Zona Universitària (a unos 700 m) y Tranvía Zona Universitària (a unos 860 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38913&mlon=2.10647#map=16/41.38913/2.10647",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc i Roserar de Cervantes (a unos 390 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38913&mlon=2.10647#map=16/41.38913/2.10647",
+        "registry": true
+      }
+    ],
+    "pare-manyanet-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía L'Illa (a unos 210 m), Tranvía Numància (a unos 500 m) y Tranvía Francesc Macià (a unos 570 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38892&mlon=2.13794#map=16/41.38892/2.13794",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Joaquim Ruyra (a unos 90 m) y Jardins de Sant Joan de Déu (a unos 120 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38892&mlon=2.13794#map=16/41.38892/2.13794",
+        "registry": true
+      }
+    ],
+    "perez-iborra-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Passeig de Gràcia (a unos 270 m), Rodalies Barcelona-Passeig de Gràcia (a unos 360 m) y Metro Universitat (a unos 440 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38961&mlon=2.16345#map=16/41.38961/2.16345",
+        "registry": true
+      }
+    ],
+    "reina-elisenda-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Vallcarca (a unos 760 m) y Metro Lesseps (a unos 860 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41345&mlon=2.15335#map=16/41.41345/2.15335",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc Güell (a unos 50 m) y Parc del Carmel (a unos 300 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41345&mlon=2.15335#map=16/41.41345/2.15335",
+        "registry": true
+      }
+    ],
+    "sagrat-cor-esclaves-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Provença (a unos 310 m), Rodalies Barcelona-Passeig de Gràcia (a unos 320 m) y Metro Passeig de Gràcia (a unos 320 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39223&mlon=2.16159#map=16/41.39223/2.16159",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins del Palau Robert (a unos 400 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39223&mlon=2.16159#map=16/41.39223/2.16159",
+        "registry": true
+      }
+    ],
+    "josep-tous-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Badal (a unos 110 m), Metro Mercat Nou (a unos 400 m) y Metro Plaça de Sants (a unos 520 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37463&mlon=2.12927#map=16/41.37463/2.12927",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de la Rambla de Sants (a unos 370 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37463&mlon=2.12927#map=16/41.37463/2.12927",
+        "registry": true
+      }
+    ],
+    "gravi-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Penitents (a unos 320 m), Metro Vall d’Hebron | Sant Genís (a unos 520 m) y Metro El Coll | La Teixonera (a unos 730 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42037&mlon=2.14081#map=16/41.42037/2.14081",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc de la Vall d'Hebron (a unos 180 m) y Jardins de Margaret Michaelis (a unos 320 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42037&mlon=2.14081#map=16/41.42037/2.14081",
+        "registry": true
+      }
+    ],
+    "canigo-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía Josep Mª Florensa (a unos 250 m), Tranvía Román Macaya (a unos 280 m) y Tranvía Plaça Kennedy (a unos 310 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41104&mlon=2.13315#map=16/41.41104/2.13315",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de la Tamarita (a unos 130 m) y Jardins de Martí Luter (a unos 300 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41104&mlon=2.13315#map=16/41.41104/2.13315",
+        "registry": true
+      }
+    ],
+    "princeps-23-dabril-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Llucmajor | República (a unos 380 m), Metro Via Júlia (a unos 490 m) y Metro Canyelles (a unos 800 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43997&mlon=2.17573#map=16/41.43997/2.17573",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc de la Guineueta (a unos 110 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43997&mlon=2.17573#map=16/41.43997/2.17573",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-grimm-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Camp de l'Arpa (a unos 290 m), Metro Sant Pau | Dos de Maig (a unos 330 m) y Metro Guinardó | Hospital de Sant Pau (a unos 600 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41239&mlon=2.17932#map=16/41.41239/2.17932",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Can Miralletes (a unos 130 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41239&mlon=2.17932#map=16/41.41239/2.17932",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-blauet-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Sarrià (a unos 190 m), FGC Reina Elisenda (a unos 440 m) y FGC Les Tres Torres (a unos 580 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39744&mlon=2.12397#map=16/41.39744/2.12397",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Can Senillosa (a unos 260 m) y Jardins de Vil·la Cecília (a unos 380 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39744&mlon=2.12397#map=16/41.39744/2.12397",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-grans-somnis-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Girona (a unos 230 m), Rodalies Barcelona-Passeig de Gràcia (a unos 330 m) y Metro Passeig de Gràcia (a unos 380 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39342&mlon=2.16916#map=16/41.39342/2.16916",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins del Rector Oliveras (a unos 210 m) y Jardins de Sofia Barat (a unos 300 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39342&mlon=2.16916#map=16/41.39342/2.16916",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-el-llimoner-i-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Encants (a unos 340 m), Metro Sant Pau | Dos de Maig (a unos 390 m) y Metro El Clot (a unos 520 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40980&mlon=2.18055#map=16/41.40980/2.18055",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-cuc-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Plaça de Sants (a unos 250 m), Metro Mercat Nou (a unos 250 m) y Metro Hostafrancs (a unos 640 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37349&mlon=2.13617#map=16/41.37349/2.13617",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de la Rambla de Sants (a unos 160 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37349&mlon=2.13617#map=16/41.37349/2.13617",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-petit-mon-de-les-corts-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Plaça del Centre (a unos 440 m), Metro les Corts (a unos 450 m) y Tranvía Numància (a unos 520 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38575&mlon=2.13588#map=16/41.38575/2.13588",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Can Cuiàs (a unos 50 m) y Parc de les Corts (a unos 50 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38575&mlon=2.13588#map=16/41.38575/2.13588",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-la-gavina-laforja-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Gràcia (a unos 220 m), FGC Sant Gervasi (a unos 310 m) y FGC Plaça Molina (a unos 320 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39906&mlon=2.14972#map=16/41.39906/2.14972",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Can Ferrer (a unos 50 m) y Jardins de Moragas (a unos 320 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39906&mlon=2.14972#map=16/41.39906/2.14972",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-el-sol-les-corts-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Plaça del Centre (a unos 400 m), Metro les Corts (a unos 470 m) y Tranvía Numància (a unos 570 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38535&mlon=2.13629#map=16/41.38535/2.13629",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Can Cuiàs (a unos 50 m) y Parc de les Corts (a unos 50 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38535&mlon=2.13629#map=16/41.38535/2.13629",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-bon-sol-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Provença (a unos 570 m), Metro Hospital Clínic (a unos 610 m) y Metro Diagonal (a unos 650 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39360&mlon=2.15120#map=16/41.39360/2.15120",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Montserrat Figueras (a unos 290 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39360&mlon=2.15120#map=16/41.39360/2.15120",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-tic-tac-gran-via-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Urgell (a unos 220 m), Metro Rocafort (a unos 290 m) y Metro Sant Antoni (a unos 570 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38130&mlon=2.15671#map=16/41.38130/2.15671",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins d'Emma de Barcelona (a unos 150 m) y Jardins de Cèsar Martinell (a unos 320 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38130&mlon=2.15671#map=16/41.38130/2.15671",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-quitxalla-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Llucmajor | República (a unos 220 m), Metro Canyelles (a unos 560 m) y Metro Via Júlia (a unos 830 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43851&mlon=2.17160#map=16/41.43851/2.17160",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc de la Guineueta (a unos 170 m) y Parc Central de Nou Barris (a unos 250 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43851&mlon=2.17160#map=16/41.43851/2.17160",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-lairet-oblit-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Maragall (a unos 420 m), Metro Guinardó | Hospital de Sant Pau (a unos 460 m) y Metro Congrés | Indians (a unos 550 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41932&mlon=2.17756#map=16/41.41932/2.17756",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Frederica Montseny (a unos 130 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41932&mlon=2.17756#map=16/41.41932/2.17756",
+        "registry": true
+      }
+    ],
+    "escola-bressol-la-pau-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Magòria-La Campana (a unos 480 m), Metro Hostafrancs (a unos 510 m) y FGC Barcelona-Plaça Espanya (a unos 600 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37064&mlon=2.14372#map=16/41.37064/2.14372",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Celestina Vigneaux i Cibils (a unos 180 m) y Parc de la Font Florida (a unos 340 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37064&mlon=2.14372#map=16/41.37064/2.14372",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-sol-solet-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Monumental (a unos 200 m), Tranvía Monumental (a unos 340 m) y Tranvía Sicília (a unos 540 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39887&mlon=2.18041#map=16/41.39887/2.18041",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins Clotilde Cerdà (a unos 180 m) y Parc de L'Auditori (a unos 290 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39887&mlon=2.18041#map=16/41.39887/2.18041",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-el-cigronet-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Universitat (a unos 320 m), Metro Urgell (a unos 390 m) y FGC Barcelona-Plaça Catalunya (a unos 670 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38578&mlon=2.16035#map=16/41.38578/2.16035",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Cèsar Martinell (a unos 190 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38578&mlon=2.16035#map=16/41.38578/2.16035",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-olorien-les-corts-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Badal (a unos 470 m), Metro les Corts (a unos 500 m) y Metro Plaça del Centre (a unos 510 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37964&mlon=2.13028#map=16/41.37964/2.13028",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins dels Doctors Dolsa (a unos 120 m) y Jardins de Josep Goday i Casals (a unos 340 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37964&mlon=2.13028#map=16/41.37964/2.13028",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-el-cami-felic-poble-nou-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Poblenou (a unos 280 m), Metro Llacuna (a unos 420 m) y Tranvía Pere IV (a unos 620 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40127&mlon=2.20198#map=16/41.40127/2.20198",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Josep Trueta (a unos 350 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40127&mlon=2.20198#map=16/41.40127/2.20198",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-el-petit-rossinyol-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Rocafort (a unos 340 m), Metro Urgell (a unos 370 m) y Metro Sant Antoni (a unos 390 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37916&mlon=2.15864#map=16/41.37916/2.15864",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Maria Manonellas (a unos 250 m) y Jardins dels Tres Tombs (a unos 370 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37916&mlon=2.15864#map=16/41.37916/2.15864",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-el-cau-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Joanic (a unos 430 m), Metro Alfons X (a unos 680 m) y Metro Lesseps (a unos 790 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40849&mlon=2.15899#map=16/41.40849/2.15899",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Manuel Torrente (a unos 280 m) y Jardins del Mestre Balcells (a unos 390 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40849&mlon=2.15899#map=16/41.40849/2.15899",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-bambi-roig-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Sant Antoni (a unos 80 m), Metro Urgell (a unos 390 m) y Metro Universitat (a unos 520 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38021&mlon=2.16247#map=16/41.38021/2.16247",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Mercè Vilaret (a unos 190 m) y Jardins de Càndida Pérez (a unos 260 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38021&mlon=2.16247#map=16/41.38021/2.16247",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-pandy-de-sant-marc-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Encants (a unos 310 m), Metro Sant Pau | Dos de Maig (a unos 400 m) y Metro Sagrada Família (a unos 560 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40803&mlon=2.17907#map=16/41.40803/2.17907",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins dels Encants Nous (a unos 380 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40803&mlon=2.17907#map=16/41.40803/2.17907",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-el-cami-felic-les-corts-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía Numància (a unos 310 m), Tranvía L'Illa (a unos 390 m) y Metro les Corts (a unos 460 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38728&mlon=2.13453#map=16/41.38728/2.13453",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc de les Corts (a unos 160 m) y Jardins de Sant Joan de Déu (a unos 180 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38728&mlon=2.13453#map=16/41.38728/2.13453",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-esclop-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Tetuan (a unos 210 m), Metro Arc de Triomf (a unos 350 m) y Rodalies Barcelona-Arc de Triomf (a unos 350 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39338&mlon=2.17712#map=16/41.39338/2.17712",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins del Doctor Robert (a unos 170 m) y Jardins de Jaume Perich (a unos 320 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39338&mlon=2.17712#map=16/41.39338/2.17712",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-acuarella-melcior-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Plaça del Centre (a unos 210 m), Metro Sants Estació (a unos 240 m) y Rodalies Barcelona - Sants (a unos 290 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38103&mlon=2.13789#map=16/41.38103/2.13789",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Joaquim Domingo i Sanchez (a unos 210 m) y Jardins de Màlaga (a unos 260 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38103&mlon=2.13789#map=16/41.38103/2.13789",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-drac-xic-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Joanic (a unos 340 m), Metro Verdaguer (a unos 480 m) y Tranvía Verdaguer (a unos 600 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40363&mlon=2.16523#map=16/41.40363/2.16523",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de la Sedeta (a unos 270 m) y Jardins d'Antoni Puigvert (a unos 280 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40363&mlon=2.16523#map=16/41.40363/2.16523",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-els-gegants-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Foneria (a unos 70 m), Metro Foc (a unos 530 m) y Metro Ciutat de la Justícia (a unos 640 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.36012&mlon=2.13940#map=16/41.36012/2.13940",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Sant Cristòfol (a unos 60 m) y Jardins de l'Arboreda (a unos 190 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.36012&mlon=2.13940#map=16/41.36012/2.13940",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-nostra-senyora-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Sarrià (a unos 540 m), FGC Les Tres Torres (a unos 760 m) y FGC Reina Elisenda (a unos 810 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40364&mlon=2.12630#map=16/41.40364/2.12630",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins del Dr. Roig i Raventós (a unos 280 m) y Jardins dels Setze Jutges (a unos 380 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40364&mlon=2.12630#map=16/41.40364/2.12630",
+        "registry": true
+      }
+    ],
+    "escola-fep-petit-santa-maria-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro La Pau (a unos 270 m), Metro Besòs (a unos 270 m) y Tranvía Besòs (a unos 290 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42245&mlon=2.20799#map=16/41.42245/2.20799",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-el-cami-felic-turo-parc-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía Francesc Macià (a unos 330 m), Tranvía L'Illa (a unos 380 m) y FGC La Bonanova (a unos 590 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39310&mlon=2.13946#map=16/41.39310/2.13946",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Piscines i esports (a unos 90 m) y Turó Parc (a unos 120 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39310&mlon=2.13946#map=16/41.39310/2.13946",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-brusi-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Sant Gervasi (a unos 130 m), FGC Plaça Molina (a unos 160 m) y FGC Pàdua (a unos 320 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40109&mlon=2.14550#map=16/41.40109/2.14550",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins d'Enric Sagnier (a unos 90 m) y Jardins de Moragas (a unos 240 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40109&mlon=2.14550#map=16/41.40109/2.14550",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-olorien-pumby-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Plaça de Sants (a unos 260 m), Rodalies Barcelona - Sants (a unos 320 m) y Metro Sants Estació (a unos 400 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37777&mlon=2.13648#map=16/41.37777/2.13648",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Joaquim Domingo i Sanchez (a unos 140 m) y Parc de l'Espanya Industrial (a unos 240 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37777&mlon=2.13648#map=16/41.37777/2.13648",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-flors-de-maig-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Guinardó | Hospital de Sant Pau (a unos 170 m), Metro Camp de l'Arpa (a unos 520 m) y Metro Maragall (a unos 690 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41707&mlon=2.17567#map=16/41.41707/2.17567",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Frederica Montseny (a unos 110 m) y Jardins de Can Miralletes (a unos 390 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41707&mlon=2.17567#map=16/41.41707/2.17567",
+        "registry": true
+      }
+    ],
+    "escuela-infantil-nemomarlin-gracia-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Lesseps (a unos 180 m), Metro Fontana (a unos 340 m) y FGC Plaça Molina (a unos 490 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40479&mlon=2.15114#map=16/41.40479/2.15114",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins del Mestre Balcells (a unos 380 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40479&mlon=2.15114#map=16/41.40479/2.15114",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-petits-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Girona (a unos 260 m), Tranvía Verdaguer (a unos 270 m) y Metro Verdaguer (a unos 330 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39728&mlon=2.17032#map=16/41.39728/2.17032",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Sofia Barat (a unos 260 m) y Jardins de Constaça de Aragó (a unos 300 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39728&mlon=2.17032#map=16/41.39728/2.17032",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-petit-mon-nou-barris-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Virrei Amat (a unos 340 m), Metro Vilapicina (a unos 370 m) y Metro Maragall (a unos 550 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42815&mlon=2.17139#map=16/41.42815/2.17139",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Can Xiringoi (a unos 310 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42815&mlon=2.17139#map=16/41.42815/2.17139",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-petits-bruc-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Girona (a unos 160 m), Rodalies Barcelona-Passeig de Gràcia (a unos 410 m) y Metro Passeig de Gràcia (a unos 460 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39374&mlon=2.17008#map=16/41.39374/2.17008",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Sofia Barat (a unos 220 m) y Jardins de Jaume Perich (a unos 230 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39374&mlon=2.17008#map=16/41.39374/2.17008",
+        "registry": true
+      }
+    ],
+    "escola-bressol-olorien-st-marti-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía Can Jaumandreu (a unos 170 m), Tranvía Pere IV (a unos 350 m) y Tranvía Espronceda (a unos 360 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40867&mlon=2.19551#map=16/41.40867/2.19551",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Tecla Sala (a unos 230 m) y Jardins Leonor Serrano (a unos 270 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40867&mlon=2.19551#map=16/41.40867/2.19551",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-la-gavina-ii-marc-aureli-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Pàdua (a unos 220 m), FGC Muntaner (a unos 290 m) y FGC Sant Gervasi (a unos 360 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40132&mlon=2.14283#map=16/41.40132/2.14283",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins d'Enric Sagnier (a unos 100 m) y Parc de Monterols (a unos 120 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40132&mlon=2.14283#map=16/41.40132/2.14283",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-sarria-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Maria Cristina (a unos 540 m), Tranvía Maria Cristina (a unos 550 m) y Tranvía Pius XII (a unos 670 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39250&mlon=2.12389#map=16/41.39250/2.12389",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Vil·la Amèlia (a unos 50 m) y Jardins de Vil·la Cecília (a unos 150 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39250&mlon=2.12389#map=16/41.39250/2.12389",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-bon-cami-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Onze de Setembre (a unos 250 m), Rodalies Barcelona-Sant Andreu (a unos 540 m) y Metro Sant Andreu (a unos 550 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43167&mlon=2.19187#map=16/41.43167/2.19187",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins del Reg (a unos 370 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43167&mlon=2.19187#map=16/41.43167/2.19187",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-el-cami-felic-sant-gervasi-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía Plaça Kennedy (a unos 180 m), FGC Avinguda Tibidabo (a unos 220 m) y Tranvía Josep Mª Florensa (a unos 270 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41029&mlon=2.13471#map=16/41.41029/2.13471",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de la Tamarita (a unos 50 m) y Jardins de Martí Luter (a unos 140 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41029&mlon=2.13471#map=16/41.41029/2.13471",
+        "registry": true
+      }
+    ],
+    "escola-bressol-nemomarlin-turo-park-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC La Bonanova (a unos 360 m), FGC Muntaner (a unos 480 m) y Tranvía Francesc Macià (a unos 490 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39540&mlon=2.13908#map=16/41.39540/2.13908",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Turó Parc (a unos 90 m) y Jardins de Piscines i esports (a unos 190 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39540&mlon=2.13908#map=16/41.39540/2.13908",
+        "registry": true
+      }
+    ],
+    "escola-bressol-nemomarlin-passeig-maragall-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Virrei Amat (a unos 410 m), Metro Maragall (a unos 450 m) y Metro Vilapicina (a unos 500 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42682&mlon=2.17173#map=16/41.42682/2.17173",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Can Xiringoi (a unos 310 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42682&mlon=2.17173#map=16/41.42682/2.17173",
+        "registry": true
+      }
+    ],
+    "escola-bressol-el-cami-felic-arc-de-triomf-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Tetuan (a unos 260 m), Rodalies Barcelona-Arc de Triomf (a unos 310 m) y Metro Arc de Triomf (a unos 320 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39441&mlon=2.17859#map=16/41.39441/2.17859",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins del Doctor Robert (a unos 210 m) y Parc de l'Estació del Nord (a unos 350 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39441&mlon=2.17859#map=16/41.39441/2.17859",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-petit-lys-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Pàdua (a unos 240 m), FGC Plaça Molina (a unos 400 m) y FGC Sant Gervasi (a unos 420 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40459&mlon=2.14529#map=16/41.40459/2.14529",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins d'Enric Sagnier (a unos 270 m) y Parc del Turó del Putxet (a unos 350 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40459&mlon=2.14529#map=16/41.40459/2.14529",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-serralada-ii-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Bac de Roda (a unos 240 m), Metro Navas (a unos 490 m) y Tranvía Espronceda (a unos 560 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41421&mlon=2.19232#map=16/41.41421/2.19232",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de la Torre del Fang (a unos 140 m) y Jardins del Clot de la Mel (a unos 260 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41421&mlon=2.19232#map=16/41.41421/2.19232",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-petit-sant-marc-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Girona (a unos 240 m), Tranvía Verdaguer (a unos 370 m) y Rodalies Barcelona-Passeig de Gràcia (a unos 370 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39519&mlon=2.16812#map=16/41.39519/2.16812",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins del Rector Oliveras (a unos 50 m) y Jardins de Sofia Barat (a unos 310 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39519&mlon=2.16812#map=16/41.39519/2.16812",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-jesus-maria-tamarit-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Espanya (a unos 330 m), Metro El Poble-sec (a unos 450 m) y Metro Rocafort (a unos 560 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37425&mlon=2.15530#map=16/41.37425/2.15530",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-goi-goi-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Girona (a unos 50 m), Metro Tetuan (a unos 360 m) y Tranvía Verdaguer (a unos 460 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39545&mlon=2.17128#map=16/41.39545/2.17128",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Sofia Barat (a unos 50 m) y Jardins de Jaume Perich (a unos 190 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39545&mlon=2.17128#map=16/41.39545/2.17128",
+        "registry": true
+      }
+    ],
+    "santa-teresa-ganduxer-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC La Bonanova (a unos 320 m), FGC Les Tres Torres (a unos 330 m) y FGC Sarrià (a unos 710 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39993&mlon=2.13357#map=16/41.39993/2.13357",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Winston Churchill (a unos 270 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39993&mlon=2.13357#map=16/41.39993/2.13357",
+        "registry": true
+      }
+    ],
+    "sant-josep-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Fontana (a unos 200 m), FGC Gràcia (a unos 390 m) y Metro Lesseps (a unos 610 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40240&mlon=2.15527#map=16/41.40240/2.15527",
+        "registry": true
+      }
+    ],
+    "ipse-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Hospital Clínic (a unos 440 m), Tranvía Francesc Macià (a unos 550 m) y FGC Provença (a unos 690 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39208&mlon=2.14975#map=16/41.39208/2.14975",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Montserrat Figueras (a unos 140 m) y Jardins Beatriu de Pinós-Milany (a unos 320 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39208&mlon=2.14975#map=16/41.39208/2.14975",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-els-xumets-de-la-vibria-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Llacuna (a unos 520 m) y Metro Poblenou (a unos 550 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39872&mlon=2.20382#map=16/41.39872/2.20382",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc del Poblenou (a unos 300 m) y Parc del Maresme (a unos 390 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39872&mlon=2.20382#map=16/41.39872/2.20382",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-blau-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Bac de Roda (a unos 250 m), Tranvía Espronceda (a unos 270 m) y Tranvía Can Jaumandreu (a unos 520 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41266&mlon=2.19521#map=16/41.41266/2.19521",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins del Clot de la Mel (a unos 50 m) y Jardins Leonor Serrano (a unos 200 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41266&mlon=2.19521#map=16/41.41266/2.19521",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-nins-nena-cases-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Les Tres Torres (a unos 270 m), FGC La Bonanova (a unos 480 m) y FGC Sarrià (a unos 650 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39539&mlon=2.13139#map=16/41.39539/2.13139",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Winston Churchill (a unos 240 m) y Jardins de Joan Vinyolí (a unos 320 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39539&mlon=2.13139#map=16/41.39539/2.13139",
+        "registry": true
+      }
+    ],
+    "sant-marc-de-sarria-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Sarrià (a unos 340 m), FGC Reina Elisenda (a unos 450 m) y FGC Les Tres Torres (a unos 770 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40144&mlon=2.12305#map=16/41.40144/2.12305",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins dels Setze Jutges (a unos 50 m) y Parc de Joan Reventós (a unos 350 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40144&mlon=2.12305#map=16/41.40144/2.12305",
+        "registry": true
+      }
+    ],
+    "peter-pan-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Reina Elisenda (a unos 730 m) y FGC Sarrià (a unos 760 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40511&mlon=2.12147#map=16/41.40511/2.12147",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Sarrià Vell (a unos 200 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40511&mlon=2.12147#map=16/41.40511/2.12147",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-pas-a-pas-del-guinardo-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Alfons X (a unos 330 m), Metro Guinardó | Hospital de Sant Pau (a unos 520 m) y Metro Sant Pau | Dos de Maig (a unos 640 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41330&mlon=2.16913#map=16/41.41330/2.16913",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins d'Hiroshima (a unos 190 m) y Parc de les Aigües (a unos 260 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41330&mlon=2.16913#map=16/41.41330/2.16913",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-magnolia-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Virrei Amat (a unos 300 m), Rodalies Barcelona-Fabra i Puig (a unos 410 m) y Metro Fabra i Puig (a unos 470 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43082&mlon=2.17820#map=16/41.43082/2.17820",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Can Xiringoi (a unos 330 m) y Jardins de Trinidad Gallego (a unos 330 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43082&mlon=2.17820#map=16/41.43082/2.17820",
+        "registry": true
+      }
+    ],
+    "padre-damian-sagrados-corazones-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Peu del Funicular (a unos 570 m) y FGC Reina Elisenda (a unos 760 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40517&mlon=2.11594#map=16/41.40517/2.11594",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc de Joan Reventós (a unos 200 m) y Jardins de Can Sentmenat (a unos 230 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40517&mlon=2.11594#map=16/41.40517/2.11594",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-petita-de-gomis-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Vallcarca (a unos 180 m), Tranvía Plaça Kennedy (a unos 490 m) y FGC Avinguda Tibidabo (a unos 510 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41199&mlon=2.14240#map=16/41.41199/2.14240",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Mercè Rodoreda (a unos 130 m) y Parc del Turó del Putxet (a unos 140 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41199&mlon=2.14240#map=16/41.41199/2.14240",
+        "registry": true
+      }
+    ],
+    "escola-infantil-begonia-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Entença (a unos 80 m), Metro Sants Estació (a unos 460 m) y Metro Hospital Clínic (a unos 620 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38464&mlon=2.14472#map=16/41.38464/2.14472",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Montserrat (a unos 110 m) y Jardins de Rosa Deulofeu (a unos 280 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38464&mlon=2.14472#map=16/41.38464/2.14472",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-petit-aloma-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Rodalies Barcelona-Fabra i Puig (a unos 340 m), Metro Fabra i Puig (a unos 440 m) y Metro Virrei Amat (a unos 460 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43214&mlon=2.17938#map=16/41.43214/2.17938",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Trinidad Gallego (a unos 160 m) y Jardins de Can Verdaguer (a unos 230 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.43214&mlon=2.17938#map=16/41.43214/2.17938",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-kasperle-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Fontana (a unos 160 m), FGC Gràcia (a unos 210 m) y FGC Plaça Molina (a unos 560 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40091&mlon=2.15407#map=16/41.40091/2.15407",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-balmespi-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Gràcia (a unos 200 m), FGC Plaça Molina (a unos 260 m) y FGC Sant Gervasi (a unos 270 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39982&mlon=2.14981#map=16/41.39982/2.14981",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Can Ferrer (a unos 60 m) y Jardins de Moragas (a unos 360 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39982&mlon=2.14981#map=16/41.39982/2.14981",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-el-cuquet-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Hospital Clínic (a unos 50 m), Metro Entença (a unos 640 m) y Tranvía Francesc Macià (a unos 790 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38782&mlon=2.15067#map=16/41.38782/2.15067",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins Beatriu de Pinós-Milany (a unos 100 m) y Jardins Maria Mercè Marçal (a unos 160 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38782&mlon=2.15067#map=16/41.38782/2.15067",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-ninets-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Provença (a unos 390 m), Metro Diagonal (a unos 550 m) y Metro Passeig de Gràcia (a unos 560 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38953&mlon=2.15930#map=16/41.38953/2.15930",
+        "registry": true
+      }
+    ],
+    "lestonnac-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Rodalies Barcelona-Passeig de Gràcia (a unos 120 m), Metro Passeig de Gràcia (a unos 180 m) y Metro Girona (a unos 420 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39283&mlon=2.16680#map=16/41.39283/2.16680",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins del Rector Oliveras (a unos 240 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39283&mlon=2.16680#map=16/41.39283/2.16680",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-milton-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Verdaguer (a unos 450 m), Metro Joanic (a unos 460 m) y Tranvía Verdaguer (a unos 510 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40219&mlon=2.16383#map=16/41.40219/2.16383",
+        "registry": true
+      }
+    ],
+    "sagrada-familia-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Liceu (a unos 320 m), Metro Jaume I (a unos 360 m) y Metro La Rambla | Drassanes (a unos 490 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38102&mlon=2.17689#map=16/41.38102/2.17689",
+        "registry": true
+      }
+    ],
+    "lhoritzo-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC El Putxet (a unos 540 m), FGC Avinguda Tibidabo (a unos 550 m) y Tranvía Plaça Kennedy (a unos 600 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40606&mlon=2.13264#map=16/41.40606/2.13264",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Ca n'Altimira (a unos 180 m) y Jardins de Vil·la Florida (a unos 210 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40606&mlon=2.13264#map=16/41.40606/2.13264",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-canigo-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Monumental (a unos 180 m), Tranvía Monumental (a unos 380 m) y Tranvía Sicília (a unos 400 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39897&mlon=2.17872#map=16/41.39897/2.17872",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins Clotilde Cerdà (a unos 100 m) y Jardins del Carlit (a unos 330 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39897&mlon=2.17872#map=16/41.39897/2.17872",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-oikia-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía Pius XII (a unos 410 m), Metro Maria Cristina (a unos 470 m) y Tranvía Maria Cristina (a unos 490 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39046&mlon=2.12164#map=16/41.39046/2.12164",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de la Font dels Ocellets (a unos 50 m) y Jardins de Vil·la Amèlia (a unos 150 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39046&mlon=2.12164#map=16/41.39046/2.12164",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-petits-lheura-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Joanic (a unos 460 m), Metro Alfons X (a unos 530 m) y Metro Sagrada Família (a unos 620 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40780&mlon=2.16833#map=16/41.40780/2.16833",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins del Baix Guinardó (a unos 120 m) y Jardins de la Sedeta (a unos 240 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40780&mlon=2.16833#map=16/41.40780/2.16833",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-teddy-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Encants (a unos 50 m), Rodalies Barcelona-El Clot (a unos 470 m) y Metro El Clot (a unos 520 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40673&mlon=2.18265#map=16/41.40673/2.18265",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins dels Encants Nous (a unos 60 m) y Parc de les Glòries (a unos 240 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40673&mlon=2.18265#map=16/41.40673/2.18265",
+        "registry": true
+      }
+    ],
+    "escola-bressol-el-ginjoler-pere-tarres-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC El Putxet (a unos 240 m), FGC Pàdua (a unos 520 m) y FGC Avinguda Tibidabo (a unos 590 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40436&mlon=2.13701#map=16/41.40436/2.13701",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Vil·la Florida (a unos 150 m) y Parc de Monterols (a unos 320 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40436&mlon=2.13701#map=16/41.40436/2.13701",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-la-nau-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía Sicília (a unos 200 m), Metro Monumental (a unos 340 m) y Metro Tetuan (a unos 460 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39893&mlon=2.17596#map=16/41.39893/2.17596",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins del Carlit (a unos 160 m) y Jardins Clotilde Cerdà (a unos 210 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39893&mlon=2.17596#map=16/41.39893/2.17596",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-i-beth-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Tarragona (a unos 340 m), Metro Entença (a unos 500 m) y Metro Rocafort (a unos 520 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38032&mlon=2.14854#map=16/41.38032/2.14854",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc de Joan Miró (a unos 100 m) y Jardines de Sebastià Gasch (a unos 360 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38032&mlon=2.14854#map=16/41.38032/2.14854",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-pam-i-pipa-gracia-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Lesseps (a unos 510 m), Metro Fontana (a unos 520 m) y Metro Joanic (a unos 590 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40614&mlon=2.15613#map=16/41.40614/2.15613",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Manuel Torrente (a unos 60 m) y Jardins del Mestre Balcells (a unos 210 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40614&mlon=2.15613#map=16/41.40614/2.15613",
+        "registry": true
+      }
+    ],
+    "escola-bressol-cap-i-cua-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Sant Pau | Dos de Maig (a unos 250 m), Metro Encants (a unos 470 m) y Metro Camp de l'Arpa (a unos 520 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41030&mlon=2.17888#map=16/41.41030/2.17888",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Can Miralletes (a unos 360 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41030&mlon=2.17888#map=16/41.41030/2.17888",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-lescoleta-de-montjuic-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Barcelona-Plaça Espanya (a unos 490 m), Metro Hostafrancs (a unos 510 m) y FGC Magòria-La Campana (a unos 600 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37092&mlon=2.14531#map=16/41.37092/2.14531",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Celestina Vigneaux i Cibils (a unos 290 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37092&mlon=2.14531#map=16/41.37092/2.14531",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-la-granota-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía Monumental (a unos 320 m), Metro Encants (a unos 350 m) y Metro Sagrada Família (a unos 390 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40472&mlon=2.17969#map=16/41.40472/2.17969",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins dels Encants Nous (a unos 230 m) y Parc de les Glòries (a unos 310 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40472&mlon=2.17969#map=16/41.40472/2.17969",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-petit-montessori-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Plaça del Centre (a unos 50 m), Metro les Corts (a unos 450 m) y Metro Sants Estació (a unos 460 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38231&mlon=2.13569#map=16/41.38231/2.13569",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Can Cuiàs (a unos 290 m) y Jardins de Magalí (a unos 290 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38231&mlon=2.13569#map=16/41.38231/2.13569",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-peggy-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Pàdua (a unos 250 m), FGC Muntaner (a unos 260 m) y FGC Sant Gervasi (a unos 340 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40104&mlon=2.14301#map=16/41.40104/2.14301",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins d'Enric Sagnier (a unos 100 m) y Parc de Monterols (a unos 150 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40104&mlon=2.14301#map=16/41.40104/2.14301",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-solcar-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro el Carmel (a unos 380 m) y Metro Horta (a unos 550 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42477&mlon=2.15969#map=16/41.42477/2.15969",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-el-tricicle-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Mercat Nou (a unos 250 m), Metro Plaça de Sants (a unos 450 m) y FGC Magòria-La Campana (a unos 510 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37161&mlon=2.13585#map=16/41.37161/2.13585",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de la Rambla de Sants (a unos 240 m) y Parc de Can Batlló (a unos 250 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37161&mlon=2.13585#map=16/41.37161/2.13585",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-petit-kinder-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Lesseps (a unos 180 m), Metro Vallcarca (a unos 620 m) y FGC Pàdua (a unos 630 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40723&mlon=2.14846#map=16/41.40723/2.14846",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc del Turó del Putxet (a unos 370 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40723&mlon=2.14846#map=16/41.40723/2.14846",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-xiulet-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Rocafort (a unos 390 m), Metro Tarragona (a unos 460 m) y Metro Espanya (a unos 550 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38045&mlon=2.15023#map=16/41.38045/2.15023",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc de Joan Miró (a unos 190 m) y Jardines de Sebastià Gasch (a unos 260 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38045&mlon=2.15023#map=16/41.38045/2.15023",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-roseto-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Verdaguer (a unos 160 m), Tranvía Verdaguer (a unos 270 m) y Tranvía Sicília (a unos 330 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39977&mlon=2.17027#map=16/41.39977/2.17027",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Beatriu de Provença (Myrurgia) (a unos 210 m) y Jardins de Constaça de Aragó (a unos 230 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39977&mlon=2.17027#map=16/41.39977/2.17027",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-tagore-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC El Putxet (a unos 370 m), FGC Pàdua (a unos 390 m) y FGC La Bonanova (a unos 560 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40257&mlon=2.13843#map=16/41.40257/2.13843",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc de Monterols (a unos 110 m) y Jardins de Vil·la Florida (a unos 370 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40257&mlon=2.13843#map=16/41.40257/2.13843",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-mainada-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: FGC Gràcia (a unos 210 m), Metro Fontana (a unos 470 m) y FGC Plaça Molina (a unos 520 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39792&mlon=2.15171#map=16/41.39792/2.15171",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Can Ferrer (a unos 250 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.39792&mlon=2.15171#map=16/41.39792/2.15171",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-dracs-i-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Plaça del Centre (a unos 260 m), Metro Sants Estació (a unos 270 m) y Rodalies Barcelona - Sants (a unos 440 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38280&mlon=2.13847#map=16/41.38280/2.13847",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Màlaga (a unos 150 m) y Jardins de Can Cuiàs (a unos 300 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.38280&mlon=2.13847#map=16/41.38280/2.13847",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-tabalet-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Joanic (a unos 370 m) y Metro Alfons X (a unos 440 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.40937&mlon=2.16167#map=16/41.40937/2.16167",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-calimero-dhorta-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro el Carmel (a unos 330 m), Metro Horta (a unos 470 m) y Metro El Coll | La Teixonera (a unos 900 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42559&mlon=2.15879#map=16/41.42559/2.15879",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-ratolinet-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Plaça de Sants (a unos 110 m), Metro Mercat Nou (a unos 440 m) y Rodalies Barcelona - Sants (a unos 450 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37584&mlon=2.13669#map=16/41.37584/2.13669",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de la Rambla de Sants (a unos 160 m) y Parc de l'Espanya Industrial (a unos 260 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.37584&mlon=2.13669#map=16/41.37584/2.13669",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-donald-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Maragall (a unos 140 m), Metro Congrés | Indians (a unos 280 m) y Metro Virrei Amat (a unos 660 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42419&mlon=2.17815#map=16/41.42419/2.17815",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardins de Massana (a unos 280 m) y Jardins de Can Xiringoi (a unos 380 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.42419&mlon=2.17815#map=16/41.42419/2.17815",
+        "registry": true
+      }
+    ],
+    "llar-dinfants-lacis-barcelona": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Alfons X (a unos 490 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41446&mlon=2.16051#map=16/41.41446/2.16051",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc de les Aigües (a unos 300 m) y Parc del Carmel (a unos 330 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.41446&mlon=2.16051#map=16/41.41446/2.16051",
+        "registry": true
+      }
+    ]
+  }
+}
