@@ -1,0 +1,481 @@
+{
+  "checkedAt": "2026-10-07",
+  "centers": [
+    {
+      "slug": "angelets-de-llum-palma",
+      "set": {
+        "neighborhood_barrio": "es Camp Redó"
+      },
+      "facts": []
+    },
+    {
+      "slug": "anita-conrad-las-palmas-de-gran-canaria",
+      "set": {
+        "neighborhood_barrio": "Ciudad Jardin"
+      },
+      "facts": []
+    },
+    {
+      "slug": "arbol-sabio-valladolid",
+      "set": {
+        "neighborhood_barrio": "Las Villas - Valparaíso"
+      },
+      "facts": []
+    },
+    {
+      "slug": "arco-iris-zaragoza",
+      "set": {
+        "neighborhood_barrio": "Las Fuentes"
+      },
+      "facts": []
+    },
+    {
+      "slug": "arlequin-granada",
+      "set": {
+        "neighborhood_barrio": "Albaicín"
+      },
+      "facts": []
+    },
+    {
+      "slug": "bosque-ternura-zaragoza",
+      "set": {
+        "neighborhood_barrio": "Oliver"
+      },
+      "facts": []
+    },
+    {
+      "slug": "chispitinas-salamanca",
+      "set": {
+        "neighborhood_barrio": "San Bernardo"
+      },
+      "facts": []
+    },
+    {
+      "slug": "chupetines-la-arruzafa-cordoba",
+      "set": {
+        "latitude": 37.900303,
+        "longitude": -4.807645,
+        "neighborhood_barrio": "El Patriarca"
+      },
+      "facts": []
+    },
+    {
+      "slug": "ciudad-infantil-san-jorge-alicante",
+      "set": {
+        "neighborhood_barrio": "Polígon de Sant Blai"
+      },
+      "facts": []
+    },
+    {
+      "slug": "colegio-san-cristobal-escuela-infantil-albacete",
+      "set": {
+        "neighborhood_barrio": "Fátima"
+      },
+      "facts": []
+    },
+    {
+      "slug": "cu-cu-tas-tas-zaragoza",
+      "set": {
+        "neighborhood_barrio": "Actur-Rey Fernando"
+      },
+      "facts": []
+    },
+    {
+      "slug": "divina-pastora-zaragoza",
+      "set": {
+        "neighborhood_barrio": "Romareda"
+      },
+      "facts": []
+    },
+    {
+      "slug": "duende-granada",
+      "set": {
+        "neighborhood_barrio": "Barranco del Abogado"
+      },
+      "facts": []
+    },
+    {
+      "slug": "educa-babys-salamanca",
+      "set": {
+        "neighborhood_barrio": "Salesas"
+      },
+      "facts": []
+    },
+    {
+      "slug": "ei-rayuela-alicante",
+      "set": {
+        "neighborhood_barrio": "Polígon de Sant Blai"
+      },
+      "facts": []
+    },
+    {
+      "slug": "eim-bambi-cartagena",
+      "set": {
+        "latitude": 37.648429,
+        "longitude": -0.861786
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-barquito-las-palmas-de-gran-canaria",
+      "set": {
+        "neighborhood_barrio": "Guanarteme"
+      },
+      "facts": []
+    },
+    {
+      "slug": "el-despertador-infantil-2010-valladolid",
+      "set": {
+        "latitude": 41.645902,
+        "longitude": -4.748213,
+        "neighborhood_barrio": "Villa del Prado"
+      },
+      "facts": []
+    },
+    {
+      "slug": "erase-una-vez-granada",
+      "set": {
+        "neighborhood_barrio": "Barrio de la Duquesa"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escuela-infantil-blabla-albacete",
+      "set": {
+        "neighborhood_barrio": "San Pablo"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escuela-infantil-carrusel-albacete",
+      "set": {
+        "neighborhood_barrio": "Universidad"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escuela-infantil-la-cometa-albacete",
+      "set": {
+        "neighborhood_barrio": "Industria"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escuela-infantil-ludus-albacete",
+      "set": {
+        "neighborhood_barrio": "Franciscanos"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escuela-infantil-mitete-albacete",
+      "set": {
+        "neighborhood_barrio": "Congo"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escuela-infantil-mundo-de-color-albacete",
+      "set": {
+        "neighborhood_barrio": "Industria"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escuela-infantil-municipal-brioletas-zaragoza",
+      "set": {
+        "neighborhood_barrio": "Santa Isabel"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escuela-infantil-municipal-el-anden-zaragoza",
+      "set": {
+        "neighborhood_barrio": "Delicias"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escuela-infantil-municipal-el-bosque-zaragoza",
+      "set": {
+        "neighborhood_barrio": "El Gancho"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escuela-infantil-municipal-el-tren-zaragoza",
+      "set": {
+        "neighborhood_barrio": "La Almozara"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escuela-infantil-municipal-la-paz-zaragoza",
+      "set": {
+        "neighborhood_barrio": "La Paz"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escuela-infantil-municipal-la-pirana-zaragoza",
+      "set": {
+        "neighborhood_barrio": "Las Fuentes"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escuela-infantil-municipal-maria-urrea-zaragoza",
+      "set": {
+        "neighborhood_barrio": "Parque Goya"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escuela-infantil-municipal-pirineos-zaragoza",
+      "set": {
+        "neighborhood_barrio": "La Azucarera"
+      },
+      "facts": []
+    },
+    {
+      "slug": "escuela-infantil-municipal-villacampa-zaragoza",
+      "set": {
+        "neighborhood_barrio": "Arrabal"
+      },
+      "facts": []
+    },
+    {
+      "slug": "garabato-las-palmas-de-gran-canaria",
+      "set": {
+        "neighborhood_barrio": "Ciudad Jardin"
+      },
+      "facts": []
+    },
+    {
+      "slug": "gaviota-granada",
+      "set": {
+        "neighborhood_barrio": "Colonia de San Francisco"
+      },
+      "facts": []
+    },
+    {
+      "slug": "gente-menuda-2-sevilla",
+      "set": {
+        "neighborhood_barrio": "Sevilla Este"
+      },
+      "facts": []
+    },
+    {
+      "slug": "gente-menuda-3-sevilla",
+      "set": {
+        "neighborhood_barrio": "Palmete"
+      },
+      "facts": []
+    },
+    {
+      "slug": "hakuna-matata-valladolid",
+      "set": {
+        "neighborhood_barrio": "La Bombilla"
+      },
+      "facts": []
+    },
+    {
+      "slug": "happy-kids-house-valladolid",
+      "set": {
+        "neighborhood_barrio": "Vadillos"
+      },
+      "facts": []
+    },
+    {
+      "slug": "institucion-miramar-malaga",
+      "set": {
+        "neighborhood_barrio": "Miramar"
+      },
+      "facts": []
+    },
+    {
+      "slug": "la-salle-cordoba",
+      "set": {
+        "neighborhood_barrio": "El Brillante"
+      },
+      "facts": []
+    },
+    {
+      "slug": "little-land-alicante",
+      "set": {
+        "neighborhood_barrio": "Villafranquesa"
+      },
+      "facts": []
+    },
+    {
+      "slug": "los-mundos-de-noa-albacete",
+      "set": {
+        "neighborhood_barrio": "San Antonio Abad"
+      },
+      "facts": []
+    },
+    {
+      "slug": "los-olivos-2-alicante",
+      "set": {
+        "neighborhood_barrio": "les Carolines Altes"
+      },
+      "facts": []
+    },
+    {
+      "slug": "mi-bosque-encantado-valladolid",
+      "set": {
+        "neighborhood_barrio": "Parquesol"
+      },
+      "facts": []
+    },
+    {
+      "slug": "micole-de-vegueta-las-palmas-de-gran-canaria",
+      "set": {
+        "neighborhood_barrio": "Vegueta"
+      },
+      "facts": []
+    },
+    {
+      "slug": "mumakids-salamanca",
+      "set": {
+        "neighborhood_barrio": "Vidal"
+      },
+      "facts": []
+    },
+    {
+      "slug": "nazaret-granada",
+      "set": {
+        "neighborhood_barrio": "Barrio de la Magdalena"
+      },
+      "facts": []
+    },
+    {
+      "slug": "nice-day-cartagena",
+      "set": {
+        "neighborhood_barrio": "Barriada San Ginés"
+      },
+      "facts": []
+    },
+    {
+      "slug": "novaschool-malaga-centro-malaga",
+      "set": {
+        "neighborhood_barrio": "El Ejido"
+      },
+      "facts": []
+    },
+    {
+      "slug": "nueva-atlantida-las-palmas-de-gran-canaria",
+      "set": {
+        "neighborhood_barrio": "Ciudad Jardin"
+      },
+      "facts": []
+    },
+    {
+      "slug": "pepico-paluco-cartagena",
+      "set": {
+        "neighborhood_barrio": "Ensanche"
+      },
+      "facts": []
+    },
+    {
+      "slug": "pequenos-maestros-zaragoza",
+      "set": {
+        "neighborhood_barrio": "Rosales del Canal"
+      },
+      "facts": []
+    },
+    {
+      "slug": "peter-pan-alicante",
+      "set": {
+        "neighborhood_barrio": "les Carolines Altes"
+      },
+      "facts": []
+    },
+    {
+      "slug": "piruleta-malaga",
+      "set": {
+        "neighborhood_barrio": "El Molinillo"
+      },
+      "facts": []
+    },
+    {
+      "slug": "pizarrin-granada",
+      "set": {
+        "neighborhood_barrio": "Barrio del Hospital Real"
+      },
+      "facts": []
+    },
+    {
+      "slug": "pizquito-las-palmas-de-gran-canaria",
+      "set": {
+        "neighborhood_barrio": "Triana"
+      },
+      "facts": []
+    },
+    {
+      "slug": "psn-bicos-salamanca",
+      "set": {
+        "neighborhood_barrio": "La Platina"
+      },
+      "facts": []
+    },
+    {
+      "slug": "san-isidoro-granada",
+      "set": {
+        "neighborhood_barrio": "Ronda"
+      },
+      "facts": []
+    },
+    {
+      "slug": "santa-monica-valladolid",
+      "set": {
+        "neighborhood_barrio": "Plaza de Toros"
+      },
+      "facts": []
+    },
+    {
+      "slug": "siervas-de-jesus-sagrado-corazon-palma",
+      "set": {
+        "neighborhood_barrio": "La Calatrava"
+      },
+      "facts": []
+    },
+    {
+      "slug": "tebeo-salamanca",
+      "set": {
+        "latitude": 40.963523,
+        "longitude": -5.685967,
+        "neighborhood_barrio": "La Platina"
+      },
+      "facts": []
+    },
+    {
+      "slug": "trastes-valladolid",
+      "set": {
+        "neighborhood_barrio": "Parquesol"
+      },
+      "facts": []
+    },
+    {
+      "slug": "virgen-de-guadalupe-zaragoza",
+      "set": {
+        "neighborhood_barrio": "Casablanca"
+      },
+      "facts": []
+    },
+    {
+      "slug": "virgen-del-pilar-granada",
+      "set": {
+        "neighborhood_barrio": "Cartuja"
+      },
+      "facts": []
+    },
+    {
+      "slug": "zarapeques-zaragoza",
+      "set": {
+        "neighborhood_barrio": "Miralbueno"
+      },
+      "facts": []
+    }
+  ]
+}

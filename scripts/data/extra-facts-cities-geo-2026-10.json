@@ -1,0 +1,495 @@
+{
+  "checkedAt": "2026-10-07",
+  "facts": {
+    "arco-iris-zaragoza": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Las Palmeras (a unos 390 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.64710&mlon=-0.86082#map=16/41.64710/-0.86082",
+        "registry": true
+      }
+    ],
+    "bosque-ternura-zaragoza": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tren Zaragoza-Delicias (a unos 890 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.65448&mlon=-0.92065#map=16/41.65448/-0.92065",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Sedetania (a unos 50 m) y Parque de Isaac Newton (a unos 310 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.65448&mlon=-0.92065#map=16/41.65448/-0.92065",
+        "registry": true
+      }
+    ],
+    "chispitinas-salamanca": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Villar y Macías (a unos 140 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.97133&mlon=-5.67537#map=16/40.97133/-5.67537",
+        "registry": true
+      }
+    ],
+    "chupetines-la-arruzafa-cordoba": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque del Flamenco (a unos 290 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=37.90030&mlon=-4.80764#map=16/37.90030/-4.80764",
+        "registry": true
+      }
+    ],
+    "colegio-san-cristobal-escuela-infantil-albacete": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de los jardinillos (a unos 370 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=38.99403&mlon=-1.86819#map=16/38.99403/-1.86819",
+        "registry": true
+      }
+    ],
+    "cu-cu-tas-tas-zaragoza": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía María Montessori (a unos 110 m), Tranvía Martínez Soria (a unos 200 m) y Tranvía La Chimenea (a unos 220 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.66314&mlon=-0.88236#map=16/41.66314/-0.88236",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Roberto Camardiel Escudero (a unos 110 m) y Parque del Tío Jorge (a unos 180 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.66314&mlon=-0.88236#map=16/41.66314/-0.88236",
+        "registry": true
+      }
+    ],
+    "divina-pastora-zaragoza": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía Plaza de San Francisco (a unos 820 m) y Tranvía Emperador Carlos V (a unos 820 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.63525&mlon=-0.88834#map=16/41.63525/-0.88834",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Grande José Antonio Labordeta (a unos 360 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.63525&mlon=-0.88834#map=16/41.63525/-0.88834",
+        "registry": true
+      }
+    ],
+    "duende-granada": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de las Palmas (a unos 130 m) y Parque Bola de Oro (a unos 290 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=37.16790&mlon=-3.58536#map=16/37.16790/-3.58536",
+        "registry": true
+      }
+    ],
+    "ei-rayuela-alicante": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tren Alacant Terminal (a unos 860 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=38.35162&mlon=-0.50107#map=16/38.35162/-0.50107",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc del Cronista Enrique Cutillas Bernal (a unos 170 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=38.35162&mlon=-0.50107#map=16/38.35162/-0.50107",
+        "registry": true
+      }
+    ],
+    "el-despertador-infantil-2010-valladolid": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de San Millán (a unos 160 m) y Parque de las Cortes (a unos 170 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.64590&mlon=-4.74821#map=16/41.64590/-4.74821",
+        "registry": true
+      }
+    ],
+    "erase-una-vez-granada": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Méndez Núñez (a unos 430 m), Metro Universidad (a unos 550 m) y Metro Recogidas (a unos 750 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=37.17686&mlon=-3.60497#map=16/37.17686/-3.60497",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Cristina de Arteaga (a unos 330 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=37.17686&mlon=-3.60497#map=16/37.17686/-3.60497",
+        "registry": true
+      }
+    ],
+    "escuela-infantil-carrusel-albacete": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Edusi (a unos 360 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=38.97819&mlon=-1.85015#map=16/38.97819/-1.85015",
+        "registry": true
+      }
+    ],
+    "escuela-infantil-la-cometa-albacete": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de la Plaza de IsabelII (a unos 170 m) y Parque lineal (a unos 310 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=39.00138&mlon=-1.86052#map=16/39.00138/-1.86052",
+        "registry": true
+      }
+    ],
+    "escuela-infantil-ludus-albacete": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Abelardo Sánchez (a unos 270 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=38.98912&mlon=-1.86103#map=16/38.98912/-1.86103",
+        "registry": true
+      }
+    ],
+    "escuela-infantil-mundo-de-color-albacete": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de la Plaza de IsabelII (a unos 190 m) y Parque lineal (a unos 260 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=39.00072&mlon=-1.85912#map=16/39.00072/-1.85912",
+        "registry": true
+      }
+    ],
+    "escuela-infantil-municipal-brioletas-zaragoza": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de los Paseantes (a unos 80 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.66967&mlon=-0.82950#map=16/41.66967/-0.82950",
+        "registry": true
+      }
+    ],
+    "escuela-infantil-municipal-el-anden-zaragoza": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tren Zaragoza-Portillo (a unos 250 m), Tranvía Fernando el Católico (a unos 800 m) y Tranvía Gran Vía (a unos 830 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.65048&mlon=-0.89608#map=16/41.65048/-0.89608",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de José Luis Grasset (a unos 60 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.65048&mlon=-0.89608#map=16/41.65048/-0.89608",
+        "registry": true
+      }
+    ],
+    "escuela-infantil-municipal-el-bosque-zaragoza": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía Martínez Soria (a unos 600 m), Tranvía La Chimenea (a unos 680 m) y Tranvía María Montessori (a unos 700 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.65953&mlon=-0.89060#map=16/41.65953/-0.89060",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque San Pablo (a unos 70 m) y Parque de La Química (a unos 110 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.65953&mlon=-0.89060#map=16/41.65953/-0.89060",
+        "registry": true
+      }
+    ],
+    "escuela-infantil-municipal-el-tren-zaragoza": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tren Zaragoza-Portillo (a unos 770 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.65953&mlon=-0.89776#map=16/41.65953/-0.89776",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de la Aljafería (a unos 60 m) y Parque de La Química (a unos 360 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.65953&mlon=-0.89776#map=16/41.65953/-0.89776",
+        "registry": true
+      }
+    ],
+    "escuela-infantil-municipal-la-paz-zaragoza": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tren Zaragoza-Miraflores (a unos 730 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.62829&mlon=-0.87417#map=16/41.62829/-0.87417",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de las Víctimas del Terrorismo (a unos 130 m) y Parque Calaverde (a unos 220 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.62829&mlon=-0.87417#map=16/41.62829/-0.87417",
+        "registry": true
+      }
+    ],
+    "escuela-infantil-municipal-la-pirana-zaragoza": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de las Glorietas de Goya (a unos 140 m) y Parque lineal del Huerva (a unos 290 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.64555&mlon=-0.86943#map=16/41.64555/-0.86943",
+        "registry": true
+      }
+    ],
+    "escuela-infantil-municipal-maria-urrea-zaragoza": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía Margarita Xirgu (a unos 520 m), Tranvía Legaz Lacambra (a unos 520 m) y Tranvía García Abril (a unos 640 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.67629&mlon=-0.89680#map=16/41.67629/-0.89680",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque del Agua Luis Buñuel (a unos 170 m) y Parque de la Tolerancia (a unos 180 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.67629&mlon=-0.89680#map=16/41.67629/-0.89680",
+        "registry": true
+      }
+    ],
+    "escuela-infantil-municipal-pirineos-zaragoza": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque del Tío Jorge (a unos 220 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.66611&mlon=-0.87264#map=16/41.66611/-0.87264",
+        "registry": true
+      }
+    ],
+    "escuela-infantil-municipal-villacampa-zaragoza": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía La Chimenea (a unos 650 m), Tranvía Plaza del Pilar-Murallas (a unos 680 m) y Tranvía María Montessori (a unos 780 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.66035&mlon=-0.87498#map=16/41.66035/-0.87498",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque del Tío Jorge (a unos 140 m) y Parque Macanaz (a unos 230 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.66035&mlon=-0.87498#map=16/41.66035/-0.87498",
+        "registry": true
+      }
+    ],
+    "fundacion-la-caridad-zaragoza": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía Plaza de España (a unos 470 m), Tranvía Plaza Aragón (a unos 590 m) y Tranvía Gran Vía (a unos 850 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.64823&mlon=-0.87794#map=16/41.64823/-0.87794",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Villafeliche (a unos 210 m) y Parque del Canódromo (a unos 380 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.64823&mlon=-0.87794#map=16/41.64823/-0.87794",
+        "registry": true
+      }
+    ],
+    "garabato-las-palmas-de-gran-canaria": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Doramas (a unos 380 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=28.12389&mlon=-15.43168#map=16/28.12389/-15.43168",
+        "registry": true
+      }
+    ],
+    "gaviota-granada": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Argentinita (a unos 120 m), Metro Estación Autobuses (a unos 430 m) y Metro Luis Amador (a unos 470 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=37.19623&mlon=-3.61424#map=16/37.19623/-3.61424",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de La Virgencica (a unos 350 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=37.19623&mlon=-3.61424#map=16/37.19623/-3.61424",
+        "registry": true
+      }
+    ],
+    "gente-menuda-2-sevilla": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Infanta Elena (a unos 370 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=37.38823&mlon=-5.92192#map=16/37.38823/-5.92192",
+        "registry": true
+      }
+    ],
+    "gente-menuda-3-sevilla": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Hacienda San Antonio (a unos 100 m) y Parque Manuel Soriano Losquiño (a unos 190 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=37.37812&mlon=-5.91887#map=16/37.37812/-5.91887",
+        "registry": true
+      }
+    ],
+    "happy-kids-house-valladolid": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Pato (a unos 200 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.64914&mlon=-4.71342#map=16/41.64914/-4.71342",
+        "registry": true
+      }
+    ],
+    "la-salle-cordoba": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Aligustre (a unos 350 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=37.90965&mlon=-4.80176#map=16/37.90965/-4.80176",
+        "registry": true
+      }
+    ],
+    "los-mundos-de-noa-albacete": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque lineal (a unos 100 m) y Parque El Quijote (a unos 220 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=39.00170&mlon=-1.85782#map=16/39.00170/-1.85782",
+        "registry": true
+      }
+    ],
+    "los-olivos-2-alicante": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía Garbinet (a unos 120 m), Tranvía Hospital (a unos 410 m) y Tranvía Bulevar del Plà (a unos 720 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=38.36249&mlon=-0.47971#map=16/38.36249/-0.47971",
+        "registry": true
+      }
+    ],
+    "mi-bosque-encantado-valladolid": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de la rueda (a unos 50 m) y Parque del Reloj (a unos 360 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.63759&mlon=-4.76435#map=16/41.63759/-4.76435",
+        "registry": true
+      }
+    ],
+    "nazaret-granada": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Méndez Núñez (a unos 400 m), Metro Recogidas (a unos 560 m) y Metro Universidad (a unos 690 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=37.17517&mlon=-3.60559#map=16/37.17517/-3.60559",
+        "registry": true
+      }
+    ],
+    "novaschool-malaga-centro-malaga": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardín Músico Manuel del Campo (a unos 50 m) y Parque del Ejido (a unos 80 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=36.72658&mlon=-4.41838#map=16/36.72658/-4.41838",
+        "registry": true
+      }
+    ],
+    "nueva-atlantida-las-palmas-de-gran-canaria": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Doramas (a unos 130 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=28.11893&mlon=-15.42732#map=16/28.11893/-15.42732",
+        "registry": true
+      }
+    ],
+    "peter-pan-alicante": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía Garbinet (a unos 480 m), Tranvía Hospital (a unos 630 m) y Tranvía Bulevar del Plà (a unos 830 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=38.35894&mlon=-0.48150#map=16/38.35894/-0.48150",
+        "registry": true
+      }
+    ],
+    "piruleta-malaga": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque del Ejido (a unos 340 m) y Parque Eliseo Vicente Hipólito (a unos 360 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=36.72684&mlon=-4.42312#map=16/36.72684/-4.42312",
+        "registry": true
+      }
+    ],
+    "pizarrin-granada": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Estación Ferrocarril (a unos 490 m), Tren Granada (a unos 500 m) y Metro Caleta (a unos 580 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=37.18445&mlon=-3.60301#map=16/37.18445/-3.60301",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Jardines del Triunfo (a unos 50 m) y Parque Universitario de Fuentenueva (a unos 170 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=37.18445&mlon=-3.60301#map=16/37.18445/-3.60301",
+        "registry": true
+      }
+    ],
+    "pizquito-las-palmas-de-gran-canaria": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Alameda de Colón (a unos 120 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=28.10409&mlon=-15.41635#map=16/28.10409/-15.41635",
+        "registry": true
+      }
+    ],
+    "psn-bicos-salamanca": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Villar y Macías (a unos 270 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.97044&mlon=-5.67833#map=16/40.97044/-5.67833",
+        "registry": true
+      }
+    ],
+    "san-isidoro-granada": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Metro Méndez Núñez (a unos 230 m), Metro Universidad (a unos 700 m) y Metro Recogidas (a unos 730 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=37.17500&mlon=-3.61138#map=16/37.17500/-3.61138",
+        "registry": true
+      },
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Federico García Lorca (a unos 240 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=37.17500&mlon=-3.61138#map=16/37.17500/-3.61138",
+        "registry": true
+      }
+    ],
+    "santa-monica-valladolid": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque Plaza del ejército (a unos 60 m) y Parque de las Norias de Santa Victoria (a unos 140 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.63574&mlon=-4.73623#map=16/41.63574/-4.73623",
+        "registry": true
+      }
+    ],
+    "siervas-de-jesus-sagrado-corazon-palma": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parc de la Mar (a unos 140 m) y Parc dels Ceibos (a unos 370 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=39.56656&mlon=2.65271#map=16/39.56656/2.65271",
+        "registry": true
+      }
+    ],
+    "tebeo-salamanca": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Don Juan Tenorio (a unos 180 m) y Parque del ISPE (a unos 400 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=40.96352&mlon=-5.68597#map=16/40.96352/-5.68597",
+        "registry": true
+      }
+    ],
+    "trastes-valladolid": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de la rueda (a unos 50 m) y Parque del Reloj (a unos 190 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.63700&mlon=-4.76224#map=16/41.63700/-4.76224",
+        "registry": true
+      }
+    ],
+    "virgen-de-guadalupe-zaragoza": [
+      {
+        "key": "transporte",
+        "value": "Estaciones cercanas: Tranvía Argualas (a unos 790 m) y Tranvía Casablanca (a unos 850 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.63180&mlon=-0.91573#map=16/41.63180/-0.91573",
+        "registry": true
+      }
+    ],
+    "virgen-del-pilar-granada": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque 28 de Febrero (a unos 320 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=37.20585&mlon=-3.60106#map=16/37.20585/-3.60106",
+        "registry": true
+      }
+    ],
+    "zarapeques-zaragoza": [
+      {
+        "key": "entorno",
+        "value": "Zonas verdes cercanas: Parque de Vistabella (a unos 170 m) y Jardin Lagos e Ibones del Pirineo (a unos 280 m). Distancias en línea recta, según el mapa de OpenStreetMap.",
+        "sourceUrl": "https://www.openstreetmap.org/?mlat=41.65761&mlon=-0.93163#map=16/41.65761/-0.93163",
+        "registry": true
+      }
+    ]
+  }
+}
